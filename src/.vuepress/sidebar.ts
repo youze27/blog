@@ -9,4 +9,5 @@ export default sidebar({
   "/net/":"structure",
   "/think/":"structure",
   "link": "structure",
+  "/job/":"structure",
 });

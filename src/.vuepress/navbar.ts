@@ -5,6 +5,7 @@ export default navbar([
   "/perm/",
   "/response/",
   "/net/",
+  "job/",
   "/nav",
   "/think/",
   "/intro",
