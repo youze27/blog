@@ -50,4 +50,3 @@ jobs:
           # 部署文档   branch
           branch: gh-pages
           folder: src/.vuepress/dist
-          fqdn: youze.xn--6qq986b3xl
