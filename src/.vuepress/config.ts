@@ -11,7 +11,7 @@ import { popperPlugin } from "./plugins/vuepress-plugin-popper/index.js";
 export default defineUserConfig({
 
 
-  base: "/",
+  base: "/gh-pages/",
 
   lang: "zh-CN",
   title: "卷卷",
