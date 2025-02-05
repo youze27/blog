@@ -1,7 +1,6 @@
 ---
 title: Linux系统提权
 index: true
-icon: l
 isOriginal : true
 date: 2023-09-12
 order: 1

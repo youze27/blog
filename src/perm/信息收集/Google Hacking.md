@@ -1,7 +1,6 @@
 ---
 title: Google Hacking
 index: true
-icon: g
 order: 3
 isOriginal: false
 date: 2023-02-23

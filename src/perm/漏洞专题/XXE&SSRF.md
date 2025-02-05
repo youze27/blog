@@ -1,7 +1,6 @@
 ---
 title: XXE&SSRF
 index: true
-icon: e
 isOriginal : true
 date: 2023-03-28
 order: 4

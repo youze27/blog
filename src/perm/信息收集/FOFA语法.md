@@ -1,7 +1,6 @@
 ---
 title: FOFA
 index: true
-icon: code-merge
 order: 2
 date: 2023-01-10
 category:

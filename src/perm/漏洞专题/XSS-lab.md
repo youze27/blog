@@ -1,7 +1,6 @@
 ---
 title: XSS-lab
 index: true
-icon: x
 order: 3
 isOriginal : true
 date: 2023-02-15

@@ -1,7 +1,6 @@
 ---
 title: CSRF
 index: true
-icon: r
 isOriginal : true
 date: 2023-03-25
 order: 7

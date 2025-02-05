@@ -1,7 +1,6 @@
 ---
 title: windows权限维持
 index: true
-icon: w
 isOriginal : true
 date: 2023-09-20
 order: 1

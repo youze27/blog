@@ -1,7 +1,6 @@
 ---
 title: upload-labs
 index: true
-icon: upload
 isOriginal : true
 date: 2023-05-16
 order: 5

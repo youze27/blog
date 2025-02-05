@@ -1,7 +1,6 @@
 ---
 title: MSSQL注入复盘
 index: true
-icon: database
 order: 2
 isOriginal : true
 date: 2023-09-06

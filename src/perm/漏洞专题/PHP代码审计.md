@@ -1,7 +1,6 @@
 ---
 title: PHP代码审计
 index: true
-icon: p
 isOriginal : true
 date: 2023-09-18
 order: 12

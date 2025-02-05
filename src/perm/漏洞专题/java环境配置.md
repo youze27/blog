@@ -1,7 +1,6 @@
 ---
 title: java环境配置
 index: true
-icon: j
 isOriginal : true
 date: 2023-12-18
 order: 13

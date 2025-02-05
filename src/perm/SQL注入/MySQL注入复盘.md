@@ -1,7 +1,6 @@
 ---
 title: MySQL注入复盘
 index: true
-icon: database
 order: 1
 isOriginal : true
 date: 2024-09-02

@@ -1,7 +1,6 @@
 ---
 title: windows系统提权
 index: true
-icon: w
 isOriginal : true
 date: 2024-09-23
 order: 1

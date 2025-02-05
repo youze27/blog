@@ -1,7 +1,6 @@
 ---
 title: Linux权限维持
 index: true
-icon: l
 isOriginal : true
 date: 2023-09-01
 order: 1

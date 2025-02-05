@@ -1,7 +1,6 @@
 ---
 title: XSS实验
 index: true
-icon: x
 isOriginal : true
 date: 2023-02-10
 order: 3
