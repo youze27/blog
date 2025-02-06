@@ -27,8 +27,13 @@ jobs:
       - name: 设置 Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
           cache: pnpm
+
+      - name: 安装依赖
+        run: |
+          corepack enable
+          pnpm install --frozen-lockfile
 
       - name: 构建文档
         env:
@@ -41,5 +46,5 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           # 部署文档
-          branch: main
-          folder: src/.vuepress/dist
+          branch: gh-pages
+          folder: /
