@@ -47,4 +47,4 @@ jobs:
         with:
           # 部署文档
           branch: gh-pages
-          folder: /
+          folder: src/.vuepress/dist
