@@ -1,7 +1,6 @@
 ---
 title: HR面试题
 index: true
-password: d5e00e2760d78ff8d6c318ae6734b10f
 order: 2
 isOriginal : true
 category:
