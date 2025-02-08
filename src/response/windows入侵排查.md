@@ -246,8 +246,6 @@ C:\Users\root\AppData\Roaming\Microsoft\Windows\Start Menu/Programs/Startup
 
 本地组策略编辑器-->用户配置-->windows设置-->脚本（登录/注销）
 
-课堂练习：
-
 1、创建隐藏账号和克隆账号
 
 2、搞个开机脚本
