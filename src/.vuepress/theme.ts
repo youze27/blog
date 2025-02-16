@@ -42,6 +42,7 @@ export default hopeTheme({
   encrypt: {
     config: {
       "/job/": ["youze"],
+      "/think/": ["youze"],
     },
   },
 
