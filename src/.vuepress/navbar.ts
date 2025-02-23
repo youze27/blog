@@ -10,4 +10,5 @@ export default navbar([
   "/think/",
   "/intro",
   "/link",
+  "/clause"
 ]);
