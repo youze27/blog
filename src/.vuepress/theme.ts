@@ -137,10 +137,11 @@ export default hopeTheme({
     // 警告: 这是一个仅供演示的测试服务，在生产环境中请自行部署并使用自己的服务！
     comment: {
       provider: "Giscus",
-      repo:"youze27/youze_blog",
-      repoId:"R_kgDONoDE_w",
+      repo:"youze27/blog",
+      repoId:"R_kgDON1I9iA",
       category:"Announcements",
-      categoryId:"DIC_kwDONoDE_84Cl4Gt",
+      categoryId:"DIC_kwDON1I9iM4Cnaa_",
+
     },
 
     components: {
