@@ -6,17 +6,17 @@ sidebar: false
 
 <div class="vp-card-container">
   <VPCard
-    v-for="i in 12"
     title="友链博客"
     desc="Where there is light, there is hope"
+    link="http://emlog.club/"
     logo="http://emlog.club/logo.jpg"
     background="rgba(253, 230, 138, 0.15)"
   />
   <VPCard
-    title="Mr.Hope"
+    title="Leobin's Blog"
     desc="Where there is light, there is hope"
-    logo="https://mister-hope.com/logo.svg"
-    link="https://mister-hope.com"
+    logo="https://www.emojiall.com/images/240/twitter/1f4a9.png"
+    link="https://leob.in"
     background="rgba(253, 230, 138, 0.15)"
   />
   <VPCard

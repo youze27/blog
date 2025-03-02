@@ -35,6 +35,8 @@ export default hopeTheme({
     medias: {
       Gitee: "https://gitee.com/youzezhang",
       GitHub: "https://github.com/youze27",
+      Rss: "https://github.com/youze27/blog/rss.xml",
+      Email: "mailto:youze27@163.com",
     },
   },
 

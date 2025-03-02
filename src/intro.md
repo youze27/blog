@@ -12,12 +12,4 @@ cover: /assets/images/cover3.jpg
 
 强迫症，完美主义者，这些特点让我在生活和工作中都追求极致。我会在这里分享我的网络安全知识、读书和学习心得。
 
-我们可以一起交流技术：
-
-
-::: center
-   <a href="mailto:youze27@163.com" target="_blank">
-  <img src='http://badge.devlive.org/api/badge/Email/Youze27.svg?style=metallic&leftColor=%2523333&rightColor=%2523FF4040' alt='Email-Youze27' />
-    </a>
-<img src='http://badge.devlive.org/api/badge/Wechat/Youze-Psc.svg?style=metallic&leftColor=%2523333' alt='Wechat-Youze-Psc' />
-:::
+微信：Youze-Psc
