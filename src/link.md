@@ -7,10 +7,9 @@ sidebar: false
 <div class="vp-card-container">
   <VPCard
     v-for="i in 12"
-    title="Mr.Hope"
+    title="友链博客"
     desc="Where there is light, there is hope"
-    logo="https://mister-hope.com/logo.svg"
-    link="https://mister-hope.com"
+    logo="http://emlog.club/logo.jpg"
     background="rgba(253, 230, 138, 0.15)"
   />
   <VPCard

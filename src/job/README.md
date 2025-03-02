@@ -1,6 +1,6 @@
 ---
 title: 职业素养
-index: ture
+index: true 
 icon: briefcase
 ---
 <Catalog />  

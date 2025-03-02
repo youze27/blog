@@ -131,7 +131,17 @@ export default hopeTheme({
     blog: true,
     search: true,
     slimsearch: true,
-    
+    feed: {
+      rss: true,
+      atom: true,
+      json: true,
+      channel: {
+        title: "卷卷",
+        link: "https://youze27.github.io/blog/", // 包含 base 路径
+        description: "网络安全知识库",
+        language: "zh-CN",
+      },
+    },
 
     // 启用之前需安装 @waline/client
     // 警告: 这是一个仅供演示的测试服务，在生产环境中请自行部署并使用自己的服务！
