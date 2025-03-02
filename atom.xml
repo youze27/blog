@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://mister-hope.github.io/blog/atom.xsl"?>
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://youze27.github.io/blog/atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
-  <id>https://mister-hope.github.io/blog/</id>
+  <id>https://youze27.github.io/blog/</id>
   <title>卷卷</title>
   <subtitle>网络安全知识库</subtitle>
-  <icon>https://mister-hope.github.io/blog/assets/favicon.ico</icon>
-  <updated>2025-03-02T07:27:22.897Z</updated>
+  <icon>https://youze27.github.io/blog/assets/favicon.ico</icon>
+  <updated>2025-03-02T07:54:26.770Z</updated>
   <generator>@vuepress/plugin-feed</generator>
-  <link rel="self" href="https://mister-hope.github.io/blog/atom.xml"/>
-  <link rel="alternate" href="https://mister-hope.github.io/blog/"/>
+  <link rel="self" href="https://youze27.github.io/blog/atom.xml"/>
+  <link rel="alternate" href="https://youze27.github.io/blog/"/>
   <category term="其他"/>
   <category term="渗透测试"/>
   <category term="计网基础"/>
@@ -15,15 +15,15 @@
   <category term="信息收集"/>
   <entry>
     <title type="text">其他</title>
-    <id>https://mister-hope.github.io/blog/other/</id>
-    <link href="https://mister-hope.github.io/blog/other/"/>
+    <id>https://youze27.github.io/blog/other/</id>
+    <link href="https://youze27.github.io/blog/other/"/>
     <updated>2025-03-02T07:25:49.000Z</updated>
     <published>2025-03-02T05:52:48.000Z</published>
   </entry>
   <entry>
     <title type="text">deepseek提问方法</title>
-    <id>https://mister-hope.github.io/blog/other/deepseek.html</id>
-    <link href="https://mister-hope.github.io/blog/other/deepseek.html"/>
+    <id>https://youze27.github.io/blog/other/deepseek.html</id>
+    <link href="https://youze27.github.io/blog/other/deepseek.html"/>
     <updated>2025-03-02T05:52:48.000Z</updated>
     <summary type="html"><![CDATA[<p>deepseek 应该怎样提问<br>
 为了让我的回答更准确和有用，你可以通过以下方式优化提问。我通过几个例子为你说明不同提问方式的区别：</p>
@@ -83,8 +83,8 @@
   </entry>
   <entry>
     <title type="text">deepseek使用指南 清华大学</title>
-    <id>https://mister-hope.github.io/blog/other/deepseek%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97%20%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6.html</id>
-    <link href="https://mister-hope.github.io/blog/other/deepseek%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97%20%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6.html"/>
+    <id>https://youze27.github.io/blog/other/deepseek%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97%20%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6.html</id>
+    <link href="https://youze27.github.io/blog/other/deepseek%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97%20%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6.html"/>
     <updated>2025-03-02T05:52:48.000Z</updated>
     <summary type="html"><![CDATA[
 <p>​​</p>
@@ -227,8 +227,8 @@
   </entry>
   <entry>
     <title type="text">漏洞挖掘思路</title>
-    <id>https://mister-hope.github.io/blog/perm/%E6%8C%96%E6%B4%9E%E6%80%9D%E8%B7%AF.html</id>
-    <link href="https://mister-hope.github.io/blog/perm/%E6%8C%96%E6%B4%9E%E6%80%9D%E8%B7%AF.html"/>
+    <id>https://youze27.github.io/blog/perm/%E6%8C%96%E6%B4%9E%E6%80%9D%E8%B7%AF.html</id>
+    <link href="https://youze27.github.io/blog/perm/%E6%8C%96%E6%B4%9E%E6%80%9D%E8%B7%AF.html"/>
     <updated>2025-03-02T05:52:48.000Z</updated>
     <summary type="html"><![CDATA[<h4>漏洞挖掘思路</h4>
 <p>大厂SRC严重漏洞的特点</p>
@@ -296,15 +296,15 @@
   </entry>
   <entry>
     <title type="text">软考信安</title>
-    <id>https://mister-hope.github.io/blog/exam/</id>
-    <link href="https://mister-hope.github.io/blog/exam/"/>
+    <id>https://youze27.github.io/blog/exam/</id>
+    <link href="https://youze27.github.io/blog/exam/"/>
     <updated>2025-03-02T07:25:49.000Z</updated>
     <published>2025-02-28T00:38:25.000Z</published>
   </entry>
   <entry>
     <title type="text">ssh基本使用</title>
-    <id>https://mister-hope.github.io/blog/net/ssh%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8.html</id>
-    <link href="https://mister-hope.github.io/blog/net/ssh%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8.html"/>
+    <id>https://youze27.github.io/blog/net/ssh%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8.html</id>
+    <link href="https://youze27.github.io/blog/net/ssh%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8.html"/>
     <updated>2025-02-27T09:14:45.000Z</updated>
     <summary type="html"><![CDATA[<h4>通过ssh连接服务器</h4>
 <p>客户端操作：</p>
@@ -368,8 +368,8 @@
   </entry>
   <entry>
     <title type="text">免责声明</title>
-    <id>https://mister-hope.github.io/blog/clause.html</id>
-    <link href="https://mister-hope.github.io/blog/clause.html"/>
+    <id>https://youze27.github.io/blog/clause.html</id>
+    <link href="https://youze27.github.io/blog/clause.html"/>
     <updated>2025-02-23T13:00:23.000Z</updated>
     <summary type="html"><![CDATA[
 <p><strong>最后更新日期：2025年02月23日</strong><br>
@@ -400,8 +400,8 @@
   </entry>
   <entry>
     <title type="text">云计算通识学习</title>
-    <id>https://mister-hope.github.io/blog/net/%E4%BA%91%E8%AE%A1%E7%AE%97%E9%80%9A%E8%AF%86%E5%AD%A6%E4%B9%A0.html</id>
-    <link href="https://mister-hope.github.io/blog/net/%E4%BA%91%E8%AE%A1%E7%AE%97%E9%80%9A%E8%AF%86%E5%AD%A6%E4%B9%A0.html"/>
+    <id>https://youze27.github.io/blog/net/%E4%BA%91%E8%AE%A1%E7%AE%97%E9%80%9A%E8%AF%86%E5%AD%A6%E4%B9%A0.html</id>
+    <link href="https://youze27.github.io/blog/net/%E4%BA%91%E8%AE%A1%E7%AE%97%E9%80%9A%E8%AF%86%E5%AD%A6%E4%B9%A0.html"/>
     <updated>2025-01-27T07:36:59.000Z</updated>
     <summary type="html"><![CDATA[<h2>什么是云计算？</h2>
 <p>美国国家标准与技术研究院NIST定义：云计算是一种模型，可以随时随地，便捷地，随需应变地从可配置计算资源共享池中获取所需资源（例如：网络、服务器、存储、应用、服务），资源可以快速供应并释放，使管理资源的工作量和服务提供商的交互减小到最低限度。</p>
@@ -436,8 +436,8 @@
   </entry>
   <entry>
     <title type="text">Linux学习命令</title>
-    <id>https://mister-hope.github.io/blog/net/Linux%E5%AD%A6%E4%B9%A0%E5%91%BD%E4%BB%A4.html</id>
-    <link href="https://mister-hope.github.io/blog/net/Linux%E5%AD%A6%E4%B9%A0%E5%91%BD%E4%BB%A4.html"/>
+    <id>https://youze27.github.io/blog/net/Linux%E5%AD%A6%E4%B9%A0%E5%91%BD%E4%BB%A4.html</id>
+    <link href="https://youze27.github.io/blog/net/Linux%E5%AD%A6%E4%B9%A0%E5%91%BD%E4%BB%A4.html"/>
     <updated>2025-01-22T15:06:15.000Z</updated>
     <summary type="html"><![CDATA[<p>在Linux和类Unix操作系统中，波浪号（<code>~</code>​）代表当前用户的主目录（home directory）</p>
 <p>例如，如果当前用户是<code>alice</code>​，并且她的主目录是<code>/home/alice</code>​，那么<code>~</code>​就代表<code>/home/alice</code>​。</p>
@@ -596,8 +596,8 @@
   </entry>
   <entry>
     <title type="text">各种报错积累</title>
-    <id>https://mister-hope.github.io/blog/net/%E5%90%84%E7%A7%8D%E6%8A%A5%E9%94%99%E7%A7%AF%E7%B4%AF.html</id>
-    <link href="https://mister-hope.github.io/blog/net/%E5%90%84%E7%A7%8D%E6%8A%A5%E9%94%99%E7%A7%AF%E7%B4%AF.html"/>
+    <id>https://youze27.github.io/blog/net/%E5%90%84%E7%A7%8D%E6%8A%A5%E9%94%99%E7%A7%AF%E7%B4%AF.html</id>
+    <link href="https://youze27.github.io/blog/net/%E5%90%84%E7%A7%8D%E6%8A%A5%E9%94%99%E7%A7%AF%E7%B4%AF.html"/>
     <updated>2025-03-02T07:25:49.000Z</updated>
     <summary type="html"><![CDATA[<h2>sqlmap 更新报错</h2>
 <div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>ubuntu@ubuntu-cmp:~$ pip install --upgrade sqlmap</span></span>
@@ -783,8 +783,8 @@
   </entry>
   <entry>
     <title type="text">系统开荒积累</title>
-    <id>https://mister-hope.github.io/blog/net/%E7%B3%BB%E7%BB%9F%E5%BC%80%E8%8D%92%E7%A7%AF%E7%B4%AF.html</id>
-    <link href="https://mister-hope.github.io/blog/net/%E7%B3%BB%E7%BB%9F%E5%BC%80%E8%8D%92%E7%A7%AF%E7%B4%AF.html"/>
+    <id>https://youze27.github.io/blog/net/%E7%B3%BB%E7%BB%9F%E5%BC%80%E8%8D%92%E7%A7%AF%E7%B4%AF.html</id>
+    <link href="https://youze27.github.io/blog/net/%E7%B3%BB%E7%BB%9F%E5%BC%80%E8%8D%92%E7%A7%AF%E7%B4%AF.html"/>
     <updated>2025-01-22T14:07:20.000Z</updated>
     <summary type="html"><![CDATA[<h2>源 sources.list</h2>
 <p>更新本地软件包索引：sudo apt update</p>
@@ -934,8 +934,8 @@ sudo apt upgrade<br>
   </entry>
   <entry>
     <title type="text">网安学习扫盲</title>
-    <id>https://mister-hope.github.io/blog/net/%E7%BD%91%E5%AE%89%E5%AD%A6%E4%B9%A0%E6%89%AB%E7%9B%B2-o.html</id>
-    <link href="https://mister-hope.github.io/blog/net/%E7%BD%91%E5%AE%89%E5%AD%A6%E4%B9%A0%E6%89%AB%E7%9B%B2-o.html"/>
+    <id>https://youze27.github.io/blog/net/%E7%BD%91%E5%AE%89%E5%AD%A6%E4%B9%A0%E6%89%AB%E7%9B%B2-o.html</id>
+    <link href="https://youze27.github.io/blog/net/%E7%BD%91%E5%AE%89%E5%AD%A6%E4%B9%A0%E6%89%AB%E7%9B%B2-o.html"/>
     <updated>2025-03-02T07:25:49.000Z</updated>
     <summary type="html"><![CDATA[<h2>加密算法</h2>
 <div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>- 算法</span></span>
@@ -1145,8 +1145,8 @@ a 代表 "所有用户"（所有者、组和其他）。<br>
   </entry>
   <entry>
     <title type="text">收藏夹</title>
-    <id>https://mister-hope.github.io/blog/nav.html</id>
-    <link href="https://mister-hope.github.io/blog/nav.html"/>
+    <id>https://youze27.github.io/blog/nav.html</id>
+    <link href="https://youze27.github.io/blog/nav.html"/>
     <updated>2025-01-21T16:41:57.000Z</updated>
     <summary type="html"><![CDATA[<h3>视频</h3>
 <p><a href="https://www.bilibili.com/" target="_blank" rel="noopener noreferrer">哔哩哔哩 (゜-゜)<br>        つロ 干杯~-bilibili</a><br>        ​<a href="https://www.douyin.com/" target="_blank" rel="noopener noreferrer">抖音-记录美好生活</a><br>        ​<a href="https://www.zhihuishu.com/" target="_blank" rel="noopener noreferrer">智慧树</a><br></p>]]></summary>
@@ -1188,8 +1188,8 @@ a 代表 "所有用户"（所有者、组和其他）。<br>
   </entry>
   <entry>
     <title type="text">Docker-Compose</title>
-    <id>https://mister-hope.github.io/blog/net/Docker-Compose.html</id>
-    <link href="https://mister-hope.github.io/blog/net/Docker-Compose.html"/>
+    <id>https://youze27.github.io/blog/net/Docker-Compose.html</id>
+    <link href="https://youze27.github.io/blog/net/Docker-Compose.html"/>
     <updated>2025-01-22T14:07:20.000Z</updated>
     <summary type="html"><![CDATA[<p>最常用命令集合</p>
 <div class="language-php line-numbers-mode" data-highlighter="shiki" data-ext="php" data-title="php" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF">sudo</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> mkdir</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> -</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF">p</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> /</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF">etc</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF">docker</span></span>
@@ -1274,8 +1274,8 @@ a 代表 "所有用户"（所有者、组和其他）。<br>
   </entry>
   <entry>
     <title type="text">Linux入侵排查</title>
-    <id>https://mister-hope.github.io/blog/response/Linux%E5%85%A5%E4%BE%B5%E6%8E%92%E6%9F%A5.html</id>
-    <link href="https://mister-hope.github.io/blog/response/Linux%E5%85%A5%E4%BE%B5%E6%8E%92%E6%9F%A5.html"/>
+    <id>https://youze27.github.io/blog/response/Linux%E5%85%A5%E4%BE%B5%E6%8E%92%E6%9F%A5.html</id>
+    <link href="https://youze27.github.io/blog/response/Linux%E5%85%A5%E4%BE%B5%E6%8E%92%E6%9F%A5.html"/>
     <updated>2025-01-12T13:43:01.000Z</updated>
     <summary type="html"><![CDATA[
 <p>安全排查步骤</p>
@@ -1378,8 +1378,8 @@ a 代表 "所有用户"（所有者、组和其他）。<br>
   </entry>
   <entry>
     <title type="text">Linux安全加固</title>
-    <id>https://mister-hope.github.io/blog/response/Linux%E5%AE%89%E5%85%A8%E5%8A%A0%E5%9B%BA.html</id>
-    <link href="https://mister-hope.github.io/blog/response/Linux%E5%AE%89%E5%85%A8%E5%8A%A0%E5%9B%BA.html"/>
+    <id>https://youze27.github.io/blog/response/Linux%E5%AE%89%E5%85%A8%E5%8A%A0%E5%9B%BA.html</id>
+    <link href="https://youze27.github.io/blog/response/Linux%E5%AE%89%E5%85%A8%E5%8A%A0%E5%9B%BA.html"/>
     <updated>2025-01-12T13:43:01.000Z</updated>
     <summary type="html"><![CDATA[<h4>用户管理</h4>
 <h5>特权用户排查</h5>
@@ -1454,8 +1454,8 @@ systemctl restart sshd			#service sshd restart</p>
   </entry>
   <entry>
     <title type="text">RDP和360星图使用</title>
-    <id>https://mister-hope.github.io/blog/response/RDP%E5%92%8C360%E6%98%9F%E5%9B%BE%E4%BD%BF%E7%94%A8.html</id>
-    <link href="https://mister-hope.github.io/blog/response/RDP%E5%92%8C360%E6%98%9F%E5%9B%BE%E4%BD%BF%E7%94%A8.html"/>
+    <id>https://youze27.github.io/blog/response/RDP%E5%92%8C360%E6%98%9F%E5%9B%BE%E4%BD%BF%E7%94%A8.html</id>
+    <link href="https://youze27.github.io/blog/response/RDP%E5%92%8C360%E6%98%9F%E5%9B%BE%E4%BD%BF%E7%94%A8.html"/>
     <updated>2025-01-12T13:43:01.000Z</updated>
     <summary type="html"><![CDATA[
 <h3>通过hydra爆破windwos虚拟机的RDP服务，利用日志分析工具获取IP地址和时间以及用户名</h3>
@@ -1543,15 +1543,15 @@ systemctl restart sshd			#service sshd restart</p>
   </entry>
   <entry>
     <title type="text">应急响应</title>
-    <id>https://mister-hope.github.io/blog/response/</id>
-    <link href="https://mister-hope.github.io/blog/response/"/>
+    <id>https://youze27.github.io/blog/response/</id>
+    <link href="https://youze27.github.io/blog/response/"/>
     <updated>2025-01-12T13:43:01.000Z</updated>
     <published>2025-01-12T13:43:01.000Z</published>
   </entry>
   <entry>
     <title type="text">Redis日志分析</title>
-    <id>https://mister-hope.github.io/blog/response/Redis%E6%97%A5%E5%BF%97%E5%88%86%E6%9E%90.html</id>
-    <link href="https://mister-hope.github.io/blog/response/Redis%E6%97%A5%E5%BF%97%E5%88%86%E6%9E%90.html"/>
+    <id>https://youze27.github.io/blog/response/Redis%E6%97%A5%E5%BF%97%E5%88%86%E6%9E%90.html</id>
+    <link href="https://youze27.github.io/blog/response/Redis%E6%97%A5%E5%BF%97%E5%88%86%E6%9E%90.html"/>
     <updated>2025-01-12T13:43:01.000Z</updated>
     <summary type="html"><![CDATA[<p>linux搭建一个redis服务，配置未授权和记录redis日志，开启redis服务，并使用未授权攻击行为进行写计划任务；然后进行入侵排查，分析redis日志和攻击行为。</p>
 <div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" data-title="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">yum</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> install</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> redis</span></span></code></pre>
@@ -1628,8 +1628,8 @@ systemctl restart sshd			#service sshd restart</p>
   </entry>
   <entry>
     <title type="text">windows入侵排查</title>
-    <id>https://mister-hope.github.io/blog/response/windows%E5%85%A5%E4%BE%B5%E6%8E%92%E6%9F%A5.html</id>
-    <link href="https://mister-hope.github.io/blog/response/windows%E5%85%A5%E4%BE%B5%E6%8E%92%E6%9F%A5.html"/>
+    <id>https://youze27.github.io/blog/response/windows%E5%85%A5%E4%BE%B5%E6%8E%92%E6%9F%A5.html</id>
+    <link href="https://youze27.github.io/blog/response/windows%E5%85%A5%E4%BE%B5%E6%8E%92%E6%9F%A5.html"/>
     <updated>2025-02-08T14:18:57.000Z</updated>
     <summary type="html"><![CDATA[<p>1、入侵特点</p>
 <p>2、走哪里入侵</p>
@@ -1692,8 +1692,8 @@ systemctl restart sshd			#service sshd restart</p>
   </entry>
   <entry>
     <title type="text">windows安全加固</title>
-    <id>https://mister-hope.github.io/blog/response/windows%E5%AE%89%E5%85%A8%E5%8A%A0%E5%9B%BA.html</id>
-    <link href="https://mister-hope.github.io/blog/response/windows%E5%AE%89%E5%85%A8%E5%8A%A0%E5%9B%BA.html"/>
+    <id>https://youze27.github.io/blog/response/windows%E5%AE%89%E5%85%A8%E5%8A%A0%E5%9B%BA.html</id>
+    <link href="https://youze27.github.io/blog/response/windows%E5%AE%89%E5%85%A8%E5%8A%A0%E5%9B%BA.html"/>
     <updated>2025-01-12T13:43:01.000Z</updated>
     <summary type="html"><![CDATA[<h3>计算机管理</h3>
 <h4>本地用户和组</h4>
@@ -1817,8 +1817,8 @@ systemctl restart sshd			#service sshd restart</p>
   </entry>
   <entry>
     <title type="text">windows日志ID速查</title>
-    <id>https://mister-hope.github.io/blog/response/windows%E6%97%A5%E5%BF%97ID%E9%80%9F%E6%9F%A5.html</id>
-    <link href="https://mister-hope.github.io/blog/response/windows%E6%97%A5%E5%BF%97ID%E9%80%9F%E6%9F%A5.html"/>
+    <id>https://youze27.github.io/blog/response/windows%E6%97%A5%E5%BF%97ID%E9%80%9F%E6%9F%A5.html</id>
+    <link href="https://youze27.github.io/blog/response/windows%E6%97%A5%E5%BF%97ID%E9%80%9F%E6%9F%A5.html"/>
     <updated>2025-01-12T13:43:01.000Z</updated>
     <summary type="html"><![CDATA[<p><a href="https://www.cnblogs.com/Yang34/p/13453210.html" title="发布于 2020-08-07 15:33" target="_blank" rel="noopener noreferrer">WINDOWS日志事件ID速查表</a></p>
 <h2>类别:帐户管理</h2>
@@ -2709,8 +2709,8 @@ systemctl restart sshd			#service sshd restart</p>
   </entry>
   <entry>
     <title type="text">中间件加固</title>
-    <id>https://mister-hope.github.io/blog/response/%E4%B8%AD%E9%97%B4%E4%BB%B6%E5%8A%A0%E5%9B%BA.html</id>
-    <link href="https://mister-hope.github.io/blog/response/%E4%B8%AD%E9%97%B4%E4%BB%B6%E5%8A%A0%E5%9B%BA.html"/>
+    <id>https://youze27.github.io/blog/response/%E4%B8%AD%E9%97%B4%E4%BB%B6%E5%8A%A0%E5%9B%BA.html</id>
+    <link href="https://youze27.github.io/blog/response/%E4%B8%AD%E9%97%B4%E4%BB%B6%E5%8A%A0%E5%9B%BA.html"/>
     <updated>2025-01-12T13:43:01.000Z</updated>
     <summary type="html"><![CDATA[<h3>apache  --httpd</h3>
 <p>配置文件路径:/etc/httpd/conf/httpd.conf</p>
@@ -2807,8 +2807,8 @@ systemctl restart sshd			#service sshd restart</p>
   </entry>
   <entry>
     <title type="text">数据库安全加固</title>
-    <id>https://mister-hope.github.io/blog/response/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AE%89%E5%85%A8%E5%8A%A0%E5%9B%BA.html</id>
-    <link href="https://mister-hope.github.io/blog/response/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AE%89%E5%85%A8%E5%8A%A0%E5%9B%BA.html"/>
+    <id>https://youze27.github.io/blog/response/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AE%89%E5%85%A8%E5%8A%A0%E5%9B%BA.html</id>
+    <link href="https://youze27.github.io/blog/response/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AE%89%E5%85%A8%E5%8A%A0%E5%9B%BA.html"/>
     <updated>2025-01-12T13:43:01.000Z</updated>
     <summary type="html"><![CDATA[<h2><strong>MySql安全加固</strong></h2>
 <h3>账号安全</h3>
@@ -2911,8 +2911,8 @@ systemctl restart sshd			#service sshd restart</p>
   </entry>
   <entry>
     <title type="text">PHP简明笔记</title>
-    <id>https://mister-hope.github.io/blog/net/PHP%E7%AE%80%E6%98%8E%E7%AC%94%E8%AE%B0.html</id>
-    <link href="https://mister-hope.github.io/blog/net/PHP%E7%AE%80%E6%98%8E%E7%AC%94%E8%AE%B0.html"/>
+    <id>https://youze27.github.io/blog/net/PHP%E7%AE%80%E6%98%8E%E7%AC%94%E8%AE%B0.html</id>
+    <link href="https://youze27.github.io/blog/net/PHP%E7%AE%80%E6%98%8E%E7%AC%94%E8%AE%B0.html"/>
     <updated>2025-01-22T14:07:20.000Z</updated>
     <summary type="html"><![CDATA[
 <ul>
@@ -3119,8 +3119,8 @@ systemctl restart sshd			#service sshd restart</p>
   </entry>
   <entry>
     <title type="text">URL请求后的通信过程</title>
-    <id>https://mister-hope.github.io/blog/net/URL%E8%AF%B7%E6%B1%82%E5%90%8E%E7%9A%84%E9%80%9A%E4%BF%A1%E8%BF%87%E7%A8%8B.html</id>
-    <link href="https://mister-hope.github.io/blog/net/URL%E8%AF%B7%E6%B1%82%E5%90%8E%E7%9A%84%E9%80%9A%E4%BF%A1%E8%BF%87%E7%A8%8B.html"/>
+    <id>https://youze27.github.io/blog/net/URL%E8%AF%B7%E6%B1%82%E5%90%8E%E7%9A%84%E9%80%9A%E4%BF%A1%E8%BF%87%E7%A8%8B.html</id>
+    <link href="https://youze27.github.io/blog/net/URL%E8%AF%B7%E6%B1%82%E5%90%8E%E7%9A%84%E9%80%9A%E4%BF%A1%E8%BF%87%E7%A8%8B.html"/>
     <updated>2025-03-02T07:25:49.000Z</updated>
     <summary type="html"><![CDATA[<h2>HTTP请求体详解</h2>
 <h3>组成部分</h3>
@@ -3250,8 +3250,8 @@ systemctl restart sshd			#service sshd restart</p>
   </entry>
   <entry>
     <title type="text">python基础题</title>
-    <id>https://mister-hope.github.io/blog/net/python%E9%A2%98.html</id>
-    <link href="https://mister-hope.github.io/blog/net/python%E9%A2%98.html"/>
+    <id>https://youze27.github.io/blog/net/python%E9%A2%98.html</id>
+    <link href="https://youze27.github.io/blog/net/python%E9%A2%98.html"/>
     <updated>2025-01-22T14:07:20.000Z</updated>
     <summary type="html"><![CDATA[<p><strong>使用输入函数input输入人的身高、体重。计算BMI值，并输出。 BMI=体重/身高的平方</strong></p>
 <div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" data-title="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">height </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> float</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">input</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"请输入身高："</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)) </span></span>
@@ -3429,8 +3429,8 @@ True</p>
   </entry>
   <entry>
     <title type="text">Web Shell</title>
-    <id>https://mister-hope.github.io/blog/net/web%20shell.html</id>
-    <link href="https://mister-hope.github.io/blog/net/web%20shell.html"/>
+    <id>https://youze27.github.io/blog/net/web%20shell.html</id>
+    <link href="https://youze27.github.io/blog/net/web%20shell.html"/>
     <updated>2025-01-22T15:06:15.000Z</updated>
     <summary type="html"><![CDATA[<ol>
 <li>通过GET、POST、COOKIE这三种方式向一个网站提交数据</li>
@@ -4119,8 +4119,8 @@ True</p>
   </entry>
   <entry>
     <title type="text">Linux权限维持</title>
-    <id>https://mister-hope.github.io/blog/perm/%E6%9D%83%E9%99%90%E6%8F%90%E5%8D%87/Linux%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81.html</id>
-    <link href="https://mister-hope.github.io/blog/perm/%E6%9D%83%E9%99%90%E6%8F%90%E5%8D%87/Linux%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81.html"/>
+    <id>https://youze27.github.io/blog/perm/%E6%9D%83%E9%99%90%E6%8F%90%E5%8D%87/Linux%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81.html</id>
+    <link href="https://youze27.github.io/blog/perm/%E6%9D%83%E9%99%90%E6%8F%90%E5%8D%87/Linux%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81.html"/>
     <updated>2025-02-05T14:08:42.000Z</updated>
     <summary type="html"><![CDATA[<h2>ssh公钥免密后门</h2>
 <h3>公钥私钥原理概述</h3>
@@ -4278,8 +4278,8 @@ True</p>
   </entry>
   <entry>
     <title type="text">Linux系统提权</title>
-    <id>https://mister-hope.github.io/blog/perm/%E6%9D%83%E9%99%90%E6%8F%90%E5%8D%87/Linux%E7%B3%BB%E7%BB%9F%E6%8F%90%E6%9D%83.html</id>
-    <link href="https://mister-hope.github.io/blog/perm/%E6%9D%83%E9%99%90%E6%8F%90%E5%8D%87/Linux%E7%B3%BB%E7%BB%9F%E6%8F%90%E6%9D%83.html"/>
+    <id>https://youze27.github.io/blog/perm/%E6%9D%83%E9%99%90%E6%8F%90%E5%8D%87/Linux%E7%B3%BB%E7%BB%9F%E6%8F%90%E6%9D%83.html</id>
+    <link href="https://youze27.github.io/blog/perm/%E6%9D%83%E9%99%90%E6%8F%90%E5%8D%87/Linux%E7%B3%BB%E7%BB%9F%E6%8F%90%E6%9D%83.html"/>
     <updated>2025-02-05T14:08:42.000Z</updated>
     <summary type="html"><![CDATA[<p>Liux安装好系统后里面自带的软件或内核存在的漏洞，比较流行的有“脏牛提权”<br>
 Linux内核提权跟Windows一样，都要下载对应漏洞的脚本进行提权</p>
@@ -4633,8 +4633,8 @@ exp下载链接：<a href="https://github.com/SecWiki/linux-kernel-exploits" tit
   </entry>
   <entry>
     <title type="text">windows权限维持</title>
-    <id>https://mister-hope.github.io/blog/perm/%E6%9D%83%E9%99%90%E6%8F%90%E5%8D%87/windows%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81.html</id>
-    <link href="https://mister-hope.github.io/blog/perm/%E6%9D%83%E9%99%90%E6%8F%90%E5%8D%87/windows%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81.html"/>
+    <id>https://youze27.github.io/blog/perm/%E6%9D%83%E9%99%90%E6%8F%90%E5%8D%87/windows%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81.html</id>
+    <link href="https://youze27.github.io/blog/perm/%E6%9D%83%E9%99%90%E6%8F%90%E5%8D%87/windows%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81.html"/>
     <updated>2025-02-05T14:08:42.000Z</updated>
     <summary type="html"><![CDATA[<p>php 不死马权限维持、映像劫持技术、策 略组脚本维持、shift 后门、建立影子账 号、power shell 配置文件后门、Monitor 权限维持、利用安全描述符隐藏服务后门 进行权限维持、iis 后门、window 隐藏技 术、驱动级文件隐藏</p>
 <h2>shift后门(shift backdoor)</h2>
@@ -4776,8 +4776,8 @@ exp下载链接：<a href="https://github.com/SecWiki/linux-kernel-exploits" tit
   </entry>
   <entry>
     <title type="text">windows系统提权</title>
-    <id>https://mister-hope.github.io/blog/perm/%E6%9D%83%E9%99%90%E6%8F%90%E5%8D%87/windows%E7%B3%BB%E7%BB%9F%E6%8F%90%E6%9D%83.html</id>
-    <link href="https://mister-hope.github.io/blog/perm/%E6%9D%83%E9%99%90%E6%8F%90%E5%8D%87/windows%E7%B3%BB%E7%BB%9F%E6%8F%90%E6%9D%83.html"/>
+    <id>https://youze27.github.io/blog/perm/%E6%9D%83%E9%99%90%E6%8F%90%E5%8D%87/windows%E7%B3%BB%E7%BB%9F%E6%8F%90%E6%9D%83.html</id>
+    <link href="https://youze27.github.io/blog/perm/%E6%9D%83%E9%99%90%E6%8F%90%E5%8D%87/windows%E7%B3%BB%E7%BB%9F%E6%8F%90%E6%9D%83.html"/>
     <updated>2025-02-05T14:08:42.000Z</updated>
     <summary type="html"><![CDATA[<h4>windows提权分类</h4>
 <p>1.系统漏洞提权(Linux、Windows)内核提权<br>
@@ -5046,8 +5046,8 @@ user--&gt;Root</p>
   </entry>
   <entry>
     <title type="text">CSRF</title>
-    <id>https://mister-hope.github.io/blog/perm/%E6%BC%8F%E6%B4%9E%E4%B8%93%E9%A2%98/CSRF%E6%BC%8F%E6%B4%9E.html</id>
-    <link href="https://mister-hope.github.io/blog/perm/%E6%BC%8F%E6%B4%9E%E4%B8%93%E9%A2%98/CSRF%E6%BC%8F%E6%B4%9E.html"/>
+    <id>https://youze27.github.io/blog/perm/%E6%BC%8F%E6%B4%9E%E4%B8%93%E9%A2%98/CSRF%E6%BC%8F%E6%B4%9E.html</id>
+    <link href="https://youze27.github.io/blog/perm/%E6%BC%8F%E6%B4%9E%E4%B8%93%E9%A2%98/CSRF%E6%BC%8F%E6%B4%9E.html"/>
     <updated>2025-02-05T14:08:42.000Z</updated>
     <summary type="html"><![CDATA[<p>跨站请求伪造(Cross-site request forgery,CSRF)是一种攻击，它强制终端用户在当前对其进行&lt;span data-type="text" style="color: var(--b3-font-color9);"&gt;身份验证后的Web应用程序<br>
 上执行非本意的操作&lt;span&gt;。CSRF攻击的着重点在伪造更改状态的请求，而不是盗取数据，因为攻击者无法查看对伪造请求的响应</p>
@@ -5201,8 +5201,8 @@ jsonp只能get请求。CORS允许浏览器向跨域服务器发出XMLHttpRequest
   </entry>
   <entry>
     <title type="text">PHP代码审计</title>
-    <id>https://mister-hope.github.io/blog/perm/%E6%BC%8F%E6%B4%9E%E4%B8%93%E9%A2%98/PHP%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1.html</id>
-    <link href="https://mister-hope.github.io/blog/perm/%E6%BC%8F%E6%B4%9E%E4%B8%93%E9%A2%98/PHP%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1.html"/>
+    <id>https://youze27.github.io/blog/perm/%E6%BC%8F%E6%B4%9E%E4%B8%93%E9%A2%98/PHP%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1.html</id>
+    <link href="https://youze27.github.io/blog/perm/%E6%BC%8F%E6%B4%9E%E4%B8%93%E9%A2%98/PHP%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1.html"/>
     <updated>2025-02-05T14:08:42.000Z</updated>
     <summary type="html"><![CDATA[
 <p>靶场 <a href="https://github.com/virink/VAuditDemo" target="_blank" rel="noopener noreferrer">VAuditDemo</a></p>
@@ -5234,8 +5234,8 @@ jsonp只能get请求。CORS允许浏览器向跨域服务器发出XMLHttpRequest
   </entry>
   <entry>
     <title type="text">XSS-lab</title>
-    <id>https://mister-hope.github.io/blog/perm/%E6%BC%8F%E6%B4%9E%E4%B8%93%E9%A2%98/XSS-lab.html</id>
-    <link href="https://mister-hope.github.io/blog/perm/%E6%BC%8F%E6%B4%9E%E4%B8%93%E9%A2%98/XSS-lab.html"/>
+    <id>https://youze27.github.io/blog/perm/%E6%BC%8F%E6%B4%9E%E4%B8%93%E9%A2%98/XSS-lab.html</id>
+    <link href="https://youze27.github.io/blog/perm/%E6%BC%8F%E6%B4%9E%E4%B8%93%E9%A2%98/XSS-lab.html"/>
     <updated>2025-02-05T14:08:42.000Z</updated>
     <summary type="html"><![CDATA[
 <h2>level1</h2>
@@ -5384,8 +5384,8 @@ jsonp只能get请求。CORS允许浏览器向跨域服务器发出XMLHttpRequest
   </entry>
   <entry>
     <title type="text">XSS实验</title>
-    <id>https://mister-hope.github.io/blog/perm/%E6%BC%8F%E6%B4%9E%E4%B8%93%E9%A2%98/XSS%E5%AE%9E%E9%AA%8C.html</id>
-    <link href="https://mister-hope.github.io/blog/perm/%E6%BC%8F%E6%B4%9E%E4%B8%93%E9%A2%98/XSS%E5%AE%9E%E9%AA%8C.html"/>
+    <id>https://youze27.github.io/blog/perm/%E6%BC%8F%E6%B4%9E%E4%B8%93%E9%A2%98/XSS%E5%AE%9E%E9%AA%8C.html</id>
+    <link href="https://youze27.github.io/blog/perm/%E6%BC%8F%E6%B4%9E%E4%B8%93%E9%A2%98/XSS%E5%AE%9E%E9%AA%8C.html"/>
     <updated>2025-03-02T07:25:49.000Z</updated>
     <summary type="html"><![CDATA[
 <h2>通过存储型XSS获取被攻击者的cookie</h2>
@@ -5631,8 +5631,8 @@ jsonp只能get请求。CORS允许浏览器向跨域服务器发出XMLHttpRequest
   </entry>
   <entry>
     <title type="text">XXE&amp;SSRF</title>
-    <id>https://mister-hope.github.io/blog/perm/%E6%BC%8F%E6%B4%9E%E4%B8%93%E9%A2%98/XXE_SSRF.html</id>
-    <link href="https://mister-hope.github.io/blog/perm/%E6%BC%8F%E6%B4%9E%E4%B8%93%E9%A2%98/XXE_SSRF.html"/>
+    <id>https://youze27.github.io/blog/perm/%E6%BC%8F%E6%B4%9E%E4%B8%93%E9%A2%98/XXE_SSRF.html</id>
+    <link href="https://youze27.github.io/blog/perm/%E6%BC%8F%E6%B4%9E%E4%B8%93%E9%A2%98/XXE_SSRF.html"/>
     <updated>2025-02-05T14:08:42.000Z</updated>
     <summary type="html"><![CDATA[
 <h2>XXE</h2>
@@ -5925,8 +5925,8 @@ jsonp只能get请求。CORS允许浏览器向跨域服务器发出XMLHttpRequest
   </entry>
   <entry>
     <title type="text">java环境配置</title>
-    <id>https://mister-hope.github.io/blog/perm/%E6%BC%8F%E6%B4%9E%E4%B8%93%E9%A2%98/java%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE.html</id>
-    <link href="https://mister-hope.github.io/blog/perm/%E6%BC%8F%E6%B4%9E%E4%B8%93%E9%A2%98/java%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE.html"/>
+    <id>https://youze27.github.io/blog/perm/%E6%BC%8F%E6%B4%9E%E4%B8%93%E9%A2%98/java%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE.html</id>
+    <link href="https://youze27.github.io/blog/perm/%E6%BC%8F%E6%B4%9E%E4%B8%93%E9%A2%98/java%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE.html"/>
     <updated>2025-02-05T14:08:42.000Z</updated>
     <summary type="html"><![CDATA[
 <h3>windows     Linux见： Linux centos7 java环境配置</h3>
@@ -5965,8 +5965,8 @@ jsonp只能get请求。CORS允许浏览器向跨域服务器发出XMLHttpRequest
   </entry>
   <entry>
     <title type="text">upload-labs</title>
-    <id>https://mister-hope.github.io/blog/perm/%E6%BC%8F%E6%B4%9E%E4%B8%93%E9%A2%98/upload-labs.html</id>
-    <link href="https://mister-hope.github.io/blog/perm/%E6%BC%8F%E6%B4%9E%E4%B8%93%E9%A2%98/upload-labs.html"/>
+    <id>https://youze27.github.io/blog/perm/%E6%BC%8F%E6%B4%9E%E4%B8%93%E9%A2%98/upload-labs.html</id>
+    <link href="https://youze27.github.io/blog/perm/%E6%BC%8F%E6%B4%9E%E4%B8%93%E9%A2%98/upload-labs.html"/>
     <updated>2025-02-05T14:08:42.000Z</updated>
     <summary type="html"><![CDATA[
 <h2>Pass-1</h2>
@@ -6118,8 +6118,8 @@ AddType application/x-httpd-php .php .phtml .php5 php3</p>
   </entry>
   <entry>
     <title type="text">命令执行和反序列化</title>
-    <id>https://mister-hope.github.io/blog/perm/%E6%BC%8F%E6%B4%9E%E4%B8%93%E9%A2%98/%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C%E5%92%8C%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96.html</id>
-    <link href="https://mister-hope.github.io/blog/perm/%E6%BC%8F%E6%B4%9E%E4%B8%93%E9%A2%98/%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C%E5%92%8C%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96.html"/>
+    <id>https://youze27.github.io/blog/perm/%E6%BC%8F%E6%B4%9E%E4%B8%93%E9%A2%98/%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C%E5%92%8C%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96.html</id>
+    <link href="https://youze27.github.io/blog/perm/%E6%BC%8F%E6%B4%9E%E4%B8%93%E9%A2%98/%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C%E5%92%8C%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96.html"/>
     <updated>2025-02-05T14:08:42.000Z</updated>
     <summary type="html"><![CDATA[<p>目标：<br>
 1、熟悉整理<span data-type="text" style="color: var(--b3-font-color9);">命令执行</span>漏洞各<span data-type="text" style="color: var(--b3-font-color9);">函数</span>的使用<span data-type="text" style="color: var(--b3-font-color9);">方法和条件</span>，总结命令执行漏洞的<span data-type="text" style="color: var(--b3-font-color9);">利用方法</span>。<br>
@@ -6251,8 +6251,8 @@ AddType application/x-httpd-php .php .phtml .php5 php3</p>
   </entry>
   <entry>
     <title type="text">文件上传</title>
-    <id>https://mister-hope.github.io/blog/perm/%E6%BC%8F%E6%B4%9E%E4%B8%93%E9%A2%98/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0.html</id>
-    <link href="https://mister-hope.github.io/blog/perm/%E6%BC%8F%E6%B4%9E%E4%B8%93%E9%A2%98/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0.html"/>
+    <id>https://youze27.github.io/blog/perm/%E6%BC%8F%E6%B4%9E%E4%B8%93%E9%A2%98/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0.html</id>
+    <link href="https://youze27.github.io/blog/perm/%E6%BC%8F%E6%B4%9E%E4%B8%93%E9%A2%98/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0.html"/>
     <updated>2025-03-02T07:25:49.000Z</updated>
     <summary type="html"><![CDATA[
 <h2>什么是文件上传漏洞？</h2>
@@ -6400,8 +6400,8 @@ AddType application/x-httpd-php .php .phtml .php5 php3</p>
   </entry>
   <entry>
     <title type="text">框架漏洞</title>
-    <id>https://mister-hope.github.io/blog/perm/%E6%BC%8F%E6%B4%9E%E4%B8%93%E9%A2%98/%E6%A1%86%E6%9E%B6%E6%BC%8F%E6%B4%9E.html</id>
-    <link href="https://mister-hope.github.io/blog/perm/%E6%BC%8F%E6%B4%9E%E4%B8%93%E9%A2%98/%E6%A1%86%E6%9E%B6%E6%BC%8F%E6%B4%9E.html"/>
+    <id>https://youze27.github.io/blog/perm/%E6%BC%8F%E6%B4%9E%E4%B8%93%E9%A2%98/%E6%A1%86%E6%9E%B6%E6%BC%8F%E6%B4%9E.html</id>
+    <link href="https://youze27.github.io/blog/perm/%E6%BC%8F%E6%B4%9E%E4%B8%93%E9%A2%98/%E6%A1%86%E6%9E%B6%E6%BC%8F%E6%B4%9E.html"/>
     <updated>2025-02-27T03:11:30.000Z</updated>
     <summary type="html"><![CDATA[<table>
 <thead>
@@ -6432,8 +6432,8 @@ AddType application/x-httpd-php .php .phtml .php5 php3</p>
   </entry>
   <entry>
     <title type="text">逻辑漏洞</title>
-    <id>https://mister-hope.github.io/blog/perm/%E6%BC%8F%E6%B4%9E%E4%B8%93%E9%A2%98/%E9%80%BB%E8%BE%91%E6%BC%8F%E6%B4%9E.html</id>
-    <link href="https://mister-hope.github.io/blog/perm/%E6%BC%8F%E6%B4%9E%E4%B8%93%E9%A2%98/%E9%80%BB%E8%BE%91%E6%BC%8F%E6%B4%9E.html"/>
+    <id>https://youze27.github.io/blog/perm/%E6%BC%8F%E6%B4%9E%E4%B8%93%E9%A2%98/%E9%80%BB%E8%BE%91%E6%BC%8F%E6%B4%9E.html</id>
+    <link href="https://youze27.github.io/blog/perm/%E6%BC%8F%E6%B4%9E%E4%B8%93%E9%A2%98/%E9%80%BB%E8%BE%91%E6%BC%8F%E6%B4%9E.html"/>
     <updated>2025-02-05T14:08:42.000Z</updated>
     <summary type="html"><![CDATA[<h2>身份认证安全</h2>
 <p>绕过方法</p>
@@ -6745,8 +6745,8 @@ AddType application/x-httpd-php .php .phtml .php5 php3</p>
   </entry>
   <entry>
     <title type="text">Mysql基础</title>
-    <id>https://mister-hope.github.io/blog/net/Mysql_base.html</id>
-    <link href="https://mister-hope.github.io/blog/net/Mysql_base.html"/>
+    <id>https://youze27.github.io/blog/net/Mysql_base.html</id>
+    <link href="https://youze27.github.io/blog/net/Mysql_base.html"/>
     <updated>2025-01-22T14:07:20.000Z</updated>
     <summary type="html"><![CDATA[
 <ol>
@@ -6787,8 +6787,8 @@ AddType application/x-httpd-php .php .phtml .php5 php3</p>
   </entry>
   <entry>
     <title type="text">Git使用命令</title>
-    <id>https://mister-hope.github.io/blog/net/git%E4%BD%BF%E7%94%A8%E5%91%BD%E4%BB%A4.html</id>
-    <link href="https://mister-hope.github.io/blog/net/git%E4%BD%BF%E7%94%A8%E5%91%BD%E4%BB%A4.html"/>
+    <id>https://youze27.github.io/blog/net/git%E4%BD%BF%E7%94%A8%E5%91%BD%E4%BB%A4.html</id>
+    <link href="https://youze27.github.io/blog/net/git%E4%BD%BF%E7%94%A8%E5%91%BD%E4%BB%A4.html"/>
     <updated>2025-01-22T14:07:20.000Z</updated>
     <summary type="html"><![CDATA[<h2>ssh密钥设置方法</h2>
 <h3>windows</h3>
@@ -6961,8 +6961,8 @@ git config --global user.email 'xxx@163.com'</p>
   </entry>
   <entry>
     <title type="text">MSSQL注入复盘</title>
-    <id>https://mister-hope.github.io/blog/perm/SQL%E6%B3%A8%E5%85%A5/MSSql%E6%B3%A8%E5%85%A5%E5%A4%8D%E7%9B%98.html</id>
-    <link href="https://mister-hope.github.io/blog/perm/SQL%E6%B3%A8%E5%85%A5/MSSql%E6%B3%A8%E5%85%A5%E5%A4%8D%E7%9B%98.html"/>
+    <id>https://youze27.github.io/blog/perm/SQL%E6%B3%A8%E5%85%A5/MSSql%E6%B3%A8%E5%85%A5%E5%A4%8D%E7%9B%98.html</id>
+    <link href="https://youze27.github.io/blog/perm/SQL%E6%B3%A8%E5%85%A5/MSSql%E6%B3%A8%E5%85%A5%E5%A4%8D%E7%9B%98.html"/>
     <updated>2025-02-05T14:08:42.000Z</updated>
     <summary type="html"><![CDATA[<h2>MSSql</h2>
 <p>MSSql是指<span data-type="text" style="color: var(--b3-font-color8);">微软的SQLServer</span>数据库服务器，<span data-type="text" style="color: var(--b3-font-color8);">它是一个数据库</span>平台，提供数据库的从服务器到终端的完整的解决方案，其<br>
@@ -7028,8 +7028,8 @@ SQL Server的心脏和灵魂。</p>
   </entry>
   <entry>
     <title type="text">MySQL注入复盘</title>
-    <id>https://mister-hope.github.io/blog/perm/SQL%E6%B3%A8%E5%85%A5/MySQL%E6%B3%A8%E5%85%A5%E5%A4%8D%E7%9B%98.html</id>
-    <link href="https://mister-hope.github.io/blog/perm/SQL%E6%B3%A8%E5%85%A5/MySQL%E6%B3%A8%E5%85%A5%E5%A4%8D%E7%9B%98.html"/>
+    <id>https://youze27.github.io/blog/perm/SQL%E6%B3%A8%E5%85%A5/MySQL%E6%B3%A8%E5%85%A5%E5%A4%8D%E7%9B%98.html</id>
+    <link href="https://youze27.github.io/blog/perm/SQL%E6%B3%A8%E5%85%A5/MySQL%E6%B3%A8%E5%85%A5%E5%A4%8D%E7%9B%98.html"/>
     <updated>2025-02-05T14:08:42.000Z</updated>
     <summary type="html"><![CDATA[<h2>注入原理</h2>
 <p>前端输入用户数据未被检测或过滤就直接带入数据库执行，造成SQL漏洞。</p>
@@ -7626,8 +7626,8 @@ sq语句中，单引号不再具有作用”，仅仅是'内容'而已。这个�
   </entry>
   <entry>
     <title type="text">FOFA</title>
-    <id>https://mister-hope.github.io/blog/perm/%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86/FOFA%E8%AF%AD%E6%B3%95.html</id>
-    <link href="https://mister-hope.github.io/blog/perm/%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86/FOFA%E8%AF%AD%E6%B3%95.html"/>
+    <id>https://youze27.github.io/blog/perm/%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86/FOFA%E8%AF%AD%E6%B3%95.html</id>
+    <link href="https://youze27.github.io/blog/perm/%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86/FOFA%E8%AF%AD%E6%B3%95.html"/>
     <updated>2025-02-05T14:08:42.000Z</updated>
     <summary type="html"><![CDATA[<p>高级搜索</p>
 <table>
@@ -7677,8 +7677,8 @@ sq语句中，单引号不再具有作用”，仅仅是'内容'而已。这个�
   </entry>
   <entry>
     <title type="text">Google Hacking</title>
-    <id>https://mister-hope.github.io/blog/perm/%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86/Google%20Hacking.html</id>
-    <link href="https://mister-hope.github.io/blog/perm/%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86/Google%20Hacking.html"/>
+    <id>https://youze27.github.io/blog/perm/%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86/Google%20Hacking.html</id>
+    <link href="https://youze27.github.io/blog/perm/%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86/Google%20Hacking.html"/>
     <updated>2025-02-05T14:08:42.000Z</updated>
     <summary type="html"><![CDATA[<h3>一、基础语法</h3>
 <ol>
@@ -7720,8 +7720,8 @@ sq语句中，单引号不再具有作用”，仅仅是'内容'而已。这个�
   </entry>
   <entry>
     <title type="text">信息收集方法及流程</title>
-    <id>https://mister-hope.github.io/blog/perm/%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86/%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86%E6%96%B9%E6%B3%95%E5%8F%8A%E6%B5%81%E7%A8%8B.html</id>
-    <link href="https://mister-hope.github.io/blog/perm/%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86/%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86%E6%96%B9%E6%B3%95%E5%8F%8A%E6%B5%81%E7%A8%8B.html"/>
+    <id>https://youze27.github.io/blog/perm/%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86/%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86%E6%96%B9%E6%B3%95%E5%8F%8A%E6%B5%81%E7%A8%8B.html</id>
+    <link href="https://youze27.github.io/blog/perm/%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86/%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86%E6%96%B9%E6%B3%95%E5%8F%8A%E6%B5%81%E7%A8%8B.html"/>
     <updated>2025-02-05T14:08:42.000Z</updated>
     <summary type="html"><![CDATA[<h2>信息收集概念</h2>
 <p>信息收集是指通过各种方式获<span data-type="text" style="color: var(--b3-font-color9);">取所需要的信息</span>，以便我们在后续的渗透过程更好的进行。因为只有我们掌握了目标网站或目标，主机足够多的信息之后，我们才能更好地对其进行漏洞检测。</p>
@@ -7758,8 +7758,8 @@ sq语句中，单引号不再具有作用”，仅仅是'内容'而已。这个�
   </entry>
   <entry>
     <title type="text">友链</title>
-    <id>https://mister-hope.github.io/blog/link.html</id>
-    <link href="https://mister-hope.github.io/blog/link.html"/>
+    <id>https://youze27.github.io/blog/link.html</id>
+    <link href="https://youze27.github.io/blog/link.html"/>
     <updated>2025-03-02T07:25:49.000Z</updated>
     <summary type="html"><![CDATA[<div class="vp-card-container">
   </div>
@@ -7771,22 +7771,22 @@ sq语句中，单引号不再具有作用”，仅仅是'内容'而已。这个�
   </entry>
   <entry>
     <title type="text">计网基础</title>
-    <id>https://mister-hope.github.io/blog/net/</id>
-    <link href="https://mister-hope.github.io/blog/net/"/>
+    <id>https://youze27.github.io/blog/net/</id>
+    <link href="https://youze27.github.io/blog/net/"/>
     <updated>2025-01-12T04:07:34.000Z</updated>
     <published>2025-01-10T03:24:15.000Z</published>
   </entry>
   <entry>
     <title type="text">渗透测试</title>
-    <id>https://mister-hope.github.io/blog/perm/</id>
-    <link href="https://mister-hope.github.io/blog/perm/"/>
+    <id>https://youze27.github.io/blog/perm/</id>
+    <link href="https://youze27.github.io/blog/perm/"/>
     <updated>2025-01-11T16:55:59.000Z</updated>
     <published>2025-01-10T03:24:15.000Z</published>
   </entry>
   <entry>
     <title type="text">关于我</title>
-    <id>https://mister-hope.github.io/blog/intro.html</id>
-    <link href="https://mister-hope.github.io/blog/intro.html"/>
+    <id>https://youze27.github.io/blog/intro.html</id>
+    <link href="https://youze27.github.io/blog/intro.html"/>
     <updated>2025-02-05T14:08:42.000Z</updated>
     <summary type="html"><![CDATA[
 <p>嘿，朋友们，我是卷卷，欢迎来到我的博客！</p>
@@ -7815,8 +7815,8 @@ sq语句中，单引号不再具有作用”，仅仅是'内容'而已。这个�
   </entry>
   <entry>
     <title type="text">小程序代理及反编译</title>
-    <id>https://mister-hope.github.io/blog/perm/%E5%B0%8F%E7%A8%8B%E5%BA%8F/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%BB%A3%E7%90%86%E5%8F%8A%E5%8F%8D%E7%BC%96%E8%AF%91.html</id>
-    <link href="https://mister-hope.github.io/blog/perm/%E5%B0%8F%E7%A8%8B%E5%BA%8F/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%BB%A3%E7%90%86%E5%8F%8A%E5%8F%8D%E7%BC%96%E8%AF%91.html"/>
+    <id>https://youze27.github.io/blog/perm/%E5%B0%8F%E7%A8%8B%E5%BA%8F/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%BB%A3%E7%90%86%E5%8F%8A%E5%8F%8D%E7%BC%96%E8%AF%91.html</id>
+    <link href="https://youze27.github.io/blog/perm/%E5%B0%8F%E7%A8%8B%E5%BA%8F/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%BB%A3%E7%90%86%E5%8F%8A%E5%8F%8D%E7%BC%96%E8%AF%91.html"/>
     <updated>2025-02-05T14:08:42.000Z</updated>
     <summary type="html"><![CDATA[<h2>小程序代理及反编译</h2>
 <p>环境：</p>
