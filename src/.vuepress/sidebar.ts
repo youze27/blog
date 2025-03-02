@@ -11,4 +11,5 @@ export default sidebar({
   "/think/":"structure",
   "link": "structure",
   "/job/":"structure",
+  "/other/":"structure",
 });
