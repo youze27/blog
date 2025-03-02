@@ -4,7 +4,7 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://mister-hope.github.io",
+  hostname: "https://youze27.github.io",
 
   author: {
     name: "卷卷",
@@ -136,7 +136,7 @@ export default hopeTheme({
       atom: true,
       json: true,
       channel: {
-        title: "卷卷",
+        title: "卷卷", 
         link: "https://youze27.github.io/blog/", // 包含 base 路径
         description: "网络安全知识库",
         language: "zh-CN",
