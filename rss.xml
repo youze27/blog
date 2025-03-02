@@ -6,8 +6,8 @@
     <link>https://youze27.github.io/blog/</link>
     <description>网络安全知识库</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 02 Mar 2025 07:54:26 GMT</pubDate>
-    <lastBuildDate>Sun, 02 Mar 2025 07:54:26 GMT</lastBuildDate>
+    <pubDate>Sun, 02 Mar 2025 08:43:09 GMT</pubDate>
+    <lastBuildDate>Sun, 02 Mar 2025 08:43:09 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>其他</category>
@@ -7004,19 +7004,13 @@ sq语句中，单引号不再具有作用”，仅仅是'内容'而已。这个�
       <link>https://youze27.github.io/blog/intro.html</link>
       <guid>https://youze27.github.io/blog/intro.html</guid>
       <source url="https://youze27.github.io/blog/rss.xml">关于我</source>
-      <description>介绍页 嘿，朋友们，我是卷卷，欢迎来到我的博客！ 我爱旅游，会精心规划行程，追求完美体验；爱摄影，力求拍出满意作品。工作上，我努力学习专业知识，希望把工作做得更加完美。业余时，我喜欢阅读，构建知识体系； 强迫症，完美主义者，这些特点让我在生活和工作中都追求极致。我会在这里分享我的网络安全知识、读书和学习心得。 我们可以一起交流技术： Email-You...</description>
+      <description>介绍页 嘿，朋友们，我是卷卷，欢迎来到我的博客！ 我爱旅游，会精心规划行程，追求完美体验；爱摄影，力求拍出满意作品。工作上，我努力学习专业知识，希望把工作做得更加完美。业余时，我喜欢阅读，构建知识体系； 强迫症，完美主义者，这些特点让我在生活和工作中都追求极致。我会在这里分享我的网络安全知识、读书和学习心得。 微信：Youze-Psc</description>
       <pubDate>Tue, 23 Jul 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>嘿，朋友们，我是卷卷，欢迎来到我的博客！</p>
 <p>我爱旅游，会精心规划行程，追求完美体验；爱摄影，力求拍出满意作品。工作上，我努力学习专业知识，希望把工作做得更加完美。业余时，我喜欢阅读，构建知识体系；</p>
 <p>强迫症，完美主义者，这些特点让我在生活和工作中都追求极致。我会在这里分享我的网络安全知识、读书和学习心得。</p>
-<p>我们可以一起交流技术：</p>
-<div style="text-align:center">
-   <a href="mailto:youze27@163.com" target="_blank">
-  <img src="http://badge.devlive.org/api/badge/Email/Youze27.svg?style=metallic&amp;leftColor=%23333&amp;rightColor=%23FF4040" alt="Email-Youze27">
-    </a>
-<img src="http://badge.devlive.org/api/badge/Wechat/Youze-Psc.svg?style=metallic&amp;leftColor=%23333" alt="Wechat-Youze-Psc">
-</div>
+<p>微信：Youze-Psc</p>
 ]]></content:encoded>
       <enclosure url="https://youze27.github.io/blog/assets/images/cover3.jpg" type="image/jpeg"/>
     </item>
