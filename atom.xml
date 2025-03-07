@@ -4,27 +4,621 @@
   <title>卷卷</title>
   <subtitle>网络安全知识库</subtitle>
   <icon>https://youze27.github.io/blog/assets/favicon.ico</icon>
-  <updated>2025-03-04T10:07:09.010Z</updated>
+  <updated>2025-03-07T06:21:58.926Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://youze27.github.io/blog/atom.xml"/>
   <link rel="alternate" href="https://youze27.github.io/blog/"/>
+  <category term="软考"/>
+  <category term="markdown"/>
+  <category term="心理学"/>
+  <category term="AI"/>
   <category term="其他"/>
   <category term="渗透测试"/>
   <category term="计网基础"/>
   <category term="应急响应"/>
   <category term="信息收集"/>
   <entry>
+    <title type="text">软考笔记</title>
+    <id>https://youze27.github.io/blog/exam/%E8%BD%AF%E8%80%83%E6%A6%82%E5%BF%B5.html</id>
+    <link href="https://youze27.github.io/blog/exam/%E8%BD%AF%E8%80%83%E6%A6%82%E5%BF%B5.html"/>
+    <updated>2025-03-07T06:05:23.000Z</updated>
+    <summary type="html"><![CDATA[<h4>CMM（能力成熟度模型）</h4>
+<p>五个阶段——非正式执行、计划跟踪、充分定义、量化控制、持续优化，与常见的CMM模型中的五个等级（初始级、可重复级、已定义级、已管理级、优化级）在表述上有所不同，但本质上描述了类似的软件过程改进路径</p>
+<ul>
+<li>非正式执行：<br>
+这个阶段类似于CMM中的“初始级”。在这个阶段，软件开发过程往往是不规范的，缺乏系统的管理和监控。软件开发主要依赖于开发人员的个人经验和技能，项目成功的不确定性较大。<br>
+在这个阶段，组织可能还没有形成明确的软件开发流程和质量标准，项目的执行往往是随意的，缺乏统一的规划和协调。</li>
+<li>计划跟踪：<br>
+这个阶段类似于CMM中的“可重复级”。在这个阶段，组织开始建立基本的软件开发流程和管理制度，以确保项目能够按照预定的计划进行。<br>
+组织会制定项目计划，并对项目的进度、成本和质量进行跟踪和监控。同时，组织也会开始积累项目经验，以便在未来的项目中复用。</li>
+<li>充分定义：<br>
+这个阶段类似于CMM中的“已定义级”。在这个阶段，组织已经制定了详细的软件开发流程和质量标准，并将其集成到一个协调的整体中。<br>
+所有的开发项目都会遵循这些流程和标准，以确保项目的质量和一致性。同时，组织也会开始对软件开发过程进行量化分析，以进一步改进和优化过程。</li>
+<li>量化控制：<br>
+这个阶段类似于CMM中的“已管理级”。在这个阶段，组织已经建立了完善的软件开发过程管理体系，并对过程进行了量化控制。<br>
+组织会收集和分析软件开发过程中的各种数据，如过程指标、质量指标等，以了解过程的性能和问题所在。同时，组织也会根据这些数据制定针对性的改进措施，以进一步提高过程的质量和效率。</li>
+<li>持续优化：<br>
+这个阶段类似于CMM中的“优化级”。在这个阶段，组织已经将软件开发过程视为一个持续改进的过程，并致力于不断优化和改进过程。<br>
+组织会定期回顾和分析软件开发过程的性能和问题，并根据分析结果制定长期的改进计划。同时，组织也会鼓励员工积极参与改进活动，提出创新性的改进建议，以推动过程的持续优化和改进。</li>
+</ul>]]></summary>
+    <content type="html"><![CDATA[<h4>CMM（能力成熟度模型）</h4>
+<p>五个阶段——非正式执行、计划跟踪、充分定义、量化控制、持续优化，与常见的CMM模型中的五个等级（初始级、可重复级、已定义级、已管理级、优化级）在表述上有所不同，但本质上描述了类似的软件过程改进路径</p>
+<ul>
+<li>非正式执行：<br>
+这个阶段类似于CMM中的“初始级”。在这个阶段，软件开发过程往往是不规范的，缺乏系统的管理和监控。软件开发主要依赖于开发人员的个人经验和技能，项目成功的不确定性较大。<br>
+在这个阶段，组织可能还没有形成明确的软件开发流程和质量标准，项目的执行往往是随意的，缺乏统一的规划和协调。</li>
+<li>计划跟踪：<br>
+这个阶段类似于CMM中的“可重复级”。在这个阶段，组织开始建立基本的软件开发流程和管理制度，以确保项目能够按照预定的计划进行。<br>
+组织会制定项目计划，并对项目的进度、成本和质量进行跟踪和监控。同时，组织也会开始积累项目经验，以便在未来的项目中复用。</li>
+<li>充分定义：<br>
+这个阶段类似于CMM中的“已定义级”。在这个阶段，组织已经制定了详细的软件开发流程和质量标准，并将其集成到一个协调的整体中。<br>
+所有的开发项目都会遵循这些流程和标准，以确保项目的质量和一致性。同时，组织也会开始对软件开发过程进行量化分析，以进一步改进和优化过程。</li>
+<li>量化控制：<br>
+这个阶段类似于CMM中的“已管理级”。在这个阶段，组织已经建立了完善的软件开发过程管理体系，并对过程进行了量化控制。<br>
+组织会收集和分析软件开发过程中的各种数据，如过程指标、质量指标等，以了解过程的性能和问题所在。同时，组织也会根据这些数据制定针对性的改进措施，以进一步提高过程的质量和效率。</li>
+<li>持续优化：<br>
+这个阶段类似于CMM中的“优化级”。在这个阶段，组织已经将软件开发过程视为一个持续改进的过程，并致力于不断优化和改进过程。<br>
+组织会定期回顾和分析软件开发过程的性能和问题，并根据分析结果制定长期的改进计划。同时，组织也会鼓励员工积极参与改进活动，提出创新性的改进建议，以推动过程的持续优化和改进。</li>
+</ul>
+<h4>CMM（能力成熟度模型）</h4>
+<ul>
+<li>成熟度级别描述<br>
+初始级（Initial Level）：组织的安全工程过程通常是临时的，没有明确的定义或标准。安全活动往往是反应式的，而不是预防性的。缺乏一致性和可预测性。</li>
+<li>可重复级（Repeatable Level）：组织建立了一些基本的安全工程过程，这些过程能够在一定程度上重复执行，但仍然缺乏全面的标准化。开始有一些基本的文档和记录。</li>
+<li>已定义级（Defined Level）：安全工程过程已经文档化，并且在整个组织中一致应用。有明确的标准和指南来指导安全工程活动。组织内部对安全工程过程有清晰的理解和共识。</li>
+<li>已管理级（Managed Level）：安全工程过程得到量化管理，能够进行度量和控制。通过收集和分析数据来监控过程的有效性和效率。能够基于度量结果进行调整和优化。</li>
+<li>优化级（Optimizing Level）：组织不断改进安全工程过程，通过持续的过程改进活动达到最优状态。采用先进的技术和方法来提高安全工程的效果。组织具有高度的灵活性和适应性，能够快速响应变化。</li>
+</ul>
+<p>SSE-CMM和CMM都定义了成熟度级别，用于描述组织在相应领域（系统安全工程或软件开发）的能力水平。这些级别从低到高逐渐递进，代表了组织在过程管理、标准化、量化控制和持续改进等方面的不同发展阶段。<br>
+虽然SSE-CMM和CMM的关注点不同（一个是系统安全工程，一个是软件开发），但它们的最终目的都是帮助组织提升其在相应领域的能力水平。通过应用这些模型，组织可以更好地理解和管理其过程，提高产品质量和效率，降低风险和成本。</p>
+<h4>数据安全成熟度模型</h4>
+<p>是数据安全能力成熟度模型（Data Security Capability Maturity Model，简称DSMM），是一个用于衡量和提升组织数据安全能力的框架。以下是对数据安全成熟度模型（以DSMM为例）的详细解释：</p>
+<p>DSMM是由阿里巴巴联合中国电子技术标准化研究院、国家信息安全工程技术研究中心、中国信息安全测评中心等业内权威机构联合编写的国家标准。该模型于2019年8月30日发布，2020年3月1日正式实施，其标准号为GB/T 37988-2019。DSMM旨在帮助组织系统地识别其数据安全实践的当前状态，并规划出改进步骤，以提升数据安全水平。</p>
+<h5>模型架构</h5>
+<p>DSMM模型架构主要包括三个方面：<br>
+五个成熟度等级：非正式执行级、计划跟踪级、充分定义级、量化控制级、持续优化级。<br>
+**四大安全能力维度：组织建设、制度流程、技术工具、人员能力。**这些维度明确了组织在数据安全领域应具备的能力。<br>
+七大数据安全过程维度：数据采集安全、数据传输安全、数据存储安全、数据处理安全、数据交换安全、数据销毁安全、通用安全。这些维度基于大数据环境下数据在组织机构业务中的流转情况，定义了数据生命周期的各个阶段。</p>
+<h4>软件安全能力成熟度模型（SSCMM）</h4>
+<p>是一个描述组织中为确保优质安全工程而必须具备的安全工程过程的基本特性的模型。<br>
+在软件工程领域，随着对软件安全性和质量的日益重视，许多组织和研究机构都在努力研究和开发新的方法和技术，以帮助开发人员更好地管理和提高软件的安全性和质量。SSCMM模型的出现，正是为了提供一个框架和指导，帮助组织评估和提高软件安全能力。</p>
+<p>关键过程和实践<br>
+对于每个成熟度等级，SSCMM模型都定义了一系列的关键过程和实践。这些过程和实践是组织在该等级下需要关注和实施的重要活动，包括：</p>
+<p>安全管理：确保软件安全性的基础，包括建立安全策略、制定安全规章制度、进行安全培训等。<br>
+风险评估：对软件系统进行全面的风险评估，识别潜在的安全威胁和漏洞。<br>
+安全编码：在软件开发过程中，采用安全编码实践，避免常见的安全漏洞。<br>
+渗透测试：通过模拟黑客攻击，对软件系统进行渗透测试，以发现潜在的安全漏洞。<br>
+安全审计：定期对软件系统进行安全审计，检查系统的安全性是否符合预期。</p>
+<h4>SSL (Secure Sockets Layer)</h4>
+<p>即安全套接层，是一种网络安全协议，主要用于在互联网上的服务器和浏览器之间建立加密链接，以保护数据传输过程中的隐私和完整性。<br>
+定义：SSL是一种为网络通信提供安全及数据完整性的一种安全协议。</p>
+<p>原理：SSL协议的工作原理基于公钥和私钥系统。在SSL握手过程中，服务器会向客户端发送其公钥和一个证书，证书由一个可信的第三方（如VeriSign或DigiCert）签发，用于验证服务器的身份。之后，客户端和服务器会协商一个加密算法和密钥，用于加密和解密传输的数据。</p>
+<p><strong>SSL的应用场景</strong><br>
+HTTPS：在Web浏览器和服务器之间的通信中，SSL被广泛用于实现HTTPS协议，从而保护用户隐私和数据安全。HTTPS握手过程是SSL/TLS协议的一部分，涉及多个步骤和密码套件的选择，以确保连接的安全性。<br>
+邮件协议：在邮件传输中，SSL或TLS可用于保护邮件内容的安全。例如，POP3、IMAP和SMTP等邮件协议都可以使用SSL/TLS来提供安全的邮件传输。<br>
+小程序与App：在开发小程序和App时，开发者需要确保网络通信的安全性。SSL证书可用于实现HTTPS加密传输，保护用户的隐私信息。<br>
+物联网IoT设备：随着物联网的普及，越来越多的IoT设备开始通过互联网实现远程控制和数据交换。SSL证书可用于为IoT设备提供身份认证和安全通信通道，保护设备与用户端之间的传输数据安全。<br>
+<strong>SSL证书的作用</strong><br>
+加密数据：SSL证书会加密从用户计算机到目标网站并返回的数据，确保数据在传输过程中的安全性和隐私性。<br>
+身份认证：SSL证书由可信的第三方颁发机构签发，可用于验证服务器的身份，防止中间人攻击。<br>
+提升信任度：在网站上部署SSL证书可以消除浏览器的不安全提示，提高用户对网站的信任度。</p>
+<h4>TCP三次握手</h4>
+<p>在HTTPS握手之前，首先会进行TCP的三次握手，以确保客户端和服务器之间的连接稳定可靠。</p>
+<p>第一次握手：客户端发送一个SYN（同步）数据包给服务器，表示希望建立连接。此时，客户端进入SYN_SEND状态，等待服务器的响应。<br>
+第二次握手：服务器接收到SYN数据包后，同意建立连接，并发送一个SYN-ACK（同步-确认）数据包给客户端。服务器此时进入SYN_RCVD状态。<br>
+第三次握手：客户端收到SYN-ACK数据包后，向服务器发送一个ACK（确认）数据包。此时，客户端和服务器都进入ESTABLISHED（已建立连接）状态，三次握手完成，可以开始数据传输。</p>
+<h4>HTTPS握手过程</h4>
+<p>在TCP连接建立后，HTTPS会进行其特有的握手过程，以确保通信的安全性。</p>
+<p>ClientHello：客户端向服务器发送一个ClientHello数据包，其中包含客户端支持的SSL/TLS版本、加密组件（如加密算法、压缩方法等）以及一个随机数等信息。<br>
+ServerHello：服务器接收到ClientHello后，选择一个与客户端兼容的SSL/TLS版本和加密算法，并发送一个ServerHello数据包给客户端，确认连接的参数。<br>
+Certificate：服务器发送其数字证书给客户端，证书中包含服务器的公钥、证书的发布机构CA、有效期等信息。这一步是可选的，但通常用于身份验证。<br>
+ServerKeyExchange（可选）：如果服务器选择的加密算法需要额外的密钥交换数据，服务器会发送一个ServerKeyExchange数据包给客户端。<br>
+ServerHelloDone：服务器告知客户端所有握手消息已发送完毕。<br>
+ClientKeyExchange：客户端根据服务器提供的证书和公钥，生成一个PreMasterSecret（预主密钥），并用服务器的公钥加密后发送给服务器。<br>
+ChangeCipherSpec：客户端和服务器各自使用PreMasterSecret和之前交换的随机数生成会话密钥，并切换到加密模式。客户端首先发送一个ChangeCipherSpec数据包，表示接下来的数据将使用新的加密密钥进行加密。<br>
+Finished：客户端和服务器各自计算并发送一个Finished数据包，其中包含使用会话密钥加密的握手消息的哈希值。双方通过验证Finished数据包来确认握手过程是否成功完成。</p>
+<h4>证书签名验证</h4>
+<p>CA公钥的作用：每个CA机构都拥有自己的公钥和私钥对。CA使用自己的私钥对证书进行签名，而客户端则使用CA的公钥来验证这个签名。<br>
+验证过程：<br>
+客户端接收到服务器发送的数字证书后，会首先提取出证书中的CA签名。<br>
+客户端使用预先内置或已获取的CA公钥对证书签名进行解密和验证。<br>
+如果解密后的信息与证书中的信息一致，说明证书是由该CA机构签发的，且未被篡改。</p>
+<h4>证书链的验证</h4>
+<p>证书链的概念：证书链是由多个证书组成的链式结构，从服务器的证书开始，一直延伸到根证书（由CA机构自己签发的证书）。<br>
+验证过程：<br>
+客户端会遍历整个证书链，从服务器的证书开始，逐级向上验证每个证书的签名。<br>
+每一级证书的签名都由上一级的证书（或根证书）的公钥进行验证。<br>
+最终，如果成功验证到根证书，说明整个证书链是可信的。</p>
+<iframe height="100%" width="100%" frameborder="0" allowfullscreen="true" src="/demo/zhidao.html">  
+ </iframe>]]></content>
+    <category term="软考"/>
+    <published>2025-03-07T06:05:23.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">markdown</title>
+    <id>https://youze27.github.io/blog/other/markdown.html</id>
+    <link href="https://youze27.github.io/blog/other/markdown.html"/>
+    <updated>2025-03-07T06:05:23.000Z</updated>
+    <summary type="html"><![CDATA[<h3>一、标题</h3>
+<p>Markdown支持六级标题，使用<code>#</code>号表示不同级别的标题。一级标题使用一个<code>#</code>，二级标题使用两个<code>#</code>，以此类推，最多支持到六级标题。例如：</p>
+<div class="language-markdown line-numbers-mode" data-highlighter="shiki" data-ext="markdown" data-title="markdown" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75"># 一级标题</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">## 二级标题</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">### 三级标题</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">#### 四级标题</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">##### 五级标题</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">###### 六级标题</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></summary>
+    <content type="html"><![CDATA[<h3>一、标题</h3>
+<p>Markdown支持六级标题，使用<code>#</code>号表示不同级别的标题。一级标题使用一个<code>#</code>，二级标题使用两个<code>#</code>，以此类推，最多支持到六级标题。例如：</p>
+<div class="language-markdown line-numbers-mode" data-highlighter="shiki" data-ext="markdown" data-title="markdown" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75"># 一级标题</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">## 二级标题</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">### 三级标题</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">#### 四级标题</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">##### 五级标题</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">###### 六级标题</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3>二、字体</h3>
+<p>Markdown支持多种字体样式，包括斜体、粗体、斜体加粗和删除线。具体语法如下：</p>
+<ul>
+<li>斜体文本：使用<code>*</code>或<code>_</code>将文本包裹起来（如：<code>*斜体文本*</code> 或 <code>_斜体文本_</code>）。</li>
+<li>粗体文本：使用<code>**</code>或<code>__</code>将文本包裹起来（如：<code>**粗体文本**</code> 或 <code>__粗体文本__</code>）。</li>
+<li>斜体加粗文本：使用<code>***</code>或<code>___</code>将文本包裹起来（如：<code>***斜体加粗文本***</code> 或 <code>___斜体加粗文本___</code>，但通常<code>**_</code>或<code>_*_</code>的组合更为常见）。</li>
+<li>删除线文本：使用<code>~~</code>将文本包裹起来（如：<code>~~删除线文本~~</code>）。</li>
+</ul>
+<h3>三、引用</h3>
+<p>Markdown支持引用功能，用于标注来源或强调某些内容。在引用的文字前加上<code>&gt;</code>符号以及一个空格即可。引用也可以嵌套使用，如<code>&gt;&gt;</code>、<code>&gt;&gt;&gt;</code>等。例如：</p>
+<div class="language-markdown line-numbers-mode" data-highlighter="shiki" data-ext="markdown" data-title="markdown" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#5C6370;--shiki-dark-font-style:inherit">&gt; 这是引用的内容</span></span>
+<span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#5C6370;--shiki-dark-font-style:inherit">&gt;&gt; 这是嵌套的引用</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div><h3>四、分割线</h3>
+<p>Markdown支持使用分割线来分隔内容。可以在一行中使用三个或三个以上的<code>-</code>或<code>*</code>来创建分割线。例如：</p>
+<div class="language-markdown line-numbers-mode" data-highlighter="shiki" data-ext="markdown" data-title="markdown" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div>]]></content>
+    <category term="markdown"/>
+    <published>2025-03-07T06:05:23.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">业外阅读</title>
+    <id>https://youze27.github.io/blog/read/</id>
+    <link href="https://youze27.github.io/blog/read/"/>
+    <updated>2025-03-07T06:05:23.000Z</updated>
+    <published>2025-03-07T06:05:23.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">心理学效应</title>
+    <id>https://youze27.github.io/blog/read/%E5%BF%83%E7%90%86%E5%AD%A6%E6%95%88%E5%BA%94.html</id>
+    <link href="https://youze27.github.io/blog/read/%E5%BF%83%E7%90%86%E5%AD%A6%E6%95%88%E5%BA%94.html"/>
+    <updated>2025-03-07T06:05:23.000Z</updated>
+    <summary type="html"><![CDATA[<h4>心理弹性（Resilience）</h4>
+<p>定义：个体在逆境中恢复并适应变化的能力，体现为从挫折中学习并成长。<br>
+理论支持：Masten（2001）提出“普通魔法”（Ordinary Magic）理论，认为心理弹性是普通人普遍具备的能力。<br>
+例子：</p>
+<ul>
+<li>一位创业者在公司破产后，利用失败经验重新创办企业，最终成功上市。</li>
+<li>一名运动员在比赛中严重受伤，经过康复训练后重返赛场并取得更好成绩。</li>
+</ul>
+<h4>自我效能感（Self-Efficacy）</h4>
+<p>定义：个体对自己完成特定任务的能力的信念，影响目标设定和努力程度。<br>
+理论支持：班杜拉（Bandura, 1977）提出，自我效能感通过直接经验、替代经验、言语说服和生理状态四种途径形成。<br>
+例子：</p>]]></summary>
+    <content type="html"><![CDATA[<h4>心理弹性（Resilience）</h4>
+<p>定义：个体在逆境中恢复并适应变化的能力，体现为从挫折中学习并成长。<br>
+理论支持：Masten（2001）提出“普通魔法”（Ordinary Magic）理论，认为心理弹性是普通人普遍具备的能力。<br>
+例子：</p>
+<ul>
+<li>一位创业者在公司破产后，利用失败经验重新创办企业，最终成功上市。</li>
+<li>一名运动员在比赛中严重受伤，经过康复训练后重返赛场并取得更好成绩。</li>
+</ul>
+<h4>自我效能感（Self-Efficacy）</h4>
+<p>定义：个体对自己完成特定任务的能力的信念，影响目标设定和努力程度。<br>
+理论支持：班杜拉（Bandura, 1977）提出，自我效能感通过直接经验、替代经验、言语说服和生理状态四种途径形成。<br>
+例子：</p>
+<ul>
+<li>一名研究生在第一次发表论文被拒后，通过导师的鼓励和反复修改，最终在高水平期刊成功发表。</li>
+<li>一位程序员在完成一个复杂项目后，对解决技术难题的信心显著提升。</li>
+</ul>
+<h4>社会比较理论（Social Comparison Theory）</h4>
+<p>定义：个体通过与他人比较来评估自己的能力、成就和观点。<br>
+理论支持：Festinger（1954）提出，社会比较分为上行比较（与优于自己的人比较）和下行比较（与不如自己的人比较）。<br>
+例子：</p>
+<ul>
+<li>一名博士生在学术会议上看到同龄人发表了多篇高水平论文，感到压力并加倍努力。</li>
+<li>一位职场新人通过与同事比较薪资和职位，调整自己的职业规划。</li>
+</ul>
+<h4>习得性焦虑（Learned Anxiety）</h4>
+<p>定义：个体因反复经历失败或负面事件而对特定情境产生持续的恐惧和回避行为。<br>
+理论支持：基于经典条件反射理论（Pavlov）和操作性条件反射理论（Skinner）。<br>
+例子：</p>
+<ul>
+<li>一位学生在多次面试失败后，每次接到面试通知都会感到极度紧张，甚至想放弃机会。</li>
+<li>一位司机在经历车祸后，对驾驶产生恐惧，即使多年后仍不敢开车上高速。</li>
+</ul>
+<h4>过度补偿（Overcompensation）</h4>
+<p>定义：个体通过极端努力或成就来掩盖内心的自卑感或不安全感。<br>
+理论支持：阿德勒（Adler）的个体心理学认为，过度补偿是自卑感的极端表现。<br>
+例子：</p>
+<ul>
+<li>一位因童年贫困而自卑的企业家，通过疯狂积累财富来证明自己的价值，甚至忽视家庭和健康。</li>
+<li>一位因学术背景普通而自卑的研究者，通过发表大量论文来获得认可，但忽视了研究的深度和质量。</li>
+</ul>
+<h4>存在性焦虑（Existential Anxiety）</h4>
+<p>定义：个体在面对生命意义、自由选择和死亡等终极问题时产生的焦虑和迷茫。<br>
+理论支持：存在主义心理学（如Yalom, 1980）认为，存在性焦虑是人类无法回避的核心问题。<br>
+例子：</p>
+<ul>
+<li>一位中年高管在事业巅峰时突然辞职，开始思考“我这一生到底为了什么”。</li>
+<li>一位退休教授在完成毕生研究后，感到空虚和迷茫，开始探索哲学和艺术以寻找新的意义。</li>
+</ul>
+<h4>成就目标理论（Achievement Goal Theory）</h4>
+<p>定义：个体在追求成就时的目标导向，分为掌握目标（追求能力提升）和表现目标（追求他人认可）。<br>
+理论支持：Dweck（1986）提出，掌握目标导向与更高的内在动机和持久努力相关。<br>
+例子：</p>
+<ul>
+<li>一位学生选择学习一门难度较高的课程，纯粹因为对知识感兴趣，而非为了获得高分。</li>
+<li>一位职场新人主动承担挑战性任务，希望通过实践提升能力，而非仅仅为了获得上司的表扬。</li>
+</ul>
+<h4>拖延症（Procrastination）</h4>
+<p>定义：个体明知任务重要却故意推迟完成的行为，常伴随焦虑和内疚感。<br>
+理论支持：Steel（2007）的时间动机理论指出，拖延与任务厌恶、延迟折扣（高估短期收益）及自我控制失败相关。<br>
+例子：</p>
+<ul>
+<li>学生将论文写作拖到截止前夜，尽管提前规划更高效。</li>
+<li>职场人反复推迟健身计划，用“明天再开始”自我安慰。</li>
+</ul>
+<h4>社交焦虑（Social Anxiety）</h4>
+<p>定义：在社交互动中过度担忧负面评价，导致回避行为或生理应激反应。<br>
+理论支持：Clark &amp; Wells（1995）认知模型强调对自我表现的过度监控和灾难化想象。<br>
+例子：</p>
+<ul>
+<li>在会议中拒绝发言，因害怕观点被质疑。</li>
+<li>使用线上聊天代替面对面沟通，避免眼神接触。</li>
+</ul>
+<h4>从众效应（Conformity）</h4>
+<p>定义：个体为融入群体而改变行为或观点，即使与自身判断冲突。<br>
+理论支持：Asch（1951）经典实验证明群体压力可导致错误判断。<br>
+例子：</p>
+<ul>
+<li>网购时优先选择“销量最高”商品，忽视个人需求。</li>
+<li>职场新人附和同事对领导的负面评价，尽管内心不认同。</li>
+</ul>
+<h4>幸存者偏差（Survivorship Bias）</h4>
+<p>定义：过度关注成功案例，忽视失败样本导致的认知偏差。<br>
+理论支持：Tversky &amp; Kahneman（1974）提出代表性启发式思维是其心理机制。<br>
+例子：</p>
+<ul>
+<li>认为“辍学创业能成功”，因媒体只报道比尔·盖茨等特例。</li>
+<li>模仿网红减肥法，忽略大量尝试者的健康损害案例。</li>
+</ul>
+<h4>信息焦虑（Information Anxiety）</h4>
+<p>定义：在信息过载时代，因无法有效筛选和处理信息产生的无助感。<br>
+理论支持：Shenk（1997）提出“数据迷雾”概念，解释认知超载的神经机制。<br>
+例子：</p>
+<ul>
+<li>每天刷3小时新闻仍担心错过重要事件。</li>
+<li>收藏数百篇“必读”文章却从未打开学习。</li>
+</ul>
+<h4>选择悖论（Paradox of Choice）</h4>
+<p>定义：选项过多反而降低决策满意度，导致决策疲劳或后悔。<br>
+理论支持：Schwartz（2004）提出，超过7个选项会显著增加决策压力。<br>
+例子：</p>
+<ul>
+<li>在50款奶茶菜单前犹豫20分钟后放弃购买。</li>
+<li>因比较100个租房信息而错过最佳签约时机。</li>
+</ul>
+<h4>达克效应（Dunning-Kruger Effect）</h4>
+<p>定义：能力欠缺者高估自身水平，而专家常低估能力的认知偏差。<br>
+理论支持：Dunning &amp; Kruger（1999）证明元认知缺陷导致自我评估失真。<br>
+例子：</p>
+<ul>
+<li>新手股民自信预测股市走向，无视专业分析。</li>
+<li>业余歌手批评职业歌手的“缺乏情感表达”。</li>
+</ul>
+<h4>锚定效应（Anchoring Effect）</h4>
+<p>定义：个体决策过度依赖首次接收的信息（锚点），即使其不相关。<br>
+理论支持：Tversky &amp; Kahneman（1974）通过数值估计实验验证其普遍性。<br>
+例子：</p>
+<ul>
+<li>商品标价“原价2000，现价999”促使消费者低估真实价值。</li>
+<li>面试官因候选人首学历普通而低估其后续职业成就。</li>
+</ul>
+<h4>旁观者效应（Bystander Effect）</h4>
+<p>定义：紧急事件中旁观者越多，个体施助意愿越低的社会抑制现象。<br>
+理论支持：Darley &amp; Latané（1968）发现责任分散是其核心机制。<br>
+例子：</p>
+<ul>
+<li>路人围观车祸伤者却无人拨打急救电话。</li>
+<li>办公室有人晕倒，员工等待他人先行动。</li>
+</ul>
+<h4>聚光灯效应（Spotlight Effect）</h4>
+<p>定义：高估他人对自己外表或行为的关注程度。<br>
+理论支持：Gilovich等人（2000）通过“尴尬T恤实验”验证自我中心偏见。<br>
+例子：</p>
+<ul>
+<li>演讲后反复纠结某处口误，认为听众会长期记住。</li>
+<li>因衣服沾了污渍整天躲避社交，实则无人注意。</li>
+</ul>
+]]></content>
+    <category term="心理学"/>
+    <published>2025-03-07T06:05:23.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">认知觉醒</title>
+    <id>https://youze27.github.io/blog/read/%E8%AE%A4%E7%9F%A5%E8%A7%89%E9%86%92.html</id>
+    <link href="https://youze27.github.io/blog/read/%E8%AE%A4%E7%9F%A5%E8%A7%89%E9%86%92.html"/>
+    <updated>2025-03-07T06:05:23.000Z</updated>
+    <summary type="html"><![CDATA[<h3>名词概念</h3>
+<ol>
+<li>
+<p><strong>三重脑理论</strong>：</p>
+<ul>
+<li><strong>概念</strong>：由保罗·麦克林提出，认为人脑由爬行脑（本能脑）、古哺乳脑（情绪脑）和新哺乳脑（理智脑）三层结构组成。</li>
+<li><strong>解释</strong>：本能脑主管基本生存需求，情绪脑处理情感和社会互动，理智脑负责高级认知功能如规划、决策等。理智脑虽然高级，但力量弱小，易受本能脑和情绪脑的影响。</li>
+<li>收获观点：书中指出本能脑和理智脑存在很大的控制差距，在两者的思考过程中总是本能脑取得胜利。</li>
+</ul>
+</li>
+<li>
+<p><strong>复利效应</strong>：</p>
+<ul>
+<li><strong>概念</strong>：指做某件事的结果会随着时间推移，以指数级速度增长。</li>
+<li><strong>解释</strong>：在知识学习、技能提升、健康习惯等方面，持续的小进步能累积成巨大的成就。</li>
+<li>收获观点：其实就是量变到质变的过程。</li>
+</ul>
+</li>
+<li>
+<p><strong>舒适区边缘</strong>：</p>
+<ul>
+<li><strong>概念</strong>：指一个人既有能力完成但又有一定挑战性的任务区域。</li>
+<li><strong>解释</strong>：在这个区域学习或工作，既能避免无效努力（过于简单），又能防止畏难情绪（过于困难），是实现高效成长的关键。</li>
+<li>个人观点：努力要像橡皮筋一样，劳逸结合。适当给自己些小挑战，不能太过于享受，没有效果。也不能用力过猛，会报复性玩乐。</li>
+</ul>
+</li>
+<li>
+<p><strong>学习权重比</strong>：</p>
+<ul>
+<li><strong>概念</strong>：指在学习一项技能或知识时，不同学习方式（如阅读、听讲、实践等）的有效程度比例。</li>
+<li><strong>解释</strong>：通常，主动学习（如讨论、教授他人、实践应用）的效果远胜于被动学习（如听讲、阅读）。</li>
+</ul>
+</li>
+<li>
+<p><strong>平台期</strong>：</p>
+<ul>
+<li><strong>概念</strong>：在技能学习或能力提升过程中，经过一段时间的快速进步后，出现的进步缓慢甚至停滞的阶段。</li>
+<li><strong>解释</strong>：平台期是正常现象，需要耐心和持续的努力来突破。</li>
+<li>个人观点：如专业技能的增长可能是指数级的，量变质变。</li>
+</ul>
+</li>
+</ol>]]></summary>
+    <content type="html"><![CDATA[<h3>名词概念</h3>
+<ol>
+<li>
+<p><strong>三重脑理论</strong>：</p>
+<ul>
+<li><strong>概念</strong>：由保罗·麦克林提出，认为人脑由爬行脑（本能脑）、古哺乳脑（情绪脑）和新哺乳脑（理智脑）三层结构组成。</li>
+<li><strong>解释</strong>：本能脑主管基本生存需求，情绪脑处理情感和社会互动，理智脑负责高级认知功能如规划、决策等。理智脑虽然高级，但力量弱小，易受本能脑和情绪脑的影响。</li>
+<li>收获观点：书中指出本能脑和理智脑存在很大的控制差距，在两者的思考过程中总是本能脑取得胜利。</li>
+</ul>
+</li>
+<li>
+<p><strong>复利效应</strong>：</p>
+<ul>
+<li><strong>概念</strong>：指做某件事的结果会随着时间推移，以指数级速度增长。</li>
+<li><strong>解释</strong>：在知识学习、技能提升、健康习惯等方面，持续的小进步能累积成巨大的成就。</li>
+<li>收获观点：其实就是量变到质变的过程。</li>
+</ul>
+</li>
+<li>
+<p><strong>舒适区边缘</strong>：</p>
+<ul>
+<li><strong>概念</strong>：指一个人既有能力完成但又有一定挑战性的任务区域。</li>
+<li><strong>解释</strong>：在这个区域学习或工作，既能避免无效努力（过于简单），又能防止畏难情绪（过于困难），是实现高效成长的关键。</li>
+<li>个人观点：努力要像橡皮筋一样，劳逸结合。适当给自己些小挑战，不能太过于享受，没有效果。也不能用力过猛，会报复性玩乐。</li>
+</ul>
+</li>
+<li>
+<p><strong>学习权重比</strong>：</p>
+<ul>
+<li><strong>概念</strong>：指在学习一项技能或知识时，不同学习方式（如阅读、听讲、实践等）的有效程度比例。</li>
+<li><strong>解释</strong>：通常，主动学习（如讨论、教授他人、实践应用）的效果远胜于被动学习（如听讲、阅读）。</li>
+</ul>
+</li>
+<li>
+<p><strong>平台期</strong>：</p>
+<ul>
+<li><strong>概念</strong>：在技能学习或能力提升过程中，经过一段时间的快速进步后，出现的进步缓慢甚至停滞的阶段。</li>
+<li><strong>解释</strong>：平台期是正常现象，需要耐心和持续的努力来突破。</li>
+<li>个人观点：如专业技能的增长可能是指数级的，量变质变。</li>
+</ul>
+</li>
+</ol>
+<h3>理论重点</h3>
+<ol>
+<li>
+<p><strong>大脑的天性与成长的对策</strong>：</p>
+<ul>
+<li><strong>天性</strong>：人类倾向于避难趋易、急于求成。</li>
+<li><strong>对策</strong>：面对天性，应设置清晰的目标，利用复利效应，坚持在舒适区边缘努力，克服拖延，保持耐心。</li>
+</ul>
+</li>
+<li>
+<p><strong>深度学习与关联能力</strong>：</p>
+<ul>
+<li><strong>重要性</strong>：深度学习有助于构建知识网络，提高解决问题的能力。</li>
+<li><strong>方法</strong>：通过大量阅读和高质量输出（如写作、演讲）来强化知识间的联系，形成知识晶体。</li>
+<li>说到要有知识产出，目前地解决方法是写blog。</li>
+</ul>
+</li>
+<li>
+<p><strong>专注力：精力的合理分配</strong>：</p>
+<ul>
+<li><strong>策略</strong>：采用番茄工作法等方法，提高单次专注的质量，同时保证足够的休息和恢复。</li>
+<li><strong>重要性</strong>：专注力是高效学习和工作的基础。</li>
+</ul>
+</li>
+<li>
+<p><strong>反馈循环：如何有效学习</strong>：</p>
+<ul>
+<li><strong>机制</strong>：通过主动寻求反馈（如请教他人、自我反思）、设定小目标并及时调整策略，形成正向反馈循环。</li>
+<li><strong>作用</strong>：加速学习过程，确保方向正确。</li>
+<li>目前使用的是自我反思。</li>
+</ul>
+</li>
+<li>
+<p><strong>情绪与理智的和谐共处</strong>：</p>
+<ul>
+<li><strong>方法</strong>：学会冥想、情绪日记等工具，增强自我觉察，用理智脑调控情绪脑，避免冲动决策。</li>
+<li><strong>目标</strong>：培养平和的心态，提高情绪智力。</li>
+</ul>
+</li>
+<li>
+<p><strong>习惯的力量：从被动到主动</strong>：</p>
+<ul>
+<li><strong>形成机制</strong>：习惯由提示、渴求、反应、奖励四个步骤构成，通过刻意练习可以塑造新习惯。</li>
+<li><strong>策略</strong>：利用微习惯策略，从极小步骤开始，逐步建立稳固的习惯体系。</li>
+</ul>
+</li>
+</ol>
+<h3>关于认知的本质与重要性</h3>
+<ul>
+<li>
+<p><strong>认知决定命运</strong></p>
+<ul>
+<li><strong>观点</strong>：个人的认知水平直接影响其对世界的理解、行为的选择，进而决定人生的走向。</li>
+<li><strong>分析</strong>：强调认知在个人成长和命运塑造中的核心作用，鼓励人们提升认知能力。</li>
+</ul>
+</li>
+<li>
+<p><strong>认知觉醒的概念与重要性</strong></p>
+<ul>
+<li><strong>观点</strong>：认知觉醒指通过深入了解大脑结构和认知规律，唤醒内心力量，实现个人成长。它帮助人们摆脱本能和情绪束缚，以更理性和长远视角看待问题。</li>
+<li><strong>分析</strong>：揭示认知觉醒的本质和重要性，提供自我提升的新视角。</li>
+</ul>
+</li>
+</ul>
+<h3>关于大脑结构与认知的关系</h3>
+<ul>
+<li><strong>三重脑理论的应用</strong>
+<ul>
+<li><strong>观点</strong>：本能脑、情绪脑、理智脑相互作用，理智脑易受本能和情绪影响。实现认知觉醒需学会用理智脑调控本能和情绪。</li>
+<li><strong>分析</strong>：帮助理解大脑结构，有效管理情绪和行为。</li>
+</ul>
+</li>
+</ul>
+<h3>关于认知觉醒的方法与策略</h3>
+<ul>
+<li>
+<p><strong>明确目标与价值观</strong></p>
+<ul>
+<li><strong>观点</strong>：明确目标和价值观，做出符合长远利益的决策。</li>
+<li><strong>分析</strong>：提供行动指南，强调目标和价值观在认知觉醒中的导向作用。</li>
+</ul>
+</li>
+<li>
+<p><strong>创造正反馈循环</strong></p>
+<ul>
+<li><strong>观点</strong>：识别并创造正反馈循环，激发持续动力和信心。</li>
+<li><strong>分析</strong>：揭示正反馈在认知觉醒和成长中的重要性，提供保持动力和信心的方法。</li>
+</ul>
+</li>
+<li>
+<p><strong>深度学习与关联能力</strong></p>
+<ul>
+<li><strong>观点</strong>：深度学习是提高认知能力的重要途径，关联能力是关键。深入思考和关联知识，形成个人模型和知识体系。</li>
+<li><strong>分析</strong>：强调深度学习和关联能力在认知觉醒中的核心作用，提供提升认知能力的策略。</li>
+</ul>
+</li>
+<li>
+<p><strong>情绪与心态管理</strong></p>
+<ul>
+<li><strong>观点</strong>：情绪是影响认知的重要因素，学会管理情绪，保持积极心态。提供正念冥想、情绪调节训练等技巧。</li>
+<li><strong>分析</strong>：揭示情绪管理在认知觉醒中的重要性，提供保持心理健康和积极心态的方法。</li>
+</ul>
+</li>
+</ul>
+<p>在《认知觉醒》一书中，舒适区边缘是一个核心概念，它指的是一个人既有能力完成但又有一定挑战性的任务区域。在这个区域学习或工作，既能避免无效努力（任务过于简单），又能防止畏难情绪（任务过于困难），是实现高效成长的关键。</p>
+<h3>实施步骤</h3>
+<ol>
+<li>
+<p><strong>内观自己，确定目标</strong>：</p>
+<ul>
+<li>首先，要对自己有清晰的认识，了解自己的兴趣、能力和需求。</li>
+<li>根据自己的实际情况，设定一个既具有挑战性又可实现的目标。</li>
+</ul>
+</li>
+<li>
+<p><strong>拆解目标，逐步推进</strong>：</p>
+<ul>
+<li>将大目标拆解成一系列小目标，每个小目标都位于自己的舒适区边缘。</li>
+<li>逐步推进，每完成一个小目标，都是对自己能力的一次提升。</li>
+</ul>
+</li>
+<li>
+<p><strong>保持专注，有效练习</strong>：</p>
+<ul>
+<li>在执行任务时，保持高度专注，避免分心。</li>
+<li>采用有效的练习方法，如番茄工作法、刻意练习等，提高练习效率。</li>
+</ul>
+</li>
+<li>
+<p><strong>主动寻求反馈，优化策略</strong>：</p>
+<ul>
+<li>主动向他人寻求反馈，了解自己在执行任务过程中的不足。</li>
+<li>根据反馈优化策略，调整任务难度和练习方法。</li>
+</ul>
+</li>
+<li>
+<p><strong>保持耐心，持续进步</strong>：</p>
+<ul>
+<li>成长是一个持续的过程，需要保持耐心和毅力。</li>
+<li>不要急于求成，要相信在舒适区边缘的持续努力会带来显著的进步。</li>
+</ul>
+</li>
+</ol>
+<h3>具体例子</h3>
+<ol>
+<li>
+<p><strong>学习新技能</strong>：</p>
+<ul>
+<li>假设你想学习一门新技能，如编程。</li>
+<li>你可以从基础的编程语言开始学起，选择一本适合自己的入门书籍或在线课程。</li>
+<li>每天安排一定的时间进行学习，先从简单的语法和示例开始，逐步挑战更复杂的编程任务。</li>
+<li>通过编写小程序、参与开源项目等方式，将所学知识应用于实践中。</li>
+<li>主动向他人展示自己的作品，寻求反馈和建议，不断优化自己的编程技能。</li>
+</ul>
+</li>
+<li>
+<p><strong>提升阅读能力</strong>：</p>
+<ul>
+<li>假设你想提升自己的阅读能力。</li>
+<li>你可以从阅读自己感兴趣的书籍开始，选择一本适合自己的阅读难度。</li>
+<li>每天安排一定的时间进行阅读，逐步增加阅读量和阅读难度。</li>
+<li>通过写读书笔记、分享阅读心得等方式，加深对书籍内容的理解和记忆。</li>
+<li>参加阅读俱乐部或线上阅读社群，与他人交流阅读体验，获取更多的阅读资源和建议。</li>
+</ul>
+</li>
+<li>
+<p><strong>锻炼身体</strong>：</p>
+<ul>
+<li>假设你想通过锻炼来改善身体状况。</li>
+<li>你可以从简单的运动开始，如慢跑、瑜伽等。</li>
+<li>每天安排一定的时间进行锻炼，逐步增加运动强度和时间。</li>
+<li>通过记录运动数据、观察身体变化等方式，监测自己的锻炼效果。</li>
+<li>参加运动社群或加入健身房，与他人分享运动经验，获取更多的锻炼建议。</li>
+</ul>
+</li>
+</ol>
+<p>在实施舒适区边缘策略时，关键是要找到适合自己的“度”。这个“度”既不会让自己感到过于轻松无聊，也不会让自己感到过于困难而沮丧。通过持续的努力和不断的调整，我们可以在舒适区边缘实现自我突破和成长。</p>
+]]></content>
+    <category term="心理学"/>
+    <published>2025-03-07T06:05:23.000Z</published>
+  </entry>
+  <entry>
     <title type="text">Prompt越狱手册</title>
     <id>https://youze27.github.io/blog/other/Prompt%E8%B6%8A%E7%8B%B1%E6%89%8B%E5%86%8C.html</id>
     <link href="https://youze27.github.io/blog/other/Prompt%E8%B6%8A%E7%8B%B1%E6%89%8B%E5%86%8C.html"/>
-    <updated>2025-03-04T09:59:55.000Z</updated>
+    <updated>2025-03-07T06:05:23.000Z</updated>
     <summary type="html"><![CDATA[
-<h1>Prompt越狱手册</h1>
 <h2>目录</h2>
 <p><a href="#Prompt%E8%B6%8A%E7%8B%B1%E6%89%8B%E5%86%8C">Prompt越狱手册</a></p>
 <ul>
-<li><a href="#prompt%E8%B6%8A%E7%8B%B1%E6%89%8B%E5%86%8C">Prompt越狱手册</a></li>
-<li><a href="#prompt%E8%B6%8A%E7%8B%B1%E6%89%8B%E5%86%8C-1">Prompt越狱手册</a>
+<li><a href="#prompt%E8%B6%8A%E7%8B%B1%E6%89%8B%E5%86%8C">Prompt越狱手册</a>
 <ul>
 <li><a href="#%E7%9B%AE%E5%BD%95">目录</a></li>
 <li><a href="#%E4%BB%80%E4%B9%88%E6%98%AFprompt">什么是Prompt？</a></li>
@@ -205,12 +799,10 @@
 </li>
 </ul>]]></summary>
     <content type="html"><![CDATA[
-<h1>Prompt越狱手册</h1>
 <h2>目录</h2>
 <p><a href="#Prompt%E8%B6%8A%E7%8B%B1%E6%89%8B%E5%86%8C">Prompt越狱手册</a></p>
 <ul>
-<li><a href="#prompt%E8%B6%8A%E7%8B%B1%E6%89%8B%E5%86%8C">Prompt越狱手册</a></li>
-<li><a href="#prompt%E8%B6%8A%E7%8B%B1%E6%89%8B%E5%86%8C-1">Prompt越狱手册</a>
+<li><a href="#prompt%E8%B6%8A%E7%8B%B1%E6%89%8B%E5%86%8C">Prompt越狱手册</a>
 <ul>
 <li><a href="#%E7%9B%AE%E5%BD%95">目录</a></li>
 <li><a href="#%E4%BB%80%E4%B9%88%E6%98%AFprompt">什么是Prompt？</a></li>
@@ -414,13 +1006,14 @@
 <p>|优点|描述|<br>
 |</p>
 ]]></content>
+    <category term="AI"/>
     <published>2025-03-04T09:59:55.000Z</published>
   </entry>
   <entry>
     <title type="text">其他</title>
     <id>https://youze27.github.io/blog/other/</id>
     <link href="https://youze27.github.io/blog/other/"/>
-    <updated>2025-03-02T07:25:49.000Z</updated>
+    <updated>2025-03-07T06:05:23.000Z</updated>
     <published>2025-03-02T05:52:48.000Z</published>
   </entry>
   <entry>
@@ -488,8 +1081,8 @@
     <title type="text">deepseek使用指南 清华大学</title>
     <id>https://youze27.github.io/blog/other/deepseek%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97%20%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6.html</id>
     <link href="https://youze27.github.io/blog/other/deepseek%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97%20%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6.html"/>
-    <updated>2025-03-02T05:52:48.000Z</updated>
-    <summary type="html"><![CDATA[
+    <updated>2025-03-07T06:05:23.000Z</updated>
+    <summary type="html"><![CDATA[<p>​​</p>
 <p>​​</p>
 <p>​​</p>
 <p>​​</p>
@@ -519,9 +1112,8 @@
 <p>​​</p>
 <p>​​</p>
 <p>​​</p>
-<p>​​</p>]]></summary>
-    <content type="html"><![CDATA[
-<p>​​</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>​​</p>
 <p>​​</p>
 <p>​​</p>
 <p>​​</p>
@@ -626,6 +1218,7 @@
 <p>​​</p>
 <p>​​</p>
 ]]></content>
+    <category term="AI"/>
     <published>2025-03-02T05:52:48.000Z</published>
   </entry>
   <entry>
