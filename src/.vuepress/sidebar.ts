@@ -12,4 +12,5 @@ export default sidebar({
   "link": "structure",
   "/job/":"structure",
   "/other/":"structure",
+  "/read/":"structure",
 });

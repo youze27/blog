@@ -9,6 +9,7 @@ export default navbar([
   "/exam/",
   "/nav",
   "/think/",
+  "/read/",
   "/other/",
   "/intro",
   "/link",

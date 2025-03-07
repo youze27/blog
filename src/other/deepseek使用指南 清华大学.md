@@ -1,5 +1,13 @@
-# deepseek使用指南 清华大学
-
+---
+title: deepseek使用指南 清华大学
+index: true
+order: 2
+isOriginal : true
+category:
+  - AI
+tag:
+  - deepseek
+---
 ​![DeepSeek从入门到精通+-+清华大学+学霸1-001](assets/DeepSeek从入门到精通+-+清华大学+学霸1-001-20250302134940-1fk0ihc.png)​
 
 ​![DeepSeek从入门到精通+-+清华大学+学霸1-002](assets/DeepSeek从入门到精通+-+清华大学+学霸1-002-20250302134941-ukcv2xt.png)​

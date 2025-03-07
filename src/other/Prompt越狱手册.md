@@ -1,5 +1,14 @@
-# Prompt越狱手册
-
+---
+title: Prompt越狱手册
+index: true
+order: 3
+isOriginal : true
+category:
+  - AI
+tag:
+  - Prompt
+  - AI越狱
+---
 # Prompt越狱手册
 
 ## 目录
@@ -7,7 +16,6 @@
 [Prompt越狱手册](#Prompt越狱手册)
 
 - [Prompt越狱手册](#prompt越狱手册)
-- [Prompt越狱手册](#prompt越狱手册-1)
   - [目录](#目录)
   - [什么是Prompt？](#什么是prompt)
   - [Prompt构建的思维模式](#prompt构建的思维模式)
