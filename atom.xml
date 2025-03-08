@@ -4,24 +4,1003 @@
   <title>卷卷</title>
   <subtitle>网络安全知识库</subtitle>
   <icon>https://youze27.github.io/blog/assets/favicon.ico</icon>
-  <updated>2025-03-07T06:21:58.926Z</updated>
+  <updated>2025-03-08T14:41:01.509Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://youze27.github.io/blog/atom.xml"/>
   <link rel="alternate" href="https://youze27.github.io/blog/"/>
+  <category term="python"/>
+  <category term="计网基础"/>
+  <category term="学习路线"/>
   <category term="软考"/>
   <category term="markdown"/>
   <category term="心理学"/>
   <category term="AI"/>
   <category term="其他"/>
   <category term="渗透测试"/>
-  <category term="计网基础"/>
   <category term="应急响应"/>
   <category term="信息收集"/>
+  <entry>
+    <title type="text">python高级特性_1</title>
+    <id>https://youze27.github.io/blog/net/Advanced_1.html</id>
+    <link href="https://youze27.github.io/blog/net/Advanced_1.html"/>
+    <updated>2025-03-08T14:39:26.000Z</updated>
+    <summary type="html"><![CDATA[<h4>1.面向对象</h4>
+<div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" data-title="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">from</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> types </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">import</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> new_class</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">class</span><span style="--shiki-light:#C18401;--shiki-dark:#E5C07B"> Student</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    student_num </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 0</span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">  # 在类下面定义的变量为类变量</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">    def</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> __init__</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#986801;--shiki-light-font-style:inherit;--shiki-dark:#E5C07B;--shiki-dark-font-style:italic">self</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-light-font-style:inherit;--shiki-dark:#D19A66;--shiki-dark-font-style:italic">name</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-light-font-style:inherit;--shiki-dark:#D19A66;--shiki-dark-font-style:italic">sex</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">):  </span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">#构造方法，也就是构造函数，是用来初始化对象的。在构造函数中定义的变量，通常指的是在构造函数内部声明的变量</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E5C07B">        self</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.name </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> name</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E5C07B">        self</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.sex </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> sex</span></span>
+<span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">        # self.student_num += 1</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">        Student.student_num </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">+=</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 1</span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"> #通过类名来访问，每创建一个学生，学生数量+1</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">    @</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">classmethod</span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"> #类方法使用使用装饰器classmethod</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">    def</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF"> add_student</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#986801;--shiki-light-font-style:inherit;--shiki-dark:#E5C07B;--shiki-dark-font-style:italic">cls</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-light-font-style:inherit;--shiki-dark:#D19A66;--shiki-dark-font-style:italic">add_num</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">):  </span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"># 类方法的第一个参数需要类本身,可以访问到类方法类变量</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E5C07B">        cls</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.student_num </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">+=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> add_num</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">    @</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">classmethod</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">    def</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF"> from_string</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#986801;--shiki-light-font-style:inherit;--shiki-dark:#E5C07B;--shiki-dark-font-style:italic">cls</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-light-font-style:inherit;--shiki-dark:#D19A66;--shiki-dark-font-style:italic">info</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">):  </span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"># 使用类方法代替构造方法是一种常用的方法</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">        name,sex </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> info.</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">split</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">' '</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">        return</span><span style="--shiki-light:#E45649;--shiki-dark:#E5C07B"> cls</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(name,sex)</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">    @</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">staticmethod</span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"> # 静态方法 寄宿在类里不能访问类里的内容，但需要在类里面</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">    def</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF"> name_len</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#986801;--shiki-light-font-style:inherit;--shiki-dark:#D19A66;--shiki-dark-font-style:italic">name</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">):</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">        return</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> len</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(name)</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">s1 </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">  Student</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'Qiqi'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'Female'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">s2 </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> Student.</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">from_string</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'Qiqi Female'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)</span></span>
+<span class="line"><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">print</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">f</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'Student.student_num:</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">{</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">Student.student_num</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">}</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)</span></span>
+<span class="line"><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">print</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">f</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'s1.student_num:</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">{</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">s1.student_num</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">}</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)</span></span>
+<span class="line"><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">print</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">f</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'s2.name:</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">{</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">s2.name</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">}</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">,s2.name.len:</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">{</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">Student.</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">name_len</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(s2.name)</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">}</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></summary>
+    <content type="html"><![CDATA[<h4>1.面向对象</h4>
+<div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" data-title="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">from</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> types </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">import</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> new_class</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">class</span><span style="--shiki-light:#C18401;--shiki-dark:#E5C07B"> Student</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    student_num </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 0</span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">  # 在类下面定义的变量为类变量</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">    def</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> __init__</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#986801;--shiki-light-font-style:inherit;--shiki-dark:#E5C07B;--shiki-dark-font-style:italic">self</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-light-font-style:inherit;--shiki-dark:#D19A66;--shiki-dark-font-style:italic">name</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-light-font-style:inherit;--shiki-dark:#D19A66;--shiki-dark-font-style:italic">sex</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">):  </span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">#构造方法，也就是构造函数，是用来初始化对象的。在构造函数中定义的变量，通常指的是在构造函数内部声明的变量</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E5C07B">        self</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.name </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> name</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E5C07B">        self</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.sex </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> sex</span></span>
+<span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">        # self.student_num += 1</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">        Student.student_num </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">+=</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 1</span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"> #通过类名来访问，每创建一个学生，学生数量+1</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">    @</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">classmethod</span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"> #类方法使用使用装饰器classmethod</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">    def</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF"> add_student</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#986801;--shiki-light-font-style:inherit;--shiki-dark:#E5C07B;--shiki-dark-font-style:italic">cls</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-light-font-style:inherit;--shiki-dark:#D19A66;--shiki-dark-font-style:italic">add_num</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">):  </span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"># 类方法的第一个参数需要类本身,可以访问到类方法类变量</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E5C07B">        cls</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.student_num </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">+=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> add_num</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">    @</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">classmethod</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">    def</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF"> from_string</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#986801;--shiki-light-font-style:inherit;--shiki-dark:#E5C07B;--shiki-dark-font-style:italic">cls</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-light-font-style:inherit;--shiki-dark:#D19A66;--shiki-dark-font-style:italic">info</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">):  </span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"># 使用类方法代替构造方法是一种常用的方法</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">        name,sex </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> info.</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">split</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">' '</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">        return</span><span style="--shiki-light:#E45649;--shiki-dark:#E5C07B"> cls</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(name,sex)</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">    @</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">staticmethod</span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"> # 静态方法 寄宿在类里不能访问类里的内容，但需要在类里面</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">    def</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF"> name_len</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#986801;--shiki-light-font-style:inherit;--shiki-dark:#D19A66;--shiki-dark-font-style:italic">name</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">):</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">        return</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> len</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(name)</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">s1 </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">  Student</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'Qiqi'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'Female'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">s2 </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> Student.</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">from_string</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'Qiqi Female'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)</span></span>
+<span class="line"><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">print</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">f</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'Student.student_num:</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">{</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">Student.student_num</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">}</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)</span></span>
+<span class="line"><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">print</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">f</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'s1.student_num:</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">{</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">s1.student_num</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">}</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)</span></span>
+<span class="line"><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">print</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">f</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'s2.name:</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">{</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">s2.name</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">}</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">,s2.name.len:</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">{</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">Student.</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">name_len</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(s2.name)</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">}</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><pre><code>Student.student_num:2
+s1.student_num:2
+s2.name:Qiqi,s2.name.len:4
+</code></pre>
+<h4>局部变量的特性：</h4>
+<p>作用域：仅在该构造方法内部有效，无法被类中的其他方法访问。<br>
+生命周期：随着构造方法的调用而创建，方法执行结束后自动销毁。<br>
+存储位置：存放在栈内存中。</p>
+<h4>与成员变量的核心区别：</h4>
+<p>成员变量在类中声明（类体内部、方法外部），作用域覆盖整个类。<br>
+局部变量在方法（含构造方法）内部声明，仅限方法内使用。</p>
+<h4>2.推导式</h4>
+<p>是一种简洁的语法结构，用于快速创建列表、字典、集合等数据结构。推导式通过一行代码即可生成新的序列，避免了显式的循环和条件判断，使代码更加简洁易读。</p>
+<div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" data-title="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"># 例一：常规方法复制一个列表</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">nums </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> [</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">2</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">3</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">4</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">5</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">6</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">7</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">8</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">9</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">]</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">my_list </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> []</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">for</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> i </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">in</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> nums:</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    my_list.</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">append</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(i)</span></span>
+<span class="line"><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">print</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(my_list)</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><pre><code>[1, 2, 3, 4, 5, 6, 7, 8, 9]
+</code></pre>
+<div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" data-title="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"># 例一：推导式复制一个列表</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">my_list </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> [i </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">for</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> i </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">in</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> nums]</span></span>
+<span class="line"><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">print</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(my_list)</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><pre><code>[1, 2, 3, 4, 5, 6, 7, 8, 9]
+</code></pre>
+<div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" data-title="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"># 例二：常规方法计算一个列表</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">nums </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> [</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">2</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">3</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">4</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">5</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">6</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">7</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">8</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">9</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">]</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">my_list </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> []</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">for</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> i </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">in</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> nums:</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    my_list.</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">append</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(i</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">**</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">2</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)</span></span>
+<span class="line"><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">print</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(my_list)</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><pre><code>[1, 4, 9, 16, 25, 36, 49, 64, 81]
+</code></pre>
+<div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" data-title="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"># 例二：推导式计算一个列表</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">my_list </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> [i</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">**</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">2</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD"> for</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> i </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">in</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> nums]</span></span>
+<span class="line"><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">print</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(my_list)</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><pre><code>[1, 4, 9, 16, 25, 36, 49, 64, 81]
+</code></pre>
+<div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" data-title="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"># 例三：常规方法计算一个列表偶数的平方</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">nums </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> [</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">2</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">3</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">4</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">5</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">6</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">7</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">8</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">9</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">]</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">my_list </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> []</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">for</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> i </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">in</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> nums:</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">    if</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> i </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">%</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 2</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> ==</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 0</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">        my_list.</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">append</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(i</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">**</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">2</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)</span></span>
+<span class="line"><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">print</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(my_list)</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><pre><code>[4, 16, 36, 64]
+</code></pre>
+<div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" data-title="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"># 例三：推导式计算一个列表偶数的平方</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">my_list </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> [i</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">**</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">2</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD"> for</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> i </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">in</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> nums </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">if</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> i </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">%</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 2</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> ==</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 0</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">]  </span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"># 这里是先 for 后 条件</span></span>
+<span class="line"><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">print</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(my_list)</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><pre><code>[4, 16, 36, 64]
+</code></pre>
+<div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" data-title="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"># 例四：常规方法计算一个列表偶数的平方奇数的立方</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">nums </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> [</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">2</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">3</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">4</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">5</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">6</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">7</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">8</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">9</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">]</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">my_list </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> []</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">for</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> i </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">in</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> nums:</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">    if</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> i </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">%</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 2</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> ==</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 0</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">        my_list.</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">append</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(i</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">**</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">2</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">    else</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">        my_list.</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">append</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(i</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">**</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">3</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)</span></span>
+<span class="line"><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">print</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(my_list)</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><pre><code>[1, 4, 27, 16, 125, 36, 343, 64, 729]
+</code></pre>
+<div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" data-title="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"># 例四：推导式计算一个列表偶数的平方奇数的立方</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">my_list </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> [i</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">**</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">2</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD"> if</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> i </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">%</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 2</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> ==</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 0</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD"> else</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> i</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">**</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">3</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD"> for</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> i </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">in</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> nums]  </span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"># 注意：这里变成了先条件后for</span></span>
+<span class="line"><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">print</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(my_list)</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><pre><code>[1, 4, 27, 16, 125, 36, 343, 64, 729]
+</code></pre>
+<div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" data-title="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"># 例五：常规方法创建字典</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">nums </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> [</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">2</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">3</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">4</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">5</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">6</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">7</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">8</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">9</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">]</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">letters </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> [</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'a'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'b'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'c'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'d'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'e'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'f'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'g'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'h'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'i'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">my_dict </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> {}</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">for</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> i,j </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">in</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> zip</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(nums,letters):  </span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"># zip 函数将 nums 和 letters 中的元素一一配对，生成一个可迭代的 zip 对象。</span></span>
+<span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">    # 例如，zip(nums, letters) 的结果类似于 [(1, 'a'), (2, 'b'), (3, 'c'), ...]。</span></span>
+<span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">    # 使用 for 循环遍历 zip 对象，每次取出一个元组 (i, j)，其中 i 是 nums 中的元素，j 是 letters 中的元素。</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    my_dict[i] </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> j  </span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"># 将 i 作为键，j 作为值，存入字典 my_dict 中。</span></span>
+<span class="line"><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">print</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(my_dict)</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><pre><code>{1: 'a', 2: 'b', 3: 'c', 4: 'd', 5: 'e', 6: 'f', 7: 'g', 8: 'h', 9: 'i'}
+</code></pre>
+<div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" data-title="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"># 例五：推导式法创建字典</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">my_dict </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> {i:j </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">for</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> i,j </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">in</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> zip</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(nums,letters)}</span></span>
+<span class="line"><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">print</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(my_dict)</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><pre><code>{1: 'a', 2: 'b', 3: 'c', 4: 'd', 5: 'e', 6: 'f', 7: 'g', 8: 'h', 9: 'i'}
+</code></pre>
+<div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" data-title="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"># 例六：常规方法创建集合</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">l </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> [</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">2</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">3</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">4</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">5</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">6</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">7</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">8</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">9</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">]</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">my_set </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> set</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">()  </span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">#创建一个空集合</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">for</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> i </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">in</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> l:</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    my_set.</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">add</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(i)  </span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">#将元素 i 添加到集合 my_set 中。如果元素已经存在，集合不会重复添加（因为集合中的元素是唯一的）。</span></span>
+<span class="line"><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">print</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(my_set)</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><pre><code>{1, 2, 3, 4, 5, 6, 7, 8, 9}
+</code></pre>
+<div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" data-title="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"># 例六：推导式方法创建集合</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">my_set </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> {i </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">for</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> i </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">in</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> l}</span></span>
+<span class="line"><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">print</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(my_set)</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><pre><code>{1, 2, 3, 4, 5, 6, 7, 8, 9}
+</code></pre>
+<h4>3.生成器</h4>
+<p>生成器是一种特殊的迭代器，它通过 惰性计算 的方式生成值，而不是一次性将所有值存储在内存中。生成器使用 yield 关键字来返回值，并在每次调用时从上次暂停的地方继续执行。</p>
+<ul>
+<li><strong>生成器适合处理大量数据，因为它不会一次性将所有数据加载到内存中。</strong></li>
+<li>生成器是一次性的，遍历结束后无法再次使用。</li>
+<li>生成器不能通过索引访问元素，只能顺序遍历。</li>
+</ul>
+<div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" data-title="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"># 1.使用生成器函数</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">def</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF"> my_generator</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">():</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">    yield</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 1</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">    yield</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 2</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">    yield</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 3</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">gen </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF"> my_generator</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">()  </span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"># 生成器函数是一个包含 yield 关键字的函数。调用生成器函数时，它不会立即执行，而是返回一个生成器对象。</span></span>
+<span class="line"><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">print</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">next</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(gen))  </span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"># 输出: 1</span></span>
+<span class="line"><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">print</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">next</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(gen))  </span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"># 输出: 2</span></span>
+<span class="line"><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">print</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">next</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(gen))  </span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"># 输出: 3</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><pre><code>1
+2
+3
+</code></pre>
+<div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" data-title="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">#2. 使用生成器推导式</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">gen </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> (x</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">**</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">2</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD"> for</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> x </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">in</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> range</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">5</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">))  </span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">#生成器表达式类似于列表推导式，但使用圆括号 () 而不是方括号 []。</span></span>
+<span class="line"><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">print</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(gen)</span></span>
+<span class="line"><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">print</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">next</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(gen))  </span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"># 输出: 0</span></span>
+<span class="line"><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">print</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">next</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(gen))  </span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"># 输出: 1</span></span>
+<span class="line"><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">print</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">next</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(gen))  </span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"># 输出: 4</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><pre><code>&lt;generator object &lt;genexpr&gt; at 0x00000230FC54F5E0&gt;
+0
+1
+4
+</code></pre>
+<p>生成器vs列表<br>
+|特性	|生成器	|列表|<br>
+|:</p>
+]]></content>
+    <category term="python"/>
+    <published>2025-03-08T14:39:26.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">常用的shell脚本</title>
+    <id>https://youze27.github.io/blog/net/LInuxm%E5%91%BD%E4%BB%A4%E6%80%BB%E7%BB%93.html</id>
+    <link href="https://youze27.github.io/blog/net/LInuxm%E5%91%BD%E4%BB%A4%E6%80%BB%E7%BB%93.html"/>
+    <updated>2025-03-08T14:39:26.000Z</updated>
+    <summary type="html"><![CDATA[<h4>⌨️ <code>Linux 命令</code></h4>
+<blockquote>
+<p>学习shell的第一步：当然是从Linux命令入手了。</p>
+</blockquote>
+<p>⭐常用 150 个Linux命令⭐</p>
+<table>
+<thead>
+<tr>
+<th>命令</th>
+<th>功能说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>线上查询及帮助命令 (2 个)</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>man</td>
+<td>查看命令帮助，命令的词典，更复杂的还有 info，但不常用。</td>
+</tr>
+<tr>
+<td>help</td>
+<td>查看 Linux 内置命令的帮助，比如 cd 命令。</td>
+</tr>
+<tr>
+<td><strong>文件和目录操作命令 (18 个)</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>ls</td>
+<td>全拼 list，功能是列出目录的内容及其内容属性信息。</td>
+</tr>
+<tr>
+<td>cd</td>
+<td>全拼 change directory，功能是从当前工作目录切换到指定的工作目录。</td>
+</tr>
+<tr>
+<td>cp</td>
+<td>全拼 copy，其功能为复制文件或目录。</td>
+</tr>
+<tr>
+<td>find</td>
+<td>查找的意思，用于查找目录及目录下的文件。</td>
+</tr>
+<tr>
+<td>mkdir</td>
+<td>全拼 make directories，其功能是创建目录。</td>
+</tr>
+<tr>
+<td>mv</td>
+<td>全拼 move，其功能是移动或重命名文件。</td>
+</tr>
+<tr>
+<td>pwd</td>
+<td>全拼 print working directory，其功能是显示当前工作目录的绝对路径。</td>
+</tr>
+<tr>
+<td>rename</td>
+<td>用于重命名文件。</td>
+</tr>
+<tr>
+<td>rm</td>
+<td>全拼 remove，其功能是删除一个或多个文件或目录。</td>
+</tr>
+<tr>
+<td>rmdir</td>
+<td>全拼 remove empty directories，功能是删除空目录。</td>
+</tr>
+<tr>
+<td>touch</td>
+<td>创建新的空文件，改变已有文件的时间戳属性。</td>
+</tr>
+<tr>
+<td>tree</td>
+<td>功能是以树形结构显示目录下的内容。</td>
+</tr>
+<tr>
+<td>basename</td>
+<td>显示文件名或目录名。</td>
+</tr>
+<tr>
+<td>dirname</td>
+<td>显示文件或目录路径。</td>
+</tr>
+<tr>
+<td>chattr</td>
+<td>改变文件的扩展属性。</td>
+</tr>
+<tr>
+<td>lsattr</td>
+<td>查看文件扩展属性。</td>
+</tr>
+<tr>
+<td>file</td>
+<td>显示文件的类型。</td>
+</tr>
+<tr>
+<td>md5sum</td>
+<td>计算和校验文件的 MD5 值。</td>
+</tr>
+<tr>
+<td><strong>查看文件及内容处理命令（21 个）</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>cat</td>
+<td>全拼 concatenate，功能是用于连接多个文件并且打印到屏幕输出或重定向到指定文件中。</td>
+</tr>
+<tr>
+<td>tac</td>
+<td>tac 是 cat 的反向拼写，因此命令的功能为反向显示文件内容。</td>
+</tr>
+<tr>
+<td>more</td>
+<td>分页显示文件内容。</td>
+</tr>
+<tr>
+<td>less</td>
+<td>分页显示文件内容，more 命令的相反用法。</td>
+</tr>
+<tr>
+<td>head</td>
+<td>显示文件内容的头部。</td>
+</tr>
+<tr>
+<td>tail</td>
+<td>显示文件内容的尾部。</td>
+</tr>
+<tr>
+<td>cut</td>
+<td>将文件的每一行按指定分隔符分割并输出。</td>
+</tr>
+<tr>
+<td>split</td>
+<td>分割文件为不同的小片段。</td>
+</tr>
+<tr>
+<td>paste</td>
+<td>按行合并文件内容。</td>
+</tr>
+<tr>
+<td>sort</td>
+<td>对文件的文本内容排序。</td>
+</tr>
+<tr>
+<td>uniq</td>
+<td>去除重复行。oldboy</td>
+</tr>
+<tr>
+<td>wc</td>
+<td>统计文件的行数、单词数或字节数。</td>
+</tr>
+<tr>
+<td>iconv</td>
+<td>转换文件的编码格式。</td>
+</tr>
+<tr>
+<td>dos2unix</td>
+<td>将 DOS 格式文件转换成 UNIX 格式。</td>
+</tr>
+<tr>
+<td>diff</td>
+<td>全拼 difference，比较文件的差异，常用于文本文件。</td>
+</tr>
+<tr>
+<td>vimdiff</td>
+<td>命令行可视化文件比较工具，常用于文本文件。</td>
+</tr>
+<tr>
+<td>rev</td>
+<td>反向输出文件内容。</td>
+</tr>
+<tr>
+<td>grep/egrep</td>
+<td>过滤字符串，三剑客老三。</td>
+</tr>
+<tr>
+<td>join</td>
+<td>按两个文件的相同字段合并。</td>
+</tr>
+<tr>
+<td>tr</td>
+<td>替换或删除字符。</td>
+</tr>
+<tr>
+<td>vi/vim</td>
+<td>命令行文本编辑器。</td>
+</tr>
+<tr>
+<td><strong>文件压缩及解压缩命令（4 个）</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>tar</td>
+<td>打包压缩。oldboy</td>
+</tr>
+<tr>
+<td>unzip</td>
+<td>解压文件。</td>
+</tr>
+<tr>
+<td>gzip</td>
+<td>gzip 压缩工具。</td>
+</tr>
+<tr>
+<td>zip</td>
+<td>压缩工具。</td>
+</tr>
+<tr>
+<td><strong>信息显示命令（11 个）</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>uname</td>
+<td>显示操作系统相关信息的命令。</td>
+</tr>
+<tr>
+<td>hostname</td>
+<td>显示或者设置当前系统的主机名。</td>
+</tr>
+<tr>
+<td>dmesg</td>
+<td>显示开机信息，用于诊断系统故障。</td>
+</tr>
+<tr>
+<td>uptime</td>
+<td>显示系统运行时间及负载。</td>
+</tr>
+<tr>
+<td>stat</td>
+<td>显示文件或文件系统的状态。</td>
+</tr>
+<tr>
+<td>du</td>
+<td>计算磁盘空间使用情况。</td>
+</tr>
+<tr>
+<td>df</td>
+<td>报告文件系统磁盘空间的使用情况。</td>
+</tr>
+<tr>
+<td>top</td>
+<td>实时显示系统资源使用情况。</td>
+</tr>
+<tr>
+<td>free</td>
+<td>查看系统内存。</td>
+</tr>
+<tr>
+<td>date</td>
+<td>显示与设置系统时间。</td>
+</tr>
+<tr>
+<td>cal</td>
+<td>查看日历等时间信息。</td>
+</tr>
+<tr>
+<td><strong>搜索文件命令（4 个）</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>which</td>
+<td>查找二进制命令，按环境变量 PATH 路径查找。</td>
+</tr>
+<tr>
+<td>find</td>
+<td>从磁盘遍历查找文件或目录。</td>
+</tr>
+<tr>
+<td>whereis</td>
+<td>查找二进制命令，按环境变量 PATH 路径查找。</td>
+</tr>
+<tr>
+<td>locate</td>
+<td>从数据库 (/var/lib/mlocate/mlocate.db) 查找命令，使用 updatedb 更新库。</td>
+</tr>
+<tr>
+<td><strong>用户管理命令（10 个）</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>useradd</td>
+<td>添加用户。</td>
+</tr>
+<tr>
+<td>usermod</td>
+<td>修改系统已经存在的用户属性。</td>
+</tr>
+<tr>
+<td>userdel</td>
+<td>删除用户。</td>
+</tr>
+<tr>
+<td>groupadd</td>
+<td>添加用户组。</td>
+</tr>
+<tr>
+<td>passwd</td>
+<td>修改用户密码。</td>
+</tr>
+<tr>
+<td>chage</td>
+<td>修改用户密码有效期限。</td>
+</tr>
+<tr>
+<td>id</td>
+<td>查看用户的 uid,gid 及归属的用户组。</td>
+</tr>
+<tr>
+<td>su</td>
+<td>切换用户身份。</td>
+</tr>
+<tr>
+<td>visudo</td>
+<td>编辑 / etc/sudoers 文件的专属命令。</td>
+</tr>
+<tr>
+<td>sudo</td>
+<td>以另外一个用户身份（默认 root 用户）执行事先在 sudoers 文件允许的命令。</td>
+</tr>
+<tr>
+<td><strong>基础网络操作命令（11 个）</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>telnet</td>
+<td>使用 TELNET 协议远程登录。</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td>使用 SSH 加密协议远程登录。</td>
+</tr>
+<tr>
+<td>scp</td>
+<td>全拼 secure copy，用于不同主机之间复制文件。</td>
+</tr>
+<tr>
+<td>wget</td>
+<td>命令行下载文件。</td>
+</tr>
+<tr>
+<td>ping</td>
+<td>测试主机之间网络的连通性。</td>
+</tr>
+<tr>
+<td>route</td>
+<td>显示和设置 linux 系统的路由表。</td>
+</tr>
+<tr>
+<td>ifconfig</td>
+<td>查看、配置、启用或禁用网络接口的命令。</td>
+</tr>
+<tr>
+<td>ifup</td>
+<td>启动网卡。</td>
+</tr>
+<tr>
+<td>ifdown</td>
+<td>关闭网卡。</td>
+</tr>
+<tr>
+<td>netstat</td>
+<td>查看网络状态。</td>
+</tr>
+<tr>
+<td>ss</td>
+<td>查看网络状态。</td>
+</tr>
+<tr>
+<td><strong>深入网络操作命令（9 个）</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>nmap</td>
+<td>网络扫描命令。</td>
+</tr>
+<tr>
+<td>lsof</td>
+<td>全名 list open files，也就是列举系统中已经被打开的文件。</td>
+</tr>
+<tr>
+<td>mail</td>
+<td>发送和接收邮件。</td>
+</tr>
+<tr>
+<td>mutt</td>
+<td>邮件管理命令。</td>
+</tr>
+<tr>
+<td>nslookup</td>
+<td>交互式查询互联网 DNS 服务器的命令。</td>
+</tr>
+<tr>
+<td>dig</td>
+<td>查找 DNS 解析过程。</td>
+</tr>
+<tr>
+<td>host</td>
+<td>查询 DNS 的命令。</td>
+</tr>
+<tr>
+<td>traceroute</td>
+<td>追踪数据传输路由状况。</td>
+</tr>
+<tr>
+<td>tcpdump</td>
+<td>命令行的抓包工具。</td>
+</tr>
+<tr>
+<td><strong>有关磁盘与文件系统的命令（16 个）</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>mount</td>
+<td>挂载文件系统。</td>
+</tr>
+<tr>
+<td>umount</td>
+<td>卸载文件系统。</td>
+</tr>
+<tr>
+<td>fsck</td>
+<td>检查并修复 Linux 文件系统。</td>
+</tr>
+<tr>
+<td>dd</td>
+<td>转换或复制文件。</td>
+</tr>
+<tr>
+<td>dumpe2fs</td>
+<td>导出 ext2/ext3/ext4 文件系统信息。</td>
+</tr>
+<tr>
+<td>dump</td>
+<td>ext2/3/4 文件系统备份工具。</td>
+</tr>
+<tr>
+<td>fdisk</td>
+<td>磁盘分区命令，适用于 2TB 以下磁盘分区。</td>
+</tr>
+<tr>
+<td>parted</td>
+<td>磁盘分区命令，没有磁盘大小限制，常用于 2TB 以下磁盘分区。</td>
+</tr>
+<tr>
+<td>mkfs</td>
+<td>格式化创建 Linux 文件系统。</td>
+</tr>
+<tr>
+<td>partprobe</td>
+<td>更新内核的硬盘分区表信息。</td>
+</tr>
+<tr>
+<td>e2fsck</td>
+<td>检查 ext2/ext3/ext4 类型文件系统。</td>
+</tr>
+<tr>
+<td>mkswap</td>
+<td>创建 Linux 交换分区。</td>
+</tr>
+<tr>
+<td>swapon</td>
+<td>启用交换分区。</td>
+</tr>
+<tr>
+<td>swapoff</td>
+<td>关闭交换分区。</td>
+</tr>
+<tr>
+<td>sync</td>
+<td>将内存缓冲区内的数据写入磁盘。</td>
+</tr>
+<tr>
+<td>resize2fs</td>
+<td>调整 ext2/ext3/ext4 文件系统大小。</td>
+</tr>
+<tr>
+<td><strong>系统权限及用户授权相关命令（4 个）</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>chmod</td>
+<td>改变文件或目录权限。</td>
+</tr>
+<tr>
+<td>chown</td>
+<td>改变文件或目录的属主和属组。</td>
+</tr>
+<tr>
+<td>chgrp</td>
+<td>更改文件用户组。</td>
+</tr>
+<tr>
+<td>umask</td>
+<td>显示或设置权限掩码。</td>
+</tr>
+<tr>
+<td><strong>查看系统用户登陆信息的命令（7 个）</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>whoami</td>
+<td>显示当前有效的用户名称，相当于执行 id -un 命令。</td>
+</tr>
+<tr>
+<td>who</td>
+<td>显示目前登录系统的用户信息。</td>
+</tr>
+<tr>
+<td>w</td>
+<td>显示已经登陆系统的用户列表，并显示用户正在执行的指令。</td>
+</tr>
+<tr>
+<td>last</td>
+<td>显示登入系统的用户。</td>
+</tr>
+<tr>
+<td>lastlog</td>
+<td>显示系统中所有用户最近一次登录信息。</td>
+</tr>
+<tr>
+<td>users</td>
+<td>显示当前登录系统的所有用户的用户列表。</td>
+</tr>
+<tr>
+<td>finger</td>
+<td>查找并显示用户信息。</td>
+</tr>
+<tr>
+<td><strong>内置命令及其它（19 个）</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>echo</td>
+<td>打印变量，或直接输出指定的字符串</td>
+</tr>
+<tr>
+<td>printf</td>
+<td>将结果格式化输出到标准输出。</td>
+</tr>
+<tr>
+<td>rpm</td>
+<td>管理 rpm 包的命令。</td>
+</tr>
+<tr>
+<td>yum</td>
+<td>自动化简单化地管理 rpm 包的命令。</td>
+</tr>
+<tr>
+<td>watch</td>
+<td>周期性的执行给定的命令，并将命令的输出以全屏方式显示。</td>
+</tr>
+<tr>
+<td>alias</td>
+<td>设置系统别名。</td>
+</tr>
+<tr>
+<td>unalias</td>
+<td>取消系统别名。</td>
+</tr>
+<tr>
+<td>date</td>
+<td>查看或设置系统时间。</td>
+</tr>
+<tr>
+<td>clear</td>
+<td>清除屏幕，简称清屏。</td>
+</tr>
+<tr>
+<td>history</td>
+<td>查看命令执行的历史纪录。</td>
+</tr>
+<tr>
+<td>eject</td>
+<td>弹出光驱。</td>
+</tr>
+<tr>
+<td>time</td>
+<td>计算命令执行时间。</td>
+</tr>
+<tr>
+<td>nc</td>
+<td>功能强大的网络工具。</td>
+</tr>
+<tr>
+<td>xargs</td>
+<td>将标准输入转换成命令行参数。</td>
+</tr>
+<tr>
+<td>exec</td>
+<td>调用并执行指令的命令。</td>
+</tr>
+<tr>
+<td>export</td>
+<td>设置或者显示环境变量。</td>
+</tr>
+<tr>
+<td>unset</td>
+<td>删除变量或函数。</td>
+</tr>
+<tr>
+<td>type</td>
+<td>用于判断另外一个命令是否是内置命令。</td>
+</tr>
+<tr>
+<td>bc</td>
+<td>命令行科学计算器</td>
+</tr>
+<tr>
+<td><strong>系统管理与性能监视命令 (9 个)</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>chkconfig</td>
+<td>管理 Linux 系统开机启动项。</td>
+</tr>
+<tr>
+<td>vmstat</td>
+<td>虚拟内存统计。</td>
+</tr>
+<tr>
+<td>mpstat</td>
+<td>显示各个可用 CPU 的状态统计。</td>
+</tr>
+<tr>
+<td>iostat</td>
+<td>统计系统 IO。</td>
+</tr>
+<tr>
+<td>sar</td>
+<td>全面地获取系统的 CPU、运行队列、磁盘 I/O、分页（交换区）、内存、 CPU 中断和网络等性能数据。</td>
+</tr>
+<tr>
+<td>ipcs</td>
+<td>用于报告 Linux 中进程间通信设施的状态，显示的信息包括消息列表、共享内存和信号量的信息。</td>
+</tr>
+<tr>
+<td>ipcrm</td>
+<td>用来删除一个或更多的消息队列、信号量集或者共享内存标识。</td>
+</tr>
+<tr>
+<td>strace</td>
+<td>用于诊断、调试 Linux 用户空间跟踪器。我们用它来监控用户空间进程和内核的交互，比如系统调用、信号传递、进程状态变更等。</td>
+</tr>
+<tr>
+<td>ltrace</td>
+<td>命令会跟踪进程的库函数调用, 它会显现出哪个库函数被调用。</td>
+</tr>
+<tr>
+<td><strong>关机 / 重启 / 注销和查看系统信息的命令（6 个）</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>shutdown</td>
+<td>关机。</td>
+</tr>
+<tr>
+<td>halt</td>
+<td>关机。</td>
+</tr>
+<tr>
+<td>poweroff</td>
+<td>关闭电源。</td>
+</tr>
+<tr>
+<td>logout</td>
+<td>退出当前登录的 Shell。</td>
+</tr>
+<tr>
+<td>exit</td>
+<td>退出当前登录的 Shell。</td>
+</tr>
+<tr>
+<td>Ctrl+d</td>
+<td>退出当前登录的 Shell 的快捷键。</td>
+</tr>
+<tr>
+<td><strong>进程管理相关命令（15 个）</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>bg</td>
+<td>将一个在后台暂停的命令，变成继续执行 （在后台执行）。</td>
+</tr>
+<tr>
+<td>fg</td>
+<td>将后台中的命令调至前台继续运行。</td>
+</tr>
+<tr>
+<td>jobs</td>
+<td>查看当前有多少在后台运行的命令。</td>
+</tr>
+<tr>
+<td>kill</td>
+<td>终止进程。</td>
+</tr>
+<tr>
+<td>killall</td>
+<td>通过进程名终止进程。</td>
+</tr>
+<tr>
+<td>pkill</td>
+<td>通过进程名终止进程。</td>
+</tr>
+<tr>
+<td>crontab</td>
+<td>定时任务命令。</td>
+</tr>
+<tr>
+<td>ps</td>
+<td>显示进程的快照。</td>
+</tr>
+<tr>
+<td>pstree</td>
+<td>树形显示进程。</td>
+</tr>
+<tr>
+<td>nice/renice</td>
+<td>调整程序运行的优先级。</td>
+</tr>
+<tr>
+<td>nohup</td>
+<td>忽略挂起信号运行指定的命令。</td>
+</tr>
+<tr>
+<td>pgrep</td>
+<td>查找匹配条件的进程。</td>
+</tr>
+<tr>
+<td>runlevel</td>
+<td>查看系统当前运行级别。</td>
+</tr>
+<tr>
+<td>init</td>
+<td>切换运行级别。</td>
+</tr>
+<tr>
+<td>service</td>
+<td>启动、停止、重新启动和关闭系统服务，还可以显示所有系统服务的当前状态。</td>
+</tr>
+</tbody>
+</table>]]></summary>
+    <content type="html"><![CDATA[<h4>⌨️ <code>Linux 命令</code></h4>
+<blockquote>
+<p>学习shell的第一步：当然是从Linux命令入手了。</p>
+</blockquote>
+<p>⭐常用 150 个Linux命令⭐</p>
+<p>| 命令                                               | 功能说明                                                     |<br>
+|</p>
+]]></content>
+    <category term="计网基础"/>
+    <published>2025-03-08T14:39:26.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">知道创宇技能表</title>
+    <id>https://youze27.github.io/blog/other/%E7%9F%A5%E9%81%93%E5%88%9B%E5%AE%87%E6%8A%80%E8%83%BD%E8%A1%A8.html</id>
+    <link href="https://youze27.github.io/blog/other/%E7%9F%A5%E9%81%93%E5%88%9B%E5%AE%87%E6%8A%80%E8%83%BD%E8%A1%A8.html"/>
+    <updated>2025-03-08T14:39:26.000Z</updated>
+    <summary type="html"><![CDATA[<iframe height="1000px" width="100%" frameborder="0" allowfullscreen="true" src="/blog/demo/zhidao.html">  
+ </iframe>]]></summary>
+    <content type="html"><![CDATA[<iframe height="1000px" width="100%" frameborder="0" allowfullscreen="true" src="/blog/demo/zhidao.html">  
+ </iframe>]]></content>
+    <category term="学习路线"/>
+    <published>2025-03-08T14:39:26.000Z</published>
+  </entry>
   <entry>
     <title type="text">软考笔记</title>
     <id>https://youze27.github.io/blog/exam/%E8%BD%AF%E8%80%83%E6%A6%82%E5%BF%B5.html</id>
     <link href="https://youze27.github.io/blog/exam/%E8%BD%AF%E8%80%83%E6%A6%82%E5%BF%B5.html"/>
-    <updated>2025-03-07T06:05:23.000Z</updated>
+    <updated>2025-03-08T14:39:26.000Z</updated>
     <summary type="html"><![CDATA[<h4>CMM（能力成熟度模型）</h4>
 <p>五个阶段——非正式执行、计划跟踪、充分定义、量化控制、持续优化，与常见的CMM模型中的五个等级（初始级、可重复级、已定义级、已管理级、优化级）在表述上有所不同，但本质上描述了类似的软件过程改进路径</p>
 <ul>
@@ -129,8 +1108,7 @@ Finished：客户端和服务器各自计算并发送一个Finished数据包，�
 客户端会遍历整个证书链，从服务器的证书开始，逐级向上验证每个证书的签名。<br>
 每一级证书的签名都由上一级的证书（或根证书）的公钥进行验证。<br>
 最终，如果成功验证到根证书，说明整个证书链是可信的。</p>
-<iframe height="100%" width="100%" frameborder="0" allowfullscreen="true" src="/demo/zhidao.html">  
- </iframe>]]></content>
+]]></content>
     <category term="软考"/>
     <published>2025-03-07T06:05:23.000Z</published>
   </entry>
