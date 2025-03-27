@@ -6,13 +6,13 @@
     <link>https://youze27.github.io/blog/</link>
     <description>网络安全知识库</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 13 Mar 2025 15:59:32 GMT</pubDate>
-    <lastBuildDate>Thu, 13 Mar 2025 15:59:32 GMT</lastBuildDate>
+    <pubDate>Thu, 27 Mar 2025 14:30:13 GMT</pubDate>
+    <lastBuildDate>Thu, 27 Mar 2025 14:30:13 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <category>计网基础</category>
     <category>渗透测试</category>
     <category>python</category>
-    <category>计网基础</category>
     <category>学习路线</category>
     <category>软考</category>
     <category>markdown</category>
@@ -21,6 +21,29 @@
     <category>其他</category>
     <category>应急响应</category>
     <category>信息收集</category>
+    <item>
+      <title>windows快捷命令</title>
+      <link>https://youze27.github.io/blog/net/windows%E5%BF%AB%E6%8D%B7%E5%91%BD%E4%BB%A4.html</link>
+      <guid>https://youze27.github.io/blog/net/windows%E5%BF%AB%E6%8D%B7%E5%91%BD%E4%BB%A4.html</guid>
+      <source url="https://youze27.github.io/blog/rss.xml">windows快捷命令</source>
+      <description>1. 系统管理 2. 网络工具 3. 远程维护 CMD（命令提示符）PowerShell 核心区别 ‍</description>
+      <category>计网基础</category>
+      <pubDate>Thu, 27 Mar 2025 13:55:04 GMT</pubDate>
+      <content:encoded><![CDATA[<h4><strong>1. 系统管理</strong></h4>
+<p>|命令|功能说明|示例场景|<br>
+|</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>DC-8靶机</title>
+      <link>https://youze27.github.io/blog/perm/%E9%9D%B6%E5%9C%BA/DC-8%E9%9D%B6%E6%9C%BA.html</link>
+      <guid>https://youze27.github.io/blog/perm/%E9%9D%B6%E5%9C%BA/DC-8%E9%9D%B6%E6%9C%BA.html</guid>
+      <source url="https://youze27.github.io/blog/rss.xml">DC-8靶机</source>
+      <description>DC-8靶机 title: DC-8靶机 index: true isOriginal : true category: 靶机 tag: 靶机 主机扫描使用arp-scan扫描工具 --localnet 扫描本地网络 imageimage ​.1​（通常是网关或路由器的地址）和.255​（广播地址）。而.254​ 经常被用作子网内的一个特殊设备（如DH...</description>
+      <pubDate>Thu, 27 Mar 2025 13:55:04 GMT</pubDate>
+      <content:encoded><![CDATA[
+]]></content:encoded>
+    </item>
     <item>
       <title>Metasploitable3下载与安装</title>
       <link>https://youze27.github.io/blog/perm/%E9%9D%B6%E5%9C%BA/Metasploitable3%E4%B8%8B%E8%BD%BD%E4%B8%8E%E5%AE%89%E8%A3%85.html</link>
@@ -421,10 +444,10 @@ Finished：客户端和服务器各自计算并发送一个Finished数据包，�
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div>]]></content:encoded>
     </item>
     <item>
-      <title>业外阅读</title>
+      <title>阅读</title>
       <link>https://youze27.github.io/blog/read/</link>
       <guid>https://youze27.github.io/blog/read/</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">业外阅读</source>
+      <source url="https://youze27.github.io/blog/rss.xml">阅读</source>
       <pubDate>Fri, 07 Mar 2025 06:05:23 GMT</pubDate>
     </item>
     <item>
@@ -1239,10 +1262,10 @@ Finished：客户端和服务器各自计算并发送一个Finished数据包，�
 ]]></content:encoded>
     </item>
     <item>
-      <title>软考信安</title>
+      <title>软考</title>
       <link>https://youze27.github.io/blog/exam/</link>
       <guid>https://youze27.github.io/blog/exam/</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">软考信安</source>
+      <source url="https://youze27.github.io/blog/rss.xml">软考</source>
       <pubDate>Fri, 28 Feb 2025 00:38:25 GMT</pubDate>
     </item>
     <item>

@@ -7,6 +7,30 @@
   "favicon": "https://youze27.github.io/blog/assets/favicon.ico",
   "items": [
     {
+      "title": "windows快捷命令",
+      "url": "https://youze27.github.io/blog/net/windows%E5%BF%AB%E6%8D%B7%E5%91%BD%E4%BB%A4.html",
+      "id": "https://youze27.github.io/blog/net/windows%E5%BF%AB%E6%8D%B7%E5%91%BD%E4%BB%A4.html",
+      "summary": "1. 系统管理 2. 网络工具 3. 远程维护 CMD（命令提示符）PowerShell 核心区别 ‍",
+      "content_html": "<h4><strong>1. 系统管理</strong></h4>\n<p>|命令|功能说明|示例场景|<br>\n|</p>\n",
+      "date_published": "2025-03-27T13:55:04.000Z",
+      "date_modified": "2025-03-27T13:55:04.000Z",
+      "authors": [],
+      "tags": [
+        "计网基础"
+      ]
+    },
+    {
+      "title": "DC-8靶机",
+      "url": "https://youze27.github.io/blog/perm/%E9%9D%B6%E5%9C%BA/DC-8%E9%9D%B6%E6%9C%BA.html",
+      "id": "https://youze27.github.io/blog/perm/%E9%9D%B6%E5%9C%BA/DC-8%E9%9D%B6%E6%9C%BA.html",
+      "summary": "DC-8靶机 title: DC-8靶机 index: true isOriginal : true category: 靶机 tag: 靶机 主机扫描使用arp-scan扫描工具 --localnet 扫描本地网络 imageimage ​.1​（通常是网关或路由器的地址）和.255​（广播地址）。而.254​ 经常被用作子网内的一个特殊设备（如DH...",
+      "content_html": "\n",
+      "date_published": "2025-03-27T13:55:04.000Z",
+      "date_modified": "2025-03-27T14:06:29.000Z",
+      "authors": [],
+      "tags": []
+    },
+    {
       "title": "Metasploitable3下载与安装",
       "url": "https://youze27.github.io/blog/perm/%E9%9D%B6%E5%9C%BA/Metasploitable3%E4%B8%8B%E8%BD%BD%E4%B8%8E%E5%AE%89%E8%A3%85.html",
       "id": "https://youze27.github.io/blog/perm/%E9%9D%B6%E5%9C%BA/Metasploitable3%E4%B8%8B%E8%BD%BD%E4%B8%8E%E5%AE%89%E8%A3%85.html",
@@ -84,12 +108,12 @@
       ]
     },
     {
-      "title": "业外阅读",
+      "title": "阅读",
       "url": "https://youze27.github.io/blog/read/",
       "id": "https://youze27.github.io/blog/read/",
       "content_html": "",
       "date_published": "2025-03-07T06:05:23.000Z",
-      "date_modified": "2025-03-07T06:05:23.000Z",
+      "date_modified": "2025-03-27T13:55:04.000Z",
       "authors": [],
       "tags": []
     },
@@ -182,12 +206,12 @@
       ]
     },
     {
-      "title": "软考信安",
+      "title": "软考",
       "url": "https://youze27.github.io/blog/exam/",
       "id": "https://youze27.github.io/blog/exam/",
       "content_html": "",
       "date_published": "2025-02-28T00:38:25.000Z",
-      "date_modified": "2025-03-02T07:25:49.000Z",
+      "date_modified": "2025-03-27T13:55:04.000Z",
       "authors": [],
       "tags": []
     },
