@@ -1,5 +1,5 @@
 ---
-title: 软考信安
+title: 软考
 index: true 
 icon: computer
 ---

@@ -1,5 +1,5 @@
 ---
-title: 反思总结
+title: 反思
 icon: land-mine-on
 sidebar: false
 index: true

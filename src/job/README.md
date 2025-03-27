@@ -1,5 +1,5 @@
 ---
-title: 职业素养
+title: 职素
 index: true 
 icon: briefcase
 ---

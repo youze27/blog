@@ -1,5 +1,5 @@
 ---
-title: 业外阅读
+title: 阅读
 index: false
 icon: book-open-reader
 ---
