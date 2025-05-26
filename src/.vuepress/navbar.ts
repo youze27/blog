@@ -4,7 +4,7 @@ export default navbar([
   "/",
   "/perm/",
   "/response/",
-  "/product",
+  "/product/",
   "/net/",
   "/job/",
   "/exam/",
