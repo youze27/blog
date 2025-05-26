@@ -6,8 +6,8 @@
     <link>https://youze27.github.io/blog/</link>
     <description>网络安全知识库</description>
     <language>zh-CN</language>
-    <pubDate>Mon, 26 May 2025 14:45:50 GMT</pubDate>
-    <lastBuildDate>Mon, 26 May 2025 14:45:50 GMT</lastBuildDate>
+    <pubDate>Mon, 26 May 2025 15:29:42 GMT</pubDate>
+    <lastBuildDate>Mon, 26 May 2025 15:29:42 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>计网基础</category>
@@ -22,6 +22,13 @@
     <category>其他</category>
     <category>应急响应</category>
     <category>信息收集</category>
+    <item>
+      <title>产品</title>
+      <link>https://youze27.github.io/blog/product/</link>
+      <guid>https://youze27.github.io/blog/product/</guid>
+      <source url="https://youze27.github.io/blog/rss.xml">产品</source>
+      <pubDate>Mon, 26 May 2025 15:27:57 GMT</pubDate>
+    </item>
     <item>
       <title>windows快捷命令</title>
       <link>https://youze27.github.io/blog/net/windows%E5%BF%AB%E6%8D%B7%E5%91%BD%E4%BB%A4.html</link>

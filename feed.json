@@ -7,6 +7,16 @@
   "favicon": "https://youze27.github.io/blog/assets/favicon.ico",
   "items": [
     {
+      "title": "产品",
+      "url": "https://youze27.github.io/blog/product/",
+      "id": "https://youze27.github.io/blog/product/",
+      "content_html": "",
+      "date_published": "2025-05-26T15:27:57.000Z",
+      "date_modified": "2025-05-26T15:27:57.000Z",
+      "authors": [],
+      "tags": []
+    },
+    {
       "title": "windows快捷命令",
       "url": "https://youze27.github.io/blog/net/windows%E5%BF%AB%E6%8D%B7%E5%91%BD%E4%BB%A4.html",
       "id": "https://youze27.github.io/blog/net/windows%E5%BF%AB%E6%8D%B7%E5%91%BD%E4%BB%A4.html",
