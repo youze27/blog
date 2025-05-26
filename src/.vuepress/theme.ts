@@ -24,7 +24,7 @@ export default hopeTheme({
   sidebar,
 
   // 页脚
-  footer: "天行健，君子以自强不息。",
+  footer: "时间就像海绵里的水，挤一挤总会有的！",
   displayFooter: true,
   copyright : "Copyright © 2023-present Juan",
 
