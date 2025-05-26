@@ -1,4 +1,3 @@
-# DC-8靶机
 ---
 title:  DC-8靶机
 index: true
