@@ -2,7 +2,7 @@
 home: true
 layout: BlogHome
 icon: home
-title: 我的博客
+title: 首页
 heroImage: /assets/logo.svg
 heroText:   Welcome to Juan's blog.
 heroFullScreen: true

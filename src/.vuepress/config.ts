@@ -12,8 +12,8 @@ export default defineUserConfig({
   title: "卷卷",
   description: "网络安全知识库",
 
-  plugins: 
-    [ 
+  plugins:
+    [
       popperPlugin({  //鼠标动画特效插件
         config: {
           shape: PopperShape.Star,
@@ -22,8 +22,8 @@ export default defineUserConfig({
         },
       }),
 
-     
-  ],
+
+    ],
   theme,
 
 
