@@ -1,5 +1,5 @@
 ---
-title: 计网基础
+title: 网安基础
 index: true
 icon: network-wired
 ---
