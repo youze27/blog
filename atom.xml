@@ -4,22 +4,310 @@
   <title>卷卷</title>
   <subtitle>网络安全知识库</subtitle>
   <icon>https://youze27.github.io/blog/assets/favicon.ico</icon>
-  <updated>2025-07-06T14:05:47.681Z</updated>
+  <updated>2025-07-13T16:11:54.440Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://youze27.github.io/blog/atom.xml"/>
   <link rel="alternate" href="https://youze27.github.io/blog/"/>
   <category term="计网基础"/>
+  <category term="营养学"/>
   <category term="应急响应"/>
   <category term="靶机"/>
   <category term="渗透测试"/>
   <category term="python"/>
   <category term="学习路线"/>
-  <category term="软考"/>
+  <category term="基础"/>
   <category term="markdown"/>
   <category term="心理学"/>
   <category term="AI"/>
   <category term="其他"/>
   <category term="信息收集"/>
+  <entry>
+    <title type="text">逆向工程基础</title>
+    <id>https://youze27.github.io/blog/net/%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B%E5%9F%BA%E7%A1%80.html</id>
+    <link href="https://youze27.github.io/blog/net/%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B%E5%9F%BA%E7%A1%80.html"/>
+    <updated>2025-07-13T16:04:52.000Z</updated>
+    <summary type="html"><![CDATA[
+<h2>一、逆向工程定义</h2>
+<p>逆向工程（Software Reverse Engineering），又称软件反向工程，从可运行的程序系统出发，运用解密、反汇编、系统分析、程序算法理解等多种计算机技术，对软件的结构、流程、代码等进行逆向拆解和分析，推导软件产品的源代码、设计原理、结构、算法、处理过程、运行方法及相关文档等。</p>
+<h2>二、CTF竞赛中的逆向</h2>
+<ul>
+<li>涉及Windows、Linux、Android平台的多种编程技术。</li>
+<li>要求利用常用工具对源代码及二进制文件进行逆向分析。</li>
+<li>掌握Android移动应用APK文件的逆向分析，掌握加解密、内核编程、算法反调试和代码混淆技术。</li>
+</ul>]]></summary>
+    <content type="html"><![CDATA[
+<h2>一、逆向工程定义</h2>
+<p>逆向工程（Software Reverse Engineering），又称软件反向工程，从可运行的程序系统出发，运用解密、反汇编、系统分析、程序算法理解等多种计算机技术，对软件的结构、流程、代码等进行逆向拆解和分析，推导软件产品的源代码、设计原理、结构、算法、处理过程、运行方法及相关文档等。</p>
+<h2>二、CTF竞赛中的逆向</h2>
+<ul>
+<li>涉及Windows、Linux、Android平台的多种编程技术。</li>
+<li>要求利用常用工具对源代码及二进制文件进行逆向分析。</li>
+<li>掌握Android移动应用APK文件的逆向分析，掌握加解密、内核编程、算法反调试和代码混淆技术。</li>
+</ul>
+<h2>三、逆向工程的用途</h2>
+<ol>
+<li>逆向分析已编译软件，用高级语言重现。</li>
+<li>分析病毒，提取特征码，开发杀毒程序。</li>
+<li>高级代码审计，在汇编层面调试审计程序。</li>
+<li>用于游戏外挂、反外挂及破解软件。</li>
+<li>分析挖掘嵌入式设备中的漏洞。</li>
+</ol>
+<h2>四、静态分析技术</h2>
+<h3>定义</h3>
+<p>在不执行计算机程序的条件下，对源代码进行分析，找出代码缺陷。一般利用静态程序分析工具将二进制的可执行文件翻译成汇编代码或C语言伪代码，通过对代码的分析来破解软件。</p>
+<h3>优点</h3>
+<ol>
+<li>直接面向源码，可分析多种问题。</li>
+<li>能检测所有代码级别可执行路径组合，快速且准确。</li>
+<li>无需执行程序，不会被恶意代码攻击。</li>
+</ol>
+<h2>五、动态调试技术</h2>
+<h3>定义</h3>
+<p>与静态分析技术相对，破解者利用调试器跟踪软件的运行，寻求破解路径。通过观察程序运行过程中的状态（如寄存器内容、函数输入输出、内存使用情况等），分析函数功能，明确代码逻辑，挖掘可能存在的漏洞，特别关注代码流和数据流。</p>
+<h3>优点</h3>
+<ol>
+<li>更好地判断程序执行流程。</li>
+<li>可跟踪数据流走向，如用户名口令、验证码等在程序执行中的流向。</li>
+<li>程序装载到内存后，能够分析内存地址信息。</li>
+<li>便于理解和修改程序，可更改标志位的值，修改程序走向。</li>
+</ol>
+<p>​​</p>
+<h1>程序壳</h1>
+<h3>一. 定义与本质</h3>
+<p>程序壳（Software Packer）指包裹在原始程序外层的保护性代码层，其核心功能包括：</p>
+<ul>
+<li>代码保护：防止反编译、逆向分析和非法修改</li>
+<li>运行控：程序加载时率先获得执行权（控制权劫持）</li>
+<li>内存管理 ：负责在内存中解密/解压原始程序</li>
+</ul>
+<h3>二. 加壳原理</h3>
+<div class="language-mermaid line-numbers-mode" data-highlighter="shiki" data-ext="mermaid" data-title="mermaid" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">graph LR</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">A[原始程序] --&gt; B[加壳处理]</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">B --&gt; C{压缩/加密算法}</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">C --&gt; D[生成外壳代码]</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">D --&gt; E[加壳程序]</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ul>
+<li><strong>技术本质</strong>：通过算法变换（压缩/加密/混淆）重构可执行文件</li>
+<li><strong>内存加载</strong>：运行时在内存中动态还原原始程序（对用户透明）</li>
+<li><strong>保护特性</strong>：加壳后程序可运行但无法直接查看源码</li>
+</ul>
+<h2>三、壳的分类与技术对比</h2>
+<p>|类型|代表工具|核心技术|主要目的|典型特征|<br>
+|</p>
+]]></content>
+    <category term="计网基础"/>
+    <published>2025-07-13T16:04:52.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">营养学</title>
+    <id>https://youze27.github.io/blog/read/%E8%90%A5%E5%85%BB%E5%AD%A6.html</id>
+    <link href="https://youze27.github.io/blog/read/%E8%90%A5%E5%85%BB%E5%AD%A6.html"/>
+    <updated>2025-07-13T16:04:52.000Z</updated>
+    <summary type="html"><![CDATA[<h3>第一节 营养学概论</h3>
+<h4>一、核心概念与基础理论</h4>
+<ol>
+<li>
+<p><strong>营养</strong></p>
+<ul>
+<li><strong>定义</strong>：人体通过摄取、消化、吸收和代谢食物，维持生长、发育及生理功能的动态过程。</li>
+<li><strong>关键环节</strong>：食物选择→消化吸收→代谢利用→能量与物质平衡。</li>
+</ul>
+</li>
+<li>
+<p><strong>营养素</strong></p>
+<ul>
+<li>
+<p><strong>分类</strong>：</p>
+<ul>
+<li><strong>宏量营养素</strong>（需大量摄入）：碳水化合物、脂肪、蛋白质（三者可产能）；</li>
+<li><strong>微量营养素</strong>：维生素、矿物质；</li>
+<li><strong>其他必需成分</strong>：水、膳食纤维（促进消化功能）。</li>
+</ul>
+</li>
+<li>
+<p><strong>功能</strong>：供能、构建组织、调节生理代谢。</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>营养学</strong></p>
+<ul>
+<li>
+<p><strong>研究范畴</strong>：</p>
+<ul>
+<li>人体营养需求规律；</li>
+<li>食物利用与代谢机制；</li>
+<li>营养素缺乏或过剩的干预策略。</li>
+</ul>
+</li>
+<li>
+<p><strong>分支学科</strong>：公共营养学、临床营养学、运动营养学等。</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>膳食营养素参考摄入量（DRIs）</strong></p>
+<ul>
+<li>
+<p><strong>核心指标</strong>：</p>
+<ul>
+<li><strong>EAR</strong>（平均需要量）：满足50%人群需求的量；</li>
+<li><strong>RNI</strong>（推荐摄入量）：满足97%~98%健康个体的量；</li>
+<li><strong>AI</strong>（适宜摄入量）：基于观察或实验的推荐值（当RNI无法确定时）；</li>
+<li><strong>UL</strong>（可耐受最高摄入量）：不引起健康风险的最大量。</li>
+</ul>
+</li>
+<li>
+<p><strong>应用</strong>：指导膳食计划、评估群体营养状况。</p>
+</li>
+</ul>
+</li>
+</ol>]]></summary>
+    <content type="html"><![CDATA[<h3>第一节 营养学概论</h3>
+<h4>一、核心概念与基础理论</h4>
+<ol>
+<li>
+<p><strong>营养</strong></p>
+<ul>
+<li><strong>定义</strong>：人体通过摄取、消化、吸收和代谢食物，维持生长、发育及生理功能的动态过程。</li>
+<li><strong>关键环节</strong>：食物选择→消化吸收→代谢利用→能量与物质平衡。</li>
+</ul>
+</li>
+<li>
+<p><strong>营养素</strong></p>
+<ul>
+<li>
+<p><strong>分类</strong>：</p>
+<ul>
+<li><strong>宏量营养素</strong>（需大量摄入）：碳水化合物、脂肪、蛋白质（三者可产能）；</li>
+<li><strong>微量营养素</strong>：维生素、矿物质；</li>
+<li><strong>其他必需成分</strong>：水、膳食纤维（促进消化功能）。</li>
+</ul>
+</li>
+<li>
+<p><strong>功能</strong>：供能、构建组织、调节生理代谢。</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>营养学</strong></p>
+<ul>
+<li>
+<p><strong>研究范畴</strong>：</p>
+<ul>
+<li>人体营养需求规律；</li>
+<li>食物利用与代谢机制；</li>
+<li>营养素缺乏或过剩的干预策略。</li>
+</ul>
+</li>
+<li>
+<p><strong>分支学科</strong>：公共营养学、临床营养学、运动营养学等。</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>膳食营养素参考摄入量（DRIs）</strong></p>
+<ul>
+<li>
+<p><strong>核心指标</strong>：</p>
+<ul>
+<li><strong>EAR</strong>（平均需要量）：满足50%人群需求的量；</li>
+<li><strong>RNI</strong>（推荐摄入量）：满足97%~98%健康个体的量；</li>
+<li><strong>AI</strong>（适宜摄入量）：基于观察或实验的推荐值（当RNI无法确定时）；</li>
+<li><strong>UL</strong>（可耐受最高摄入量）：不引起健康风险的最大量。</li>
+</ul>
+</li>
+<li>
+<p><strong>应用</strong>：指导膳食计划、评估群体营养状况。</p>
+</li>
+</ul>
+</li>
+</ol>
+<h4>二、公共营养与应用拓展</h4>
+<ol>
+<li>
+<p><strong>公共营养的核心概念</strong></p>
+<ul>
+<li>
+<p><strong>营养密度</strong>：单位食物中宏量营养素的含量（如高营养密度食品：全谷物、瘦肉）。</p>
+</li>
+<li>
+<p><strong>营养标签</strong>：食品包装上标注的产能营养素种类及含量（如“低脂”“高纤维”标识）。</p>
+</li>
+<li>
+<p><strong>平衡膳食原则</strong>：</p>
+<ul>
+<li>氨基酸比例平衡（优质蛋白互补）；</li>
+<li>能量来源平衡（碳水50%~65%、脂肪20%~30%、蛋白质10%~15%）；</li>
+<li>矿物质与维生素平衡；</li>
+<li>酸碱平衡（争议性概念，现代观点更强调代谢产物调节）。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>应用营养学领域</strong></p>
+<ul>
+<li><strong>特殊人群营养</strong>：孕妇（叶酸、铁）、儿童（钙、维生素D）、老年人（蛋白质、膳食纤维）；</li>
+<li><strong>特殊环境适应</strong>：高温作业者（电解质补充）、高原人群（抗氧化营养素）；</li>
+<li><strong>疾病营养支持</strong>：糖尿病（低GI饮食）、肾病（低蛋白饮食）。</li>
+<li><strong>临床营养学</strong>：通过肠内/肠外营养支持患者康复（如术后流质饮食、癌症患者营养干预）。</li>
+</ul>
+</li>
+</ol>
+<h4>三、营养与健康的动态关系</h4>
+<ol>
+<li>
+<p><strong>营养素的生理功能</strong></p>
+<ul>
+<li><strong>物质基础</strong>：构成细胞、组织（如蛋白质修复肌肉，钙强化骨骼）；</li>
+<li><strong>能量供给</strong>：1g碳水/蛋白质=4kcal，1g脂肪=9kcal；</li>
+<li><strong>代谢调控</strong>：维生素B族参与能量代谢，锌调节酶活性。</li>
+</ul>
+</li>
+<li>
+<p><strong>营养对健康的支撑作用</strong></p>
+<ul>
+<li><strong>生长发育</strong>：儿童期蛋白质不足→生长迟缓；</li>
+<li><strong>免疫功能</strong>：维生素C、锌缺乏→免疫力下降；</li>
+<li><strong>心理健康</strong>：Omega-3脂肪酸与认知功能、情绪调节相关。</li>
+</ul>
+</li>
+<li>
+<p><strong>营养失衡的双向风险</strong></p>
+<ul>
+<li><strong>缺乏性疾病</strong>：缺铁性贫血、佝偻病（维生素D缺乏）；</li>
+<li><strong>过剩性疾病</strong>：肥胖（能量过剩）、高尿酸血症（嘌呤摄入过量）；</li>
+<li><strong>慢性病关联</strong>：高盐饮食→高血压，反式脂肪→心血管疾病。</li>
+</ul>
+</li>
+</ol>
+<h3>第二节 能量及宏量营养素</h3>
+<h4><strong>一、能量代谢与计算</strong></h4>
+<ol>
+<li>
+<p><strong>能量来源与产能系数</strong></p>
+<ul>
+<li>
+<p><strong>三大宏量营养素比例</strong>：</p>
+<ul>
+<li>蛋白质：10%~20%</li>
+<li>脂肪：20%~30%</li>
+<li>碳水化合物：55%~65%</li>
+</ul>
+</li>
+<li>
+<p><strong>产能值</strong>：</p>
+<p>|营养素|产能系数|<br>
+|</p>
+</li>
+</ul>
+</li>
+</ol>
+]]></content>
+    <category term="营养学"/>
+    <published>2025-07-13T16:04:52.000Z</published>
+  </entry>
   <entry>
     <title type="text">zabbix快速上手</title>
     <id>https://youze27.github.io/blog/net/zabbix%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B.html</id>
@@ -155,13 +443,6 @@
 ]]></content>
     <category term="应急响应"/>
     <published>2025-07-06T14:02:58.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">产品</title>
-    <id>https://youze27.github.io/blog/product/</id>
-    <link href="https://youze27.github.io/blog/product/"/>
-    <updated>2025-05-26T15:27:57.000Z</updated>
-    <published>2025-05-26T15:27:57.000Z</published>
   </entry>
   <entry>
     <title type="text">windows快捷命令</title>
@@ -1574,9 +1855,9 @@ s2.name:Qiqi,s2.name.len:4
   </entry>
   <entry>
     <title type="text">软考笔记</title>
-    <id>https://youze27.github.io/blog/exam/%E8%BD%AF%E8%80%83%E6%A6%82%E5%BF%B5.html</id>
-    <link href="https://youze27.github.io/blog/exam/%E8%BD%AF%E8%80%83%E6%A6%82%E5%BF%B5.html"/>
-    <updated>2025-03-08T14:39:26.000Z</updated>
+    <id>https://youze27.github.io/blog/net/%E8%BD%AF%E8%80%83%E6%A6%82%E5%BF%B5.html</id>
+    <link href="https://youze27.github.io/blog/net/%E8%BD%AF%E8%80%83%E6%A6%82%E5%BF%B5.html"/>
+    <updated>2025-07-13T16:04:52.000Z</updated>
     <summary type="html"><![CDATA[<h4>CMM（能力成熟度模型）</h4>
 <p>五个阶段——非正式执行、计划跟踪、充分定义、量化控制、持续优化，与常见的CMM模型中的五个等级（初始级、可重复级、已定义级、已管理级、优化级）在表述上有所不同，但本质上描述了类似的软件过程改进路径</p>
 <ul>
@@ -1685,7 +1966,7 @@ Finished：客户端和服务器各自计算并发送一个Finished数据包，�
 每一级证书的签名都由上一级的证书（或根证书）的公钥进行验证。<br>
 最终，如果成功验证到根证书，说明整个证书链是可信的。</p>
 ]]></content>
-    <category term="软考"/>
+    <category term="基础"/>
     <published>2025-03-07T06:05:23.000Z</published>
   </entry>
   <entry>
@@ -2843,13 +3124,6 @@ Finished：客户端和服务器各自计算并发送一个Finished数据包，�
 ]]></content>
     <category term="渗透测试"/>
     <published>2025-03-02T05:52:48.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">软考</title>
-    <id>https://youze27.github.io/blog/exam/</id>
-    <link href="https://youze27.github.io/blog/exam/"/>
-    <updated>2025-03-27T13:55:04.000Z</updated>
-    <published>2025-02-28T00:38:25.000Z</published>
   </entry>
   <entry>
     <title type="text">ssh基本使用</title>
@@ -10320,10 +10594,10 @@ sq语句中，单引号不再具有作用”，仅仅是'内容'而已。这个�
     <published>2025-01-10T03:24:15.000Z</published>
   </entry>
   <entry>
-    <title type="text">计网基础</title>
+    <title type="text">网安基础</title>
     <id>https://youze27.github.io/blog/net/</id>
     <link href="https://youze27.github.io/blog/net/"/>
-    <updated>2025-01-12T04:07:34.000Z</updated>
+    <updated>2025-07-13T16:04:52.000Z</updated>
     <published>2025-01-10T03:24:15.000Z</published>
   </entry>
   <entry>
@@ -10337,20 +10611,40 @@ sq语句中，单引号不再具有作用”，仅仅是'内容'而已。这个�
     <title type="text">关于我</title>
     <id>https://youze27.github.io/blog/intro.html</id>
     <link href="https://youze27.github.io/blog/intro.html"/>
-    <updated>2025-03-02T08:41:41.000Z</updated>
+    <updated>2025-07-13T16:04:52.000Z</updated>
     <summary type="html"><![CDATA[
-<p>嘿，朋友们，我是卷卷，欢迎来到我的博客！</p>
-<p>我爱旅游，会精心规划行程，追求完美体验；爱摄影，力求拍出满意作品。工作上，我努力学习专业知识，希望把工作做得更加完美。业余时，我喜欢阅读，构建知识体系；</p>
-<p>强迫症，完美主义者，这些特点让我在生活和工作中都追求极致。我会在这里分享我的网络安全知识、读书和学习心得。</p>
-<p>微信：Youze-Psc</p>
-]]></summary>
+<p>嘿，朋友们，我是卷卷，欢迎来到我的博客！一名专注前沿防御技术的25届网络工程毕业生。</p>
+<p>💻 技术基因<br>
+攻防双视角开发者：<br>
+Web前端 · Python · C · JAVA · 微信小程序 · 计算机网络 · 信息安全</p>
+<p>现役安全营运：<br>
+工具链：Burp Suite / Wireshark / Metasploit · 熟悉OWASP Top 10防御</p>
+<p>✍️ 博客使命<br>
+「用工程思维解构安全」<br>
+✅ 分享网络安全基础知识<br>
+✅ 剖析漏洞的底层逻辑与缓解策略<br>
+✅ 搭建新手友好的网络安全学习路径 💡</p>]]></summary>
     <content type="html"><![CDATA[
-<p>嘿，朋友们，我是卷卷，欢迎来到我的博客！</p>
-<p>我爱旅游，会精心规划行程，追求完美体验；爱摄影，力求拍出满意作品。工作上，我努力学习专业知识，希望把工作做得更加完美。业余时，我喜欢阅读，构建知识体系；</p>
-<p>强迫症，完美主义者，这些特点让我在生活和工作中都追求极致。我会在这里分享我的网络安全知识、读书和学习心得。</p>
-<p>微信：Youze-Psc</p>
+<p>嘿，朋友们，我是卷卷，欢迎来到我的博客！一名专注前沿防御技术的25届网络工程毕业生。</p>
+<p>💻 技术基因<br>
+攻防双视角开发者：<br>
+Web前端 · Python · C · JAVA · 微信小程序 · 计算机网络 · 信息安全</p>
+<p>现役安全营运：<br>
+工具链：Burp Suite / Wireshark / Metasploit · 熟悉OWASP Top 10防御</p>
+<p>✍️ 博客使命<br>
+「用工程思维解构安全」<br>
+✅ 分享网络安全基础知识<br>
+✅ 剖析漏洞的底层逻辑与缓解策略<br>
+✅ 搭建新手友好的网络安全学习路径 💡</p>
+<p>🏃 生活哲学<br>
+每周5公里 - 工作再累也要保护身体。<br>
+每天学习 - 坚定终身学习的信念<br>
+定期阅读 - 快节奏社会生存的精神食粮</p>
+<p>“安全是流动的战场，唯有用开放分享筑牢防线”<br>
+📮 欢迎交流漏洞挖掘姿势<br>
+微信：Youze-Psc</p>
 ]]></content>
-    <published>2024-07-23T00:00:00.000Z</published>
+    <published>2025-07-14T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">小程序代理及反编译</title>
