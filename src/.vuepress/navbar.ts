@@ -5,12 +5,7 @@ export default navbar([
   "/perm/",
   "/response/",
   "/net/",
-  "/job/",
+  "/com/",
   "/nav",
-  "/think/",
-  "/read/",
-  "/other/",
   "/intro",
-  "/link",
-  "/clause"
 ]);

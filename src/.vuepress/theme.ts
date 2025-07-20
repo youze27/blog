@@ -43,8 +43,8 @@ export default hopeTheme({
   // 加密配置
   encrypt: {
     config: {
-      "/job/": ["youze"],
-      "/think/": ["youze"],
+      "/com/think/": ["youze"],
+      "/com/job/": ["youze"],
     },
   },
 

@@ -5,11 +5,7 @@ export default sidebar({
   "/response/":"structure",
   "/nav":"structure",
   "/perm/":"structure",
-  "/intro":"structure",
   "/net/":"structure",
-  "/think/":"structure",
-  "link": "structure",
-  "/job/":"structure",
-  "/other/":"structure",
-  "/read/":"structure",
+  "/com/":"structure",
+  "/intro":"structure",
 });

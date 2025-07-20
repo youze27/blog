@@ -1,6 +1,8 @@
 ---
 title: 免责声明
 sticky: ture
+order: 99
+index: false
 ---
 
 # **免责声明**

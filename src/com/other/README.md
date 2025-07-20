@@ -2,6 +2,7 @@
 title: 其他
 index: false
 icon: paperclip
+order: 7
 ---
 <Catalog />  
 
