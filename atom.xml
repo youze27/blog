@@ -4,7 +4,7 @@
   <title>卷卷</title>
   <subtitle>网络安全知识库</subtitle>
   <icon>https://youze27.github.io/blog/assets/favicon.ico</icon>
-  <updated>2025-07-13T16:11:54.440Z</updated>
+  <updated>2025-07-20T07:47:58.905Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://youze27.github.io/blog/atom.xml"/>
   <link rel="alternate" href="https://youze27.github.io/blog/"/>
@@ -100,9 +100,9 @@
   </entry>
   <entry>
     <title type="text">营养学</title>
-    <id>https://youze27.github.io/blog/read/%E8%90%A5%E5%85%BB%E5%AD%A6.html</id>
-    <link href="https://youze27.github.io/blog/read/%E8%90%A5%E5%85%BB%E5%AD%A6.html"/>
-    <updated>2025-07-13T16:04:52.000Z</updated>
+    <id>https://youze27.github.io/blog/com/read/%E8%90%A5%E5%85%BB%E5%AD%A6.html</id>
+    <link href="https://youze27.github.io/blog/com/read/%E8%90%A5%E5%85%BB%E5%AD%A6.html"/>
+    <updated>2025-07-20T07:44:45.000Z</updated>
     <summary type="html"><![CDATA[<h3>第一节 营养学概论</h3>
 <h4>一、核心概念与基础理论</h4>
 <ol>
@@ -1843,9 +1843,9 @@ s2.name:Qiqi,s2.name.len:4
   </entry>
   <entry>
     <title type="text">知道创宇技能表</title>
-    <id>https://youze27.github.io/blog/other/%E7%9F%A5%E9%81%93%E5%88%9B%E5%AE%87%E6%8A%80%E8%83%BD%E8%A1%A8.html</id>
-    <link href="https://youze27.github.io/blog/other/%E7%9F%A5%E9%81%93%E5%88%9B%E5%AE%87%E6%8A%80%E8%83%BD%E8%A1%A8.html"/>
-    <updated>2025-03-08T14:39:26.000Z</updated>
+    <id>https://youze27.github.io/blog/com/other/%E7%9F%A5%E9%81%93%E5%88%9B%E5%AE%87%E6%8A%80%E8%83%BD%E8%A1%A8.html</id>
+    <link href="https://youze27.github.io/blog/com/other/%E7%9F%A5%E9%81%93%E5%88%9B%E5%AE%87%E6%8A%80%E8%83%BD%E8%A1%A8.html"/>
+    <updated>2025-07-20T07:44:45.000Z</updated>
     <summary type="html"><![CDATA[<iframe height="1000px" width="100%" frameborder="0" allowfullscreen="true" src="/blog/demo/zhidao.html">  
  </iframe>]]></summary>
     <content type="html"><![CDATA[<iframe height="1000px" width="100%" frameborder="0" allowfullscreen="true" src="/blog/demo/zhidao.html">  
@@ -1971,9 +1971,9 @@ Finished：客户端和服务器各自计算并发送一个Finished数据包，�
   </entry>
   <entry>
     <title type="text">markdown</title>
-    <id>https://youze27.github.io/blog/other/markdown.html</id>
-    <link href="https://youze27.github.io/blog/other/markdown.html"/>
-    <updated>2025-03-07T06:05:23.000Z</updated>
+    <id>https://youze27.github.io/blog/com/other/markdown.html</id>
+    <link href="https://youze27.github.io/blog/com/other/markdown.html"/>
+    <updated>2025-07-20T07:44:45.000Z</updated>
     <summary type="html"><![CDATA[<h3>一、标题</h3>
 <p>Markdown支持六级标题，使用<code>#</code>号表示不同级别的标题。一级标题使用一个<code>#</code>，二级标题使用两个<code>#</code>，以此类推，最多支持到六级标题。例如：</p>
 <div class="language-markdown line-numbers-mode" data-highlighter="shiki" data-ext="markdown" data-title="markdown" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75"># 一级标题</span></span>
@@ -2012,16 +2012,16 @@ Finished：客户端和服务器各自计算并发送一个Finished数据包，�
   </entry>
   <entry>
     <title type="text">阅读</title>
-    <id>https://youze27.github.io/blog/read/</id>
-    <link href="https://youze27.github.io/blog/read/"/>
-    <updated>2025-03-27T13:55:04.000Z</updated>
+    <id>https://youze27.github.io/blog/com/read/</id>
+    <link href="https://youze27.github.io/blog/com/read/"/>
+    <updated>2025-07-20T07:44:45.000Z</updated>
     <published>2025-03-07T06:05:23.000Z</published>
   </entry>
   <entry>
     <title type="text">心理学效应</title>
-    <id>https://youze27.github.io/blog/read/%E5%BF%83%E7%90%86%E5%AD%A6%E6%95%88%E5%BA%94.html</id>
-    <link href="https://youze27.github.io/blog/read/%E5%BF%83%E7%90%86%E5%AD%A6%E6%95%88%E5%BA%94.html"/>
-    <updated>2025-03-07T06:05:23.000Z</updated>
+    <id>https://youze27.github.io/blog/com/read/%E5%BF%83%E7%90%86%E5%AD%A6%E6%95%88%E5%BA%94.html</id>
+    <link href="https://youze27.github.io/blog/com/read/%E5%BF%83%E7%90%86%E5%AD%A6%E6%95%88%E5%BA%94.html"/>
+    <updated>2025-07-20T07:44:45.000Z</updated>
     <summary type="html"><![CDATA[<h4>心理弹性（Resilience）</h4>
 <p>定义：个体在逆境中恢复并适应变化的能力，体现为从挫折中学习并成长。<br>
 理论支持：Masten（2001）提出“普通魔法”（Ordinary Magic）理论，认为心理弹性是普通人普遍具备的能力。<br>
@@ -2176,9 +2176,9 @@ Finished：客户端和服务器各自计算并发送一个Finished数据包，�
   </entry>
   <entry>
     <title type="text">认知觉醒</title>
-    <id>https://youze27.github.io/blog/read/%E8%AE%A4%E7%9F%A5%E8%A7%89%E9%86%92.html</id>
-    <link href="https://youze27.github.io/blog/read/%E8%AE%A4%E7%9F%A5%E8%A7%89%E9%86%92.html"/>
-    <updated>2025-03-07T06:05:23.000Z</updated>
+    <id>https://youze27.github.io/blog/com/read/%E8%AE%A4%E7%9F%A5%E8%A7%89%E9%86%92.html</id>
+    <link href="https://youze27.github.io/blog/com/read/%E8%AE%A4%E7%9F%A5%E8%A7%89%E9%86%92.html"/>
+    <updated>2025-07-20T07:44:45.000Z</updated>
     <summary type="html"><![CDATA[<h3>名词概念</h3>
 <ol>
 <li>
@@ -2446,9 +2446,9 @@ Finished：客户端和服务器各自计算并发送一个Finished数据包，�
   </entry>
   <entry>
     <title type="text">Prompt越狱手册</title>
-    <id>https://youze27.github.io/blog/other/Prompt%E8%B6%8A%E7%8B%B1%E6%89%8B%E5%86%8C.html</id>
-    <link href="https://youze27.github.io/blog/other/Prompt%E8%B6%8A%E7%8B%B1%E6%89%8B%E5%86%8C.html"/>
-    <updated>2025-03-07T06:05:23.000Z</updated>
+    <id>https://youze27.github.io/blog/com/other/Prompt%E8%B6%8A%E7%8B%B1%E6%89%8B%E5%86%8C.html</id>
+    <link href="https://youze27.github.io/blog/com/other/Prompt%E8%B6%8A%E7%8B%B1%E6%89%8B%E5%86%8C.html"/>
+    <updated>2025-07-20T07:44:45.000Z</updated>
     <summary type="html"><![CDATA[
 <h2>目录</h2>
 <p><a href="#Prompt%E8%B6%8A%E7%8B%B1%E6%89%8B%E5%86%8C">Prompt越狱手册</a></p>
@@ -2845,17 +2845,86 @@ Finished：客户端和服务器各自计算并发送一个Finished数据包，�
     <published>2025-03-04T09:59:55.000Z</published>
   </entry>
   <entry>
+    <title type="text">漏洞挖掘思路</title>
+    <id>https://youze27.github.io/blog/perm/%E6%8C%96%E6%B4%9E%E6%80%9D%E8%B7%AF.html</id>
+    <link href="https://youze27.github.io/blog/perm/%E6%8C%96%E6%B4%9E%E6%80%9D%E8%B7%AF.html"/>
+    <updated>2025-03-02T05:52:48.000Z</updated>
+    <summary type="html"><![CDATA[<h4>漏洞挖掘思路</h4>
+<p>大厂SRC严重漏洞的特点</p>
+<h5>1.和数据相关</h5>
+<p>⦁	核心服务器<br>
+⦁	任意用户<br>
+⦁	越权<br>
+大量敏感数据</p>
+<h5>2.和钱有关</h5>
+<p>下单过程漏洞<br>
+⦁	0元购<br>
+⦁	支付逻辑漏洞<br>
+⦁	负数刷钱</p>
+<h5>3.选择大于努力，选择大的厂挖</h5>
+<h5>4.挖洞的点</h5>
+<p>⦁	突破系统限制的<br>
+⦁	对业务对企业有利益危害的</p>
+<h5>5.白帽子思维</h5>
+<p>白帽子要有模拟坏人地思维<br>
+⦁	不按要求输入<br>
+⦁	喜欢跳过流程/程序<br>
+⦁	对程序错误敏感<br>
+说明程序员在设计时候有考虑不周<br>
+⦁	交叉结合<br>
+多个漏洞结合利用<br>
+⦁	持续学习<br>
+对新技术学习 新业务上线漏洞最多</p>]]></summary>
+    <content type="html"><![CDATA[<h4>漏洞挖掘思路</h4>
+<p>大厂SRC严重漏洞的特点</p>
+<h5>1.和数据相关</h5>
+<p>⦁	核心服务器<br>
+⦁	任意用户<br>
+⦁	越权<br>
+大量敏感数据</p>
+<h5>2.和钱有关</h5>
+<p>下单过程漏洞<br>
+⦁	0元购<br>
+⦁	支付逻辑漏洞<br>
+⦁	负数刷钱</p>
+<h5>3.选择大于努力，选择大的厂挖</h5>
+<h5>4.挖洞的点</h5>
+<p>⦁	突破系统限制的<br>
+⦁	对业务对企业有利益危害的</p>
+<h5>5.白帽子思维</h5>
+<p>白帽子要有模拟坏人地思维<br>
+⦁	不按要求输入<br>
+⦁	喜欢跳过流程/程序<br>
+⦁	对程序错误敏感<br>
+说明程序员在设计时候有考虑不周<br>
+⦁	交叉结合<br>
+多个漏洞结合利用<br>
+⦁	持续学习<br>
+对新技术学习 新业务上线漏洞最多</p>
+<h5>6.挖洞没有思路怎么办</h5>
+<p>⦁	起来走走，思考思考<br>
+⦁	看别人的挖洞视频/文章锻炼思维<br>
+⦁	脑袋中带着可疑点思考<br>
+走路、跑步时候多思考</p>
+<h5>7.漏洞一直存在，只是没有被发现</h5>
+<pre><code>坚信有输入的地方就会有漏洞
+</code></pre>
+]]></content>
+    <category term="渗透测试"/>
+    <published>2025-03-02T05:52:48.000Z</published>
+  </entry>
+  <entry>
     <title type="text">其他</title>
-    <id>https://youze27.github.io/blog/other/</id>
-    <link href="https://youze27.github.io/blog/other/"/>
-    <updated>2025-03-07T06:05:23.000Z</updated>
+    <id>https://youze27.github.io/blog/com/other/</id>
+    <link href="https://youze27.github.io/blog/com/other/"/>
+    <updated>2025-07-20T07:44:45.000Z</updated>
     <published>2025-03-02T05:52:48.000Z</published>
   </entry>
   <entry>
     <title type="text">deepseek提问方法</title>
-    <id>https://youze27.github.io/blog/other/deepseek.html</id>
-    <link href="https://youze27.github.io/blog/other/deepseek.html"/>
-    <updated>2025-03-02T05:52:48.000Z</updated>
+    <id>https://youze27.github.io/blog/com/other/deepseek.html</id>
+    <link href="https://youze27.github.io/blog/com/other/deepseek.html"/>
+    <updated>2025-07-20T07:44:45.000Z</updated>
     <summary type="html"><![CDATA[<p>deepseek 应该怎样提问<br>
 为了让我的回答更准确和有用，你可以通过以下方式优化提问。我通过几个例子为你说明不同提问方式的区别：</p>
 <p><strong>1. 明确问题类型+具体细节</strong><br>
@@ -2914,9 +2983,9 @@ Finished：客户端和服务器各自计算并发送一个Finished数据包，�
   </entry>
   <entry>
     <title type="text">deepseek使用指南 清华大学</title>
-    <id>https://youze27.github.io/blog/other/deepseek%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97%20%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6.html</id>
-    <link href="https://youze27.github.io/blog/other/deepseek%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97%20%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6.html"/>
-    <updated>2025-03-07T06:05:23.000Z</updated>
+    <id>https://youze27.github.io/blog/com/other/deepseek%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97%20%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6.html</id>
+    <link href="https://youze27.github.io/blog/com/other/deepseek%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97%20%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6.html"/>
+    <updated>2025-07-20T07:44:45.000Z</updated>
     <summary type="html"><![CDATA[<p>​​</p>
 <p>​​</p>
 <p>​​</p>
@@ -3057,75 +3126,6 @@ Finished：客户端和服务器各自计算并发送一个Finished数据包，�
     <published>2025-03-02T05:52:48.000Z</published>
   </entry>
   <entry>
-    <title type="text">漏洞挖掘思路</title>
-    <id>https://youze27.github.io/blog/perm/%E6%8C%96%E6%B4%9E%E6%80%9D%E8%B7%AF.html</id>
-    <link href="https://youze27.github.io/blog/perm/%E6%8C%96%E6%B4%9E%E6%80%9D%E8%B7%AF.html"/>
-    <updated>2025-03-02T05:52:48.000Z</updated>
-    <summary type="html"><![CDATA[<h4>漏洞挖掘思路</h4>
-<p>大厂SRC严重漏洞的特点</p>
-<h5>1.和数据相关</h5>
-<p>⦁	核心服务器<br>
-⦁	任意用户<br>
-⦁	越权<br>
-大量敏感数据</p>
-<h5>2.和钱有关</h5>
-<p>下单过程漏洞<br>
-⦁	0元购<br>
-⦁	支付逻辑漏洞<br>
-⦁	负数刷钱</p>
-<h5>3.选择大于努力，选择大的厂挖</h5>
-<h5>4.挖洞的点</h5>
-<p>⦁	突破系统限制的<br>
-⦁	对业务对企业有利益危害的</p>
-<h5>5.白帽子思维</h5>
-<p>白帽子要有模拟坏人地思维<br>
-⦁	不按要求输入<br>
-⦁	喜欢跳过流程/程序<br>
-⦁	对程序错误敏感<br>
-说明程序员在设计时候有考虑不周<br>
-⦁	交叉结合<br>
-多个漏洞结合利用<br>
-⦁	持续学习<br>
-对新技术学习 新业务上线漏洞最多</p>]]></summary>
-    <content type="html"><![CDATA[<h4>漏洞挖掘思路</h4>
-<p>大厂SRC严重漏洞的特点</p>
-<h5>1.和数据相关</h5>
-<p>⦁	核心服务器<br>
-⦁	任意用户<br>
-⦁	越权<br>
-大量敏感数据</p>
-<h5>2.和钱有关</h5>
-<p>下单过程漏洞<br>
-⦁	0元购<br>
-⦁	支付逻辑漏洞<br>
-⦁	负数刷钱</p>
-<h5>3.选择大于努力，选择大的厂挖</h5>
-<h5>4.挖洞的点</h5>
-<p>⦁	突破系统限制的<br>
-⦁	对业务对企业有利益危害的</p>
-<h5>5.白帽子思维</h5>
-<p>白帽子要有模拟坏人地思维<br>
-⦁	不按要求输入<br>
-⦁	喜欢跳过流程/程序<br>
-⦁	对程序错误敏感<br>
-说明程序员在设计时候有考虑不周<br>
-⦁	交叉结合<br>
-多个漏洞结合利用<br>
-⦁	持续学习<br>
-对新技术学习 新业务上线漏洞最多</p>
-<h5>6.挖洞没有思路怎么办</h5>
-<p>⦁	起来走走，思考思考<br>
-⦁	看别人的挖洞视频/文章锻炼思维<br>
-⦁	脑袋中带着可疑点思考<br>
-走路、跑步时候多思考</p>
-<h5>7.漏洞一直存在，只是没有被发现</h5>
-<pre><code>坚信有输入的地方就会有漏洞
-</code></pre>
-]]></content>
-    <category term="渗透测试"/>
-    <published>2025-03-02T05:52:48.000Z</published>
-  </entry>
-  <entry>
     <title type="text">ssh基本使用</title>
     <id>https://youze27.github.io/blog/net/ssh%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8.html</id>
     <link href="https://youze27.github.io/blog/net/ssh%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8.html"/>
@@ -3194,7 +3194,7 @@ Finished：客户端和服务器各自计算并发送一个Finished数据包，�
     <title type="text">免责声明</title>
     <id>https://youze27.github.io/blog/clause.html</id>
     <link href="https://youze27.github.io/blog/clause.html"/>
-    <updated>2025-02-23T13:00:23.000Z</updated>
+    <updated>2025-07-20T07:44:45.000Z</updated>
     <summary type="html"><![CDATA[
 <p><strong>最后更新日期：2025年02月23日</strong><br>
 <strong>管辖法律：中华人民共和国法律</strong></p>
@@ -3221,6 +3221,13 @@ Finished：客户端和服务器各自计算并发送一个Finished数据包，�
 <strong>管辖法律：中华人民共和国法律</strong></p>
 ]]></content>
     <published>2025-02-23T13:00:23.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">综合能力</title>
+    <id>https://youze27.github.io/blog/com/</id>
+    <link href="https://youze27.github.io/blog/com/"/>
+    <updated>2025-07-20T07:44:45.000Z</updated>
+    <published>2025-01-27T14:53:53.000Z</published>
   </entry>
   <entry>
     <title type="text">云计算通识学习</title>
@@ -10581,19 +10588,6 @@ sq语句中，单引号不再具有作用”，仅仅是'内容'而已。这个�
     <published>2025-01-11T11:23:43.000Z</published>
   </entry>
   <entry>
-    <title type="text">友链</title>
-    <id>https://youze27.github.io/blog/link.html</id>
-    <link href="https://youze27.github.io/blog/link.html"/>
-    <updated>2025-03-02T08:41:41.000Z</updated>
-    <summary type="html"><![CDATA[<div class="vp-card-container">
-  </div>
-]]></summary>
-    <content type="html"><![CDATA[<div class="vp-card-container">
-  </div>
-]]></content>
-    <published>2025-01-10T03:24:15.000Z</published>
-  </entry>
-  <entry>
     <title type="text">网安基础</title>
     <id>https://youze27.github.io/blog/net/</id>
     <link href="https://youze27.github.io/blog/net/"/>
@@ -10611,7 +10605,7 @@ sq语句中，单引号不再具有作用”，仅仅是'内容'而已。这个�
     <title type="text">关于我</title>
     <id>https://youze27.github.io/blog/intro.html</id>
     <link href="https://youze27.github.io/blog/intro.html"/>
-    <updated>2025-07-13T16:04:52.000Z</updated>
+    <updated>2025-07-20T07:44:45.000Z</updated>
     <summary type="html"><![CDATA[
 <p>嘿，朋友们，我是卷卷，欢迎来到我的博客！一名专注前沿防御技术的25届网络工程毕业生。</p>
 <p>💻 技术基因<br>
@@ -10643,6 +10637,10 @@ Web前端 · Python · C · JAVA · 微信小程序 · 计算机网络 · 信息
 <p>“安全是流动的战场，唯有用开放分享筑牢防线”<br>
 📮 欢迎交流漏洞挖掘姿势<br>
 微信：Youze-Psc</p>
+<br>
+友链
+<div class="vp-card-container">
+  </div>
 ]]></content>
     <published>2025-07-14T00:00:00.000Z</published>
   </entry>
