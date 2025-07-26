@@ -7,6 +7,19 @@
   "favicon": "https://youze27.github.io/blog/assets/favicon.ico",
   "items": [
     {
+      "title": "应急响应术语",
+      "url": "https://youze27.github.io/blog/response/%E5%BA%94%E6%80%A5%E5%93%8D%E5%BA%94%E6%9C%AF%E8%AF%AD.html",
+      "id": "https://youze27.github.io/blog/response/%E5%BA%94%E6%80%A5%E5%93%8D%E5%BA%94%E6%9C%AF%E8%AF%AD.html",
+      "summary": "IoA 攻击指标 (IoA) 是攻击者可能企图破坏系统的预警信号。它将各种数据片段（包括未知属性、IoC 和上下文信息，例如组织风险和情报）构建成潜在威胁的动态实时态势图。IoA 并非为了识别特定的恶意工具，而是通过关注所有攻击者为破坏系统而必须采取的步骤（例如侦察、初始访问、执行）来识别攻击者的战略意图。IoA 对于检测新的、复杂的网络攻击形式（例如...",
+      "content_html": "\n<p>攻击指标 (IoA) 是攻击者可能企图破坏系统的预警信号。它将各种数据片段（包括未知属性、IoC 和上下文信息，例如组织风险和情报）构建成潜在威胁的动态实时态势图。IoA 并非为了识别特定的恶意工具，而是通过关注所有攻击者为破坏系统而必须采取的步骤（例如侦察、初始访问、执行）来识别攻击者的战略意图。IoA 对于检测新的、复杂的网络攻击形式（例如无恶意软件入侵和零日攻击）至关重要。</p>\n<h1>IoC</h1>\n<p>入侵指标 (IoC) 指的是在网络或设备上发现的数据物件，可作为系统疑遭入侵的证据：例如，不属于系统目录的文件或可疑 IP 地址。IoC 是“确凿证据”，即已遭受损害的事后指标。网络安全专业人员利用 IoC 来调查事件造成的影响，并训练他们的工具和技术，以更好地检测和隔离日后可能出现的威胁。</p>\n<p>|<strong>维度</strong>|<strong>IOA</strong><br>(攻击指标)|<strong>IOC</strong><br>(失陷指标)|<br>\n| :-: |</p>\n",
+      "date_published": "2025-07-26T23:34:04.000Z",
+      "date_modified": "2025-07-26T23:34:04.000Z",
+      "authors": [],
+      "tags": [
+        "应急响应"
+      ]
+    },
+    {
       "title": "逆向工程基础",
       "url": "https://youze27.github.io/blog/net/%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B%E5%9F%BA%E7%A1%80.html",
       "id": "https://youze27.github.io/blog/net/%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B%E5%9F%BA%E7%A1%80.html",
