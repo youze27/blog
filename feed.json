@@ -7,6 +7,71 @@
   "favicon": "https://youze27.github.io/blog/assets/favicon.ico",
   "items": [
     {
+      "title": "考试",
+      "url": "https://youze27.github.io/blog/com/exam/",
+      "id": "https://youze27.github.io/blog/com/exam/",
+      "content_html": "",
+      "date_published": "2025-08-10T14:49:59.000Z",
+      "date_modified": "2025-08-10T14:49:59.000Z",
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "NISP错题1",
+      "url": "https://youze27.github.io/blog/com/exam/NISP%E9%94%99%E9%A2%981.html",
+      "id": "https://youze27.github.io/blog/com/exam/NISP%E9%94%99%E9%A2%981.html",
+      "summary": "在 OSI参考模型中有7个层次，提供了相应的安全服务来 加强信息系统的安全性，以下哪一层提供了保密性、身份鉴别、数据完整性服务? A. 网络层 B. 表示层 C. 会话层 D.物理层 正确答案:A 你的答案:C 解析依据：在OSI安全架构（ISO/IEC 7498-2标准）中，网络层是提供全面安全服务（包括保密性、身份鉴别和数据完整性）的关键层。IPs...",
+      "content_html": "<p>在 OSI参考模型中有7个层次，提供了相应的安全服务来 加强信息系统的安全性，以下哪一层提供了保密性、身份鉴别、数据完整性服务?</p>\n<p><u>A. 网络层</u></p>\n<p>B. 表示层</p>\n<p>C. 会话层</p>\n<p>D.物理层</p>\n<p>正确答案:A  你的答案:C</p>\n<p><strong>解析依据</strong>：在OSI安全架构（ISO/IEC 7498-2标准）中，网络层是提供全面安全服务（包括保密性、身份鉴别和数据完整性）的关键层。IPsec是网络层的典型安全协议，广泛应用于VPN等场景，确保数据包级别的安全。</p>\n<p>扩展阅读：</p>\n<p>OSI参考模型分为7层，每层负责不同的功能，安全服务通常分布在多个层，但某些层更专注于特定安全机制：</p>\n<ul>\n<li>\n<p><strong>物理层（Physical Layer）</strong> ：处理物理连接和比特流传输，不提供高级安全服务（如保密性、身份鉴别或数据完整性）。</p>\n</li>\n<li>\n<p><strong>数据链路层（Data Link Layer）</strong> ：负责节点到节点的帧传输，可提供基本错误检测，但不涉及身份鉴别或保密性（未在选项中）。</p>\n</li>\n<li>\n<p><strong>网络层（Network Layer）</strong> ：负责路由、寻址和数据包转发。<strong>这是唯一在选项中能提供保密性、身份鉴别和数据完整性服务的层</strong>，主要通过协议如IPsec（Internet Protocol Security）实现：</p>\n<ul>\n<li><strong>保密性</strong>：通过加密（如IPsec的封装安全载荷ESP）防止数据窃听。</li>\n<li><strong>身份鉴别</strong>：通过认证头（AH）或密钥交换机制验证通信实体的身份。</li>\n<li><strong>数据完整性</strong>：使用哈希算法（如HMAC）确保数据在传输中未被篡改。</li>\n</ul>\n</li>\n<li>\n<p><strong>传输层（Transport Layer）</strong> ：提供端到端连接管理，可通过TLS/SSL实现类似服务，但不在选项中（未列出）。</p>\n</li>\n<li>\n<p><strong>会话层（Session Layer）</strong> ：管理会话建立、维护和终止，<strong>不直接提供任何安全服务</strong>（如保密性或身份鉴别）。它只处理对话控制，与会话管理相关，但安全功能通常委托给其他层。</p>\n</li>\n<li>\n<p><strong>表示层（Presentation Layer）</strong> ：处理数据格式转换、加密和压缩。它可以提供<strong>保密性</strong>（如通过加密算法），但<strong>一般不负责身份鉴别或数据完整性</strong>。这些服务更多由网络层或应用层处理。</p>\n</li>\n<li>\n<p><strong>应用层（Application Layer）</strong> ：支持应用程序服务（如HTTP、FTP），可通过协议如HTTPS、PGP或S/MIME提供保密性、身份鉴别和完整性，但<strong>应用层不在选项中</strong>。</p>\n</li>\n</ul>\n",
+      "date_published": "2025-08-10T14:36:11.000Z",
+      "date_modified": "2025-08-10T14:49:59.000Z",
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "NISP错题2",
+      "url": "https://youze27.github.io/blog/com/exam/NISP%E9%94%99%E9%A2%982.html",
+      "id": "https://youze27.github.io/blog/com/exam/NISP%E9%94%99%E9%A2%982.html",
+      "summary": "如下图所示，Alice用Bob的密钥加密明文，将密文发送给Bob，Bob再用自己的私钥解密，恢复出明文以下说法正确的是:() A.此密码体制为对称密码体制 B.此密码体制为私钥密码体制 C.此密码体制为单钥密码体制 D.此密码体制为公钥密码体制 正确答案:D 你的答案:B A: 对称密码体制使用相同密钥加解密，与题目描述的密钥使用方式不符 B: 私钥密...",
+      "content_html": "<p>如下图所示，Alice用Bob的密钥加密明文，将密文发送给Bob，Bob再用自己的私钥解密，恢复出明文以下说法正确的是:()<br>\nA.此密码体制为对称密码体制<br>\nB.此密码体制为私钥密码体制<br>\nC.此密码体制为单钥密码体制<br>\nD.此密码体制为公钥密码体制<br>\n正确答案:D 你的答案:B</p>\n<p>A: 对称密码体制使用相同密钥加解密，与题目描述的密钥使用方式不符<br>\nB: 私钥密码体制是公钥密码体制的别称，但题目描述的是典型的公钥加密场景<br>\nC: 单钥密码体制即对称密码体制，与题目描述的公私钥配对使用场景不符<br>\nD: 正确选项，题目描述的正是公钥密码体制的典型应用场景：发送方用接收方公钥加密，接收方用自己私钥解密</p>\n",
+      "date_published": "2025-08-10T14:36:11.000Z",
+      "date_modified": "2025-08-10T14:49:59.000Z",
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "NISP错题3",
+      "url": "https://youze27.github.io/blog/com/exam/NISP%E9%94%99%E9%A2%983.html",
+      "id": "https://youze27.github.io/blog/com/exam/NISP%E9%94%99%E9%A2%983.html",
+      "summary": "强制访问控制模型有多种类型，如BLP、Biba、Clark-Willson和ChineseWall等。小李自学了BLP模型，并对该模型的特点进行了总结。以下4种对BLP模型的描述中，正确的是： A.BLP模型用于保证系统信息的机密性，规则是\"向上读，向下写\" B.BLP模型用于保证系统信息的机密性，规则是\"向下读，向上写\" C.BLP模型用于保证系统信...",
+      "content_html": "<p>强制访问控制模型有多种类型，如BLP、Biba、Clark-Willson和ChineseWall等。小李自学了BLP模型，并对该模型的特点进行了总结。以下4种对BLP模型的描述中，正确的是：<br>\nA.BLP模型用于保证系统信息的机密性，规则是\"向上读，向下写\"<br>\nB.BLP模型用于保证系统信息的机密性，规则是\"向下读，向上写\"<br>\nC.BLP模型用于保证系统信息的完整性，规则是\"向上读，向下写\"<br>\nD.BLP模型用于保证系统信息的完整性，规则是\"向下读，向上写\"<br>\n正确答案：B 我的答案：A</p>\n<p>解析：<strong>BLP模型是保护机密性的经典模型</strong>，其核心规则为\"向下读（低密级读高密级），向上写（高密级写低密级）\"（B正确）。NISP考试重点在于掌握不同安全模型的目标：<strong>BLP保护机密性，Biba保护完整性</strong>，两者的读写方向规则正好相反。</p>\n",
+      "date_published": "2025-08-10T14:36:11.000Z",
+      "date_modified": "2025-08-10T14:49:59.000Z",
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "NISP错题4",
+      "url": "https://youze27.github.io/blog/com/exam/NISP%E9%94%99%E9%A2%984.html",
+      "id": "https://youze27.github.io/blog/com/exam/NISP%E9%94%99%E9%A2%984.html",
+      "summary": "某电子商务网站在开发设计时，使用了威胁建模方法来分析电子商务网站所面临的威胁。STRIDE是微软SDL中提出的威胁建模方法，将威胁分为六类，为每一类威胁提供了标准的消减措施，Spoofing是STRIDE中欺骗类的威胁，以下威胁中哪个可以归入此类威胁： A.网站竞争对手可能雇佣攻击者实施DDoS攻击，降低网站访问速度 B.网站使用用户名、密码进行登录验...",
+      "content_html": "<p>某电子商务网站在开发设计时，使用了威胁建模方法来分析电子商务网站所面临的威胁。STRIDE是微软SDL中提出的威胁建模方法，将威胁分为六类，为每一类威胁提供了标准的消减措施，Spoofing是STRIDE中<strong>欺骗类</strong>的威胁，以下威胁中哪个可以归入此类威胁：<br>\nA.网站竞争对手可能雇佣攻击者实施DDoS攻击，降低网站访问速度<br>\nB.网站使用用户名、密码进行登录验证，攻击者可能会利用**<s>弱口令或其他方式获得用户密码</s>**，以该用户身份登录修改用户订单等信息<br>\nC.网站使用使用http协议进行浏览等操作，无法确认数据与用户发出的是否一致，可能数据被中途篡改<br>\nD.网站使用使用http协议进行浏览等操作，未对数据进行加密，可能导致用户传输信息泄露，例如购买的商品金额等<br>\n正确答案：B 我的答案：C</p>\n<p>解析：<strong>Spoofing（欺骗）威胁特指身份冒充</strong>（B正确），如密码窃取后伪装合法用户。DDoS（A）属于拒绝服务，数据篡改（C）属于篡改（Tampering），信息泄露（D）属于信息泄露（Information Disclosure）。NISP考试重点在于掌握STRIDE模型六类威胁：<strong>欺骗（S）、篡改（T）、抵赖（R）、信息泄露（I）、拒绝服务（D）和权限提升（E）</strong> ，需准确区分各类威胁特征。</p>\n",
+      "date_published": "2025-08-10T14:36:11.000Z",
+      "date_modified": "2025-08-10T14:49:59.000Z",
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "NISP错题5",
+      "url": "https://youze27.github.io/blog/com/exam/NISP%E9%94%99%E9%A2%985.html",
+      "id": "https://youze27.github.io/blog/com/exam/NISP%E9%94%99%E9%A2%985.html",
+      "summary": "内容安全是我国信息安全保障工作中的一个重要环节，互联网所带来的数字资源大爆发使得内容安全越来越受到重视，以下哪个描述不属于内容安全的范畴 A：某杂志在线网站建立内容正版化审核团队，对向网站投稿的内容进行版权审核，确保无侵犯版权行为后才能在网站发布 B：某网站采取了技术措施，限制对同一IP地址对网站的并发连接，避免爬虫通过大量的访问采集网站发布数据 C：...",
+      "content_html": "<p><strong>内容安全是我国信息安全保障工作中的一个重要环节，互联网所带来的数字资源大爆发使得内容安全越来越受到重视，以下哪个描述不属于内容安全的范畴</strong></p>\n<p>A：某杂志在线网站建立内容正版化审核团队，对向网站投稿的内容进行版权审核，确保无侵犯版权行为后才能在网站发布<br>\nB：某网站采取了技术措施，限制对同一IP地址对网站的并发连接，避免爬虫通过大量的访问采集网站发布数据<br>\nC：某论坛根据相关法律要求，进行了大量的关键词过滤，使用户无法发布包含被过滤关键词的相关内容<br>\nD：某论坛根据国家相关法律要求，为了保证用户信息泄露，对所有用户信息，包括用户名、密码、身份证号等都进行了加密的存储<br>\n正确答案：D 我的答案：B</p>\n<p><strong>内容安全的核心是保障信息的合法性和合规性</strong>，包括版权保护（A）和内容过滤（C）。B选项的反爬虫措施属于系统安全防护，D选项的用户数据加密属于数据安全范畴。<strong>NISP考点重点在于区分内容安全与系统安全、数据安全的边界</strong>，内容安全主要针对信息内容本身的管理，而非技术防护或数据保护措施。</p>\n",
+      "date_published": "2025-08-10T14:36:11.000Z",
+      "date_modified": "2025-08-10T14:49:59.000Z",
+      "authors": [],
+      "tags": []
+    },
+    {
       "title": "应急响应术语",
       "url": "https://youze27.github.io/blog/response/%E5%BA%94%E6%80%A5%E5%93%8D%E5%BA%94%E6%9C%AF%E8%AF%AD.html",
       "id": "https://youze27.github.io/blog/response/%E5%BA%94%E6%80%A5%E5%93%8D%E5%BA%94%E6%9C%AF%E8%AF%AD.html",
