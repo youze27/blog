@@ -1,6 +1,6 @@
 ---
 title: 密码喷射攻击：防范攻击你需要知道的事项
-short_title: ''
+short_title: '密码喷射攻击'
 date: 2025-11-16 13:06:41
 description: 密码喷射攻击是一种网络攻击
 tag:
@@ -11,8 +11,6 @@ article: true
 timeline: false
 isOriginal: true
 ---
-密码喷射攻击是一种网络攻击
-
 <!-- more -->
 
 
