@@ -1,0 +1,287 @@
+---
+title: 密码学中的哈希解释：它的工作原理、算法和实际用途
+short_title: ''
+date: 2025-11-16 09:11:27
+article: true
+timeline: false
+isOriginal: true
+---
+
+
+<!-- more -->
+
+
+
+
+# 密码学中的哈希解释：它的工作原理、算法和实际用途
+
+哈希处理获取您的数据（如密码或文件）并将其转换为无法撤消的固定长度代码。这使得攻击者几乎不可能弄清楚原始数据是什么，即使他们窃取了哈希值。
+
+在本文中，我将详细解释哈希，包括它的工作原理、应用、背后的算法以及如何正确应用它。
+
+## 密码学中的哈希
+
+哈希是一种获取任何类型的数据（例如单词、文件甚至完整消息）并将其转换为由字母和数字组成的短而固定长度的字符串的方法。此结果称为哈希码。
+
+您可以将哈希值视为数字指纹。就像每个人都有唯一的指纹一样，每个数据都有一个唯一的哈希值。如果数据发生变化（即使是很小），哈希码也会完全改变。
+
+假设您输入单词：“hello123”
+
+现在，哈希函数将此字符串转换为唯一的字符串。结果如下所示：“f30aa7a662c728b7407c54ae6bfd27d1”
+
+![](https://raw.githubusercontent.com/youze27/blog/main/images/hashing-cryptography1-20251116171127-yvvh8xm.png)
+
+现在，如果您进行哪怕是微小的更改并输入：Hello123（大写“H”）。新的哈希值看起来完全不同：“d0aabe9a362cb2712ee90e04810902f3”
+
+即使您只更改了一个字母，整个哈希值也发生了变化。这称为雪崩效应。
+
+以下是哈希在[密码学](https://www.splunk.com/en_us/blog/learn/cryptography.html)中遵循的一些重要规则：
+
+- **单向：**  一旦数据被转换为哈希值，就很难追踪其原始来源。
+- **相同的输入，相同的哈希值：**  如果您向哈希函数提供相同的数据（例如键入相同的密码），它将始终创建完全相同的哈希值。
+- **微小的变化**  **=**  **全新的哈希值：** 即使更改输入中的一个字母也会给您一个完全不同的哈希值。
+- **难以伪造：**  就像指纹一样，两个不同的输入（如不同的文件或密码）不可能产生相同的哈希值。
+
+## 哈希与加密
+
+很多人把哈希和加密混淆了。但它们并不相同：
+
+- [加密](https://www.splunk.com/en_us/blog/learn/data-encryption-methods-types.html)​**是一个双向过程**。你可以通过加密来隐藏数据。之后，你可以用特殊密钥解密，获取原始信息。
+- 而​**哈希则是一个单向过程**。你可以对数据进行哈希，但无法逆转。一旦数据被转换成哈希，就没有密钥或方法可以检索原始数据。
+
+例如，如果你想保持消息私密，不想让别人阅读，就加密它。这样只有持有密钥的人才能解锁和阅读。
+
+你可能见过WhatsApp上的[端到端加密](https://www.splunk.com/en_us/blog/learn/end-to-end-encryption.html)选项。这意味着只有你和你通话的人能读取这些消息。连WhatsApp都看不到。
+
+![](https://raw.githubusercontent.com/youze27/blog/main/images/hashing-cryptography2-20251116171127-kewx4gj.png)
+
+但是，如果要确保特定文件不会受到损害，请对其进行哈希处理。这样，您就可以在不知道原始版本是什么样子的情况下检查它是否已被更改。
+
+例如，我使用 7-Zip 计算名为 ubuntu-24.04.2-desktop-amd64.iso 的文件的 SHA-256 哈希值。
+
+就是这样：
+
+- 从开始菜单打开 7-Zip 文件管理器
+- 右键单击要哈希的文件
+- 选择 CRC。然后我点击 SHA-256 选项
+
+7-Zip 扫描了该文件并创建了以下唯一代码：
+
+![](https://raw.githubusercontent.com/youze27/blog/main/images/hashing-cryptography3-20251116171127-lfxy1hw.png)
+
+此功能未内置于文件中。该工具读取文件的内容并为您生成哈希值。
+
+您现在可以将此哈希值与 [Ubuntu 官方网站上](https://releases.ubuntu.com/24.04/SHA256SUMS)发布的哈希值进行比较。如果它们匹配，则该文件是安全的。如果没有，则文件可能已损坏或更改。
+
+## 现实世界中的哈希
+
+让我们探讨一下哈希在实际实践中的一些主要使用方式：
+
+### 存储密码
+
+当您为网站创建密码时，该网站通常不会存储您的真实密码。相反，它存储您密码的哈希值。因此，当您稍后登录时，系统会对您键入的密码进行哈希处理，并将其与保存的哈希值进行比较。如果它们匹配，则您已登录。否则，将拒绝访问。
+
+例如，[Meta 的 Facebook](https://about.fb.com/news/2019/03/keeping-passwords-secure/) 不会存储您的真实密码。相反，他们使用名为“scrypt”的工具对您的密码进行哈希和加盐。
+
+这意味着您的密码被转换为很难撤销的加扰版本，甚至 Facebook 员工也看不到它是什么。
+
+好消息是，即使黑客入侵了他们的内部系统并窃取了密码数据库，他们仍然不会看到您的实际密码。他们只会看到很难破解的哈希码。
+
+**注意：**​*并非所有系统都使用哈希处理;有些系统使用加密，例如 Google 密码管理器。它使用密钥加密您的用户名和密码。*
+
+### 检查文件安全性
+
+哈希通常用于检查文件是否已被更改或篡改。当您下载软件或系统文件时，网站通常会提供校验和（从原始文件生成的哈希值）。
+
+校验和在 IT 中广泛用于下载大型或关键文件（如作系统映像）时。他们确保下载干净且值得信赖。
+
+比如，我从官方网站下载了[Ubuntu Desktop](https://ubuntu.com/download/desktop)，它除了ISO文件外还提供了[SHA256校验和](https://releases.ubuntu.com/24.04/SHA256SUMS)。
+
+下载后，我可以使用 certutil 等工具在命令提示符（在 Windows 上）生成校验和，并将其与官方工具进行比较。
+
+- 如果哈希值匹配，则文件是安全且未更改的。
+- 如果它们不匹配，则文件可能已损坏或更改。
+
+我比较并得到了相同的校验和，这意味着我的文件没有损坏。
+
+![](https://raw.githubusercontent.com/youze27/blog/main/images/hashing-cryptography4-20251116171127-81lii70.png)
+
+### 使用数字签名进行验证
+
+哈希还用于数字签名，以确保消息或文件未被更改。
+
+在发送消息之前，系统使用哈希函数将消息转换为哈希码。然后，使用发送者的私钥对该哈希进行数字签名。这将创建数字签名。
+
+例如，当您从 [Mozilla 的官方存档](https://archive.mozilla.org/pub/firefox/releases/)下载 Firefox 时，您会在与安装程序相同的文件夹中找到两个额外的文件：
+
+- **SHA256SUMS**文件包含安装程序文件的哈希值。
+- **SHA256SUMS.asc** 文件具有该哈希文件的数字签名。
+
+![](https://raw.githubusercontent.com/youze27/blog/main/images/hashing-cryptography5-20251116171127-m1pvb0i.png)
+
+这些文件可帮助用户验证下载的完整性。如果有人篡改了安装程序（例如添加[恶意软件](https://www.splunk.com/en_us/blog/learn/malware-detection.html)），则哈希将不再匹配。数字签名确认哈希文件本身没有被篡改。
+
+此过程可确保您下载的内容是安全的、未更改的，并且确实来自 Mozilla，而不是来自黑客或网站的虚假副本。
+
+### 在加密货币中应用区块链
+
+哈希也是区块链的重要组成部分（就像在比特币中一样）。区块链中的每个数据块都有自己的哈希值，并包括之前的块的哈希值。这将所有块链接在一起。
+
+如果有人试图更改一个区块，哈希值就会发生变化，从而破坏链。这就是区块链保持安全和值得信赖的方式。
+
+想象一下，有人试图更改过去的比特币交易，声称他们收到了 1 个比特币而不是 10 个比特币。一旦他们这样做，该区块的哈希值就会发生变化，链的其余部分不再匹配。
+
+为了使虚假更改发挥作用，他们必须修改其后面的所有块，这将需要大量的计算能力。
+
+这就是为什么在区块链中作弊几乎是不可能的。即使是很小的改变也可能打破整个链条。
+
+## 网络安全中的加密哈希算法
+
+哈希不是一个始终保持不变的过程。有几种算法，每种算法都不同。那么，让我们看看这些是什么以及它们有何不同。
+
+### 消息摘要 5
+
+MD5 因其速度和简单性而曾经是一种非常流行的哈希算法。它创建一个 128 位哈希值，通常用于检查文件完整性或验证文件在传输过程中是否没有更改。
+
+然而，随着时间的推移，发现了严重的缺陷，[尤其是它容易](https://www.splunk.com/en_us/blog/learn/vulnerability-types.html)发生冲突，这意味着两个不同的数据点最终可能会产生相同的哈希值。
+
+例如，我们可以创建两个具有相同 MD5 哈希值的不同 PDF 文件：
+
+1. 一个安全的
+2. 有害的
+
+一个名为 [universal-pdf-md5-collision](https://github.com/adrien1018/universal-pdf-md5-collision) 的 GitHub 项目准确地展示了如何使两个可读的 PDF 发生冲突，证明 MD5 在验证文件真实性方面是不可靠的。
+
+这就是为什么 MD5 现在被认为已经过时，主要用于非安全任务，例如基本校验和或遗留系统。
+
+### 安全哈希算法 1
+
+SHA-1 被开发为比 MD5 更强。它产生更长的 160 位哈希值，广泛用于验证密码、文件验证和数字签名。
+
+我使用在线工具为字符串“hello”创建了 SHA-1 哈希码。它看起来是这样的：
+
+![](https://raw.githubusercontent.com/youze27/blog/main/images/hashing-cryptography6-20251116171127-raeouqp.png)
+
+[Git 还使用 SHA-1 来](https://graphite.dev/guides/git-hash)识别提交并跟踪代码存储库中的更改。但它现在已更新为更安全的算法 （SHA-256）。
+
+随着时间的推移，与 MD5 一样，SHA-1 最终被发现很弱。
+
+谷歌和阿姆斯特丹的 CWI 研究所公开演示了针对 SHA-1 的碰撞攻击，即“[SHAttered”攻击](https://securityaffairs.com/56608/hacking/shattered-attack.html)，其中两个不同的 PDF 文件产生相同的 SHA-1 哈希值，这证明该算法也不再具有抗碰撞能力。
+
+这就是为什么它现在被认为已经过时，不再建议用于涉及敏感或安全数据的任何内容。
+
+甚至 [Microsoft 也曾在](https://techcommunity.microsoft.com/blog/windows-itpro-blog/sha-1-windows-content-to-be-retired-august-3-2020/1544373)软件更新和 Windows 文件签名中使用过 SHA-1，但出于安全考虑，他们于 2021 年正式停止支持它。
+
+### 安全哈希算法 2
+
+SHA-2 是一组哈希算法，其中 SHA-256 和 SHA-512 是最常见的。这些算法更强大，广泛应用于数字签名和加密货币。
+
+例如，[比特币使用 SHA-256 作为其工作量证明算法](https://supra.com/academy/the-nsa-and-bitcoin-origins-of-the-sha-256-hashing-algorithm/)，该算法维护其区块链上交易的完整性和安全性。
+
+虽然它比 MD5 慢，但它具有很强的抗攻击能力，被认为是满足几乎所有[网络安全](https://www.splunk.com/en_us/blog/learn/cybersecurity.html)需求的可靠选择。
+
+事实上，SHA-512 提供了更长的哈希值，这在更高安全性的环境中特别有用，尽管它需要更多的系统资源。
+
+### 安全哈希算法 3
+
+SHA-3 是 SHA 系列中的最新产品。它是作为备份而创建的，以防在 SHA-2 中发现弱点。
+
+它在内部的工作方式与 SHA-2 不同：
+
+- SHA-2 采用 [Merkle-Damgård 结构](https://www.scribd.com/document/706055614/merkledamgardconstruction)，使哈希函数具有抗碰撞性。
+- SHA-3 使用 [Keccak 海绵结构](https://kerkour.com/sha3)，它将整个消息吸收到一个大的内部状态中，然后给出哈希值。
+
+尽管它同样安全，但尚未被广泛采用，因为 SHA-2 仍然做得很好。尽管如此，SHA-3 仍然是未来系统或作为第二层保护的绝佳选择。
+
+## 如何选择正确的哈希算法
+
+在选择哈希函数（也称为哈希算法）时，请考虑您更需要什么：速度或安全性。
+
+如果您想快速检查某些内容（例如确保文件没有更改），那么速度必须是您的首要任务。然而，像 MD5 或 SHA-1 这样的旧哈希函数虽然速度很快，但不再被认为是安全的，因为它们可以为不同的数据生成相同的哈希值。
+
+[2024 年](https://blog.cloudflare.com/radius-udp-vulnerable-md5-attack/)，一个联合研究团队（[加州大学圣地亚哥](https://cryptosec.ucsd.edu/)分校、[阿姆斯特丹 CWI](https://www.cwi.nl/en/groups/cryptology/)、[BastionZero](https://www.bastionzero.com/)）发布了 Blast-RADIUS （[CVE-2024-3596](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-3596)）。他们证明，网络中间的黑客可以使用快速的 MD5 技巧来诱骗系统让他们进入（不知道密码）。
+
+因此，由于黑客可以破坏它们，因此最好避免。
+
+为了确保数据安全，例如保护密码或保护重要信息，您应该选择更强的哈希函数，例如 SHA-256 和 SHA-3。它们需要更多时间来运行，因为它们会执行更复杂的计算来确保[数据安全](https://www.splunk.com/en_us/blog/learn/data-security.html)。
+
+例如，如果 MD5 需要一个步骤来创建哈希，则 SHA-256 可能需要三个或四个步骤。这意味着它需要额外的几毫秒。
+
+如果您想要同时安全、快速的东西，请使用 SHA-512 或 BLAKE2。它们提供强大的保护，而不会减慢过程。
+
+## 安全哈希的最佳实践
+
+以下是一些使哈希尽可能安全的最佳实践。
+
+- 避免使用过时的哈希函数，如 MD5 或 SHA-1。
+- 在将密码保存到数据库之前，请务必对密码进行哈希处理。如果黑客进入，他们只会找到经过哈希处理的数据，而不是真正的凭据。
+- 盐是在哈希之前添加到每个密码的随机值。这使得每个哈希值都是唯一的，即使对于具有相同密码的用户也是如此，并防止彩虹表攻击。
+- 定期审核和更新您的系统，以使用最新推荐的哈希算法。
+
+## 常见的哈希错误
+
+哈希能让你的数据安全可靠，但如果使用不当，可能会出错。以下是一些人们常犯的错误以及如何避免：
+
+### 用原始数据存储哈希
+
+如果你把原始数据和哈希值存储在同一个地方，安全性就会降低。攻击者如果进入该位置，就能同时获得哈希值和它保护的数据，从而更容易测试或作。
+
+为避免这种情况，应将哈希与原始数据分开存储。使用不同的存储系统，应用访问控制，并限制每个部分的访问权限。
+
+这增加了一层保护，使攻击变得更难。
+
+### 忘记更新你的哈希方法
+
+安全性会随着时间的推移而变化。今天强的东西明天可能会变得弱。如果您继续使用过时的方法，您的数据可能会面临风险。
+
+所以，请保持更新。随时了解安全新闻并根据需要更新您的哈希算法。
+
+## 开始对重要内容进行哈希处理
+
+如果您要存储用户密码或分发文件，请将保护它们作为您的首要任务。切换到 SHA-256 或 BLAKE2 等安全哈希函数，并在必要时实现加盐。
+
+### 关于密码学中哈希的常见问题解答
+
+[全部打开Close All]()
+
+什么是密码学中的哈希？
+
+哈希是将任何输入数据转换为固定长度的字符串（称为哈希）的过程，这使得从哈希中检索原始数据变得极其困难。
+
+哈希与加密有何不同？
+
+Hashing is a one-way operation used to verify data integrity, while encryption is reversible with a key and is used to keep data private.
+
+最常用的哈希算法有哪些？
+
+Popular hash algorithms include SHA-256, SHA-3, BLAKE2, MD5, and SHA-1, though MD5 and SHA-1 are now considered insecure for most applications.
+
+为什么哈希对于存储密码很重要？
+
+Hashing protects passwords by storing only their hashes, not the actual passwords. Even if hashes are stolen, it's extremely difficult to recover the original passwords.
+
+安全哈希的最佳实践是什么？
+
+Use modern algorithms like SHA-256 or SHA-3, always salt passwords before hashing, and avoid outdated methods like MD5 and SHA-1.
+
+[全部打开Close All]()
+
+看到错误或有建议？请通过电子邮件告诉我们 [splunkblogs@cisco.com](mailto:splunkblogs@cisco.com)。
+
+*此帖子并不一定代表 Splunk 的立场、战略或观点。*
+
+![莱巴·西迪基 图片](https://raw.githubusercontent.com/youze27/blog/main/images/splunk-learn-laiba-20251116171127-74wg1rq.jpg)
+
+[莱巴·西迪基](https://www.splunk.com/en_us/blog/author/laiba-siddiqui.html)
+
+[Laiba Siddiqui](https://lamsdigital.com/) 是一位喜欢简化复杂主题的 SEO 作家。她帮助 Data World、DataCamp 和 Rask AI 等公司为受众创建引人入胜且信息丰富的内容。您可以在 [LinkedIn](https://www.linkedin.com/in/seo-tech-writer/) 上与她联系。
+
+## 相关文章
+
+## About Splunk
+
+    The world’s leading organizations rely on Splunk, a Cisco company, to continuously strengthen digital resilience with our unified security and observability platform, powered by industry-leading AI.
+
+Our customers trust Splunk’s award-winning security and observability solutions to secure and improve the reliability of their complex digital environments, at any scale.
+
+    [Learn more about Splunk](https://www.splunk.com/en_us/about-us/why-splunk.html)
