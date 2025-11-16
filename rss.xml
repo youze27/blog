@@ -6,8 +6,8 @@
     <link>https://youze27.github.io/blog/</link>
     <description>网络安全知识库</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 10 Aug 2025 15:12:34 GMT</pubDate>
-    <lastBuildDate>Sun, 10 Aug 2025 15:12:34 GMT</lastBuildDate>
+    <pubDate>Sun, 16 Nov 2025 09:20:30 GMT</pubDate>
+    <lastBuildDate>Sun, 16 Nov 2025 09:20:30 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>应急响应</category>
@@ -8625,17 +8625,17 @@ sq语句中，单引号不再具有作用”，仅仅是'内容'而已。这个�
 ]]></content:encoded>
     </item>
     <item>
-      <title>渗透测试</title>
-      <link>https://youze27.github.io/blog/perm/</link>
-      <guid>https://youze27.github.io/blog/perm/</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">渗透测试</source>
-      <pubDate>Fri, 10 Jan 2025 03:24:15 GMT</pubDate>
-    </item>
-    <item>
       <title>网安基础</title>
       <link>https://youze27.github.io/blog/net/</link>
       <guid>https://youze27.github.io/blog/net/</guid>
       <source url="https://youze27.github.io/blog/rss.xml">网安基础</source>
+      <pubDate>Fri, 10 Jan 2025 03:24:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>渗透测试</title>
+      <link>https://youze27.github.io/blog/perm/</link>
+      <guid>https://youze27.github.io/blog/perm/</guid>
+      <source url="https://youze27.github.io/blog/rss.xml">渗透测试</source>
       <pubDate>Fri, 10 Jan 2025 03:24:15 GMT</pubDate>
     </item>
     <item>
