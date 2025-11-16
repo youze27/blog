@@ -3,8 +3,11 @@ title: 密码学中的哈希解释：它的工作原理、算法和实际用途
 short_title: ''
 date: 2025-11-16 09:11:27
 article: true
-timeline: false
+timeline: true
 isOriginal: true
+index: true
+category:
+  - 计网基础
 ---
 
 
