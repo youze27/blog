@@ -4,15 +4,15 @@
   <title>卷卷</title>
   <subtitle>网络安全知识库</subtitle>
   <icon>https://youze27.github.io/blog/assets/favicon.ico</icon>
-  <updated>2025-11-16T09:48:09.853Z</updated>
+  <updated>2025-11-16T15:24:48.679Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://youze27.github.io/blog/atom.xml"/>
   <link rel="alternate" href="https://youze27.github.io/blog/"/>
-  <category term="应急响应"/>
+  <category term="渗透测试"/>
   <category term="计网基础"/>
+  <category term="应急响应"/>
   <category term="营养学"/>
   <category term="靶机"/>
-  <category term="渗透测试"/>
   <category term="python"/>
   <category term="学习路线"/>
   <category term="基础"/>
@@ -22,10 +22,220 @@
   <category term="其他"/>
   <category term="信息收集"/>
   <entry>
+    <title type="text">什么是SIEM？一文读懂安全信息和事件管理</title>
+    <id>https://youze27.github.io/blog/perm/what-is-siem-understand-security-information-and-event-management-in-one-article-24rofn.html</id>
+    <link href="https://youze27.github.io/blog/perm/what-is-siem-understand-security-information-and-event-management-in-one-article-24rofn.html"/>
+    <updated>2025-11-16T15:17:49.000Z</updated>
+    <summary type="text">什么是SIEM？一文读懂安全信息和事件管理
+🚀 告别网络威胁：SIEM如何守护您的数字世界
+SIEM是安全信息管理（SIM）和安全事件管理（SEM）的结合体，最初主要服务于大型企业，如今已成为保护各类规模组织免受网络威胁的关键防线。
+imageimage
+💡 SIEM核心概念：数字世界的“超级英雄”
+SIEM是一种整体性的安全方法。它将​安全信息管...</summary>
+    <content type="html"><![CDATA[<!-- more -->
+<h1>什么是SIEM？一文读懂安全信息和事件管理</h1>
+<h2>🚀 告别网络威胁：SIEM如何守护您的数字世界</h2>
+<p>SIEM是安全信息管理（SIM）<strong>和</strong>安全事件管理（SEM）的结合体，最初主要服务于大型企业，如今已成为保护各类规模组织免受网络威胁的关键防线。</p>
+<figure><img src="http://127.0.0.1:18266/assets/image-20251116160849-nuxr7ml.png" alt="image" tabindex="0" loading="lazy"><figcaption>image</figcaption></figure>
+<h2>💡 SIEM核心概念：数字世界的“超级英雄”</h2>
+<p>SIEM是一种整体性的安全方法。它将​<strong>安全信息管理（SIM）</strong> ​——侧重于日志数据的收集、存储和历史分析——与​<strong>安全事件管理（SEM）</strong> ——专注于实时监控、分析安全事件并发出警报——相结合，形成了一个强大的统一平台。</p>
+<p>想象一下，SIEM就像你电脑里的“超级重要的电子监视器”——一个超级英雄，持续监视着你数字世界里发生的一切。一旦发现任何可疑或不正常的活动，它会立即发出警报，就像超级英雄一样，保护你的数字游乐场免受坏人的侵害。</p>
+<p>SIEM技术也在不断发展，从最初基于预定义规则的分析，演进到结合​<strong>用户和实体行为分析（UEBA）</strong> ，以更智能、更准确地识别潜在威胁。</p>
+<h2>⚙️ SIEM工作原理：数据收集与智能分析</h2>
+<p>SIEM系统的工作机制高效而严谨。它通过部署代理程序，从组织内的各种设备、服务器、网络组件和安全工具中收集事件和日志数据。这些数据被发送到一个​<strong>集中式控制台</strong>，在那里进行聚合、分析、优先级排序，并最终根据分析结果采取响应。</p>
+<p>SIEM工具的核心功能在于：</p>
+<ul>
+<li>​<strong>数据聚合与分类</strong>：它收集来自应用程序、安全设备、防火墙等不同系统的海量事件和日志数据，并进行集中化管理和分类。</li>
+<li>​<strong>行为识别</strong>：SIEM能够识别成功的或不成功的登录尝试、手动活动以及其他潜在的恶意行为。</li>
+<li>​<strong>警报生成</strong>：根据预定义的规则，SIEM会生成安全警报。例如，两分钟内五次失败的登录尝试可能被视为低优先级事件，而五分钟内三十次失败的尝试则可能意味着一次暴力破解攻击，需要立即关注。</li>
+</ul>
+<p>通过这种方式，SIEM能够有效降低网络安全噪音，帮助分析师聚焦于真正重要的威胁。</p>
+<h2>🎯 SIEM的核心价值：简化、预防与合规</h2>
+<p>SIEM对于现代网络安全至关重要，其核心价值体现在以下几个方面：</p>
+<ul>
+<li>​<strong>简化安全管理</strong>：SIEM能够筛选海量数据，为企业确定警报优先级，大大简化了安全运营的复杂性。</li>
+<li>​<strong>事件洞察与重建</strong>：它能够发现潜在的事件，识别低级别的恶意活动，并重建攻击序列，帮助安全团队了解攻击的完整过程。</li>
+<li>​<strong>合规性保障</strong>：通过自动生成综合报告，SIEM简化了会议合规性审计，减少了大量人工劳动。</li>
+<li>​<strong>事件响应与挫败</strong>：最重要的是，SIEM通过追踪攻击部件、确定受损源并提供自动化工具来挫败持续的威胁，从而有效管理事件。</li>
+</ul>
+<p>SIEM使组织能够保持安全并符合法规要求，这就是它强大的力量。</p>
+<h2>🌟 SIEM的六大优势深度解析</h2>
+<p>SIEM为组织带来了诸多优势，是构建稳固网络安全防线的基石：</p>
+<ol>
+<li>​<strong>快速识别威胁</strong>：SIEM显著缩短了识别潜在威胁所需的时间，最大限度地减少了恶意活动可能造成的损害。</li>
+<li>​<strong>提供整体安全视图</strong>：它提供了一个组织信息安全环境的全面视角，有助于有效收集和分析安全信息，确保所有系统数据都集中，提升可访问性。</li>
+<li>​<strong>支持多功能用例</strong>：SIEM支持围绕数据和负载的一系列应用程序，包括实施强大的网络安全计划、生成审计和合规报告，并协助服务台和网络故障排除。</li>
+<li>​<strong>卓越的可伸缩性</strong>：SIEM能够支持大量数据，使组织能够无缝扩展，并根据需要纳入额外数据，以增强安全措施。</li>
+<li>​<strong>主动威胁检测和警报</strong>：它提供主动的威胁检测和安全警报，使组织能够领先于潜在风险。</li>
+<li>​<strong>强大的法医分析能力</strong>：在发生重大安全漏洞的不幸事件时，SIEM能够进行详细的法医分析，帮助了解安全事件的范围和影响，促进有效的响应策略。</li>
+</ol>
+<p>拥抱SIEM的力量，能够强化网络安全态势，其迅速识别威胁和采取积极主动措施的能力是维护安全数字环境的关键。</p>
+<h2>⚠️ SIEM的局限性与挑战</h2>
+<p>尽管SIEM功能强大，但在部署和管理过程中也面临一些挑战：</p>
+<ol>
+<li>​<strong>实施时间长</strong>：SIEM的集成虽然有益，但需要时间。成功的执行需要与组织的安全控制和主机无缝集成，通常全面运行需要90天或更长时间。</li>
+<li>​<strong>高昂的成本</strong>：SIEM的前期成本通常很高，可能高达数十万美元。持续的费用，包括人员支持费和数据收集工具，也构成了一笔重大的财务承诺。</li>
+<li>​<strong>专业知识要求</strong>：有效的SIEM管理需要高度的专业知识。许多组织选择专门的安全运营中心（SOC），配备熟练的信息安全团队来处理系统。</li>
+<li>​<strong>基于规则的分析局限</strong>：SIEM在数据分析上依赖规则，但巨大的数据量每天可能产生数千个警报，使得识别真正的潜在威胁变得更加困难（即“警报疲劳”）。</li>
+<li>​<strong>错误配置风险</strong>：配置错误的SIEM是一个重大风险，可能导致关键安全事件被忽略。正确的设置对于最大限度地提高威胁检测和响应至关重要。</li>
+</ol>
+<h2>🔑 SIEM的关键特性与主流工具</h2>
+<p>在评估SIEM产品时，了解其关键特性至关重要：</p>
+<ul>
+<li>​<strong>数据集成</strong>：SIEM通过收集和监控来自不同来源（包括应用程序、网络、服务器和数据库）的数据来运作。</li>
+<li>​<strong>关联性</strong>：作为一个更广泛的组件，通常集成到SIEM工具中的安全管理，关联性包括识别不同事件之间的共同属性，这对于综合威胁分析至关重要。</li>
+<li>​<strong>仪表板</strong>：SIEM系统能够从应用程序、数据库、网络和服务器中提取信息，并在可视化仪表板中显示这些数据，通过图表揭示模式，防止关键事件被忽视。</li>
+<li>​<strong>警报</strong>：当发现潜在的安全事件时，SIEM工具会及时通知用户，这种实时警报有助于对新出现的威胁做出快速反应。</li>
+<li>​<strong>自动化</strong>：一些SIEM解决方案超越了基本功能，包含了自动化特性，例如自动安全事件分析和事件响应机制，提高了整体网络安全战略的效率。</li>
+</ul>
+<p>市场上存在多种优秀的SIEM工具和软件，帮助组织加强数字防御：<img src="http://127.0.0.1:18266/assets/image-20251116162635-os40oq9.png" alt="image" loading="lazy"></p>
+<p>这些工具在确保各种规模组织采取积极主动的安全措施方面发挥着关键作用。</p>
+<h2>🔮 SIEM的未来展望与演进趋势</h2>
+<p>SIEM的未来图景充满变革与创新，我们可以期待以下发展趋势：</p>
+<ul>
+<li>​<strong>高级自动化与AI/机器学习</strong>：SIEM在工作流自动化中的作用正在演变，将结合AI和机器学习，实现更快的编排，并强化公司所有部门的保护，这意味着更高效和有效的安全协议执行。</li>
+<li><strong>与MDR工具的合作</strong>：随着黑客威胁的增加，双重防御方法至关重要。内部IT团队可以利用SIEM，同时许多服务提供商实现 托管检测与响应（MDR）工具，以确保全面应对安全威胁。</li>
+<li>​<strong>更高水平的云管理</strong>：SIEM供应商正在增强工具，以实现更好的云管理，适应沉浸在云环境中的组织不断发展的安全需求。</li>
+<li><strong>与SOAR的集成</strong>：SIEM与安全编排、自动化与响应（SOAR）之间的界限正在模糊。传统的SIEM产品正在采用SOAR的优势，供应商正在扩展功能以实现融合，充分利用这两种方法。</li>
+</ul>
+<h3>开源SIEM</h3>
+<ol>
+<li>
+<p><strong>Wazuh</strong></p>
+<ul>
+<li>​<strong>简介</strong>：目前最流行、功能最全面的开源安全解决方案之一。它不仅是一个SIEM，还集成了强大的HIDS（主机入侵检测系统）功能。</li>
+<li>​<strong>核心功能</strong>：日志分析、文件完整性监控、漏洞检测、配置评估、合规性检查（如PCI DSS, HIPAA）。</li>
+<li>​<strong>特点</strong>：部署相对简单，文档完善，社区活跃，功能全面。</li>
+</ul>
+</li>
+<li>
+<p><strong>Security Onion</strong></p>
+<ul>
+<li>​<strong>简介</strong>：一个集成的Linux发行版，将多个开源安全工具打包在一起，形成了一个完整的NSM（网络安全监控）和SIEM平台。</li>
+<li>​<strong>核心工具</strong>：包含Suricata（网络IDS/IPS）、Zeek（网络流量分析）、Elasticsearch（日志存储）、Kibana（可视化）、Wazuh（HIDS）等。</li>
+<li>​<strong>特点</strong>：功能极其强大，“一站式”解决方案，但学习曲线较陡峭，适合有经验的团队。</li>
+</ul>
+</li>
+<li>
+<p><strong>Apache Metron（已归档，但影响深远）</strong></p>
+<ul>
+<li>​<strong>简介</strong>​：原为Hortonworks项目，后成为Apache顶级项目。它旨在通过集成Hadoop和Spark等大数据技术来处理海量安全数据。​<strong>注意：该项目已于2021年归档，不再积极开发</strong>，但其设计和理念影响了后续很多产品。</li>
+</ul>
+</li>
+<li>
+<p><strong>ELK/Elastic Stack + 自定义</strong></p>
+<ul>
+<li>​<strong>简介</strong>​：使用Elasticsearch、Logstash和Kibana自己构建一个SIEM。Elastic公司提供了官方的<strong>Elastic SIEM</strong>功能（现在已演进为​<strong>Elastic Security</strong>），在其商业版中功能更完整，但其底层栈仍是开源的。</li>
+<li>​<strong>特点</strong>：高度灵活，可以完全自定义，但需要投入大量开发和运维工作才能达到成熟SIEM的水平。</li>
+</ul>
+</li>
+</ol>
+]]></content>
+    <category term="渗透测试"/>
+    <published>2025-11-16T08:06:17.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">密码喷射攻击：防范攻击你需要知道的事项</title>
+    <id>https://youze27.github.io/blog/net/password-spraying-attacks-what-you-need-to-know-to-prevent-them-z2blobk.html</id>
+    <link href="https://youze27.github.io/blog/net/password-spraying-attacks-what-you-need-to-know-to-prevent-them-z2blobk.html"/>
+    <updated>2025-11-16T14:55:58.000Z</updated>
+    <summary type="html"><![CDATA[<!-- more -->
+<h1>密码喷射攻击：防范攻击你需要知道的事项</h1>
+<figure><img src="http://127.0.0.1:18266/assets/password-spraying0-20251116210640-xxa1q1b.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>密码喷洒是一种利用弱密码轻松攻破用户账户的<a href="https://www.splunk.com/en_us/blog/learn/vulnerability-vs-threat-vs-risk.html" target="_blank" rel="noopener noreferrer">网络威胁</a>。这意味着在认证用户进入系统时，执行<a href="https://www.splunk.com/en_us/blog/learn/rbac-vs-abac.html" target="_blank" rel="noopener noreferrer">严格的访问控制</a>至关重要。</p>]]></summary>
+    <content type="html"><![CDATA[<!-- more -->
+<h1>密码喷射攻击：防范攻击你需要知道的事项</h1>
+<figure><img src="http://127.0.0.1:18266/assets/password-spraying0-20251116210640-xxa1q1b.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>密码喷洒是一种利用弱密码轻松攻破用户账户的<a href="https://www.splunk.com/en_us/blog/learn/vulnerability-vs-threat-vs-risk.html" target="_blank" rel="noopener noreferrer">网络威胁</a>。这意味着在认证用户进入系统时，执行<a href="https://www.splunk.com/en_us/blog/learn/rbac-vs-abac.html" target="_blank" rel="noopener noreferrer">严格的访问控制</a>至关重要。</p>
+<p>本文概述了密码喷射攻击，包括其运作方式以及一些真实案例。我还将探讨这些攻击如何影响企业，以及检测和防范的机制。</p>
+<h2>什么是密码喷射？</h2>
+<p>密码喷射攻击<a href="https://owasp.org/www-community/attacks/Password_Spraying_Attack" target="_blank" rel="noopener noreferrer">是一种</a>网络攻击，攻击者试图通过使用一个或多个常用密码跨多个账户访问用户账户。</p>
+<p>MITRE AT&amp;CK框架中的技术<a href="https://attack.mitre.org/techniques/T1110/003/" target="_blank" rel="noopener noreferrer">T1110.003</a>，密码喷射不同于<a href="https://www.splunk.com/en_us/blog/learn/brute-force-attacks.html" target="_blank" rel="noopener noreferrer">典型的暴力破解攻击</a>，后者攻击者会对特定用户账户尝试多个密码。不过，我们可以考虑喷射暴力攻击——它涉及一种反复试验的方法，将单一密码“喷洒”到多个账户中搜索，直到找到匹配的密码。</p>
+<p>这种方法使攻击者能够避免在不同密码的特定登录尝试次数超过时，避免账户锁定等对策。因此，没有适当的检测方法，很难检测到密码喷洒攻击。这些密码喷射攻击通常针对单点登录（SSO）和云端应用中使用的联邦认证。一旦攻击者获得初始访问权限，他们就可以访问组织的关键数据。</p>
+<h2>密码喷洒攻击的工作原理</h2>
+<p>密码喷射攻击分三个步骤进行。</p>
+<h3>步骤 1.获取用户名列表</h3>
+<p>首先，攻击者必须获取用户名列表。这并不难，这要归功于常见的电子邮件格式。例如，大多数公司使用标准电子邮件格式，例如：</p>
+<ul>
+<li><a href="mailto:firstname.lastname@organizationname.com" target="_blank" rel="noopener noreferrer">firstname.lastname@organizationname.com</a></li>
+<li><a href="mailto:Firstinitial.lastname@organization.com" target="_blank" rel="noopener noreferrer">Firstinitial.lastname@organization.com</a></li>
+</ul>
+<p>有时，可以在社交媒体或简单的 Google 搜索中找到与这些电子邮件相对应的用户名。此外，攻击者可以从暗网获取用户名。</p>
+<h3>步骤 2.喷洒密码</h3>
+<p>接下来，攻击者必须获取常用密码列表——该列表很容易在网上找到。为了避免被发现，攻击者通常会缓慢地进行密码喷洒。此外，攻击者可以利用工具包来自动化喷洒过程。</p>
+<h3>步骤 3.访问帐户并传播攻击以泄露用户数据</h3>
+<p>一旦喷洒攻击成功，如果在受害者的多个帐户中使用相同的密码，攻击者将可以访问这些帐户。这意味着攻击者可以根据该用户的帐户和权限进一步传播和破坏用户数据。</p>
+<figure><img src="http://127.0.0.1:18266/assets/brute-force1-20251116210640-eptebz3.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h2>密码喷洒与撞库：一个主要区别</h2>
+<p>密码喷洒和<a href="https://www.splunk.com/en_us/blog/learn/credential-stuffing.html" target="_blank" rel="noopener noreferrer">撞库</a>通常齐头并进。两者都是暴力攻击，旨在获取对用户帐户的未经授权的访问。然而，这两种类型的攻击之间存在差异。</p>
+<p>撞库涉及使用攻击者获得的许多用户名和密码组合。同时，密码喷射攻击涉及针对多个用户帐户尝试单个或少量常用密码。</p>
+<p>作为一般经验法则，我们可以说密码喷射攻击通常是针对特定目标进行的，因此可能比撞库更难检测。</p>
+<h2>密码喷射尝试示例</h2>
+<p>密码较弱、身份验证机制较差的用户帐户往往会成为密码喷射攻击的受害者。以下是一些促使组织加强安全措施的密码喷洒攻击的真实示例。</p>
+<h3>Microsoft Exchange Online（2022 年 10 月）</h3>
+<p>2022 年 10 月，Microsoft 警告称，密码喷射攻击针对的是使用基本身份验证的 Exchange Online 用户。攻击者使这些用户弃用 Exchange Online 的基本身份验证。Microsoft 的 Exchange 团队后来澄清说，在 Exchange Online 中禁用基本身份验证的决定只是为了保护用户帐户和数据免受日益增长的密码喷洒攻击。</p>
+<h3>Citrix （2018-2019）</h3>
+<p>2018年10月13日至2019年3月8日期间，一次密码喷射攻击成功未经授权访问了Citrix的内部网络。</p>
+<p>该组织确认他们的商业文件和文件被盗。据Citrix称，部分用户的虚拟硬盘和公司邮箱账户被攻破，攻击者还针对多个内部应用。</p>
+<h3>Microsoft Office 365 （2019）</h3>
+<p>2019 年，一组攻击者针对 Microsoft Office 365 帐户进行了密码喷洒攻击。他们使用从以前的数据泄露中获得的密码列表访问客户的 1,800 个电子邮件帐户。</p>
+<figure><img src="http://127.0.0.1:18266/assets/cyberattack-objectives-20251116210640-i8d7fcl.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h2>密码喷射攻击的影响</h2>
+<p>正如我们从这些例子中看到的那样，密码喷洒是一种严重的网络攻击，可能会对企业产生重大影响。</p>
+<p>如果攻击者通过密码喷洒获得对组织系统或帐户的访问权限，他们可以利用这些帐户权限来访问敏感信息，例如财务和客户数据。此类数据泄露将损害企业声誉，尤其是在攻击者泄露客户数据的情况下。客户将失去对您的业务的信任，从而导致高流动率。</p>
+<p>此外，企业将不得不承担数据泄露后的补救和损害控制成本。他们还可能因未能保护其系统和数据而受到处罚。它还可能包括监管机构、客户、合作伙伴和其他利益相关者的法律责任。此类后果可能导致：</p>
+<ul>
+<li>巨大的经济损失</li>
+<li>企业收入损失</li>
+</ul>
+<p>此外，密码喷射攻击会降低 IT 团队的工作效率，扰乱他们专注于<a href="https://www.splunk.com/en_us/blog/learn/incident-management.html" target="_blank" rel="noopener noreferrer">识别和修复攻击源</a>的重要工作。因此，企业必须实施强大的安全机制，例如多因素身份验证和强密码策略，以消除这些攻击。</p>
+<p><em>（获取最新的事件审查最佳做法和指标。</em></p>
+<h2>检测密码喷洒攻击：您受到攻击的迹象</h2>
+<p>以下是一些迹象，表明您的帐户正在遭受密码喷射攻击。</p>
+<h3>失败的登录尝试突然增加</h3>
+<p>假设您的 IT 团队监控多个用户帐户的登录尝试。今天，他们注意到失败的登录尝试或锁定的帐户突然增加，这可能表明密码喷射攻击正在进行中。</p>
+<p>您可以通过检查所使用的密码并验证它们是否是用于提前访问帐户的泄露密码列表来确认攻击。攻击者还可能使用过时的登录信息，例如前员工的凭据——这表明攻击者访问了过时的员工目录。</p>
+<h3>异常帐户访问模式</h3>
+<p>如果您分析登录尝试，您可能会注意到与正常帐户访问行为不同的异常登录模式。例如：</p>
+<ul>
+<li>在正常工作时间之外或从异常 IP 地址访问帐户的登录。</li>
+<li>网络流量或带宽使用量的异常激增可能是密码喷射攻击的迹象。</li>
+</ul>
+<p><a href="https://www.splunk.com/en_us/blog/learn/behavioral-analytics.html" target="_blank" rel="noopener noreferrer">使用机器学习进行</a>监视和分析可用于识别这些异常访问模式。</p>
+<p><em>（了解如何使用 Splunk 检测密码喷洒攻击。</em></p>
+<iframe class="vidyard_iframe" src="https://play.vidyard.com/EtXXEPcmEhT9wGzSS8D54p.html?" width="640" height="360" frameborder="0">&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;nbsp;</iframe>
+<h2>如何避免和缓解密码喷射攻击</h2>
+<p>现在我们可以讨论防止此类攻击的方法。企业可以实施各种安全措施来防止密码喷洒攻击。这里有一些选项。</p>
+<h3>实施强密码策略</h3>
+<p>密码喷射攻击通常针对容易猜到的弱密码。因此，企业必须执行强密码策略，例如：</p>
+<ul>
+<li>需要大小写字母、数字和特殊字符的组合来创建复杂的密码。</li>
+<li>禁止使用容易被猜到或以前使用过的密码。</li>
+</ul>
+<p>此外，必须强制实施强密码重置策略。例如，密码应该经常重置，例如每三个月重置一次，使攻击者难以访问帐户。此外，企业应迅速删除休眠用户帐户或不再访问或使用其系统的用户。</p>
+<h3>控制登录尝试次数</h3>
+<p>避免无限次输入密码。虽然现代系统不允许这样做，但仍有一些遗留系统允许这种做法。在一定次数的登录尝试失败后锁定帐户至关重要。那么攻击者就很难进行暴力攻击来猜测正确的密码。</p>
+<h3>通过警报进行监控</h3>
+<p><a href="https://www.splunk.com/en_us/blog/learn/continuous-monitoring.html" target="_blank" rel="noopener noreferrer">定期监控</a>和分析登录尝试可以帮助组织主动检测和消除密码喷射攻击。它包括检测异常情况，例如来自单个 IP 地址的多次尝试失败以及网络流量突然增加。</p>
+<p>一旦检测到任何可疑活动，组织可以发送警报以通知安全团队。然后，他们可以采取必要的作，例如阻止攻击者、禁用受感染的帐户以及实施多重身份验证。</p>
+<p><em>（阅读有关监控和可观测性的完整指南。</em></p>
+<h3>实现多重身份验证 （MFA）</h3>
+<p>MFA 通过要求两种或多种身份验证机制，为登录过程增加了额外的安全层。例如，一旦用户提供了正确的密码，MFA 将要求他输入通过短信发送的安全代码或使用身份验证器应用程序来批准登录过程。</p>
+<p>这使得攻击者更难访问帐户，即使他们获得了正确的密码。</p>
+<h3>教育用户</h3>
+<p>如果用户没有意识到与用户帐户相关的风险以及使用强密码和 MFA 的重要性，所有这些预防措施都将是徒劳的。因此，对用户进行密码喷射攻击以及如何避免它们的教育至关重要。这包括鼓励他们为每个帐户使用唯一的密码，并尽可能启用多因素身份验证。</p>
+<h2>密码喷洒总结</h2>
+<p>密码喷洒是一种暴力网络攻击，其中使用相同的密码或常用密码列表来访问多个用户帐户。尽管与撞库攻击类似，但它们在一些方面彼此不同。全球范围内许多记录在案的密码喷射攻击案例表明，如果攻击者访问敏感数据，企业将面临严重后果。</p>
+<p>您可以通过监控异常登录尝试和帐户访问行为来检测密码喷射攻击。有多种方法可以缓解这些攻击，例如实施强密码策略和实施 MFA。</p>
+]]></content>
+    <category term="渗透测试"/>
+    <published>2025-11-16T13:06:41.000Z</published>
+  </entry>
+  <entry>
     <title type="text">密码学中的哈希解释：它的工作原理、算法和实际用途</title>
     <id>https://youze27.github.io/blog/net/hashing-in-cryptozoology-explained-how-it-works-algorithms-and-practical-uses-1lc6py.html</id>
     <link href="https://youze27.github.io/blog/net/hashing-in-cryptozoology-explained-how-it-works-algorithms-and-practical-uses-1lc6py.html"/>
-    <updated>2025-11-16T09:34:58.000Z</updated>
+    <updated>2025-11-16T09:53:57.000Z</updated>
     <summary type="text">密码学中的哈希解释：它的工作原理、算法和实际用途
 哈希处理获取您的数据（如密码或文件）并将其转换为无法撤消的固定长度代码。这使得攻击者几乎不可能弄清楚原始数据是什么，即使他们窃取了哈希值。
 在本文中，我将详细解释哈希，包括它的工作原理、应用、背后的算法以及如何正确应用它。
@@ -194,13 +404,14 @@
 <pre><code>[Learn more about Splunk](https://www.splunk.com/en_us/about-us/why-splunk.html)
 </code></pre>
 ]]></content>
+    <category term="计网基础"/>
     <published>2025-11-16T09:11:27.000Z</published>
   </entry>
   <entry>
     <title type="text">考试</title>
     <id>https://youze27.github.io/blog/com/exam/</id>
     <link href="https://youze27.github.io/blog/com/exam/"/>
-    <updated>2025-08-10T14:49:59.000Z</updated>
+    <updated>2025-11-16T14:55:58.000Z</updated>
     <published>2025-08-10T14:49:59.000Z</published>
   </entry>
   <entry>
