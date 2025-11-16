@@ -20,7 +20,7 @@ isOriginal: true
 
 # 密码喷射攻击：防范攻击你需要知道的事项
 
-![](https://raw.githubusercontent.com/youze27/blog/main/images/password-spraying0-20251116210640-xxa1q1b.jpg)
+![](assets/password-spraying0-20251116210640-xxa1q1b.jpg)
 
 密码喷洒是一种利用弱密码轻松攻破用户账户的[网络威胁](https://www.splunk.com/en_us/blog/learn/vulnerability-vs-threat-vs-risk.html)。这意味着在认证用户进入系统时，执行[严格的访问控制](https://www.splunk.com/en_us/blog/learn/rbac-vs-abac.html)至关重要。
 
@@ -55,7 +55,7 @@ MITRE AT&CK框架中的技术[T1110.003](https://attack.mitre.org/techniques/T11
 
 一旦喷洒攻击成功，如果在受害者的多个帐户中使用相同的密码，攻击者将可以访问这些帐户。这意味着攻击者可以根据该用户的帐户和权限进一步传播和破坏用户数据。
 
-![](https://raw.githubusercontent.com/youze27/blog/main/images/brute-force1-20251116210640-eptebz3.png)
+![](assets/brute-force1-20251116210640-eptebz3.png)
 
 ## 密码喷洒与撞库：一个主要区别
 
@@ -83,7 +83,7 @@ MITRE AT&CK框架中的技术[T1110.003](https://attack.mitre.org/techniques/T11
 
 2019 年，一组攻击者针对 Microsoft Office 365 帐户进行了密码喷洒攻击。他们使用从以前的数据泄露中获得的密码列表访问客户的 1,800 个电子邮件帐户。
 
-![](https://raw.githubusercontent.com/youze27/blog/main/images/cyberattack-objectives-20251116210640-i8d7fcl.jpg)
+![](assets/cyberattack-objectives-20251116210640-i8d7fcl.jpg)
 
 ## 密码喷射攻击的影响
 
