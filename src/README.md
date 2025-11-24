@@ -1,6 +1,7 @@
 ---
 home: true
-layout: BlogHome
+# layout: BlogHome
+layout: Blog
 icon: home
 title: 首页
 heroImage: /assets/logo.svg

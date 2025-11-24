@@ -6,6 +6,7 @@ export default navbar([
   "/response/",
   "/net/",
   "/com/",
+  "/like/",
   "/nav",
   "/intro",
 ]);

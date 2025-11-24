@@ -1,6 +1,6 @@
 ---
 title: 考试
-index: ture 
+index: true 
 icon: book-open
 order: 10
 ---
