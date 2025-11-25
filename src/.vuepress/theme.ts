@@ -1,8 +1,8 @@
 import { hopeTheme } from "vuepress-theme-hope";
-
+import { defineUserConfig } from "vuepress";
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
-
+import { commentPlugin } from '@vuepress/plugin-comment'
 export default hopeTheme({
   hostname: "https://youze27.github.io",
 
@@ -17,6 +17,9 @@ export default hopeTheme({
 
   docsDir: "src",
   focus: true,
+  
+
+  
   // 导航栏
   navbar,
 
@@ -149,12 +152,32 @@ export default hopeTheme({
     // 启用之前需安装 @waline/client
     // 警告: 这是一个仅供演示的测试服务，在生产环境中请自行部署并使用自己的服务！
     comment: {
-      provider: "Giscus",
-      repo:"youze27/blog",
-      repoId:"R_kgDON1I9iA",
-      category:"Announcements",
-      categoryId:"DIC_kwDON1I9iM4Cnaa_",
 
+
+      //Giscus 评论系统配置
+      // provider: "Giscus",
+      // repo:"youze27/blog",
+      // repoId:"R_kgDON1I9iA",
+      // category:"Announcements",
+      // categoryId:"DIC_kwDON1I9iM4Cnaa_",
+
+
+
+      // Waline评论系统配置
+      provider: "Waline",
+      serverURL: "https://blogcomment-ashen.vercel.app",
+      
+      // 其他 Waline 配置项（可选）...
+      // 例如：暗黑模式适配、表情设置等
+      dark: 'auto',
+      emoji: [
+        '//unpkg.com/@waline/emojis@1.1.0/weibo',
+        '//unpkg.com/@waline/emojis@1.1.0/bilibili',
+      ],
+      // 全局启用评论
+      comment: true,
+      // 页面访问量
+      pageview: true,
     },
 
     components: {
@@ -176,8 +199,5 @@ export default hopeTheme({
     icon: {
       assets: "fontawesome-with-brands",
     },
-
   }
-
- 
 });

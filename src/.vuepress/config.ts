@@ -32,6 +32,17 @@ export default defineUserConfig({
     ],
   theme,
 
+   locales: {
+    "/": {
+      // 设置正在使用的语言
+      lang: "zh-CN",
+    },
+    // "/en/": {
+    //   // 设置正在使用的语言
+    //   lang: "en-US",
+    // },
+  },
+
 
 });
 
