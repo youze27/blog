@@ -4,7 +4,7 @@
   <title>卷卷</title>
   <subtitle>网络安全知识库</subtitle>
   <icon>https://youze27.github.io/blog/assets/favicon.ico</icon>
-  <updated>2025-11-25T16:35:33.056Z</updated>
+  <updated>2025-11-26T14:45:46.043Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://youze27.github.io/blog/atom.xml"/>
   <link rel="alternate" href="https://youze27.github.io/blog/"/>
@@ -240,7 +240,7 @@ SIEM是一种整体性的安全方法。它将​安全信息管理（SIM） ​
     <title type="text">密码学中的哈希解释：它的工作原理、算法和实际用途</title>
     <id>https://youze27.github.io/blog/like/hashing-in-cryptozoology-explained-how-it-works-algorithms-and-practical-uses-1lc6py.html</id>
     <link href="https://youze27.github.io/blog/like/hashing-in-cryptozoology-explained-how-it-works-algorithms-and-practical-uses-1lc6py.html"/>
-    <updated>2025-11-24T16:09:39.000Z</updated>
+    <updated>2025-11-26T14:43:46.000Z</updated>
     <summary type="text">密码学中的哈希解释：它的工作原理、算法和实际用途
 哈希处理获取您的数据（如密码或文件）并将其转换为无法撤消的固定长度代码。这使得攻击者几乎不可能弄清楚原始数据是什么，即使他们窃取了哈希值。
 在本文中，我将详细解释哈希，包括它的工作原理、应用、背后的算法以及如何正确应用它。
@@ -383,31 +383,6 @@ SIEM是一种整体性的安全方法。它将​安全信息管理（SIM） ​
 <p>所以，请保持更新。随时了解安全新闻并根据需要更新您的哈希算法。</p>
 <h2>开始对重要内容进行哈希处理</h2>
 <p>如果您要存储用户密码或分发文件，请将保护它们作为您的首要任务。切换到 SHA-256 或 BLAKE2 等安全哈希函数，并在必要时实现加盐。</p>
-<h3>关于密码学中哈希的常见问题解答</h3>
-<p><a href="">全部打开Close All</a></p>
-<p>什么是密码学中的哈希？</p>
-<p>哈希是将任何输入数据转换为固定长度的字符串（称为哈希）的过程，这使得从哈希中检索原始数据变得极其困难。</p>
-<p>哈希与加密有何不同？</p>
-<p>Hashing is a one-way operation used to verify data integrity, while encryption is reversible with a key and is used to keep data private.</p>
-<p>最常用的哈希算法有哪些？</p>
-<p>Popular hash algorithms include SHA-256, SHA-3, BLAKE2, MD5, and SHA-1, though MD5 and SHA-1 are now considered insecure for most applications.</p>
-<p>为什么哈希对于存储密码很重要？</p>
-<p>Hashing protects passwords by storing only their hashes, not the actual passwords. Even if hashes are stolen, it's extremely difficult to recover the original passwords.</p>
-<p>安全哈希的最佳实践是什么？</p>
-<p>Use modern algorithms like SHA-256 or SHA-3, always salt passwords before hashing, and avoid outdated methods like MD5 and SHA-1.</p>
-<p><a href="">全部打开Close All</a></p>
-<p>看到错误或有建议？请通过电子邮件告诉我们 <a href="mailto:splunkblogs@cisco.com" target="_blank" rel="noopener noreferrer">splunkblogs@cisco.com</a>。</p>
-<p><em>此帖子并不一定代表 Splunk 的立场、战略或观点。</em></p>
-<figure><img src="https://raw.githubusercontent.com/youze27/blog/main/images/splunk-learn-laiba-20251116171127-74wg1rq.jpg" alt="莱巴·西迪基 图片" tabindex="0" loading="lazy"><figcaption>莱巴·西迪基 图片</figcaption></figure>
-<p><a href="https://www.splunk.com/en_us/blog/author/laiba-siddiqui.html" target="_blank" rel="noopener noreferrer">莱巴·西迪基</a></p>
-<p><a href="https://lamsdigital.com/" target="_blank" rel="noopener noreferrer">Laiba Siddiqui</a> 是一位喜欢简化复杂主题的 SEO 作家。她帮助 Data World、DataCamp 和 Rask AI 等公司为受众创建引人入胜且信息丰富的内容。您可以在 <a href="https://www.linkedin.com/in/seo-tech-writer/" target="_blank" rel="noopener noreferrer">LinkedIn</a> 上与她联系。</p>
-<h2>相关文章</h2>
-<h2>About Splunk</h2>
-<pre><code>The world’s leading organizations rely on Splunk, a Cisco company, to continuously strengthen digital resilience with our unified security and observability platform, powered by industry-leading AI.
-</code></pre>
-<p>Our customers trust Splunk’s award-winning security and observability solutions to secure and improve the reliability of their complex digital environments, at any scale.</p>
-<pre><code>[Learn more about Splunk](https://www.splunk.com/en_us/about-us/why-splunk.html)
-</code></pre>
 ]]></content>
     <category term="计网基础"/>
     <published>2025-11-16T09:11:27.000Z</published>
