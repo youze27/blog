@@ -4,12 +4,12 @@
   <title>卷卷</title>
   <subtitle>网络安全知识库</subtitle>
   <icon>https://youze27.github.io/blog/assets/favicon.ico</icon>
-  <updated>2025-11-26T15:04:06.272Z</updated>
+  <updated>2025-11-26T15:19:11.080Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://youze27.github.io/blog/atom.xml"/>
   <link rel="alternate" href="https://youze27.github.io/blog/"/>
-  <category term="渗透测试"/>
   <category term="应急响应"/>
+  <category term="渗透测试"/>
   <category term="计网基础"/>
   <category term="营养学"/>
   <category term="靶机"/>
@@ -21,6 +21,51 @@
   <category term="AI"/>
   <category term="其他"/>
   <category term="信息收集"/>
+  <entry>
+    <title type="text">应急响应靶场Web3</title>
+    <id>https://youze27.github.io/blog/response/emergency-response-range-web3-z2mjbio.html</id>
+    <link href="https://youze27.github.io/blog/response/emergency-response-range-web3-z2mjbio.html"/>
+    <updated>2025-11-26T15:17:22.000Z</updated>
+    <summary type="html"><![CDATA[<p>本文记录了针对Web3靶场应急响应</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>本文记录了针对Web3靶场应急响应</p>
+<!-- more -->
+<h1>应急响应靶场Web3</h1>
+<p>登录系统</p>
+<figure><img src="http://127.0.0.1:59544/assets/image-20241019132631-o6evd0x.png" alt="image" tabindex="0" loading="lazy"><figcaption>image</figcaption></figure>
+<p>D盾检查发现隐藏账户</p>
+<figure><img src="http://127.0.0.1:59544/assets/image-20241019104740-bovpcy4.png" alt="image" tabindex="0" loading="lazy"><figcaption>image</figcaption></figure>
+<p>查看系统日志账户变更历史发现ip</p>
+<figure><img src="http://127.0.0.1:59544/assets/image-20241019111712-suxzovf.png" alt="image" tabindex="0" loading="lazy"><figcaption>image</figcaption></figure>
+<p>recent查看历史文件</p>
+<figure><img src="http://127.0.0.1:59544/assets/image-20241019110552-fgc5to3.png" alt="image" tabindex="0" loading="lazy"><figcaption>image</figcaption></figure>
+<p>去后台数据库有发现可疑账户</p>
+<figure><img src="http://127.0.0.1:59544/assets/image-20241019113200-f5u3c8j.png" alt="image" tabindex="0" loading="lazy"><figcaption>image</figcaption></figure>
+<p>有密码登录不了</p>
+<figure><img src="http://127.0.0.1:59544/assets/image-20241019132442-69zhmre.png" alt="image" tabindex="0" loading="lazy"><figcaption>image</figcaption></figure>
+<p>发现可重置密码</p>
+<figure><img src="http://127.0.0.1:59544/assets/image-20241019132423-1wfyd1q.png" alt="image" tabindex="0" loading="lazy"><figcaption>image</figcaption></figure>
+<figure><img src="http://127.0.0.1:59544/assets/image-20241019132546-wlpkr4k.png" alt="image" tabindex="0" loading="lazy"><figcaption>image</figcaption></figure>
+<p>登录管理员账户，在编辑用户发现flag</p>
+<figure><img src="http://127.0.0.1:59544/assets/image-20241019132236-t7gqy7t.png" alt="image" tabindex="0" loading="lazy"><figcaption>image</figcaption></figure>
+<p>查看定时任务发现可疑程序</p>
+<figure><img src="http://127.0.0.1:59544/assets/image-20241019133102-96n9fuv.png" alt="image" tabindex="0" loading="lazy"><figcaption>image</figcaption></figure>
+<p>打开发现shell、路径、flag</p>
+<figure><img src="http://127.0.0.1:59544/assets/image-20241019114117-mhl5anq.png" alt="image" tabindex="0" loading="lazy"><figcaption>image</figcaption></figure>
+<p 888666abc="">echo flag</p>
+<p>找到路径发现shell</p>
+<figure><img src="http://127.0.0.1:59544/assets/image-20241019114249-6xlr8b9.png" alt="image" tabindex="0" loading="lazy"><figcaption>image</figcaption></figure>
+<p>刚开始找access.log没找到，用evering扫一下发现了。</p>
+<figure><img src="http://127.0.0.1:59544/assets/image-20241019114957-fs6ealg.png" alt="image" tabindex="0" loading="lazy"><figcaption>image</figcaption></figure>
+<p>192.168.75.129</p>
+<figure><img src="http://127.0.0.1:59544/assets/image-20241019132306-auaquvw.png" alt="image" tabindex="0" loading="lazy"><figcaption>image</figcaption></figure>
+<p>靶机：知攻善防 侵删</p>
+<p>‍</p>
+<p>‍</p>
+]]></content>
+    <category term="应急响应"/>
+    <published>2024-10-19T02:46:49.000Z</published>
+  </entry>
   <entry>
     <title type="text">内网隧道及代理</title>
     <id>https://youze27.github.io/blog/perm/intranet-tunnel-and-proxy-u9gv8.html</id>
@@ -11355,16 +11400,16 @@ sq语句中，单引号不再具有作用”，仅仅是'内容'而已。这个�
     <published>2025-01-11T11:23:43.000Z</published>
   </entry>
   <entry>
-    <title type="text">攻伐之术</title>
-    <id>https://youze27.github.io/blog/perm/</id>
-    <link href="https://youze27.github.io/blog/perm/"/>
+    <title type="text">开发运维</title>
+    <id>https://youze27.github.io/blog/net/</id>
+    <link href="https://youze27.github.io/blog/net/"/>
     <updated>2025-11-24T16:09:39.000Z</updated>
     <published>2025-01-10T03:24:15.000Z</published>
   </entry>
   <entry>
-    <title type="text">开发运维</title>
-    <id>https://youze27.github.io/blog/net/</id>
-    <link href="https://youze27.github.io/blog/net/"/>
+    <title type="text">攻伐之术</title>
+    <id>https://youze27.github.io/blog/perm/</id>
+    <link href="https://youze27.github.io/blog/perm/"/>
     <updated>2025-11-24T16:09:39.000Z</updated>
     <published>2025-01-10T03:24:15.000Z</published>
   </entry>
