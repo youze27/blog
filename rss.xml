@@ -6,13 +6,13 @@
     <link>https://youze27.github.io/blog/</link>
     <description>网络安全知识库</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 26 Nov 2025 14:45:46 GMT</pubDate>
-    <lastBuildDate>Wed, 26 Nov 2025 14:45:46 GMT</lastBuildDate>
+    <pubDate>Wed, 26 Nov 2025 14:55:53 GMT</pubDate>
+    <lastBuildDate>Wed, 26 Nov 2025 14:55:53 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <category>应急响应</category>
     <category>渗透测试</category>
     <category>计网基础</category>
-    <category>应急响应</category>
     <category>营养学</category>
     <category>靶机</category>
     <category>python</category>
@@ -29,6 +29,162 @@
       <guid>https://youze27.github.io/blog/like/</guid>
       <source url="https://youze27.github.io/blog/rss.xml">网文收藏</source>
       <pubDate>Mon, 24 Nov 2025 16:09:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>A  &amp;CK 框架实践阅读笔记</title>
+      <link>https://youze27.github.io/blog/response/to-zjvmf.html</link>
+      <guid>https://youze27.github.io/blog/response/to-zjvmf.html</guid>
+      <source url="https://youze27.github.io/blog/rss.xml">A  &amp;CK 框架实践阅读笔记</source>
+      <description>MI RE A  &amp;CK </description>
+      <category>应急响应</category>
+      <pubDate>Thu, 20 Nov 2025 14:22:56 GMT</pubDate>
+      <content:encoded><![CDATA[<p>MITRE ATT&amp;CK</p>
+<!-- more -->
+<h1>ATT&amp;CK 框架实践阅读笔记</h1>
+<h2>什么是MITRE ATT&amp;CK</h2>
+<p>是一个对抗行为知识库。</p>
+<figure><img src="http://127.0.0.1:59544/assets/image-20251120225643-tchho6q.png" alt="image" tabindex="0" loading="lazy"><figcaption>MITRE</figcaption></figure>
+<p>MITRE ATT&amp;CK提供了一个复杂框架，介绍了攻击者在攻击过程中使用的190多项技术、400多项子技术，其中包括特定技术和通用技术，以及有关知名攻击组织及其攻击活动的背景信息和攻击中所使用的战术、技术。简单来说，MITRE ATT&amp;CK是一个对抗行为<strong>知识库</strong>。</p>
+<p>● 它是基于真实观察数据创建的。</p>
+<p>● 它是公开免费、全球可访问的。</p>
+<p>● 它为蓝方和红队提供了一种沟通交流的通用语言。</p>
+<p>● 它是由社区驱动发展的。</p>
+<h2>ATTCK框架所解决的问题</h2>
+<p>● 我们的防御方案有效吗？</p>
+<p>● 我们能检测到APT攻击吗？</p>
+<p>● 新产品能发挥作用吗？</p>
+<p>● 安全工具覆盖范围是否有重叠呢？</p>
+<p>● 如何确定安全防御优先级？</p>
+<figure><img src="http://127.0.0.1:59544/assets/image-20251120222356-w7thosd.png" alt="image" tabindex="0" loading="lazy"><figcaption>ATTCK框架所解决的问题</figcaption></figure>
+<h2>ATT&amp;CK技术领域</h2>
+<p>MITRE ATT&amp;CK已确定了三个技术领域—Enterprise（用于传统企业网络和云技术）、Mobile（用于移动通信设备）、ICS（用于工业控制系统）</p>
+<figure><img src="http://127.0.0.1:59544/assets/image-20251120222920-k2p8jl4.png" alt="image" tabindex="0" loading="lazy"><figcaption>ATT&amp;CK技术领域</figcaption></figure>
+<p>在各技术领域，ATT&amp;CK定义了多个平台，即攻击者在各技术领域进行操作的系统。一个平台可以是一个操作系统或一个应用程序（例如，Microsoft Windows）。ATT&amp;CK中的技术和子技术可以应用在不同平台上。</p>
+<h2>ATT&amp;CK框架与痛苦金字塔模型的关系</h2>
+<p>痛苦金字塔模型由<strong>IoC（Indicators of Compromise，失陷指标）</strong> 组成，通过IoC进行组织分类并描述各类IoC在攻防对抗中的价值。<strong>TTPs是Tactics，Techniques and Procedures（战术、技术及步骤）</strong> 的缩写，描述了攻击者从踩点侦察到获取数据这一过程中，每一步是如何完成任务的。</p>
+<figure><img src="http://127.0.0.1:59544/assets/image-20251120223304-qwxz6mu.png" alt="image" tabindex="0" loading="lazy"><figcaption>ATT&amp;CK框架与痛苦金字塔模型的关系</figcaption></figure>
+<p>TTPs处于痛苦金字塔塔尖。对于攻击者，TTPs反映了攻击者的行为，表明攻击者调整TTPs所付出的时间和金钱成本是最为昂贵的。对于防守方，基于TTPs的检测和响应可以给攻击者造成更大的痛苦，因此TTPs也是痛苦金字塔中对防守方最有价值的一类IoC。但另一方面，这类IoC更加难以识别和应用。由于大多数安全工具并不太适合捕获TTPs，这也意味着，收集TTPs并将其应用到网络防御中的难度系数是最高的。而ATT&amp;CK则是有效分析攻击行为（即TTPs）的威胁模型。</p>
+<h2>ATT&amp;CK框架的七大核心对象</h2>
+<h4>1. <strong>战术 - Tactics</strong></h4>
+<p>战术描述了攻击的“<strong>为什么</strong>”，即对手在攻击过程中的战略目标或短期目标。它代表了攻击链中的一个阶段，回答了“攻击者在这个阶段想要达到什么目的？”的问题。</p>
+<p>​<strong>示例</strong>：</p>
+<ul>
+<li>​<strong>初始访问</strong>：试图进入你的网络。</li>
+<li>​<strong>执行</strong>：试图运行恶意代码。</li>
+<li>​<strong>持久化</strong>：试图在重启或更改凭证后保持其存在。</li>
+<li>​<strong>防御规避</strong>：试图避免被安全工具发现。</li>
+<li>​<strong>横向移动</strong>：试图在你的网络内部移动。</li>
+<li>​<strong>数据窃取</strong>：试图从你的网络中窃取数据。</li>
+</ul>
+<h4>2. <strong>技术 - Techniques</strong></h4>
+<p>技术描述了攻击的“<strong>如何</strong>”，即对手为实现战术目标而采取的具体手段、方法或行为。它是比战术更低一层的具体动作。</p>
+<p>为了实现“占领制高点”（战术）这个目标，可以采用“正面强攻”或“夜间偷袭”（技术）等方法。</p>
+<p>​<strong>示例</strong>：</p>
+<ul>
+<li>为实现 <strong>初始访问</strong> 战术，攻击者可能采用 <strong>网络钓鱼附件</strong> 技术。</li>
+<li>为实现 <strong>持久化</strong> 战术，攻击者可能采用 <strong>创建计划任务</strong> 技术。</li>
+</ul>
+<h4>3. <strong>子技术 - Sub-techniques</strong></h4>
+<p>子技术是技术的进一步细化和具体化。它描述了实现同一项技术的更具体、更具描述性的变种。</p>
+<p>使对攻击行为的描述更加精确，有助于更精细的检测和分析。</p>
+<p>​<strong>示例</strong>：</p>
+<ul>
+<li>技术：​<strong>OS凭证转储</strong>。</li>
+<li>子技术：​<strong>从LSASS内存转储凭证</strong>​、​<strong>从Security Account Manager转储凭证</strong>​、​<strong>缓存的域凭证转储</strong>。</li>
+</ul>
+<h4>4. <strong>程序 - Procedures</strong></h4>
+<p>程序描述了攻击者或恶意软件在真实攻击中<strong>具体使用的技术、子技术及其组合顺序</strong>。它是技术在实际场景中的应用实例。</p>
+<p>通常来自威胁情报报告、恶意软件分析报告或事件响应报告。</p>
+<p>​<strong>示例</strong>：</p>
+<ul>
+<li>“APT组织X在攻击中，首先通过<strong>鱼叉式网络钓鱼（初始访问）</strong>  投递恶意文档，该文档利用<strong>PowerShell（执行）</strong>  下载后门，并创建<strong>Windows注册表运行键（持久化）</strong>  以保持访问。”</li>
+<li>这个过程描述就是一个“程序”。</li>
+</ul>
+<h4>5. <strong>缓解措施 - Mitigations</strong></h4>
+<p>缓解措施是安全配置、工具或实践，旨在<strong>预防</strong>一项技术或子技术的<strong>成功执行</strong>，而不仅仅是检测它。</p>
+<p>在攻击发生之前，加固系统、减少攻击面。</p>
+<p>​<strong>示例</strong>：</p>
+<ul>
+<li>针对“创建计划任务”技术，对应的缓解措施可以是“​<strong>限制计划任务的创建权限</strong>​”、“​<strong>使用用户账户控制</strong>”等。</li>
+<li>针对“OS凭证转储”技术，对应的缓解措施可以是 “ Credential Guard ”。</li>
+</ul>
+<h4>6. <strong>检测方法 - Detections</strong></h4>
+<p>方法描述了如何<strong>发现</strong>正在发生或已经发生的攻击行为。它关注于通过日志、传感器（如EDR）或其他工具来识别技术的迹象。</p>
+<p>​<strong>数据源</strong>：明确指出了检测所需的数据来自哪里，例如“进程监控”、“命令行参数”、“Windows日志”、“网络流量”等。</p>
+<p><strong>示例</strong>：</p>
+<ul>
+<li>针对“PowerShell执行”技术，检测方法可以是“​<strong>监控PowerShell进程的创建及其命令行参数中是否包含可疑的编码或下载命令</strong>”。</li>
+</ul>
+<h4>7. <strong>组织与软件 - Groups &amp; Software</strong></h4>
+<p>​<strong>组织</strong>​：指已知的威胁行为者团体，如APT28、Lazarus Group等。ATT&amp;CK会将这些组织与它们已知使用的<strong>技术、程序和软件</strong>关联起来。</p>
+<p>​<strong>软件</strong>：指攻击者使用的工具，包括：</p>
+<ul>
+<li>​<strong>恶意软件</strong>：如Cobalt Strike、Metasploit、Dridex等。</li>
+<li>​<strong>合法工具</strong>：被攻击者滥用的系统内置工具，如PsExec、Mimikatz、PowerShell等。</li>
+</ul>
+<p>​<strong>作用</strong>：帮助分析师进行威胁追踪和归因，通过识别攻击中使用的工具和技术，可以关联到潜在的幕后组织。</p>
+<h2>ATT&amp;CK战术</h2>
+<p>ATT&amp;CK Enterprise框架由14项战术组成，每项战术下包含多项实现该战术目标的技术，每项技术中详细介绍了实现该技术的具体步骤。</p>
+<figure><img src="http://127.0.0.1:59544/assets/image-20251120224041-bqd4cbb.png" alt="image" tabindex="0" loading="lazy"><figcaption>ATT&amp;CK框架的14项战术</figcaption></figure>
+<ol>
+<li><strong>侦查</strong> ：在入侵之前，攻击者试图收集目标的信息，以便为后续攻击做准备。</li>
+<li><strong>资源开发</strong> ：攻击者为其攻击行动准备、获取或控制所需的资源。</li>
+<li><strong>初始访问</strong> ：攻击者试图通过某种方式首次进入您的目标网络。</li>
+<li><strong>执行</strong> ：攻击者试图在本地或远程系统上运行其恶意代码。</li>
+<li><strong>持久化</strong> ：攻击者试图在系统重启、更改凭证或其他中断后，仍然保持其在该系统上的存在。</li>
+<li><strong>权限提升</strong> ：攻击者试图获取比当前账户更高级别的权限（例如，从普通用户提升到系统管理员）。</li>
+<li><strong>防御规避</strong> ：攻击者试图避免在整个攻击过程中被安全工具检测到。</li>
+<li><strong>凭证访问</strong> ：攻击者试图窃取账户名称和密码等凭证信息。</li>
+<li><strong>发现</strong> ：攻击者试图获取他们当前已入侵的系统以及内部网络环境的知识。</li>
+<li><strong>横向移动</strong> ：攻击者试图在目标网络内部移动，从一个系统转向另一个系统。</li>
+<li><strong>收集</strong> ：攻击者试图识别并收集位于目标网络中的、与其攻击目标相关的数据。</li>
+<li><strong>命令与控制</strong> ：攻击者试图与受其控制的内部系统进行通信并对其下达指令。</li>
+<li><strong>数据渗出</strong> ：攻击者试图从目标网络中窃取数据并将其传输到外部受其控制的位置。</li>
+<li><strong>影响</strong> ：攻击者试图破坏目标组织的可用性、完整性或可靠性，包括直接勒索或干扰业务运营。</li>
+</ol>
+<h2>基于ATT&amp;CK框架的扩展知识库</h2>
+<ul>
+<li>针对容器的ATT&amp;CK攻防知识库</li>
+<li>针对Kubernetes的攻防知识库</li>
+<li>针对内部威胁的TTPs攻防知识库</li>
+<li>针对网络安全对策的知识图谱MITRE D3FEND</li>
+<li>针对软件供应链的ATT&amp;CK框架OSC&amp;R</li>
+</ul>
+<h2>四个关键 ATT&amp;CK 项目工具</h2>
+<p><strong><a href="https://github.com/mitre/caldera" target="_blank" rel="noopener noreferrer">CALDERA</a></strong></p>
+<p>MITRE Caldera™ 是一个网络安全<a href="https://caldera.mitre.org/" target="_blank" rel="noopener noreferrer">MITRE Caldera™</a>平台，旨在轻松自动化对手模拟、协助手动红队和自动化事件响应。<br>
+该项目基于 MITRE AT&amp;CK™框架构建，是 MITRE 的一个活跃研究项目。</p>
+<p><video controls="controls" src="https://youtu.be/W7fi0RVYiJE"></video></p>
+<p><strong><a href="https://github.com/mitre-attack/attack-navigator" target="_blank" rel="noopener noreferrer">ATT&amp;CK Navigator</a></strong></p>
+<p>是一个基于 Web 的可视化工具，它提供了一种<strong>交互式的方式来浏览和注释 ATT&amp;CK 矩阵知识库</strong>，用户可以通过创建自定义的“图层”来映射和比较自身防御覆盖范围、威胁组织的行为模式或特定攻击活动的技术细节。</p>
+<figure><img src="http://127.0.0.1:59544/assets/image-20251120234943-lyttnjz.png" alt="image" tabindex="0" loading="lazy"><figcaption>image</figcaption></figure>
+<figure><img src="http://127.0.0.1:59544/assets/image-20251120234906-90j22x9.png" alt="image" tabindex="0" loading="lazy"><figcaption>image</figcaption></figure>
+<p><strong><a href="https://www.atomicredteam.io/" target="_blank" rel="noopener noreferrer">Atomic Red Team</a></strong></p>
+<p>是一个与 ATT&amp;CK 技术直接对应的开源测试用例库，它提供了大量简单且跨平台的“原子测试”脚本，安全团队可以无需依赖复杂的工具即可快速执行这些测试，从而高效地验证其安全控制措施是否能够检测到特定的攻击技术。</p>
+<figure><img src="http://127.0.0.1:59544/assets/image-20251120234339-w16uab1.png" alt=" Atomic Red Team™" tabindex="0" loading="lazy"><figcaption> Atomic Red Team™</figcaption></figure>
+<p><strong><a href="https://github.com/SigmaHQ/sigma" target="_blank" rel="noopener noreferrer">SIGMA</a></strong></p>
+<p>是一个通用的开源签名格式和相关的规则库，它旨在sigma实现检测逻辑的标准化和共享，安全团队可以编写与特定商业产品无关的 SIGMA 规则，然后通过社区提供的转换器将其编译成多种 SIEM 和安全分析平台（如 Splunk、Elasticsearch 等）的本地查询语法，从而快速构建基于 ATT&amp;CK 的检测能力。</p>
+<h2><img src="http://127.0.0.1:59544/assets/image-20251120231737-hlt0692.png" alt="image" title="sigma" loading="lazy"><strong>ATT&amp;CK 四大核心应用场景</strong></h2>
+<h4>1. <strong>模拟攻击</strong></h4>
+<p>此场景主要被<strong>红队</strong>和<strong>渗透测试团队</strong>使用。ATT&amp;CK 框架为模拟真实对手的攻击行为提供了一个全面的“剧本”。</p>
+<p>​<strong>如何应用</strong>：团队不再进行随机的攻击测试，而是基于 ATT&amp;CK 矩阵，规划针对性的攻击路径。他们可以选择模拟特定威胁组织（如APT29）的惯用技战术，或专注于测试那些对组织威胁最大的技术。</p>
+<p>​<strong>使用工具</strong>​：使用 ​<strong>CALDERA</strong>​、<strong>Atomic Red Team</strong> 等工具，自动化地执行这些攻击模拟，从而高效地验证防御体系的有效性。</p>
+<p><strong>价值</strong>：<strong>主动发现防御盲点</strong>，在真实攻击发生之前验证人员、流程和技术的响应能力。</p>
+<h4>2. <strong>检测分析</strong></h4>
+<p>此场景主要被<strong>蓝队</strong>和<strong>安全分析员</strong>使用。ATT&amp;CK 框架为构建和优化检测能力提供了一个结构化的“知识库”。</p>
+<p>​<strong>使用工具</strong>​：利用 <strong>SIGMA</strong> 项目提供的通用检测规则库，快速为缺失的检测点创建高质量的检测逻辑。同时，使用 <strong>Atomic Red Team</strong> 来验证这些新规则是否有效。</p>
+<p>​<strong>核心价值</strong>​：​<strong>系统性提升检测能力</strong>，确保能够发现复杂的、多阶段的攻击链，而不仅仅是孤立的恶意事件。</p>
+<h4>3. <strong>评估改进</strong></h4>
+<p>此场景主要被<strong>安全管理人员</strong>和<strong>架构师</strong>使用。ATT&amp;CK 框架作为一个通用的衡量标准，用于评估安全态势和指导安全投入。</p>
+<p>​<strong>如何应用</strong>​：使用 <strong>ATT&amp;CK Navigator</strong> 绘制“防御覆盖热力图”，直观展示当前安全控制措施（如防火墙、EDR、DLP等）所能缓解或检测的技术。通过对比“威胁情报”中高优先级的技术，可以清晰地识别出​<strong>最大的防御差距和风险</strong>。</p>
+<p>​<strong>核心价值</strong>​：​<strong>实现数据驱动的安全决策</strong>，为安全预算、技术采购和战略规划提供客观依据，明确告知“钱应该花在哪里”以及“下一步应该优先做什么”。</p>
+<h4>4. <strong>威胁情报</strong></h4>
+<p>此场景主要被<strong>威胁情报团队</strong>使用。ATT&amp;CK 框架为分析和传达威胁信息提供了一种​<strong>标准化语言</strong>。</p>
+<p>​<strong>如何应用</strong>：将公开的或内部发现的攻击活动报告，映射到 ATT&amp;CK 矩阵上。这能清晰地勾勒出某个攻击组织（如Lazarus Group）或恶意软件家族（如Emotet）的“攻击画像”（TTPs）。</p>
+<p><strong>核心价值</strong>：<strong>将零散的威胁信息转化为可行动的情报</strong>。这使得组织能够理解“谁在攻击我们”以及“他们如何攻击”，从而优先部署针对特定威胁的防御措施，实现“知彼知己，百战不殆”。</p>
+<p>‍</p>
+]]></content:encoded>
+      <enclosure url="http://127.0.0.1:59544/assets/image-20251120225643-tchho6q.png &quot;MITRE&quot;" type="image/"/>
     </item>
     <item>
       <title>什么是SIEM？一文读懂安全信息和事件管理</title>
@@ -8986,17 +9142,17 @@ sq语句中，单引号不再具有作用”，仅仅是'内容'而已。这个�
 ]]></content:encoded>
     </item>
     <item>
-      <title>开发运维</title>
-      <link>https://youze27.github.io/blog/net/</link>
-      <guid>https://youze27.github.io/blog/net/</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">开发运维</source>
-      <pubDate>Fri, 10 Jan 2025 03:24:15 GMT</pubDate>
-    </item>
-    <item>
       <title>攻伐之术</title>
       <link>https://youze27.github.io/blog/perm/</link>
       <guid>https://youze27.github.io/blog/perm/</guid>
       <source url="https://youze27.github.io/blog/rss.xml">攻伐之术</source>
+      <pubDate>Fri, 10 Jan 2025 03:24:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>开发运维</title>
+      <link>https://youze27.github.io/blog/net/</link>
+      <guid>https://youze27.github.io/blog/net/</guid>
+      <source url="https://youze27.github.io/blog/rss.xml">开发运维</source>
       <pubDate>Fri, 10 Jan 2025 03:24:15 GMT</pubDate>
     </item>
     <item>
