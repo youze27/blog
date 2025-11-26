@@ -6,12 +6,12 @@
     <link>https://youze27.github.io/blog/</link>
     <description>网络安全知识库</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 26 Nov 2025 14:55:53 GMT</pubDate>
-    <lastBuildDate>Wed, 26 Nov 2025 14:55:53 GMT</lastBuildDate>
+    <pubDate>Wed, 26 Nov 2025 15:04:06 GMT</pubDate>
+    <lastBuildDate>Wed, 26 Nov 2025 15:04:06 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <category>应急响应</category>
     <category>渗透测试</category>
+    <category>应急响应</category>
     <category>计网基础</category>
     <category>营养学</category>
     <category>靶机</category>
@@ -23,6 +23,85 @@
     <category>AI</category>
     <category>其他</category>
     <category>信息收集</category>
+    <item>
+      <title>内网隧道及代理</title>
+      <link>https://youze27.github.io/blog/perm/intranet-tunnel-and-proxy-u9gv8.html</link>
+      <guid>https://youze27.github.io/blog/perm/intranet-tunnel-and-proxy-u9gv8.html</guid>
+      <source url="https://youze27.github.io/blog/rss.xml">内网隧道及代理</source>
+      <description>本文介绍了内网隧道及代理</description>
+      <category>渗透测试</category>
+      <pubDate>Fri, 08 Nov 2024 02:11:05 GMT</pubDate>
+      <content:encoded><![CDATA[<p>本文介绍了内网隧道及代理</p>
+<!-- more -->
+<h1>内网隧道及代理</h1>
+<h2>Neo-reGeorg隧道</h2>
+<figure><img src="http://127.0.0.1:59544/assets/image-20241120093806-3qn8rn2.png" alt="image" tabindex="0" loading="lazy"><figcaption>image</figcaption></figure>
+<ol>
+<li>
+<p>github上下载项目  这里5.2.0</p>
+</li>
+<li>
+<p>环境搭建：</p>
+<p>1.攻击机：外网主机，在该主机上生成shell</p>
+<p>2.连接内外网的服务器：将shell上传到这里  192.168.71.67:80</p>
+<p>边界可以ping 内网主机</p>
+<figure><img src="http://127.0.0.1:59544/assets/image-20241108144334-5plhfy0.png" alt="image" tabindex="0" loading="lazy"><figcaption>image</figcaption></figure>
+<p>外网攻击机不能ping 内网主机</p>
+<figure><img src="http://127.0.0.1:59544/assets/image-20241108144646-9u87tnu.png" alt="image" tabindex="0" loading="lazy"><figcaption>image</figcaption></figure>
+<p>3.内网主机：开启了服务   192.168.135.129:80</p>
+</li>
+<li>
+<p>内网主机服务  index  （phpinfo）</p>
+<figure><img src="http://127.0.0.1:59544/assets/image-20241108143849-cum6usb.png" alt="image" tabindex="0" loading="lazy"><figcaption>image</figcaption></figure>
+</li>
+<li>
+<p>攻击机端：  使用前需要先生成shell</p>
+<div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-python"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">python neoreg.py generate </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">-</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">k password</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><figure><img src="http://127.0.0.1:59544/assets/image-20241108101107-3l8um3n.png" alt="image" tabindex="0" loading="lazy"><figcaption>image</figcaption></figure>
+</li>
+<li>
+<p>将shell上传到服务器端</p>
+<figure><img src="http://127.0.0.1:59544/assets/image-20241108113043-n3pjdzs.png" alt="image" tabindex="0" loading="lazy"><figcaption>image</figcaption></figure>
+</li>
+<li>
+<p>攻击机和服务器建立连接</p>
+<div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-python"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">python neoreg.py </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">-</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">k password </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">-</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">u http:</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">//</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">192.168</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.71.67</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">server_shell.php</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><figure><img src="http://127.0.0.1:59544/assets/image-20241108113245-jir3myq.png" alt="image" tabindex="0" loading="lazy"><figcaption>image</figcaption></figure>
+</li>
+</ol>
+<h2>浏览器插件代理</h2>
+<p>在浏览器使用SOCKS5代理到隧道1080</p>
+<figure><img src="http://127.0.0.1:59544/assets/image-20241108145245-uebdnfp.png" alt="image" tabindex="0" loading="lazy"><figcaption>image</figcaption></figure>
+<h2>proxifier代理</h2>
+<ol>
+<li>
+<p>或者使用proxifier在攻击机使用proxifile建立规则，和建立隧道的1080端口连接。使用上方建立隧道时所使用的协议SOCKS5.使用proxifier后浏览器里就不用代理。</p>
+<figure><img src="http://127.0.0.1:59544/assets/image-20241108132625-6ecr0n1.png" alt="image" tabindex="0" loading="lazy"><figcaption>image</figcaption></figure>
+</li>
+<li>
+<p>python.exe要和边界主机建立隧道，所以放在最前面直连。   第二个将firefox的流量代理到隧道。Target Hosts   Target Ports  到达任何主机和端口的都代理到隧道。这里将浏览器的HTTP请求转为SOCKS5</p>
+<figure><img src="http://127.0.0.1:59544/assets/image-20241108143336-x066l22.png" alt="image" tabindex="0" loading="lazy"><figcaption>image</figcaption></figure>
+</li>
+<li>
+<p>建立规则mstsc.exe的流量代理。</p>
+<figure><img src="http://127.0.0.1:59544/assets/image-20241108152502-dyf4mwr.png" alt="image" tabindex="0" loading="lazy"><figcaption>image</figcaption></figure>
+</li>
+</ol>
+<h2>SocksCap代理</h2>
+<ol>
+<li>
+<p>添加代理</p>
+<figure><img src="http://127.0.0.1:59544/assets/image-20241108161511-68q4n80.png" alt="image" tabindex="0" loading="lazy"><figcaption>image</figcaption></figure>
+</li>
+<li>
+<p>添加代理程序并访问</p>
+<figure><img src="http://127.0.0.1:59544/assets/image-20241108162305-07ikxhk.png" alt="image" tabindex="0" loading="lazy"><figcaption>image</figcaption></figure>
+</li>
+</ol>
+<p>‍</p>
+]]></content:encoded>
+      <enclosure url="http://127.0.0.1:59544/assets/image-20241120093806-3qn8rn2.png" type="image/png"/>
+    </item>
     <item>
       <title>网文收藏</title>
       <link>https://youze27.github.io/blog/like/</link>
