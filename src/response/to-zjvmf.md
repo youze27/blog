@@ -1,10 +1,10 @@
 ---
-title: A  &CK 框架实践阅读笔记
+title: ATT&CK框架实践阅读笔记
 short_title: ''
 date: 2025-11-20 14:22:56
-description: 'MI RE A  &CK '
+description: 'ATT&CK'
 tag:
-  - A  &CK
+  - ATT&CK
 category:
   - 应急响应
 article: true
