@@ -13,7 +13,7 @@ export default defineClientConfig({
  setup() {
       // 设置下雪效果
     setupSnowFall({
-      count: 100,      // 雪花数量
+      count: 10,      // 雪花数量
       minSize: 3,     // 最小雪花大小
       maxSize: 8,     // 最大雪花大小
       speed: 1,     // 下落速度

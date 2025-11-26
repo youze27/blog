@@ -19,7 +19,6 @@ export default hopeTheme({
   focus: true,
   
 
-  
   // 导航栏
   navbar,
 
@@ -51,10 +50,10 @@ export default hopeTheme({
     },
   },
 
-  // 多语言配置
-  metaLocales: {
-    editLink: "在 GitHub 上编辑此页",
-  },
+
+  // metaLocales: {
+  //   editLink: "在 GitHub 上编辑此页",
+  // },
 
   // 如果想要实时查看任何改变，启用它。注: 这对更新性能有很大负面影响
   // hotReload: true,
@@ -171,8 +170,17 @@ export default hopeTheme({
       // 例如：暗黑模式适配、表情设置等
       dark: 'auto',
       emoji: [
+        '//unpkg.com/@waline/emojis@1.4.0/soul-emoji',
+        '//unpkg.com/@waline/emojis@1.4.0/tw-flag',
         '//unpkg.com/@waline/emojis@1.1.0/weibo',
+        '//unpkg.com/@waline/emojis@1.4.0/qq',
+        '//unpkg.com/@waline/emojis@1.4.0/tw-object',
+        '//unpkg.com/@waline/emojis@1.4.0/tw-people',
         '//unpkg.com/@waline/emojis@1.1.0/bilibili',
+        '//unpkg.com/@waline/emojis@1.4.0/bmoji',
+        '//unpkg.com/@waline/emojis@1.4.0/alus',
+        '//unpkg.com/@waline/emojis@1.4.0/tieba'
+
       ],
       // 全局启用评论
       comment: true,
