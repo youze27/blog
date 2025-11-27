@@ -6,8 +6,8 @@
     <link>https://youze27.github.io/blog/</link>
     <description>网络安全知识库</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 27 Nov 2025 15:04:11 GMT</pubDate>
-    <lastBuildDate>Thu, 27 Nov 2025 15:04:11 GMT</lastBuildDate>
+    <pubDate>Thu, 27 Nov 2025 15:05:14 GMT</pubDate>
+    <lastBuildDate>Thu, 27 Nov 2025 15:05:14 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>应急响应</category>
@@ -164,7 +164,7 @@
       <pubDate>Thu, 20 Nov 2025 14:22:56 GMT</pubDate>
       <content:encoded><![CDATA[<p>MI RE A  &amp;CK框架</p>
 <!-- more -->
-<h1>ATT&amp;CK 框架实践阅读笔记</h1>
+<h1>A  &amp;CK 框架实践阅读笔记</h1>
 <h2>什么是MITRE ATT&amp;CK</h2>
 <p>是一个对抗行为知识库。</p>
 <figure><img src="http://127.0.0.1:42405/assets/image-20251120225643-tchho6q.png" alt="image" tabindex="0" loading="lazy"><figcaption>MITRE</figcaption></figure>
