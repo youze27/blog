@@ -1,17 +1,17 @@
 ---
-title: ATT&CK框架实践阅读笔记
+title: A  &CK 框架实践阅读笔记
 short_title: ''
 date: 2025-11-20 14:22:56
-description: 'ATT&CK'
+description: MI RE A  &CK框架
 tag:
-  - ATT&CK
+  - A  &CK
 category:
-  - 应急响应
+  - 渗透测试
 article: true
 timeline: false
 isOriginal: true
 ---
-MITRE ATT&CK 
+MI RE A  &CK框架
 
 <!-- more -->
 
@@ -24,7 +24,7 @@ MITRE ATT&CK
 
 是一个对抗行为知识库。
 
-![image](http://127.0.0.1:59544/assets/image-20251120225643-tchho6q.png "MITRE")
+![image](http://127.0.0.1:42405/assets/image-20251120225643-tchho6q.png "MITRE")
 
 MITRE ATT&CK提供了一个复杂框架，介绍了攻击者在攻击过程中使用的190多项技术、400多项子技术，其中包括特定技术和通用技术，以及有关知名攻击组织及其攻击活动的背景信息和攻击中所使用的战术、技术。简单来说，MITRE ATT&CK是一个对抗行为**知识库**。
 
@@ -48,13 +48,13 @@ MITRE ATT&CK提供了一个复杂框架，介绍了攻击者在攻击过程中�
 
 ● 如何确定安全防御优先级？
 
-![image](http://127.0.0.1:59544/assets/image-20251120222356-w7thosd.png "ATTCK框架所解决的问题")
+![image](http://127.0.0.1:42405/assets/image-20251120222356-w7thosd.png "ATTCK框架所解决的问题")
 
 ## ATT&CK技术领域
 
 MITRE ATT&CK已确定了三个技术领域—Enterprise（用于传统企业网络和云技术）、Mobile（用于移动通信设备）、ICS（用于工业控制系统）
 
-![image](http://127.0.0.1:59544/assets/image-20251120222920-k2p8jl4.png "ATT&CK技术领域")
+![image](http://127.0.0.1:42405/assets/image-20251120222920-k2p8jl4.png "ATT&CK技术领域")
 
 在各技术领域，ATT&CK定义了多个平台，即攻击者在各技术领域进行操作的系统。一个平台可以是一个操作系统或一个应用程序（例如，Microsoft Windows）。ATT&CK中的技术和子技术可以应用在不同平台上。
 
@@ -62,7 +62,7 @@ MITRE ATT&CK已确定了三个技术领域—Enterprise（用于传统企业网�
 
 痛苦金字塔模型由**IoC（Indicators of Compromise，失陷指标）** 组成，通过IoC进行组织分类并描述各类IoC在攻防对抗中的价值。**TTPs是Tactics，Techniques and Procedures（战术、技术及步骤）** 的缩写，描述了攻击者从踩点侦察到获取数据这一过程中，每一步是如何完成任务的。
 
-![image](http://127.0.0.1:59544/assets/image-20251120223304-qwxz6mu.png "ATT&CK框架与痛苦金字塔模型的关系")
+![image](http://127.0.0.1:42405/assets/image-20251120223304-qwxz6mu.png "ATT&CK框架与痛苦金字塔模型的关系")
 
 TTPs处于痛苦金字塔塔尖。对于攻击者，TTPs反映了攻击者的行为，表明攻击者调整TTPs所付出的时间和金钱成本是最为昂贵的。对于防守方，基于TTPs的检测和响应可以给攻击者造成更大的痛苦，因此TTPs也是痛苦金字塔中对防守方最有价值的一类IoC。但另一方面，这类IoC更加难以识别和应用。由于大多数安全工具并不太适合捕获TTPs，这也意味着，收集TTPs并将其应用到网络防御中的难度系数是最高的。而ATT&CK则是有效分析攻击行为（即TTPs）的威胁模型。
 
@@ -150,7 +150,7 @@ TTPs处于痛苦金字塔塔尖。对于攻击者，TTPs反映了攻击者的行
 
 ATT&CK Enterprise框架由14项战术组成，每项战术下包含多项实现该战术目标的技术，每项技术中详细介绍了实现该技术的具体步骤。
 
-![image](http://127.0.0.1:59544/assets/image-20251120224041-bqd4cbb.png "ATT&CK框架的14项战术")
+![image](http://127.0.0.1:42405/assets/image-20251120224041-bqd4cbb.png "ATT&CK框架的14项战术")
 
 1. **侦查** ：在入侵之前，攻击者试图收集目标的信息，以便为后续攻击做准备。
 2. **资源开发** ：攻击者为其攻击行动准备、获取或控制所需的资源。
@@ -188,21 +188,21 @@ MITRE Caldera™ 是一个网络安全[MITRE Caldera™](https://caldera.mitre.o
 
 是一个基于 Web 的可视化工具，它提供了一种**交互式的方式来浏览和注释 ATT&CK 矩阵知识库**，用户可以通过创建自定义的“图层”来映射和比较自身防御覆盖范围、威胁组织的行为模式或特定攻击活动的技术细节。
 
-![image](http://127.0.0.1:59544/assets/image-20251120234943-lyttnjz.png)
+![image](http://127.0.0.1:42405/assets/image-20251120234943-lyttnjz.png)
 
-![image](http://127.0.0.1:59544/assets/image-20251120234906-90j22x9.png)
+![image](http://127.0.0.1:42405/assets/image-20251120234906-90j22x9.png)
 
 **[Atomic Red Team](https://www.atomicredteam.io/)**
 
 是一个与 ATT&CK 技术直接对应的开源测试用例库，它提供了大量简单且跨平台的“原子测试”脚本，安全团队可以无需依赖复杂的工具即可快速执行这些测试，从而高效地验证其安全控制措施是否能够检测到特定的攻击技术。
 
-![ Atomic Red Team™](http://127.0.0.1:59544/assets/image-20251120234339-w16uab1.png)
+![ Atomic Red Team™](http://127.0.0.1:42405/assets/image-20251120234339-w16uab1.png)
 
 **[SIGMA](https://github.com/SigmaHQ/sigma)**
 
 是一个通用的开源签名格式和相关的规则库，它旨在sigma实现检测逻辑的标准化和共享，安全团队可以编写与特定商业产品无关的 SIGMA 规则，然后通过社区提供的转换器将其编译成多种 SIEM 和安全分析平台（如 Splunk、Elasticsearch 等）的本地查询语法，从而快速构建基于 ATT&CK 的检测能力。
 
-## ![image](http://127.0.0.1:59544/assets/image-20251120231737-hlt0692.png "sigma")**ATT&CK 四大核心应用场景**
+## ![image](http://127.0.0.1:42405/assets/image-20251120231737-hlt0692.png "sigma")**ATT&CK 四大核心应用场景**
 
 #### 1. **模拟攻击**
 
