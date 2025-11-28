@@ -9,6 +9,7 @@ category:
   - 渗透测试
 article: true
 timeline: false
+index: true
 isOriginal: true
 ---
 这篇文章主要介绍了Windows域环境
