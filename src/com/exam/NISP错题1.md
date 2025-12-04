@@ -2,6 +2,7 @@
 title: NISP错题1
 index: true
 order: 5
+article: false 
 isOriginal : true
 tag:
   - NISP

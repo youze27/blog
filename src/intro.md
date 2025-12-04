@@ -2,6 +2,7 @@
 icon: circle-info
 title: 关于我
 date: 2025-07-14
+article: false 
 cover: /assets/images/cover3.jpg
 ---
 # 介绍页

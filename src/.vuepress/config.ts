@@ -18,6 +18,7 @@ export default defineUserConfig({
 
   plugins:
     [
+      
       popperPlugin({  //鼠标动画特效插件
         config: {
           popper: {

@@ -5,6 +5,13 @@ import sidebar from "./sidebar.js";
 import { commentPlugin } from '@vuepress/plugin-comment'
 export default hopeTheme({
   hostname: "https://youze27.github.io",
+  print: true,
+  darkmode: "auto", // 或 "toggle", "auto", "enable", "disable"
+// "switch": 在深色模式，浅色模式和自动之间切换 (默认)
+// "toggle": 在深色模式和浅色模式之间切换
+// "auto": 自动根据用户设备主题或当前时间决定是否应用深色模式
+// "enable": 强制深色模式
+// "disable": 禁用深色模式
 
   author: {
     name: "卷卷",
@@ -13,7 +20,7 @@ export default hopeTheme({
   logo: "/assets/logo.png",
   favicon: "/assets/favicon.ico",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+
 
   docsDir: "src",
   focus: true,
@@ -134,6 +141,9 @@ export default hopeTheme({
   // 在这里配置主题提供的插件
   plugins: {
     blog: true,
+    // blog: {
+    //   excerptLength: 200,      // 自动生成 200 字符的摘要
+    // },
     search: true,
     slimsearch: true,
     feed: {
