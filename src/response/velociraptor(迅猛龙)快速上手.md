@@ -12,11 +12,6 @@ tag:
   - DFIR
   - 数字取证
 ---
-## 学前必看
-
-[docs.velociraptor.app/  官方文档](https://docs.velociraptor.app/%20)
-
-[www.youtube.com/watch?v=70CBB9MdNWM 教学视频](https://www.youtube.com/watch?v=70CBB9MdNWM)
 
 ## 基本概念
 
@@ -25,6 +20,12 @@ tag:
 Digital Forensics and Incident Response (DFIR)
 
 **数字取证和事件响应 (DFIR)**  是网络安全领域的其中一个领域，专注于网络攻击的识别、调查和补救。
+
+## 学前必看
+
+[docs.velociraptor.app/  官方文档](https://docs.velociraptor.app/%20)
+
+[www.youtube.com/watch?v=70CBB9MdNWM 教学视频](https://www.youtube.com/watch?v=70CBB9MdNWM)
 
 DFIR 有两个主要组成部分：
 
