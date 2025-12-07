@@ -1,7 +1,7 @@
 ---
 title: deepseek使用指南 清华大学
 index: true
-order: 2
+order: 21
 isOriginal : true
 category:
   - AI

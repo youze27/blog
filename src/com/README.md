@@ -1,5 +1,5 @@
 ---
-title: 综合能力
+title: 我的生活
 index: false
 icon: briefcase
 ---

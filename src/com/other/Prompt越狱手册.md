@@ -1,7 +1,7 @@
 ---
 title: Prompt越狱手册
 index: true
-order: 3
+order: 23
 isOriginal : true
 category:
   - AI
