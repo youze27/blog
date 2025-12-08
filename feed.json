@@ -7,6 +7,55 @@
   "favicon": "https://youze27.github.io/blog/assets/favicon.ico",
   "items": [
     {
+      "title": "Fawn Machine",
+      "url": "https://youze27.github.io/blog/htb/Fawn%20Machine%20.html",
+      "id": "https://youze27.github.io/blog/htb/Fawn%20Machine%20.html",
+      "summary": "https://app.hackthebox.com/machines/Fawn?tab=play_machine avataravatar What does the 3-letter acronym FTP stand for? FTP 这个三字母缩写代表什么？ File Transfer Protocol Which port does the ...",
+      "content_html": "<ul>\n<li><a href=\"https://app.hackthebox.com/machines/Fawn?tab=play_machine\" target=\"_blank\" rel=\"noopener noreferrer\">https://app.hackthebox.com/machines/Fawn?tab=play_machine</a></li>\n</ul>\n<figure><figcaption>avatar</figcaption></figure>\n<ul>\n<li>\n<p>What does the 3-letter acronym FTP stand for?<br>\nFTP 这个三字母缩写代表什么？</p>\n<p><span class=\"spoiler\" tabindex=\"-1\">File Transfer Protocol</span></p>\n</li>\n<li>\n<p>Which port does the FTP service listen on usually?<br>\nFTP 服务通常监听哪个端口？</p>\n<p><span class=\"spoiler\" tabindex=\"-1\">21</span></p>\n</li>\n<li>\n<p>FTP sends data in the clear, without any encryption. What acronym is used for a later protocol designed to provide similar functionality to FTP but securely, as an extension of the SSH protocol?<br>\nFTP 以明文方式发送数据，无需任何加密。后来设计为提供类似 FTP 功能但安全且作为 SSH 协议扩展的协议，使用了什么缩写？</p>\n<p><span class=\"spoiler\" tabindex=\"-1\">SFTP</span></p>\n</li>\n<li>\n<p>What is the command we can use to send an ICMP echo request to test our connection to the target?<br>\n我们可以用什么命令发送 ICMP 回声请求来测试与目标的连接？</p>\n<p><span class=\"spoiler\" tabindex=\"-1\">ping</span></p>\n</li>\n<li>\n<p>From your scans, what version is FTP running on the target?<br>\n根据你的扫描，目标上的 FTP 运行的是哪个版本？</p>\n<p><span class=\"spoiler\" tabindex=\"-1\">vsftpd 3.0.3</span></p>\n<div class=\"language-bash line-numbers-mode\" data-highlighter=\"shiki\" data-ext=\"bash\" style=\"--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34\"><pre class=\"shiki shiki-themes one-light one-dark-pro vp-code\"><code class=\"language-bash\"><span class=\"line\"><span style=\"--shiki-light:#4078F2;--shiki-dark:#61AFEF\">┌─[eu-starting-point-1-dhcp]─[10.10.15.29]─[youze27@htb-sxf3wxjoxq]─[~]</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#4078F2;--shiki-dark:#61AFEF\">└──╼</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\"> [★]$ nmap -A 10.129.15.130</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#4078F2;--shiki-dark:#61AFEF\">Starting</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\"> Nmap</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\"> 7.94SVN</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\"> ( </span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\">https://nmap.org</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\"> ) at 2025-12-08 09:06 CST</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#4078F2;--shiki-dark:#61AFEF\">Nmap</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\"> scan</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\"> report</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\"> for</span><span style=\"--shiki-light:#986801;--shiki-dark:#D19A66\"> 10.129.15.130</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#4078F2;--shiki-dark:#61AFEF\">Host</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\"> is</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\"> up</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\"> (0.0081s </span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\">latency</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">).</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#4078F2;--shiki-dark:#61AFEF\">Not</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\"> shown:</span><span style=\"--shiki-light:#986801;--shiki-dark:#D19A66\"> 999</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\"> closed</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\"> tcp</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\"> ports</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\"> (reset)</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#4078F2;--shiki-dark:#61AFEF\">PORT</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\">   STATE</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\"> SERVICE</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\"> VERSION</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#4078F2;--shiki-dark:#61AFEF\">21/tcp</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\"> open</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\">  ftp</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\">     vsftpd</span><span style=\"--shiki-light:#986801;--shiki-dark:#D19A66\"> 3.0.3</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">   &lt;</span></span></code></pre>\n<div class=\"line-numbers\" aria-hidden=\"true\" style=\"counter-reset:line-number 0\"><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div></div></div></li>\n</ul>\n",
+      "date_published": "2025-12-08T16:15:44.000Z",
+      "date_modified": "2025-12-08T16:15:44.000Z",
+      "authors": [],
+      "tags": [
+        "HTB"
+      ]
+    },
+    {
+      "title": "Meow Machine",
+      "url": "https://youze27.github.io/blog/htb/Meow%20Machine%20---%20Hack%20The%20Box.html",
+      "id": "https://youze27.github.io/blog/htb/Meow%20Machine%20---%20Hack%20The%20Box.html",
+      "summary": "https://app.hackthebox.com/machines/Meow?tab=play_machine avataravatar What does the acronym VM stand for? VM 这个缩写代表什么？ ！！Virtual Machine！！ What tool do we use to interact with ...",
+      "content_html": "<ul>\n<li><a href=\"https://app.hackthebox.com/machines/Meow?tab=play_machine\" target=\"_blank\" rel=\"noopener noreferrer\">https://app.hackthebox.com/machines/Meow?tab=play_machine</a></li>\n</ul>\n<figure><figcaption>avatar</figcaption></figure>\n<ul>\n<li>\n<p>What does the acronym VM stand for?<br>\nVM 这个缩写代表什么？</p>\n<p>！！Virtual Machine！！</p>\n</li>\n<li>\n<p>What tool do we use to interact with the operating system in order to issue commands via the command line, such as the one to start our VPN connection? It's also known as a console or shell.<br>\n我们用什么工具来与作系统交互，以便通过命令行下达命令，比如启动 VPN 连接的那个？它也被称为控制台或外壳。</p>\n<p>！！terminal！！</p>\n</li>\n<li>\n<p>What service do we use to form our VPN connection into HTB labs?<br>\n我们用什么服务来把 VPN 连接连接到 HTB Labs？</p>\n<p>！！openvpn！！</p>\n</li>\n<li>\n<p>What tool do we use to test our connection to the target with an ICMP echo request?<br>\n我们用什么工具来测试与目标的连接，发送 ICMP 回声请求？</p>\n<p>！！ping！！</p>\n</li>\n<li>\n<p>What is the name of the most common tool for finding open ports on a target?<br>\n寻找目标开放端口的最常用工具叫什么名字？</p>\n<p>！！nmap！！</p>\n</li>\n<li>\n<p>What service do we identify on port 23/tcp during our scans?<br>\n在扫描时，我们在端口 23/TCP 上识别哪个服务？</p>\n<p>！！telnet！！</p>\n</li>\n<li>\n<p>What username is able to log into the target over telnet with a blank password?<br>\n什么用户名能用空密码通过 telnet 登录目标网站？</p>\n<p>！！root！！</p>\n</li>\n<li>\n<p>Submit root flag  提交根标志</p>\n<p></p>\n<p>0H 16M 23S  0小时 16分 23秒</p>\n</li>\n</ul>\n<p>‍</p>\n",
+      "date_published": "2025-12-08T16:15:44.000Z",
+      "date_modified": "2025-12-08T16:15:44.000Z",
+      "authors": [],
+      "tags": [
+        "HTB"
+      ]
+    },
+    {
+      "title": "Meow Machine",
+      "url": "https://youze27.github.io/blog/htb/Meow%20Machine.html",
+      "id": "https://youze27.github.io/blog/htb/Meow%20Machine.html",
+      "summary": "https://app.hackthebox.com/machines/Meow?tab=play_machine avataravatar What does the acronym VM stand for? VM 这个缩写代表什么？ ！！Virtual Machine！！ What tool do we use to interact with ...",
+      "content_html": "<ul>\n<li><a href=\"https://app.hackthebox.com/machines/Meow?tab=play_machine\" target=\"_blank\" rel=\"noopener noreferrer\">https://app.hackthebox.com/machines/Meow?tab=play_machine</a></li>\n</ul>\n<figure><figcaption>avatar</figcaption></figure>\n<ul>\n<li>\n<p>What does the acronym VM stand for?<br>\nVM 这个缩写代表什么？</p>\n<p>！！Virtual Machine！！</p>\n</li>\n<li>\n<p>What tool do we use to interact with the operating system in order to issue commands via the command line, such as the one to start our VPN connection? It's also known as a console or shell.<br>\n我们用什么工具来与作系统交互，以便通过命令行下达命令，比如启动 VPN 连接的那个？它也被称为控制台或外壳。</p>\n<p>！！terminal！！</p>\n</li>\n<li>\n<p>What service do we use to form our VPN connection into HTB labs?<br>\n我们用什么服务来把 VPN 连接连接到 HTB Labs？</p>\n<p>！！openvpn！！</p>\n</li>\n<li>\n<p>What tool do we use to test our connection to the target with an ICMP echo request?<br>\n我们用什么工具来测试与目标的连接，发送 ICMP 回声请求？</p>\n<p>！！ping！！</p>\n</li>\n<li>\n<p>What is the name of the most common tool for finding open ports on a target?<br>\n寻找目标开放端口的最常用工具叫什么名字？</p>\n<p>！！nmap！！</p>\n</li>\n<li>\n<p>What service do we identify on port 23/tcp during our scans?<br>\n在扫描时，我们在端口 23/TCP 上识别哪个服务？</p>\n<p>！！telnet！！</p>\n</li>\n<li>\n<p>What username is able to log into the target over telnet with a blank password?<br>\n什么用户名能用空密码通过 telnet 登录目标网站？</p>\n<p>！！root！！</p>\n</li>\n<li>\n<p>Submit root flag  提交根标志</p>\n<p></p>\n<p>0H 16M 23S  0小时 16分 23秒</p>\n</li>\n</ul>\n<p>‍</p>\n",
+      "date_published": "2025-12-08T16:15:44.000Z",
+      "date_modified": "2025-12-08T16:15:44.000Z",
+      "authors": [],
+      "tags": [
+        "HTB"
+      ]
+    },
+    {
+      "title": "HTB Writeup",
+      "url": "https://youze27.github.io/blog/htb/",
+      "id": "https://youze27.github.io/blog/htb/",
+      "content_html": "",
+      "date_published": "2025-12-08T16:15:44.000Z",
+      "date_modified": "2025-12-08T16:15:44.000Z",
+      "authors": [],
+      "tags": []
+    },
+    {
       "title": "精选照片 - 定格美好 ❤️",
       "url": "https://youze27.github.io/blog/com/picture.html",
       "id": "https://youze27.github.io/blog/com/picture.html",

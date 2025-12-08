@@ -6,10 +6,11 @@
     <link>https://youze27.github.io/blog/</link>
     <description>网络安全知识库</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 07 Dec 2025 16:15:57 GMT</pubDate>
-    <lastBuildDate>Sun, 07 Dec 2025 16:15:57 GMT</lastBuildDate>
+    <pubDate>Mon, 08 Dec 2025 16:17:52 GMT</pubDate>
+    <lastBuildDate>Mon, 08 Dec 2025 16:17:52 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <category>HTB</category>
     <category>markdown</category>
     <category>应急响应</category>
     <category>文章收藏</category>
@@ -23,6 +24,176 @@
     <category>AI</category>
     <category>其他</category>
     <category>信息收集</category>
+    <item>
+      <title>Fawn Machine</title>
+      <link>https://youze27.github.io/blog/htb/Fawn%20Machine%20.html</link>
+      <guid>https://youze27.github.io/blog/htb/Fawn%20Machine%20.html</guid>
+      <source url="https://youze27.github.io/blog/rss.xml">Fawn Machine</source>
+      <description>https://app.hackthebox.com/machines/Fawn?tab=play_machine avataravatar What does the 3-letter acronym FTP stand for? FTP 这个三字母缩写代表什么？ File Transfer Protocol Which port does the ...</description>
+      <category>HTB</category>
+      <pubDate>Mon, 08 Dec 2025 16:15:44 GMT</pubDate>
+      <content:encoded><![CDATA[<ul>
+<li><a href="https://app.hackthebox.com/machines/Fawn?tab=play_machine" target="_blank" rel="noopener noreferrer">https://app.hackthebox.com/machines/Fawn?tab=play_machine</a></li>
+</ul>
+<figure><figcaption>avatar</figcaption></figure>
+<ul>
+<li>
+<p>What does the 3-letter acronym FTP stand for?<br>
+FTP 这个三字母缩写代表什么？</p>
+<p><span class="spoiler" tabindex="-1">File Transfer Protocol</span></p>
+</li>
+<li>
+<p>Which port does the FTP service listen on usually?<br>
+FTP 服务通常监听哪个端口？</p>
+<p><span class="spoiler" tabindex="-1">21</span></p>
+</li>
+<li>
+<p>FTP sends data in the clear, without any encryption. What acronym is used for a later protocol designed to provide similar functionality to FTP but securely, as an extension of the SSH protocol?<br>
+FTP 以明文方式发送数据，无需任何加密。后来设计为提供类似 FTP 功能但安全且作为 SSH 协议扩展的协议，使用了什么缩写？</p>
+<p><span class="spoiler" tabindex="-1">SFTP</span></p>
+</li>
+<li>
+<p>What is the command we can use to send an ICMP echo request to test our connection to the target?<br>
+我们可以用什么命令发送 ICMP 回声请求来测试与目标的连接？</p>
+<p><span class="spoiler" tabindex="-1">ping</span></p>
+</li>
+<li>
+<p>From your scans, what version is FTP running on the target?<br>
+根据你的扫描，目标上的 FTP 运行的是哪个版本？</p>
+<p><span class="spoiler" tabindex="-1">vsftpd 3.0.3</span></p>
+<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">┌─[eu-starting-point-1-dhcp]─[10.10.15.29]─[youze27@htb-sxf3wxjoxq]─[~]</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">└──╼</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> [★]$ nmap -A 10.129.15.130</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">Starting</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> Nmap</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> 7.94SVN</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> ( </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">https://nmap.org</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> ) at 2025-12-08 09:06 CST</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">Nmap</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> scan</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> report</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> for</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 10.129.15.130</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">Host</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> is</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> up</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> (0.0081s </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">latency</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">).</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">Not</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> shown:</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 999</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> closed</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> tcp</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> ports</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> (reset)</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">PORT</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">   STATE</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> SERVICE</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> VERSION</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">21/tcp</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> open</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">  ftp</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">     vsftpd</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 3.0.3</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">   &lt;</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Meow Machine</title>
+      <link>https://youze27.github.io/blog/htb/Meow%20Machine%20---%20Hack%20The%20Box.html</link>
+      <guid>https://youze27.github.io/blog/htb/Meow%20Machine%20---%20Hack%20The%20Box.html</guid>
+      <source url="https://youze27.github.io/blog/rss.xml">Meow Machine</source>
+      <description>https://app.hackthebox.com/machines/Meow?tab=play_machine avataravatar What does the acronym VM stand for? VM 这个缩写代表什么？ ！！Virtual Machine！！ What tool do we use to interact with ...</description>
+      <category>HTB</category>
+      <pubDate>Mon, 08 Dec 2025 16:15:44 GMT</pubDate>
+      <content:encoded><![CDATA[<ul>
+<li><a href="https://app.hackthebox.com/machines/Meow?tab=play_machine" target="_blank" rel="noopener noreferrer">https://app.hackthebox.com/machines/Meow?tab=play_machine</a></li>
+</ul>
+<figure><figcaption>avatar</figcaption></figure>
+<ul>
+<li>
+<p>What does the acronym VM stand for?<br>
+VM 这个缩写代表什么？</p>
+<p>！！Virtual Machine！！</p>
+</li>
+<li>
+<p>What tool do we use to interact with the operating system in order to issue commands via the command line, such as the one to start our VPN connection? It's also known as a console or shell.<br>
+我们用什么工具来与作系统交互，以便通过命令行下达命令，比如启动 VPN 连接的那个？它也被称为控制台或外壳。</p>
+<p>！！terminal！！</p>
+</li>
+<li>
+<p>What service do we use to form our VPN connection into HTB labs?<br>
+我们用什么服务来把 VPN 连接连接到 HTB Labs？</p>
+<p>！！openvpn！！</p>
+</li>
+<li>
+<p>What tool do we use to test our connection to the target with an ICMP echo request?<br>
+我们用什么工具来测试与目标的连接，发送 ICMP 回声请求？</p>
+<p>！！ping！！</p>
+</li>
+<li>
+<p>What is the name of the most common tool for finding open ports on a target?<br>
+寻找目标开放端口的最常用工具叫什么名字？</p>
+<p>！！nmap！！</p>
+</li>
+<li>
+<p>What service do we identify on port 23/tcp during our scans?<br>
+在扫描时，我们在端口 23/TCP 上识别哪个服务？</p>
+<p>！！telnet！！</p>
+</li>
+<li>
+<p>What username is able to log into the target over telnet with a blank password?<br>
+什么用户名能用空密码通过 telnet 登录目标网站？</p>
+<p>！！root！！</p>
+</li>
+<li>
+<p>Submit root flag  提交根标志</p>
+<p></p>
+<p>0H 16M 23S  0小时 16分 23秒</p>
+</li>
+</ul>
+<p>‍</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Meow Machine</title>
+      <link>https://youze27.github.io/blog/htb/Meow%20Machine.html</link>
+      <guid>https://youze27.github.io/blog/htb/Meow%20Machine.html</guid>
+      <source url="https://youze27.github.io/blog/rss.xml">Meow Machine</source>
+      <description>https://app.hackthebox.com/machines/Meow?tab=play_machine avataravatar What does the acronym VM stand for? VM 这个缩写代表什么？ ！！Virtual Machine！！ What tool do we use to interact with ...</description>
+      <category>HTB</category>
+      <pubDate>Mon, 08 Dec 2025 16:15:44 GMT</pubDate>
+      <content:encoded><![CDATA[<ul>
+<li><a href="https://app.hackthebox.com/machines/Meow?tab=play_machine" target="_blank" rel="noopener noreferrer">https://app.hackthebox.com/machines/Meow?tab=play_machine</a></li>
+</ul>
+<figure><figcaption>avatar</figcaption></figure>
+<ul>
+<li>
+<p>What does the acronym VM stand for?<br>
+VM 这个缩写代表什么？</p>
+<p>！！Virtual Machine！！</p>
+</li>
+<li>
+<p>What tool do we use to interact with the operating system in order to issue commands via the command line, such as the one to start our VPN connection? It's also known as a console or shell.<br>
+我们用什么工具来与作系统交互，以便通过命令行下达命令，比如启动 VPN 连接的那个？它也被称为控制台或外壳。</p>
+<p>！！terminal！！</p>
+</li>
+<li>
+<p>What service do we use to form our VPN connection into HTB labs?<br>
+我们用什么服务来把 VPN 连接连接到 HTB Labs？</p>
+<p>！！openvpn！！</p>
+</li>
+<li>
+<p>What tool do we use to test our connection to the target with an ICMP echo request?<br>
+我们用什么工具来测试与目标的连接，发送 ICMP 回声请求？</p>
+<p>！！ping！！</p>
+</li>
+<li>
+<p>What is the name of the most common tool for finding open ports on a target?<br>
+寻找目标开放端口的最常用工具叫什么名字？</p>
+<p>！！nmap！！</p>
+</li>
+<li>
+<p>What service do we identify on port 23/tcp during our scans?<br>
+在扫描时，我们在端口 23/TCP 上识别哪个服务？</p>
+<p>！！telnet！！</p>
+</li>
+<li>
+<p>What username is able to log into the target over telnet with a blank password?<br>
+什么用户名能用空密码通过 telnet 登录目标网站？</p>
+<p>！！root！！</p>
+</li>
+<li>
+<p>Submit root flag  提交根标志</p>
+<p></p>
+<p>0H 16M 23S  0小时 16分 23秒</p>
+</li>
+</ul>
+<p>‍</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>HTB Writeup</title>
+      <link>https://youze27.github.io/blog/htb/</link>
+      <guid>https://youze27.github.io/blog/htb/</guid>
+      <source url="https://youze27.github.io/blog/rss.xml">HTB Writeup</source>
+      <pubDate>Mon, 08 Dec 2025 16:15:44 GMT</pubDate>
+    </item>
     <item>
       <title>精选照片 - 定格美好 ❤️</title>
       <link>https://youze27.github.io/blog/com/picture.html</link>
