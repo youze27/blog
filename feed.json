@@ -7,6 +7,16 @@
   "favicon": "https://youze27.github.io/blog/assets/favicon.ico",
   "items": [
     {
+      "title": "序",
+      "url": "https://youze27.github.io/blog/com/life/%E5%BA%8F.html",
+      "id": "https://youze27.github.io/blog/com/life/%E5%BA%8F.html",
+      "content_html": "",
+      "date_published": "2025-12-13T14:38:00.000Z",
+      "date_modified": "2025-12-13T14:38:00.000Z",
+      "authors": [],
+      "tags": []
+    },
+    {
       "title": "Fawn Machine",
       "url": "https://youze27.github.io/blog/htb/Fawn%20Machine%20.html",
       "id": "https://youze27.github.io/blog/htb/Fawn%20Machine%20.html",
@@ -21,25 +31,12 @@
     },
     {
       "title": "Meow Machine",
-      "url": "https://youze27.github.io/blog/htb/Meow%20Machine%20---%20Hack%20The%20Box.html",
-      "id": "https://youze27.github.io/blog/htb/Meow%20Machine%20---%20Hack%20The%20Box.html",
-      "summary": "https://app.hackthebox.com/machines/Meow?tab=play_machine avataravatar What does the acronym VM stand for? VM 这个缩写代表什么？ ！！Virtual Machine！！ What tool do we use to interact with ...",
-      "content_html": "<ul>\n<li><a href=\"https://app.hackthebox.com/machines/Meow?tab=play_machine\" target=\"_blank\" rel=\"noopener noreferrer\">https://app.hackthebox.com/machines/Meow?tab=play_machine</a></li>\n</ul>\n<figure><figcaption>avatar</figcaption></figure>\n<ul>\n<li>\n<p>What does the acronym VM stand for?<br>\nVM 这个缩写代表什么？</p>\n<p>！！Virtual Machine！！</p>\n</li>\n<li>\n<p>What tool do we use to interact with the operating system in order to issue commands via the command line, such as the one to start our VPN connection? It's also known as a console or shell.<br>\n我们用什么工具来与作系统交互，以便通过命令行下达命令，比如启动 VPN 连接的那个？它也被称为控制台或外壳。</p>\n<p>！！terminal！！</p>\n</li>\n<li>\n<p>What service do we use to form our VPN connection into HTB labs?<br>\n我们用什么服务来把 VPN 连接连接到 HTB Labs？</p>\n<p>！！openvpn！！</p>\n</li>\n<li>\n<p>What tool do we use to test our connection to the target with an ICMP echo request?<br>\n我们用什么工具来测试与目标的连接，发送 ICMP 回声请求？</p>\n<p>！！ping！！</p>\n</li>\n<li>\n<p>What is the name of the most common tool for finding open ports on a target?<br>\n寻找目标开放端口的最常用工具叫什么名字？</p>\n<p>！！nmap！！</p>\n</li>\n<li>\n<p>What service do we identify on port 23/tcp during our scans?<br>\n在扫描时，我们在端口 23/TCP 上识别哪个服务？</p>\n<p>！！telnet！！</p>\n</li>\n<li>\n<p>What username is able to log into the target over telnet with a blank password?<br>\n什么用户名能用空密码通过 telnet 登录目标网站？</p>\n<p>！！root！！</p>\n</li>\n<li>\n<p>Submit root flag  提交根标志</p>\n<p></p>\n<p>0H 16M 23S  0小时 16分 23秒</p>\n</li>\n</ul>\n<p>‍</p>\n",
-      "date_published": "2025-12-08T16:15:44.000Z",
-      "date_modified": "2025-12-08T16:15:44.000Z",
-      "authors": [],
-      "tags": [
-        "HTB"
-      ]
-    },
-    {
-      "title": "Meow Machine",
       "url": "https://youze27.github.io/blog/htb/Meow%20Machine.html",
       "id": "https://youze27.github.io/blog/htb/Meow%20Machine.html",
-      "summary": "https://app.hackthebox.com/machines/Meow?tab=play_machine avataravatar What does the acronym VM stand for? VM 这个缩写代表什么？ ！！Virtual Machine！！ What tool do we use to interact with ...",
-      "content_html": "<ul>\n<li><a href=\"https://app.hackthebox.com/machines/Meow?tab=play_machine\" target=\"_blank\" rel=\"noopener noreferrer\">https://app.hackthebox.com/machines/Meow?tab=play_machine</a></li>\n</ul>\n<figure><figcaption>avatar</figcaption></figure>\n<ul>\n<li>\n<p>What does the acronym VM stand for?<br>\nVM 这个缩写代表什么？</p>\n<p>！！Virtual Machine！！</p>\n</li>\n<li>\n<p>What tool do we use to interact with the operating system in order to issue commands via the command line, such as the one to start our VPN connection? It's also known as a console or shell.<br>\n我们用什么工具来与作系统交互，以便通过命令行下达命令，比如启动 VPN 连接的那个？它也被称为控制台或外壳。</p>\n<p>！！terminal！！</p>\n</li>\n<li>\n<p>What service do we use to form our VPN connection into HTB labs?<br>\n我们用什么服务来把 VPN 连接连接到 HTB Labs？</p>\n<p>！！openvpn！！</p>\n</li>\n<li>\n<p>What tool do we use to test our connection to the target with an ICMP echo request?<br>\n我们用什么工具来测试与目标的连接，发送 ICMP 回声请求？</p>\n<p>！！ping！！</p>\n</li>\n<li>\n<p>What is the name of the most common tool for finding open ports on a target?<br>\n寻找目标开放端口的最常用工具叫什么名字？</p>\n<p>！！nmap！！</p>\n</li>\n<li>\n<p>What service do we identify on port 23/tcp during our scans?<br>\n在扫描时，我们在端口 23/TCP 上识别哪个服务？</p>\n<p>！！telnet！！</p>\n</li>\n<li>\n<p>What username is able to log into the target over telnet with a blank password?<br>\n什么用户名能用空密码通过 telnet 登录目标网站？</p>\n<p>！！root！！</p>\n</li>\n<li>\n<p>Submit root flag  提交根标志</p>\n<p></p>\n<p>0H 16M 23S  0小时 16分 23秒</p>\n</li>\n</ul>\n<p>‍</p>\n",
+      "summary": "https://app.hackthebox.com/machines/Meow?tab=play_machine avataravatar What does the acronym VM stand for? VM 这个缩写代表什么？ Virtual Machine What tool do we use to interact with the ...",
+      "content_html": "<ul>\n<li><a href=\"https://app.hackthebox.com/machines/Meow?tab=play_machine\" target=\"_blank\" rel=\"noopener noreferrer\">https://app.hackthebox.com/machines/Meow?tab=play_machine</a></li>\n</ul>\n<figure><figcaption>avatar</figcaption></figure>\n<ul>\n<li>\n<p>What does the acronym VM stand for?<br>\nVM 这个缩写代表什么？</p>\n<p><span class=\"spoiler\" tabindex=\"-1\">Virtual Machine</span></p>\n</li>\n<li>\n<p>What tool do we use to interact with the operating system in order to issue commands via the command line, such as the one to start our VPN connection? It's also known as a console or shell.<br>\n我们用什么工具来与作系统交互，以便通过命令行下达命令，比如启动 VPN 连接的那个？它也被称为控制台或外壳。</p>\n<p><span class=\"spoiler\" tabindex=\"-1\">terminal</span></p>\n</li>\n<li>\n<p>What service do we use to form our VPN connection into HTB labs?<br>\n我们用什么服务来把 VPN 连接连接到 HTB Labs？</p>\n<p><span class=\"spoiler\" tabindex=\"-1\">openvpn</span></p>\n</li>\n<li>\n<p>What tool do we use to test our connection to the target with an ICMP echo request?<br>\n我们用什么工具来测试与目标的连接，发送 ICMP 回声请求？</p>\n<p><span class=\"spoiler\" tabindex=\"-1\">ping</span></p>\n</li>\n<li>\n<p>What is the name of the most common tool for finding open ports on a target?<br>\n寻找目标开放端口的最常用工具叫什么名字？</p>\n<p><span class=\"spoiler\" tabindex=\"-1\">nmap</span></p>\n</li>\n<li>\n<p>What service do we identify on port 23/tcp during our scans?<br>\n在扫描时，我们在端口 23/TCP 上识别哪个服务？</p>\n<p><span class=\"spoiler\" tabindex=\"-1\">telnet</span></p>\n</li>\n<li>\n<p>What username is able to log into the target over telnet with a blank password?<br>\n什么用户名能用空密码通过 telnet 登录目标网站？</p>\n<p><span class=\"spoiler\" tabindex=\"-1\">root</span></p>\n</li>\n<li>\n<p>Submit root flag  提交根标志</p>\n<p></p>\n<p>0H 16M 23S  0小时 16分 23秒</p>\n</li>\n</ul>\n<p>‍</p>\n",
       "date_published": "2025-12-08T16:15:44.000Z",
-      "date_modified": "2025-12-08T16:15:44.000Z",
+      "date_modified": "2025-12-13T14:38:00.000Z",
       "authors": [],
       "tags": [
         "HTB"
@@ -67,12 +64,12 @@
       "tags": []
     },
     {
-      "title": "生活日志",
+      "title": "生活日志🏠",
       "url": "https://youze27.github.io/blog/com/life/",
       "id": "https://youze27.github.io/blog/com/life/",
       "content_html": "",
       "date_published": "2025-12-07T11:01:10.000Z",
-      "date_modified": "2025-12-07T11:01:10.000Z",
+      "date_modified": "2025-12-13T14:38:00.000Z",
       "authors": [],
       "tags": []
     },
@@ -245,12 +242,12 @@
       ]
     },
     {
-      "title": "专业备考",
+      "title": "专业备考⏳",
       "url": "https://youze27.github.io/blog/com/exam/",
       "id": "https://youze27.github.io/blog/com/exam/",
       "content_html": "",
       "date_published": "2025-08-10T14:49:59.000Z",
-      "date_modified": "2025-12-07T11:01:10.000Z",
+      "date_modified": "2025-12-13T14:38:00.000Z",
       "authors": [],
       "tags": []
     },
@@ -423,12 +420,12 @@
       ]
     },
     {
-      "title": "我的阅读",
+      "title": "我的阅读📖",
       "url": "https://youze27.github.io/blog/com/read/",
       "id": "https://youze27.github.io/blog/com/read/",
       "content_html": "",
       "date_published": "2025-03-07T06:05:23.000Z",
-      "date_modified": "2025-12-07T11:01:10.000Z",
+      "date_modified": "2025-12-13T14:38:00.000Z",
       "authors": [],
       "tags": []
     },
@@ -485,12 +482,12 @@
       ]
     },
     {
-      "title": "其他杂项",
+      "title": "其他杂项🧶",
       "url": "https://youze27.github.io/blog/com/other/",
       "id": "https://youze27.github.io/blog/com/other/",
       "content_html": "",
       "date_published": "2025-03-02T05:52:48.000Z",
-      "date_modified": "2025-12-07T11:01:10.000Z",
+      "date_modified": "2025-12-13T14:38:00.000Z",
       "authors": [],
       "tags": []
     },

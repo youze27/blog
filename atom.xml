@@ -4,7 +4,7 @@
   <title>卷卷</title>
   <subtitle>网络安全知识库</subtitle>
   <icon>https://youze27.github.io/blog/assets/favicon.ico</icon>
-  <updated>2025-12-08T16:17:52.976Z</updated>
+  <updated>2025-12-13T14:40:07.892Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://youze27.github.io/blog/atom.xml"/>
   <link rel="alternate" href="https://youze27.github.io/blog/"/>
@@ -22,6 +22,13 @@
   <category term="AI"/>
   <category term="其他"/>
   <category term="信息收集"/>
+  <entry>
+    <title type="text">序</title>
+    <id>https://youze27.github.io/blog/com/life/%E5%BA%8F.html</id>
+    <link href="https://youze27.github.io/blog/com/life/%E5%BA%8F.html"/>
+    <updated>2025-12-13T14:38:00.000Z</updated>
+    <published>2025-12-13T14:38:00.000Z</published>
+  </entry>
   <entry>
     <title type="text">Fawn Machine</title>
     <id>https://youze27.github.io/blog/htb/Fawn%20Machine%20.html</id>
@@ -212,111 +219,9 @@ FTP 以明文方式发送数据，无需任何加密。后来设计为提供类�
   </entry>
   <entry>
     <title type="text">Meow Machine</title>
-    <id>https://youze27.github.io/blog/htb/Meow%20Machine%20---%20Hack%20The%20Box.html</id>
-    <link href="https://youze27.github.io/blog/htb/Meow%20Machine%20---%20Hack%20The%20Box.html"/>
-    <updated>2025-12-08T16:15:44.000Z</updated>
-    <summary type="html"><![CDATA[<ul>
-<li><a href="https://app.hackthebox.com/machines/Meow?tab=play_machine" target="_blank" rel="noopener noreferrer">https://app.hackthebox.com/machines/Meow?tab=play_machine</a></li>
-</ul>
-<figure><figcaption>avatar</figcaption></figure>
-<ul>
-<li>
-<p>What does the acronym VM stand for?<br>
-VM 这个缩写代表什么？</p>
-<p>！！Virtual Machine！！</p>
-</li>
-<li>
-<p>What tool do we use to interact with the operating system in order to issue commands via the command line, such as the one to start our VPN connection? It's also known as a console or shell.<br>
-我们用什么工具来与作系统交互，以便通过命令行下达命令，比如启动 VPN 连接的那个？它也被称为控制台或外壳。</p>
-<p>！！terminal！！</p>
-</li>
-<li>
-<p>What service do we use to form our VPN connection into HTB labs?<br>
-我们用什么服务来把 VPN 连接连接到 HTB Labs？</p>
-<p>！！openvpn！！</p>
-</li>
-<li>
-<p>What tool do we use to test our connection to the target with an ICMP echo request?<br>
-我们用什么工具来测试与目标的连接，发送 ICMP 回声请求？</p>
-<p>！！ping！！</p>
-</li>
-<li>
-<p>What is the name of the most common tool for finding open ports on a target?<br>
-寻找目标开放端口的最常用工具叫什么名字？</p>
-<p>！！nmap！！</p>
-</li>
-<li>
-<p>What service do we identify on port 23/tcp during our scans?<br>
-在扫描时，我们在端口 23/TCP 上识别哪个服务？</p>
-<p>！！telnet！！</p>
-</li>
-<li>
-<p>What username is able to log into the target over telnet with a blank password?<br>
-什么用户名能用空密码通过 telnet 登录目标网站？</p>
-<p>！！root！！</p>
-</li>
-<li>
-<p>Submit root flag  提交根标志</p>
-<p></p>
-<p>0H 16M 23S  0小时 16分 23秒</p>
-</li>
-</ul>]]></summary>
-    <content type="html"><![CDATA[<ul>
-<li><a href="https://app.hackthebox.com/machines/Meow?tab=play_machine" target="_blank" rel="noopener noreferrer">https://app.hackthebox.com/machines/Meow?tab=play_machine</a></li>
-</ul>
-<figure><figcaption>avatar</figcaption></figure>
-<ul>
-<li>
-<p>What does the acronym VM stand for?<br>
-VM 这个缩写代表什么？</p>
-<p>！！Virtual Machine！！</p>
-</li>
-<li>
-<p>What tool do we use to interact with the operating system in order to issue commands via the command line, such as the one to start our VPN connection? It's also known as a console or shell.<br>
-我们用什么工具来与作系统交互，以便通过命令行下达命令，比如启动 VPN 连接的那个？它也被称为控制台或外壳。</p>
-<p>！！terminal！！</p>
-</li>
-<li>
-<p>What service do we use to form our VPN connection into HTB labs?<br>
-我们用什么服务来把 VPN 连接连接到 HTB Labs？</p>
-<p>！！openvpn！！</p>
-</li>
-<li>
-<p>What tool do we use to test our connection to the target with an ICMP echo request?<br>
-我们用什么工具来测试与目标的连接，发送 ICMP 回声请求？</p>
-<p>！！ping！！</p>
-</li>
-<li>
-<p>What is the name of the most common tool for finding open ports on a target?<br>
-寻找目标开放端口的最常用工具叫什么名字？</p>
-<p>！！nmap！！</p>
-</li>
-<li>
-<p>What service do we identify on port 23/tcp during our scans?<br>
-在扫描时，我们在端口 23/TCP 上识别哪个服务？</p>
-<p>！！telnet！！</p>
-</li>
-<li>
-<p>What username is able to log into the target over telnet with a blank password?<br>
-什么用户名能用空密码通过 telnet 登录目标网站？</p>
-<p>！！root！！</p>
-</li>
-<li>
-<p>Submit root flag  提交根标志</p>
-<p></p>
-<p>0H 16M 23S  0小时 16分 23秒</p>
-</li>
-</ul>
-<p>‍</p>
-]]></content>
-    <category term="HTB"/>
-    <published>2025-12-08T16:15:44.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">Meow Machine</title>
     <id>https://youze27.github.io/blog/htb/Meow%20Machine.html</id>
     <link href="https://youze27.github.io/blog/htb/Meow%20Machine.html"/>
-    <updated>2025-12-08T16:15:44.000Z</updated>
+    <updated>2025-12-13T14:38:00.000Z</updated>
     <summary type="html"><![CDATA[<ul>
 <li><a href="https://app.hackthebox.com/machines/Meow?tab=play_machine" target="_blank" rel="noopener noreferrer">https://app.hackthebox.com/machines/Meow?tab=play_machine</a></li>
 </ul>
@@ -325,37 +230,37 @@ VM 这个缩写代表什么？</p>
 <li>
 <p>What does the acronym VM stand for?<br>
 VM 这个缩写代表什么？</p>
-<p>！！Virtual Machine！！</p>
+<p><span class="spoiler" tabindex="-1">Virtual Machine</span></p>
 </li>
 <li>
 <p>What tool do we use to interact with the operating system in order to issue commands via the command line, such as the one to start our VPN connection? It's also known as a console or shell.<br>
 我们用什么工具来与作系统交互，以便通过命令行下达命令，比如启动 VPN 连接的那个？它也被称为控制台或外壳。</p>
-<p>！！terminal！！</p>
+<p><span class="spoiler" tabindex="-1">terminal</span></p>
 </li>
 <li>
 <p>What service do we use to form our VPN connection into HTB labs?<br>
 我们用什么服务来把 VPN 连接连接到 HTB Labs？</p>
-<p>！！openvpn！！</p>
+<p><span class="spoiler" tabindex="-1">openvpn</span></p>
 </li>
 <li>
 <p>What tool do we use to test our connection to the target with an ICMP echo request?<br>
 我们用什么工具来测试与目标的连接，发送 ICMP 回声请求？</p>
-<p>！！ping！！</p>
+<p><span class="spoiler" tabindex="-1">ping</span></p>
 </li>
 <li>
 <p>What is the name of the most common tool for finding open ports on a target?<br>
 寻找目标开放端口的最常用工具叫什么名字？</p>
-<p>！！nmap！！</p>
+<p><span class="spoiler" tabindex="-1">nmap</span></p>
 </li>
 <li>
 <p>What service do we identify on port 23/tcp during our scans?<br>
 在扫描时，我们在端口 23/TCP 上识别哪个服务？</p>
-<p>！！telnet！！</p>
+<p><span class="spoiler" tabindex="-1">telnet</span></p>
 </li>
 <li>
 <p>What username is able to log into the target over telnet with a blank password?<br>
 什么用户名能用空密码通过 telnet 登录目标网站？</p>
-<p>！！root！！</p>
+<p><span class="spoiler" tabindex="-1">root</span></p>
 </li>
 <li>
 <p>Submit root flag  提交根标志</p>
@@ -371,37 +276,37 @@ VM 这个缩写代表什么？</p>
 <li>
 <p>What does the acronym VM stand for?<br>
 VM 这个缩写代表什么？</p>
-<p>！！Virtual Machine！！</p>
+<p><span class="spoiler" tabindex="-1">Virtual Machine</span></p>
 </li>
 <li>
 <p>What tool do we use to interact with the operating system in order to issue commands via the command line, such as the one to start our VPN connection? It's also known as a console or shell.<br>
 我们用什么工具来与作系统交互，以便通过命令行下达命令，比如启动 VPN 连接的那个？它也被称为控制台或外壳。</p>
-<p>！！terminal！！</p>
+<p><span class="spoiler" tabindex="-1">terminal</span></p>
 </li>
 <li>
 <p>What service do we use to form our VPN connection into HTB labs?<br>
 我们用什么服务来把 VPN 连接连接到 HTB Labs？</p>
-<p>！！openvpn！！</p>
+<p><span class="spoiler" tabindex="-1">openvpn</span></p>
 </li>
 <li>
 <p>What tool do we use to test our connection to the target with an ICMP echo request?<br>
 我们用什么工具来测试与目标的连接，发送 ICMP 回声请求？</p>
-<p>！！ping！！</p>
+<p><span class="spoiler" tabindex="-1">ping</span></p>
 </li>
 <li>
 <p>What is the name of the most common tool for finding open ports on a target?<br>
 寻找目标开放端口的最常用工具叫什么名字？</p>
-<p>！！nmap！！</p>
+<p><span class="spoiler" tabindex="-1">nmap</span></p>
 </li>
 <li>
 <p>What service do we identify on port 23/tcp during our scans?<br>
 在扫描时，我们在端口 23/TCP 上识别哪个服务？</p>
-<p>！！telnet！！</p>
+<p><span class="spoiler" tabindex="-1">telnet</span></p>
 </li>
 <li>
 <p>What username is able to log into the target over telnet with a blank password?<br>
 什么用户名能用空密码通过 telnet 登录目标网站？</p>
-<p>！！root！！</p>
+<p><span class="spoiler" tabindex="-1">root</span></p>
 </li>
 <li>
 <p>Submit root flag  提交根标志</p>
@@ -651,10 +556,10 @@ VM 这个缩写代表什么？</p>
     <published>2025-12-07T11:01:10.000Z</published>
   </entry>
   <entry>
-    <title type="text">生活日志</title>
+    <title type="text">生活日志🏠</title>
     <id>https://youze27.github.io/blog/com/life/</id>
     <link href="https://youze27.github.io/blog/com/life/"/>
-    <updated>2025-12-07T11:01:10.000Z</updated>
+    <updated>2025-12-13T14:38:00.000Z</updated>
     <published>2025-12-07T11:01:10.000Z</published>
   </entry>
   <entry>
@@ -1972,10 +1877,10 @@ SIEM是一种整体性的安全方法。它将​安全信息管理（SIM） ​
     <published>2025-11-16T09:11:27.000Z</published>
   </entry>
   <entry>
-    <title type="text">专业备考</title>
+    <title type="text">专业备考⏳</title>
     <id>https://youze27.github.io/blog/com/exam/</id>
     <link href="https://youze27.github.io/blog/com/exam/"/>
-    <updated>2025-12-07T11:01:10.000Z</updated>
+    <updated>2025-12-13T14:38:00.000Z</updated>
     <published>2025-08-10T14:49:59.000Z</published>
   </entry>
   <entry>
@@ -3984,10 +3889,10 @@ Finished：客户端和服务器各自计算并发送一个Finished数据包，�
     <published>2025-03-07T06:05:23.000Z</published>
   </entry>
   <entry>
-    <title type="text">我的阅读</title>
+    <title type="text">我的阅读📖</title>
     <id>https://youze27.github.io/blog/com/read/</id>
     <link href="https://youze27.github.io/blog/com/read/"/>
-    <updated>2025-12-07T11:01:10.000Z</updated>
+    <updated>2025-12-13T14:38:00.000Z</updated>
     <published>2025-03-07T06:05:23.000Z</published>
   </entry>
   <entry>
@@ -4887,10 +4792,10 @@ Finished：客户端和服务器各自计算并发送一个Finished数据包，�
     <published>2025-03-02T05:52:48.000Z</published>
   </entry>
   <entry>
-    <title type="text">其他杂项</title>
+    <title type="text">其他杂项🧶</title>
     <id>https://youze27.github.io/blog/com/other/</id>
     <link href="https://youze27.github.io/blog/com/other/"/>
-    <updated>2025-12-07T11:01:10.000Z</updated>
+    <updated>2025-12-13T14:38:00.000Z</updated>
     <published>2025-03-02T05:52:48.000Z</published>
   </entry>
   <entry>

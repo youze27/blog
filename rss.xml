@@ -6,8 +6,8 @@
     <link>https://youze27.github.io/blog/</link>
     <description>网络安全知识库</description>
     <language>zh-CN</language>
-    <pubDate>Mon, 08 Dec 2025 16:17:52 GMT</pubDate>
-    <lastBuildDate>Mon, 08 Dec 2025 16:17:52 GMT</lastBuildDate>
+    <pubDate>Sat, 13 Dec 2025 14:40:07 GMT</pubDate>
+    <lastBuildDate>Sat, 13 Dec 2025 14:40:07 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>HTB</category>
@@ -24,6 +24,13 @@
     <category>AI</category>
     <category>其他</category>
     <category>信息收集</category>
+    <item>
+      <title>序</title>
+      <link>https://youze27.github.io/blog/com/life/%E5%BA%8F.html</link>
+      <guid>https://youze27.github.io/blog/com/life/%E5%BA%8F.html</guid>
+      <source url="https://youze27.github.io/blog/rss.xml">序</source>
+      <pubDate>Sat, 13 Dec 2025 14:38:00 GMT</pubDate>
+    </item>
     <item>
       <title>Fawn Machine</title>
       <link>https://youze27.github.io/blog/htb/Fawn%20Machine%20.html</link>
@@ -75,67 +82,10 @@ FTP 以明文方式发送数据，无需任何加密。后来设计为提供类�
     </item>
     <item>
       <title>Meow Machine</title>
-      <link>https://youze27.github.io/blog/htb/Meow%20Machine%20---%20Hack%20The%20Box.html</link>
-      <guid>https://youze27.github.io/blog/htb/Meow%20Machine%20---%20Hack%20The%20Box.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">Meow Machine</source>
-      <description>https://app.hackthebox.com/machines/Meow?tab=play_machine avataravatar What does the acronym VM stand for? VM 这个缩写代表什么？ ！！Virtual Machine！！ What tool do we use to interact with ...</description>
-      <category>HTB</category>
-      <pubDate>Mon, 08 Dec 2025 16:15:44 GMT</pubDate>
-      <content:encoded><![CDATA[<ul>
-<li><a href="https://app.hackthebox.com/machines/Meow?tab=play_machine" target="_blank" rel="noopener noreferrer">https://app.hackthebox.com/machines/Meow?tab=play_machine</a></li>
-</ul>
-<figure><figcaption>avatar</figcaption></figure>
-<ul>
-<li>
-<p>What does the acronym VM stand for?<br>
-VM 这个缩写代表什么？</p>
-<p>！！Virtual Machine！！</p>
-</li>
-<li>
-<p>What tool do we use to interact with the operating system in order to issue commands via the command line, such as the one to start our VPN connection? It's also known as a console or shell.<br>
-我们用什么工具来与作系统交互，以便通过命令行下达命令，比如启动 VPN 连接的那个？它也被称为控制台或外壳。</p>
-<p>！！terminal！！</p>
-</li>
-<li>
-<p>What service do we use to form our VPN connection into HTB labs?<br>
-我们用什么服务来把 VPN 连接连接到 HTB Labs？</p>
-<p>！！openvpn！！</p>
-</li>
-<li>
-<p>What tool do we use to test our connection to the target with an ICMP echo request?<br>
-我们用什么工具来测试与目标的连接，发送 ICMP 回声请求？</p>
-<p>！！ping！！</p>
-</li>
-<li>
-<p>What is the name of the most common tool for finding open ports on a target?<br>
-寻找目标开放端口的最常用工具叫什么名字？</p>
-<p>！！nmap！！</p>
-</li>
-<li>
-<p>What service do we identify on port 23/tcp during our scans?<br>
-在扫描时，我们在端口 23/TCP 上识别哪个服务？</p>
-<p>！！telnet！！</p>
-</li>
-<li>
-<p>What username is able to log into the target over telnet with a blank password?<br>
-什么用户名能用空密码通过 telnet 登录目标网站？</p>
-<p>！！root！！</p>
-</li>
-<li>
-<p>Submit root flag  提交根标志</p>
-<p></p>
-<p>0H 16M 23S  0小时 16分 23秒</p>
-</li>
-</ul>
-<p>‍</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Meow Machine</title>
       <link>https://youze27.github.io/blog/htb/Meow%20Machine.html</link>
       <guid>https://youze27.github.io/blog/htb/Meow%20Machine.html</guid>
       <source url="https://youze27.github.io/blog/rss.xml">Meow Machine</source>
-      <description>https://app.hackthebox.com/machines/Meow?tab=play_machine avataravatar What does the acronym VM stand for? VM 这个缩写代表什么？ ！！Virtual Machine！！ What tool do we use to interact with ...</description>
+      <description>https://app.hackthebox.com/machines/Meow?tab=play_machine avataravatar What does the acronym VM stand for? VM 这个缩写代表什么？ Virtual Machine What tool do we use to interact with the ...</description>
       <category>HTB</category>
       <pubDate>Mon, 08 Dec 2025 16:15:44 GMT</pubDate>
       <content:encoded><![CDATA[<ul>
@@ -146,37 +96,37 @@ VM 这个缩写代表什么？</p>
 <li>
 <p>What does the acronym VM stand for?<br>
 VM 这个缩写代表什么？</p>
-<p>！！Virtual Machine！！</p>
+<p><span class="spoiler" tabindex="-1">Virtual Machine</span></p>
 </li>
 <li>
 <p>What tool do we use to interact with the operating system in order to issue commands via the command line, such as the one to start our VPN connection? It's also known as a console or shell.<br>
 我们用什么工具来与作系统交互，以便通过命令行下达命令，比如启动 VPN 连接的那个？它也被称为控制台或外壳。</p>
-<p>！！terminal！！</p>
+<p><span class="spoiler" tabindex="-1">terminal</span></p>
 </li>
 <li>
 <p>What service do we use to form our VPN connection into HTB labs?<br>
 我们用什么服务来把 VPN 连接连接到 HTB Labs？</p>
-<p>！！openvpn！！</p>
+<p><span class="spoiler" tabindex="-1">openvpn</span></p>
 </li>
 <li>
 <p>What tool do we use to test our connection to the target with an ICMP echo request?<br>
 我们用什么工具来测试与目标的连接，发送 ICMP 回声请求？</p>
-<p>！！ping！！</p>
+<p><span class="spoiler" tabindex="-1">ping</span></p>
 </li>
 <li>
 <p>What is the name of the most common tool for finding open ports on a target?<br>
 寻找目标开放端口的最常用工具叫什么名字？</p>
-<p>！！nmap！！</p>
+<p><span class="spoiler" tabindex="-1">nmap</span></p>
 </li>
 <li>
 <p>What service do we identify on port 23/tcp during our scans?<br>
 在扫描时，我们在端口 23/TCP 上识别哪个服务？</p>
-<p>！！telnet！！</p>
+<p><span class="spoiler" tabindex="-1">telnet</span></p>
 </li>
 <li>
 <p>What username is able to log into the target over telnet with a blank password?<br>
 什么用户名能用空密码通过 telnet 登录目标网站？</p>
-<p>！！root！！</p>
+<p><span class="spoiler" tabindex="-1">root</span></p>
 </li>
 <li>
 <p>Submit root flag  提交根标志</p>
@@ -315,10 +265,10 @@ VM 这个缩写代表什么？</p>
 ]]></content:encoded>
     </item>
     <item>
-      <title>生活日志</title>
+      <title>生活日志🏠</title>
       <link>https://youze27.github.io/blog/com/life/</link>
       <guid>https://youze27.github.io/blog/com/life/</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">生活日志</source>
+      <source url="https://youze27.github.io/blog/rss.xml">生活日志🏠</source>
       <pubDate>Sun, 07 Dec 2025 11:01:10 GMT</pubDate>
     </item>
     <item>
@@ -1567,10 +1517,10 @@ SIEM是一种整体性的安全方法。它将​安全信息管理（SIM） ​
       <enclosure url="https://raw.githubusercontent.com/youze27/blog/main/images/hashing-cryptography1-20251116171127-yvvh8xm.png" type="image/png"/>
     </item>
     <item>
-      <title>专业备考</title>
+      <title>专业备考⏳</title>
       <link>https://youze27.github.io/blog/com/exam/</link>
       <guid>https://youze27.github.io/blog/com/exam/</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">专业备考</source>
+      <source url="https://youze27.github.io/blog/rss.xml">专业备考⏳</source>
       <pubDate>Sun, 10 Aug 2025 14:49:59 GMT</pubDate>
     </item>
     <item>
@@ -2491,10 +2441,10 @@ Finished：客户端和服务器各自计算并发送一个Finished数据包，�
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div>]]></content:encoded>
     </item>
     <item>
-      <title>我的阅读</title>
+      <title>我的阅读📖</title>
       <link>https://youze27.github.io/blog/com/read/</link>
       <guid>https://youze27.github.io/blog/com/read/</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">我的阅读</source>
+      <source url="https://youze27.github.io/blog/rss.xml">我的阅读📖</source>
       <pubDate>Fri, 07 Mar 2025 06:05:23 GMT</pubDate>
     </item>
     <item>
@@ -3134,10 +3084,10 @@ Finished：客户端和服务器各自计算并发送一个Finished数据包，�
 ]]></content:encoded>
     </item>
     <item>
-      <title>其他杂项</title>
+      <title>其他杂项🧶</title>
       <link>https://youze27.github.io/blog/com/other/</link>
       <guid>https://youze27.github.io/blog/com/other/</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">其他杂项</source>
+      <source url="https://youze27.github.io/blog/rss.xml">其他杂项🧶</source>
       <pubDate>Sun, 02 Mar 2025 05:52:48 GMT</pubDate>
     </item>
     <item>
