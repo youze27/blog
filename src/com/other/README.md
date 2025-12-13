@@ -1,6 +1,6 @@
 ---
-title: 其他杂项
-index: true
+title: 其他杂项🧶
+index: false
 icon: paperclip
 order: 7
 ---

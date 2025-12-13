@@ -1,6 +1,6 @@
 ---
-title: 生活日志
-index: true
+title: 生活日志🏠
+index: false
 icon: briefcase
 order: 1
 ---
