@@ -1,5 +1,5 @@
 ---
-title: HTB Writeup
+title: HTB
 index: false
 icon: fa-cube
 ---

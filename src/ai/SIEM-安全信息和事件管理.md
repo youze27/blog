@@ -1,20 +1,16 @@
 ---
 title: SIEM-安全信息和事件管理
-short_title: ''
-date: 2025-11-16 08:06:17
 tag:
+  - AI对话笔记
   - SIEM
 category:
-  - 渗透测试
+  - AI对话笔记
+timeline: true
 isOriginal: false  # 原创
 index: true
 ---
 
-
 <!-- more -->
-
-
-
 
 # 什么是SIEM？安全信息和事件管理
 

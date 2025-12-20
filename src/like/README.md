@@ -1,5 +1,5 @@
 ---
-title: 网文收藏
+title: 转载
 index: false
 icon: thumbs-up
 ---

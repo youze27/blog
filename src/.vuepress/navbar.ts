@@ -8,6 +8,7 @@ export default navbar([
   "/net/",
   "/com/",
   "/like/",
+  "/ai/",
   "/nav",
   "/intro",
 ]);
