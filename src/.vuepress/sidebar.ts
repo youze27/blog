@@ -5,6 +5,7 @@ export default sidebar({
   "/response/": "structure",
   "/htb/": "structure",
   "/nav": "structure",
+  "/reverse/": "structure",
   "/perm/": "structure",
   "/net/": "structure",
   "/com/": "structure",
