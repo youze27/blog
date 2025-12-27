@@ -6,3 +6,4 @@ index: false
 order: 9
 ---
 <Catalog />  
+

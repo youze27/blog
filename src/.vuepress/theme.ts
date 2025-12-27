@@ -7,11 +7,11 @@ export default hopeTheme({
   hostname: "https://youze27.github.io",
   print: true,
   darkmode: "disable", // 或 "toggle", "auto", "enable", "disable"
-// "switch": 在深色模式，浅色模式和自动之间切换 (默认)
-// "toggle": 在深色模式和浅色模式之间切换
-// "auto": 自动根据用户设备主题或当前时间决定是否应用深色模式
-// "enable": 强制深色模式
-// "disable": 禁用深色模式
+  // "switch": 在深色模式，浅色模式和自动之间切换 (默认)
+  // "toggle": 在深色模式和浅色模式之间切换
+  // "auto": 自动根据用户设备主题或当前时间决定是否应用深色模式
+  // "enable": 强制深色模式
+  // "disable": 禁用深色模式
 
   author: {
     name: "卷卷",
@@ -24,7 +24,7 @@ export default hopeTheme({
 
   docsDir: "src",
   focus: true,
-  
+
 
   // 导航栏
   navbar,
@@ -35,7 +35,7 @@ export default hopeTheme({
   // 页脚
   footer: "时间就像海绵里的水，挤一挤总会有的！",
   displayFooter: true,
-  copyright : "Copyright © 2023-present Juan",
+  copyright: "Copyright © 2023-present Juan",
 
   // 博客相关
   blog: {
@@ -151,7 +151,7 @@ export default hopeTheme({
       atom: true,
       json: true,
       channel: {
-        title: "卷卷", 
+        title: "卷卷",
         link: "https://youze27.github.io/blog/", // 包含 base 路径
         description: "网络安全知识库",
         language: "zh-CN",
@@ -175,10 +175,10 @@ export default hopeTheme({
       // Waline评论系统配置
       provider: "Waline",
       serverURL: "https://blogcomment-ashen.vercel.app",
-      
+
       // 其他 Waline 配置项（可选）...
       // 例如：暗黑模式适配、表情设置等
-      dark: 'auto',
+      // dark: 'auto',
       emoji: [
         '//unpkg.com/@waline/emojis@1.4.0/soul-emoji',
         '//unpkg.com/@waline/emojis@1.4.0/tw-flag',
