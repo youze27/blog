@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://youze27.github.io/blog/rss.xsl"?>
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://youze27.github.io/rss.xsl"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <atom:link href="https://youze27.github.io/blog/rss.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://youze27.github.io/rss.xml" rel="self" type="application/rss+xml"/>
     <title>卷卷</title>
-    <link>https://youze27.github.io/blog/</link>
+    <link>https://youze27.github.io/</link>
     <description>网络安全知识库</description>
     <language>zh-CN</language>
-    <pubDate>Sat, 27 Dec 2025 13:53:46 GMT</pubDate>
-    <lastBuildDate>Sat, 27 Dec 2025 13:53:46 GMT</lastBuildDate>
+    <pubDate>Wed, 31 Dec 2025 07:00:53 GMT</pubDate>
+    <lastBuildDate>Wed, 31 Dec 2025 07:00:53 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>C++</category>
@@ -28,9 +28,9 @@
     <category>信息收集</category>
     <item>
       <title>C++开发环境配置与程序运行笔记</title>
-      <link>https://youze27.github.io/blog/reverse/C__%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E4%B8%8E%E8%BF%90%E8%A1%8C%E7%AC%94%E8%AE%B0.html</link>
-      <guid>https://youze27.github.io/blog/reverse/C__%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E4%B8%8E%E8%BF%90%E8%A1%8C%E7%AC%94%E8%AE%B0.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">C++开发环境配置与程序运行笔记</source>
+      <link>https://youze27.github.io/reverse/C__%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E4%B8%8E%E8%BF%90%E8%A1%8C%E7%AC%94%E8%AE%B0.html</link>
+      <guid>https://youze27.github.io/reverse/C__%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E4%B8%8E%E8%BF%90%E8%A1%8C%E7%AC%94%E8%AE%B0.html</guid>
+      <source url="https://youze27.github.io/rss.xml">C++开发环境配置与程序运行笔记</source>
       <description>一、完整配置步骤 1. 安装开发工具包 推荐工具包：w64devkit（轻量级、无需安装） 下载地址：GitHub releases 版本选择：选择x86_64版本（适合64位Windows系统） 安装方法：解压到任意目录，如C:\Program Files\w64devkit 2. 配置系统环境变量 步骤： 打开环境变量设置： 右键「此电脑」→「属性...</description>
       <category>C++</category>
       <pubDate>Thu, 25 Dec 2025 16:32:28 GMT</pubDate>
@@ -146,9 +146,9 @@
     </item>
     <item>
       <title>IDA Free调试Hello World笔记</title>
-      <link>https://youze27.github.io/blog/reverse/IDA%20Free%E8%B0%83%E8%AF%95Hello_World%E7%AC%94%E8%AE%B0.html</link>
-      <guid>https://youze27.github.io/blog/reverse/IDA%20Free%E8%B0%83%E8%AF%95Hello_World%E7%AC%94%E8%AE%B0.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">IDA Free调试Hello World笔记</source>
+      <link>https://youze27.github.io/reverse/IDA%20Free%E8%B0%83%E8%AF%95Hello_World%E7%AC%94%E8%AE%B0.html</link>
+      <guid>https://youze27.github.io/reverse/IDA%20Free%E8%B0%83%E8%AF%95Hello_World%E7%AC%94%E8%AE%B0.html</guid>
+      <source url="https://youze27.github.io/rss.xml">IDA Free调试Hello World笔记</source>
       <description>一、C++源代码与IDA伪代码对比 1. C++源代码 2. IDA反汇编伪代码 3. 代码对应关系分析 二、IDA Free下载与安装 1. 下载地址 官方下载页：Hex-Rays IDA Free 直接下载链接：ida77_windows.exe（以最新版本为准） 2. 安装步骤 运行下载的安装程序 选择安装路径（默认即可） 选择组件：确保勾选&amp;quot;I...</description>
       <category>C++</category>
       <pubDate>Thu, 25 Dec 2025 16:32:28 GMT</pubDate>
@@ -191,9 +191,9 @@
     </item>
     <item>
       <title>2025年度回顾</title>
-      <link>https://youze27.github.io/blog/com/life/2025%E5%B9%B4%E5%BA%A6%E5%9B%9E%E9%A1%BE.html</link>
-      <guid>https://youze27.github.io/blog/com/life/2025%E5%B9%B4%E5%BA%A6%E5%9B%9E%E9%A1%BE.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">2025年度回顾</source>
+      <link>https://youze27.github.io/com/life/2025%E5%B9%B4%E5%BA%A6%E5%9B%9E%E9%A1%BE.html</link>
+      <guid>https://youze27.github.io/com/life/2025%E5%B9%B4%E5%BA%A6%E5%9B%9E%E9%A1%BE.html</guid>
+      <source url="https://youze27.github.io/rss.xml">2025年度回顾</source>
       <description>2025年12月25日 时间过得很快，又到年底了。事情从24年底说起，12月份和1月份是在曲靖度过的。当时是渗透工作，生活很混沌，作息也不是很规律。但好歹找到了工作。且和专业对口，能发挥出我学习的价值。年底找工作本来就困难。并且又不得不。刚出来工作，难免有些不适应。天气很冷，就和这行业一样。 3月，年后的日子也倒是不错，但我想我已经调整好自己了，应该去...</description>
       <category>年度回顾</category>
       <pubDate>Thu, 25 Dec 2025 16:32:28 GMT</pubDate>
@@ -219,9 +219,9 @@
     </item>
     <item>
       <title>Admin.canway账号命名方式</title>
-      <link>https://youze27.github.io/blog/ai/Admin.canway%E8%B4%A6%E5%8F%B7%E5%91%BD%E5%90%8D%E6%96%B9%E5%BC%8F.html</link>
-      <guid>https://youze27.github.io/blog/ai/Admin.canway%E8%B4%A6%E5%8F%B7%E5%91%BD%E5%90%8D%E6%96%B9%E5%BC%8F.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">Admin.canway账号命名方式</source>
+      <link>https://youze27.github.io/ai/Admin.canway%E8%B4%A6%E5%8F%B7%E5%91%BD%E5%90%8D%E6%96%B9%E5%BC%8F.html</link>
+      <guid>https://youze27.github.io/ai/Admin.canway%E8%B4%A6%E5%8F%B7%E5%91%BD%E5%90%8D%E6%96%B9%E5%BC%8F.html</guid>
+      <source url="https://youze27.github.io/rss.xml">Admin.canway账号命名方式</source>
       <description>​​Admin.canway这种以点（​.）为分隔符的命名方式，主要源于企业内部的命名约定和最佳实践，目的是为了提高可读性、组织性和自动化管理的便利性。它并不是微软官方的强制性要求，但被全球众多遵循严格IT治理的企业广泛采用，与微软平台的功能高度契合。 1. 来源与演变 这种命名方式主要融合了以下几个来源： ​DNS命名空间的影响​：这是最根本的技术根...</description>
       <category>AI对话笔记</category>
       <pubDate>Sat, 20 Dec 2025 08:26:40 GMT</pubDate>
@@ -297,9 +297,9 @@
     </item>
     <item>
       <title>BAS - Breach and Attack Simulation</title>
-      <link>https://youze27.github.io/blog/ai/BAS%20-%20Breach%20and%20Attack%20Simulation.html</link>
-      <guid>https://youze27.github.io/blog/ai/BAS%20-%20Breach%20and%20Attack%20Simulation.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">BAS - Breach and Attack Simulation</source>
+      <link>https://youze27.github.io/ai/BAS%20-%20Breach%20and%20Attack%20Simulation.html</link>
+      <guid>https://youze27.github.io/ai/BAS%20-%20Breach%20and%20Attack%20Simulation.html</guid>
+      <source url="https://youze27.github.io/rss.xml">BAS - Breach and Attack Simulation</source>
       <description>BAS - Breach and Attack Simulation（入侵与攻击模拟） 这是目前网络安全领域关于 BAS 最主流、最常指代的概念。它是一种​主动的、持续的安全验证技术。 核心定义 BAS是一种通过​安全地、自动化地模拟真实的网络攻击技术、战术和程序，来持续评估整个企业安全防御体系（包括技术、流程和人员）有效性的平台或解决方案。 简单说，...</description>
       <category>AI对话笔记</category>
       <pubDate>Sat, 20 Dec 2025 08:26:40 GMT</pubDate>
@@ -354,16 +354,16 @@
     </item>
     <item>
       <title>AI笔记</title>
-      <link>https://youze27.github.io/blog/ai/</link>
-      <guid>https://youze27.github.io/blog/ai/</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">AI笔记</source>
+      <link>https://youze27.github.io/ai/</link>
+      <guid>https://youze27.github.io/ai/</guid>
+      <source url="https://youze27.github.io/rss.xml">AI笔记</source>
       <pubDate>Sat, 20 Dec 2025 08:26:40 GMT</pubDate>
     </item>
     <item>
       <title>Windows核心系统进程链与svchost深度解析</title>
-      <link>https://youze27.github.io/blog/ai/Windows%E6%A0%B8%E5%BF%83%E7%B3%BB%E7%BB%9F%E8%BF%9B%E7%A8%8B%E9%93%BE%E4%B8%8Esvchost%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90.html</link>
-      <guid>https://youze27.github.io/blog/ai/Windows%E6%A0%B8%E5%BF%83%E7%B3%BB%E7%BB%9F%E8%BF%9B%E7%A8%8B%E9%93%BE%E4%B8%8Esvchost%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">Windows核心系统进程链与svchost深度解析</source>
+      <link>https://youze27.github.io/ai/Windows%E6%A0%B8%E5%BF%83%E7%B3%BB%E7%BB%9F%E8%BF%9B%E7%A8%8B%E9%93%BE%E4%B8%8Esvchost%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90.html</link>
+      <guid>https://youze27.github.io/ai/Windows%E6%A0%B8%E5%BF%83%E7%B3%BB%E7%BB%9F%E8%BF%9B%E7%A8%8B%E9%93%BE%E4%B8%8Esvchost%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90.html</guid>
+      <source url="https://youze27.github.io/rss.xml">Windows核心系统进程链与svchost深度解析</source>
       <description>DNS外联恶意域名检测告警 1. 完整的Windows启动进程链 2. 各进程功能详解 (1) System (PID 4) - 系统内核空间进程 ​作用：Windows内核的化身，运行在核心态（Ring 0） ​功能：管理硬件抽象层（HAL）、驱动程序、内存分页池 ​特点：父进程为Idle进程（PID 0），所有用户态进程的最终源头 ​应急响应关注点...</description>
       <category>AI对话笔记</category>
       <pubDate>Sat, 20 Dec 2025 08:26:40 GMT</pubDate>
@@ -546,9 +546,9 @@ c</p>
     </item>
     <item>
       <title>rundll32.exe恶意加载DLL文件外联</title>
-      <link>https://youze27.github.io/blog/ai/rundll32.exe%E6%81%B6%E6%84%8F%E5%8A%A0%E8%BD%BDDLL%E6%96%87%E4%BB%B6%E5%A4%96%E8%81%94.html</link>
-      <guid>https://youze27.github.io/blog/ai/rundll32.exe%E6%81%B6%E6%84%8F%E5%8A%A0%E8%BD%BDDLL%E6%96%87%E4%BB%B6%E5%A4%96%E8%81%94.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">rundll32.exe恶意加载DLL文件外联</source>
+      <link>https://youze27.github.io/ai/rundll32.exe%E6%81%B6%E6%84%8F%E5%8A%A0%E8%BD%BDDLL%E6%96%87%E4%BB%B6%E5%A4%96%E8%81%94.html</link>
+      <guid>https://youze27.github.io/ai/rundll32.exe%E6%81%B6%E6%84%8F%E5%8A%A0%E8%BD%BDDLL%E6%96%87%E4%BB%B6%E5%A4%96%E8%81%94.html</guid>
+      <source url="https://youze27.github.io/rss.xml">rundll32.exe恶意加载DLL文件外联</source>
       <description>rundll32.exe恶意加载DLL文件外联 告警信息 微步情报信息微步情报信息 告警核心信息 ​攻击载体​： rundll32.exe​ 被用于加载一个位于用户临时目录下的DLL文件（EdgeAgentRun.dll​），这是一种常见的“​DLL侧加载​”或“​DLL劫持”攻击手法，用于规避对可执行文件的检测。 恶意模块： C:\Users\XXX...</description>
       <category>AI对话笔记</category>
       <pubDate>Sat, 20 Dec 2025 08:26:40 GMT</pubDate>
@@ -765,9 +765,9 @@ c</p>
     </item>
     <item>
       <title>企业测试环境的弱口令需要整改吗</title>
-      <link>https://youze27.github.io/blog/ai/%E4%BC%81%E4%B8%9A%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83%E7%9A%84%E5%BC%B1%E5%8F%A3%E4%BB%A4%E9%9C%80%E8%A6%81%E6%95%B4%E6%94%B9%E5%90%97.html</link>
-      <guid>https://youze27.github.io/blog/ai/%E4%BC%81%E4%B8%9A%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83%E7%9A%84%E5%BC%B1%E5%8F%A3%E4%BB%A4%E9%9C%80%E8%A6%81%E6%95%B4%E6%94%B9%E5%90%97.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">企业测试环境的弱口令需要整改吗</source>
+      <link>https://youze27.github.io/ai/%E4%BC%81%E4%B8%9A%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83%E7%9A%84%E5%BC%B1%E5%8F%A3%E4%BB%A4%E9%9C%80%E8%A6%81%E6%95%B4%E6%94%B9%E5%90%97.html</link>
+      <guid>https://youze27.github.io/ai/%E4%BC%81%E4%B8%9A%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83%E7%9A%84%E5%BC%B1%E5%8F%A3%E4%BB%A4%E9%9C%80%E8%A6%81%E6%95%B4%E6%94%B9%E5%90%97.html</guid>
+      <source url="https://youze27.github.io/rss.xml">企业测试环境的弱口令需要整改吗</source>
       <description>绝对需要整改，而且必须高度重视。 企业测试环境的弱口令问题不是一个可以忽视的“小问题”，而是一个可能引发严重后果的​高危安全风险。以下是必须整改的核心原因和行动建议： 为什么必须整改？风险分析？ ​安全缺口，易被横向渗透： 测试环境通常与生产环境网络相通（或部分相通），权限设置往往宽松。攻击者一旦通过弱口令进入测试环境，可以轻易地将其作为“跳板”，横向...</description>
       <category>AI对话笔记</category>
       <pubDate>Sat, 20 Dec 2025 08:26:40 GMT</pubDate>
@@ -853,9 +853,9 @@ c</p>
     </item>
     <item>
       <title>AI对话笔记-模板</title>
-      <link>https://youze27.github.io/blog/ai/%E6%A8%A1%E6%9D%BF.html</link>
-      <guid>https://youze27.github.io/blog/ai/%E6%A8%A1%E6%9D%BF.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">AI对话笔记-模板</source>
+      <link>https://youze27.github.io/ai/%E6%A8%A1%E6%9D%BF.html</link>
+      <guid>https://youze27.github.io/ai/%E6%A8%A1%E6%9D%BF.html</guid>
+      <source url="https://youze27.github.io/rss.xml">AI对话笔记-模板</source>
       <description>一些内容</description>
       <category>AI对话笔记</category>
       <pubDate>Sat, 20 Dec 2025 08:26:40 GMT</pubDate>
@@ -865,16 +865,16 @@ c</p>
     </item>
     <item>
       <title>序</title>
-      <link>https://youze27.github.io/blog/com/life/%E5%BA%8F.html</link>
-      <guid>https://youze27.github.io/blog/com/life/%E5%BA%8F.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">序</source>
+      <link>https://youze27.github.io/com/life/%E5%BA%8F.html</link>
+      <guid>https://youze27.github.io/com/life/%E5%BA%8F.html</guid>
+      <source url="https://youze27.github.io/rss.xml">序</source>
       <pubDate>Sat, 13 Dec 2025 14:38:00 GMT</pubDate>
     </item>
     <item>
       <title>Fawn Machine</title>
-      <link>https://youze27.github.io/blog/htb/Fawn%20Machine%20.html</link>
-      <guid>https://youze27.github.io/blog/htb/Fawn%20Machine%20.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">Fawn Machine</source>
+      <link>https://youze27.github.io/htb/Fawn%20Machine%20.html</link>
+      <guid>https://youze27.github.io/htb/Fawn%20Machine%20.html</guid>
+      <source url="https://youze27.github.io/rss.xml">Fawn Machine</source>
       <description>https://app.hackthebox.com/machines/Fawn?tab=play_machine avataravatar What does the 3-letter acronym FTP stand for? FTP 这个三字母缩写代表什么？ File Transfer Protocol Which port does the ...</description>
       <category>HTB</category>
       <pubDate>Mon, 08 Dec 2025 16:15:44 GMT</pubDate>
@@ -921,9 +921,9 @@ FTP 以明文方式发送数据，无需任何加密。后来设计为提供类�
     </item>
     <item>
       <title>Meow Machine</title>
-      <link>https://youze27.github.io/blog/htb/Meow%20Machine.html</link>
-      <guid>https://youze27.github.io/blog/htb/Meow%20Machine.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">Meow Machine</source>
+      <link>https://youze27.github.io/htb/Meow%20Machine.html</link>
+      <guid>https://youze27.github.io/htb/Meow%20Machine.html</guid>
+      <source url="https://youze27.github.io/rss.xml">Meow Machine</source>
       <description>https://app.hackthebox.com/machines/Meow?tab=play_machine avataravatar What does the acronym VM stand for? VM 这个缩写代表什么？ Virtual Machine What tool do we use to interact with the ...</description>
       <category>HTB</category>
       <pubDate>Mon, 08 Dec 2025 16:15:44 GMT</pubDate>
@@ -978,23 +978,23 @@ VM 这个缩写代表什么？</p>
     </item>
     <item>
       <title>HTB</title>
-      <link>https://youze27.github.io/blog/htb/</link>
-      <guid>https://youze27.github.io/blog/htb/</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">HTB</source>
+      <link>https://youze27.github.io/htb/</link>
+      <guid>https://youze27.github.io/htb/</guid>
+      <source url="https://youze27.github.io/rss.xml">HTB</source>
       <pubDate>Mon, 08 Dec 2025 16:15:44 GMT</pubDate>
     </item>
     <item>
       <title>生活日志🏠</title>
-      <link>https://youze27.github.io/blog/com/life/</link>
-      <guid>https://youze27.github.io/blog/com/life/</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">生活日志🏠</source>
+      <link>https://youze27.github.io/com/life/</link>
+      <guid>https://youze27.github.io/com/life/</guid>
+      <source url="https://youze27.github.io/rss.xml">生活日志🏠</source>
       <pubDate>Sun, 07 Dec 2025 11:01:10 GMT</pubDate>
     </item>
     <item>
       <title>Markdown 原生图片</title>
-      <link>https://youze27.github.io/blog/com/other/Markdown%E5%8E%9F%E7%94%9F%E5%9B%BE%E7%89%87.html</link>
-      <guid>https://youze27.github.io/blog/com/other/Markdown%E5%8E%9F%E7%94%9F%E5%9B%BE%E7%89%87.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">Markdown 原生图片</source>
+      <link>https://youze27.github.io/com/other/Markdown%E5%8E%9F%E7%94%9F%E5%9B%BE%E7%89%87.html</link>
+      <guid>https://youze27.github.io/com/other/Markdown%E5%8E%9F%E7%94%9F%E5%9B%BE%E7%89%87.html</guid>
+      <source url="https://youze27.github.io/rss.xml">Markdown 原生图片</source>
       <description>基本图片 雪山风景雪山风景 带标题和居中对齐 海滩日落 图：金色的阳光洒在海面上 Hope 主题的 Figure 组件图片（带标题样式） 森林小径 清晨的阳光穿过森林，形成美丽的光影效果 沙漠风光 一望无际的沙漠，金色的沙丘在阳光下闪闪发光 CSS 网格图片墙 山脉云雾 森林小路 湖泊倒影 秋日枫叶 森林小路 山脉云雾 雪山之巅 雪山之巅 雪山之巅 图...</description>
       <category>markdown</category>
       <pubDate>Sun, 07 Dec 2025 11:01:10 GMT</pubDate>
@@ -1120,9 +1120,9 @@ VM 这个缩写代表什么？</p>
     </item>
     <item>
       <title>网络安全行业招聘需求与技术能力分析</title>
-      <link>https://youze27.github.io/blog/ai/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E8%A1%8C%E4%B8%9A%E6%8B%9B%E8%81%98%E9%9C%80%E6%B1%82%E4%B8%8E%E6%8A%80%E6%9C%AF%E8%83%BD%E5%8A%9B%E5%88%86%E6%9E%90.html</link>
-      <guid>https://youze27.github.io/blog/ai/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E8%A1%8C%E4%B8%9A%E6%8B%9B%E8%81%98%E9%9C%80%E6%B1%82%E4%B8%8E%E6%8A%80%E6%9C%AF%E8%83%BD%E5%8A%9B%E5%88%86%E6%9E%90.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">网络安全行业招聘需求与技术能力分析</source>
+      <link>https://youze27.github.io/ai/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E8%A1%8C%E4%B8%9A%E6%8B%9B%E8%81%98%E9%9C%80%E6%B1%82%E4%B8%8E%E6%8A%80%E6%9C%AF%E8%83%BD%E5%8A%9B%E5%88%86%E6%9E%90.html</link>
+      <guid>https://youze27.github.io/ai/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E8%A1%8C%E4%B8%9A%E6%8B%9B%E8%81%98%E9%9C%80%E6%B1%82%E4%B8%8E%E6%8A%80%E6%9C%AF%E8%83%BD%E5%8A%9B%E5%88%86%E6%9E%90.html</guid>
+      <source url="https://youze27.github.io/rss.xml">网络安全行业招聘需求与技术能力分析</source>
       <description>一、当前网络安全行业招聘需求全景解析 1.1 行业整体人才供需趋势与岗位分布 根据《2024中国网络安全人才发展白皮书》（奇安信与深信服联合发布）及CNCERT 2023–2024年度报告数据，我国网络安全领域的人才缺口持续扩大，预计2025年将突破​300万​，而当前从业人员总数约为​98万，供需失衡严重。这一矛盾在政策驱动下进一步加剧。 一、岗位数...</description>
       <category>AI对话笔记</category>
       <pubDate>Fri, 05 Dec 2025 16:22:10 GMT</pubDate>
@@ -3005,9 +3005,9 @@ VM 这个缩写代表什么？</p>
     </item>
     <item>
       <title>银狐木马技术原理分析与检测技术</title>
-      <link>https://youze27.github.io/blog/ai/%E9%93%B6%E7%8B%90%E6%9C%A8%E9%A9%AC%E6%8A%80%E6%9C%AF%E5%8E%9F%E7%90%86%E5%88%86%E6%9E%90%E4%B8%8E%E6%A3%80%E6%B5%8B%E6%8A%80%E6%9C%AF.html</link>
-      <guid>https://youze27.github.io/blog/ai/%E9%93%B6%E7%8B%90%E6%9C%A8%E9%A9%AC%E6%8A%80%E6%9C%AF%E5%8E%9F%E7%90%86%E5%88%86%E6%9E%90%E4%B8%8E%E6%A3%80%E6%B5%8B%E6%8A%80%E6%9C%AF.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">银狐木马技术原理分析与检测技术</source>
+      <link>https://youze27.github.io/ai/%E9%93%B6%E7%8B%90%E6%9C%A8%E9%A9%AC%E6%8A%80%E6%9C%AF%E5%8E%9F%E7%90%86%E5%88%86%E6%9E%90%E4%B8%8E%E6%A3%80%E6%B5%8B%E6%8A%80%E6%9C%AF.html</link>
+      <guid>https://youze27.github.io/ai/%E9%93%B6%E7%8B%90%E6%9C%A8%E9%A9%AC%E6%8A%80%E6%9C%AF%E5%8E%9F%E7%90%86%E5%88%86%E6%9E%90%E4%B8%8E%E6%A3%80%E6%B5%8B%E6%8A%80%E6%9C%AF.html</guid>
+      <source url="https://youze27.github.io/rss.xml">银狐木马技术原理分析与检测技术</source>
       <description>一、银狐木马基础概念与演化背景 1.1 银狐木马的定义与历史演进 银狐（Silver Fox）是一种长期活跃于网络攻击领域的高级持续性威胁（APT）木马家族，最早可追溯至2020年中后期，其初始版本主要通过钓鱼邮件和仿冒合法软件分发。该木马以高隐蔽性、多阶段加载能力、强对抗杀毒软件的能力著称，在全球范围内对金融、医疗、政府等关键基础设施造成严重威胁。 ...</description>
       <category>AI对话笔记</category>
       <pubDate>Fri, 05 Dec 2025 16:22:10 GMT</pubDate>
@@ -4101,9 +4101,9 @@ WDAC默认限制未签名/非微软认证的代码执行。但银狐利用如下
     </item>
     <item>
       <title>数据湖：它们是什么？为什么您的组织需要一个？</title>
-      <link>https://youze27.github.io/blog/like/%E6%95%B0%E6%8D%AE%E6%B9%96%EF%BC%9A%E5%AE%83%E4%BB%AC%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F%E4%B8%BA%E4%BB%80%E4%B9%88%E6%82%A8%E7%9A%84%E7%BB%84%E7%BB%87%E9%9C%80%E8%A6%81%E4%B8%80%E4%B8%AA%EF%BC%9F.html</link>
-      <guid>https://youze27.github.io/blog/like/%E6%95%B0%E6%8D%AE%E6%B9%96%EF%BC%9A%E5%AE%83%E4%BB%AC%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F%E4%B8%BA%E4%BB%80%E4%B9%88%E6%82%A8%E7%9A%84%E7%BB%84%E7%BB%87%E9%9C%80%E8%A6%81%E4%B8%80%E4%B8%AA%EF%BC%9F.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">数据湖：它们是什么？为什么您的组织需要一个？</source>
+      <link>https://youze27.github.io/like/%E6%95%B0%E6%8D%AE%E6%B9%96%EF%BC%9A%E5%AE%83%E4%BB%AC%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F%E4%B8%BA%E4%BB%80%E4%B9%88%E6%82%A8%E7%9A%84%E7%BB%84%E7%BB%87%E9%9C%80%E8%A6%81%E4%B8%80%E4%B8%AA%EF%BC%9F.html</link>
+      <guid>https://youze27.github.io/like/%E6%95%B0%E6%8D%AE%E6%B9%96%EF%BC%9A%E5%AE%83%E4%BB%AC%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F%E4%B8%BA%E4%BB%80%E4%B9%88%E6%82%A8%E7%9A%84%E7%BB%84%E7%BB%87%E9%9C%80%E8%A6%81%E4%B8%80%E4%B8%AA%EF%BC%9F.html</guid>
+      <source url="https://youze27.github.io/rss.xml">数据湖：它们是什么？为什么您的组织需要一个？</source>
       <description>如今企业产生的数据量令人震惊。 然而，缺乏有效策略，大部分信息未被充分利用，数据被孤岛化。 这时，数据湖应运而生——一种强大且灵活的现代数据管理解决方案，能够将原始信息转化为有价值的资产。 如果您的组织正在寻找更好的数据处理和分析方法，本指南非常适合您。我们将解析什么是数据湖，它是如何运作的，以及为何不同行业的企业正在采用它。 数据湖介绍 让我们先从数...</description>
       <category>应急响应</category>
       <pubDate>Fri, 05 Dec 2025 16:22:10 GMT</pubDate>
@@ -4219,9 +4219,9 @@ WDAC默认限制未签名/非微软认证的代码执行。但银狐利用如下
     </item>
     <item>
       <title>GitHub Codespaces</title>
-      <link>https://youze27.github.io/blog/net/GitHub%20Codespaces.html</link>
-      <guid>https://youze27.github.io/blog/net/GitHub%20Codespaces.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">GitHub Codespaces</source>
+      <link>https://youze27.github.io/net/GitHub%20Codespaces.html</link>
+      <guid>https://youze27.github.io/net/GitHub%20Codespaces.html</guid>
+      <source url="https://youze27.github.io/rss.xml">GitHub Codespaces</source>
       <description>什么是 GitHub Codespaces GitHub Codespaces 是 GitHub 提供的云端开发环境，基于 VS Code，可用于在浏览器中编写、运行和调试代码。 关键特性 云端开发：无需本地安装环境 快速启动：预配置环境，秒速加载 环境一致：团队成员环境完全一致 持久化存储：代码和配置自动保存 端口转发：自动转发本地端口到互联网 适用...</description>
       <category>计网基础</category>
       <pubDate>Fri, 05 Dec 2025 16:22:10 GMT</pubDate>
@@ -4349,9 +4349,9 @@ WDAC默认限制未签名/非微软认证的代码执行。但银狐利用如下
     </item>
     <item>
       <title>《悉达多》读书笔记</title>
-      <link>https://youze27.github.io/blog/com/read/%E3%80%8A%E6%82%89%E8%BE%BE%E5%A4%9A%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.html</link>
-      <guid>https://youze27.github.io/blog/com/read/%E3%80%8A%E6%82%89%E8%BE%BE%E5%A4%9A%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">《悉达多》读书笔记</source>
+      <link>https://youze27.github.io/com/read/%E3%80%8A%E6%82%89%E8%BE%BE%E5%A4%9A%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.html</link>
+      <guid>https://youze27.github.io/com/read/%E3%80%8A%E6%82%89%E8%BE%BE%E5%A4%9A%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.html</guid>
+      <source url="https://youze27.github.io/rss.xml">《悉达多》读书笔记</source>
       <description>1 相关概念解读 婆罗门 指印度种姓制度中的最高阶层，祭司和学者阶层。悉达多出身于此，象征着与生俱来的智慧、虔诚与崇高的社会地位。他所拥有的一切是世人艳羡的，但这​外在的完满无法解决他内在的困惑，因而促使他踏上求道之路。 沙门 是古印度的一种苦行僧，他们通过禁欲、忍受饥渴、冥想等方式，以期战胜尘世的欲望，达到精神的超脱。悉达多成为沙门，代表了他​第一阶...</description>
       <category>读书笔记</category>
       <pubDate>Fri, 28 Nov 2025 15:39:58 GMT</pubDate>
@@ -4418,13 +4418,13 @@ WDAC默认限制未签名/非微软认证的代码执行。但银狐利用如下
 </ol>
 <p>‍</p>
 ]]></content:encoded>
-      <enclosure url="https://youze27.github.io/blog/assets/img/xdd.8b9378a5.webp" type="image/webp"/>
+      <enclosure url="https://youze27.github.io/assets/img/xdd.8b9378a5.webp" type="image/webp"/>
     </item>
     <item>
       <title>《稀缺》读书笔记</title>
-      <link>https://youze27.github.io/blog/com/read/%E3%80%8A%E7%A8%80%E7%BC%BA%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.html</link>
-      <guid>https://youze27.github.io/blog/com/read/%E3%80%8A%E7%A8%80%E7%BC%BA%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">《稀缺》读书笔记</source>
+      <link>https://youze27.github.io/com/read/%E3%80%8A%E7%A8%80%E7%BC%BA%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.html</link>
+      <guid>https://youze27.github.io/com/read/%E3%80%8A%E7%A8%80%E7%BC%BA%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.html</guid>
+      <source url="https://youze27.github.io/rss.xml">《稀缺》读书笔记</source>
       <description>1 相关概念解读 稀缺 这不仅是一种资源有限的客观状态，更是一种 “拥有”少于“需要”的主观感受 。这种感受会俘获我们的大脑，占据我们的注意力，从而影响我们的思维方式和决策行为。无论是时间、金钱，还是带宽，任何形式的稀缺都会创造出这种心态。 稀缺心态 当人们身处稀缺状态时，其思维方式和行为模式会发生系统性改变。它并非简单的焦虑或压力，而是稀缺所导致的特...</description>
       <category>读书笔记</category>
       <pubDate>Fri, 28 Nov 2025 15:39:58 GMT</pubDate>
@@ -4510,13 +4510,13 @@ WDAC默认限制未签名/非微软认证的代码执行。但银狐利用如下
 </li>
 </ol>
 ]]></content:encoded>
-      <enclosure url="https://youze27.github.io/blog/assets/img/xq.3bae07ed.webp" type="image/webp"/>
+      <enclosure url="https://youze27.github.io/assets/img/xq.3bae07ed.webp" type="image/webp"/>
     </item>
     <item>
       <title>《认知觉醒》读书笔记</title>
-      <link>https://youze27.github.io/blog/com/read/%E3%80%8A%E8%AE%A4%E7%9F%A5%E8%A7%89%E9%86%92%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.html</link>
-      <guid>https://youze27.github.io/blog/com/read/%E3%80%8A%E8%AE%A4%E7%9F%A5%E8%A7%89%E9%86%92%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">《认知觉醒》读书笔记</source>
+      <link>https://youze27.github.io/com/read/%E3%80%8A%E8%AE%A4%E7%9F%A5%E8%A7%89%E9%86%92%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.html</link>
+      <guid>https://youze27.github.io/com/read/%E3%80%8A%E8%AE%A4%E7%9F%A5%E8%A7%89%E9%86%92%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.html</guid>
+      <source url="https://youze27.github.io/rss.xml">《认知觉醒》读书笔记</source>
       <description>本书的核心主题是​探讨个人成长的内在机制，通过了解大脑运作规律，开启自我改变的原动力​。本次笔记的主要用途是​知识内化与个人提升​，因此，请侧重输出实用观点与行动指南方面的内容。 核心概念解读 三重大脑 指人类大脑由“本能脑”、“情绪脑”和“理智脑”三层结构组成。本能脑负责原始冲动，情绪脑处理感受，理智脑进行认知思考。理解这三者之间的关系和运作模式，是...</description>
       <category>读书笔记</category>
       <pubDate>Fri, 28 Nov 2025 15:39:58 GMT</pubDate>
@@ -4647,23 +4647,23 @@ WDAC默认限制未签名/非微软认证的代码执行。但银狐利用如下
     </item>
     <item>
       <title>转载</title>
-      <link>https://youze27.github.io/blog/like/</link>
-      <guid>https://youze27.github.io/blog/like/</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">转载</source>
+      <link>https://youze27.github.io/like/</link>
+      <guid>https://youze27.github.io/like/</guid>
+      <source url="https://youze27.github.io/rss.xml">转载</source>
       <pubDate>Mon, 24 Nov 2025 16:09:39 GMT</pubDate>
     </item>
     <item>
       <title>逆向免杀</title>
-      <link>https://youze27.github.io/blog/reverse/</link>
-      <guid>https://youze27.github.io/blog/reverse/</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">逆向免杀</source>
+      <link>https://youze27.github.io/reverse/</link>
+      <guid>https://youze27.github.io/reverse/</guid>
+      <source url="https://youze27.github.io/rss.xml">逆向免杀</source>
       <pubDate>Mon, 24 Nov 2025 16:09:39 GMT</pubDate>
     </item>
     <item>
       <title>ATT &amp;CK 框架实践阅读笔记</title>
-      <link>https://youze27.github.io/blog/response/ATT%20_CK%20%E6%A1%86%E6%9E%B6%E5%AE%9E%E8%B7%B5%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0.html</link>
-      <guid>https://youze27.github.io/blog/response/ATT%20_CK%20%E6%A1%86%E6%9E%B6%E5%AE%9E%E8%B7%B5%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">ATT &amp;CK 框架实践阅读笔记</source>
+      <link>https://youze27.github.io/response/ATT%20_CK%20%E6%A1%86%E6%9E%B6%E5%AE%9E%E8%B7%B5%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0.html</link>
+      <guid>https://youze27.github.io/response/ATT%20_CK%20%E6%A1%86%E6%9E%B6%E5%AE%9E%E8%B7%B5%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0.html</guid>
+      <source url="https://youze27.github.io/rss.xml">ATT &amp;CK 框架实践阅读笔记</source>
       <description>什么是MITRE ATT&amp;CK 是一个对抗行为知识库。 imageMITRE ATT&amp;CK MITRE ATT&amp;CK提供了一个复杂框架，介绍了攻击者在攻击过程中使用的190多项技术、400多项子技术，其中包括特定技术和通用技术，以及有关知名攻击组织及其攻击活动的背景信息和攻击中所使用的战术、技术。简单来说，MITRE ATT&amp;CK是一个对抗行为知识库。...</description>
       <category>应急响应</category>
       <pubDate>Mon, 24 Nov 2025 13:38:27 GMT</pubDate>
@@ -4813,9 +4813,9 @@ WDAC默认限制未签名/非微软认证的代码执行。但银狐利用如下
     </item>
     <item>
       <title>SIEM-安全信息和事件管理</title>
-      <link>https://youze27.github.io/blog/ai/SIEM-%E5%AE%89%E5%85%A8%E4%BF%A1%E6%81%AF%E5%92%8C%E4%BA%8B%E4%BB%B6%E7%AE%A1%E7%90%86.html</link>
-      <guid>https://youze27.github.io/blog/ai/SIEM-%E5%AE%89%E5%85%A8%E4%BF%A1%E6%81%AF%E5%92%8C%E4%BA%8B%E4%BB%B6%E7%AE%A1%E7%90%86.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">SIEM-安全信息和事件管理</source>
+      <link>https://youze27.github.io/ai/SIEM-%E5%AE%89%E5%85%A8%E4%BF%A1%E6%81%AF%E5%92%8C%E4%BA%8B%E4%BB%B6%E7%AE%A1%E7%90%86.html</link>
+      <guid>https://youze27.github.io/ai/SIEM-%E5%AE%89%E5%85%A8%E4%BF%A1%E6%81%AF%E5%92%8C%E4%BA%8B%E4%BB%B6%E7%AE%A1%E7%90%86.html</guid>
+      <source url="https://youze27.github.io/rss.xml">SIEM-安全信息和事件管理</source>
       <description>什么是SIEM？安全信息和事件管理
 SIEM是安全信息管理（SIM）和安全事件管理（SEM）的结合体，最初主要服务于大型企业，如今已成为保护各类规模组织免受网络威胁的关键防线。
 SIEM核心概念：数字世界的“超级英雄”
@@ -4922,9 +4922,9 @@ SIEM是一种整体性的安全方法。它将​安全信息管理（SIM） ​
     </item>
     <item>
       <title>密码喷射攻击：防范攻击你需要知道的事项</title>
-      <link>https://youze27.github.io/blog/like/%E5%AF%86%E7%A0%81%E5%96%B7%E5%B0%84%E6%94%BB%E5%87%BB%EF%BC%9A%E9%98%B2%E8%8C%83%E6%94%BB%E5%87%BB%E4%BD%A0%E9%9C%80%E8%A6%81%E7%9F%A5%E9%81%93%E7%9A%84%E4%BA%8B%E9%A1%B9.html</link>
-      <guid>https://youze27.github.io/blog/like/%E5%AF%86%E7%A0%81%E5%96%B7%E5%B0%84%E6%94%BB%E5%87%BB%EF%BC%9A%E9%98%B2%E8%8C%83%E6%94%BB%E5%87%BB%E4%BD%A0%E9%9C%80%E8%A6%81%E7%9F%A5%E9%81%93%E7%9A%84%E4%BA%8B%E9%A1%B9.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">密码喷射攻击：防范攻击你需要知道的事项</source>
+      <link>https://youze27.github.io/like/%E5%AF%86%E7%A0%81%E5%96%B7%E5%B0%84%E6%94%BB%E5%87%BB%EF%BC%9A%E9%98%B2%E8%8C%83%E6%94%BB%E5%87%BB%E4%BD%A0%E9%9C%80%E8%A6%81%E7%9F%A5%E9%81%93%E7%9A%84%E4%BA%8B%E9%A1%B9.html</link>
+      <guid>https://youze27.github.io/like/%E5%AF%86%E7%A0%81%E5%96%B7%E5%B0%84%E6%94%BB%E5%87%BB%EF%BC%9A%E9%98%B2%E8%8C%83%E6%94%BB%E5%87%BB%E4%BD%A0%E9%9C%80%E8%A6%81%E7%9F%A5%E9%81%93%E7%9A%84%E4%BA%8B%E9%A1%B9.html</guid>
+      <source url="https://youze27.github.io/rss.xml">密码喷射攻击：防范攻击你需要知道的事项</source>
       <description>密码喷射攻击是一种网络攻击</description>
       <category>渗透测试</category>
       <pubDate>Sun, 16 Nov 2025 13:06:41 GMT</pubDate>
@@ -5008,9 +5008,9 @@ SIEM是一种整体性的安全方法。它将​安全信息管理（SIM） ​
     </item>
     <item>
       <title>密码学中的哈希解释：它的工作原理、算法和实际用途</title>
-      <link>https://youze27.github.io/blog/like/%E5%AF%86%E7%A0%81%E5%AD%A6%E4%B8%AD%E7%9A%84%E5%93%88%E5%B8%8C%E8%A7%A3%E9%87%8A%EF%BC%9A%E5%AE%83%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E3%80%81%E7%AE%97%E6%B3%95%E5%92%8C%E5%AE%9E%E9%99%85%E7%94%A8%E9%80%94.html</link>
-      <guid>https://youze27.github.io/blog/like/%E5%AF%86%E7%A0%81%E5%AD%A6%E4%B8%AD%E7%9A%84%E5%93%88%E5%B8%8C%E8%A7%A3%E9%87%8A%EF%BC%9A%E5%AE%83%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E3%80%81%E7%AE%97%E6%B3%95%E5%92%8C%E5%AE%9E%E9%99%85%E7%94%A8%E9%80%94.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">密码学中的哈希解释：它的工作原理、算法和实际用途</source>
+      <link>https://youze27.github.io/like/%E5%AF%86%E7%A0%81%E5%AD%A6%E4%B8%AD%E7%9A%84%E5%93%88%E5%B8%8C%E8%A7%A3%E9%87%8A%EF%BC%9A%E5%AE%83%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E3%80%81%E7%AE%97%E6%B3%95%E5%92%8C%E5%AE%9E%E9%99%85%E7%94%A8%E9%80%94.html</link>
+      <guid>https://youze27.github.io/like/%E5%AF%86%E7%A0%81%E5%AD%A6%E4%B8%AD%E7%9A%84%E5%93%88%E5%B8%8C%E8%A7%A3%E9%87%8A%EF%BC%9A%E5%AE%83%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E3%80%81%E7%AE%97%E6%B3%95%E5%92%8C%E5%AE%9E%E9%99%85%E7%94%A8%E9%80%94.html</guid>
+      <source url="https://youze27.github.io/rss.xml">密码学中的哈希解释：它的工作原理、算法和实际用途</source>
       <description>密码学中的哈希解释：它的工作原理、算法和实际用途
 哈希处理获取您的数据（如密码或文件）并将其转换为无法撤消的固定长度代码。这使得攻击者几乎不可能弄清楚原始数据是什么，即使他们窃取了哈希值。
 在本文中，我将详细解释哈希，包括它的工作原理、应用、背后的算法以及如何正确应用它。
@@ -5156,16 +5156,16 @@ SIEM是一种整体性的安全方法。它将​安全信息管理（SIM） ​
     </item>
     <item>
       <title>专业备考⏳</title>
-      <link>https://youze27.github.io/blog/com/exam/</link>
-      <guid>https://youze27.github.io/blog/com/exam/</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">专业备考⏳</source>
+      <link>https://youze27.github.io/com/exam/</link>
+      <guid>https://youze27.github.io/com/exam/</guid>
+      <source url="https://youze27.github.io/rss.xml">专业备考⏳</source>
       <pubDate>Sun, 10 Aug 2025 14:49:59 GMT</pubDate>
     </item>
     <item>
       <title>应急响应术语</title>
-      <link>https://youze27.github.io/blog/response/%E5%BA%94%E6%80%A5%E5%93%8D%E5%BA%94%E6%9C%AF%E8%AF%AD.html</link>
-      <guid>https://youze27.github.io/blog/response/%E5%BA%94%E6%80%A5%E5%93%8D%E5%BA%94%E6%9C%AF%E8%AF%AD.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">应急响应术语</source>
+      <link>https://youze27.github.io/response/%E5%BA%94%E6%80%A5%E5%93%8D%E5%BA%94%E6%9C%AF%E8%AF%AD.html</link>
+      <guid>https://youze27.github.io/response/%E5%BA%94%E6%80%A5%E5%93%8D%E5%BA%94%E6%9C%AF%E8%AF%AD.html</guid>
+      <source url="https://youze27.github.io/rss.xml">应急响应术语</source>
       <description>IoA 攻击指标 (IoA) 是攻击者可能企图破坏系统的预警信号。它将各种数据片段（包括未知属性、IoC 和上下文信息，例如组织风险和情报）构建成潜在威胁的动态实时态势图。IoA 并非为了识别特定的恶意工具，而是通过关注所有攻击者为破坏系统而必须采取的步骤（例如侦察、初始访问、执行）来识别攻击者的战略意图。IoA 对于检测新的、复杂的网络攻击形式（例如...</description>
       <category>应急响应</category>
       <pubDate>Sat, 26 Jul 2025 23:34:04 GMT</pubDate>
@@ -5179,9 +5179,9 @@ SIEM是一种整体性的安全方法。它将​安全信息管理（SIM） ​
     </item>
     <item>
       <title>学习逆向工程相关概念</title>
-      <link>https://youze27.github.io/blog/net/%E5%AD%A6%E4%B9%A0%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B%E7%9B%B8%E5%85%B3%E6%A6%82%E5%BF%B5.html</link>
-      <guid>https://youze27.github.io/blog/net/%E5%AD%A6%E4%B9%A0%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B%E7%9B%B8%E5%85%B3%E6%A6%82%E5%BF%B5.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">学习逆向工程相关概念</source>
+      <link>https://youze27.github.io/net/%E5%AD%A6%E4%B9%A0%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B%E7%9B%B8%E5%85%B3%E6%A6%82%E5%BF%B5.html</link>
+      <guid>https://youze27.github.io/net/%E5%AD%A6%E4%B9%A0%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B%E7%9B%B8%E5%85%B3%E6%A6%82%E5%BF%B5.html</guid>
+      <source url="https://youze27.github.io/rss.xml">学习逆向工程相关概念</source>
       <description>逆向工程 一、逆向工程定义 逆向工程（Software Reverse Engineering），又称软件反向工程，从可运行的程序系统出发，运用解密、反汇编、系统分析、程序算法理解等多种计算机技术，对软件的结构、流程、代码等进行逆向拆解和分析，推导软件产品的源代码、设计原理、结构、算法、处理过程、运行方法及相关文档等。 二、CTF竞赛中的逆向 涉及Wi...</description>
       <category>计网基础</category>
       <pubDate>Sun, 13 Jul 2025 16:04:52 GMT</pubDate>
@@ -5243,9 +5243,9 @@ SIEM是一种整体性的安全方法。它将​安全信息管理（SIM） ​
     </item>
     <item>
       <title>《营养学》读书笔记</title>
-      <link>https://youze27.github.io/blog/com/read/%E3%80%8A%E8%90%A5%E5%85%BB%E5%AD%A6%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.html</link>
-      <guid>https://youze27.github.io/blog/com/read/%E3%80%8A%E8%90%A5%E5%85%BB%E5%AD%A6%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">《营养学》读书笔记</source>
+      <link>https://youze27.github.io/com/read/%E3%80%8A%E8%90%A5%E5%85%BB%E5%AD%A6%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.html</link>
+      <guid>https://youze27.github.io/com/read/%E3%80%8A%E8%90%A5%E5%85%BB%E5%AD%A6%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.html</guid>
+      <source url="https://youze27.github.io/rss.xml">《营养学》读书笔记</source>
       <description>第一节 营养学概论 一、核心概念与基础理论 营养 定义：人体通过摄取、消化、吸收和代谢食物，维持生长、发育及生理功能的动态过程。 关键环节：食物选择→消化吸收→代谢利用→能量与物质平衡。 营养素 分类： 宏量营养素（需大量摄入）：碳水化合物、脂肪、蛋白质（三者可产能）； 微量营养素：维生素、矿物质； 其他必需成分：水、膳食纤维（促进消化功能）。 功能：...</description>
       <category>读书笔记</category>
       <pubDate>Sun, 13 Jul 2025 16:04:52 GMT</pubDate>
@@ -5391,13 +5391,13 @@ SIEM是一种整体性的安全方法。它将​安全信息管理（SIM） ​
 </li>
 </ol>
 ]]></content:encoded>
-      <enclosure url="https://youze27.github.io/blog/assets/img/xlx.82d7bb1e.webp" type="image/webp"/>
+      <enclosure url="https://youze27.github.io/assets/img/xlx.82d7bb1e.webp" type="image/webp"/>
     </item>
     <item>
       <title>zabbix快速上手</title>
-      <link>https://youze27.github.io/blog/net/zabbix%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B.html</link>
-      <guid>https://youze27.github.io/blog/net/zabbix%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">zabbix快速上手</source>
+      <link>https://youze27.github.io/net/zabbix%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B.html</link>
+      <guid>https://youze27.github.io/net/zabbix%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B.html</guid>
+      <source url="https://youze27.github.io/rss.xml">zabbix快速上手</source>
       <description>zabbix快速上手及SNMP相关介绍 一、Zabbix概述 一个企业级分布式开源监控解决方案，用于实时监控网络设备、服务器、应用及云服务的健康状态，通过灵活告警机制快速定位故障。 典型场景： 服务器资源监控（CPU/内存/磁盘） 网络设备性能监控（SNMP协议） 应用服务可用性检测（Web/Nginx/数据库） 云环境与容器监控（Docker/K8s...</description>
       <category>计网基础</category>
       <pubDate>Sun, 06 Jul 2025 14:02:58 GMT</pubDate>
@@ -5422,9 +5422,9 @@ SIEM是一种整体性的安全方法。它将​安全信息管理（SIM） ​
     </item>
     <item>
       <title>velociraptor(迅猛龙)快速上手</title>
-      <link>https://youze27.github.io/blog/response/velociraptor(%E8%BF%85%E7%8C%9B%E9%BE%99)%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B.html</link>
-      <guid>https://youze27.github.io/blog/response/velociraptor(%E8%BF%85%E7%8C%9B%E9%BE%99)%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">velociraptor(迅猛龙)快速上手</source>
+      <link>https://youze27.github.io/response/velociraptor(%E8%BF%85%E7%8C%9B%E9%BE%99)%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B.html</link>
+      <guid>https://youze27.github.io/response/velociraptor(%E8%BF%85%E7%8C%9B%E9%BE%99)%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B.html</guid>
+      <source url="https://youze27.github.io/rss.xml">velociraptor(迅猛龙)快速上手</source>
       <description>基本概念 数字取证和事件响应 (DFIR) Digital Forensics and Incident Response (DFIR) 数字取证和事件响应 (DFIR) 是网络安全领域的其中一个领域，专注于网络攻击的识别、调查和补救。 学前必看 docs.velociraptor.app/ 官方文档 www.youtube.com/watch?v=7...</description>
       <category>应急响应</category>
       <pubDate>Sun, 06 Jul 2025 14:02:58 GMT</pubDate>
@@ -5515,9 +5515,9 @@ SIEM是一种整体性的安全方法。它将​安全信息管理（SIM） ​
     </item>
     <item>
       <title>学习windows快捷命令</title>
-      <link>https://youze27.github.io/blog/net/%E5%AD%A6%E4%B9%A0windows%E5%BF%AB%E6%8D%B7%E5%91%BD%E4%BB%A4.html</link>
-      <guid>https://youze27.github.io/blog/net/%E5%AD%A6%E4%B9%A0windows%E5%BF%AB%E6%8D%B7%E5%91%BD%E4%BB%A4.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">学习windows快捷命令</source>
+      <link>https://youze27.github.io/net/%E5%AD%A6%E4%B9%A0windows%E5%BF%AB%E6%8D%B7%E5%91%BD%E4%BB%A4.html</link>
+      <guid>https://youze27.github.io/net/%E5%AD%A6%E4%B9%A0windows%E5%BF%AB%E6%8D%B7%E5%91%BD%E4%BB%A4.html</guid>
+      <source url="https://youze27.github.io/rss.xml">学习windows快捷命令</source>
       <description>1. 系统管理 2. 网络工具 3. 远程维护 CMD（命令提示符）PowerShell 核心区别 ‍</description>
       <category>计网基础</category>
       <pubDate>Thu, 27 Mar 2025 13:55:04 GMT</pubDate>
@@ -5528,9 +5528,9 @@ SIEM是一种整体性的安全方法。它将​安全信息管理（SIM） ​
     </item>
     <item>
       <title>DC-8靶机</title>
-      <link>https://youze27.github.io/blog/perm/DC-8%E9%9D%B6%E6%9C%BA.html</link>
-      <guid>https://youze27.github.io/blog/perm/DC-8%E9%9D%B6%E6%9C%BA.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">DC-8靶机</source>
+      <link>https://youze27.github.io/perm/DC-8%E9%9D%B6%E6%9C%BA.html</link>
+      <guid>https://youze27.github.io/perm/DC-8%E9%9D%B6%E6%9C%BA.html</guid>
+      <source url="https://youze27.github.io/rss.xml">DC-8靶机</source>
       <description>主机扫描使用arp-scan扫描工具 --localnet 扫描本地网络 imageimage ​.1​（通常是网关或路由器的地址）和.255​（广播地址）。而.254​ 经常被用作子网内的一个特殊设备（如DHCP服务器）的地址，但这不是一个固定的规则. 使用Nmap端口扫描 -sV：探测开放端口以确定服务/版本信息； ​ ​-p-​ ​：这个选项告诉...</description>
       <category>靶机</category>
       <pubDate>Thu, 27 Mar 2025 13:55:04 GMT</pubDate>
@@ -5682,9 +5682,9 @@ SIEM是一种整体性的安全方法。它将​安全信息管理（SIM） ​
     </item>
     <item>
       <title>Metasploitable3下载与安装</title>
-      <link>https://youze27.github.io/blog/perm/Metasploitable3%E4%B8%8B%E8%BD%BD%E4%B8%8E%E5%AE%89%E8%A3%85.html</link>
-      <guid>https://youze27.github.io/blog/perm/Metasploitable3%E4%B8%8B%E8%BD%BD%E4%B8%8E%E5%AE%89%E8%A3%85.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">Metasploitable3下载与安装</source>
+      <link>https://youze27.github.io/perm/Metasploitable3%E4%B8%8B%E8%BD%BD%E4%B8%8E%E5%AE%89%E8%A3%85.html</link>
+      <guid>https://youze27.github.io/perm/Metasploitable3%E4%B8%8B%E8%BD%BD%E4%B8%8E%E5%AE%89%E8%A3%85.html</guid>
+      <source url="https://youze27.github.io/rss.xml">Metasploitable3下载与安装</source>
       <description>一、Vagrant下载与安装 Vagrant是一个基于Ruby的工具，​用于创建和部署虚拟化开发环境​。它使用Oracle的开源VirtualBox虚拟化系统，使用Chef创建自动化虚拟环境。 1. 下载Vagrant 下载地址：https://www.vagrantup.com/downloads 2. 安装Vagrant 在Windows下，Vag...</description>
       <category>渗透测试</category>
       <pubDate>Thu, 13 Mar 2025 15:55:00 GMT</pubDate>
@@ -5748,9 +5748,9 @@ SIEM是一种整体性的安全方法。它将​安全信息管理（SIM） ​
     </item>
     <item>
       <title>学习python高级语法特性例题笔记</title>
-      <link>https://youze27.github.io/blog/net/%E5%AD%A6%E4%B9%A0python%E9%AB%98%E7%BA%A7%E8%AF%AD%E6%B3%95%E7%89%B9%E6%80%A7%E4%BE%8B%E9%A2%98%E7%AC%94%E8%AE%B0.html</link>
-      <guid>https://youze27.github.io/blog/net/%E5%AD%A6%E4%B9%A0python%E9%AB%98%E7%BA%A7%E8%AF%AD%E6%B3%95%E7%89%B9%E6%80%A7%E4%BE%8B%E9%A2%98%E7%AC%94%E8%AE%B0.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">学习python高级语法特性例题笔记</source>
+      <link>https://youze27.github.io/net/%E5%AD%A6%E4%B9%A0python%E9%AB%98%E7%BA%A7%E8%AF%AD%E6%B3%95%E7%89%B9%E6%80%A7%E4%BE%8B%E9%A2%98%E7%AC%94%E8%AE%B0.html</link>
+      <guid>https://youze27.github.io/net/%E5%AD%A6%E4%B9%A0python%E9%AB%98%E7%BA%A7%E8%AF%AD%E6%B3%95%E7%89%B9%E6%80%A7%E4%BE%8B%E9%A2%98%E7%AC%94%E8%AE%B0.html</guid>
+      <source url="https://youze27.github.io/rss.xml">学习python高级语法特性例题笔记</source>
       <description>1.面向对象 局部变量的特性： 作用域：仅在该构造方法内部有效，无法被类中的其他方法访问。 生命周期：随着构造方法的调用而创建，方法执行结束后自动销毁。 存储位置：存放在栈内存中。 与成员变量的核心区别： 成员变量在类中声明（类体内部、方法外部），作用域覆盖整个类。 局部变量在方法（含构造方法）内部声明，仅限方法内使用。 2.推导式 是一种简洁的语法结...</description>
       <category>python</category>
       <pubDate>Sat, 08 Mar 2025 14:39:26 GMT</pubDate>
@@ -5923,9 +5923,9 @@ s2.name:Qiqi,s2.name.len:4
     </item>
     <item>
       <title>学习常用 150 个Linux命令</title>
-      <link>https://youze27.github.io/blog/net/%E5%B8%B8%E7%94%A8%20150%20%E4%B8%AALinux%E5%91%BD%E4%BB%A4.html</link>
-      <guid>https://youze27.github.io/blog/net/%E5%B8%B8%E7%94%A8%20150%20%E4%B8%AALinux%E5%91%BD%E4%BB%A4.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">学习常用 150 个Linux命令</source>
+      <link>https://youze27.github.io/net/%E5%B8%B8%E7%94%A8%20150%20%E4%B8%AALinux%E5%91%BD%E4%BB%A4.html</link>
+      <guid>https://youze27.github.io/net/%E5%B8%B8%E7%94%A8%20150%20%E4%B8%AALinux%E5%91%BD%E4%BB%A4.html</guid>
+      <source url="https://youze27.github.io/rss.xml">学习常用 150 个Linux命令</source>
       <description>⌨️ Linux 命令 学习shell的第一步：当然是从Linux命令入手了。 ⭐常用 150 个Linux命令⭐ ⭐shell 传递参数⭐ ⭐shell 运算符⭐ 1️⃣ 算术运算符 下表列出了常用的算术运算符，假定变量 a 为 10，变量 b 为 20： 注意：条件表达式要放在方括号之间，并且要有空格，例如: [$a==$b] 是错误的，必须写成 ...</description>
       <category>计网基础</category>
       <pubDate>Sat, 08 Mar 2025 14:39:26 GMT</pubDate>
@@ -5940,9 +5940,9 @@ s2.name:Qiqi,s2.name.len:4
     </item>
     <item>
       <title>知道创宇技能表</title>
-      <link>https://youze27.github.io/blog/com/other/%E7%9F%A5%E9%81%93%E5%88%9B%E5%AE%87%E6%8A%80%E8%83%BD%E8%A1%A8.html</link>
-      <guid>https://youze27.github.io/blog/com/other/%E7%9F%A5%E9%81%93%E5%88%9B%E5%AE%87%E6%8A%80%E8%83%BD%E8%A1%A8.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">知道创宇技能表</source>
+      <link>https://youze27.github.io/com/other/%E7%9F%A5%E9%81%93%E5%88%9B%E5%AE%87%E6%8A%80%E8%83%BD%E8%A1%A8.html</link>
+      <guid>https://youze27.github.io/com/other/%E7%9F%A5%E9%81%93%E5%88%9B%E5%AE%87%E6%8A%80%E8%83%BD%E8%A1%A8.html</guid>
+      <source url="https://youze27.github.io/rss.xml">知道创宇技能表</source>
       <category>学习路线</category>
       <pubDate>Sat, 08 Mar 2025 14:39:26 GMT</pubDate>
       <content:encoded><![CDATA[<iframe height="1000px" width="100%" frameborder="0" allowfullscreen="true" src="/blog/demo/zhidao.html">  
@@ -5950,9 +5950,9 @@ s2.name:Qiqi,s2.name.len:4
     </item>
     <item>
       <title>软考中的一些概念</title>
-      <link>https://youze27.github.io/blog/net/%E8%BD%AF%E8%80%83%E4%B8%AD%E7%9A%84%E4%B8%80%E4%BA%9B%E6%A6%82%E5%BF%B5.html</link>
-      <guid>https://youze27.github.io/blog/net/%E8%BD%AF%E8%80%83%E4%B8%AD%E7%9A%84%E4%B8%80%E4%BA%9B%E6%A6%82%E5%BF%B5.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">软考中的一些概念</source>
+      <link>https://youze27.github.io/net/%E8%BD%AF%E8%80%83%E4%B8%AD%E7%9A%84%E4%B8%80%E4%BA%9B%E6%A6%82%E5%BF%B5.html</link>
+      <guid>https://youze27.github.io/net/%E8%BD%AF%E8%80%83%E4%B8%AD%E7%9A%84%E4%B8%80%E4%BA%9B%E6%A6%82%E5%BF%B5.html</guid>
+      <source url="https://youze27.github.io/rss.xml">软考中的一些概念</source>
       <description>CMM（能力成熟度模型） 五个阶段——非正式执行、计划跟踪、充分定义、量化控制、持续优化，与常见的CMM模型中的五个等级（初始级、可重复级、已定义级、已管理级、优化级）在表述上有所不同，但本质上描述了类似的软件过程改进路径 非正式执行： 这个阶段类似于CMM中的“初始级”。在这个阶段，软件开发过程往往是不规范的，缺乏系统的管理和监控。软件开发主要依赖于...</description>
       <category>基础</category>
       <pubDate>Fri, 07 Mar 2025 06:05:23 GMT</pubDate>
@@ -6048,9 +6048,9 @@ Finished：客户端和服务器各自计算并发送一个Finished数据包，�
     </item>
     <item>
       <title>markdown基本语法</title>
-      <link>https://youze27.github.io/blog/com/other/markdown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95.html</link>
-      <guid>https://youze27.github.io/blog/com/other/markdown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">markdown基本语法</source>
+      <link>https://youze27.github.io/com/other/markdown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95.html</link>
+      <guid>https://youze27.github.io/com/other/markdown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95.html</guid>
+      <source url="https://youze27.github.io/rss.xml">markdown基本语法</source>
       <description>一、标题 Markdown支持六级标题，使用#号表示不同级别的标题。一级标题使用一个#，二级标题使用两个#，以此类推，最多支持到六级标题。例如： 二、字体 Markdown支持多种字体样式，包括斜体、粗体、斜体加粗和删除线。具体语法如下： 斜体文本：使用*或_将文本包裹起来（如：*斜体文本* 或 _斜体文本_）。 粗体文本：使用**或__将文本包裹起来...</description>
       <category>markdown</category>
       <pubDate>Fri, 07 Mar 2025 06:05:23 GMT</pubDate>
@@ -6081,9 +6081,9 @@ Finished：客户端和服务器各自计算并发送一个Finished数据包，�
     </item>
     <item>
       <title>我的书单📖</title>
-      <link>https://youze27.github.io/blog/com/read/</link>
-      <guid>https://youze27.github.io/blog/com/read/</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">我的书单📖</source>
+      <link>https://youze27.github.io/com/read/</link>
+      <guid>https://youze27.github.io/com/read/</guid>
+      <source url="https://youze27.github.io/rss.xml">我的书单📖</source>
       <description>认知觉醒 认知觉醒 《认知觉醒》是作者周岭的作品，通过深入浅出的方式揭示了人类思维运作的底层逻辑，帮助我们理解大脑的认知机制，掌握提升学习力、思考力和行动力的有效方法，开启自我改变的觉醒之路。 悉达多 悉达多 《悉达多》是德国作家赫尔曼·黑塞的经典作品，讲述了一位古印度贵族青年寻求生命真谛的修行之旅。通过悉达多的人生经历，探索自我、生命意义与精神觉醒的...</description>
       <pubDate>Fri, 07 Mar 2025 06:05:23 GMT</pubDate>
       <content:encoded><![CDATA[<div class="card-container">
@@ -6127,9 +6127,9 @@ Finished：客户端和服务器各自计算并发送一个Finished数据包，�
     </item>
     <item>
       <title>《心理学》读书笔记</title>
-      <link>https://youze27.github.io/blog/com/read/%E3%80%8A%E5%BF%83%E7%90%86%E5%AD%A6%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.html</link>
-      <guid>https://youze27.github.io/blog/com/read/%E3%80%8A%E5%BF%83%E7%90%86%E5%AD%A6%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">《心理学》读书笔记</source>
+      <link>https://youze27.github.io/com/read/%E3%80%8A%E5%BF%83%E7%90%86%E5%AD%A6%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.html</link>
+      <guid>https://youze27.github.io/com/read/%E3%80%8A%E5%BF%83%E7%90%86%E5%AD%A6%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.html</guid>
+      <source url="https://youze27.github.io/rss.xml">《心理学》读书笔记</source>
       <description>心理弹性（Resilience） 定义：个体在逆境中恢复并适应变化的能力，体现为从挫折中学习并成长。 理论支持：Masten（2001）提出“普通魔法”（Ordinary Magic）理论，认为心理弹性是普通人普遍具备的能力。 例子： 一位创业者在公司破产后，利用失败经验重新创办企业，最终成功上市。 一名运动员在比赛中严重受伤，经过康复训练后重返赛场并...</description>
       <category>读书笔记</category>
       <pubDate>Fri, 07 Mar 2025 06:05:23 GMT</pubDate>
@@ -6270,13 +6270,13 @@ Finished：客户端和服务器各自计算并发送一个Finished数据包，�
 <li>因衣服沾了污渍整天躲避社交，实则无人注意。</li>
 </ul>
 ]]></content:encoded>
-      <enclosure url="https://youze27.github.io/blog/assets/img/xlx.82d7bb1e.webp" type="image/webp"/>
+      <enclosure url="https://youze27.github.io/assets/img/xlx.82d7bb1e.webp" type="image/webp"/>
     </item>
     <item>
       <title>Prompt越狱手册</title>
-      <link>https://youze27.github.io/blog/com/other/Prompt%E8%B6%8A%E7%8B%B1%E6%89%8B%E5%86%8C.html</link>
-      <guid>https://youze27.github.io/blog/com/other/Prompt%E8%B6%8A%E7%8B%B1%E6%89%8B%E5%86%8C.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">Prompt越狱手册</source>
+      <link>https://youze27.github.io/com/other/Prompt%E8%B6%8A%E7%8B%B1%E6%89%8B%E5%86%8C.html</link>
+      <guid>https://youze27.github.io/com/other/Prompt%E8%B6%8A%E7%8B%B1%E6%89%8B%E5%86%8C.html</guid>
+      <source url="https://youze27.github.io/rss.xml">Prompt越狱手册</source>
       <description>Prompt越狱手册 目录 Prompt越狱手册 Prompt越狱手册 目录 什么是Prompt？ Prompt构建的思维模式 输入决定输出思维模型 清晰表达 Prompt构建前的准备 明确目标 收集背景信息 明确输出要求 Ai使用过程常见踩坑点 Prompt设计的本质 Prompt设计技巧 具体化问题，明确主题： 少样本分析 调整语气 鼓励性语言 避...</description>
       <category>AI</category>
       <pubDate>Tue, 04 Mar 2025 09:59:55 GMT</pubDate>
@@ -6491,9 +6491,9 @@ Finished：客户端和服务器各自计算并发送一个Finished数据包，�
     </item>
     <item>
       <title>漏洞挖掘思路</title>
-      <link>https://youze27.github.io/blog/perm/%E6%8C%96%E6%B4%9E%E6%80%9D%E8%B7%AF.html</link>
-      <guid>https://youze27.github.io/blog/perm/%E6%8C%96%E6%B4%9E%E6%80%9D%E8%B7%AF.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">漏洞挖掘思路</source>
+      <link>https://youze27.github.io/perm/%E6%8C%96%E6%B4%9E%E6%80%9D%E8%B7%AF.html</link>
+      <guid>https://youze27.github.io/perm/%E6%8C%96%E6%B4%9E%E6%80%9D%E8%B7%AF.html</guid>
+      <source url="https://youze27.github.io/rss.xml">漏洞挖掘思路</source>
       <description>漏洞挖掘思路 大厂SRC严重漏洞的特点 1.和数据相关 ⦁ 核心服务器 ⦁ 任意用户 ⦁ 越权 大量敏感数据 2.和钱有关 下单过程漏洞 ⦁ 0元购 ⦁ 支付逻辑漏洞 ⦁ 负数刷钱 3.选择大于努力，选择大的厂挖 4.挖洞的点 ⦁ 突破系统限制的 ⦁ 对业务对企业有利益危害的 5.白帽子思维 白帽子要有模拟坏人地思维 ⦁ 不按要求输入 ⦁ 喜欢跳过流程...</description>
       <category>渗透测试</category>
       <pubDate>Sun, 02 Mar 2025 05:52:48 GMT</pubDate>
@@ -6535,16 +6535,16 @@ Finished：客户端和服务器各自计算并发送一个Finished数据包，�
     </item>
     <item>
       <title>其他杂项🧶</title>
-      <link>https://youze27.github.io/blog/com/other/</link>
-      <guid>https://youze27.github.io/blog/com/other/</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">其他杂项🧶</source>
+      <link>https://youze27.github.io/com/other/</link>
+      <guid>https://youze27.github.io/com/other/</guid>
+      <source url="https://youze27.github.io/rss.xml">其他杂项🧶</source>
       <pubDate>Sun, 02 Mar 2025 05:52:48 GMT</pubDate>
     </item>
     <item>
       <title>deepseek使用指南 清华大学</title>
-      <link>https://youze27.github.io/blog/com/other/deepseek%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97%20%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6.html</link>
-      <guid>https://youze27.github.io/blog/com/other/deepseek%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97%20%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">deepseek使用指南 清华大学</source>
+      <link>https://youze27.github.io/com/other/deepseek%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97%20%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6.html</link>
+      <guid>https://youze27.github.io/com/other/deepseek%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97%20%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6.html</guid>
+      <source url="https://youze27.github.io/rss.xml">deepseek使用指南 清华大学</source>
       <description>​DeepSeek从入门到精通+-+清华大学+学霸1-001​ ​DeepSeek从入门到精通+-+清华大学+学霸1-002​ ​DeepSeek从入门到精通+-+清华大学+学霸1-003​ ​DeepSeek从入门到精通+-+清华大学+学霸1-004​ ​DeepSeek从入门到精通+-+清华大学+学霸1-005​ ​DeepSeek从入门到精通+-...</description>
       <category>AI</category>
       <pubDate>Sun, 02 Mar 2025 05:52:48 GMT</pubDate>
@@ -6656,9 +6656,9 @@ Finished：客户端和服务器各自计算并发送一个Finished数据包，�
     </item>
     <item>
       <title>deepseek提问方法</title>
-      <link>https://youze27.github.io/blog/com/other/deepseek%E6%8F%90%E9%97%AE%E6%96%B9%E6%B3%95.html</link>
-      <guid>https://youze27.github.io/blog/com/other/deepseek%E6%8F%90%E9%97%AE%E6%96%B9%E6%B3%95.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">deepseek提问方法</source>
+      <link>https://youze27.github.io/com/other/deepseek%E6%8F%90%E9%97%AE%E6%96%B9%E6%B3%95.html</link>
+      <guid>https://youze27.github.io/com/other/deepseek%E6%8F%90%E9%97%AE%E6%96%B9%E6%B3%95.html</guid>
+      <source url="https://youze27.github.io/rss.xml">deepseek提问方法</source>
       <description>deepseek 应该怎样提问 为了让我的回答更准确和有用，你可以通过以下方式优化提问。我通过几个例子为你说明不同提问方式的区别： 1. 明确问题类型+具体细节 ✅ 好例子： &amp;quot;我想学习Python数据分析，目前会基础语法，请推荐3个适合初学者的Pandas实战项目，并说明每个项目能练习什么技能？&amp;quot; ❌ 不够好的例子： &amp;quot;怎么学Python？&amp;quot; 上方例...</description>
       <category>其他</category>
       <pubDate>Sun, 02 Mar 2025 05:52:48 GMT</pubDate>
@@ -6710,9 +6710,9 @@ Finished：客户端和服务器各自计算并发送一个Finished数据包，�
     </item>
     <item>
       <title>学习ssh基本使用</title>
-      <link>https://youze27.github.io/blog/net/%E5%AD%A6%E4%B9%A0ssh%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8.html</link>
-      <guid>https://youze27.github.io/blog/net/%E5%AD%A6%E4%B9%A0ssh%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">学习ssh基本使用</source>
+      <link>https://youze27.github.io/net/%E5%AD%A6%E4%B9%A0ssh%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8.html</link>
+      <guid>https://youze27.github.io/net/%E5%AD%A6%E4%B9%A0ssh%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8.html</guid>
+      <source url="https://youze27.github.io/rss.xml">学习ssh基本使用</source>
       <description>通过ssh连接服务器 客户端操作： 检查用户.ssh下是否有已经生成公私钥 如果没有公私钥则生成，有则跳过 服务端操作： 删除.ssh下的全部文件（authorized_keys可保留） 生成公私钥 服务端创建authorized_keys文件 将客户端公钥添加到 authorized_keys 客户端即可访问 imageimage 创建ssh con...</description>
       <category>计网基础</category>
       <pubDate>Thu, 27 Feb 2025 03:11:30 GMT</pubDate>
@@ -6765,9 +6765,9 @@ Finished：客户端和服务器各自计算并发送一个Finished数据包，�
     </item>
     <item>
       <title>免责声明</title>
-      <link>https://youze27.github.io/blog/clause.html</link>
-      <guid>https://youze27.github.io/blog/clause.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">免责声明</source>
+      <link>https://youze27.github.io/clause.html</link>
+      <guid>https://youze27.github.io/clause.html</guid>
+      <source url="https://youze27.github.io/rss.xml">免责声明</source>
       <description>免责声明 最后更新日期：2025年02月23日 管辖法律：中华人民共和国法律 ⛔ 高危行为特别警示 未经授权的渗透测试行为 根据《中华人民共和国刑法》第285条，任何未经授权侵入计算机信息系统、干扰系统功能或非法获取数据的行为，可能构成 非法侵入计算机信息系统罪，最高可处七年有期徒刑27。 《网络安全法》第27条明确禁止提供专门用于侵入网络的工具或技术...</description>
       <pubDate>Sun, 23 Feb 2025 13:00:23 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -6777,9 +6777,9 @@ Finished：客户端和服务器各自计算并发送一个Finished数据包，�
     </item>
     <item>
       <title>热💖生活</title>
-      <link>https://youze27.github.io/blog/com/</link>
-      <guid>https://youze27.github.io/blog/com/</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">热💖生活</source>
+      <link>https://youze27.github.io/com/</link>
+      <guid>https://youze27.github.io/com/</guid>
+      <source url="https://youze27.github.io/rss.xml">热💖生活</source>
       <description>2e5k 是爬山虎吗？ 39g9 深蓝海面 ck51 海与石 ha6t 草坪铁轨 orwp 雪天树枝 vii9 阿布吉措 zqia 夕阳 1evs 水面落羽衫 3tnq 夕阳 79dt 湖光秋色 dk1d 海与礁石 kej7 建筑 pnci 爬山虎 t113 欧洲小镇 w404 欧洲小镇 zvq4 气球 w015 海鸥 1sj2 深色大海 8v9y 海...</description>
       <pubDate>Mon, 27 Jan 2025 14:53:53 GMT</pubDate>
       <content:encoded><![CDATA[<div class="masonry-grid">
@@ -6897,9 +6897,9 @@ Finished：客户端和服务器各自计算并发送一个Finished数据包，�
     </item>
     <item>
       <title>学习云计算基本理论学习笔记</title>
-      <link>https://youze27.github.io/blog/net/%E5%AD%A6%E4%B9%A0%E4%BA%91%E8%AE%A1%E7%AE%97%E5%9F%BA%E6%9C%AC%E7%90%86%E8%AE%BA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html</link>
-      <guid>https://youze27.github.io/blog/net/%E5%AD%A6%E4%B9%A0%E4%BA%91%E8%AE%A1%E7%AE%97%E5%9F%BA%E6%9C%AC%E7%90%86%E8%AE%BA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">学习云计算基本理论学习笔记</source>
+      <link>https://youze27.github.io/net/%E5%AD%A6%E4%B9%A0%E4%BA%91%E8%AE%A1%E7%AE%97%E5%9F%BA%E6%9C%AC%E7%90%86%E8%AE%BA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html</link>
+      <guid>https://youze27.github.io/net/%E5%AD%A6%E4%B9%A0%E4%BA%91%E8%AE%A1%E7%AE%97%E5%9F%BA%E6%9C%AC%E7%90%86%E8%AE%BA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html</guid>
+      <source url="https://youze27.github.io/rss.xml">学习云计算基本理论学习笔记</source>
       <description>什么是云计算？ 美国国家标准与技术研究院NIST定义：云计算是一种模型，可以随时随地，便捷地，随需应变地从可配置计算资源共享池中获取所需资源（例如：网络、服务器、存储、应用、服务），资源可以快速供应并释放，使管理资源的工作量和服务提供商的交互减小到最低限度。 云计算特点 虚拟化技术 动态可扩展 按需部署 灵活性高 可靠性高 地理分布 先进的安全技术 云...</description>
       <category>计网基础</category>
       <pubDate>Mon, 27 Jan 2025 07:36:59 GMT</pubDate>
@@ -6911,9 +6911,9 @@ Finished：客户端和服务器各自计算并发送一个Finished数据包，�
     </item>
     <item>
       <title>学习Linux命令</title>
-      <link>https://youze27.github.io/blog/net/%E5%AD%A6%E4%B9%A0Linux%E5%91%BD%E4%BB%A4.html</link>
-      <guid>https://youze27.github.io/blog/net/%E5%AD%A6%E4%B9%A0Linux%E5%91%BD%E4%BB%A4.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">学习Linux命令</source>
+      <link>https://youze27.github.io/net/%E5%AD%A6%E4%B9%A0Linux%E5%91%BD%E4%BB%A4.html</link>
+      <guid>https://youze27.github.io/net/%E5%AD%A6%E4%B9%A0Linux%E5%91%BD%E4%BB%A4.html</guid>
+      <source url="https://youze27.github.io/rss.xml">学习Linux命令</source>
       <description>在Linux和类Unix操作系统中，波浪号（~​）代表当前用户的主目录（home directory） 例如，如果当前用户是alice​，并且她的主目录是/home/alice​，那么~​就代表/home/alice​。 全局可执行程序会被放置在/usr/local/bin​（对于本地安装的软件）或/usr/bin​（对于系统级的软件包）目录中。 用户...</description>
       <category>计网基础</category>
       <pubDate>Wed, 10 Jan 2024 00:00:00 GMT</pubDate>
@@ -7056,9 +7056,9 @@ Finished：客户端和服务器各自计算并发送一个Finished数据包，�
     </item>
     <item>
       <title>Linux系统换源输入法和包管理器</title>
-      <link>https://youze27.github.io/blog/net/Linux%E7%B3%BB%E7%BB%9F%E6%8D%A2%E6%BA%90%E8%BE%93%E5%85%A5%E6%B3%95%E5%92%8C%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8.html</link>
-      <guid>https://youze27.github.io/blog/net/Linux%E7%B3%BB%E7%BB%9F%E6%8D%A2%E6%BA%90%E8%BE%93%E5%85%A5%E6%B3%95%E5%92%8C%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">Linux系统换源输入法和包管理器</source>
+      <link>https://youze27.github.io/net/Linux%E7%B3%BB%E7%BB%9F%E6%8D%A2%E6%BA%90%E8%BE%93%E5%85%A5%E6%B3%95%E5%92%8C%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8.html</link>
+      <guid>https://youze27.github.io/net/Linux%E7%B3%BB%E7%BB%9F%E6%8D%A2%E6%BA%90%E8%BE%93%E5%85%A5%E6%B3%95%E5%92%8C%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8.html</guid>
+      <source url="https://youze27.github.io/rss.xml">Linux系统换源输入法和包管理器</source>
       <description>源 sources.list 更新本地软件包索引：sudo apt update 更新系统中已安装软件包：sudo apt upgrade 安装指定的软件命令：sudo apt install [package_name] 更新指定的软件命令：sudo apt update [package_name] 删除软件包命令：sudo apt remove ...</description>
       <category>计网基础</category>
       <pubDate>Wed, 22 Jan 2025 14:07:20 GMT</pubDate>
@@ -7200,9 +7200,9 @@ sudo apt upgrade<br>
     </item>
     <item>
       <title>各种报错积累</title>
-      <link>https://youze27.github.io/blog/net/%E5%90%84%E7%A7%8D%E6%8A%A5%E9%94%99%E7%A7%AF%E7%B4%AF.html</link>
-      <guid>https://youze27.github.io/blog/net/%E5%90%84%E7%A7%8D%E6%8A%A5%E9%94%99%E7%A7%AF%E7%B4%AF.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">各种报错积累</source>
+      <link>https://youze27.github.io/net/%E5%90%84%E7%A7%8D%E6%8A%A5%E9%94%99%E7%A7%AF%E7%B4%AF.html</link>
+      <guid>https://youze27.github.io/net/%E5%90%84%E7%A7%8D%E6%8A%A5%E9%94%99%E7%A7%AF%E7%B4%AF.html</guid>
+      <source url="https://youze27.github.io/rss.xml">各种报错积累</source>
       <description>sqlmap 更新报错 这个错误信息表明你当前的 Python 环境是“外部管理的”（externally-managed-environment），这通常是指系统通过包管理器（如 apt​）来管理 Python 包。在这种环境下，直接使用 pip​ 安装或升级包可能会导致系统问题，因为它会影响系统安装的 Python 包，甚至可能破坏其他依赖。 使用...</description>
       <category>计网基础</category>
       <pubDate>Wed, 22 Jan 2025 14:07:20 GMT</pubDate>
@@ -7365,9 +7365,9 @@ sudo apt upgrade<br>
     </item>
     <item>
       <title>学习网络及安全的一些术语</title>
-      <link>https://youze27.github.io/blog/net/%E5%AD%A6%E4%B9%A0%E7%BD%91%E7%BB%9C%E5%8F%8A%E5%AE%89%E5%85%A8%E7%9A%84%E4%B8%80%E4%BA%9B%E6%9C%AF%E8%AF%AD.html</link>
-      <guid>https://youze27.github.io/blog/net/%E5%AD%A6%E4%B9%A0%E7%BD%91%E7%BB%9C%E5%8F%8A%E5%AE%89%E5%85%A8%E7%9A%84%E4%B8%80%E4%BA%9B%E6%9C%AF%E8%AF%AD.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">学习网络及安全的一些术语</source>
+      <link>https://youze27.github.io/net/%E5%AD%A6%E4%B9%A0%E7%BD%91%E7%BB%9C%E5%8F%8A%E5%AE%89%E5%85%A8%E7%9A%84%E4%B8%80%E4%BA%9B%E6%9C%AF%E8%AF%AD.html</link>
+      <guid>https://youze27.github.io/net/%E5%AD%A6%E4%B9%A0%E7%BD%91%E7%BB%9C%E5%8F%8A%E5%AE%89%E5%85%A8%E7%9A%84%E4%B8%80%E4%BA%9B%E6%9C%AF%E8%AF%AD.html</guid>
+      <source url="https://youze27.github.io/rss.xml">学习网络及安全的一些术语</source>
       <description>加密算法 MD5 Message-Digest Algorithm 5（信息摘要算法）MD5算法的输出长度为128 特点：计算速度快，长度固定，不安全。 SHA 密码散列 SHA-1系列存在缺陷，已经不再被推荐使用 SHA-2算法之所以比MD5强，散列值长度更长，更强的碰撞抗性 DES （Data Encryption Standard）算法是一种对称...</description>
       <category>计网基础</category>
       <pubDate>Mon, 18 Sep 2023 00:00:00 GMT</pubDate>
@@ -7559,9 +7559,9 @@ a 代表 "所有用户"（所有者、组和其他）。<br>
     </item>
     <item>
       <title>收藏夹</title>
-      <link>https://youze27.github.io/blog/nav.html</link>
-      <guid>https://youze27.github.io/blog/nav.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">收藏夹</source>
+      <link>https://youze27.github.io/nav.html</link>
+      <guid>https://youze27.github.io/nav.html</guid>
+      <source url="https://youze27.github.io/rss.xml">收藏夹</source>
       <description>视频 哔哩哔哩 (゜-゜) つロ 干杯~-bilibili ​抖音-记录美好生活 ​智慧树 编程 Web前端 介绍 - Vant Weapp ​Bootstrap v5 中文文档 · Bootstrap 是全球最受欢迎的 HTML、CSS 和 JS 前端工具库。 | Bootstrap 中文网 ​快速上手 - iView Weapp ​组件(Compo...</description>
       <pubDate>Tue, 21 Jan 2025 16:41:57 GMT</pubDate>
       <content:encoded><![CDATA[<h3>视频</h3>
@@ -7601,9 +7601,9 @@ a 代表 "所有用户"（所有者、组和其他）。<br>
     </item>
     <item>
       <title>学习Docker-Compose命令及镜像构建与推送</title>
-      <link>https://youze27.github.io/blog/net/%E5%AD%A6%E4%B9%A0Docker-Compose%E5%91%BD%E4%BB%A4%E5%8F%8A%E9%95%9C%E5%83%8F%E6%9E%84%E5%BB%BA%E4%B8%8E%E6%8E%A8%E9%80%81.html</link>
-      <guid>https://youze27.github.io/blog/net/%E5%AD%A6%E4%B9%A0Docker-Compose%E5%91%BD%E4%BB%A4%E5%8F%8A%E9%95%9C%E5%83%8F%E6%9E%84%E5%BB%BA%E4%B8%8E%E6%8E%A8%E9%80%81.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">学习Docker-Compose命令及镜像构建与推送</source>
+      <link>https://youze27.github.io/net/%E5%AD%A6%E4%B9%A0Docker-Compose%E5%91%BD%E4%BB%A4%E5%8F%8A%E9%95%9C%E5%83%8F%E6%9E%84%E5%BB%BA%E4%B8%8E%E6%8E%A8%E9%80%81.html</link>
+      <guid>https://youze27.github.io/net/%E5%AD%A6%E4%B9%A0Docker-Compose%E5%91%BD%E4%BB%A4%E5%8F%8A%E9%95%9C%E5%83%8F%E6%9E%84%E5%BB%BA%E4%B8%8E%E6%8E%A8%E9%80%81.html</guid>
+      <source url="https://youze27.github.io/rss.xml">学习Docker-Compose命令及镜像构建与推送</source>
       <description>最常用命令集合 Docker镜像 镜像的名称组成： 镜名称一般分两部分组成：repository:tag。 在没有指定tag时，默认是latest，代表最新版本的镜像 如图： ​image​ Docker Dockerfile Dockerfile 是一个文本文件，包含了构建 Docker 镜像的所有指令。 Dockerfile 是一个用来构建镜像的文...</description>
       <category>计网基础</category>
       <pubDate>Tue, 21 Jan 2025 16:41:57 GMT</pubDate>
@@ -7657,9 +7657,9 @@ a 代表 "所有用户"（所有者、组和其他）。<br>
     </item>
     <item>
       <title>Linux入侵排查</title>
-      <link>https://youze27.github.io/blog/response/Linux%E5%85%A5%E4%BE%B5%E6%8E%92%E6%9F%A5.html</link>
-      <guid>https://youze27.github.io/blog/response/Linux%E5%85%A5%E4%BE%B5%E6%8E%92%E6%9F%A5.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">Linux入侵排查</source>
+      <link>https://youze27.github.io/response/Linux%E5%85%A5%E4%BE%B5%E6%8E%92%E6%9F%A5.html</link>
+      <guid>https://youze27.github.io/response/Linux%E5%85%A5%E4%BE%B5%E6%8E%92%E6%9F%A5.html</guid>
+      <source url="https://youze27.github.io/rss.xml">Linux入侵排查</source>
       <description>Linux入侵排查 安全排查步骤 攻击类型定位——&amp;gt;时间范围——&amp;gt;文件分析——&amp;gt;进程分析——&amp;gt;系统分析——&amp;gt;日志分析——&amp;gt;关联分析——&amp;gt;逻辑推理——&amp;gt;事件总结 账号安全 用户信息文件 passwd ​image​ 用户名：密码：用户ID：用户说明：用户家目录：登录的shell shadow ​image​ 用户名：加密后密码：密码最后修改日期：两次密码...</description>
       <category>应急响应</category>
       <pubDate>Thu, 17 Oct 2024 00:00:00 GMT</pubDate>
@@ -7750,9 +7750,9 @@ a 代表 "所有用户"（所有者、组和其他）。<br>
     </item>
     <item>
       <title>Linux安全加固</title>
-      <link>https://youze27.github.io/blog/response/Linux%E5%AE%89%E5%85%A8%E5%8A%A0%E5%9B%BA.html</link>
-      <guid>https://youze27.github.io/blog/response/Linux%E5%AE%89%E5%85%A8%E5%8A%A0%E5%9B%BA.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">Linux安全加固</source>
+      <link>https://youze27.github.io/response/Linux%E5%AE%89%E5%85%A8%E5%8A%A0%E5%9B%BA.html</link>
+      <guid>https://youze27.github.io/response/Linux%E5%AE%89%E5%85%A8%E5%8A%A0%E5%9B%BA.html</guid>
+      <source url="https://youze27.github.io/rss.xml">Linux安全加固</source>
       <description>用户管理 特权用户排查 UID=0为特权账号 空口令用户排查 限制用户su到root /etc/pam.d/su su命令的配置文件:如下配置1\test组和test用户可以su到root ​image​ 禁止root用户直接登录 （危险配置，如果远程新建小号登录，要不然远程ssh直接掉线） /etc/ssh/sshd_config | grep Pe...</description>
       <category>应急响应</category>
       <pubDate>Mon, 14 Oct 2024 00:00:00 GMT</pubDate>
@@ -7818,9 +7818,9 @@ systemctl restart sshd			#service sshd restart</p>
     </item>
     <item>
       <title>RDP和360星图使用</title>
-      <link>https://youze27.github.io/blog/response/RDP%E5%92%8C360%E6%98%9F%E5%9B%BE%E4%BD%BF%E7%94%A8.html</link>
-      <guid>https://youze27.github.io/blog/response/RDP%E5%92%8C360%E6%98%9F%E5%9B%BE%E4%BD%BF%E7%94%A8.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">RDP和360星图使用</source>
+      <link>https://youze27.github.io/response/RDP%E5%92%8C360%E6%98%9F%E5%9B%BE%E4%BD%BF%E7%94%A8.html</link>
+      <guid>https://youze27.github.io/response/RDP%E5%92%8C360%E6%98%9F%E5%9B%BE%E4%BD%BF%E7%94%A8.html</guid>
+      <source url="https://youze27.github.io/rss.xml">RDP和360星图使用</source>
       <description>RDP和360星图使用 通过hydra爆破windwos虚拟机的RDP服务，利用日志分析工具获取IP地址和时间以及用户名 开启远程桌面​image​ gpedit.msc-&amp;gt;“计算机配置”-&amp;gt;“Windows设置”-&amp;gt;“安全设置”-&amp;gt;“本地策略”-&amp;gt;“审核策略”-&amp;gt;&amp;quot;审核登录事件&amp;quot;-&amp;gt;成功和失败 ​image​ 爆破 ​image​ 使用事件ID 46...</description>
       <pubDate>Sun, 12 Jan 2025 13:43:01 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -7887,16 +7887,16 @@ systemctl restart sshd			#service sshd restart</p>
     </item>
     <item>
       <title>防守之道</title>
-      <link>https://youze27.github.io/blog/response/</link>
-      <guid>https://youze27.github.io/blog/response/</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">防守之道</source>
+      <link>https://youze27.github.io/response/</link>
+      <guid>https://youze27.github.io/response/</guid>
+      <source url="https://youze27.github.io/rss.xml">防守之道</source>
       <pubDate>Sun, 12 Jan 2025 13:43:01 GMT</pubDate>
     </item>
     <item>
       <title>Redis日志分析</title>
-      <link>https://youze27.github.io/blog/response/Redis%E6%97%A5%E5%BF%97%E5%88%86%E6%9E%90.html</link>
-      <guid>https://youze27.github.io/blog/response/Redis%E6%97%A5%E5%BF%97%E5%88%86%E6%9E%90.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">Redis日志分析</source>
+      <link>https://youze27.github.io/response/Redis%E6%97%A5%E5%BF%97%E5%88%86%E6%9E%90.html</link>
+      <guid>https://youze27.github.io/response/Redis%E6%97%A5%E5%BF%97%E5%88%86%E6%9E%90.html</guid>
+      <source url="https://youze27.github.io/rss.xml">Redis日志分析</source>
       <description>linux搭建一个redis服务，配置未授权和记录redis日志，开启redis服务，并使用未授权攻击行为进行写计划任务；然后进行入侵排查，分析redis日志和攻击行为。 注释掉bind 127.0.0.1​（允许来自任何IP的连接）。 将protected-mode​设置为no​（禁用保护模式）。 启动Redis服务 验证Redis是否正在运行 ​i...</description>
       <category>应急响应</category>
       <pubDate>Thu, 17 Oct 2024 00:00:00 GMT</pubDate>
@@ -7970,9 +7970,9 @@ systemctl restart sshd			#service sshd restart</p>
     </item>
     <item>
       <title>windows入侵排查</title>
-      <link>https://youze27.github.io/blog/response/windows%E5%85%A5%E4%BE%B5%E6%8E%92%E6%9F%A5.html</link>
-      <guid>https://youze27.github.io/blog/response/windows%E5%85%A5%E4%BE%B5%E6%8E%92%E6%9F%A5.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">windows入侵排查</source>
+      <link>https://youze27.github.io/response/windows%E5%85%A5%E4%BE%B5%E6%8E%92%E6%9F%A5.html</link>
+      <guid>https://youze27.github.io/response/windows%E5%85%A5%E4%BE%B5%E6%8E%92%E6%9F%A5.html</guid>
+      <source url="https://youze27.github.io/rss.xml">windows入侵排查</source>
       <description>1、入侵特点 2、走哪里入侵 3、针对性的排查 主要关注：进程、账号、网络活动、启动项目、日志 1、口令、端口 检查：询问管理员、通过注册表；nmap扫描（或者询问管理员的资产台账中的端口信息） 如果能登录服务器： 2 可疑账号 计算机\HKEY_LOCAL_MACHINE\SAM\SAM\Domains\Account\Users\000003E9 ...</description>
       <category>应急响应</category>
       <pubDate>Fri, 18 Oct 2024 00:00:00 GMT</pubDate>
@@ -8027,9 +8027,9 @@ systemctl restart sshd			#service sshd restart</p>
     </item>
     <item>
       <title>windows安全加固</title>
-      <link>https://youze27.github.io/blog/response/windows%E5%AE%89%E5%85%A8%E5%8A%A0%E5%9B%BA.html</link>
-      <guid>https://youze27.github.io/blog/response/windows%E5%AE%89%E5%85%A8%E5%8A%A0%E5%9B%BA.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">windows安全加固</source>
+      <link>https://youze27.github.io/response/windows%E5%AE%89%E5%85%A8%E5%8A%A0%E5%9B%BA.html</link>
+      <guid>https://youze27.github.io/response/windows%E5%AE%89%E5%85%A8%E5%8A%A0%E5%9B%BA.html</guid>
+      <source url="https://youze27.github.io/rss.xml">windows安全加固</source>
       <description>计算机管理 本地用户和组 禁用账户 禁用guest（来宾用户） 删除其他用户（先核查再删除） ​image​ 图标有向下箭头标识被禁用。 ​image​ 不显示最后登录名 ​image​ 本地安全策略 ​image​ 账户策略 ​image​ 密码策略 密码最小长度限制 ​image​ 密码复杂度要求 ​image​ 密码留存时间 ​image​ 强制...</description>
       <category>应急响应</category>
       <pubDate>Mon, 14 Oct 2024 00:00:00 GMT</pubDate>
@@ -8126,9 +8126,9 @@ systemctl restart sshd			#service sshd restart</p>
     </item>
     <item>
       <title>windows日志ID速查</title>
-      <link>https://youze27.github.io/blog/response/windows%E6%97%A5%E5%BF%97ID%E9%80%9F%E6%9F%A5.html</link>
-      <guid>https://youze27.github.io/blog/response/windows%E6%97%A5%E5%BF%97ID%E9%80%9F%E6%9F%A5.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">windows日志ID速查</source>
+      <link>https://youze27.github.io/response/windows%E6%97%A5%E5%BF%97ID%E9%80%9F%E6%9F%A5.html</link>
+      <guid>https://youze27.github.io/response/windows%E6%97%A5%E5%BF%97ID%E9%80%9F%E6%9F%A5.html</guid>
+      <source url="https://youze27.github.io/rss.xml">windows日志ID速查</source>
       <description>WINDOWS日志事件ID速查表 类别:帐户管理 子类别:应用程序组管理 子类别:计算机帐户管理 子类别:通讯组管理 子类别:其他帐户管理事件 子类别:安全组管理 子类别:用户帐户管理 类别:详细跟踪 子类别:DPAPI 活动 子类别:进程创建 子类别: 进程终止 子类别:RPC 事件 类别:DS 访问 子类别:详细的目录服务复制 子类别:目录服务访问...</description>
       <category>应急响应</category>
       <pubDate>Mon, 14 Oct 2024 00:00:00 GMT</pubDate>
@@ -8994,9 +8994,9 @@ systemctl restart sshd			#service sshd restart</p>
     </item>
     <item>
       <title>中间件加固</title>
-      <link>https://youze27.github.io/blog/response/%E4%B8%AD%E9%97%B4%E4%BB%B6%E5%8A%A0%E5%9B%BA.html</link>
-      <guid>https://youze27.github.io/blog/response/%E4%B8%AD%E9%97%B4%E4%BB%B6%E5%8A%A0%E5%9B%BA.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">中间件加固</source>
+      <link>https://youze27.github.io/response/%E4%B8%AD%E9%97%B4%E4%BB%B6%E5%8A%A0%E5%9B%BA.html</link>
+      <guid>https://youze27.github.io/response/%E4%B8%AD%E9%97%B4%E4%BB%B6%E5%8A%A0%E5%9B%BA.html</guid>
+      <source url="https://youze27.github.io/rss.xml">中间件加固</source>
       <description>apache --httpd 配置文件路径:/etc/httpd/conf/httpd.conf 日志文件路径:/var/log/httpd 查看是否有apache账号 ​image​ 限制目录及子目录权限 chmod -R 600 /etc/httpd/ (目录下文件全为600) ​image​ 单独配置文件设置权限 chmod 600 /etc/h...</description>
       <category>应急响应</category>
       <pubDate>Mon, 14 Oct 2024 00:00:00 GMT</pubDate>
@@ -9081,9 +9081,9 @@ systemctl restart sshd			#service sshd restart</p>
     </item>
     <item>
       <title>数据库安全加固</title>
-      <link>https://youze27.github.io/blog/response/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AE%89%E5%85%A8%E5%8A%A0%E5%9B%BA.html</link>
-      <guid>https://youze27.github.io/blog/response/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AE%89%E5%85%A8%E5%8A%A0%E5%9B%BA.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">数据库安全加固</source>
+      <link>https://youze27.github.io/response/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AE%89%E5%85%A8%E5%8A%A0%E5%9B%BA.html</link>
+      <guid>https://youze27.github.io/response/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AE%89%E5%85%A8%E5%8A%A0%E5%9B%BA.html</guid>
+      <source url="https://youze27.github.io/rss.xml">数据库安全加固</source>
       <description>MySql安全加固 账号安全 配置文件 /etc/my.cnf配置文件默认路径，在文件mysqld下添加： vim /etc/my.cnf ​image​ 创建普通用户 创建一个名称为etsafe的账号，密码为123456，可以通过任意主机登录管理数据库 %表示我们用户可以通过任意主机登录，如果时localhost则是能使用本机登录 要更改root用户...</description>
       <category>应急响应</category>
       <pubDate>Mon, 14 Oct 2024 00:00:00 GMT</pubDate>
@@ -9179,9 +9179,9 @@ systemctl restart sshd			#service sshd restart</p>
     </item>
     <item>
       <title>学习PHP语法特性</title>
-      <link>https://youze27.github.io/blog/net/%E5%AD%A6%E4%B9%A0PHP%E8%AF%AD%E6%B3%95%E7%89%B9%E6%80%A7.html</link>
-      <guid>https://youze27.github.io/blog/net/%E5%AD%A6%E4%B9%A0PHP%E8%AF%AD%E6%B3%95%E7%89%B9%E6%80%A7.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">学习PHP语法特性</source>
+      <link>https://youze27.github.io/net/%E5%AD%A6%E4%B9%A0PHP%E8%AF%AD%E6%B3%95%E7%89%B9%E6%80%A7.html</link>
+      <guid>https://youze27.github.io/net/%E5%AD%A6%E4%B9%A0PHP%E8%AF%AD%E6%B3%95%E7%89%B9%E6%80%A7.html</guid>
+      <source url="https://youze27.github.io/rss.xml">学习PHP语法特性</source>
       <description>基本概念 在 服务器上运行的 脚本语言 后缀名为 .php​ 脚本可以在文档中任何位置 脚本以&amp;lt;?php开头，以 ?&amp;gt;​结尾 语句以分号 ;​结尾 最后一行语句的结尾没有分号 单行注释以//​或#​开头 多行注释以/* */​包围 变量规则 变量以$​开头后跟变量名称 变量可以是数字字母下划线​组成 变量名称不能以数字开头 PHP变量对大小写部分敏感 ...</description>
       <category>计网基础</category>
       <pubDate>Thu, 13 Apr 2023 00:00:00 GMT</pubDate>
@@ -9368,9 +9368,9 @@ systemctl restart sshd			#service sshd restart</p>
     </item>
     <item>
       <title>学习URL请求后的通信过程</title>
-      <link>https://youze27.github.io/blog/net/%E5%AD%A6%E4%B9%A0URL%E8%AF%B7%E6%B1%82%E5%90%8E%E7%9A%84%E9%80%9A%E4%BF%A1%E8%BF%87%E7%A8%8B.html</link>
-      <guid>https://youze27.github.io/blog/net/%E5%AD%A6%E4%B9%A0URL%E8%AF%B7%E6%B1%82%E5%90%8E%E7%9A%84%E9%80%9A%E4%BF%A1%E8%BF%87%E7%A8%8B.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">学习URL请求后的通信过程</source>
+      <link>https://youze27.github.io/net/%E5%AD%A6%E4%B9%A0URL%E8%AF%B7%E6%B1%82%E5%90%8E%E7%9A%84%E9%80%9A%E4%BF%A1%E8%BF%87%E7%A8%8B.html</link>
+      <guid>https://youze27.github.io/net/%E5%AD%A6%E4%B9%A0URL%E8%AF%B7%E6%B1%82%E5%90%8E%E7%9A%84%E9%80%9A%E4%BF%A1%E8%BF%87%E7%A8%8B.html</guid>
+      <source url="https://youze27.github.io/rss.xml">学习URL请求后的通信过程</source>
       <description>HTTP请求体详解 组成部分 ​image-20240830214813-q2kvklh​ GET、POST、PUT、OPYION的区别？ GET方法是在URL里传参有缓存、不安全，且有长度4096限制。 POST方法是在请求体里传参，无缓存、无长度限制、相对安全。 请求首部字段 首部字段名 说明 Accept 用户代理可处理的媒体类型 Accept-...</description>
       <category>计网基础</category>
       <pubDate>Wed, 25 Jan 2023 00:00:00 GMT</pubDate>
@@ -9486,9 +9486,9 @@ systemctl restart sshd			#service sshd restart</p>
     </item>
     <item>
       <title>学习Web Shell</title>
-      <link>https://youze27.github.io/blog/net/%E5%AD%A6%E4%B9%A0Web%20Shell.html</link>
-      <guid>https://youze27.github.io/blog/net/%E5%AD%A6%E4%B9%A0Web%20Shell.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">学习Web Shell</source>
+      <link>https://youze27.github.io/net/%E5%AD%A6%E4%B9%A0Web%20Shell.html</link>
+      <guid>https://youze27.github.io/net/%E5%AD%A6%E4%B9%A0Web%20Shell.html</guid>
+      <source url="https://youze27.github.io/rss.xml">学习Web Shell</source>
       <description>通过GET、POST、COOKIE这三种方式向一个网站提交数据 一句话木马用$ _GET[&amp;apos; &amp;apos;]、$ _POST[&amp;apos; &amp;apos;]、$ _COOKIE[&amp;apos; &amp;apos;] 、 $ _REQUEST[&amp;apos; &amp;apos;]接收传递的数据，并把接收的数据传递给一句话木马中代码执行的函数，进而执行命令。 一句话木马大多都是只有两个部分：执行代码的函数部分和接收数据的部分 PHP执行函数 ...</description>
       <category>计网基础</category>
       <pubDate>Thu, 14 Mar 2024 00:00:00 GMT</pubDate>
@@ -10172,9 +10172,9 @@ systemctl restart sshd			#service sshd restart</p>
     </item>
     <item>
       <title>学习python基础语法特性解题笔记</title>
-      <link>https://youze27.github.io/blog/net/%E5%AD%A6%E4%B9%A0python%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95%E7%89%B9%E6%80%A7%E8%A7%A3%E9%A2%98%E7%AC%94%E8%AE%B0.html</link>
-      <guid>https://youze27.github.io/blog/net/%E5%AD%A6%E4%B9%A0python%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95%E7%89%B9%E6%80%A7%E8%A7%A3%E9%A2%98%E7%AC%94%E8%AE%B0.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">学习python基础语法特性解题笔记</source>
+      <link>https://youze27.github.io/net/%E5%AD%A6%E4%B9%A0python%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95%E7%89%B9%E6%80%A7%E8%A7%A3%E9%A2%98%E7%AC%94%E8%AE%B0.html</link>
+      <guid>https://youze27.github.io/net/%E5%AD%A6%E4%B9%A0python%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95%E7%89%B9%E6%80%A7%E8%A7%A3%E9%A2%98%E7%AC%94%E8%AE%B0.html</guid>
+      <source url="https://youze27.github.io/rss.xml">学习python基础语法特性解题笔记</source>
       <description>使用输入函数input输入人的身高、体重。计算BMI值，并输出。 BMI=体重/身高的平方 List item已知温度转换的公式是 C=（F-32）/1.8F=C*1.8+32输入一个摄氏温度以C或c结尾,转换成华氏温度。输入一个华氏温度以F或f结尾,转换成摄氏温度。 使用range函数生成1到100（包含100）之间的偶数数列。使用range函数生成...</description>
       <category>计网基础</category>
       <pubDate>Sun, 10 Dec 2023 00:00:00 GMT</pubDate>
@@ -10346,9 +10346,9 @@ True</p>
     </item>
     <item>
       <title>CSRF</title>
-      <link>https://youze27.github.io/blog/perm/CSRF%E6%BC%8F%E6%B4%9E.html</link>
-      <guid>https://youze27.github.io/blog/perm/CSRF%E6%BC%8F%E6%B4%9E.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">CSRF</source>
+      <link>https://youze27.github.io/perm/CSRF%E6%BC%8F%E6%B4%9E.html</link>
+      <guid>https://youze27.github.io/perm/CSRF%E6%BC%8F%E6%B4%9E.html</guid>
+      <source url="https://youze27.github.io/rss.xml">CSRF</source>
       <description>跨站请求伪造(Cross-site request forgery,CSRF)是一种攻击，它强制终端用户在当前对其进行&amp;lt;span data-type=&amp;quot;text&amp;quot; style=&amp;quot;color: var(--b3-font-color9);&amp;quot;&amp;gt;身份验证后的Web应用程序 上执行非本意的操作&amp;lt;span&amp;gt;。CSRF攻击的着重点在伪造更改状态的请求，而不是盗取数...</description>
       <category>渗透测试</category>
       <pubDate>Sat, 25 Mar 2023 00:00:00 GMT</pubDate>
@@ -10489,9 +10489,9 @@ jsonp只能get请求。CORS允许浏览器向跨域服务器发出XMLHttpRequest
     </item>
     <item>
       <title>Linux权限维持</title>
-      <link>https://youze27.github.io/blog/perm/Linux%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81.html</link>
-      <guid>https://youze27.github.io/blog/perm/Linux%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">Linux权限维持</source>
+      <link>https://youze27.github.io/perm/Linux%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81.html</link>
+      <guid>https://youze27.github.io/perm/Linux%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81.html</guid>
+      <source url="https://youze27.github.io/rss.xml">Linux权限维持</source>
       <description>ssh公钥免密后门 公钥私钥原理概述 公钥和私钥同时生成，公钥用于加密，私钥用于解密。公钥可以有很多人持有，但是私钥只能自己持有，在ssh服务中，将客户端生成的ssh公钥写到目标服务器的 ~/.ssh/authorized keys中,之后客户端利用私钥完成认证即可登录 该后门比较容易被发现(查看/root/.ssh/有几个公钥)。 ★ ssh连接，对...</description>
       <category>渗透测试</category>
       <pubDate>Fri, 01 Sep 2023 00:00:00 GMT</pubDate>
@@ -10645,9 +10645,9 @@ jsonp只能get请求。CORS允许浏览器向跨域服务器发出XMLHttpRequest
     </item>
     <item>
       <title>Linux系统提权</title>
-      <link>https://youze27.github.io/blog/perm/Linux%E7%B3%BB%E7%BB%9F%E6%8F%90%E6%9D%83.html</link>
-      <guid>https://youze27.github.io/blog/perm/Linux%E7%B3%BB%E7%BB%9F%E6%8F%90%E6%9D%83.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">Linux系统提权</source>
+      <link>https://youze27.github.io/perm/Linux%E7%B3%BB%E7%BB%9F%E6%8F%90%E6%9D%83.html</link>
+      <guid>https://youze27.github.io/perm/Linux%E7%B3%BB%E7%BB%9F%E6%8F%90%E6%9D%83.html</guid>
+      <source url="https://youze27.github.io/rss.xml">Linux系统提权</source>
       <description>Liux安装好系统后里面自带的软件或内核存在的漏洞，比较流行的有“脏牛提权” Linux内核提权跟Windows一样，都要下载对应漏洞的脚本进行提权 步骤 1.基础信息收集 uname -a 打印所有可用的系统信息 uname -r 内核版本 uname -m 查看系统内核架构(64/32位) cat /proc/version 内核信息 cat /e...</description>
       <category>渗透测试</category>
       <pubDate>Tue, 12 Sep 2023 00:00:00 GMT</pubDate>
@@ -10988,9 +10988,9 @@ exp下载链接：<a href="https://github.com/SecWiki/linux-kernel-exploits" tit
     </item>
     <item>
       <title>PHP代码审计</title>
-      <link>https://youze27.github.io/blog/perm/PHP%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1.html</link>
-      <guid>https://youze27.github.io/blog/perm/PHP%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">PHP代码审计</source>
+      <link>https://youze27.github.io/perm/PHP%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1.html</link>
+      <guid>https://youze27.github.io/perm/PHP%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1.html</guid>
+      <source url="https://youze27.github.io/rss.xml">PHP代码审计</source>
       <description>PHP代码审计 靶场 VAuditDemo 安装漏洞 ​image​ ​image​ ​image​ ​image​ ​image​ ​image​ 由此可发现，用户前端连接数据库的代码没有进行特殊字符过滤就传入文件操作。所以存在安装漏洞。 ​image​ 这条语句 dbname=ssss--- -&amp;quot;;phpinfo();//​ 除了会出现在php页面...</description>
       <category>渗透测试</category>
       <pubDate>Mon, 18 Sep 2023 00:00:00 GMT</pubDate>
@@ -11010,9 +11010,9 @@ exp下载链接：<a href="https://github.com/SecWiki/linux-kernel-exploits" tit
     </item>
     <item>
       <title>XSS-lab</title>
-      <link>https://youze27.github.io/blog/perm/XSS-lab.html</link>
-      <guid>https://youze27.github.io/blog/perm/XSS-lab.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">XSS-lab</source>
+      <link>https://youze27.github.io/perm/XSS-lab.html</link>
+      <guid>https://youze27.github.io/perm/XSS-lab.html</guid>
+      <source url="https://youze27.github.io/rss.xml">XSS-lab</source>
       <description>XSS-lab实验 level1 payload： 解析：观察URL发现是GET传参并写入H2里，所以闭合H2标签写js就可。 level2 观察发现值在value ​image​ payload： 解析：点击输入框后触发事件 level3 查看值在value ​image​ 输入的&amp;gt;被实体化 ​image​ payload： ​image​ leve...</description>
       <category>渗透测试</category>
       <pubDate>Wed, 15 Feb 2023 00:00:00 GMT</pubDate>
@@ -11156,9 +11156,9 @@ exp下载链接：<a href="https://github.com/SecWiki/linux-kernel-exploits" tit
     </item>
     <item>
       <title>XSS实验</title>
-      <link>https://youze27.github.io/blog/perm/XSS%E5%AE%9E%E9%AA%8C.html</link>
-      <guid>https://youze27.github.io/blog/perm/XSS%E5%AE%9E%E9%AA%8C.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">XSS实验</source>
+      <link>https://youze27.github.io/perm/XSS%E5%AE%9E%E9%AA%8C.html</link>
+      <guid>https://youze27.github.io/perm/XSS%E5%AE%9E%E9%AA%8C.html</guid>
+      <source url="https://youze27.github.io/rss.xml">XSS实验</source>
       <description>XSS实验 通过存储型XSS获取被攻击者的cookie 首先，搞清楚原理，cookie在哪里？要发到那里？利用什么发？​3165839-20230505102219883-856345275​ 在web server 端构造如下payload payload提交后javascript脚本操纵DOM对象写入img标签，并且标签的url中拼接了用户的coo...</description>
       <category>渗透测试</category>
       <pubDate>Fri, 10 Feb 2023 00:00:00 GMT</pubDate>
@@ -11360,9 +11360,9 @@ exp下载链接：<a href="https://github.com/SecWiki/linux-kernel-exploits" tit
     </item>
     <item>
       <title>XXE&amp;SSRF</title>
-      <link>https://youze27.github.io/blog/perm/XXE_SSRF.html</link>
-      <guid>https://youze27.github.io/blog/perm/XXE_SSRF.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">XXE&amp;SSRF</source>
+      <link>https://youze27.github.io/perm/XXE_SSRF.html</link>
+      <guid>https://youze27.github.io/perm/XXE_SSRF.html</guid>
+      <source url="https://youze27.github.io/rss.xml">XXE&amp;SSRF</source>
       <description>XXE&amp;SSRF XXE 漏洞复现 XXE读文件 打开xxe_Lab for PHP的靶场，抓包。​image​ 判断是否有XXE注入漏洞 1、判定是否使用了xml进行数据传递 标签、Accept: application/xml, text/xml 2、确定是否有回显位置，或无回显，下图有回显。​ image​ 写入payload。 ​image​ ...</description>
       <category>渗透测试</category>
       <pubDate>Tue, 28 Mar 2023 00:00:00 GMT</pubDate>
@@ -11611,9 +11611,9 @@ exp下载链接：<a href="https://github.com/SecWiki/linux-kernel-exploits" tit
     </item>
     <item>
       <title>java环境配置</title>
-      <link>https://youze27.github.io/blog/perm/java%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE.html</link>
-      <guid>https://youze27.github.io/blog/perm/java%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">java环境配置</source>
+      <link>https://youze27.github.io/perm/java%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE.html</link>
+      <guid>https://youze27.github.io/perm/java%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE.html</guid>
+      <source url="https://youze27.github.io/rss.xml">java环境配置</source>
       <description>java环境配置 windows Linux见： Linux centos7 java环境配置 JRE8安装目录为C:\Program Files\Java\jre1.8.0_221 ​image​ 打开环境变量的步骤： 点击开始，右键选中我的电脑，点击属性--&amp;gt;高级系统设置--&amp;gt;高级--&amp;gt;环境变量--&amp;gt;系统变量。 1、设置JAVA_HOME JAVA...</description>
       <category>渗透测试</category>
       <pubDate>Mon, 18 Dec 2023 00:00:00 GMT</pubDate>
@@ -11642,9 +11642,9 @@ exp下载链接：<a href="https://github.com/SecWiki/linux-kernel-exploits" tit
     </item>
     <item>
       <title>upload-labs</title>
-      <link>https://youze27.github.io/blog/perm/upload-labs.html</link>
-      <guid>https://youze27.github.io/blog/perm/upload-labs.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">upload-labs</source>
+      <link>https://youze27.github.io/perm/upload-labs.html</link>
+      <guid>https://youze27.github.io/perm/upload-labs.html</guid>
+      <source url="https://youze27.github.io/rss.xml">upload-labs</source>
       <description>upload-labs靶场实验 Pass-1 上传合法文件，文件写入一句话木马。 ​image-20240903153114-u9pl0gm​ 代理修改文件名，绕过前端检测。 ​image-20240903153359-nys7v1h​ 上传成功访问。 ​image-20240903153756-rg3mcmg​ 或者直接删除检测的函数​​ ​imag...</description>
       <category>渗透测试</category>
       <pubDate>Tue, 16 May 2023 00:00:00 GMT</pubDate>
@@ -11776,9 +11776,9 @@ AddType application/x-httpd-php .php .phtml .php5 php3</p>
     </item>
     <item>
       <title>windows权限维持</title>
-      <link>https://youze27.github.io/blog/perm/windows%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81.html</link>
-      <guid>https://youze27.github.io/blog/perm/windows%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">windows权限维持</source>
+      <link>https://youze27.github.io/perm/windows%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81.html</link>
+      <guid>https://youze27.github.io/perm/windows%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81.html</guid>
+      <source url="https://youze27.github.io/rss.xml">windows权限维持</source>
       <description>php 不死马权限维持、映像劫持技术、策 略组脚本维持、shift 后门、建立影子账 号、power shell 配置文件后门、Monitor 权限维持、利用安全描述符隐藏服务后门 进行权限维持、iis 后门、window 隐藏技 术、驱动级文件隐藏 shift后门(shift backdoor) 绕过安全控制措施获取对程序或系统访问权限的方法。后门是...</description>
       <category>渗透测试</category>
       <pubDate>Wed, 20 Sep 2023 00:00:00 GMT</pubDate>
@@ -11917,9 +11917,9 @@ AddType application/x-httpd-php .php .phtml .php5 php3</p>
     </item>
     <item>
       <title>windows系统提权</title>
-      <link>https://youze27.github.io/blog/perm/windows%E7%B3%BB%E7%BB%9F%E6%8F%90%E6%9D%83.html</link>
-      <guid>https://youze27.github.io/blog/perm/windows%E7%B3%BB%E7%BB%9F%E6%8F%90%E6%9D%83.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">windows系统提权</source>
+      <link>https://youze27.github.io/perm/windows%E7%B3%BB%E7%BB%9F%E6%8F%90%E6%9D%83.html</link>
+      <guid>https://youze27.github.io/perm/windows%E7%B3%BB%E7%BB%9F%E6%8F%90%E6%9D%83.html</guid>
+      <source url="https://youze27.github.io/rss.xml">windows系统提权</source>
       <description>windows提权分类 1.系统漏洞提权(Linux、Windows)内核提权 3.第三方软件/服务提权 2.数据库提权 4.系统配置错误提权 windows提权概述 提权，顾名思义就是提升权限，当我们getshell一个网站之后，大部分情况下我们的权限是非常低的,这时就需要利用提权，让原本的低权限（如只允许列目录）→高权限（拥有修改文件的能力）权限提...</description>
       <category>渗透测试</category>
       <pubDate>Mon, 23 Sep 2024 00:00:00 GMT</pubDate>
@@ -12178,9 +12178,9 @@ user--&gt;Root</p>
     </item>
     <item>
       <title>命令执行和反序列化</title>
-      <link>https://youze27.github.io/blog/perm/%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C%E5%92%8C%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96.html</link>
-      <guid>https://youze27.github.io/blog/perm/%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C%E5%92%8C%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">命令执行和反序列化</source>
+      <link>https://youze27.github.io/perm/%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C%E5%92%8C%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96.html</link>
+      <guid>https://youze27.github.io/perm/%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C%E5%92%8C%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96.html</guid>
+      <source url="https://youze27.github.io/rss.xml">命令执行和反序列化</source>
       <description>目标： 1、熟悉整理命令执行漏洞各函数的使用方法和条件，总结命令执行漏洞的利用方法。 2、熟悉PHP反序列化漏洞魔法函数的触发过程，了解pop链的拓展内容后，完成ctf.php 命令执行函数使用条件 在PHP.ini文件中没有被禁用 将上方PHP需要使用的函数删除即可，否则： ​image​ 解禁后即可执行。 ​image​ 命令执行漏洞的本质 应用有...</description>
       <category>渗透测试</category>
       <pubDate>Sun, 09 Jul 2023 00:00:00 GMT</pubDate>
@@ -12309,9 +12309,9 @@ user--&gt;Root</p>
     </item>
     <item>
       <title>文件上传</title>
-      <link>https://youze27.github.io/blog/perm/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0.html</link>
-      <guid>https://youze27.github.io/blog/perm/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">文件上传</source>
+      <link>https://youze27.github.io/perm/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0.html</link>
+      <guid>https://youze27.github.io/perm/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0.html</guid>
+      <source url="https://youze27.github.io/rss.xml">文件上传</source>
       <description>文件上传 什么是文件上传漏洞？ 文件上传漏洞是指程序员在开发任意文件上传功能时，并未考虑文件格式后缀的合法性校验或者是只考虑在前端通过js进行 后缀检验。这时攻击者可以上传一个与网站脚本语言相对应的恶意代码动态脚本，例如（jsp、asp、php、aspx文件后缀）到 服务器上，从而攻击者访问这些恶意脚本对包含的恶意代码动态解析最终达到执行恶意代码的效果...</description>
       <category>渗透测试</category>
       <pubDate>Fri, 17 Mar 2023 00:00:00 GMT</pubDate>
@@ -12431,9 +12431,9 @@ user--&gt;Root</p>
     </item>
     <item>
       <title>框架漏洞</title>
-      <link>https://youze27.github.io/blog/perm/%E6%A1%86%E6%9E%B6%E6%BC%8F%E6%B4%9E.html</link>
-      <guid>https://youze27.github.io/blog/perm/%E6%A1%86%E6%9E%B6%E6%BC%8F%E6%B4%9E.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">框架漏洞</source>
+      <link>https://youze27.github.io/perm/%E6%A1%86%E6%9E%B6%E6%BC%8F%E6%B4%9E.html</link>
+      <guid>https://youze27.github.io/perm/%E6%A1%86%E6%9E%B6%E6%BC%8F%E6%B4%9E.html</guid>
+      <source url="https://youze27.github.io/rss.xml">框架漏洞</source>
       <description>ThinkPHP ThinkPHP5 5.0.23 Remote Code Execution Vulnerability 其5.0.23以前的版本中，获取method的方法中没有正确处理方法名，导致攻击者可以调用Request类任意方法并构造利用链，从而导致远程代码执行漏洞。 访问页面 ​1​ 修改为POST 路径写为?s=captcha,, 多次B...</description>
       <category>渗透测试</category>
       <pubDate>Fri, 12 May 2023 00:00:00 GMT</pubDate>
@@ -12443,9 +12443,9 @@ user--&gt;Root</p>
     </item>
     <item>
       <title>逻辑漏洞</title>
-      <link>https://youze27.github.io/blog/perm/%E9%80%BB%E8%BE%91%E6%BC%8F%E6%B4%9E.html</link>
-      <guid>https://youze27.github.io/blog/perm/%E9%80%BB%E8%BE%91%E6%BC%8F%E6%B4%9E.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">逻辑漏洞</source>
+      <link>https://youze27.github.io/perm/%E9%80%BB%E8%BE%91%E6%BC%8F%E6%B4%9E.html</link>
+      <guid>https://youze27.github.io/perm/%E9%80%BB%E8%BE%91%E6%BC%8F%E6%B4%9E.html</guid>
+      <source url="https://youze27.github.io/rss.xml">逻辑漏洞</source>
       <description>身份认证安全 绕过方法 暴力破解 撞库 cookie伪造、session 修复方法 增加验证码 限制登录频率 二次验证 使用session会话认证避免cookie仿冒。 每次登录重新生成swssion session闲置超时退出。 任意密码找回 密码找回的方法 用户凭证暴力破解 原理：凭证只有验证码且时间次数限制条件弱 方法：抓包-爆破 返回凭证 原理...</description>
       <category>渗透测试</category>
       <pubDate>Fri, 09 Jun 2023 00:00:00 GMT</pubDate>
@@ -12662,9 +12662,9 @@ user--&gt;Root</p>
     </item>
     <item>
       <title>学习Mysql基础知识</title>
-      <link>https://youze27.github.io/blog/net/%E5%AD%A6%E4%B9%A0Mysql%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.html</link>
-      <guid>https://youze27.github.io/blog/net/%E5%AD%A6%E4%B9%A0Mysql%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">学习Mysql基础知识</source>
+      <link>https://youze27.github.io/net/%E5%AD%A6%E4%B9%A0Mysql%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.html</link>
+      <guid>https://youze27.github.io/net/%E5%AD%A6%E4%B9%A0Mysql%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.html</guid>
+      <source url="https://youze27.github.io/rss.xml">学习Mysql基础知识</source>
       <description>MySQL环境 Windows 下检查是否安装：mysql 注册 MySQL 为系统服务 开机自启 mysqld install 初始化数据库：mysqld --initialize-insecure 启动 mysql 服务：net start mysql 停止 mysql 服务：net stop mysql 修改默认账户密码：mysqladmin -...</description>
       <category>计网基础</category>
       <pubDate>Sun, 12 Nov 2023 00:00:00 GMT</pubDate>
@@ -12694,9 +12694,9 @@ user--&gt;Root</p>
     </item>
     <item>
       <title>学习git版本控制工具的概念与命令</title>
-      <link>https://youze27.github.io/blog/net/%E5%AD%A6%E4%B9%A0git%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6%E5%B7%A5%E5%85%B7%E7%9A%84%E6%A6%82%E5%BF%B5%E4%B8%8E%E5%91%BD%E4%BB%A4.html</link>
-      <guid>https://youze27.github.io/blog/net/%E5%AD%A6%E4%B9%A0git%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6%E5%B7%A5%E5%85%B7%E7%9A%84%E6%A6%82%E5%BF%B5%E4%B8%8E%E5%91%BD%E4%BB%A4.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">学习git版本控制工具的概念与命令</source>
+      <link>https://youze27.github.io/net/%E5%AD%A6%E4%B9%A0git%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6%E5%B7%A5%E5%85%B7%E7%9A%84%E6%A6%82%E5%BF%B5%E4%B8%8E%E5%91%BD%E4%BB%A4.html</link>
+      <guid>https://youze27.github.io/net/%E5%AD%A6%E4%B9%A0git%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6%E5%B7%A5%E5%85%B7%E7%9A%84%E6%A6%82%E5%BF%B5%E4%B8%8E%E5%91%BD%E4%BB%A4.html</guid>
+      <source url="https://youze27.github.io/rss.xml">学习git版本控制工具的概念与命令</source>
       <description>ssh密钥设置方法 windows 打开命令提示符（CMD）或PowerShell。 输入命令ssh-keygen。这个命令会启动密钥生成过程。默认情况下，它会生成一个RSA密钥对。 系统会提示你输入密钥的保存位置。如果你直接回车，密钥将保存在用户主目录下的.ssh文件夹中。 接下来，系统会提示你输入一个密码（passphrase）。这个密码用于保护你...</description>
       <category>计网基础</category>
       <pubDate>Fri, 12 Apr 2024 00:00:00 GMT</pubDate>
@@ -12861,9 +12861,9 @@ git config --global user.email 'xxx@163.com'</p>
     </item>
     <item>
       <title>FOFA</title>
-      <link>https://youze27.github.io/blog/perm/FOFA%E8%AF%AD%E6%B3%95.html</link>
-      <guid>https://youze27.github.io/blog/perm/FOFA%E8%AF%AD%E6%B3%95.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">FOFA</source>
+      <link>https://youze27.github.io/perm/FOFA%E8%AF%AD%E6%B3%95.html</link>
+      <guid>https://youze27.github.io/perm/FOFA%E8%AF%AD%E6%B3%95.html</guid>
+      <source url="https://youze27.github.io/rss.xml">FOFA</source>
       <description>高级搜索 关于建站软件的搜索语法请参考：组件列表 基础类（General） 标记类（Special Label） 协议类 (type=service) 网站类（type=subdomain） 地理位置 证书类 | 时间类（Last update time） | | | | | | | 独立IP语法（独立IP系列语法，不可和上面其他语法共用） | | |...</description>
       <category>渗透测试</category>
       <pubDate>Tue, 10 Jan 2023 00:00:00 GMT</pubDate>
@@ -12874,9 +12874,9 @@ git config --global user.email 'xxx@163.com'</p>
     </item>
     <item>
       <title>Google Hacking</title>
-      <link>https://youze27.github.io/blog/perm/Google%20Hacking.html</link>
-      <guid>https://youze27.github.io/blog/perm/Google%20Hacking.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">Google Hacking</source>
+      <link>https://youze27.github.io/perm/Google%20Hacking.html</link>
+      <guid>https://youze27.github.io/perm/Google%20Hacking.html</guid>
+      <source url="https://youze27.github.io/rss.xml">Google Hacking</source>
       <description>一、基础语法 加号（“+”）：加号表示强制搜索，即搜索结果中必须包含加号后面的内容。例如，“谷歌 +搜索引擎”会搜索到同时包含“谷歌”和“搜索引擎”的结果。 减号（“-”）：减号表示排除搜索，即搜索结果中不包含减号后面的内容。例如，“谷歌 -搜索引擎”会搜索到包含“谷歌”但不包含“搜索引擎”的结果。 波浪号（“~”）：波浪号表示搜索同义词或近义词，从而...</description>
       <category>渗透测试</category>
       <pubDate>Thu, 23 Feb 2023 00:00:00 GMT</pubDate>
@@ -12909,9 +12909,9 @@ git config --global user.email 'xxx@163.com'</p>
     </item>
     <item>
       <title>MSSQL注入复盘</title>
-      <link>https://youze27.github.io/blog/perm/MSSql%E6%B3%A8%E5%85%A5%E5%A4%8D%E7%9B%98.html</link>
-      <guid>https://youze27.github.io/blog/perm/MSSql%E6%B3%A8%E5%85%A5%E5%A4%8D%E7%9B%98.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">MSSQL注入复盘</source>
+      <link>https://youze27.github.io/perm/MSSql%E6%B3%A8%E5%85%A5%E5%A4%8D%E7%9B%98.html</link>
+      <guid>https://youze27.github.io/perm/MSSql%E6%B3%A8%E5%85%A5%E5%A4%8D%E7%9B%98.html</guid>
+      <source url="https://youze27.github.io/rss.xml">MSSQL注入复盘</source>
       <description>MSSql MSSql是指微软的SQLServer数据库服务器，它是一个数据库平台，提供数据库的从服务器到终端的完整的解决方案，其 中数据库服务器部分，是一个数据库管理系统，用于建立、使用和维护数据库。SQL Server默认开放的端口是TCP1433。 渗透角度介绍MSSql Microsoft SQL Sever分为很多个版本，随着版本的不断升级安...</description>
       <category>渗透测试</category>
       <pubDate>Wed, 06 Sep 2023 00:00:00 GMT</pubDate>
@@ -12973,9 +12973,9 @@ SQL Server的心脏和灵魂。</p>
     </item>
     <item>
       <title>MySQL注入复盘</title>
-      <link>https://youze27.github.io/blog/perm/MySQL%E6%B3%A8%E5%85%A5%E5%A4%8D%E7%9B%98.html</link>
-      <guid>https://youze27.github.io/blog/perm/MySQL%E6%B3%A8%E5%85%A5%E5%A4%8D%E7%9B%98.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">MySQL注入复盘</source>
+      <link>https://youze27.github.io/perm/MySQL%E6%B3%A8%E5%85%A5%E5%A4%8D%E7%9B%98.html</link>
+      <guid>https://youze27.github.io/perm/MySQL%E6%B3%A8%E5%85%A5%E5%A4%8D%E7%9B%98.html</guid>
+      <source url="https://youze27.github.io/rss.xml">MySQL注入复盘</source>
       <description>注入原理 前端输入用户数据未被检测或过滤就直接带入数据库执行，造成SQL漏洞。 SQL注入条件 用户能控制输入的内容 用户输入的数据未被检测或过滤就带入数据库执行。 漏洞利用 获取数据库数据 读文件 load_file 获取系统shell，执行命令。 写webshell，控制网站。 查询用户的密码，连接到mysql数据库中。 注入分类 请求分类：GET...</description>
       <category>渗透测试</category>
       <pubDate>Mon, 02 Sep 2024 00:00:00 GMT</pubDate>
@@ -13537,9 +13537,9 @@ sq语句中，单引号不再具有作用”，仅仅是'内容'而已。这个�
     </item>
     <item>
       <title>信息收集方法及流程</title>
-      <link>https://youze27.github.io/blog/perm/%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86%E6%96%B9%E6%B3%95%E5%8F%8A%E6%B5%81%E7%A8%8B.html</link>
-      <guid>https://youze27.github.io/blog/perm/%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86%E6%96%B9%E6%B3%95%E5%8F%8A%E6%B5%81%E7%A8%8B.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">信息收集方法及流程</source>
+      <link>https://youze27.github.io/perm/%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86%E6%96%B9%E6%B3%95%E5%8F%8A%E6%B5%81%E7%A8%8B.html</link>
+      <guid>https://youze27.github.io/perm/%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86%E6%96%B9%E6%B3%95%E5%8F%8A%E6%B5%81%E7%A8%8B.html</guid>
+      <source url="https://youze27.github.io/rss.xml">信息收集方法及流程</source>
       <description>信息收集概念 信息收集是指通过各种方式获取所需要的信息，以便我们在后续的渗透过程更好的进行。因为只有我们掌握了目标网站或目标，主机足够多的信息之后，我们才能更好地对其进行漏洞检测。 渗透测试流程 外网信息收集——&amp;gt;打点——&amp;gt;权限维持——&amp;gt;提权——&amp;gt;内网信息收集——&amp;gt;横向移动——&amp;gt;痕迹清理 打点关键资产数据信息： 找出网站真实IP，挖掘相邻网段、绕过安全...</description>
       <category>信息收集</category>
       <pubDate>Sat, 11 Jan 2025 11:23:43 GMT</pubDate>
@@ -13564,23 +13564,23 @@ sq语句中，单引号不再具有作用”，仅仅是'内容'而已。这个�
     </item>
     <item>
       <title>开发运维</title>
-      <link>https://youze27.github.io/blog/net/</link>
-      <guid>https://youze27.github.io/blog/net/</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">开发运维</source>
+      <link>https://youze27.github.io/net/</link>
+      <guid>https://youze27.github.io/net/</guid>
+      <source url="https://youze27.github.io/rss.xml">开发运维</source>
       <pubDate>Fri, 10 Jan 2025 03:24:15 GMT</pubDate>
     </item>
     <item>
       <title>攻防对抗</title>
-      <link>https://youze27.github.io/blog/perm/</link>
-      <guid>https://youze27.github.io/blog/perm/</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">攻防对抗</source>
+      <link>https://youze27.github.io/perm/</link>
+      <guid>https://youze27.github.io/perm/</guid>
+      <source url="https://youze27.github.io/rss.xml">攻防对抗</source>
       <pubDate>Fri, 10 Jan 2025 03:24:15 GMT</pubDate>
     </item>
     <item>
       <title>小程序代理及反编译</title>
-      <link>https://youze27.github.io/blog/perm/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%BB%A3%E7%90%86%E5%8F%8A%E5%8F%8D%E7%BC%96%E8%AF%91.html</link>
-      <guid>https://youze27.github.io/blog/perm/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%BB%A3%E7%90%86%E5%8F%8A%E5%8F%8D%E7%BC%96%E8%AF%91.html</guid>
-      <source url="https://youze27.github.io/blog/rss.xml">小程序代理及反编译</source>
+      <link>https://youze27.github.io/perm/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%BB%A3%E7%90%86%E5%8F%8A%E5%8F%8D%E7%BC%96%E8%AF%91.html</link>
+      <guid>https://youze27.github.io/perm/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%BB%A3%E7%90%86%E5%8F%8A%E5%8F%8D%E7%BC%96%E8%AF%91.html</guid>
+      <source url="https://youze27.github.io/rss.xml">小程序代理及反编译</source>
       <description>小程序代理及反编译 环境： 物理机：172.20.10.3 模拟器：172.20.10.4 模拟器设置代理 imageimage 物理机即可接收到数据 imageimage imageimage 移动端APP渗透通过Postern App 代理抓取流量 App拖到模拟器安装 配置代理规则 imageimage 打开VPN imageimage 设置代理...</description>
       <category>渗透测试</category>
       <pubDate>Thu, 09 Jan 2025 21:24:41 GMT</pubDate>

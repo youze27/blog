@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://youze27.github.io/blog/atom.xsl"?>
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://youze27.github.io/atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
-  <id>https://youze27.github.io/blog/</id>
+  <id>https://youze27.github.io/</id>
   <title>卷卷</title>
   <subtitle>网络安全知识库</subtitle>
-  <icon>https://youze27.github.io/blog/assets/favicon.ico</icon>
-  <updated>2025-12-27T13:53:46.420Z</updated>
+  <icon>https://youze27.github.io/assets/favicon.ico</icon>
+  <updated>2025-12-31T07:00:53.780Z</updated>
   <generator>@vuepress/plugin-feed</generator>
-  <link rel="self" href="https://youze27.github.io/blog/atom.xml"/>
-  <link rel="alternate" href="https://youze27.github.io/blog/"/>
+  <link rel="self" href="https://youze27.github.io/atom.xml"/>
+  <link rel="alternate" href="https://youze27.github.io/"/>
   <category term="C++"/>
   <category term="年度回顾"/>
   <category term="AI对话笔记"/>
@@ -26,8 +26,8 @@
   <category term="信息收集"/>
   <entry>
     <title type="text">C++开发环境配置与程序运行笔记</title>
-    <id>https://youze27.github.io/blog/reverse/C__%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E4%B8%8E%E8%BF%90%E8%A1%8C%E7%AC%94%E8%AE%B0.html</id>
-    <link href="https://youze27.github.io/blog/reverse/C__%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E4%B8%8E%E8%BF%90%E8%A1%8C%E7%AC%94%E8%AE%B0.html"/>
+    <id>https://youze27.github.io/reverse/C__%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E4%B8%8E%E8%BF%90%E8%A1%8C%E7%AC%94%E8%AE%B0.html</id>
+    <link href="https://youze27.github.io/reverse/C__%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E4%B8%8E%E8%BF%90%E8%A1%8C%E7%AC%94%E8%AE%B0.html"/>
     <updated>2025-12-25T16:32:28.000Z</updated>
     <summary type="html"><![CDATA[<h2>一、完整配置步骤</h2>
 <h3>1. 安装开发工具包</h3>
@@ -151,8 +151,8 @@
   </entry>
   <entry>
     <title type="text">IDA Free调试Hello World笔记</title>
-    <id>https://youze27.github.io/blog/reverse/IDA%20Free%E8%B0%83%E8%AF%95Hello_World%E7%AC%94%E8%AE%B0.html</id>
-    <link href="https://youze27.github.io/blog/reverse/IDA%20Free%E8%B0%83%E8%AF%95Hello_World%E7%AC%94%E8%AE%B0.html"/>
+    <id>https://youze27.github.io/reverse/IDA%20Free%E8%B0%83%E8%AF%95Hello_World%E7%AC%94%E8%AE%B0.html</id>
+    <link href="https://youze27.github.io/reverse/IDA%20Free%E8%B0%83%E8%AF%95Hello_World%E7%AC%94%E8%AE%B0.html"/>
     <updated>2025-12-25T16:32:28.000Z</updated>
     <summary type="html"><![CDATA[<h2>一、C++源代码与IDA伪代码对比</h2>
 <h3>1. C++源代码</h3>
@@ -211,8 +211,8 @@
   </entry>
   <entry>
     <title type="text">2025年度回顾</title>
-    <id>https://youze27.github.io/blog/com/life/2025%E5%B9%B4%E5%BA%A6%E5%9B%9E%E9%A1%BE.html</id>
-    <link href="https://youze27.github.io/blog/com/life/2025%E5%B9%B4%E5%BA%A6%E5%9B%9E%E9%A1%BE.html"/>
+    <id>https://youze27.github.io/com/life/2025%E5%B9%B4%E5%BA%A6%E5%9B%9E%E9%A1%BE.html</id>
+    <link href="https://youze27.github.io/com/life/2025%E5%B9%B4%E5%BA%A6%E5%9B%9E%E9%A1%BE.html"/>
     <updated>2025-12-25T16:32:28.000Z</updated>
     <summary type="html"><![CDATA[<p>2025年12月25日<br>
 时间过得很快，又到年底了。事情从24年底说起，12月份和1月份是在曲靖度过的。当时是渗透工作，生活很混沌，作息也不是很规律。但好歹找到了工作。且和专业对口，能发挥出我学习的价值。年底找工作本来就困难。并且又不得不。刚出来工作，难免有些不适应。天气很冷，就和这行业一样。</p>
@@ -242,8 +242,8 @@
   </entry>
   <entry>
     <title type="text">Admin.canway账号命名方式</title>
-    <id>https://youze27.github.io/blog/ai/Admin.canway%E8%B4%A6%E5%8F%B7%E5%91%BD%E5%90%8D%E6%96%B9%E5%BC%8F.html</id>
-    <link href="https://youze27.github.io/blog/ai/Admin.canway%E8%B4%A6%E5%8F%B7%E5%91%BD%E5%90%8D%E6%96%B9%E5%BC%8F.html"/>
+    <id>https://youze27.github.io/ai/Admin.canway%E8%B4%A6%E5%8F%B7%E5%91%BD%E5%90%8D%E6%96%B9%E5%BC%8F.html</id>
+    <link href="https://youze27.github.io/ai/Admin.canway%E8%B4%A6%E5%8F%B7%E5%91%BD%E5%90%8D%E6%96%B9%E5%BC%8F.html"/>
     <updated>2025-12-20T08:26:40.000Z</updated>
     <summary type="html"><![CDATA[<p>​<strong>​<code>Admin.canway</code>这种以点（​<code>.</code>）为分隔符的命名方式，主要源于企业内部的命名约定和最佳实践，目的是为了提高可读性、组织性和自动化管理的便利性。它并不是微软官方的强制性要求，但被全球众多遵循严格IT治理的企业广泛采用，与微软平台的功能高度契合。</strong></p>
 <h3>1. 来源与演变</h3>
@@ -327,8 +327,8 @@
   </entry>
   <entry>
     <title type="text">BAS - Breach and Attack Simulation</title>
-    <id>https://youze27.github.io/blog/ai/BAS%20-%20Breach%20and%20Attack%20Simulation.html</id>
-    <link href="https://youze27.github.io/blog/ai/BAS%20-%20Breach%20and%20Attack%20Simulation.html"/>
+    <id>https://youze27.github.io/ai/BAS%20-%20Breach%20and%20Attack%20Simulation.html</id>
+    <link href="https://youze27.github.io/ai/BAS%20-%20Breach%20and%20Attack%20Simulation.html"/>
     <updated>2025-12-20T08:26:40.000Z</updated>
     <summary type="html"><![CDATA[<h3><strong>BAS - Breach and Attack Simulation（入侵与攻击模拟）</strong></h3>
 <p>这是目前网络安全领域关于 <strong>BAS</strong> <strong>最主流、最常指代</strong>的概念。它是一种​<strong>主动的、持续的安全验证技术</strong>。</p>
@@ -387,15 +387,15 @@
   </entry>
   <entry>
     <title type="text">AI笔记</title>
-    <id>https://youze27.github.io/blog/ai/</id>
-    <link href="https://youze27.github.io/blog/ai/"/>
+    <id>https://youze27.github.io/ai/</id>
+    <link href="https://youze27.github.io/ai/"/>
     <updated>2025-12-20T08:26:40.000Z</updated>
     <published>2025-12-20T08:26:40.000Z</published>
   </entry>
   <entry>
     <title type="text">Windows核心系统进程链与svchost深度解析</title>
-    <id>https://youze27.github.io/blog/ai/Windows%E6%A0%B8%E5%BF%83%E7%B3%BB%E7%BB%9F%E8%BF%9B%E7%A8%8B%E9%93%BE%E4%B8%8Esvchost%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90.html</id>
-    <link href="https://youze27.github.io/blog/ai/Windows%E6%A0%B8%E5%BF%83%E7%B3%BB%E7%BB%9F%E8%BF%9B%E7%A8%8B%E9%93%BE%E4%B8%8Esvchost%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90.html"/>
+    <id>https://youze27.github.io/ai/Windows%E6%A0%B8%E5%BF%83%E7%B3%BB%E7%BB%9F%E8%BF%9B%E7%A8%8B%E9%93%BE%E4%B8%8Esvchost%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90.html</id>
+    <link href="https://youze27.github.io/ai/Windows%E6%A0%B8%E5%BF%83%E7%B3%BB%E7%BB%9F%E8%BF%9B%E7%A8%8B%E9%93%BE%E4%B8%8Esvchost%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90.html"/>
     <updated>2025-12-20T08:26:40.000Z</updated>
     <summary type="html"><![CDATA[<p>DNS外联恶意域名检测告警</p>
 <div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">   Image:</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> C:</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\W</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">indows</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\S</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">ystem32</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\s</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">vchost.exe</span></span>
@@ -583,8 +583,8 @@ c</p>
   </entry>
   <entry>
     <title type="text">rundll32.exe恶意加载DLL文件外联</title>
-    <id>https://youze27.github.io/blog/ai/rundll32.exe%E6%81%B6%E6%84%8F%E5%8A%A0%E8%BD%BDDLL%E6%96%87%E4%BB%B6%E5%A4%96%E8%81%94.html</id>
-    <link href="https://youze27.github.io/blog/ai/rundll32.exe%E6%81%B6%E6%84%8F%E5%8A%A0%E8%BD%BDDLL%E6%96%87%E4%BB%B6%E5%A4%96%E8%81%94.html"/>
+    <id>https://youze27.github.io/ai/rundll32.exe%E6%81%B6%E6%84%8F%E5%8A%A0%E8%BD%BDDLL%E6%96%87%E4%BB%B6%E5%A4%96%E8%81%94.html</id>
+    <link href="https://youze27.github.io/ai/rundll32.exe%E6%81%B6%E6%84%8F%E5%8A%A0%E8%BD%BDDLL%E6%96%87%E4%BB%B6%E5%A4%96%E8%81%94.html"/>
     <updated>2025-12-27T12:40:22.000Z</updated>
     <summary type="html"><![CDATA[
 <h3>告警信息</h3>
@@ -811,8 +811,8 @@ c</p>
   </entry>
   <entry>
     <title type="text">企业测试环境的弱口令需要整改吗</title>
-    <id>https://youze27.github.io/blog/ai/%E4%BC%81%E4%B8%9A%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83%E7%9A%84%E5%BC%B1%E5%8F%A3%E4%BB%A4%E9%9C%80%E8%A6%81%E6%95%B4%E6%94%B9%E5%90%97.html</id>
-    <link href="https://youze27.github.io/blog/ai/%E4%BC%81%E4%B8%9A%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83%E7%9A%84%E5%BC%B1%E5%8F%A3%E4%BB%A4%E9%9C%80%E8%A6%81%E6%95%B4%E6%94%B9%E5%90%97.html"/>
+    <id>https://youze27.github.io/ai/%E4%BC%81%E4%B8%9A%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83%E7%9A%84%E5%BC%B1%E5%8F%A3%E4%BB%A4%E9%9C%80%E8%A6%81%E6%95%B4%E6%94%B9%E5%90%97.html</id>
+    <link href="https://youze27.github.io/ai/%E4%BC%81%E4%B8%9A%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83%E7%9A%84%E5%BC%B1%E5%8F%A3%E4%BB%A4%E9%9C%80%E8%A6%81%E6%95%B4%E6%94%B9%E5%90%97.html"/>
     <updated>2025-12-20T08:26:40.000Z</updated>
     <summary type="html"><![CDATA[<p><strong>绝对需要整改，而且必须高度重视。</strong></p>
 <p>企业测试环境的弱口令问题不是一个可以忽视的“小问题”，而是一个可能引发严重后果的​<strong>高危安全风险</strong>。以下是必须整改的核心原因和行动建议：</p>
@@ -940,8 +940,8 @@ c</p>
   </entry>
   <entry>
     <title type="text">AI对话笔记-模板</title>
-    <id>https://youze27.github.io/blog/ai/%E6%A8%A1%E6%9D%BF.html</id>
-    <link href="https://youze27.github.io/blog/ai/%E6%A8%A1%E6%9D%BF.html"/>
+    <id>https://youze27.github.io/ai/%E6%A8%A1%E6%9D%BF.html</id>
+    <link href="https://youze27.github.io/ai/%E6%A8%A1%E6%9D%BF.html"/>
     <updated>2025-12-20T08:26:40.000Z</updated>
     <summary type="html"><![CDATA[<p>一些内容</p>
 ]]></summary>
@@ -953,15 +953,15 @@ c</p>
   </entry>
   <entry>
     <title type="text">序</title>
-    <id>https://youze27.github.io/blog/com/life/%E5%BA%8F.html</id>
-    <link href="https://youze27.github.io/blog/com/life/%E5%BA%8F.html"/>
+    <id>https://youze27.github.io/com/life/%E5%BA%8F.html</id>
+    <link href="https://youze27.github.io/com/life/%E5%BA%8F.html"/>
     <updated>2025-12-13T14:38:00.000Z</updated>
     <published>2025-12-13T14:38:00.000Z</published>
   </entry>
   <entry>
     <title type="text">Fawn Machine</title>
-    <id>https://youze27.github.io/blog/htb/Fawn%20Machine%20.html</id>
-    <link href="https://youze27.github.io/blog/htb/Fawn%20Machine%20.html"/>
+    <id>https://youze27.github.io/htb/Fawn%20Machine%20.html</id>
+    <link href="https://youze27.github.io/htb/Fawn%20Machine%20.html"/>
     <updated>2025-12-20T08:26:40.000Z</updated>
     <summary type="html"><![CDATA[<ul>
 <li><a href="https://app.hackthebox.com/machines/Fawn?tab=play_machine" target="_blank" rel="noopener noreferrer">https://app.hackthebox.com/machines/Fawn?tab=play_machine</a></li>
@@ -1148,8 +1148,8 @@ FTP 以明文方式发送数据，无需任何加密。后来设计为提供类�
   </entry>
   <entry>
     <title type="text">Meow Machine</title>
-    <id>https://youze27.github.io/blog/htb/Meow%20Machine.html</id>
-    <link href="https://youze27.github.io/blog/htb/Meow%20Machine.html"/>
+    <id>https://youze27.github.io/htb/Meow%20Machine.html</id>
+    <link href="https://youze27.github.io/htb/Meow%20Machine.html"/>
     <updated>2025-12-20T08:26:40.000Z</updated>
     <summary type="html"><![CDATA[<ul>
 <li><a href="https://app.hackthebox.com/machines/Meow?tab=play_machine" target="_blank" rel="noopener noreferrer">https://app.hackthebox.com/machines/Meow?tab=play_machine</a></li>
@@ -1250,22 +1250,22 @@ VM 这个缩写代表什么？</p>
   </entry>
   <entry>
     <title type="text">HTB</title>
-    <id>https://youze27.github.io/blog/htb/</id>
-    <link href="https://youze27.github.io/blog/htb/"/>
+    <id>https://youze27.github.io/htb/</id>
+    <link href="https://youze27.github.io/htb/"/>
     <updated>2025-12-20T08:26:40.000Z</updated>
     <published>2025-12-08T16:15:44.000Z</published>
   </entry>
   <entry>
     <title type="text">生活日志🏠</title>
-    <id>https://youze27.github.io/blog/com/life/</id>
-    <link href="https://youze27.github.io/blog/com/life/"/>
+    <id>https://youze27.github.io/com/life/</id>
+    <link href="https://youze27.github.io/com/life/"/>
     <updated>2025-12-13T14:38:00.000Z</updated>
     <published>2025-12-07T11:01:10.000Z</published>
   </entry>
   <entry>
     <title type="text">Markdown 原生图片</title>
-    <id>https://youze27.github.io/blog/com/other/Markdown%E5%8E%9F%E7%94%9F%E5%9B%BE%E7%89%87.html</id>
-    <link href="https://youze27.github.io/blog/com/other/Markdown%E5%8E%9F%E7%94%9F%E5%9B%BE%E7%89%87.html"/>
+    <id>https://youze27.github.io/com/other/Markdown%E5%8E%9F%E7%94%9F%E5%9B%BE%E7%89%87.html</id>
+    <link href="https://youze27.github.io/com/other/Markdown%E5%8E%9F%E7%94%9F%E5%9B%BE%E7%89%87.html"/>
     <updated>2025-12-07T11:01:10.000Z</updated>
     <summary type="html"><![CDATA[<h3>基本图片</h3>
 <figure><img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&amp;auto=format&amp;fit=crop" alt="雪山风景" tabindex="0" loading="lazy"><figcaption>雪山风景</figcaption></figure>
@@ -1397,8 +1397,8 @@ VM 这个缩写代表什么？</p>
   </entry>
   <entry>
     <title type="text">网络安全行业招聘需求与技术能力分析</title>
-    <id>https://youze27.github.io/blog/ai/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E8%A1%8C%E4%B8%9A%E6%8B%9B%E8%81%98%E9%9C%80%E6%B1%82%E4%B8%8E%E6%8A%80%E6%9C%AF%E8%83%BD%E5%8A%9B%E5%88%86%E6%9E%90.html</id>
-    <link href="https://youze27.github.io/blog/ai/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E8%A1%8C%E4%B8%9A%E6%8B%9B%E8%81%98%E9%9C%80%E6%B1%82%E4%B8%8E%E6%8A%80%E6%9C%AF%E8%83%BD%E5%8A%9B%E5%88%86%E6%9E%90.html"/>
+    <id>https://youze27.github.io/ai/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E8%A1%8C%E4%B8%9A%E6%8B%9B%E8%81%98%E9%9C%80%E6%B1%82%E4%B8%8E%E6%8A%80%E6%9C%AF%E8%83%BD%E5%8A%9B%E5%88%86%E6%9E%90.html</id>
+    <link href="https://youze27.github.io/ai/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E8%A1%8C%E4%B8%9A%E6%8B%9B%E8%81%98%E9%9C%80%E6%B1%82%E4%B8%8E%E6%8A%80%E6%9C%AF%E8%83%BD%E5%8A%9B%E5%88%86%E6%9E%90.html"/>
     <updated>2025-12-20T08:26:40.000Z</updated>
     <summary type="html"><![CDATA[<hr>
 <h2>一、当前网络安全行业招聘需求全景解析</h2>
@@ -3287,8 +3287,8 @@ VM 这个缩写代表什么？</p>
   </entry>
   <entry>
     <title type="text">银狐木马技术原理分析与检测技术</title>
-    <id>https://youze27.github.io/blog/ai/%E9%93%B6%E7%8B%90%E6%9C%A8%E9%A9%AC%E6%8A%80%E6%9C%AF%E5%8E%9F%E7%90%86%E5%88%86%E6%9E%90%E4%B8%8E%E6%A3%80%E6%B5%8B%E6%8A%80%E6%9C%AF.html</id>
-    <link href="https://youze27.github.io/blog/ai/%E9%93%B6%E7%8B%90%E6%9C%A8%E9%A9%AC%E6%8A%80%E6%9C%AF%E5%8E%9F%E7%90%86%E5%88%86%E6%9E%90%E4%B8%8E%E6%A3%80%E6%B5%8B%E6%8A%80%E6%9C%AF.html"/>
+    <id>https://youze27.github.io/ai/%E9%93%B6%E7%8B%90%E6%9C%A8%E9%A9%AC%E6%8A%80%E6%9C%AF%E5%8E%9F%E7%90%86%E5%88%86%E6%9E%90%E4%B8%8E%E6%A3%80%E6%B5%8B%E6%8A%80%E6%9C%AF.html</id>
+    <link href="https://youze27.github.io/ai/%E9%93%B6%E7%8B%90%E6%9C%A8%E9%A9%AC%E6%8A%80%E6%9C%AF%E5%8E%9F%E7%90%86%E5%88%86%E6%9E%90%E4%B8%8E%E6%A3%80%E6%B5%8B%E6%8A%80%E6%9C%AF.html"/>
     <updated>2025-12-20T08:26:40.000Z</updated>
     <summary type="html"><![CDATA[<hr>
 <h2>一、银狐木马基础概念与演化背景</h2>
@@ -4408,8 +4408,8 @@ WDAC默认限制未签名/非微软认证的代码执行。但银狐利用如下
   </entry>
   <entry>
     <title type="text">数据湖：它们是什么？为什么您的组织需要一个？</title>
-    <id>https://youze27.github.io/blog/like/%E6%95%B0%E6%8D%AE%E6%B9%96%EF%BC%9A%E5%AE%83%E4%BB%AC%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F%E4%B8%BA%E4%BB%80%E4%B9%88%E6%82%A8%E7%9A%84%E7%BB%84%E7%BB%87%E9%9C%80%E8%A6%81%E4%B8%80%E4%B8%AA%EF%BC%9F.html</id>
-    <link href="https://youze27.github.io/blog/like/%E6%95%B0%E6%8D%AE%E6%B9%96%EF%BC%9A%E5%AE%83%E4%BB%AC%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F%E4%B8%BA%E4%BB%80%E4%B9%88%E6%82%A8%E7%9A%84%E7%BB%84%E7%BB%87%E9%9C%80%E8%A6%81%E4%B8%80%E4%B8%AA%EF%BC%9F.html"/>
+    <id>https://youze27.github.io/like/%E6%95%B0%E6%8D%AE%E6%B9%96%EF%BC%9A%E5%AE%83%E4%BB%AC%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F%E4%B8%BA%E4%BB%80%E4%B9%88%E6%82%A8%E7%9A%84%E7%BB%84%E7%BB%87%E9%9C%80%E8%A6%81%E4%B8%80%E4%B8%AA%EF%BC%9F.html</id>
+    <link href="https://youze27.github.io/like/%E6%95%B0%E6%8D%AE%E6%B9%96%EF%BC%9A%E5%AE%83%E4%BB%AC%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F%E4%B8%BA%E4%BB%80%E4%B9%88%E6%82%A8%E7%9A%84%E7%BB%84%E7%BB%87%E9%9C%80%E8%A6%81%E4%B8%80%E4%B8%AA%EF%BC%9F.html"/>
     <updated>2025-12-05T16:22:10.000Z</updated>
     <summary type="html"><![CDATA[<figure><figcaption></figcaption></figure>
 <p>如今企业产生的数据量令人震惊。</p>
@@ -4534,8 +4534,8 @@ WDAC默认限制未签名/非微软认证的代码执行。但银狐利用如下
   </entry>
   <entry>
     <title type="text">GitHub Codespaces</title>
-    <id>https://youze27.github.io/blog/net/GitHub%20Codespaces.html</id>
-    <link href="https://youze27.github.io/blog/net/GitHub%20Codespaces.html"/>
+    <id>https://youze27.github.io/net/GitHub%20Codespaces.html</id>
+    <link href="https://youze27.github.io/net/GitHub%20Codespaces.html"/>
     <updated>2025-12-05T16:22:10.000Z</updated>
     <summary type="html"><![CDATA[<h2>什么是 GitHub Codespaces</h2>
 <p><strong>GitHub Codespaces</strong> 是 GitHub 提供的云端开发环境，基于 VS Code，可用于在浏览器中编写、运行和调试代码。</p>
@@ -4673,8 +4673,8 @@ WDAC默认限制未签名/非微软认证的代码执行。但银狐利用如下
   </entry>
   <entry>
     <title type="text">《悉达多》读书笔记</title>
-    <id>https://youze27.github.io/blog/com/read/%E3%80%8A%E6%82%89%E8%BE%BE%E5%A4%9A%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.html</id>
-    <link href="https://youze27.github.io/blog/com/read/%E3%80%8A%E6%82%89%E8%BE%BE%E5%A4%9A%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.html"/>
+    <id>https://youze27.github.io/com/read/%E3%80%8A%E6%82%89%E8%BE%BE%E5%A4%9A%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.html</id>
+    <link href="https://youze27.github.io/com/read/%E3%80%8A%E6%82%89%E8%BE%BE%E5%A4%9A%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.html"/>
     <updated>2025-12-27T12:40:22.000Z</updated>
     <summary type="html"><![CDATA[<h2>1 相关概念解读</h2>
 <p><strong>婆罗门</strong><br>
@@ -4749,8 +4749,8 @@ WDAC默认限制未签名/非微软认证的代码执行。但银狐利用如下
   </entry>
   <entry>
     <title type="text">《稀缺》读书笔记</title>
-    <id>https://youze27.github.io/blog/com/read/%E3%80%8A%E7%A8%80%E7%BC%BA%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.html</id>
-    <link href="https://youze27.github.io/blog/com/read/%E3%80%8A%E7%A8%80%E7%BC%BA%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.html"/>
+    <id>https://youze27.github.io/com/read/%E3%80%8A%E7%A8%80%E7%BC%BA%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.html</id>
+    <link href="https://youze27.github.io/com/read/%E3%80%8A%E7%A8%80%E7%BC%BA%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.html"/>
     <updated>2025-12-27T12:40:22.000Z</updated>
     <summary type="html"><![CDATA[<h2>1 相关概念解读</h2>
 <p><strong>稀缺</strong><br>
@@ -4844,8 +4844,8 @@ WDAC默认限制未签名/非微软认证的代码执行。但银狐利用如下
   </entry>
   <entry>
     <title type="text">《认知觉醒》读书笔记</title>
-    <id>https://youze27.github.io/blog/com/read/%E3%80%8A%E8%AE%A4%E7%9F%A5%E8%A7%89%E9%86%92%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.html</id>
-    <link href="https://youze27.github.io/blog/com/read/%E3%80%8A%E8%AE%A4%E7%9F%A5%E8%A7%89%E9%86%92%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.html"/>
+    <id>https://youze27.github.io/com/read/%E3%80%8A%E8%AE%A4%E7%9F%A5%E8%A7%89%E9%86%92%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.html</id>
+    <link href="https://youze27.github.io/com/read/%E3%80%8A%E8%AE%A4%E7%9F%A5%E8%A7%89%E9%86%92%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.html"/>
     <updated>2025-12-27T12:40:22.000Z</updated>
     <summary type="html"><![CDATA[<p>本书的核心主题是​<strong>探讨个人成长的内在机制，通过了解大脑运作规律，开启自我改变的原动力</strong>​。本次笔记的主要用途是​<strong>知识内化与个人提升</strong>​，因此，请侧重输出<strong>实用观点与行动指南</strong>方面的内容。</p>
 <h2>核心概念解读</h2>
@@ -4984,22 +4984,22 @@ WDAC默认限制未签名/非微软认证的代码执行。但银狐利用如下
   </entry>
   <entry>
     <title type="text">转载</title>
-    <id>https://youze27.github.io/blog/like/</id>
-    <link href="https://youze27.github.io/blog/like/"/>
+    <id>https://youze27.github.io/like/</id>
+    <link href="https://youze27.github.io/like/"/>
     <updated>2025-12-20T08:26:40.000Z</updated>
     <published>2025-11-24T16:09:39.000Z</published>
   </entry>
   <entry>
     <title type="text">逆向免杀</title>
-    <id>https://youze27.github.io/blog/reverse/</id>
-    <link href="https://youze27.github.io/blog/reverse/"/>
+    <id>https://youze27.github.io/reverse/</id>
+    <link href="https://youze27.github.io/reverse/"/>
     <updated>2025-12-25T16:32:28.000Z</updated>
     <published>2025-11-24T16:09:39.000Z</published>
   </entry>
   <entry>
     <title type="text">ATT &amp;CK 框架实践阅读笔记</title>
-    <id>https://youze27.github.io/blog/response/ATT%20_CK%20%E6%A1%86%E6%9E%B6%E5%AE%9E%E8%B7%B5%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0.html</id>
-    <link href="https://youze27.github.io/blog/response/ATT%20_CK%20%E6%A1%86%E6%9E%B6%E5%AE%9E%E8%B7%B5%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0.html"/>
+    <id>https://youze27.github.io/response/ATT%20_CK%20%E6%A1%86%E6%9E%B6%E5%AE%9E%E8%B7%B5%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0.html</id>
+    <link href="https://youze27.github.io/response/ATT%20_CK%20%E6%A1%86%E6%9E%B6%E5%AE%9E%E8%B7%B5%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0.html"/>
     <updated>2025-12-05T16:22:10.000Z</updated>
     <summary type="html"><![CDATA[<h2>什么是MITRE ATT&amp;CK</h2>
 <p>是一个对抗行为知识库。</p>
@@ -5155,8 +5155,8 @@ WDAC默认限制未签名/非微软认证的代码执行。但银狐利用如下
   </entry>
   <entry>
     <title type="text">SIEM-安全信息和事件管理</title>
-    <id>https://youze27.github.io/blog/ai/SIEM-%E5%AE%89%E5%85%A8%E4%BF%A1%E6%81%AF%E5%92%8C%E4%BA%8B%E4%BB%B6%E7%AE%A1%E7%90%86.html</id>
-    <link href="https://youze27.github.io/blog/ai/SIEM-%E5%AE%89%E5%85%A8%E4%BF%A1%E6%81%AF%E5%92%8C%E4%BA%8B%E4%BB%B6%E7%AE%A1%E7%90%86.html"/>
+    <id>https://youze27.github.io/ai/SIEM-%E5%AE%89%E5%85%A8%E4%BF%A1%E6%81%AF%E5%92%8C%E4%BA%8B%E4%BB%B6%E7%AE%A1%E7%90%86.html</id>
+    <link href="https://youze27.github.io/ai/SIEM-%E5%AE%89%E5%85%A8%E4%BF%A1%E6%81%AF%E5%92%8C%E4%BA%8B%E4%BB%B6%E7%AE%A1%E7%90%86.html"/>
     <updated>2025-12-20T08:26:40.000Z</updated>
     <summary type="text">什么是SIEM？安全信息和事件管理
 SIEM是安全信息管理（SIM）和安全事件管理（SEM）的结合体，最初主要服务于大型企业，如今已成为保护各类规模组织免受网络威胁的关键防线。
@@ -5264,8 +5264,8 @@ SIEM是一种整体性的安全方法。它将​安全信息管理（SIM） ​
   </entry>
   <entry>
     <title type="text">密码喷射攻击：防范攻击你需要知道的事项</title>
-    <id>https://youze27.github.io/blog/like/%E5%AF%86%E7%A0%81%E5%96%B7%E5%B0%84%E6%94%BB%E5%87%BB%EF%BC%9A%E9%98%B2%E8%8C%83%E6%94%BB%E5%87%BB%E4%BD%A0%E9%9C%80%E8%A6%81%E7%9F%A5%E9%81%93%E7%9A%84%E4%BA%8B%E9%A1%B9.html</id>
-    <link href="https://youze27.github.io/blog/like/%E5%AF%86%E7%A0%81%E5%96%B7%E5%B0%84%E6%94%BB%E5%87%BB%EF%BC%9A%E9%98%B2%E8%8C%83%E6%94%BB%E5%87%BB%E4%BD%A0%E9%9C%80%E8%A6%81%E7%9F%A5%E9%81%93%E7%9A%84%E4%BA%8B%E9%A1%B9.html"/>
+    <id>https://youze27.github.io/like/%E5%AF%86%E7%A0%81%E5%96%B7%E5%B0%84%E6%94%BB%E5%87%BB%EF%BC%9A%E9%98%B2%E8%8C%83%E6%94%BB%E5%87%BB%E4%BD%A0%E9%9C%80%E8%A6%81%E7%9F%A5%E9%81%93%E7%9A%84%E4%BA%8B%E9%A1%B9.html</id>
+    <link href="https://youze27.github.io/like/%E5%AF%86%E7%A0%81%E5%96%B7%E5%B0%84%E6%94%BB%E5%87%BB%EF%BC%9A%E9%98%B2%E8%8C%83%E6%94%BB%E5%87%BB%E4%BD%A0%E9%9C%80%E8%A6%81%E7%9F%A5%E9%81%93%E7%9A%84%E4%BA%8B%E9%A1%B9.html"/>
     <updated>2025-12-05T16:22:10.000Z</updated>
     <summary type="html"><![CDATA[<!-- more -->
 <h1>密码喷射攻击：防范攻击你需要知道的事项</h1>
@@ -5352,8 +5352,8 @@ SIEM是一种整体性的安全方法。它将​安全信息管理（SIM） ​
   </entry>
   <entry>
     <title type="text">密码学中的哈希解释：它的工作原理、算法和实际用途</title>
-    <id>https://youze27.github.io/blog/like/%E5%AF%86%E7%A0%81%E5%AD%A6%E4%B8%AD%E7%9A%84%E5%93%88%E5%B8%8C%E8%A7%A3%E9%87%8A%EF%BC%9A%E5%AE%83%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E3%80%81%E7%AE%97%E6%B3%95%E5%92%8C%E5%AE%9E%E9%99%85%E7%94%A8%E9%80%94.html</id>
-    <link href="https://youze27.github.io/blog/like/%E5%AF%86%E7%A0%81%E5%AD%A6%E4%B8%AD%E7%9A%84%E5%93%88%E5%B8%8C%E8%A7%A3%E9%87%8A%EF%BC%9A%E5%AE%83%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E3%80%81%E7%AE%97%E6%B3%95%E5%92%8C%E5%AE%9E%E9%99%85%E7%94%A8%E9%80%94.html"/>
+    <id>https://youze27.github.io/like/%E5%AF%86%E7%A0%81%E5%AD%A6%E4%B8%AD%E7%9A%84%E5%93%88%E5%B8%8C%E8%A7%A3%E9%87%8A%EF%BC%9A%E5%AE%83%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E3%80%81%E7%AE%97%E6%B3%95%E5%92%8C%E5%AE%9E%E9%99%85%E7%94%A8%E9%80%94.html</id>
+    <link href="https://youze27.github.io/like/%E5%AF%86%E7%A0%81%E5%AD%A6%E4%B8%AD%E7%9A%84%E5%93%88%E5%B8%8C%E8%A7%A3%E9%87%8A%EF%BC%9A%E5%AE%83%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E3%80%81%E7%AE%97%E6%B3%95%E5%92%8C%E5%AE%9E%E9%99%85%E7%94%A8%E9%80%94.html"/>
     <updated>2025-12-05T16:22:10.000Z</updated>
     <summary type="text">密码学中的哈希解释：它的工作原理、算法和实际用途
 哈希处理获取您的数据（如密码或文件）并将其转换为无法撤消的固定长度代码。这使得攻击者几乎不可能弄清楚原始数据是什么，即使他们窃取了哈希值。
@@ -5499,15 +5499,15 @@ SIEM是一种整体性的安全方法。它将​安全信息管理（SIM） ​
   </entry>
   <entry>
     <title type="text">专业备考⏳</title>
-    <id>https://youze27.github.io/blog/com/exam/</id>
-    <link href="https://youze27.github.io/blog/com/exam/"/>
+    <id>https://youze27.github.io/com/exam/</id>
+    <link href="https://youze27.github.io/com/exam/"/>
     <updated>2025-12-13T14:38:00.000Z</updated>
     <published>2025-08-10T14:49:59.000Z</published>
   </entry>
   <entry>
     <title type="text">应急响应术语</title>
-    <id>https://youze27.github.io/blog/response/%E5%BA%94%E6%80%A5%E5%93%8D%E5%BA%94%E6%9C%AF%E8%AF%AD.html</id>
-    <link href="https://youze27.github.io/blog/response/%E5%BA%94%E6%80%A5%E5%93%8D%E5%BA%94%E6%9C%AF%E8%AF%AD.html"/>
+    <id>https://youze27.github.io/response/%E5%BA%94%E6%80%A5%E5%93%8D%E5%BA%94%E6%9C%AF%E8%AF%AD.html</id>
+    <link href="https://youze27.github.io/response/%E5%BA%94%E6%80%A5%E5%93%8D%E5%BA%94%E6%9C%AF%E8%AF%AD.html"/>
     <updated>2025-08-10T14:36:11.000Z</updated>
     <summary type="html"><![CDATA[
 <p>攻击指标 (IoA) 是攻击者可能企图破坏系统的预警信号。它将各种数据片段（包括未知属性、IoC 和上下文信息，例如组织风险和情报）构建成潜在威胁的动态实时态势图。IoA 并非为了识别特定的恶意工具，而是通过关注所有攻击者为破坏系统而必须采取的步骤（例如侦察、初始访问、执行）来识别攻击者的战略意图。IoA 对于检测新的、复杂的网络攻击形式（例如无恶意软件入侵和零日攻击）至关重要。</p>
@@ -5525,8 +5525,8 @@ SIEM是一种整体性的安全方法。它将​安全信息管理（SIM） ​
   </entry>
   <entry>
     <title type="text">学习逆向工程相关概念</title>
-    <id>https://youze27.github.io/blog/net/%E5%AD%A6%E4%B9%A0%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B%E7%9B%B8%E5%85%B3%E6%A6%82%E5%BF%B5.html</id>
-    <link href="https://youze27.github.io/blog/net/%E5%AD%A6%E4%B9%A0%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B%E7%9B%B8%E5%85%B3%E6%A6%82%E5%BF%B5.html"/>
+    <id>https://youze27.github.io/net/%E5%AD%A6%E4%B9%A0%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B%E7%9B%B8%E5%85%B3%E6%A6%82%E5%BF%B5.html</id>
+    <link href="https://youze27.github.io/net/%E5%AD%A6%E4%B9%A0%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B%E7%9B%B8%E5%85%B3%E6%A6%82%E5%BF%B5.html"/>
     <updated>2025-12-05T16:22:10.000Z</updated>
     <summary type="html"><![CDATA[
 <h2>一、逆向工程定义</h2>
@@ -5597,8 +5597,8 @@ SIEM是一种整体性的安全方法。它将​安全信息管理（SIM） ​
   </entry>
   <entry>
     <title type="text">《营养学》读书笔记</title>
-    <id>https://youze27.github.io/blog/com/read/%E3%80%8A%E8%90%A5%E5%85%BB%E5%AD%A6%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.html</id>
-    <link href="https://youze27.github.io/blog/com/read/%E3%80%8A%E8%90%A5%E5%85%BB%E5%AD%A6%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.html"/>
+    <id>https://youze27.github.io/com/read/%E3%80%8A%E8%90%A5%E5%85%BB%E5%AD%A6%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.html</id>
+    <link href="https://youze27.github.io/com/read/%E3%80%8A%E8%90%A5%E5%85%BB%E5%AD%A6%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.html"/>
     <updated>2025-12-27T12:40:22.000Z</updated>
     <summary type="html"><![CDATA[<h3>第一节 营养学概论</h3>
 <h4>一、核心概念与基础理论</h4>
@@ -5807,8 +5807,8 @@ SIEM是一种整体性的安全方法。它将​安全信息管理（SIM） ​
   </entry>
   <entry>
     <title type="text">zabbix快速上手</title>
-    <id>https://youze27.github.io/blog/net/zabbix%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B.html</id>
-    <link href="https://youze27.github.io/blog/net/zabbix%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B.html"/>
+    <id>https://youze27.github.io/net/zabbix%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B.html</id>
+    <link href="https://youze27.github.io/net/zabbix%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B.html"/>
     <updated>2025-07-06T14:02:58.000Z</updated>
     <summary type="html"><![CDATA[<h3>zabbix快速上手及SNMP相关介绍</h3>
 <h3><strong>一、Zabbix概述</strong></h3>
@@ -5847,8 +5847,8 @@ SIEM是一种整体性的安全方法。它将​安全信息管理（SIM） ​
   </entry>
   <entry>
     <title type="text">velociraptor(迅猛龙)快速上手</title>
-    <id>https://youze27.github.io/blog/response/velociraptor(%E8%BF%85%E7%8C%9B%E9%BE%99)%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B.html</id>
-    <link href="https://youze27.github.io/blog/response/velociraptor(%E8%BF%85%E7%8C%9B%E9%BE%99)%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B.html"/>
+    <id>https://youze27.github.io/response/velociraptor(%E8%BF%85%E7%8C%9B%E9%BE%99)%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B.html</id>
+    <link href="https://youze27.github.io/response/velociraptor(%E8%BF%85%E7%8C%9B%E9%BE%99)%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B.html"/>
     <updated>2025-12-05T16:22:10.000Z</updated>
     <summary type="html"><![CDATA[<h2>基本概念</h2>
 <h3>数字取证和事件响应 (DFIR)</h3>
@@ -5945,8 +5945,8 @@ SIEM是一种整体性的安全方法。它将​安全信息管理（SIM） ​
   </entry>
   <entry>
     <title type="text">学习windows快捷命令</title>
-    <id>https://youze27.github.io/blog/net/%E5%AD%A6%E4%B9%A0windows%E5%BF%AB%E6%8D%B7%E5%91%BD%E4%BB%A4.html</id>
-    <link href="https://youze27.github.io/blog/net/%E5%AD%A6%E4%B9%A0windows%E5%BF%AB%E6%8D%B7%E5%91%BD%E4%BB%A4.html"/>
+    <id>https://youze27.github.io/net/%E5%AD%A6%E4%B9%A0windows%E5%BF%AB%E6%8D%B7%E5%91%BD%E4%BB%A4.html</id>
+    <link href="https://youze27.github.io/net/%E5%AD%A6%E4%B9%A0windows%E5%BF%AB%E6%8D%B7%E5%91%BD%E4%BB%A4.html"/>
     <updated>2025-12-05T16:22:10.000Z</updated>
     <summary type="html"><![CDATA[<h4><strong>1. 系统管理</strong></h4>
 <table>
@@ -6014,8 +6014,8 @@ SIEM是一种整体性的安全方法。它将​安全信息管理（SIM） ​
   </entry>
   <entry>
     <title type="text">DC-8靶机</title>
-    <id>https://youze27.github.io/blog/perm/DC-8%E9%9D%B6%E6%9C%BA.html</id>
-    <link href="https://youze27.github.io/blog/perm/DC-8%E9%9D%B6%E6%9C%BA.html"/>
+    <id>https://youze27.github.io/perm/DC-8%E9%9D%B6%E6%9C%BA.html</id>
+    <link href="https://youze27.github.io/perm/DC-8%E9%9D%B6%E6%9C%BA.html"/>
     <updated>2025-11-26T15:59:54.000Z</updated>
     <summary type="html"><![CDATA[<ol>
 <li>
@@ -6310,8 +6310,8 @@ SIEM是一种整体性的安全方法。它将​安全信息管理（SIM） ​
   </entry>
   <entry>
     <title type="text">Metasploitable3下载与安装</title>
-    <id>https://youze27.github.io/blog/perm/Metasploitable3%E4%B8%8B%E8%BD%BD%E4%B8%8E%E5%AE%89%E8%A3%85.html</id>
-    <link href="https://youze27.github.io/blog/perm/Metasploitable3%E4%B8%8B%E8%BD%BD%E4%B8%8E%E5%AE%89%E8%A3%85.html"/>
+    <id>https://youze27.github.io/perm/Metasploitable3%E4%B8%8B%E8%BD%BD%E4%B8%8E%E5%AE%89%E8%A3%85.html</id>
+    <link href="https://youze27.github.io/perm/Metasploitable3%E4%B8%8B%E8%BD%BD%E4%B8%8E%E5%AE%89%E8%A3%85.html"/>
     <updated>2025-11-26T15:59:54.000Z</updated>
     <summary type="html"><![CDATA[<p>一、<a href="https://so.csdn.net/so/search?q=Vagrant&amp;spm=1001.2101.3001.7020" target="_blank" rel="noopener noreferrer">Vagrant</a>下载与安装</p>
 <p><strong>Vagrant</strong>是一个基于<a href="https://so.csdn.net/so/search?q=Ruby&amp;spm=1001.2101.3001.7020" target="_blank" rel="noopener noreferrer">Ruby</a>的工具，​<strong>用于创建和部署虚拟化开发环境</strong>​。它使用Oracle的开源VirtualBox<a href="https://so.csdn.net/so/search?q=%E8%99%9A%E6%8B%9F%E5%8C%96&amp;spm=1001.2101.3001.7020" target="_blank" rel="noopener noreferrer">虚拟化</a>系统，使用Chef创建自动化虚拟环境。</p>]]></summary>
@@ -6377,8 +6377,8 @@ SIEM是一种整体性的安全方法。它将​安全信息管理（SIM） ​
   </entry>
   <entry>
     <title type="text">学习python高级语法特性例题笔记</title>
-    <id>https://youze27.github.io/blog/net/%E5%AD%A6%E4%B9%A0python%E9%AB%98%E7%BA%A7%E8%AF%AD%E6%B3%95%E7%89%B9%E6%80%A7%E4%BE%8B%E9%A2%98%E7%AC%94%E8%AE%B0.html</id>
-    <link href="https://youze27.github.io/blog/net/%E5%AD%A6%E4%B9%A0python%E9%AB%98%E7%BA%A7%E8%AF%AD%E6%B3%95%E7%89%B9%E6%80%A7%E4%BE%8B%E9%A2%98%E7%AC%94%E8%AE%B0.html"/>
+    <id>https://youze27.github.io/net/%E5%AD%A6%E4%B9%A0python%E9%AB%98%E7%BA%A7%E8%AF%AD%E6%B3%95%E7%89%B9%E6%80%A7%E4%BE%8B%E9%A2%98%E7%AC%94%E8%AE%B0.html</id>
+    <link href="https://youze27.github.io/net/%E5%AD%A6%E4%B9%A0python%E9%AB%98%E7%BA%A7%E8%AF%AD%E6%B3%95%E7%89%B9%E6%80%A7%E4%BE%8B%E9%A2%98%E7%AC%94%E8%AE%B0.html"/>
     <updated>2025-12-05T16:22:10.000Z</updated>
     <summary type="html"><![CDATA[<h4>1.面向对象</h4>
 <div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-python"><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">from</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> types </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">import</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> new_class</span></span>
@@ -6583,8 +6583,8 @@ s2.name:Qiqi,s2.name.len:4
   </entry>
   <entry>
     <title type="text">学习常用 150 个Linux命令</title>
-    <id>https://youze27.github.io/blog/net/%E5%B8%B8%E7%94%A8%20150%20%E4%B8%AALinux%E5%91%BD%E4%BB%A4.html</id>
-    <link href="https://youze27.github.io/blog/net/%E5%B8%B8%E7%94%A8%20150%20%E4%B8%AALinux%E5%91%BD%E4%BB%A4.html"/>
+    <id>https://youze27.github.io/net/%E5%B8%B8%E7%94%A8%20150%20%E4%B8%AALinux%E5%91%BD%E4%BB%A4.html</id>
+    <link href="https://youze27.github.io/net/%E5%B8%B8%E7%94%A8%20150%20%E4%B8%AALinux%E5%91%BD%E4%BB%A4.html"/>
     <updated>2025-12-05T16:22:10.000Z</updated>
     <summary type="html"><![CDATA[<h4>⌨️ <code>Linux 命令</code></h4>
 <blockquote>
@@ -7342,8 +7342,8 @@ s2.name:Qiqi,s2.name.len:4
   </entry>
   <entry>
     <title type="text">知道创宇技能表</title>
-    <id>https://youze27.github.io/blog/com/other/%E7%9F%A5%E9%81%93%E5%88%9B%E5%AE%87%E6%8A%80%E8%83%BD%E8%A1%A8.html</id>
-    <link href="https://youze27.github.io/blog/com/other/%E7%9F%A5%E9%81%93%E5%88%9B%E5%AE%87%E6%8A%80%E8%83%BD%E8%A1%A8.html"/>
+    <id>https://youze27.github.io/com/other/%E7%9F%A5%E9%81%93%E5%88%9B%E5%AE%87%E6%8A%80%E8%83%BD%E8%A1%A8.html</id>
+    <link href="https://youze27.github.io/com/other/%E7%9F%A5%E9%81%93%E5%88%9B%E5%AE%87%E6%8A%80%E8%83%BD%E8%A1%A8.html"/>
     <updated>2025-12-07T11:01:10.000Z</updated>
     <summary type="html"><![CDATA[<iframe height="1000px" width="100%" frameborder="0" allowfullscreen="true" src="/blog/demo/zhidao.html">  
  </iframe>]]></summary>
@@ -7354,8 +7354,8 @@ s2.name:Qiqi,s2.name.len:4
   </entry>
   <entry>
     <title type="text">软考中的一些概念</title>
-    <id>https://youze27.github.io/blog/net/%E8%BD%AF%E8%80%83%E4%B8%AD%E7%9A%84%E4%B8%80%E4%BA%9B%E6%A6%82%E5%BF%B5.html</id>
-    <link href="https://youze27.github.io/blog/net/%E8%BD%AF%E8%80%83%E4%B8%AD%E7%9A%84%E4%B8%80%E4%BA%9B%E6%A6%82%E5%BF%B5.html"/>
+    <id>https://youze27.github.io/net/%E8%BD%AF%E8%80%83%E4%B8%AD%E7%9A%84%E4%B8%80%E4%BA%9B%E6%A6%82%E5%BF%B5.html</id>
+    <link href="https://youze27.github.io/net/%E8%BD%AF%E8%80%83%E4%B8%AD%E7%9A%84%E4%B8%80%E4%BA%9B%E6%A6%82%E5%BF%B5.html"/>
     <updated>2025-12-05T16:22:10.000Z</updated>
     <summary type="html"><![CDATA[<h4>CMM（能力成熟度模型）</h4>
 <p>五个阶段——非正式执行、计划跟踪、充分定义、量化控制、持续优化，与常见的CMM模型中的五个等级（初始级、可重复级、已定义级、已管理级、优化级）在表述上有所不同，但本质上描述了类似的软件过程改进路径</p>
@@ -7470,8 +7470,8 @@ Finished：客户端和服务器各自计算并发送一个Finished数据包，�
   </entry>
   <entry>
     <title type="text">markdown基本语法</title>
-    <id>https://youze27.github.io/blog/com/other/markdown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95.html</id>
-    <link href="https://youze27.github.io/blog/com/other/markdown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95.html"/>
+    <id>https://youze27.github.io/com/other/markdown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95.html</id>
+    <link href="https://youze27.github.io/com/other/markdown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95.html"/>
     <updated>2025-12-07T11:01:10.000Z</updated>
     <summary type="html"><![CDATA[<h3>一、标题</h3>
 <p>Markdown支持六级标题，使用<code>#</code>号表示不同级别的标题。一级标题使用一个<code>#</code>，二级标题使用两个<code>#</code>，以此类推，最多支持到六级标题。例如：</p>
@@ -7511,8 +7511,8 @@ Finished：客户端和服务器各自计算并发送一个Finished数据包，�
   </entry>
   <entry>
     <title type="text">我的书单📖</title>
-    <id>https://youze27.github.io/blog/com/read/</id>
-    <link href="https://youze27.github.io/blog/com/read/"/>
+    <id>https://youze27.github.io/com/read/</id>
+    <link href="https://youze27.github.io/com/read/"/>
     <updated>2025-12-27T12:40:22.000Z</updated>
     <summary type="html"><![CDATA[<div class="card-container">
   <a class="image-card" href="./《认知觉醒》读书笔记.html">
@@ -7593,8 +7593,8 @@ Finished：客户端和服务器各自计算并发送一个Finished数据包，�
   </entry>
   <entry>
     <title type="text">《心理学》读书笔记</title>
-    <id>https://youze27.github.io/blog/com/read/%E3%80%8A%E5%BF%83%E7%90%86%E5%AD%A6%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.html</id>
-    <link href="https://youze27.github.io/blog/com/read/%E3%80%8A%E5%BF%83%E7%90%86%E5%AD%A6%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.html"/>
+    <id>https://youze27.github.io/com/read/%E3%80%8A%E5%BF%83%E7%90%86%E5%AD%A6%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.html</id>
+    <link href="https://youze27.github.io/com/read/%E3%80%8A%E5%BF%83%E7%90%86%E5%AD%A6%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.html"/>
     <updated>2025-12-27T12:40:22.000Z</updated>
     <summary type="html"><![CDATA[<h4>心理弹性（Resilience）</h4>
 <p>定义：个体在逆境中恢复并适应变化的能力，体现为从挫折中学习并成长。<br>
@@ -7750,8 +7750,8 @@ Finished：客户端和服务器各自计算并发送一个Finished数据包，�
   </entry>
   <entry>
     <title type="text">Prompt越狱手册</title>
-    <id>https://youze27.github.io/blog/com/other/Prompt%E8%B6%8A%E7%8B%B1%E6%89%8B%E5%86%8C.html</id>
-    <link href="https://youze27.github.io/blog/com/other/Prompt%E8%B6%8A%E7%8B%B1%E6%89%8B%E5%86%8C.html"/>
+    <id>https://youze27.github.io/com/other/Prompt%E8%B6%8A%E7%8B%B1%E6%89%8B%E5%86%8C.html</id>
+    <link href="https://youze27.github.io/com/other/Prompt%E8%B6%8A%E7%8B%B1%E6%89%8B%E5%86%8C.html"/>
     <updated>2025-12-07T11:01:10.000Z</updated>
     <summary type="html"><![CDATA[
 <h2>目录</h2>
@@ -8150,8 +8150,8 @@ Finished：客户端和服务器各自计算并发送一个Finished数据包，�
   </entry>
   <entry>
     <title type="text">漏洞挖掘思路</title>
-    <id>https://youze27.github.io/blog/perm/%E6%8C%96%E6%B4%9E%E6%80%9D%E8%B7%AF.html</id>
-    <link href="https://youze27.github.io/blog/perm/%E6%8C%96%E6%B4%9E%E6%80%9D%E8%B7%AF.html"/>
+    <id>https://youze27.github.io/perm/%E6%8C%96%E6%B4%9E%E6%80%9D%E8%B7%AF.html</id>
+    <link href="https://youze27.github.io/perm/%E6%8C%96%E6%B4%9E%E6%80%9D%E8%B7%AF.html"/>
     <updated>2025-03-02T05:52:48.000Z</updated>
     <summary type="html"><![CDATA[<h4>漏洞挖掘思路</h4>
 <p>大厂SRC严重漏洞的特点</p>
@@ -8219,15 +8219,15 @@ Finished：客户端和服务器各自计算并发送一个Finished数据包，�
   </entry>
   <entry>
     <title type="text">其他杂项🧶</title>
-    <id>https://youze27.github.io/blog/com/other/</id>
-    <link href="https://youze27.github.io/blog/com/other/"/>
+    <id>https://youze27.github.io/com/other/</id>
+    <link href="https://youze27.github.io/com/other/"/>
     <updated>2025-12-13T14:38:00.000Z</updated>
     <published>2025-03-02T05:52:48.000Z</published>
   </entry>
   <entry>
     <title type="text">deepseek使用指南 清华大学</title>
-    <id>https://youze27.github.io/blog/com/other/deepseek%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97%20%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6.html</id>
-    <link href="https://youze27.github.io/blog/com/other/deepseek%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97%20%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6.html"/>
+    <id>https://youze27.github.io/com/other/deepseek%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97%20%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6.html</id>
+    <link href="https://youze27.github.io/com/other/deepseek%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97%20%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6.html"/>
     <updated>2025-12-07T11:01:10.000Z</updated>
     <summary type="html"><![CDATA[<p>​​</p>
 <p>​​</p>
@@ -8370,8 +8370,8 @@ Finished：客户端和服务器各自计算并发送一个Finished数据包，�
   </entry>
   <entry>
     <title type="text">deepseek提问方法</title>
-    <id>https://youze27.github.io/blog/com/other/deepseek%E6%8F%90%E9%97%AE%E6%96%B9%E6%B3%95.html</id>
-    <link href="https://youze27.github.io/blog/com/other/deepseek%E6%8F%90%E9%97%AE%E6%96%B9%E6%B3%95.html"/>
+    <id>https://youze27.github.io/com/other/deepseek%E6%8F%90%E9%97%AE%E6%96%B9%E6%B3%95.html</id>
+    <link href="https://youze27.github.io/com/other/deepseek%E6%8F%90%E9%97%AE%E6%96%B9%E6%B3%95.html"/>
     <updated>2025-12-07T11:01:10.000Z</updated>
     <summary type="html"><![CDATA[<p>deepseek 应该怎样提问<br>
 为了让我的回答更准确和有用，你可以通过以下方式优化提问。我通过几个例子为你说明不同提问方式的区别：</p>
@@ -8431,8 +8431,8 @@ Finished：客户端和服务器各自计算并发送一个Finished数据包，�
   </entry>
   <entry>
     <title type="text">学习ssh基本使用</title>
-    <id>https://youze27.github.io/blog/net/%E5%AD%A6%E4%B9%A0ssh%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8.html</id>
-    <link href="https://youze27.github.io/blog/net/%E5%AD%A6%E4%B9%A0ssh%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8.html"/>
+    <id>https://youze27.github.io/net/%E5%AD%A6%E4%B9%A0ssh%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8.html</id>
+    <link href="https://youze27.github.io/net/%E5%AD%A6%E4%B9%A0ssh%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8.html"/>
     <updated>2025-12-05T16:22:10.000Z</updated>
     <summary type="html"><![CDATA[<h4>通过ssh连接服务器</h4>
 <p>客户端操作：</p>
@@ -8496,8 +8496,8 @@ Finished：客户端和服务器各自计算并发送一个Finished数据包，�
   </entry>
   <entry>
     <title type="text">免责声明</title>
-    <id>https://youze27.github.io/blog/clause.html</id>
-    <link href="https://youze27.github.io/blog/clause.html"/>
+    <id>https://youze27.github.io/clause.html</id>
+    <link href="https://youze27.github.io/clause.html"/>
     <updated>2025-11-24T16:09:39.000Z</updated>
     <summary type="html"><![CDATA[
 <p><strong>最后更新日期：2025年02月23日</strong><br>
@@ -8528,8 +8528,8 @@ Finished：客户端和服务器各自计算并发送一个Finished数据包，�
   </entry>
   <entry>
     <title type="text">热💖生活</title>
-    <id>https://youze27.github.io/blog/com/</id>
-    <link href="https://youze27.github.io/blog/com/"/>
+    <id>https://youze27.github.io/com/</id>
+    <link href="https://youze27.github.io/com/"/>
     <updated>2025-12-27T12:40:22.000Z</updated>
     <summary type="html"><![CDATA[<div class="masonry-grid">
   <div class="masonry-item">
@@ -8757,8 +8757,8 @@ Finished：客户端和服务器各自计算并发送一个Finished数据包，�
   </entry>
   <entry>
     <title type="text">学习云计算基本理论学习笔记</title>
-    <id>https://youze27.github.io/blog/net/%E5%AD%A6%E4%B9%A0%E4%BA%91%E8%AE%A1%E7%AE%97%E5%9F%BA%E6%9C%AC%E7%90%86%E8%AE%BA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html</id>
-    <link href="https://youze27.github.io/blog/net/%E5%AD%A6%E4%B9%A0%E4%BA%91%E8%AE%A1%E7%AE%97%E5%9F%BA%E6%9C%AC%E7%90%86%E8%AE%BA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html"/>
+    <id>https://youze27.github.io/net/%E5%AD%A6%E4%B9%A0%E4%BA%91%E8%AE%A1%E7%AE%97%E5%9F%BA%E6%9C%AC%E7%90%86%E8%AE%BA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html</id>
+    <link href="https://youze27.github.io/net/%E5%AD%A6%E4%B9%A0%E4%BA%91%E8%AE%A1%E7%AE%97%E5%9F%BA%E6%9C%AC%E7%90%86%E8%AE%BA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html"/>
     <updated>2025-12-05T16:22:10.000Z</updated>
     <summary type="html"><![CDATA[<h2>什么是云计算？</h2>
 <p>美国国家标准与技术研究院NIST定义：云计算是一种模型，可以随时随地，便捷地，随需应变地从可配置计算资源共享池中获取所需资源（例如：网络、服务器、存储、应用、服务），资源可以快速供应并释放，使管理资源的工作量和服务提供商的交互减小到最低限度。</p>
@@ -8793,8 +8793,8 @@ Finished：客户端和服务器各自计算并发送一个Finished数据包，�
   </entry>
   <entry>
     <title type="text">学习Linux命令</title>
-    <id>https://youze27.github.io/blog/net/%E5%AD%A6%E4%B9%A0Linux%E5%91%BD%E4%BB%A4.html</id>
-    <link href="https://youze27.github.io/blog/net/%E5%AD%A6%E4%B9%A0Linux%E5%91%BD%E4%BB%A4.html"/>
+    <id>https://youze27.github.io/net/%E5%AD%A6%E4%B9%A0Linux%E5%91%BD%E4%BB%A4.html</id>
+    <link href="https://youze27.github.io/net/%E5%AD%A6%E4%B9%A0Linux%E5%91%BD%E4%BB%A4.html"/>
     <updated>2025-12-05T16:22:10.000Z</updated>
     <summary type="html"><![CDATA[<p>在Linux和类Unix操作系统中，波浪号（<code>~</code>​）代表当前用户的主目录（home directory）</p>
 <p>例如，如果当前用户是<code>alice</code>​，并且她的主目录是<code>/home/alice</code>​，那么<code>~</code>​就代表<code>/home/alice</code>​。</p>
@@ -8953,8 +8953,8 @@ Finished：客户端和服务器各自计算并发送一个Finished数据包，�
   </entry>
   <entry>
     <title type="text">Linux系统换源输入法和包管理器</title>
-    <id>https://youze27.github.io/blog/net/Linux%E7%B3%BB%E7%BB%9F%E6%8D%A2%E6%BA%90%E8%BE%93%E5%85%A5%E6%B3%95%E5%92%8C%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8.html</id>
-    <link href="https://youze27.github.io/blog/net/Linux%E7%B3%BB%E7%BB%9F%E6%8D%A2%E6%BA%90%E8%BE%93%E5%85%A5%E6%B3%95%E5%92%8C%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8.html"/>
+    <id>https://youze27.github.io/net/Linux%E7%B3%BB%E7%BB%9F%E6%8D%A2%E6%BA%90%E8%BE%93%E5%85%A5%E6%B3%95%E5%92%8C%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8.html</id>
+    <link href="https://youze27.github.io/net/Linux%E7%B3%BB%E7%BB%9F%E6%8D%A2%E6%BA%90%E8%BE%93%E5%85%A5%E6%B3%95%E5%92%8C%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8.html"/>
     <updated>2025-12-05T16:22:10.000Z</updated>
     <summary type="html"><![CDATA[<h2>源 sources.list</h2>
 <p>更新本地软件包索引：sudo apt update</p>
@@ -9104,8 +9104,8 @@ sudo apt upgrade<br>
   </entry>
   <entry>
     <title type="text">各种报错积累</title>
-    <id>https://youze27.github.io/blog/net/%E5%90%84%E7%A7%8D%E6%8A%A5%E9%94%99%E7%A7%AF%E7%B4%AF.html</id>
-    <link href="https://youze27.github.io/blog/net/%E5%90%84%E7%A7%8D%E6%8A%A5%E9%94%99%E7%A7%AF%E7%B4%AF.html"/>
+    <id>https://youze27.github.io/net/%E5%90%84%E7%A7%8D%E6%8A%A5%E9%94%99%E7%A7%AF%E7%B4%AF.html</id>
+    <link href="https://youze27.github.io/net/%E5%90%84%E7%A7%8D%E6%8A%A5%E9%94%99%E7%A7%AF%E7%B4%AF.html"/>
     <updated>2025-03-02T07:25:49.000Z</updated>
     <summary type="html"><![CDATA[<h2>sqlmap 更新报错</h2>
 <div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-"><span class="line"><span>ubuntu@ubuntu-cmp:~$ pip install --upgrade sqlmap</span></span>
@@ -9291,8 +9291,8 @@ sudo apt upgrade<br>
   </entry>
   <entry>
     <title type="text">学习网络及安全的一些术语</title>
-    <id>https://youze27.github.io/blog/net/%E5%AD%A6%E4%B9%A0%E7%BD%91%E7%BB%9C%E5%8F%8A%E5%AE%89%E5%85%A8%E7%9A%84%E4%B8%80%E4%BA%9B%E6%9C%AF%E8%AF%AD.html</id>
-    <link href="https://youze27.github.io/blog/net/%E5%AD%A6%E4%B9%A0%E7%BD%91%E7%BB%9C%E5%8F%8A%E5%AE%89%E5%85%A8%E7%9A%84%E4%B8%80%E4%BA%9B%E6%9C%AF%E8%AF%AD.html"/>
+    <id>https://youze27.github.io/net/%E5%AD%A6%E4%B9%A0%E7%BD%91%E7%BB%9C%E5%8F%8A%E5%AE%89%E5%85%A8%E7%9A%84%E4%B8%80%E4%BA%9B%E6%9C%AF%E8%AF%AD.html</id>
+    <link href="https://youze27.github.io/net/%E5%AD%A6%E4%B9%A0%E7%BD%91%E7%BB%9C%E5%8F%8A%E5%AE%89%E5%85%A8%E7%9A%84%E4%B8%80%E4%BA%9B%E6%9C%AF%E8%AF%AD.html"/>
     <updated>2025-12-05T16:22:10.000Z</updated>
     <summary type="html"><![CDATA[<h2>加密算法</h2>
 <div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-"><span class="line"><span>- 算法</span></span>
@@ -9502,8 +9502,8 @@ a 代表 "所有用户"（所有者、组和其他）。<br>
   </entry>
   <entry>
     <title type="text">收藏夹</title>
-    <id>https://youze27.github.io/blog/nav.html</id>
-    <link href="https://youze27.github.io/blog/nav.html"/>
+    <id>https://youze27.github.io/nav.html</id>
+    <link href="https://youze27.github.io/nav.html"/>
     <updated>2025-01-21T16:41:57.000Z</updated>
     <summary type="html"><![CDATA[<h3>视频</h3>
 <p><a href="https://www.bilibili.com/" target="_blank" rel="noopener noreferrer">哔哩哔哩 (゜-゜)<br>        つロ 干杯~-bilibili</a><br>        ​<a href="https://www.douyin.com/" target="_blank" rel="noopener noreferrer">抖音-记录美好生活</a><br>        ​<a href="https://www.zhihuishu.com/" target="_blank" rel="noopener noreferrer">智慧树</a><br></p>]]></summary>
@@ -9545,8 +9545,8 @@ a 代表 "所有用户"（所有者、组和其他）。<br>
   </entry>
   <entry>
     <title type="text">学习Docker-Compose命令及镜像构建与推送</title>
-    <id>https://youze27.github.io/blog/net/%E5%AD%A6%E4%B9%A0Docker-Compose%E5%91%BD%E4%BB%A4%E5%8F%8A%E9%95%9C%E5%83%8F%E6%9E%84%E5%BB%BA%E4%B8%8E%E6%8E%A8%E9%80%81.html</id>
-    <link href="https://youze27.github.io/blog/net/%E5%AD%A6%E4%B9%A0Docker-Compose%E5%91%BD%E4%BB%A4%E5%8F%8A%E9%95%9C%E5%83%8F%E6%9E%84%E5%BB%BA%E4%B8%8E%E6%8E%A8%E9%80%81.html"/>
+    <id>https://youze27.github.io/net/%E5%AD%A6%E4%B9%A0Docker-Compose%E5%91%BD%E4%BB%A4%E5%8F%8A%E9%95%9C%E5%83%8F%E6%9E%84%E5%BB%BA%E4%B8%8E%E6%8E%A8%E9%80%81.html</id>
+    <link href="https://youze27.github.io/net/%E5%AD%A6%E4%B9%A0Docker-Compose%E5%91%BD%E4%BB%A4%E5%8F%8A%E9%95%9C%E5%83%8F%E6%9E%84%E5%BB%BA%E4%B8%8E%E6%8E%A8%E9%80%81.html"/>
     <updated>2025-12-05T16:22:10.000Z</updated>
     <summary type="html"><![CDATA[<p>最常用命令集合</p>
 <div class="language-php line-numbers-mode" data-highlighter="shiki" data-ext="php" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-php"><span class="line"><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF">sudo</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> mkdir</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> -</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF">p</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> /</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF">etc</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF">docker</span></span>
@@ -9631,8 +9631,8 @@ a 代表 "所有用户"（所有者、组和其他）。<br>
   </entry>
   <entry>
     <title type="text">Linux入侵排查</title>
-    <id>https://youze27.github.io/blog/response/Linux%E5%85%A5%E4%BE%B5%E6%8E%92%E6%9F%A5.html</id>
-    <link href="https://youze27.github.io/blog/response/Linux%E5%85%A5%E4%BE%B5%E6%8E%92%E6%9F%A5.html"/>
+    <id>https://youze27.github.io/response/Linux%E5%85%A5%E4%BE%B5%E6%8E%92%E6%9F%A5.html</id>
+    <link href="https://youze27.github.io/response/Linux%E5%85%A5%E4%BE%B5%E6%8E%92%E6%9F%A5.html"/>
     <updated>2025-01-12T13:43:01.000Z</updated>
     <summary type="html"><![CDATA[
 <p>安全排查步骤</p>
@@ -9735,8 +9735,8 @@ a 代表 "所有用户"（所有者、组和其他）。<br>
   </entry>
   <entry>
     <title type="text">Linux安全加固</title>
-    <id>https://youze27.github.io/blog/response/Linux%E5%AE%89%E5%85%A8%E5%8A%A0%E5%9B%BA.html</id>
-    <link href="https://youze27.github.io/blog/response/Linux%E5%AE%89%E5%85%A8%E5%8A%A0%E5%9B%BA.html"/>
+    <id>https://youze27.github.io/response/Linux%E5%AE%89%E5%85%A8%E5%8A%A0%E5%9B%BA.html</id>
+    <link href="https://youze27.github.io/response/Linux%E5%AE%89%E5%85%A8%E5%8A%A0%E5%9B%BA.html"/>
     <updated>2025-01-12T13:43:01.000Z</updated>
     <summary type="html"><![CDATA[<h4>用户管理</h4>
 <h5>特权用户排查</h5>
@@ -9811,8 +9811,8 @@ systemctl restart sshd			#service sshd restart</p>
   </entry>
   <entry>
     <title type="text">RDP和360星图使用</title>
-    <id>https://youze27.github.io/blog/response/RDP%E5%92%8C360%E6%98%9F%E5%9B%BE%E4%BD%BF%E7%94%A8.html</id>
-    <link href="https://youze27.github.io/blog/response/RDP%E5%92%8C360%E6%98%9F%E5%9B%BE%E4%BD%BF%E7%94%A8.html"/>
+    <id>https://youze27.github.io/response/RDP%E5%92%8C360%E6%98%9F%E5%9B%BE%E4%BD%BF%E7%94%A8.html</id>
+    <link href="https://youze27.github.io/response/RDP%E5%92%8C360%E6%98%9F%E5%9B%BE%E4%BD%BF%E7%94%A8.html"/>
     <updated>2025-01-12T13:43:01.000Z</updated>
     <summary type="html"><![CDATA[
 <h3>通过hydra爆破windwos虚拟机的RDP服务，利用日志分析工具获取IP地址和时间以及用户名</h3>
@@ -9900,15 +9900,15 @@ systemctl restart sshd			#service sshd restart</p>
   </entry>
   <entry>
     <title type="text">防守之道</title>
-    <id>https://youze27.github.io/blog/response/</id>
-    <link href="https://youze27.github.io/blog/response/"/>
+    <id>https://youze27.github.io/response/</id>
+    <link href="https://youze27.github.io/response/"/>
     <updated>2025-11-24T16:09:39.000Z</updated>
     <published>2025-01-12T13:43:01.000Z</published>
   </entry>
   <entry>
     <title type="text">Redis日志分析</title>
-    <id>https://youze27.github.io/blog/response/Redis%E6%97%A5%E5%BF%97%E5%88%86%E6%9E%90.html</id>
-    <link href="https://youze27.github.io/blog/response/Redis%E6%97%A5%E5%BF%97%E5%88%86%E6%9E%90.html"/>
+    <id>https://youze27.github.io/response/Redis%E6%97%A5%E5%BF%97%E5%88%86%E6%9E%90.html</id>
+    <link href="https://youze27.github.io/response/Redis%E6%97%A5%E5%BF%97%E5%88%86%E6%9E%90.html"/>
     <updated>2025-01-12T13:43:01.000Z</updated>
     <summary type="html"><![CDATA[<p>linux搭建一个redis服务，配置未授权和记录redis日志，开启redis服务，并使用未授权攻击行为进行写计划任务；然后进行入侵排查，分析redis日志和攻击行为。</p>
 <div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">yum</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> install</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> redis</span></span></code></pre>
@@ -9985,8 +9985,8 @@ systemctl restart sshd			#service sshd restart</p>
   </entry>
   <entry>
     <title type="text">windows入侵排查</title>
-    <id>https://youze27.github.io/blog/response/windows%E5%85%A5%E4%BE%B5%E6%8E%92%E6%9F%A5.html</id>
-    <link href="https://youze27.github.io/blog/response/windows%E5%85%A5%E4%BE%B5%E6%8E%92%E6%9F%A5.html"/>
+    <id>https://youze27.github.io/response/windows%E5%85%A5%E4%BE%B5%E6%8E%92%E6%9F%A5.html</id>
+    <link href="https://youze27.github.io/response/windows%E5%85%A5%E4%BE%B5%E6%8E%92%E6%9F%A5.html"/>
     <updated>2025-02-08T14:18:57.000Z</updated>
     <summary type="html"><![CDATA[<p>1、入侵特点</p>
 <p>2、走哪里入侵</p>
@@ -10049,8 +10049,8 @@ systemctl restart sshd			#service sshd restart</p>
   </entry>
   <entry>
     <title type="text">windows安全加固</title>
-    <id>https://youze27.github.io/blog/response/windows%E5%AE%89%E5%85%A8%E5%8A%A0%E5%9B%BA.html</id>
-    <link href="https://youze27.github.io/blog/response/windows%E5%AE%89%E5%85%A8%E5%8A%A0%E5%9B%BA.html"/>
+    <id>https://youze27.github.io/response/windows%E5%AE%89%E5%85%A8%E5%8A%A0%E5%9B%BA.html</id>
+    <link href="https://youze27.github.io/response/windows%E5%AE%89%E5%85%A8%E5%8A%A0%E5%9B%BA.html"/>
     <updated>2025-01-12T13:43:01.000Z</updated>
     <summary type="html"><![CDATA[<h3>计算机管理</h3>
 <h4>本地用户和组</h4>
@@ -10174,8 +10174,8 @@ systemctl restart sshd			#service sshd restart</p>
   </entry>
   <entry>
     <title type="text">windows日志ID速查</title>
-    <id>https://youze27.github.io/blog/response/windows%E6%97%A5%E5%BF%97ID%E9%80%9F%E6%9F%A5.html</id>
-    <link href="https://youze27.github.io/blog/response/windows%E6%97%A5%E5%BF%97ID%E9%80%9F%E6%9F%A5.html"/>
+    <id>https://youze27.github.io/response/windows%E6%97%A5%E5%BF%97ID%E9%80%9F%E6%9F%A5.html</id>
+    <link href="https://youze27.github.io/response/windows%E6%97%A5%E5%BF%97ID%E9%80%9F%E6%9F%A5.html"/>
     <updated>2025-01-12T13:43:01.000Z</updated>
     <summary type="html"><![CDATA[<p><a href="https://www.cnblogs.com/Yang34/p/13453210.html" title="发布于 2020-08-07 15:33" target="_blank" rel="noopener noreferrer">WINDOWS日志事件ID速查表</a></p>
 <h2>类别:帐户管理</h2>
@@ -11066,8 +11066,8 @@ systemctl restart sshd			#service sshd restart</p>
   </entry>
   <entry>
     <title type="text">中间件加固</title>
-    <id>https://youze27.github.io/blog/response/%E4%B8%AD%E9%97%B4%E4%BB%B6%E5%8A%A0%E5%9B%BA.html</id>
-    <link href="https://youze27.github.io/blog/response/%E4%B8%AD%E9%97%B4%E4%BB%B6%E5%8A%A0%E5%9B%BA.html"/>
+    <id>https://youze27.github.io/response/%E4%B8%AD%E9%97%B4%E4%BB%B6%E5%8A%A0%E5%9B%BA.html</id>
+    <link href="https://youze27.github.io/response/%E4%B8%AD%E9%97%B4%E4%BB%B6%E5%8A%A0%E5%9B%BA.html"/>
     <updated>2025-01-12T13:43:01.000Z</updated>
     <summary type="html"><![CDATA[<h3>apache  --httpd</h3>
 <p>配置文件路径:/etc/httpd/conf/httpd.conf</p>
@@ -11164,8 +11164,8 @@ systemctl restart sshd			#service sshd restart</p>
   </entry>
   <entry>
     <title type="text">数据库安全加固</title>
-    <id>https://youze27.github.io/blog/response/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AE%89%E5%85%A8%E5%8A%A0%E5%9B%BA.html</id>
-    <link href="https://youze27.github.io/blog/response/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AE%89%E5%85%A8%E5%8A%A0%E5%9B%BA.html"/>
+    <id>https://youze27.github.io/response/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AE%89%E5%85%A8%E5%8A%A0%E5%9B%BA.html</id>
+    <link href="https://youze27.github.io/response/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AE%89%E5%85%A8%E5%8A%A0%E5%9B%BA.html"/>
     <updated>2025-12-05T16:22:10.000Z</updated>
     <summary type="html"><![CDATA[<h2><strong>MySql安全加固</strong></h2>
 <h3>账号安全</h3>
@@ -11268,8 +11268,8 @@ systemctl restart sshd			#service sshd restart</p>
   </entry>
   <entry>
     <title type="text">学习PHP语法特性</title>
-    <id>https://youze27.github.io/blog/net/%E5%AD%A6%E4%B9%A0PHP%E8%AF%AD%E6%B3%95%E7%89%B9%E6%80%A7.html</id>
-    <link href="https://youze27.github.io/blog/net/%E5%AD%A6%E4%B9%A0PHP%E8%AF%AD%E6%B3%95%E7%89%B9%E6%80%A7.html"/>
+    <id>https://youze27.github.io/net/%E5%AD%A6%E4%B9%A0PHP%E8%AF%AD%E6%B3%95%E7%89%B9%E6%80%A7.html</id>
+    <link href="https://youze27.github.io/net/%E5%AD%A6%E4%B9%A0PHP%E8%AF%AD%E6%B3%95%E7%89%B9%E6%80%A7.html"/>
     <updated>2025-12-05T16:22:10.000Z</updated>
     <summary type="html"><![CDATA[
 <ul>
@@ -11476,8 +11476,8 @@ systemctl restart sshd			#service sshd restart</p>
   </entry>
   <entry>
     <title type="text">学习URL请求后的通信过程</title>
-    <id>https://youze27.github.io/blog/net/%E5%AD%A6%E4%B9%A0URL%E8%AF%B7%E6%B1%82%E5%90%8E%E7%9A%84%E9%80%9A%E4%BF%A1%E8%BF%87%E7%A8%8B.html</id>
-    <link href="https://youze27.github.io/blog/net/%E5%AD%A6%E4%B9%A0URL%E8%AF%B7%E6%B1%82%E5%90%8E%E7%9A%84%E9%80%9A%E4%BF%A1%E8%BF%87%E7%A8%8B.html"/>
+    <id>https://youze27.github.io/net/%E5%AD%A6%E4%B9%A0URL%E8%AF%B7%E6%B1%82%E5%90%8E%E7%9A%84%E9%80%9A%E4%BF%A1%E8%BF%87%E7%A8%8B.html</id>
+    <link href="https://youze27.github.io/net/%E5%AD%A6%E4%B9%A0URL%E8%AF%B7%E6%B1%82%E5%90%8E%E7%9A%84%E9%80%9A%E4%BF%A1%E8%BF%87%E7%A8%8B.html"/>
     <updated>2025-12-05T16:22:10.000Z</updated>
     <summary type="html"><![CDATA[<h2>HTTP请求体详解</h2>
 <h3>组成部分</h3>
@@ -11607,8 +11607,8 @@ systemctl restart sshd			#service sshd restart</p>
   </entry>
   <entry>
     <title type="text">学习Web Shell</title>
-    <id>https://youze27.github.io/blog/net/%E5%AD%A6%E4%B9%A0Web%20Shell.html</id>
-    <link href="https://youze27.github.io/blog/net/%E5%AD%A6%E4%B9%A0Web%20Shell.html"/>
+    <id>https://youze27.github.io/net/%E5%AD%A6%E4%B9%A0Web%20Shell.html</id>
+    <link href="https://youze27.github.io/net/%E5%AD%A6%E4%B9%A0Web%20Shell.html"/>
     <updated>2025-12-05T16:22:10.000Z</updated>
     <summary type="html"><![CDATA[<ol>
 <li>通过GET、POST、COOKIE这三种方式向一个网站提交数据</li>
@@ -12297,8 +12297,8 @@ systemctl restart sshd			#service sshd restart</p>
   </entry>
   <entry>
     <title type="text">学习python基础语法特性解题笔记</title>
-    <id>https://youze27.github.io/blog/net/%E5%AD%A6%E4%B9%A0python%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95%E7%89%B9%E6%80%A7%E8%A7%A3%E9%A2%98%E7%AC%94%E8%AE%B0.html</id>
-    <link href="https://youze27.github.io/blog/net/%E5%AD%A6%E4%B9%A0python%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95%E7%89%B9%E6%80%A7%E8%A7%A3%E9%A2%98%E7%AC%94%E8%AE%B0.html"/>
+    <id>https://youze27.github.io/net/%E5%AD%A6%E4%B9%A0python%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95%E7%89%B9%E6%80%A7%E8%A7%A3%E9%A2%98%E7%AC%94%E8%AE%B0.html</id>
+    <link href="https://youze27.github.io/net/%E5%AD%A6%E4%B9%A0python%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95%E7%89%B9%E6%80%A7%E8%A7%A3%E9%A2%98%E7%AC%94%E8%AE%B0.html"/>
     <updated>2025-12-05T16:22:10.000Z</updated>
     <summary type="html"><![CDATA[<p><strong>使用输入函数input输入人的身高、体重。计算BMI值，并输出。 BMI=体重/身高的平方</strong></p>
 <div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-python"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">height </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> float</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">input</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"请输入身高："</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)) </span></span>
@@ -12476,8 +12476,8 @@ True</p>
   </entry>
   <entry>
     <title type="text">CSRF</title>
-    <id>https://youze27.github.io/blog/perm/CSRF%E6%BC%8F%E6%B4%9E.html</id>
-    <link href="https://youze27.github.io/blog/perm/CSRF%E6%BC%8F%E6%B4%9E.html"/>
+    <id>https://youze27.github.io/perm/CSRF%E6%BC%8F%E6%B4%9E.html</id>
+    <link href="https://youze27.github.io/perm/CSRF%E6%BC%8F%E6%B4%9E.html"/>
     <updated>2025-11-26T15:59:54.000Z</updated>
     <summary type="html"><![CDATA[<p>跨站请求伪造(Cross-site request forgery,CSRF)是一种攻击，它强制终端用户在当前对其进行&lt;span data-type="text" style="color: var(--b3-font-color9);"&gt;身份验证后的Web应用程序<br>
 上执行非本意的操作&lt;span&gt;。CSRF攻击的着重点在伪造更改状态的请求，而不是盗取数据，因为攻击者无法查看对伪造请求的响应</p>
@@ -12631,8 +12631,8 @@ jsonp只能get请求。CORS允许浏览器向跨域服务器发出XMLHttpRequest
   </entry>
   <entry>
     <title type="text">Linux权限维持</title>
-    <id>https://youze27.github.io/blog/perm/Linux%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81.html</id>
-    <link href="https://youze27.github.io/blog/perm/Linux%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81.html"/>
+    <id>https://youze27.github.io/perm/Linux%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81.html</id>
+    <link href="https://youze27.github.io/perm/Linux%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81.html"/>
     <updated>2025-11-26T15:59:54.000Z</updated>
     <summary type="html"><![CDATA[<h2>ssh公钥免密后门</h2>
 <h3>公钥私钥原理概述</h3>
@@ -12790,8 +12790,8 @@ jsonp只能get请求。CORS允许浏览器向跨域服务器发出XMLHttpRequest
   </entry>
   <entry>
     <title type="text">Linux系统提权</title>
-    <id>https://youze27.github.io/blog/perm/Linux%E7%B3%BB%E7%BB%9F%E6%8F%90%E6%9D%83.html</id>
-    <link href="https://youze27.github.io/blog/perm/Linux%E7%B3%BB%E7%BB%9F%E6%8F%90%E6%9D%83.html"/>
+    <id>https://youze27.github.io/perm/Linux%E7%B3%BB%E7%BB%9F%E6%8F%90%E6%9D%83.html</id>
+    <link href="https://youze27.github.io/perm/Linux%E7%B3%BB%E7%BB%9F%E6%8F%90%E6%9D%83.html"/>
     <updated>2025-11-26T15:59:54.000Z</updated>
     <summary type="html"><![CDATA[<p>Liux安装好系统后里面自带的软件或内核存在的漏洞，比较流行的有“脏牛提权”<br>
 Linux内核提权跟Windows一样，都要下载对应漏洞的脚本进行提权</p>
@@ -13145,8 +13145,8 @@ exp下载链接：<a href="https://github.com/SecWiki/linux-kernel-exploits" tit
   </entry>
   <entry>
     <title type="text">PHP代码审计</title>
-    <id>https://youze27.github.io/blog/perm/PHP%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1.html</id>
-    <link href="https://youze27.github.io/blog/perm/PHP%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1.html"/>
+    <id>https://youze27.github.io/perm/PHP%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1.html</id>
+    <link href="https://youze27.github.io/perm/PHP%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1.html"/>
     <updated>2025-11-26T15:59:54.000Z</updated>
     <summary type="html"><![CDATA[
 <p>靶场 <a href="https://github.com/virink/VAuditDemo" target="_blank" rel="noopener noreferrer">VAuditDemo</a></p>
@@ -13178,8 +13178,8 @@ exp下载链接：<a href="https://github.com/SecWiki/linux-kernel-exploits" tit
   </entry>
   <entry>
     <title type="text">XSS-lab</title>
-    <id>https://youze27.github.io/blog/perm/XSS-lab.html</id>
-    <link href="https://youze27.github.io/blog/perm/XSS-lab.html"/>
+    <id>https://youze27.github.io/perm/XSS-lab.html</id>
+    <link href="https://youze27.github.io/perm/XSS-lab.html"/>
     <updated>2025-11-26T15:59:54.000Z</updated>
     <summary type="html"><![CDATA[
 <h2>level1</h2>
@@ -13328,8 +13328,8 @@ exp下载链接：<a href="https://github.com/SecWiki/linux-kernel-exploits" tit
   </entry>
   <entry>
     <title type="text">XSS实验</title>
-    <id>https://youze27.github.io/blog/perm/XSS%E5%AE%9E%E9%AA%8C.html</id>
-    <link href="https://youze27.github.io/blog/perm/XSS%E5%AE%9E%E9%AA%8C.html"/>
+    <id>https://youze27.github.io/perm/XSS%E5%AE%9E%E9%AA%8C.html</id>
+    <link href="https://youze27.github.io/perm/XSS%E5%AE%9E%E9%AA%8C.html"/>
     <updated>2025-11-26T15:59:54.000Z</updated>
     <summary type="html"><![CDATA[
 <h2>通过存储型XSS获取被攻击者的cookie</h2>
@@ -13575,8 +13575,8 @@ exp下载链接：<a href="https://github.com/SecWiki/linux-kernel-exploits" tit
   </entry>
   <entry>
     <title type="text">XXE&amp;SSRF</title>
-    <id>https://youze27.github.io/blog/perm/XXE_SSRF.html</id>
-    <link href="https://youze27.github.io/blog/perm/XXE_SSRF.html"/>
+    <id>https://youze27.github.io/perm/XXE_SSRF.html</id>
+    <link href="https://youze27.github.io/perm/XXE_SSRF.html"/>
     <updated>2025-11-26T15:59:54.000Z</updated>
     <summary type="html"><![CDATA[
 <h2>XXE</h2>
@@ -13869,8 +13869,8 @@ exp下载链接：<a href="https://github.com/SecWiki/linux-kernel-exploits" tit
   </entry>
   <entry>
     <title type="text">java环境配置</title>
-    <id>https://youze27.github.io/blog/perm/java%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE.html</id>
-    <link href="https://youze27.github.io/blog/perm/java%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE.html"/>
+    <id>https://youze27.github.io/perm/java%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE.html</id>
+    <link href="https://youze27.github.io/perm/java%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE.html"/>
     <updated>2025-11-26T15:59:54.000Z</updated>
     <summary type="html"><![CDATA[
 <h3>windows     Linux见： Linux centos7 java环境配置</h3>
@@ -13909,8 +13909,8 @@ exp下载链接：<a href="https://github.com/SecWiki/linux-kernel-exploits" tit
   </entry>
   <entry>
     <title type="text">upload-labs</title>
-    <id>https://youze27.github.io/blog/perm/upload-labs.html</id>
-    <link href="https://youze27.github.io/blog/perm/upload-labs.html"/>
+    <id>https://youze27.github.io/perm/upload-labs.html</id>
+    <link href="https://youze27.github.io/perm/upload-labs.html"/>
     <updated>2025-11-26T15:59:54.000Z</updated>
     <summary type="html"><![CDATA[
 <h2>Pass-1</h2>
@@ -14062,8 +14062,8 @@ AddType application/x-httpd-php .php .phtml .php5 php3</p>
   </entry>
   <entry>
     <title type="text">windows权限维持</title>
-    <id>https://youze27.github.io/blog/perm/windows%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81.html</id>
-    <link href="https://youze27.github.io/blog/perm/windows%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81.html"/>
+    <id>https://youze27.github.io/perm/windows%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81.html</id>
+    <link href="https://youze27.github.io/perm/windows%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81.html"/>
     <updated>2025-11-26T15:59:54.000Z</updated>
     <summary type="html"><![CDATA[<p>php 不死马权限维持、映像劫持技术、策 略组脚本维持、shift 后门、建立影子账 号、power shell 配置文件后门、Monitor 权限维持、利用安全描述符隐藏服务后门 进行权限维持、iis 后门、window 隐藏技 术、驱动级文件隐藏</p>
 <h2>shift后门(shift backdoor)</h2>
@@ -14205,8 +14205,8 @@ AddType application/x-httpd-php .php .phtml .php5 php3</p>
   </entry>
   <entry>
     <title type="text">windows系统提权</title>
-    <id>https://youze27.github.io/blog/perm/windows%E7%B3%BB%E7%BB%9F%E6%8F%90%E6%9D%83.html</id>
-    <link href="https://youze27.github.io/blog/perm/windows%E7%B3%BB%E7%BB%9F%E6%8F%90%E6%9D%83.html"/>
+    <id>https://youze27.github.io/perm/windows%E7%B3%BB%E7%BB%9F%E6%8F%90%E6%9D%83.html</id>
+    <link href="https://youze27.github.io/perm/windows%E7%B3%BB%E7%BB%9F%E6%8F%90%E6%9D%83.html"/>
     <updated>2025-11-26T15:59:54.000Z</updated>
     <summary type="html"><![CDATA[<h4>windows提权分类</h4>
 <p>1.系统漏洞提权(Linux、Windows)内核提权<br>
@@ -14475,8 +14475,8 @@ user--&gt;Root</p>
   </entry>
   <entry>
     <title type="text">命令执行和反序列化</title>
-    <id>https://youze27.github.io/blog/perm/%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C%E5%92%8C%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96.html</id>
-    <link href="https://youze27.github.io/blog/perm/%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C%E5%92%8C%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96.html"/>
+    <id>https://youze27.github.io/perm/%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C%E5%92%8C%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96.html</id>
+    <link href="https://youze27.github.io/perm/%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C%E5%92%8C%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96.html"/>
     <updated>2025-11-26T15:59:54.000Z</updated>
     <summary type="html"><![CDATA[<p>目标：<br>
 1、熟悉整理<span data-type="text" style="color: var(--b3-font-color9);">命令执行</span>漏洞各<span data-type="text" style="color: var(--b3-font-color9);">函数</span>的使用<span data-type="text" style="color: var(--b3-font-color9);">方法和条件</span>，总结命令执行漏洞的<span data-type="text" style="color: var(--b3-font-color9);">利用方法</span>。<br>
@@ -14608,8 +14608,8 @@ user--&gt;Root</p>
   </entry>
   <entry>
     <title type="text">文件上传</title>
-    <id>https://youze27.github.io/blog/perm/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0.html</id>
-    <link href="https://youze27.github.io/blog/perm/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0.html"/>
+    <id>https://youze27.github.io/perm/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0.html</id>
+    <link href="https://youze27.github.io/perm/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0.html"/>
     <updated>2025-11-26T15:59:54.000Z</updated>
     <summary type="html"><![CDATA[
 <h2>什么是文件上传漏洞？</h2>
@@ -14757,8 +14757,8 @@ user--&gt;Root</p>
   </entry>
   <entry>
     <title type="text">框架漏洞</title>
-    <id>https://youze27.github.io/blog/perm/%E6%A1%86%E6%9E%B6%E6%BC%8F%E6%B4%9E.html</id>
-    <link href="https://youze27.github.io/blog/perm/%E6%A1%86%E6%9E%B6%E6%BC%8F%E6%B4%9E.html"/>
+    <id>https://youze27.github.io/perm/%E6%A1%86%E6%9E%B6%E6%BC%8F%E6%B4%9E.html</id>
+    <link href="https://youze27.github.io/perm/%E6%A1%86%E6%9E%B6%E6%BC%8F%E6%B4%9E.html"/>
     <updated>2025-11-26T15:59:54.000Z</updated>
     <summary type="html"><![CDATA[<table>
 <thead>
@@ -14789,8 +14789,8 @@ user--&gt;Root</p>
   </entry>
   <entry>
     <title type="text">逻辑漏洞</title>
-    <id>https://youze27.github.io/blog/perm/%E9%80%BB%E8%BE%91%E6%BC%8F%E6%B4%9E.html</id>
-    <link href="https://youze27.github.io/blog/perm/%E9%80%BB%E8%BE%91%E6%BC%8F%E6%B4%9E.html"/>
+    <id>https://youze27.github.io/perm/%E9%80%BB%E8%BE%91%E6%BC%8F%E6%B4%9E.html</id>
+    <link href="https://youze27.github.io/perm/%E9%80%BB%E8%BE%91%E6%BC%8F%E6%B4%9E.html"/>
     <updated>2025-11-26T15:59:54.000Z</updated>
     <summary type="html"><![CDATA[<h2>身份认证安全</h2>
 <p>绕过方法</p>
@@ -15102,8 +15102,8 @@ user--&gt;Root</p>
   </entry>
   <entry>
     <title type="text">学习Mysql基础知识</title>
-    <id>https://youze27.github.io/blog/net/%E5%AD%A6%E4%B9%A0Mysql%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.html</id>
-    <link href="https://youze27.github.io/blog/net/%E5%AD%A6%E4%B9%A0Mysql%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.html"/>
+    <id>https://youze27.github.io/net/%E5%AD%A6%E4%B9%A0Mysql%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.html</id>
+    <link href="https://youze27.github.io/net/%E5%AD%A6%E4%B9%A0Mysql%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.html"/>
     <updated>2025-12-05T16:22:10.000Z</updated>
     <summary type="html"><![CDATA[
 <ol>
@@ -15144,8 +15144,8 @@ user--&gt;Root</p>
   </entry>
   <entry>
     <title type="text">学习git版本控制工具的概念与命令</title>
-    <id>https://youze27.github.io/blog/net/%E5%AD%A6%E4%B9%A0git%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6%E5%B7%A5%E5%85%B7%E7%9A%84%E6%A6%82%E5%BF%B5%E4%B8%8E%E5%91%BD%E4%BB%A4.html</id>
-    <link href="https://youze27.github.io/blog/net/%E5%AD%A6%E4%B9%A0git%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6%E5%B7%A5%E5%85%B7%E7%9A%84%E6%A6%82%E5%BF%B5%E4%B8%8E%E5%91%BD%E4%BB%A4.html"/>
+    <id>https://youze27.github.io/net/%E5%AD%A6%E4%B9%A0git%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6%E5%B7%A5%E5%85%B7%E7%9A%84%E6%A6%82%E5%BF%B5%E4%B8%8E%E5%91%BD%E4%BB%A4.html</id>
+    <link href="https://youze27.github.io/net/%E5%AD%A6%E4%B9%A0git%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6%E5%B7%A5%E5%85%B7%E7%9A%84%E6%A6%82%E5%BF%B5%E4%B8%8E%E5%91%BD%E4%BB%A4.html"/>
     <updated>2025-12-05T16:22:10.000Z</updated>
     <summary type="html"><![CDATA[<h2>ssh密钥设置方法</h2>
 <h3>windows</h3>
@@ -15318,8 +15318,8 @@ git config --global user.email 'xxx@163.com'</p>
   </entry>
   <entry>
     <title type="text">FOFA</title>
-    <id>https://youze27.github.io/blog/perm/FOFA%E8%AF%AD%E6%B3%95.html</id>
-    <link href="https://youze27.github.io/blog/perm/FOFA%E8%AF%AD%E6%B3%95.html"/>
+    <id>https://youze27.github.io/perm/FOFA%E8%AF%AD%E6%B3%95.html</id>
+    <link href="https://youze27.github.io/perm/FOFA%E8%AF%AD%E6%B3%95.html"/>
     <updated>2025-11-26T15:59:54.000Z</updated>
     <summary type="html"><![CDATA[<p>高级搜索</p>
 <table>
@@ -15369,8 +15369,8 @@ git config --global user.email 'xxx@163.com'</p>
   </entry>
   <entry>
     <title type="text">Google Hacking</title>
-    <id>https://youze27.github.io/blog/perm/Google%20Hacking.html</id>
-    <link href="https://youze27.github.io/blog/perm/Google%20Hacking.html"/>
+    <id>https://youze27.github.io/perm/Google%20Hacking.html</id>
+    <link href="https://youze27.github.io/perm/Google%20Hacking.html"/>
     <updated>2025-11-26T15:59:54.000Z</updated>
     <summary type="html"><![CDATA[<h3>一、基础语法</h3>
 <ol>
@@ -15412,8 +15412,8 @@ git config --global user.email 'xxx@163.com'</p>
   </entry>
   <entry>
     <title type="text">MSSQL注入复盘</title>
-    <id>https://youze27.github.io/blog/perm/MSSql%E6%B3%A8%E5%85%A5%E5%A4%8D%E7%9B%98.html</id>
-    <link href="https://youze27.github.io/blog/perm/MSSql%E6%B3%A8%E5%85%A5%E5%A4%8D%E7%9B%98.html"/>
+    <id>https://youze27.github.io/perm/MSSql%E6%B3%A8%E5%85%A5%E5%A4%8D%E7%9B%98.html</id>
+    <link href="https://youze27.github.io/perm/MSSql%E6%B3%A8%E5%85%A5%E5%A4%8D%E7%9B%98.html"/>
     <updated>2025-11-26T15:59:54.000Z</updated>
     <summary type="html"><![CDATA[<h2>MSSql</h2>
 <p>MSSql是指<span data-type="text" style="color: var(--b3-font-color8);">微软的SQLServer</span>数据库服务器，<span data-type="text" style="color: var(--b3-font-color8);">它是一个数据库</span>平台，提供数据库的从服务器到终端的完整的解决方案，其<br>
@@ -15479,8 +15479,8 @@ SQL Server的心脏和灵魂。</p>
   </entry>
   <entry>
     <title type="text">MySQL注入复盘</title>
-    <id>https://youze27.github.io/blog/perm/MySQL%E6%B3%A8%E5%85%A5%E5%A4%8D%E7%9B%98.html</id>
-    <link href="https://youze27.github.io/blog/perm/MySQL%E6%B3%A8%E5%85%A5%E5%A4%8D%E7%9B%98.html"/>
+    <id>https://youze27.github.io/perm/MySQL%E6%B3%A8%E5%85%A5%E5%A4%8D%E7%9B%98.html</id>
+    <link href="https://youze27.github.io/perm/MySQL%E6%B3%A8%E5%85%A5%E5%A4%8D%E7%9B%98.html"/>
     <updated>2025-11-26T15:59:54.000Z</updated>
     <summary type="html"><![CDATA[<h2>注入原理</h2>
 <p>前端输入用户数据未被检测或过滤就直接带入数据库执行，造成SQL漏洞。</p>
@@ -16077,8 +16077,8 @@ sq语句中，单引号不再具有作用”，仅仅是'内容'而已。这个�
   </entry>
   <entry>
     <title type="text">信息收集方法及流程</title>
-    <id>https://youze27.github.io/blog/perm/%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86%E6%96%B9%E6%B3%95%E5%8F%8A%E6%B5%81%E7%A8%8B.html</id>
-    <link href="https://youze27.github.io/blog/perm/%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86%E6%96%B9%E6%B3%95%E5%8F%8A%E6%B5%81%E7%A8%8B.html"/>
+    <id>https://youze27.github.io/perm/%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86%E6%96%B9%E6%B3%95%E5%8F%8A%E6%B5%81%E7%A8%8B.html</id>
+    <link href="https://youze27.github.io/perm/%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86%E6%96%B9%E6%B3%95%E5%8F%8A%E6%B5%81%E7%A8%8B.html"/>
     <updated>2025-11-26T15:59:54.000Z</updated>
     <summary type="html"><![CDATA[<h2>信息收集概念</h2>
 <p>信息收集是指通过各种方式获<span data-type="text" style="color: var(--b3-font-color9);">取所需要的信息</span>，以便我们在后续的渗透过程更好的进行。因为只有我们掌握了目标网站或目标，主机足够多的信息之后，我们才能更好地对其进行漏洞检测。</p>
@@ -16115,22 +16115,22 @@ sq语句中，单引号不再具有作用”，仅仅是'内容'而已。这个�
   </entry>
   <entry>
     <title type="text">开发运维</title>
-    <id>https://youze27.github.io/blog/net/</id>
-    <link href="https://youze27.github.io/blog/net/"/>
+    <id>https://youze27.github.io/net/</id>
+    <link href="https://youze27.github.io/net/"/>
     <updated>2025-11-24T16:09:39.000Z</updated>
     <published>2025-01-10T03:24:15.000Z</published>
   </entry>
   <entry>
     <title type="text">攻防对抗</title>
-    <id>https://youze27.github.io/blog/perm/</id>
-    <link href="https://youze27.github.io/blog/perm/"/>
+    <id>https://youze27.github.io/perm/</id>
+    <link href="https://youze27.github.io/perm/"/>
     <updated>2025-11-26T15:38:53.000Z</updated>
     <published>2025-01-10T03:24:15.000Z</published>
   </entry>
   <entry>
     <title type="text">小程序代理及反编译</title>
-    <id>https://youze27.github.io/blog/perm/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%BB%A3%E7%90%86%E5%8F%8A%E5%8F%8D%E7%BC%96%E8%AF%91.html</id>
-    <link href="https://youze27.github.io/blog/perm/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%BB%A3%E7%90%86%E5%8F%8A%E5%8F%8D%E7%BC%96%E8%AF%91.html"/>
+    <id>https://youze27.github.io/perm/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%BB%A3%E7%90%86%E5%8F%8A%E5%8F%8D%E7%BC%96%E8%AF%91.html</id>
+    <link href="https://youze27.github.io/perm/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%BB%A3%E7%90%86%E5%8F%8A%E5%8F%8D%E7%BC%96%E8%AF%91.html"/>
     <updated>2025-11-26T15:59:54.000Z</updated>
     <summary type="html"><![CDATA[<h2>小程序代理及反编译</h2>
 <p>环境：</p>
