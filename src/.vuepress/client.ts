@@ -1,7 +1,6 @@
 import { defineClientConfig } from "vuepress/client";
 import Blog from "./layouts/Blog.vue";
 import { setupSnowFall } from "vuepress-theme-hope/presets/snowFall.js";
-import { setupRunningTimeFooter } from "vuepress-theme-hope/presets/footerRunningTime.js";
 // .vuepress/client.js
 // 基础样式
 import 'vidstack/player/styles/base.css';
@@ -25,15 +24,7 @@ export default defineClientConfig({
       speed: 1,     // 下落速度
     });
 
-    //设置下雪效果
-    setupRunningTimeFooter(
-        new Date("2023-01-10"),
-        {
-          "/": "本博客已在线 :day 天 :hour 小时 :minute 分钟 :second 秒",
-          "/zh/": "本博客已在线 :day 天 :hour 小时 :minute 分钟 :second 秒",
-        },
-        true,
-      );  
+
   },
   
 });

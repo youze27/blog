@@ -33,9 +33,11 @@ export default hopeTheme({
   sidebar,
 
   // 页脚
-  footer: "时间就像海绵里的水，挤一挤总会有的！",
+  footer: `<div style="display: flex; justify-content: space-between; align-items: center; max-width: 1200px; margin: 0 auto; padding: 0 20px;">
+    <div><a href="https://www.foreverblog.cn/go.html" target="_blank"> <img src="https://foreverblog.cn/assets/logo/wormhole_3.gif" alt="穿梭虫洞"  title="穿梭虫洞-随机访问十年之约友链博客"  style="width:auto;height:30px;" ></a></div>
+  <div><a href="https://www.travellings.cn/go.html" target="_blank" rel="noopener" title="开往-友链接力"><img src="https://www.travellings.cn/assets/logo.gif" alt="开往-友链接力" style="width:auto;height:30px;" ></a></div>
+  <div><a href="https://www.boyouquan.com/planet-shuttle" target="_blank" rel="noopener" title="博友圈"><img src="https://www.boyouquan.com/assets/images/sites/logo/planet-shuttle.svg" alt="博友圈" style="width:auto;height:30px;"></a></div></div>`,
   displayFooter: true,
-  copyright: "Copyright © 2023-present Juan",
 
   // 博客相关
   blog: {
