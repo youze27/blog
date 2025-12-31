@@ -11,7 +11,7 @@ import { hopeTheme } from 'vuepress-theme-hope';
 
 export default defineUserConfig({
 
-  base: "/blog/",
+  base: "/",
   lang: "zh-CN",
   title: "卷卷",
   description: "网络安全知识库",
