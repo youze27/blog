@@ -35,8 +35,8 @@ export default hopeTheme({
   // 页脚
   footer: `<div style="display: flex; justify-content: space-between; align-items: center; max-width: 1200px; margin: 0 auto; padding: 0 20px;">
   <div><a href="https://www.travellings.cn/go.html" target="_blank" rel="noopener" title="开往-友链接力"><img src="/assets/icon/travelling_len.svg" alt="开往-友链接力" style="width:auto;height:30px;" ></a></div>
-  <div><a href="https://www.boyouquan.com/planet-shuttle" target="_blank" rel="noopener" title="博友圈"><img src="https://www.boyouquan.com/assets/images/sites/logo/planet-shuttle.svg" alt="博友圈" style="width:auto;height:30px;"></a></div>
-  <div><a href="https://www.foreverblog.cn/go.html" target="_blank"> <img src="https://foreverblog.cn/assets/logo/wormhole_3.gif" alt="穿梭虫洞"  title="穿梭虫洞-随机访问十年之约友链博客"  style="width:auto;height:30px;" ></a></div></div>`,
+  <div><a href="https://www.boyouquan.com/planet-shuttle" target="_blank" rel="noopener" title="博友圈"><img src="/assets/icon/planet-shuttle.svg" alt="博友圈" style="width:auto;height:30px;"></a></div>
+  <div><a href="https://www.foreverblog.cn/go.html" target="_blank"> <img src="/assets/icon/wormhole_3.gif" alt="穿梭虫洞"  title="穿梭虫洞-随机访问十年之约友链博客"  style="width:auto;height:30px;" ></a></div></div>`,
   displayFooter: true,
 
   // 博客相关
@@ -46,7 +46,7 @@ export default hopeTheme({
     medias: {
       Gitee: "https://gitee.com/youzezhang",
       GitHub: "https://github.com/youze27",
-      Rss: "https://youze27.github.io/blog/rss.xml",
+      Rss: "https://min168.top/rss.xml",
       Email: "mailto:youze27@163.com",
     },
   },

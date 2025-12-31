@@ -12,4 +12,9 @@ export default navbar([
   "/ai/",
   "/nav",
   "/intro",
+   {
+      text: "🚆",
+      link: "https://www.travellings.cn/go.html",
+      icon: "",
+    },
 ]);
