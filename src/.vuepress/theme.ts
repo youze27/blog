@@ -4,7 +4,7 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 import { commentPlugin } from '@vuepress/plugin-comment'
 export default hopeTheme({
-  hostname: "https://youze27.github.io",
+  hostname: "https://min168.top",
   print: true,
   darkmode: "disable", // 或 "toggle", "auto", "enable", "disable"
   // "switch": 在深色模式，浅色模式和自动之间切换 (默认)
@@ -148,13 +148,15 @@ export default hopeTheme({
     // },
     search: true,
     slimsearch: true,
+    
     feed: {
+
       rss: true,
       atom: true,
       json: true,
       channel: {
         title: "卷卷",
-        link: "https://youze27.github.io/blog/", // 包含 base 路径
+        link: "https://min168.top/", // 包含 base 路径
         description: "网络安全知识库",
         language: "zh-CN",
       },
