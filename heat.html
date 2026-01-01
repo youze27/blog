@@ -1,0 +1,269 @@
+<!--博客热力图 start-->
+<style>
+.heatmap-table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+.heatmap-table th, .heatmap-table td {
+  padding: 2px;
+}
+.month-label {
+  text-align: center;
+  font-size: 12px;
+  color: #666;
+}
+.day-label {
+  font-size: 12px;
+  color: #666;
+  text-align: right;
+  padding-right: 4px;
+}
+.day-cell {
+  width: 12px;
+  height: 12px;
+  background-color: #ebedf0;
+  border-radius: 2px;
+  position: relative;
+}
+.day-cell:hover::after {
+  content: attr(data-date) ": " attr(data-count) "字";
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #333;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  white-space: nowrap;
+  font-size: 12px;
+  z-index: 10;
+}
+.level-0 { background-color: #ebedf0; }
+.level-1 { background-color: #c6e48b; }
+.level-2 { background-color: #7bc96f; }
+.level-3 { background-color: #239a3b; }
+.level-4 { background-color: #196127; }
+ 
+.scroll-container {
+  overflow-x: auto;            /* 允许水平滚动 */
+  -webkit-overflow-scrolling: touch; /* iOS上更顺滑的滚动 */
+}
+ 
+</style>
+<div class="scroll-container">
+<div id="heatmap-container">
+<!-- 热力图内容由 JavaScript 动态生成 -->
+</div>
+<div id="totalCount" style="text-align:center; margin-top:5px; font-size:14px; color:#333;"></div>
+</div>
+<script>
+// 请修改为你的RSS地址，如若跨域问题，可使用代理，例如：
+// const rssUrl = 'https://api.allorigins.hexocode.repl.co/get?disableCache=true&url=' + encodeURIComponent('https://123.60.42.216/feed');
+const rssUrl = 'https://min168.top/rss.xml';
+ 
+// 获取RSS内容（使用 fetch ）
+function fetchRss(url) {
+  return fetch(url)
+    .then(response => {
+      if (!response.ok) {
+        throw new Error('网络错误，状态码：' + response.status);
+      }
+      return response.text();
+    });
+}
+ 
+// 解析 XML 字符串
+function parseXML(str) {
+  return (new window.DOMParser()).parseFromString(str, "text/xml");
+}
+ 
+// 格式化日期为 YYYY-MM-DD
+function formatDate(date) {
+  const y = date.getFullYear();
+  const m = ('0' + (date.getMonth() + 1)).slice(-2);
+  const d = ('0' + date.getDate()).slice(-2);
+  return `${y}-${m}-${d}`;
+}
+ 
+// 计算颜色等级（统计字符数）
+function getColorLevel(count) {
+  if (count === 0) return 0;
+  else if (count <= 100) return 1;
+  else if (count <= 300) return 2;
+  else if (count <= 500) return 3;
+  else return 4;
+}
+ 
+// 获取指定日期所在那一周的周一（JS中周日为0，周一为1）
+function getLastMonday(date) {
+  const day = date.getDay();
+  const diff = (day === 0 ? 6 : day - 1);
+  const lastMonday = new Date(date);
+  lastMonday.setDate(date.getDate() - diff);
+  return lastMonday;
+}
+ 
+// 获取指定日期所在那一周的周日
+function getNextSunday(date) {
+  const day = date.getDay();
+  const diff = (day === 0 ? 0 : 7 - day);
+  const nextSunday = new Date(date);
+  nextSunday.setDate(date.getDate() + diff);
+  return nextSunday;
+}
+ 
+// 生成完整日期范围对象：{ "YYYY-MM-DD": 0, ... }
+function generateDateRange(startDate, endDate) {
+  const fullStats = {};
+  const current = new Date(startDate);
+  while (current <= endDate) {
+    fullStats[formatDate(current)] = 0;
+    current.setDate(current.getDate() + 1);
+  }
+  return fullStats;
+}
+ 
+// 去除 HTML 标签
+function stripHTML(html) {
+  const div = document.createElement("div");
+  div.innerHTML = html;
+  return div.textContent || div.innerText || "";
+}
+ 
+// 主函数：获取RSS、统计字数、生成热力图
+function generateHeatmap() {
+  fetchRss(rssUrl)
+    .then(text => {
+      const xml = parseXML(text);
+      const items = xml.getElementsByTagName("item");
+      const stats = {};
+ 
+      // 遍历每个RSS条目
+      for (let i = 0; i < items.length; i++) {
+        const item = items[i];
+        const pubDateElem = item.getElementsByTagName("pubDate")[0];
+        if (!pubDateElem) continue;
+        const pubDate = pubDateElem.textContent;
+        const dateObj = new Date(pubDate);
+        const dateStr = formatDate(dateObj);
+ 
+        // 优先获取 content:encoded 元素，没有则使用 description
+        let content = "";
+        const contentEncoded = item.getElementsByTagName("content:encoded")[0];
+        if (contentEncoded) {
+          content = contentEncoded.textContent;
+        } else {
+          const description = item.getElementsByTagName("description")[0];
+          if (description) {
+            content = description.textContent;
+          }
+        }
+        content = stripHTML(content).replace(/\s+/g, ' ').trim();
+        const wordCount = content.length;  // 此处统计字符数，可根据需要改为单词数
+ 
+        if (!stats[dateStr]) {
+          stats[dateStr] = 0;
+        }
+        stats[dateStr] += wordCount;
+      }
+ 
+      // 设置日期范围：从1年前的上一个周一到最近的下一个周日
+      let startDate = new Date();
+      startDate.setFullYear(startDate.getFullYear() - 1);
+      startDate = getLastMonday(startDate);
+      let endDate = new Date();
+      endDate = getNextSunday(endDate);
+ 
+      const fullStats = generateDateRange(startDate, endDate);
+ 
+      // 合并 RSS 数据
+      for (let date in stats) {
+        if (fullStats.hasOwnProperty(date)) {
+          fullStats[date] = stats[date];
+        }
+      }
+ 
+      // 计算总字数
+      let totalCount = 0;
+      for (let date in fullStats) {
+        totalCount += fullStats[date];
+      }
+ 
+      // 将数据转换为数组，按日期顺序排列
+      const days = [];
+      for (let d = new Date(startDate); d <= endDate; d.setDate(d.getDate() + 1)) {
+        const dStr = formatDate(d);
+        days.push({
+          date: dStr,
+          count: fullStats[dStr],
+          level: getColorLevel(fullStats[dStr])
+        });
+      }
+ 
+      // 按每7天分组为一周（保证从周一开始）
+      const weeks = [];
+      for (let i = 0; i < days.length; i += 7) {
+        weeks.push(days.slice(i, i + 7));
+      }
+ 
+      // 生成月份标签：当本周第一天的月份与上一周不同则显示
+      const monthLabels = [];
+      let prevMonth = "";
+      for (let i = 0; i < weeks.length; i++) {
+        const weekStart = new Date(weeks[i][0].date);
+        const month = weekStart.getMonth() + 1;
+        const year = weekStart.getFullYear();
+        const label = `${year}.${month}`;
+        if (month !== parseInt(prevMonth)) {
+          monthLabels.push(label);
+          prevMonth = month;
+        } else {
+          monthLabels.push("");
+        }
+      }
+ 
+      // 构建 HTML 结构
+      let html = "";
+      // 月份标签表格
+      html += '<table class="heatmap-table"><tr><th></th>';
+      for (let i = 0; i < weeks.length; i++) {
+        html += `<th class="month-label">${monthLabels[i]}</th>`;
+      }
+      html += '</tr></table>';
+ 
+      // 主体热力图表格
+      html += '<table class="heatmap-table">';
+      const dayNames = ["周一", "周二", "周三", "周四", "周五", "周六", "周日"];
+      const labelRows = [0, 2, 4, 6];  // 仅在这些行显示标签
+      for (let row = 0; row < 7; row++) {
+        html += '<tr>';
+        // 左侧行标签
+        if (labelRows.includes(row)) {
+          html += `<td class="day-label">${dayNames[row]}</td>`;
+        } else {
+          html += '<td class="day-label"></td>';
+        }
+        // 每周的单元格
+        for (let w = 0; w < weeks.length; w++) {
+          const day = weeks[w][row];
+          html += `<td><div class="day-cell level-${day.level}" data-date="${day.date}" data-count="${day.count}"></div></td>`;
+        }
+        html += '</tr>';
+      }
+      html += '</table>';
+ 
+      // 插入页面中
+      document.getElementById("heatmap-container").innerHTML = html; 
+      document.getElementById("totalCount").innerHTML = `<span style="color: #f1c40f;" !important>博客近365天总产量出：${totalCount} 字</span>`;
+ 
+    })
+    .catch(error => {
+      console.error("发生错误：", error);
+      document.getElementById("heatmap-container").innerText = "加载RSS失败：" + error.message;
+    });
+}
+ 
+document.addEventListener("DOMContentLoaded", generateHeatmap);
+</script>
+<!--博客热力图 end-->
