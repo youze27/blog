@@ -32,15 +32,17 @@ export default hopeTheme({
   // 侧边栏
   sidebar,
 
-  // 页脚
-  footer: `<div style="display: flex; justify-content: space-between; align-items: center; max-width: 1200px; margin: 0 auto; padding: 0 20px;">
-  <div><a href="https://www.travellings.cn/go.html" target="_blank" rel="noopener" title="开往-友链接力"><img src="/assets/icon/travelling_len.svg" alt="开往-友链接力" style="width:auto;height:30px;" ></a></div>
-  <div><a href="https://www.boyouquan.com/planet-shuttle" target="_blank" rel="noopener" title="博友圈"><img src="/assets/icon/planet-shuttle.svg" alt="博友圈" style="width:auto;height:30px;"></a></div>
-  <div><a href="https://www.foreverblog.cn/go.html" target="_blank"> <img src="/assets/icon/wormhole_4_tp.gif" alt="穿梭虫洞"  title="穿梭虫洞-随机访问十年之约友链博客"  style="width:auto;height:30px;" ></a></div>
-  <div><a href="https://bokelu.suijiboke.gs" target="_blank"> <img src="/assets/icon/suijiblog.gif" alt="随机博客"  title="随机博客"  style="width:auto;height:20px;" ></a></div>
-  <div><a href="https://blogscn.fun/random.html" target="_blank"> <img src="/assets/icon/blogscn.svg" alt="笔墨迹"  title="笔墨迹-随机博客"  style="width:auto;height:30px;" ></a></div></div>`,
-  displayFooter: true,
+  // 页脚已移至 Blog 布局的 pageBottom 插槽中
 
+  footer: "开往",
+  // <div><a href="" target="_blank" rel="noopener" title="开往-友链接力"><img src="/assets/icon/travelling_len.svg" alt="开往-友链接力" style="width:auto;height:30px;" ></a></div>
+  // <div><a href="" target="_blank" rel="noopener" title="博友圈"><img src="/assets/icon/planet-shuttle.svg" alt="博友圈" style="width:auto;height:30px;"></a></div>
+  // <div><a href="" target="_blank"> <img src="/assets/icon/wormhole_4_tp.gif" alt="穿梭虫洞"  title="穿梭虫洞-随机访问十年之约友链博客"  style="width:auto;height:30px;" ></a></div>
+  // <div><a href="" target="_blank"> <img src="/assets/icon/suiji_en.gif" alt="随机博客"  title="随机博客"  style="width:auto;height:18px;" ></a></div>
+  // <div><a href="" target="_blank"> <img src="/assets/icon/blogscn.svg" alt="笔墨迹"  title="笔墨迹-随机博客"  style="width:auto;height:30px;" ></a></div></div>`,
+
+
+  displayFooter: true,
   // 博客相关
   blog: {
     description: "网络安全知识库",
