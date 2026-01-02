@@ -4,7 +4,7 @@
   <title>卷卷</title>
   <subtitle>网络安全知识库</subtitle>
   <icon>https://min168.top/assets/favicon.ico</icon>
-  <updated>2026-01-02T13:16:20.732Z</updated>
+  <updated>2026-01-02T16:34:06.834Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://min168.top/atom.xml"/>
   <link rel="alternate" href="https://min168.top/"/>
@@ -5000,7 +5000,7 @@ WDAC默认限制未签名/非微软认证的代码执行。但银狐利用如下
     <title type="text">ATT &amp;CK 框架实践阅读笔记</title>
     <id>https://min168.top/response/ATT%20_CK%20%E6%A1%86%E6%9E%B6%E5%AE%9E%E8%B7%B5%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0.html</id>
     <link href="https://min168.top/response/ATT%20_CK%20%E6%A1%86%E6%9E%B6%E5%AE%9E%E8%B7%B5%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0.html"/>
-    <updated>2025-12-05T16:22:10.000Z</updated>
+    <updated>2026-01-02T16:31:31.000Z</updated>
     <summary type="html"><![CDATA[<h2>什么是MITRE ATT&amp;CK</h2>
 <p>是一个对抗行为知识库。</p>
 <figure><figcaption>MITRE ATT&amp;CK</figcaption></figure>
@@ -5120,7 +5120,7 @@ WDAC默认限制未签名/非微软认证的代码执行。但银狐利用如下
 <p><strong><a href="https://github.com/mitre/caldera" target="_blank" rel="noopener noreferrer">CALDERA</a></strong></p>
 <p>MITRE Caldera™ 是一个网络安全<a href="https://caldera.mitre.org/" target="_blank" rel="noopener noreferrer">MITRE Caldera™</a>平台，旨在轻松自动化对手模拟、协助手动红队和自动化事件响应。<br>
 该项目基于 MITRE AT&amp;CK™框架构建，是 MITRE 的一个活跃研究项目。</p>
-<p><video controls="controls" src="https://youtu.be/W7fi0RVYiJE"></video></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/W7fi0RVYiJE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
 <p><strong><a href="https://github.com/mitre-attack/attack-navigator" target="_blank" rel="noopener noreferrer">ATT&amp;CK Navigator</a></strong></p>
 <p>是一个基于 Web 的可视化工具，它提供了一种<strong>交互式的方式来浏览和注释 ATT&amp;CK 矩阵知识库</strong>，用户可以通过创建自定义的“图层”来映射和比较自身防御覆盖范围、威胁组织的行为模式或特定攻击活动的技术细节。</p>
 <figure><figcaption>image</figcaption></figure>
