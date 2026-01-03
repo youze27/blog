@@ -6,19 +6,22 @@
     <link>https://min168.top/</link>
     <description>网络安全知识库</description>
     <language>zh-CN</language>
-    <pubDate>Sat, 03 Jan 2026 11:13:37 GMT</pubDate>
-    <lastBuildDate>Sat, 03 Jan 2026 11:13:37 GMT</lastBuildDate>
+    <pubDate>Sat, 03 Jan 2026 15:08:11 GMT</pubDate>
+    <lastBuildDate>Sat, 03 Jan 2026 15:08:11 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <category>计网基础</category>
+    <category>编程开发</category>
     <category>C++</category>
     <category>年度回顾</category>
     <category>AI对话笔记</category>
     <category>HTB</category>
     <category>markdown</category>
     <category>应急响应</category>
-    <category>计网基础</category>
     <category>读书笔记</category>
     <category>渗透测试</category>
+    <category>逆向工程</category>
+    <category>网络运维</category>
     <category>靶机</category>
     <category>python</category>
     <category>学习路线</category>
@@ -26,6 +29,90 @@
     <category>AI</category>
     <category>其他</category>
     <category>信息收集</category>
+    <item>
+      <title>GitHub Pages配置Cloudflare CDN踩坑之路</title>
+      <link>https://min168.top/net/GitHub%20Pages%E9%85%8D%E7%BD%AECloudflare%20CDN%E8%B8%A9%E5%9D%91%E4%B9%8B%E8%B7%AF.html</link>
+      <guid>https://min168.top/net/GitHub%20Pages%E9%85%8D%E7%BD%AECloudflare%20CDN%E8%B8%A9%E5%9D%91%E4%B9%8B%E8%B7%AF.html</guid>
+      <source url="https://min168.top/rss.xml">GitHub Pages配置Cloudflare CDN踩坑之路</source>
+      <description>背景：博客使用的是github page，但是国内访问速度太慢了，所以就有了使用CDN的打算同时也让AI帮我对比了几个方案。 阿里云购买域名 在阿里云购买了一个域名 域名托管到Cloudflare 将你在阿里云购买的域名交由Cloudflare管理。 注册Cloudflare：访问 Cloudflare官网 注册账号。 添加站点：登录后，在控制台点击 ...</description>
+      <category>计网基础</category>
+      <pubDate>Sat, 03 Jan 2026 15:04:44 GMT</pubDate>
+      <content:encoded><![CDATA[<p>背景：博客使用的是github page，但是国内访问速度太慢了，所以就有了使用CDN的打算同时也让AI帮我对比了几个方案。</p>
+<p>|对比维度|<strong>自定义域名 + Cloudflare CDN</strong>|博客<strong>迁移至 Netlify/Vercel 等第三方</strong>|<br>
+|</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>推荐RSS热力图和Github热力图使用指南</title>
+      <link>https://min168.top/net/%E6%8E%A8%E8%8D%90%E4%B8%A4%E4%B8%AA%E5%8F%AF%E5%BF%AB%E9%80%9F%E9%83%A8%E7%BD%B2%E7%9A%84%E7%83%AD%E5%8A%9B%E5%9B%BE.html</link>
+      <guid>https://min168.top/net/%E6%8E%A8%E8%8D%90%E4%B8%A4%E4%B8%AA%E5%8F%AF%E5%BF%AB%E9%80%9F%E9%83%A8%E7%BD%B2%E7%9A%84%E7%83%AD%E5%8A%9B%E5%9B%BE.html</guid>
+      <source url="https://min168.top/rss.xml">推荐RSS热力图和Github热力图使用指南</source>
+      <description>想法的起初是看到有好看的博客将Github的贡献热力图放到了博客，我也想将热力图放到博客上，但是发现官方API貌似没有，但是一番搜索找到了一个项目，githubchart-api。 Github Chart API 展示效果如下： 2016rshah&amp;apos;s Github chart 部署方法：Github Chart 1.fork仓库即可 2.将 201...</description>
+      <category>编程开发</category>
+      <pubDate>Sat, 03 Jan 2026 15:04:44 GMT</pubDate>
+      <content:encoded><![CDATA[<p>想法的起初是看到有好看的博客将Github的贡献热力图放到了博客，我也想将热力图放到博客上，但是发现官方API貌似没有，但是一番搜索找到了一个项目，<a href="https://github.com/2016rshah/githubchart-api" target="_blank" rel="noopener noreferrer">githubchart-api</a>。</p>
+<h2>Github Chart API</h2>
+<p>展示效果如下：<br>
+<img src="https://ghchart.rshah.org/youze27" alt="2016rshah's Github chart"></p>
+<h3><a class="header-anchor" href="#部署方法-github-chart"><span>部署方法：</span></a><a href="https://ghchart.rshah.org/" target="_blank" rel="noopener noreferrer">Github Chart</a></h3>
+<p>1.fork仓库即可</p>
+<p>2.将 2016rshah 替换成你自己的 GitHub 用户名。<br>
+只需将以下代码添加到您的 HTML 代码中：</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-"><span class="line"><span>&lt;img src="https://ghchart.rshah.org/2016rshah" alt="2016rshah's Github chart" /&gt;</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>将 2016rshah 替换成你自己的 GitHub 用户名。</p>
+<figure><img src="https://ghchart.rshah.org/youze27" alt="我的" tabindex="0" loading="lazy"><figcaption>我的</figcaption></figure>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-"><span class="line"><span>markdown 格式</span></span>
+<span class="line"><span>![我的](https://ghchart.rshah.org/youze27)</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div><h3>Color Schemes  配色方案</h3>
+<p>支持自定义配色方案！您可以提供任何底色，我们会为图表生成相应的色调。只需访问<code> https://ghchart.rshah.org/&lt;HEX-COLOR&gt;/2016rshah</code> 并将 <code>&lt;HEX-COLOR&gt;</code> 替换为您的十六进制颜色代码（不包括开头的井号）。例如，如果您想要一个以十六进制颜色<code>#910185ff</code>为基础的蓝色主题图表，您可以访问以下路径：</p>
+<img src="https://ghchart.rshah.org/409ba5/youze27" alt="youze27's Blue Github Chart">
+<img src="https://ghchart.rshah.org/ee3d08ff/youze27" alt="youze27's Blue Github Chart">
+<img src="https://ghchart.rshah.org/00a013ff/youze27" alt="youze27's Blue Github Chart">
+<img src="https://ghchart.rshah.org/910185ff/youze27" alt="youze27's Blue Github Chart">
+<div class="hint-container tip">
+<p class="hint-container-title">优雅~~~</p>
+</div>
+<h2>RSS热力图</h2>
+<p>这个项目是仿照GitHub将RSS订阅源的更新频率可视化展示，项目如下：</p>
+<p><a href="https://github.com/bigBulen/blog_heatmap" target="_blank" rel="noopener noreferrer">blog_heatmap</a></p>
+<h1>Blog Activity Heatmap</h1>
+<p>一个基于RSS订阅的博客活跃度热力图组件，灵感来源于GitHub贡献热力图。支持PHP和纯前端两种实现方式。</p>
+<p>效果：<br>
+<img src="https://github.com/user-attachments/assets/a5adc04f-76c6-4188-8ca1-b6f952a8cddc" alt="Snipaste_2025-03-15_22-10-33" loading="lazy"></p>
+<h1>Blog Activity Heatmap</h1>
+<p>一个基于RSS订阅的博客活跃度热力图组件，灵感来源于GitHub贡献热力图。支持PHP和纯前端两种实现方式。</p>
+<p>效果：<br>
+<img src="https://github.com/user-attachments/assets/a5adc04f-76c6-4188-8ca1-b6f952a8cddc" alt="Snipaste_2025-03-15_22-10-33" loading="lazy"></p>
+<h3>功能特性</h3>
+<p>由于使用rss来获取博客的文章，这个程序理论上可以统计任意具有 rss 功能的博客网站，而且不必担心随着时间而失效。<br>
+这里提供了两种实现方式：php和html+js，两者实现效果相同。</p>
+<h3>前置要求</h3>
+<p>要想精确的统计字数，必须保证：</p>
+<ul>
+<li>已开启RSS订阅功能</li>
+<li>RSS需包含全文内容（非摘要）</li>
+<li>RSS需保留至少一年的文章记录</li>
+</ul>
+<h3>使用方法</h3>
+<ul>
+<li>
+<p>项目文件将项目<code>index.html</code>/<code>index.php</code> 重命名个名字，放到你网站根目录下，打开文件修改RSS路径即可访问。</p>
+</li>
+<li>
+<p>将项目<code>index.html</code>/<code>index.php</code> 中RSS链接<code>const rssUrl</code>替换为你自己的即可识别。</p>
+</li>
+<li>
+<p>访问</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-"><span class="line"><span>http://yourdomain.com/heat.html</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+</li>
+</ul>
+<div class="hint-container tip">
+<p class="hint-container-title">优雅~~~</p>
+</div>
+]]></content:encoded>
+      <enclosure url="https://ghchart.rshah.org/youze27" type="image/"/>
+    </item>
     <item>
       <title>C++开发环境配置与程序运行笔记</title>
       <link>https://min168.top/reverse/C__%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E4%B8%8E%E8%BF%90%E8%A1%8C%E7%AC%94%E8%AE%B0.html</link>
@@ -5184,6 +5271,8 @@ SIEM是一种整体性的安全方法。它将​安全信息管理（SIM） ​
       <source url="https://min168.top/rss.xml">学习逆向工程相关概念</source>
       <description>逆向工程 一、逆向工程定义 逆向工程（Software Reverse Engineering），又称软件反向工程，从可运行的程序系统出发，运用解密、反汇编、系统分析、程序算法理解等多种计算机技术，对软件的结构、流程、代码等进行逆向拆解和分析，推导软件产品的源代码、设计原理、结构、算法、处理过程、运行方法及相关文档等。 二、CTF竞赛中的逆向 涉及Wi...</description>
       <category>计网基础</category>
+      <category>逆向工程</category>
+      <category>编程开发</category>
       <pubDate>Sun, 13 Jul 2025 16:04:52 GMT</pubDate>
       <content:encoded><![CDATA[
 <h2>一、逆向工程定义</h2>
@@ -5399,7 +5488,7 @@ SIEM是一种整体性的安全方法。它将​安全信息管理（SIM） ​
       <guid>https://min168.top/net/zabbix%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B.html</guid>
       <source url="https://min168.top/rss.xml">zabbix快速上手</source>
       <description>zabbix快速上手及SNMP相关介绍 一、Zabbix概述 一个企业级分布式开源监控解决方案，用于实时监控网络设备、服务器、应用及云服务的健康状态，通过灵活告警机制快速定位故障。 典型场景： 服务器资源监控（CPU/内存/磁盘） 网络设备性能监控（SNMP协议） 应用服务可用性检测（Web/Nginx/数据库） 云环境与容器监控（Docker/K8s...</description>
-      <category>计网基础</category>
+      <category>网络运维</category>
       <pubDate>Sun, 06 Jul 2025 14:02:58 GMT</pubDate>
       <content:encoded><![CDATA[<h3>zabbix快速上手及SNMP相关介绍</h3>
 <h3><strong>一、Zabbix概述</strong></h3>
@@ -5753,6 +5842,7 @@ SIEM是一种整体性的安全方法。它将​安全信息管理（SIM） ​
       <source url="https://min168.top/rss.xml">学习python高级语法特性例题笔记</source>
       <description>1.面向对象 局部变量的特性： 作用域：仅在该构造方法内部有效，无法被类中的其他方法访问。 生命周期：随着构造方法的调用而创建，方法执行结束后自动销毁。 存储位置：存放在栈内存中。 与成员变量的核心区别： 成员变量在类中声明（类体内部、方法外部），作用域覆盖整个类。 局部变量在方法（含构造方法）内部声明，仅限方法内使用。 2.推导式 是一种简洁的语法结...</description>
       <category>python</category>
+      <category>编程开发</category>
       <pubDate>Sat, 08 Mar 2025 14:39:26 GMT</pubDate>
       <content:encoded><![CDATA[<h4>1.面向对象</h4>
 <div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-python"><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">from</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> types </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">import</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> new_class</span></span>
@@ -6901,7 +6991,7 @@ Finished：客户端和服务器各自计算并发送一个Finished数据包，�
       <guid>https://min168.top/net/%E5%AD%A6%E4%B9%A0%E4%BA%91%E8%AE%A1%E7%AE%97%E5%9F%BA%E6%9C%AC%E7%90%86%E8%AE%BA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html</guid>
       <source url="https://min168.top/rss.xml">学习云计算基本理论学习笔记</source>
       <description>什么是云计算？ 美国国家标准与技术研究院NIST定义：云计算是一种模型，可以随时随地，便捷地，随需应变地从可配置计算资源共享池中获取所需资源（例如：网络、服务器、存储、应用、服务），资源可以快速供应并释放，使管理资源的工作量和服务提供商的交互减小到最低限度。 云计算特点 虚拟化技术 动态可扩展 按需部署 灵活性高 可靠性高 地理分布 先进的安全技术 云...</description>
-      <category>计网基础</category>
+      <category>网络运维</category>
       <pubDate>Mon, 27 Jan 2025 07:36:59 GMT</pubDate>
       <content:encoded><![CDATA[<h2>什么是云计算？</h2>
 <p>美国国家标准与技术研究院NIST定义：云计算是一种模型，可以随时随地，便捷地，随需应变地从可配置计算资源共享池中获取所需资源（例如：网络、服务器、存储、应用、服务），资源可以快速供应并释放，使管理资源的工作量和服务提供商的交互减小到最低限度。</p>
@@ -7605,7 +7695,7 @@ a 代表 "所有用户"（所有者、组和其他）。<br>
       <guid>https://min168.top/net/%E5%AD%A6%E4%B9%A0Docker-Compose%E5%91%BD%E4%BB%A4%E5%8F%8A%E9%95%9C%E5%83%8F%E6%9E%84%E5%BB%BA%E4%B8%8E%E6%8E%A8%E9%80%81.html</guid>
       <source url="https://min168.top/rss.xml">学习Docker-Compose命令及镜像构建与推送</source>
       <description>最常用命令集合 Docker镜像 镜像的名称组成： 镜名称一般分两部分组成：repository:tag。 在没有指定tag时，默认是latest，代表最新版本的镜像 如图： ​image​ Docker Dockerfile Dockerfile 是一个文本文件，包含了构建 Docker 镜像的所有指令。 Dockerfile 是一个用来构建镜像的文...</description>
-      <category>计网基础</category>
+      <category>网络运维</category>
       <pubDate>Tue, 21 Jan 2025 16:41:57 GMT</pubDate>
       <content:encoded><![CDATA[<p>最常用命令集合</p>
 <div class="language-php line-numbers-mode" data-highlighter="shiki" data-ext="php" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-php"><span class="line"><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF">sudo</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> mkdir</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> -</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF">p</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> /</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF">etc</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF">docker</span></span>
@@ -10176,7 +10266,8 @@ systemctl restart sshd			#service sshd restart</p>
       <guid>https://min168.top/net/%E5%AD%A6%E4%B9%A0python%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95%E7%89%B9%E6%80%A7%E8%A7%A3%E9%A2%98%E7%AC%94%E8%AE%B0.html</guid>
       <source url="https://min168.top/rss.xml">学习python基础语法特性解题笔记</source>
       <description>使用输入函数input输入人的身高、体重。计算BMI值，并输出。 BMI=体重/身高的平方 List item已知温度转换的公式是 C=（F-32）/1.8F=C*1.8+32输入一个摄氏温度以C或c结尾,转换成华氏温度。输入一个华氏温度以F或f结尾,转换成摄氏温度。 使用range函数生成1到100（包含100）之间的偶数数列。使用range函数生成...</description>
-      <category>计网基础</category>
+      <category>python</category>
+      <category>编程开发</category>
       <pubDate>Sun, 10 Dec 2023 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<p><strong>使用输入函数input输入人的身高、体重。计算BMI值，并输出。 BMI=体重/身高的平方</strong></p>
 <div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-python"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">height </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> float</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">input</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"请输入身高："</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)) </span></span>
@@ -12698,7 +12789,7 @@ user--&gt;Root</p>
       <guid>https://min168.top/net/%E5%AD%A6%E4%B9%A0git%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6%E5%B7%A5%E5%85%B7%E7%9A%84%E6%A6%82%E5%BF%B5%E4%B8%8E%E5%91%BD%E4%BB%A4.html</guid>
       <source url="https://min168.top/rss.xml">学习git版本控制工具的概念与命令</source>
       <description>ssh密钥设置方法 windows 打开命令提示符（CMD）或PowerShell。 输入命令ssh-keygen。这个命令会启动密钥生成过程。默认情况下，它会生成一个RSA密钥对。 系统会提示你输入密钥的保存位置。如果你直接回车，密钥将保存在用户主目录下的.ssh文件夹中。 接下来，系统会提示你输入一个密码（passphrase）。这个密码用于保护你...</description>
-      <category>计网基础</category>
+      <category>编程开发</category>
       <pubDate>Fri, 12 Apr 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h2>ssh密钥设置方法</h2>
 <h3>windows</h3>
@@ -13575,118 +13666,6 @@ sq语句中，单引号不再具有作用”，仅仅是'内容'而已。这个�
       <guid>https://min168.top/perm/</guid>
       <source url="https://min168.top/rss.xml">攻防对抗</source>
       <pubDate>Fri, 10 Jan 2025 03:24:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>小程序代理及反编译</title>
-      <link>https://min168.top/perm/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%BB%A3%E7%90%86%E5%8F%8A%E5%8F%8D%E7%BC%96%E8%AF%91.html</link>
-      <guid>https://min168.top/perm/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%BB%A3%E7%90%86%E5%8F%8A%E5%8F%8D%E7%BC%96%E8%AF%91.html</guid>
-      <source url="https://min168.top/rss.xml">小程序代理及反编译</source>
-      <description>小程序代理及反编译 环境： 物理机：172.20.10.3 模拟器：172.20.10.4 模拟器设置代理 imageimage 物理机即可接收到数据 imageimage imageimage 移动端APP渗透通过Postern App 代理抓取流量 App拖到模拟器安装 配置代理规则 imageimage 打开VPN imageimage 设置代理...</description>
-      <category>渗透测试</category>
-      <pubDate>Thu, 09 Jan 2025 21:24:41 GMT</pubDate>
-      <content:encoded><![CDATA[<h2>小程序代理及反编译</h2>
-<p>环境：</p>
-<p>物理机：172.20.10.3</p>
-<p>模拟器：172.20.10.4</p>
-<p>模拟器设置代理</p>
-<figure><figcaption>image</figcaption></figure>
-<p>物理机即可接收到数据</p>
-<figure><figcaption>image</figcaption></figure>
-<figure><figcaption>image</figcaption></figure>
-<h2>移动端APP渗透通过Postern App 代理抓取流量</h2>
-<p>App拖到模拟器安装</p>
-<ol>
-<li>
-<p>配置代理规则</p>
-<figure><figcaption>image</figcaption></figure>
-</li>
-<li>
-<p>打开VPN</p>
-<figure><figcaption>image</figcaption></figure>
-</li>
-<li>
-<p>设置代理地址</p>
-<figure><figcaption>image</figcaption></figure>
-</li>
-</ol>
-<figure><figcaption>image</figcaption></figure>
-<p>安装证书这里，mumu不能安装，设置里没有安装选项，点击也不能安装，下载夜神模拟器。</p>
-<h2>微信小程序通过proxfiler代理</h2>
-<p>使用proxfiler代理。</p>
-<figure><figcaption>image</figcaption></figure>
-<figure><figcaption>image</figcaption></figure>
-<p>如果没有流量，打开一个从来没有打开过的小程序，因为会因为微信缓存，导致不发送请求。</p>
-<h2>微信小程序使用Fiddler Classic  代理。</h2>
-<p>如果上述配置抓取不了数据包，可以使用fiddler转发流量到Bp</p>
-<p>下载地址:<a href="https://www.telerik.com/fiddler" target="_blank" rel="noopener noreferrer">https://www.telerik.com/fiddler</a></p>
-<p>路径:tools -&gt;options -&gt;HTTPS -&gt;Actions -&gt;Export root certificate to Desktop 导出证书到桌面并安装，选择受信任的根证书颁发机构，并勾选。</p>
-<figure><figcaption>image</figcaption></figure>
-<p>导入证书时选择受信任的根证书颁发机构。</p>
-<figure><figcaption>image</figcaption></figure>
-<p>根据下图进行勾选，其中actassystem proxy on startup为开启时自动开启全局代理，根据自己需要进行勾选，然后点击ok就可以。</p>
-<figure><figcaption>image</figcaption></figure>
-<p>给fiddler挂上bp的代理</p>
-<figure><figcaption>image</figcaption></figure>
-<h2>CrackMinApp反编译</h2>
-<p>wechat-app-unpack （微信应用解包工具）：<a href="https://github.com/leo9960/wechat-app-unpack" target="_blank" rel="noopener noreferrer">github.com/leo9960/wechat-app-unpack</a></p>
-<ol>
-<li>
-<p>下载   <a href="https://gitee.com/quzhantong/CrackMinApp" target="_blank" rel="noopener noreferrer"> https://gitee.com/quzhantong/CrackMinApp</a></p>
-</li>
-<li>
-<p>解压依赖node</p>
-<figure><figcaption>image</figcaption></figure>
-</li>
-<li>
-<p>找到小程序包，文件夹名就是APPid</p>
-<p>C:\Users\zyz18\Documents\WeChat Files\Applet   微信小程序应用目录。</p>
-<figure><figcaption>image</figcaption></figure>
-<p>C:\Users\zyz18\Documents\WeChat Files\wxid_7cy5sgdv00iv19\Applet   微信小程序用户缓存目录。</p>
-<figure><figcaption>image</figcaption></figure>
-<p>首先我们找到对应微信id的小程序缓存目录，然后打开小程序加载，根据<code>&lt;span data-type="text" style="color: var(--b3-font-color8);"&gt;</code>时间排序确定小程序的APPID。然后到微信小程序应用目录找到该小程序包。</p>
-<figure><figcaption>image</figcaption></figure>
-</li>
-<li>
-<p>将小程序包拷贝到反编译工具目录</p>
-<figure><figcaption>image</figcaption></figure>
-</li>
-<li>
-<p>小程序解密</p>
-<p>a.使用UnpackMiniApp.exe 工具解密，但是报错，</p>
-<figure><figcaption>image</figcaption></figure>
-<p>b.使用pc_wxapkg_decrypt.exe 小工具解密，小程序id就是小程序包所在文件夹的名称。</p>
-<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">输入命令格式:pc_wxapkg_decrypt.exe</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> -wxid</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> 微信小程序id</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> -in</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> 要解密的wxapkg路径</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><figure><figcaption>image</figcaption></figure>
-</li>
-<li>
-<p>选择小程序包执行反编译</p>
-<p>a。使用这个一键反编译工具，但找不到反编译后的包。</p>
-<figure><figcaption>image</figcaption></figure>
-</li>
-<li>
-<h2>使用  wxappUnpacker-master  进行反编译</h2>
-<p>a.项目地址：<a href="https://github.com/YangChengTeam/wxappUnpacker" target="_blank" rel="noopener noreferrer">github.com/YangChengTeam/wxappUnpacker</a></p>
-<p>b.如果本地没有Node环境需要安装。并且配置环境变量。</p>
-<figure><figcaption>image</figcaption></figure>
-<p>c. 安装  wxappUnpacker  运行所需要的依赖，其中 uglify-es  总是安装不成功，多尝试几次。</p>
-<p>Error: Cannot find module ‘uglify-es’<br>
-解决方法：说明缺"uglify-es"模块,需要做的就是在".bat"的路径下打开powershell，然后输入命令npm install uglify-es.之后将会自动下载安装,如果提示不成功,再来一遍</p>
-<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">npm</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> install</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> esprima</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> -g</span></span>
-<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">npm</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> install</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> css-tree</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> -g</span></span>
-<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">npm</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> install</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> cssbeautify</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> -g</span></span>
-<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">npm</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> install</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> vm2</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> -g</span></span>
-<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">npm</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> install</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> uglify-es</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> -g</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>d. 将解密过的  .wxapkg 文件放到项目目录新建文件夹下，方便操作。</p>
-<figure><figcaption>image</figcaption></figure>
-<p>e. 一键运行命令，详细命令见github</p>
-<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">npm</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> install</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> </span></span>
-<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">node</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> wuWxapkg.js</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> [-d] &lt;path/to/.wxapkg&gt;</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption>image</figcaption></figure>
-<figure><figcaption>image</figcaption></figure>
-</li>
-</ol>
-<p>‍</p>
-]]></content:encoded>
     </item>
   </channel>
 </rss>
