@@ -5,7 +5,8 @@ order: 2
 isOriginal : true
 date: 2023-12-10
 category:
-  - 计网基础
+  - python
+  - 编程开发
 tag:
   - 计网基础
   - python

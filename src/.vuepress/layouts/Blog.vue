@@ -79,11 +79,11 @@ const statsData = ref({
 
 // 从API获取统计数据
 const fetchStats = () => {
-  console.log('开始获取统计数据...');
+  
   
   // 验证URL格式
   const apiUrl = 'https://empty-dream-6647.youze27.workers.dev/';
-  console.log('请求的API URL:', apiUrl);
+  
   
   // 使用fetch API请求数据，更现代的方式
   fetch(apiUrl, {
@@ -96,8 +96,7 @@ const fetchStats = () => {
     cache: 'no-cache' // 禁用缓存
   })
   .then(response => {
-    console.log('API响应状态:', response.status);
-    console.log('响应头:', [...response.headers]);
+    
     
     // 检查响应是否成功
     if (!response.ok) {
@@ -107,45 +106,45 @@ const fetchStats = () => {
     return response.json();
   })
   .then(data => {
-    console.log('API返回的完整数据:', data);
+    
     
     // 验证数据格式
     if (data && typeof data === 'object') {
       // 更新总访问量
       if (typeof data.total === 'number') {
         statsData.value.viewCount = data.total;
-        console.log('总访问量更新为:', statsData.value.viewCount);
+        
       } else {
-        console.warn('API返回的total不是数字类型:', typeof data.total);
+        
         // 尝试将其转换为数字
         const totalNum = Number(data.total);
         if (!isNaN(totalNum)) {
           statsData.value.viewCount = totalNum;
-          console.log('总访问量转换后更新为:', statsData.value.viewCount);
+          
         } else {
           statsData.value.viewCount = 0;
-          console.warn('无法将total转换为数字');
+          
         }
       }
       
       // 更新每日统计数据
       if (Array.isArray(data.daily)) {
-        console.log('原始daily数据长度:', data.daily.length);
+        
         
         // 过滤并验证数据
         const validData = data.daily.filter(item => {
           if (!item || typeof item !== 'object') {
-            console.warn('无效的daily条目（不是对象）:', item);
+            
             return false;
           }
           
           if (typeof item.date !== 'string') {
-            console.warn('无效的日期格式:', item.date);
+            
             return false;
           }
           
           if (typeof item.requests !== 'number') {
-            console.warn('无效的请求数字段:', item.requests);
+            
             // 尝试转换
             const reqNum = Number(item.requests);
             if (!isNaN(reqNum)) {
@@ -159,41 +158,33 @@ const fetchStats = () => {
         });
         
         statsData.value.dailyStats = validData;
-        console.log('有效每日统计数据:', statsData.value.dailyStats);
-        console.log('有效数据条目数:', statsData.value.dailyStats.length);
+        
       } else {
-        console.warn('API返回的daily不是数组类型:', typeof data.daily);
+        
         statsData.value.dailyStats = [];
       }
       
       // 初始化图表
       initCharts();
-      console.log('统计数据更新成功!');
+      
     } else {
-      console.error('API返回的数据格式不正确:', data);
+      
       statsData.value.viewCount = 0;
       statsData.value.dailyStats = [];
       initCharts();
     }
   })
   .catch(error => {
-    console.error('获取统计数据失败:', error);
-    console.error('错误名称:', error.name);
-    console.error('错误信息:', error.message);
+    
     
     // 详细的错误类型处理
     if (error.name === 'TypeError' && error.message === 'Failed to fetch') {
-      console.error('错误类型: 网络连接问题或CORS错误');
-      console.error('可能原因:');
-      console.error('1. 网络连接中断');
-      console.error('2. API服务器无响应');
-      console.error('3. CORS策略阻止了请求');
-      console.error('4. HTTPS证书问题');
-      console.log('注意: API的CORS策略只允许来自https://min168.top的请求');
+      
+      
     }
     
     // 使用模拟数据作为回退方案
-    console.log('使用模拟数据作为回退...');
+    
     statsData.value.viewCount = 15678;
     
     // 生成过去30天的模拟数据
@@ -218,7 +209,7 @@ const fetchStats = () => {
     }
     
     statsData.value.dailyStats = mockDailyStats;
-    console.log('生成的模拟数据:', statsData.value.dailyStats);
+    
     initCharts();
   });
 };
@@ -241,20 +232,14 @@ const initCharts = () => {
     });
     requests = statsData.value.dailyStats.map(item => item.requests);
   } else {
-    console.warn('没有可用的统计数据');
+    
   }
   
   // 确保横坐标显示30个数据点，不使用默认月份数据
   let xAxisData = formattedDates;
   let seriesData = requests;
   
-  // 如果数据不足30条，记录日志但不使用默认月份数据
-  if (xAxisData.length < 30) {
-    console.warn(`API返回的数据点少于30个，当前有${xAxisData.length}个数据点`);
-  }
-  
-  console.log('图表x轴数据:', xAxisData);
-  console.log('图表y轴数据:', seriesData);
+
   
   const visitOption = {
     tooltip: {
@@ -432,7 +417,7 @@ const fetchMusicFiles = async () => {
       loadMusicFile(musicFiles.value[0]);
     }
   } catch (error) {
-    console.error('获取音乐文件列表失败:', error);
+    
   }
 };
 
@@ -508,7 +493,7 @@ const loadLyricsFile = async (lyricsUrl: string) => {
       currentLyricIndex.value = 0;
     }
   } catch (error) {
-    console.error('加载歌词文件失败:', error);
+    
     lyrics.value = ['暂无歌词', '🎵🎵🎵'];
     currentLyricIndex.value = 0;
   }

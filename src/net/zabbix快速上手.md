@@ -3,7 +3,7 @@ title: zabbix快速上手
 index: true
 isOriginal : true
 category:
-  - 计网基础
+  - 网络运维
 tag:
   - 运维
   - Zabbix

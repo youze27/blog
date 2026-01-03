@@ -4,9 +4,8 @@ index: true
 order: 6
 isOriginal : true
 category:
-  - 计网基础
+  - 网络运维
 tag:
-  - 计网基础
   - docker-compose
   - docker
   - 容器
