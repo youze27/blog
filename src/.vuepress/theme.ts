@@ -34,7 +34,7 @@ export default hopeTheme({
 
   // 页脚已移至 Blog 布局的 pageBottom 插槽中
 
-  footer: "开往",
+  footer: "少即是多，慢即是快.",
   // <div><a href="" target="_blank" rel="noopener" title="开往-友链接力"><img src="/assets/icon/travelling_len.svg" alt="开往-友链接力" style="width:auto;height:30px;" ></a></div>
   // <div><a href="" target="_blank" rel="noopener" title="博友圈"><img src="/assets/icon/planet-shuttle.svg" alt="博友圈" style="width:auto;height:30px;"></a></div>
   // <div><a href="" target="_blank"> <img src="/assets/icon/wormhole_4_tp.gif" alt="穿梭虫洞"  title="穿梭虫洞-随机访问十年之约友链博客"  style="width:auto;height:30px;" ></a></div>
@@ -212,20 +212,20 @@ export default hopeTheme({
     },
 
     components: {
-      components: [
-        "ArtPlayer",
-        "Badge",
-        "BiliBili",
-        "CodePen",
-        "PDF",
-        "Share",
-        "SiteInfo",
-        "StackBlitz",
-        "VPBanner",
-        "VPCard",
-        "VidStack",
-      ],
-    },
+    components: [
+      "ArtPlayer",
+      "Badge",
+      "BiliBili",
+      "CodePen",
+      "PDF",
+      "Share",
+      "SiteInfo",
+      "StackBlitz",
+      "VPBanner",
+      "VPCard",
+      "VidStack",
+    ],
+  },
 
     icon: {
       assets: "fontawesome-with-brands",
