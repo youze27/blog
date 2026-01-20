@@ -731,8 +731,9 @@ const formatTime = (time: number) => {
         <div><a href="https://www.travellings.cn/go.html" target="_blank" rel="noopener" title="开往-友链接力"><img class="bottom-link-img" src="/assets/icon/travelling_len.svg" alt="开往-友链接力" ></a></div>
         <div><a href="https://www.boyouquan.com/planet-shuttle" target="_blank" rel="noopener" title="博友圈"><img class="bottom-link-img" src="/assets/icon/planet-shuttle.svg" alt="博友圈"></a></div>
         <div><a href="https://www.foreverblog.cn/go.html" target="_blank"> <img class="bottom-link-img" src="/assets/icon/wormhole_4_tp.gif" alt="穿梭虫洞"  title="穿梭虫洞-随机访问十年之约友链博客"  ></a></div>
-        <div><a href="https://boke.lu/sj" target="_blank"> <img class="bottom-link-img random-blog" src="/assets/icon/suiji_en.gif" alt="随机博客"  title="随机博客"  ></a></div>
+        <div><a href="https://boke.lu/sj" target="_blank"> <img class="bottom-link-img" src="/assets/icon/suiji_en.gif" alt="随机博客"  title="随机博客"  ></a></div>
         <div><a href="https://blogscn.fun/random.html" target="_blank"> <img class="bottom-link-img" src="/assets/icon/blogscn.svg" alt="笔墨迹"  title="笔墨迹-随机博客"  ></a></div>
+        <div><a href="https://blogs.quest" target="_blank" title="空间穿梭-随机访问BlogsClub成员博客"><img class="bottom-link-img"  src="/assets/icon/shuttle.png"></a></div>
       </div>
     </template>
 
@@ -770,10 +771,7 @@ const formatTime = (time: number) => {
   height: auto;
 }
 
-/* 随机博客图片特殊样式 */
-.bottom-link-img.random-blog {
-  height: 18px;
-}
+
 
 /* 音乐播放器样式 - 继承博客整体主题 */
 .music-player-container {
