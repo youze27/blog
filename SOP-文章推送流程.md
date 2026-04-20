@@ -28,7 +28,7 @@ isOriginal: false
 index: true
 ---
 ```
-- 文件保存到 `C:\blog\src\like\`
+- 文件保存到 `C:\blog\src\like\` 或 `C:\blog\src\ai\`
 
 ### 3. 批量下载图片（一次性脚本）
 创建并运行下载脚本，一次性下载所有图片：
@@ -38,7 +38,7 @@ $urls = @(
     @{url="图片URL1";name="图片名1.png"},
     @{url="图片URL2";name="图片名2.png"}
 )
-$outDir = "C:\blog\src\like\assets"
+$outDir = "C:\blog\src\like\assets"  # 或 "C:\blog\src\ai\assets"
 foreach ($item in $urls) {
     Invoke-WebRequest -Uri $item.url -OutFile (Join-Path $outDir $item.name)
 }
@@ -48,12 +48,7 @@ foreach ($item in $urls) {
 - 使用单一正则表达式替换所有远程 URL 为本地路径
 - 不逐个手动 edit
 
-### 5. 添加原文链接（末尾）
-```markdown
-> 原文链接：https://xxx.com/blog/xxx
-```
-
-### 6. 推送 GitHub
+### 5. 推送 GitHub
 ```bash
 git add . && git commit -m "add: 新增文章标题" && git push
 ```
@@ -87,6 +82,7 @@ index: true
 
 ## 注意事项
 
-- 图片保存到 `src/like/assets/`
+- 图片保存到 `src/like/assets/` 或 `src/ai/assets/`
 - 图片路径用 `./assets/xxx.png`
-- 原文链接放文章末尾
+- 用户直接粘贴内容：不需要添加原文链接
+- 可抓取的URL：自动添加原文链接到末尾
