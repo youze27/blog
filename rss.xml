@@ -6,10 +6,11 @@
     <link>https://min168.top/</link>
     <description>网络安全知识库</description>
     <language>zh-CN</language>
-    <pubDate>Mon, 20 Apr 2026 16:08:58 GMT</pubDate>
-    <lastBuildDate>Mon, 20 Apr 2026 16:08:58 GMT</lastBuildDate>
+    <pubDate>Mon, 20 Apr 2026 16:14:08 GMT</pubDate>
+    <lastBuildDate>Mon, 20 Apr 2026 16:14:08 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <category>AI对话笔记</category>
     <category>恶意软件分析</category>
     <category>渗透测试</category>
     <category>应急响应</category>
@@ -17,7 +18,6 @@
     <category>编程开发</category>
     <category>C++</category>
     <category>年度回顾</category>
-    <category>AI对话笔记</category>
     <category>HTB</category>
     <category>markdown</category>
     <category>读书笔记</category>
@@ -35,8 +35,7 @@
       <guid>https://min168.top/ai/AMOS-Atomic-Stealer%E6%81%B6%E6%84%8F%E8%BD%AF%E4%BB%B6%E6%B7%B1%E5%BA%A6%E5%88%86%E6%9E%90.html</guid>
       <source url="https://min168.top/rss.xml">AMOS (Atomic Stealer) 恶意软件深度分析</source>
       <description>AMOS是当前最活跃、最危险的macOS恶意软件之一，目前已从单一的数据窃取工具演变为具备后门持久化控制能力的系统性威胁。</description>
-      <category>恶意软件分析</category>
-      <category>渗透测试</category>
+      <category>AI对话笔记</category>
       <pubDate>Tue, 21 Apr 2026 10:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<!-- more -->
 <h1>AMOS (Atomic Stealer) 恶意软件深度分析</h1>
@@ -123,9 +122,6 @@
 <h2>总结</h2>
 <p>AMOS（Atomic macOS Stealer）已发展成为Mac生态系统面临的最严重的恶意软件威胁之一。它巧妙地利用了社会工程学和对AI等流行技术的信任，结合快速演进的攻击技术和商业化的MaaS模式，对个人和企业用户构成了严峻挑战。</p>
 <p>因此，macOS用户需要抛弃"Mac不会中毒"的传统观念，养成审慎的网络安全习惯，并对任何要求执行未知命令的行为保持高度警惕，这是抵御此类威胁的第一道也是最有效的防线。</p>
-<blockquote>
-<p>原文链接：<a href="https://chat.deepseek.com/share/2mcgkgnmm2v6e4vmrp" target="_blank" rel="noopener noreferrer">https://chat.deepseek.com/share/2mcgkgnmm2v6e4vmrp</a></p>
-</blockquote>
 ]]></content:encoded>
     </item>
     <item>
