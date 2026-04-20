@@ -6,8 +6,8 @@
     <link>https://min168.top/</link>
     <description>网络安全知识库</description>
     <language>zh-CN</language>
-    <pubDate>Mon, 20 Apr 2026 15:44:28 GMT</pubDate>
-    <lastBuildDate>Mon, 20 Apr 2026 15:44:28 GMT</lastBuildDate>
+    <pubDate>Mon, 20 Apr 2026 16:04:51 GMT</pubDate>
+    <lastBuildDate>Mon, 20 Apr 2026 16:04:51 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>恶意软件分析</category>
@@ -29,6 +29,105 @@
     <category>基础</category>
     <category>AI</category>
     <category>其他</category>
+    <item>
+      <title>AMOS (Atomic Stealer) 恶意软件深度分析</title>
+      <link>https://min168.top/ai/AMOS-Atomic-Stealer%E6%81%B6%E6%84%8F%E8%BD%AF%E4%BB%B6%E6%B7%B1%E5%BA%A6%E5%88%86%E6%9E%90.html</link>
+      <guid>https://min168.top/ai/AMOS-Atomic-Stealer%E6%81%B6%E6%84%8F%E8%BD%AF%E4%BB%B6%E6%B7%B1%E5%BA%A6%E5%88%86%E6%9E%90.html</guid>
+      <source url="https://min168.top/rss.xml">AMOS (Atomic Stealer) 恶意软件深度分析</source>
+      <description>AMOS是当前最活跃、最危险的macOS恶意软件之一，目前已从单一的数据窃取工具演变为具备后门持久化控制能力的系统性威胁。</description>
+      <category>恶意软件分析</category>
+      <category>渗透测试</category>
+      <pubDate>Tue, 21 Apr 2026 10:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<!-- more -->
+<h1>AMOS (Atomic Stealer) 恶意软件深度分析</h1>
+<p>AMOS（Atomic macOS Stealer）是当前最活跃、最危险的macOS恶意软件之一，目前已从单一的数据窃取工具演变为具备后门持久化控制能力的系统性威胁。它并非传统意义上的计算机病毒，而是一种专门设计用来窃取信息的恶意软件（Infostealer），并以"恶意软件即服务"（MaaS）的模式在地下市场流通，任何付费的攻击者都可以使用它发起攻击。</p>
+<h2>传播方式：无孔不入的社会工程学</h2>
+<p>AMOS通过精心设计的社会工程学陷阱进行传播，而非利用系统漏洞。主要方式包括：</p>
+<h3>AI辅助的"ClickFix"攻击</h3>
+<p>这是当前最主流和危险的方式。攻击者创建虚假的故障排除指南，诱导用户执行命令。其核心是利用用户对AI的信赖。</p>
+<ul>
+<li>利用AI平台：攻击者会在Google投放广告，将搜索Mac问题（如"清理磁盘空间"）的用户引导至ChatGPT、Grok等平台上伪造的"官方指南"。一个典型案例是，诱导用户安装假的"ChatGPT Atlas"浏览器，实际执行的是一条恶意命令。</li>
+<li>技术演进：为了应对macOS系统更新，该攻击手法也在不断变化，从最初的诱导用户复制粘贴命令到终端，到利用Script Editor（脚本编辑器）只需点击网页按钮就能自动执行恶意代码。</li>
+</ul>
+<h3>伪装成"破解版"应用</h3>
+<p>攻击者将AMOS捆绑在知名的破解版或盗版软件中，如Evernote等，诱骗用户下载。</p>
+<h3>供应链污染与SEO投毒</h3>
+<p>攻击者采用更间接和更具欺骗性的方式：</p>
+<ul>
+<li>污染AI开发社区：攻击者向OpenClaw等AI代理平台的技能库上传含有恶意指令的SKILL.md文件，使AI在执行时成为传播媒介。</li>
+<li>劫持开发者工具：通过SEO投毒，伪造Homebrew等开发者常用工具的网站，诱导开发者下载带毒的安装包。</li>
+<li>冒充知名软件：在GitHub等代码托管平台，利用SEO技术创建高仿知名软件（如LastPass、1Password）的虚假页面，诱骗用户下载。</li>
+</ul>
+<h3>精准鱼叉攻击</h3>
+<p>针对特定高价值目标（如加密货币持有者），以工作面试等为借口，诱导受害者启用屏幕共享并输入系统密码。</p>
+<h2>攻击目标：地毯式数据收割</h2>
+<p>AMOS一旦感染成功，便会系统性地收集Mac上的几乎所有敏感数据：</p>
+<ul>
+<li><strong>浏览器数据</strong>：Safari、Chrome、Firefox等主流浏览器的密码、Cookies、信用卡自动填充信息。</li>
+<li><strong>加密货币资产</strong>：超过150种加密货币钱包的敏感文件、Electrum等桌面钱包的数据。</li>
+<li><strong>系统关键信息</strong>：macOS钥匙串中保存的全部密码和证书。</li>
+<li><strong>通讯与办公文件</strong>：Telegram聊天记录、Apple备忘录、桌面/文档/下载文件夹中txt, pdf, docx等各类文件。</li>
+<li><strong>VPN配置</strong>：OpenVPN等VPN客户端的配置文件。</li>
+</ul>
+<h2>感染与攻击链</h2>
+<p>一个典型的AMOS攻击流程如下：</p>
+<ol>
+<li><strong>初始接触</strong>：用户通过搜索引擎、广告或钓鱼邮件接触到攻击者构造的恶意网站。</li>
+<li><strong>社交诱导</strong>：网站伪装成合法的故障排除指南、软件下载页或工作面试流程，诱导用户下一步操作。</li>
+<li><strong>命令执行</strong>：用户被诱导在终端或脚本编辑器中执行恶意命令，该命令通常经过混淆，难以被直接识别。</li>
+<li><strong>载荷下载</strong>：恶意命令连接到攻击者的服务器，下载AMOS主程序。</li>
+<li><strong>权限提升</strong>：恶意软件会弹出一个伪装成系统提示的对话框，要求输入管理员密码。一旦输入，AMOS便获得系统最高权限。</li>
+<li><strong>数据窃取与持久化</strong>：开始地毯式收集敏感数据，并将自身安装为启动项（LaunchAgent/Daemon），确保每次开机都能自动运行。</li>
+<li><strong>数据回传</strong>：将收集到的所有数据打包，发送到攻击者控制的服务器。</li>
+<li><strong>植入后门</strong>：在完成数据窃取后，会植入一个后门程序，用于接收远程指令、执行任意操作，实现对系统的长期控制。</li>
+</ol>
+<h2>检测与防护</h2>
+<h3>如何清除？</h3>
+<p>如果怀疑Mac已感染AMOS，请立即按以下步骤处理：</p>
+<ol>
+<li><strong>断网并修改密码</strong>：第一时间断开网络连接，并在另一台干净的设备上修改所有重要账户密码（Apple ID、电子邮箱、网银等）。</li>
+<li><strong>使用安全软件扫描</strong>：主流的Mac安全软件均可有效检测并清除AMOS。
+<ul>
+<li>Malwarebytes for Mac：下载并安装后，进行全盘扫描。</li>
+<li>Microsoft Defender for Endpoint：也将其命名为Trojan:MacOS/Amos.AM!MTB进行查杀。</li>
+<li>CleanMyMac 和 Moonlock：同样可以检测并移除AMOS。</li>
+</ul>
+</li>
+<li><strong>手动检查持久化机制</strong>：打开终端，检查以下目录中是否存在可疑或近期创建的文件：
+<ul>
+<li>~/Library/LaunchAgents/</li>
+<li>/Library/LaunchDaemons/</li>
+<li>查找并移除名为com.finder.helper.plist等可疑文件。</li>
+</ul>
+</li>
+<li><strong>专业重置</strong>：对于企业用户或怀疑存在顽固后门的用户，最稳妥的方案是使用可信任的恢复镜像彻底重装系统。</li>
+</ol>
+<h3>如何预防？</h3>
+<ol>
+<li><strong>绝不执行未知命令</strong>：这是最核心的原则。永远不要从你不了解或不信赖的网站、文档或聊天中复制粘贴命令到终端或脚本编辑器执行。</li>
+<li><strong>警惕AI"指导"</strong>：对来自任何AI（包括ChatGPT）的故障排除指南或安装指令保持警惕，特别是当它要求你执行终端命令时。</li>
+<li><strong>远离盗版软件</strong>：仅从Mac App Store或开发者官方网站下载软件，破解版软件是AMOS的重要传播载体。</li>
+<li><strong>注意系统权限请求</strong>：当应用或安装程序突然要求输入管理员密码时，务必三思，确认其来源和必要性。</li>
+<li><strong>保持系统更新</strong>：及时安装Apple发布的macOS系统更新和安全补丁。</li>
+<li><strong>部署专业安全软件</strong>：安装信誉良好的反恶意软件，为系统增加一道主动防御屏障。</li>
+</ol>
+<h2>最新动态与趋势</h2>
+<p>AMOS仍在持续演进，最新的威胁动态包括：</p>
+<ul>
+<li><strong>AI平台滥用升级</strong>：在ChatGPT后，攻击者也开始利用Grok等更多AI平台进行传播。</li>
+<li><strong>脚本编辑器成为新入口</strong>：随着macOS强化了终端安全，攻击者转而利用系统内置的脚本编辑器执行恶意代码，绕过新防护。</li>
+<li><strong>恶意广告新伪装</strong>：出现将恶意广告伪装成Medium博客文章，并针对特定AI工具（如Kimi）用户进行精准投放的案例。</li>
+<li><strong>供应链攻击深化</strong>：攻击者通过污染AI社区技能库等供应链攻击手法，不断开辟新的感染渠道。</li>
+<li><strong>新变种和同伙</strong>：除了AMOS本身，其变种（如SHAMOS）以及其他竞争者（如Odyssey Stealer、Poseidon Stealer）也在市场上活跃，共享相似的代码和攻击手法。</li>
+</ul>
+<h2>总结</h2>
+<p>AMOS（Atomic macOS Stealer）已发展成为Mac生态系统面临的最严重的恶意软件威胁之一。它巧妙地利用了社会工程学和对AI等流行技术的信任，结合快速演进的攻击技术和商业化的MaaS模式，对个人和企业用户构成了严峻挑战。</p>
+<p>因此，macOS用户需要抛弃"Mac不会中毒"的传统观念，养成审慎的网络安全习惯，并对任何要求执行未知命令的行为保持高度警惕，这是抵御此类威胁的第一道也是最有效的防线。</p>
+<blockquote>
+<p>原文链接：<a href="https://chat.deepseek.com/share/2mcgkgnmm2v6e4vmrp" target="_blank" rel="noopener noreferrer">https://chat.deepseek.com/share/2mcgkgnmm2v6e4vmrp</a></p>
+</blockquote>
+]]></content:encoded>
+    </item>
     <item>
       <title>银狐26年全面复活，对抗强度或已超25年最高水平</title>
       <link>https://min168.top/like/%E9%93%B6%E7%8B%9026%E5%B9%B4%E5%85%A8%E9%9D%A2%E5%A4%8D%E6%B4%BB-%E5%AF%B9%E6%8A%97%E5%BC%BA%E5%BA%A6%E6%88%96%E5%B7%B2%E8%B6%8525%E5%B9%B4%E6%9C%80%E9%AB%98%E6%B0%B4%E5%B9%B3.html</link>
@@ -13460,70 +13559,6 @@ git config --global user.email 'xxx@163.com'</p>
 </ol>
 <h3>三、具体示例：</h3>
 <p>| 命令                                                                                                                                                                                    | 释义                                                                                           |<br>
-|</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>MSSQL注入复盘</title>
-      <link>https://min168.top/perm/MSSql%E6%B3%A8%E5%85%A5%E5%A4%8D%E7%9B%98.html</link>
-      <guid>https://min168.top/perm/MSSql%E6%B3%A8%E5%85%A5%E5%A4%8D%E7%9B%98.html</guid>
-      <source url="https://min168.top/rss.xml">MSSQL注入复盘</source>
-      <description>MSSql MSSql是指微软的SQLServer数据库服务器，它是一个数据库平台，提供数据库的从服务器到终端的完整的解决方案，其 中数据库服务器部分，是一个数据库管理系统，用于建立、使用和维护数据库。SQL Server默认开放的端口是TCP1433。 渗透角度介绍MSSql Microsoft SQL Sever分为很多个版本，随着版本的不断升级安...</description>
-      <category>渗透测试</category>
-      <pubDate>Wed, 06 Sep 2023 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<h2>MSSql</h2>
-<p>MSSql是指<span data-type="text" style="color: var(--b3-font-color8);">微软的SQLServer</span>数据库服务器，<span data-type="text" style="color: var(--b3-font-color8);">它是一个数据库</span>平台，提供数据库的从服务器到终端的完整的解决方案，其<br>
-中数据库服务器部分，是一个数据库管理系统，用于建立、使用和维护数据库。SQL Server默认开放的端口是TCP1433。</p>
-<h2>渗透角度介绍MSSql</h2>
-<p>Microsoft SQL Sever分为很多个版本，随着版本的不断升级安全性也越来越高，渗透过程中最喜欢的版本应该就是<br>
-2008以前，<span data-type="text" style="color: var(--b3-font-color8);">在2008及其以后的版本数据库的权限已经不再是system</span>,相对于MySQL这个MSSql显得强大许多，他众多的功<br>
-能也给我们注入过程带来了便利，所以一般数据库为mssql支持多语句我们就考虑是不是应该直接拿下webshell。</p>
-<h2>MSSql视图和表</h2>
-<h3>表与视图区别？</h3>
-<p>表是存在物理记录的集合，而视图只是一串sq脚本;</p>
-<p>表需占用物理空间，而视图理论上可以不占用物理空间;</p>
-<p>视图可以将多个表呈现给用户，而表只可以呈现自身;</p>
-<p>视图可以随意删除和重建，而表的删除会导致数据丢失;</p>
-<h3>表与视图之间的联系？</h3>
-<p><span data-type="text" style="color: var(--b3-font-color9);">视图是建立在表的基础之上的</span>一种结构视图中的数据可以来源于多张表;</p>
-<p>表是实际存在的不依附视图;</p>
-<p>使用视图可以增强表的安全性;</p>
-<p>数据表是真实存在的，有效数据，视图相当于固定的5q语句，当打开视图就行其$q语句。视图多为几个表的关系联合表达。有助于封装复杂的关系。</p>
-<h3>MSSql的默认库</h3>
-<p>SQL Servers安装4个系统数据库。它们分别是master数据库、model数据库、tempdb数据库和msdb数据库。这些数据库是<br>
-SQL Server的心脏和灵魂。</p>
-<ul>
-<li><span data-type="text" style="color: var(--b3-font-color8);">master</span>数据库（重要）：master数据库控制SQL Server的所有方面。这个数据库中包括所有的<span data-type="text" style="color: var(--b3-font-color8);">配置信息、用户登录信息</span>、当<br>
-前正在服务器中运行的<span data-type="text" style="color: var(--b3-font-color8);">过程的信息</span>。</li>
-<li><span data-type="text" style="color: var(--b3-font-color8);">model</span>数据库：model数据库是建立所有用户数据库时的模板。当建立一个新数据库时，SQL Servers会把model数据库中的所<br>
-有对象建立一份拷贝并移到新数据库中。在模板对象被拷贝到新的用户数据库中之后，该数据库的所有多余空间都将被空页填<br>
-满。</li>
-<li><span data-type="text" style="color: var(--b3-font-color8);">tempdb</span>数据库：这个库用来<span data-type="text" style="color: var(--b3-font-color8);">保存所有的临时表</span>、存储过程和其他SQL Server建立的临时用的东西。</li>
-<li><span data-type="text" style="color: var(--b3-font-color8);">msdb</span>数据库：由Enterprise Manager和Agent使用，记录着任务计划信息、事件处理信息、数据备份及恢复信息、警告及异<br>
-常信息。</li>
-</ul>
-<h2>MSSql中角色和用户</h2>
-<h3>服务器角度</h3>
-<ul>
-<li>服务器登录名：指有权限登录到某服务器的<span data-type="text" style="color: var(--b3-font-color8);">用户</span>，可以在有权限的情况下创建新的登录名，超级管理员的登录名是<span data-type="text" style="color: var(--b3-font-color8);">sa</span></li>
-<li>服务器角色：指一组固定的服务器用户，默认有<span data-type="text" style="color: var(--b3-font-color8);">9组</span>。针对行整个数据库服务器设定的角色和权限。</li>
-<li>服务器登录名和角色的关系：登录名一定属于某些角色，默认为<span data-type="text" style="color: var(--b3-font-color8);">public</span>。服务器角色不允许更改，登陆后也不一定有权限操作数据库。</li>
-</ul>
-<h3>数据库角度</h3>
-<ul>
-<li>数据库用户：指有权限能操作数据库的用户。</li>
-<li>数据库角色：指一组固定的<span data-type="text" style="color: var(--b3-font-color8);">有某些权限</span>的数据库角色，针对某个特定数据库设定的角色和权限。</li>
-<li>数据库架构：指数据库对象的容器。</li>
-<li>用户、角色、机构的关系：数据库用户对应于服务器登录名以便登录者可以操作数据库。数据库角色可以添加，可以定制不同权限数据库架构，类似于数据库对像的命名空间，用户通过架构访问数据库对象。</li>
-</ul>
-<p>在sqlserver里一个用户最终的权限应该是由<span data-type="text" style="color: var(--b3-font-color8);">服务器权限</span>加上<span data-type="text" style="color: var(--b3-font-color8);">数据库权限</span>加上<span data-type="text" style="color: var(--b3-font-color8);">对像的权限</span>组成的，这三个级别的权限是累加的。<br>
-但是拒绝权限是优先的<br>
-如果一个用户指定了服务器角色，那这个用户对服务器某些操作就有了一定权限，比如说执行系统命令、管理服务器磁盘、开机关机等等，如果不指定具体角色，默认为public角色<br>
-如果一个用户指定了数据库角色，那这个用户在ssql数据库中的某个或某几个数据库就有了管理权限，例如有最高管理权限、只可读权限、只可写权限等。<br>
-注意：如果某个账号只指定的服务器角色，没有指定数据库角色，该账号还是对数据库有绝对操作的权利。</p>
-<h2>MSSql权限控制</h2>
-<h3>固定服务器角色</h3>
-<p>|固定服务器角色|说明|<br>
 |</p>
 ]]></content:encoded>
     </item>
