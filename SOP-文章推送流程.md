@@ -22,12 +22,15 @@ description: 描述
 tag:
   - 标签
 category:
-  - 分类
+  - 转载  # like 目录用
+  - AI对话笔记  # ai 目录用
 timeline: false
 isOriginal: false
 index: true
 ---
 ```
+- like 目录：category 用 "转载"
+- ai 目录：category 用 "AI对话笔记"
 - 文件保存到 `C:\blog\src\like\` 或 `C:\blog\src\ai\`
 
 ### 3. 批量下载图片（一次性脚本）
@@ -73,7 +76,8 @@ description: 描述
 tag:
   - 标签
 category:
-  - 分类
+  - 转载  # like 目录
+  - AI对话笔记  # ai 目录
 timeline: false
 isOriginal: false
 index: true
