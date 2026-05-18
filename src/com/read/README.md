@@ -84,5 +84,13 @@ order: 8
       <p class="card-desc">这本营养学读物全面介绍了人体所需的各种营养素、饮食平衡原则以及健康饮食的科学依据。内容涵盖宏量营养素、微量营养素、膳食指南等，帮助读者建立科学的饮食观念，提升健康生活质量。</p>
     </div>
   </a>
+
+  <a class="image-card" href="./《斯坦福大学人生设计课》.html">
+    <img class="card-img" src="./assets/306736ac1e6e53aa0b69c10eab568986.jpg" alt="营养学">
+    <div class="card-content">
+      <h3 class="card-title">斯坦福大学人生设计课</h3>
+      <p class="card-desc">将产品设计思维运用于人生规划。课程目标是“如何运用设计思维，发现自己未来想做什么？”核心定位是用设计思维替代传统人生规划，解决迷茫、焦虑和选择困难。核心理念是：人生不存在完美规划，只有“更适合的人生”。</p>
+    </div>
+  </a>
 </div>
 
