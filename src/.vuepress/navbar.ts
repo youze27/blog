@@ -5,7 +5,6 @@ export default navbar([
   "/perm/",
   "/response/",
   "/reverse/",
-  "/htb/",
   "/net/",
   "/com/",
   "/like/",
