@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkvuepress_theme_hope_template=self.webpackChunkvuepress_theme_hope_template||[]).push([[3379],{13379(e,p,s){s.r(p),s.d(p,{VideoProvider:()=>t.N});var t=s(22735)}}]);
