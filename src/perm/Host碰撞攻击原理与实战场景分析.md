@@ -16,10 +16,10 @@ tag:
 
 | 项目 | 说明 |
 |------|------|
-| 公司名称 | 云创科技 |
-| 公网反向代理IP | 203.0.113.88（Nginx服务器） |
-| 对外服务域名 | www.yunchuang.com（正常解析到 203.0.113.88） |
-| 已废弃的内网域名 | oa.yunchuang.com（DNS记录已被删除，但Nginx配置残留） |
+| 公司名称 | 某科技有限公司 |
+| 公网反向代理IP | 203.0.113.x（Nginx服务器） |
+| 对外服务域名 | www.xxx.com（正常解析到 203.0.113.x） |
+| 已废弃的内网域名 | oa.xxx.com（DNS记录已被删除，但Nginx配置残留） |
 
 ## 漏洞原理
 
@@ -40,10 +40,10 @@ sequenceDiagram
     participant 反向代理Nginx
     participant 官网后端服务器
 
-    用户->>DNS服务器: 1. www.yunchuang.com 的IP是多少？
-    DNS服务器-->>用户: 2. 返回 IP: 203.0.113.88
-    用户->>反向代理Nginx: 3. GET /<br/>Host: www.yunchuang.com
-    反向代理Nginx->>反向代理Nginx: 4. 匹配 server_name<br/>找到 www.yunchuang.com 规则
+    用户->>DNS服务器: 1. www.xxx.com 的IP是多少？
+    DNS服务器-->>用户: 2. 返回 IP: 203.0.113.x
+    用户->>反向代理Nginx: 3. GET /<br/>Host: www.xxx.com
+    反向代理Nginx->>反向代理Nginx: 4. 匹配 server_name<br/>找到 www.xxx.com 规则
     反向代理Nginx->>官网后端服务器: 5. proxy_pass 转发请求
     官网后端服务器-->>反向代理Nginx: 6. 200 OK 官网首页
     反向代理Nginx-->>用户: 7. 返回正常页面 ✅
@@ -62,8 +62,8 @@ sequenceDiagram
     participant 黑客
     participant 反向代理Nginx
 
-    黑客->>反向代理Nginx: 1. GET /<br/>Host: 203.0.113.88<br/>（无有效域名）
-    反向代理Nginx->>反向代理Nginx: 2. 遍历所有 server_name<br/>无规则匹配 "203.0.113.88"
+    黑客->>反向代理Nginx: 1. GET /<br/>Host: 203.0.113.x<br/>（无有效域名）
+    反向代理Nginx->>反向代理Nginx: 2. 遍历所有 server_name<br/>无规则匹配 "203.0.113.x"
     反向代理Nginx->>反向代理Nginx: 3. 触发 default_server<br/>默认拒绝策略
     反向代理Nginx-->>黑客: 4. 400 Bad Request<br/>或 403 Forbidden ❌
 ```
@@ -84,8 +84,8 @@ sequenceDiagram
     participant 内网OA后端
 
     Note over 黑客,DNS服务器: 攻击者直接填IP，完全绕过DNS解析
-    黑客->>反向代理Nginx: 1. GET /<br/>目标IP: 203.0.113.88<br/>Host: oa.yunchuang.com（伪造！）
-    反向代理Nginx->>反向代理Nginx: 2. 匹配 server_name<br/>找到残留的 oa.yunchuang.com 配置块
+    黑客->>反向代理Nginx: 1. GET /<br/>目标IP: 203.0.113.x<br/>Host: oa.xxx.com（伪造！）
+    反向代理Nginx->>反向代理Nginx: 2. 匹配 server_name<br/>找到残留的 oa.xxx.com 配置块
     Note over 反向代理Nginx: 漏洞点：Nginx只验证文本是否匹配，<br/>不去查DNS看域名是否还活着
     反向代理Nginx->>内网OA后端: 3. 信任请求，proxy_pass<br/>转发至内网 OA 系统
     内网OA后端-->>反向代理Nginx: 4. 200 OK<br/>返回敏感内部数据
@@ -99,8 +99,8 @@ sequenceDiagram
 | 对比 | 场景一（正常） | 场景三（攻击） |
 |------|--------------|--------------|
 | 请求方式 | DNS解析 → 域名 → IP | 直接IP + 伪造Host头 |
-| Host头 | www.yunchuang.com ✅ | oa.yunchuang.com ❌（已废弃） |
-| DNS记录 | 存在，指向203.0.113.88 | 已被删除 |
+| Host头 | www.xxx.com ✅ | oa.xxx.com ❌（已废弃） |
+| DNS记录 | 存在，指向203.0.113.x | 已被删除 |
 | Nginx配置 | 存在，正常匹配 | **存在，运维未清理残留** |
 | 结果 | 正常访问官网 | 获取内网敏感数据 |
 
@@ -111,5 +111,5 @@ sequenceDiagram
 1. **配置 default_server 拒绝策略**：未匹配的请求统一返回 403/444
 2. **定期清理 Nginx 配置**：下线域名同步删除对应 server block
 3. **限制 proxy_pass 目标**：仅允许转发到预期的内网服务，配合 IP 白名单
-4. **Nginx 层校验 Host 合法性**：通过 `if ($host !~ ^(www\.yunchuang\.com)$)` 做白名单校验
+4. **Nginx 层校验 Host 合法性**：通过 `if ($host !~ ^(www\.xxx\.com)$)` 做白名单校验
 5. **内网服务额外认证**：即使被转发，OA 等系统应要求二次认证
