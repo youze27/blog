@@ -22,6 +22,43 @@ isOriginal: false
 
 受影响的核心包包括：`@antv/g2`、`@antv/g6`、`@antv/x6`、`@antv/l7`、`@antv/s2`、`@antv/f2`、`@antv/g`、`@antv/g2plot`、`@antv/graphin`、`@antv/data-set`，以及 `echarts-for-react`（周下载量约 110 万）、`timeago.js`、`size-sensor`、`canvas-nest.js` 等。
 
+## 受影响版本
+
+所有在 **2026年5月19日 01:39~02:56 UTC** 期间从 `atool` 账户发布的版本均为恶意。每个包通常有两个被投毒版本（多为 minor 版本号 +1 和 +2）：
+
+### 核心 @antv 包受影响的版本示例
+
+| 包名 | 恶意版本 | 周下载量 |
+|------|---------|---------|
+| `@antv/g2` | 5.5.8, 5.6.8 | 354k |
+| `@antv/g6` | 5.2.1, 5.3.1 | 1M+ |
+| `@antv/g2plot` | 2.5.35, 2.6.35 | 108k |
+| `@antv/g` | 6.4.1, 6.5.1 | - |
+| `@antv/g6-core` | 0.9.24, 0.10.24 | 70k |
+| `@antv/s2` | - | - |
+| `@antv/x6` | - | - |
+| `@antv/l7` | - | - |
+| `@antv/f2` | 5.15.0, 5.16.0 | - |
+| `@antv/component` | 2.2.11, 2.3.11 | - |
+| `@antv/coord` | 0.5.7, 0.6.7 | - |
+| `@antv/attr` | 0.4.5, 0.5.5 | 170k |
+| `@antv/algorithm` | 0.2.26, 0.3.26 | 199k |
+| `@antv/adjust` | 0.3.5, 0.4.5 | 144k |
+| `@antv/scale` | - | 2.2M/月 |
+
+### 非 @antv 受影响包
+
+| 包名 | 恶意版本 | 月下载量 |
+|------|---------|---------|
+| `size-sensor` | 1.0.4 | 4.2M |
+| `echarts-for-react` | 3.0.7 | 3.8M |
+| `timeago.js` | - | 1.15M |
+| `jest-canvas-mock` | 2.5.3 | - |
+| `jest-date-mock` | 1.0.11 | - |
+| `amapcn` | 0.1.2, 0.2.2, 0.3.2 | - |
+
+> **检测方法**：检查 lockfile 中 `atool` 账户维护的任一包的 resolved 版本是否在 2026-05-19 01:39~02:56 UTC 之间发布。参考 OSV 通报：`MAL-2026-3845`、`MAL-2026-3859`、`MAL-2026-3982` 等约 317 个 `MAL-2026-*` 条目覆盖本次攻击。
+
 ## 攻击时间线
 
 | 时间（UTC） | 事件 |
