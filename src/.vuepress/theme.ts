@@ -63,7 +63,7 @@ export default hopeTheme({
   encrypt: {
     config: {
       "/com/think/": ["youze"],
-      "/com/job/": ["youze"],
+      // "/com/job/": ["youze"],
     },
   },
 
