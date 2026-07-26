@@ -9,7 +9,6 @@ export default navbar([
   "/com/",
   "/like/",
   "/ai/",
-  "/nav",
   "/intro",
    {
       text: "🚆",
