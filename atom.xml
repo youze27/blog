@@ -4,7 +4,7 @@
   <title>卷卷</title>
   <subtitle>网络安全知识库</subtitle>
   <icon>https://min168.top/assets/favicon.ico</icon>
-  <updated>2026-07-26T10:25:37.271Z</updated>
+  <updated>2026-07-26T10:35:25.993Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://min168.top/atom.xml"/>
   <link rel="alternate" href="https://min168.top/"/>
@@ -33,7 +33,7 @@
     <title type="text">Host碰撞攻击原理与实战场景分析</title>
     <id>https://min168.top/perm/Host%E7%A2%B0%E6%92%9E%E6%94%BB%E5%87%BB%E5%8E%9F%E7%90%86%E4%B8%8E%E5%AE%9E%E6%88%98%E5%9C%BA%E6%99%AF%E5%88%86%E6%9E%90.html</id>
     <link href="https://min168.top/perm/Host%E7%A2%B0%E6%92%9E%E6%94%BB%E5%87%BB%E5%8E%9F%E7%90%86%E4%B8%8E%E5%AE%9E%E6%88%98%E5%9C%BA%E6%99%AF%E5%88%86%E6%9E%90.html"/>
-    <updated>2026-07-26T10:22:54.000Z</updated>
+    <updated>2026-07-26T10:32:40.000Z</updated>
     <summary type="html"><![CDATA[<h2>企业场景设定</h2>
 <table>
 <thead>
@@ -45,19 +45,19 @@
 <tbody>
 <tr>
 <td>公司名称</td>
-<td>云创科技</td>
+<td>某科技有限公司</td>
 </tr>
 <tr>
 <td>公网反向代理IP</td>
-<td>203.0.113.88（Nginx服务器）</td>
+<td>203.0.113.x（Nginx服务器）</td>
 </tr>
 <tr>
 <td>对外服务域名</td>
-<td><a href="http://www.yunchuang.com" target="_blank" rel="noopener noreferrer">www.yunchuang.com</a>（正常解析到 203.0.113.88）</td>
+<td><a href="http://www.xxx.com" target="_blank" rel="noopener noreferrer">www.xxx.com</a>（正常解析到 203.0.113.x）</td>
 </tr>
 <tr>
 <td>已废弃的内网域名</td>
-<td><a href="http://oa.yunchuang.com" target="_blank" rel="noopener noreferrer">oa.yunchuang.com</a>（DNS记录已被删除，但Nginx配置残留）</td>
+<td><a href="http://oa.xxx.com" target="_blank" rel="noopener noreferrer">oa.xxx.com</a>（DNS记录已被删除，但Nginx配置残留）</td>
 </tr>
 </tbody>
 </table>]]></summary>
