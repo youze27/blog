@@ -7,7 +7,7 @@ tag:
   - 供应链攻击
   - npm
   - Mini Shai-Hulud
-  - @antv
+  - '@antv'
   - 恶意软件
 category:
   - 安全事件
