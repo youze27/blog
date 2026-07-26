@@ -1,7 +1,7 @@
 ---
 title: NISP错题4
 index: true
-order: 8
+order: 7
 article: false 
 isOriginal : true
 tag:

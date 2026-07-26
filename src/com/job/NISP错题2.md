@@ -1,7 +1,7 @@
 ---
 title: NISP错题2
 index: true
-order: 6
+order: 5
 article: false 
 isOriginal : true
 tag:
