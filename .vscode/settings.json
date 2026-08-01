@@ -1,0 +1,15 @@
+{
+  "pasteImage.path": "${currentFileDir}/assets",
+  "pasteImage.basePath": "${currentFileDir}",
+  "pasteImage.forceUnixStyleSeparator": true,
+  "pasteImage.prefix": "./",
+  "pasteImage.suffix": "",
+  "pasteImage.encodePath": "none",
+  "MarkdownPaste.path": "${fileDirname}/assets",
+  "MarkdownPaste.basePath": "",
+  "MarkdownPaste.namePrefix": "",
+  "MarkdownPaste.nameSuffix": "",
+  "MarkdownPaste.silence": true,
+  "MarkdownPaste.enableImgTag": false,
+  "MarkdownPaste.encodePath": "none"
+}

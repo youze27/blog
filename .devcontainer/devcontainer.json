@@ -18,7 +18,8 @@
         "bradlc.vscode-tailwindcss",
         "sdras.vue-vscode-snippets",
         "mhutchie.git-graph",
-        "eamodio.gitlens"
+        "eamodio.gitlens",
+        "telesoho.vscode-markdown-paste-image"
       ],
       "settings": {
         "editor.formatOnSave": true,
