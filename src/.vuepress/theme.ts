@@ -38,15 +38,6 @@ export default hopeTheme({
 
   footer: "少即是多，慢即是快.",
 
-  // 看板娘 iframe 嵌入（兼容性最好）
-  // 使用 https://www.live2d.com/ 官方服务
-  // <div><a href="" target="_blank" rel="noopener" title="开往-友链接力"><img src="/assets/icon/travelling_len.svg" alt="开往-友链接力" style="width:auto;height:30px;" ></a></div>
-  // <div><a href="" target="_blank" rel="noopener" title="博友圈"><img src="/assets/icon/planet-shuttle.svg" alt="博友圈" style="width:auto;height:30px;"></a></div>
-  // <div><a href="" target="_blank"> <img src="/assets/icon/wormhole_4_tp.gif" alt="穿梭虫洞"  title="穿梭虫洞-随机访问十年之约友链博客"  style="width:auto;height:30px;" ></a></div>
-  // <div><a href="" target="_blank"> <img src="/assets/icon/suiji_en.gif" alt="随机博客"  title="随机博客"  style="width:auto;height:18px;" ></a></div>
-  // <div><a href="" target="_blank"> <img src="/assets/icon/blogscn.svg" alt="笔墨迹"  title="笔墨迹-随机博客"  style="width:auto;height:30px;" ></a></div></div>`,
-
-
   displayFooter: true,
   // 博客相关
   blog: {

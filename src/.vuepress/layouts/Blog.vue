@@ -4,7 +4,6 @@ import BingHeroBackground from "vuepress-theme-hope/presets/BingHeroBackground.j
 import HitokotoBlogHero from "vuepress-theme-hope/presets/HitokotoBlogHero.js";
 import { ref, onMounted, onUnmounted } from 'vue';
 import * as echarts from 'echarts';
-import Live2D from "../components/Live2D.vue";
 
 // 定义一个函数，处理data中的text属性，确保不为null
 const processHeroData = (data: any) => {
@@ -739,9 +738,6 @@ const formatTime = (time: number) => {
     </template>
 
   </Blog>
-
-  <!-- 看板娘 -->
-  <Live2D />
 </template>
 
 
