@@ -4,7 +4,7 @@
   <title>卷卷</title>
   <subtitle>网络安全知识库</subtitle>
   <icon>https://min168.top/assets/favicon.ico</icon>
-  <updated>2026-08-01T15:58:49.324Z</updated>
+  <updated>2026-08-01T16:28:36.927Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://min168.top/atom.xml"/>
   <link rel="alternate" href="https://min168.top/"/>
@@ -35,7 +35,7 @@
     <title type="text">CobaltStrike部署与C2功能实战指南</title>
     <id>https://min168.top/perm/CobaltStrike%E9%83%A8%E7%BD%B2%E4%B8%8EC2%E5%8A%9F%E8%83%BD%E5%AE%9E%E6%88%98%E6%8C%87%E5%8D%97.html</id>
     <link href="https://min168.top/perm/CobaltStrike%E9%83%A8%E7%BD%B2%E4%B8%8EC2%E5%8A%9F%E8%83%BD%E5%AE%9E%E6%88%98%E6%8C%87%E5%8D%97.html"/>
-    <updated>2026-08-01T15:33:29.000Z</updated>
+    <updated>2026-08-01T16:25:33.000Z</updated>
     <summary type="html"><![CDATA[
 <p>最近在研究红队工具，CobaltStrike（简称 CS）作为主流的 C2 框架，必须亲手搭一遍才能深入理解。本篇记录从 Team Server 部署、Payload 生成到各 C2 功能的完整实验过程。</p>
 <div class="hint-container warning">

@@ -13,7 +13,7 @@
       "summary": "详解 CobaltStrike 团队服务器部署、Windows 10 Payload 生成及各 C2 功能实战运用",
       "content_html": "\n<p>最近在研究红队工具，CobaltStrike（简称 CS）作为主流的 C2 框架，必须亲手搭一遍才能深入理解。本篇记录从 Team Server 部署、Payload 生成到各 C2 功能的完整实验过程。</p>\n<div class=\"hint-container warning\">\n<p class=\"hint-container-title\">法律声明</p>\n<p>本文内容仅供<strong>合法授权场景</strong>下的网络安全研究使用。未经授权实施渗透测试可能构成<strong>非法侵入计算机信息系统罪</strong>，请严格遵守《网络安全法》《刑法》相关规定。</p>\n</div>\n<h2>一、实验环境</h2>\n<p>| 角色 | 系统 | IP | 说明 |<br>\n|</p>\n",
       "date_published": "2026-08-01T14:42:00.000Z",
-      "date_modified": "2026-08-01T15:33:29.000Z",
+      "date_modified": "2026-08-01T16:25:33.000Z",
       "authors": [],
       "tags": [
         "渗透测试"
