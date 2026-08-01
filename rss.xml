@@ -6,8 +6,8 @@
     <link>https://min168.top/</link>
     <description>网络安全知识库</description>
     <language>zh-CN</language>
-    <pubDate>Sat, 01 Aug 2026 06:46:44 GMT</pubDate>
-    <lastBuildDate>Sat, 01 Aug 2026 06:46:44 GMT</lastBuildDate>
+    <pubDate>Sat, 01 Aug 2026 15:39:37 GMT</pubDate>
+    <lastBuildDate>Sat, 01 Aug 2026 15:39:37 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>渗透测试</category>
@@ -42,16 +42,13 @@
       <category>渗透测试</category>
       <pubDate>Sat, 01 Aug 2026 14:42:00 GMT</pubDate>
       <content:encoded><![CDATA[
-<blockquote>
-<p>本文以合法授权的渗透测试环境为背景，系统讲解 CobaltStrike（简称 CS）框架的部署、Windows 10 Payload 生成及各 C2 功能的实战运用。</p>
-</blockquote>
+<p>最近在研究红队工具，CobaltStrike（简称 CS）作为主流的 C2 框架，必须亲手搭一遍才能深入理解。本篇记录从 Team Server 部署、Payload 生成到各 C2 功能的完整实验过程。</p>
 <div class="hint-container warning">
 <p class="hint-container-title">法律声明</p>
 <p>本文内容仅供<strong>合法授权场景</strong>下的网络安全研究使用。未经授权实施渗透测试可能构成<strong>非法侵入计算机信息系统罪</strong>，请严格遵守《网络安全法》《刑法》相关规定。</p>
 </div>
-<h2>一、CobaltStrike 概述</h2>
-<p>CobaltStrike 是一款由 Fortra（原 HelpSystems）开发的商业化高级威胁模拟工具，广泛应用于红队演练与渗透测试。其核心架构为 <strong>客户端/团队服务器（Client/Team Server）</strong> 模式：</p>
-<p>| 组件 | 说明 |<br>
+<h2>一、实验环境</h2>
+<p>| 角色 | 系统 | IP | 说明 |<br>
 |</p>
 ]]></content:encoded>
     </item>

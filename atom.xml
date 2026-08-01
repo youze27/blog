@@ -4,7 +4,7 @@
   <title>卷卷</title>
   <subtitle>网络安全知识库</subtitle>
   <icon>https://min168.top/assets/favicon.ico</icon>
-  <updated>2026-08-01T06:46:44.898Z</updated>
+  <updated>2026-08-01T15:39:37.674Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://min168.top/atom.xml"/>
   <link rel="alternate" href="https://min168.top/"/>
@@ -35,26 +35,21 @@
     <title type="text">CobaltStrike部署与C2功能实战指南</title>
     <id>https://min168.top/perm/CobaltStrike%E9%83%A8%E7%BD%B2%E4%B8%8EC2%E5%8A%9F%E8%83%BD%E5%AE%9E%E6%88%98%E6%8C%87%E5%8D%97.html</id>
     <link href="https://min168.top/perm/CobaltStrike%E9%83%A8%E7%BD%B2%E4%B8%8EC2%E5%8A%9F%E8%83%BD%E5%AE%9E%E6%88%98%E6%8C%87%E5%8D%97.html"/>
-    <updated>2026-08-01T06:44:16.000Z</updated>
+    <updated>2026-08-01T15:33:29.000Z</updated>
     <summary type="html"><![CDATA[
-<blockquote>
-<p>本文以合法授权的渗透测试环境为背景，系统讲解 CobaltStrike（简称 CS）框架的部署、Windows 10 Payload 生成及各 C2 功能的实战运用。</p>
-</blockquote>
+<p>最近在研究红队工具，CobaltStrike（简称 CS）作为主流的 C2 框架，必须亲手搭一遍才能深入理解。本篇记录从 Team Server 部署、Payload 生成到各 C2 功能的完整实验过程。</p>
 <div class="hint-container warning">
 <p class="hint-container-title">法律声明</p>
 <p>本文内容仅供<strong>合法授权场景</strong>下的网络安全研究使用。未经授权实施渗透测试可能构成<strong>非法侵入计算机信息系统罪</strong>，请严格遵守《网络安全法》《刑法》相关规定。</p>
 </div>]]></summary>
     <content type="html"><![CDATA[
-<blockquote>
-<p>本文以合法授权的渗透测试环境为背景，系统讲解 CobaltStrike（简称 CS）框架的部署、Windows 10 Payload 生成及各 C2 功能的实战运用。</p>
-</blockquote>
+<p>最近在研究红队工具，CobaltStrike（简称 CS）作为主流的 C2 框架，必须亲手搭一遍才能深入理解。本篇记录从 Team Server 部署、Payload 生成到各 C2 功能的完整实验过程。</p>
 <div class="hint-container warning">
 <p class="hint-container-title">法律声明</p>
 <p>本文内容仅供<strong>合法授权场景</strong>下的网络安全研究使用。未经授权实施渗透测试可能构成<strong>非法侵入计算机信息系统罪</strong>，请严格遵守《网络安全法》《刑法》相关规定。</p>
 </div>
-<h2>一、CobaltStrike 概述</h2>
-<p>CobaltStrike 是一款由 Fortra（原 HelpSystems）开发的商业化高级威胁模拟工具，广泛应用于红队演练与渗透测试。其核心架构为 <strong>客户端/团队服务器（Client/Team Server）</strong> 模式：</p>
-<p>| 组件 | 说明 |<br>
+<h2>一、实验环境</h2>
+<p>| 角色 | 系统 | IP | 说明 |<br>
 |</p>
 ]]></content>
     <category term="渗透测试"/>
