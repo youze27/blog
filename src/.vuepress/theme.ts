@@ -17,7 +17,7 @@ export default hopeTheme({
   },
 
   // 统一贡献者显示名称
-  contributors: ["zhangsan"],
+  contributors: false,
 
   logo: "/assets/logo.png",
   favicon: "/assets/favicon.ico",
@@ -199,6 +199,20 @@ export default hopeTheme({
 
     icon: {
       assets: "fontawesome-with-brands",
+    },
+
+    // 看板娘 Live2D 配置
+    // @ts-ignore
+    ohMyLive2d: {
+      model: "shizuku", // 绁星灯，经典且好看
+      display: {
+        position: "right", // 显示位置：left 或 right
+        width: 200, // 宽度
+        height: 300, // 高度
+        offset: 20, // 距离底部的偏移
+      },
+      interactive: true, // 启用交互
+      draggable: true, // 允许拖拽
     },
   }
 });
