@@ -16,6 +16,9 @@ export default hopeTheme({
     name: "卷卷",
   },
 
+  // 禁用贡献者信息显示
+  contributors: false,
+
   logo: "/assets/logo.png",
   favicon: "/assets/favicon.ico",
 
