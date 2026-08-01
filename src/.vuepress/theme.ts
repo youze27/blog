@@ -37,6 +37,9 @@ export default hopeTheme({
   // 页脚已移至 Blog 布局的 pageBottom 插槽中
 
   footer: "少即是多，慢即是快.",
+
+  // 看板娘 iframe 嵌入（兼容性最好）
+  // 使用 https://www.live2d.com/ 官方服务
   // <div><a href="" target="_blank" rel="noopener" title="开往-友链接力"><img src="/assets/icon/travelling_len.svg" alt="开往-友链接力" style="width:auto;height:30px;" ></a></div>
   // <div><a href="" target="_blank" rel="noopener" title="博友圈"><img src="/assets/icon/planet-shuttle.svg" alt="博友圈" style="width:auto;height:30px;"></a></div>
   // <div><a href="" target="_blank"> <img src="/assets/icon/wormhole_4_tp.gif" alt="穿梭虫洞"  title="穿梭虫洞-随机访问十年之约友链博客"  style="width:auto;height:30px;" ></a></div>
@@ -199,20 +202,6 @@ export default hopeTheme({
 
     icon: {
       assets: "fontawesome-with-brands",
-    },
-
-    // 看板娘 Live2D 配置
-    // @ts-ignore
-    ohMyLive2d: {
-      model: "shizuku", // 绁星灯，经典且好看
-      display: {
-        position: "right", // 显示位置：left 或 right
-        width: 200, // 宽度
-        height: 300, // 高度
-        offset: 20, // 距离底部的偏移
-      },
-      interactive: true, // 启用交互
-      draggable: true, // 允许拖拽
     },
   }
 });

@@ -5,7 +5,6 @@ import theme from "./theme.js";
 //vuepress-plugin-popper 基于 @moefy-canvas/theme-popper 插件，为 VuePress-v2 版本提供了鼠标点击特效功能
 import { popperPlugin } from "./plugins/vuepress-plugin-popper/index.js";
 import { hopeTheme } from 'vuepress-theme-hope';
-import { oml2dPlugin } from 'vuepress-plugin-oh-my-live2d';
 
 
 
@@ -29,11 +28,6 @@ export default defineUserConfig({
           }
         },
       }),
-
-      oml2dPlugin({  //看板娘 Live2D
-        // @ts-ignore
-      }),
-
 
     ],
   theme,
