@@ -4,7 +4,7 @@
   <title>卷卷</title>
   <subtitle>网络安全知识库</subtitle>
   <icon>https://min168.top/assets/favicon.ico</icon>
-  <updated>2026-08-08T13:39:24.640Z</updated>
+  <updated>2026-08-08T16:06:49.860Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://min168.top/atom.xml"/>
   <link rel="alternate" href="https://min168.top/"/>
@@ -32,10 +32,40 @@
   <category term="其他"/>
   <category term="面试"/>
   <entry>
+    <title type="text">OPNsense 部署与三网卡区域隔离</title>
+    <id>https://min168.top/net/OPNsense%E9%83%A8%E7%BD%B2%E4%B8%8E%E4%B8%89%E7%BD%91%E5%8D%A1%E5%8C%BA%E5%9F%9F%E9%9A%94%E7%A6%BB.html</id>
+    <link href="https://min168.top/net/OPNsense%E9%83%A8%E7%BD%B2%E4%B8%8E%E4%B8%89%E7%BD%91%E5%8D%A1%E5%8C%BA%E5%9F%9F%E9%9A%94%E7%A6%BB.html"/>
+    <updated>2026-08-08T16:04:06.000Z</updated>
+    <summary type="html"><![CDATA[
+<h2>原理目标</h2>
+<ul>
+<li>是什么：OPNsense 是 2015 年从 pfSense 分叉出来的开源防火墙，同样基于 FreeBSD、同样用 pf 做包过滤，Web 界面更现代化、默认启用更多安全基线（如默认拒绝私有网络流量）</li>
+<li>原理：和 pfSense 一致——接口划分区域（WAN/LAN/DMZ），<strong>区域之间默认拒绝，按需放行</strong></li>
+<li>学完能做什么：搭出与 pfSense 篇完全同构的三网段隔离；能口头讲清 OPNsense vs pfSense 的差异（界面、许可、插件、安全默认项）</li>
+</ul>
+]]></summary>
+    <content type="html"><![CDATA[
+<h2>原理目标</h2>
+<ul>
+<li>是什么：OPNsense 是 2015 年从 pfSense 分叉出来的开源防火墙，同样基于 FreeBSD、同样用 pf 做包过滤，Web 界面更现代化、默认启用更多安全基线（如默认拒绝私有网络流量）</li>
+<li>原理：和 pfSense 一致——接口划分区域（WAN/LAN/DMZ），<strong>区域之间默认拒绝，按需放行</strong></li>
+<li>学完能做什么：搭出与 pfSense 篇完全同构的三网段隔离；能口头讲清 OPNsense vs pfSense 的差异（界面、许可、插件、安全默认项）</li>
+</ul>
+<blockquote>
+<p>为什么两款都要部署？pfSense（Netgate）近年把新功能集中到商业版 pfSense Plus，CE 更新变慢；OPNsense 社区版完全开源、功能全量开放。真实企业里两者都能见到，各记各的坑。</p>
+</blockquote>
+<h2>环境条件</h2>
+<p>| 项目 | 值 |<br>
+|</p>
+]]></content>
+    <category term="网络运维"/>
+    <published>2026-08-08T22:30:00.000Z</published>
+  </entry>
+  <entry>
     <title type="text">pfSense 部署与三网卡区域隔离</title>
     <id>https://min168.top/net/pfSense%E9%83%A8%E7%BD%B2%E4%B8%8E%E4%B8%89%E7%BD%91%E5%8D%A1%E5%8C%BA%E5%9F%9F%E9%9A%94%E7%A6%BB.html</id>
     <link href="https://min168.top/net/pfSense%E9%83%A8%E7%BD%B2%E4%B8%8E%E4%B8%89%E7%BD%91%E5%8D%A1%E5%8C%BA%E5%9F%9F%E9%9A%94%E7%A6%BB.html"/>
-    <updated>2026-08-08T13:36:45.000Z</updated>
+    <updated>2026-08-08T16:04:06.000Z</updated>
     <summary type="html"><![CDATA[
 <h2>原理目标</h2>
 <ul>
@@ -16651,37 +16681,5 @@ AddType application/x-httpd-php .php .phtml .php5 php3</p>
 ]]></content>
     <category term="渗透测试"/>
     <published>2023-07-09T00:00:00.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">常见Web框架漏洞分析与利用</title>
-    <id>https://min168.top/perm/%E5%B8%B8%E8%A7%81Web%E6%A1%86%E6%9E%B6%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90%E4%B8%8E%E5%88%A9%E7%94%A8.html</id>
-    <link href="https://min168.top/perm/%E5%B8%B8%E8%A7%81Web%E6%A1%86%E6%9E%B6%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90%E4%B8%8E%E5%88%A9%E7%94%A8.html"/>
-    <updated>2026-07-26T07:49:45.000Z</updated>
-    <summary type="html"><![CDATA[<table>
-<thead>
-<tr>
-<th>漏洞名称</th>
-<th>漏洞原理</th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>ThinkPHP5.0.23 Remote Code Execution Vulnerability</td>
-<td><span data-type="text" style="color: var(--b3-font-color8);">获取method的方法中没有正确处理方法名，</span>导致攻击者可以调用Request类任意方法并构造利用链，从而导致远程代码执行漏洞。</td>
-<td></td>
-</tr>
-<tr>
-<td>Laravel CVE-2021-3129</td>
-<td>当Laravel开启了Debug模式时，由于Laravel自带的Ignition 组件对file_get_contents()和file_put_contents()函数的不安全使用，攻击者可以通过发起恶意请求，构造恶意Log文件等方式触发Phar反序列化，最终造成远程代码执行。</td>
-<td></td>
-</tr>
-</tbody>
-</table>]]></summary>
-    <content type="html"><![CDATA[<p>|漏洞名称|漏洞原理||<br>
-|</p>
-]]></content>
-    <category term="渗透测试"/>
-    <published>2023-05-12T00:00:00.000Z</published>
   </entry>
 </feed>
