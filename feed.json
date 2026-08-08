@@ -7,6 +7,19 @@
   "favicon": "https://min168.top/assets/favicon.ico",
   "items": [
     {
+      "title": "pfSense 部署与三网卡区域隔离",
+      "url": "https://min168.top/net/pfSense%E9%83%A8%E7%BD%B2%E4%B8%8E%E4%B8%89%E7%BD%91%E5%8D%A1%E5%8C%BA%E5%9F%9F%E9%9A%94%E7%A6%BB.html",
+      "id": "https://min168.top/net/pfSense%E9%83%A8%E7%BD%B2%E4%B8%8E%E4%B8%89%E7%BD%91%E5%8D%A1%E5%8C%BA%E5%9F%9F%E9%9A%94%E7%A6%BB.html",
+      "summary": "从零部署 pfSense 开源防火墙，规划 WAN/LAN/DMZ 三网卡区域隔离，验证默认拒绝与按需放行策略，为后续安全产品实验打好网络底座",
+      "content_html": "\n<h2>原理目标</h2>\n<ul>\n<li>是什么：pfSense 是基于 FreeBSD 的开源防火墙/路由器，Web 界面可配，被大量中小企业当商业防火墙的平替</li>\n<li>原理：防火墙把接口划分成安全区域（Zone）。WAN=不可信外网、LAN=可信内网、DMZ=半可信对外服务区。区域之间<strong>默认拒绝，按需放行</strong>——这就是\"区域隔离\"</li>\n<li>学完能做什么：搭出 WAN/LAN/DMZ 三个隔离网段；验证默认规则、手动收紧 DMZ 规则；给后续安全产品提供基础网络</li>\n</ul>\n<h2>环境条件</h2>\n<p>| 项目 | 值 |<br>\n|</p>\n",
+      "date_published": "2026-08-02T10:00:00.000Z",
+      "date_modified": "2026-08-08T13:36:45.000Z",
+      "authors": [],
+      "tags": [
+        "网络运维"
+      ]
+    },
+    {
       "title": "CobaltStrike部署与C2功能实战指南",
       "url": "https://min168.top/perm/CobaltStrike%E9%83%A8%E7%BD%B2%E4%B8%8EC2%E5%8A%9F%E8%83%BD%E5%AE%9E%E6%88%98%E6%8C%87%E5%8D%97.html",
       "id": "https://min168.top/perm/CobaltStrike%E9%83%A8%E7%BD%B2%E4%B8%8EC2%E5%8A%9F%E8%83%BD%E5%AE%9E%E6%88%98%E6%8C%87%E5%8D%97.html",
@@ -1270,19 +1283,6 @@
       "summary": "ThinkPHP ThinkPHP5 5.0.23 Remote Code Execution Vulnerability 其5.0.23以前的版本中，获取method的方法中没有正确处理方法名，导致攻击者可以调用Request类任意方法并构造利用链，从而导致远程代码执行漏洞。 访问页面 ​1​ 修改为POST 路径写为?s=captcha,, 多次B...",
       "content_html": "<p>|漏洞名称|漏洞原理||<br>\n|</p>\n",
       "date_published": "2023-05-12T00:00:00.000Z",
-      "date_modified": "2026-07-26T07:49:45.000Z",
-      "authors": [],
-      "tags": [
-        "渗透测试"
-      ]
-    },
-    {
-      "title": "文件上传漏洞原理与绕过技巧",
-      "url": "https://min168.top/perm/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%BC%8F%E6%B4%9E%E5%8E%9F%E7%90%86%E4%B8%8E%E7%BB%95%E8%BF%87%E6%8A%80%E5%B7%A7.html",
-      "id": "https://min168.top/perm/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%BC%8F%E6%B4%9E%E5%8E%9F%E7%90%86%E4%B8%8E%E7%BB%95%E8%BF%87%E6%8A%80%E5%B7%A7.html",
-      "summary": "文件上传 什么是文件上传漏洞？ 文件上传漏洞是指程序员在开发任意文件上传功能时，并未考虑文件格式后缀的合法性校验或者是只考虑在前端通过js进行 后缀检验。这时攻击者可以上传一个与网站脚本语言相对应的恶意代码动态脚本，例如（jsp、asp、php、aspx文件后缀）到 服务器上，从而攻击者访问这些恶意脚本对包含的恶意代码动态解析最终达到执行恶意代码的效果...",
-      "content_html": "\n<h2>什么是文件上传漏洞？</h2>\n<p>文件上传漏洞是指程序员在开发任意文件上传功能时，并未考虑文件格式后缀的合法性校验或者是只考虑在前端通过js进行<br>\n后缀检验。这时攻击者可以上传一个与网站脚本语言相对应的恶意代码动态脚本，例如（jsp、asp、php、aspx文件后缀）到<br>\n服务器上，从而攻击者访问这些恶意脚本对包含的恶意代码动态解析最终达到执行恶意代码的效果，进一步影响服务器安全。</p>\n<p>​​</p>\n<h2>文件上传漏洞条件</h2>\n<ul>\n<li>\n<p>网站开文件上传功能php.ini    file_upload=on</p>\n</li>\n<li>\n<p>web上传目录有可写以上权限</p>\n</li>\n<li>\n<p>文件能被正常解析为动态脚本，php=&gt;php</p>\n</li>\n<li>\n<p>上传的文件至少得有读权限。</p>\n</li>\n<li>\n<p>Wb容器可以解析上传的脚本，无论脚本以什么样的形式存在</p>\n</li>\n<li>\n<p>无视以上条件的情况就是服务器配置不当，开启了PUT方法。</p>\n<p>​​</p>\n</li>\n</ul>\n<h2>文件上传漏洞分类</h2>\n<ul>\n<li>文件任意上传                          ——没有任何校验</li>\n<li>绕过js校验上传                       ——校验在前端</li>\n<li>MIME-type类型绕过上传        ——服务器端        <a href=\"https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types\" title=\"1111\" target=\"_blank\" rel=\"noopener noreferrer\"> 常见 MIME 类型列表</a></li>\n<li>文件头检测                             ——服务器端</li>\n<li>绕过扩展名校验上传              ——服务器端</li>\n<li>文件加载检测                         ——服务器端</li>\n<li>结合解析漏洞上传                  ——中间件解析漏洞造成</li>\n</ul>\n<p>​​</p>\n<h2>文件上传漏洞的危害</h2>\n<p>上传漏洞与SQL注入或XSS相比，其风险更大，如果Wb应用程序存在上传漏洞，攻击者上传的文件是Web脚本语言，服务器的Wb容器解释并执行了用户上传的脚本，导致代码执行。比如：如果上传的文件是病毒、木马文件，黑客用以诱骗用户或者管理员下载执行。如果上传的文件是钓鱼图片或为包含了脚本的图片，在某些版本的浏览器中会被作为脚本执行，被用于钓鱼和欺诈。攻击者甚至可以直接上传一个webshell到服务器上完全控制系统或致使系统瘫痪。</p>\n<h2>文件上传漏洞的防御</h2>\n<p>最理想的是能够过滤掉图片马中的恶意代码。</p>\n<ul>\n<li>采用白名单策略，严格限制上传文件的<span data-type=\"text\" style=\"color: var(--b3-font-color9);\">后缀名</span>。</li>\n<li>进行二次渲染，过滤掉图片马中的恶意代码。</li>\n<li>上传文件重命名，尽量少的从客户端获取信息。</li>\n<li>避免文件包含漏洞。</li>\n<li>严格处理文件路径，防御00截断漏洞，避开空格、点、：$DATA等windows特性。</li>\n<li>将文件上传到对象存储。</li>\n<li>服务器及时更新Web容器，防止解析漏洞的产生。</li>\n<li>服务器可写目录不给执行权限。</li>\n</ul>\n<h2>前端js文件上传校验</h2>\n<h4>经典文件上传代码</h4>\n<p>​​</p>\n<h2>前端js检测绕过方法</h2>\n<p>JS代码通常采用<span data-type=\"text\" style=\"color: var(--b3-font-color8);\">白名单策略</span>，检测文件<span data-type=\"text\" style=\"color: var(--b3-font-color9);\">后缀名</span>。配合表单事件使用。前端js脚本检测的安全防御是十分薄弱的。可以非<br>\n常轻松的绕过。</p>\n<ul>\n<li>方法一：因为js脚本的运行环境是浏览器，我们可以<span data-type=\"text\" style=\"color: var(--b3-font-color7);\">修改js代码</span>，甚至删除表单事件，禁用js</li>\n<li>方法二：使恶意文件后缀名符合白名单策略，用<span data-type=\"text\" style=\"color: var(--b3-font-color8);\">Bup挂代理抓包</span>，然后修改文件后缀名即可。</li>\n<li>所以：仅前检测文件上传是远远不够的，需要结合<strong>后端服务器进行检测检测</strong>。</li>\n</ul>\n<ol>\n<li>\n<p>直接上传<code>.PHP</code>​文件提示文件名不合法，使用了前端校验。</p>\n</li>\n<li>\n<p>查看源码，前端有校验</p>\n<p>​​</p>\n</li>\n<li>\n<p>方法一：直接将上图函数名 <code>return checkfileExt()</code>​ 删除。</p>\n<p>​​</p>\n</li>\n<li>\n<p>方法二：使恶意文件后缀名符合白名单策略，用<span data-type=\"text\" style=\"color: var(--b3-font-color8);\">Bup挂代理抓包</span>，然后修改文件后缀名即可。即将php文件改为jpg后缀上传，抓包改回。</p>\n<p>​​</p>\n<p>​​</p>\n</li>\n</ol>\n<h2>MIME-TYPE检测</h2>\n<p>MIME-TYPE检测也称content-type检测，在服务器端如果上传文件的MlME-TYPE与白名单一致，则允许上传。</p>\n<p>经典代码：</p>\n<p>​​</p>\n<h3>MIME概述</h3>\n<ul>\n<li>MlME(Multipurpose Internet Mail Extensions)是描述消息内容类型的因特网标准。</li>\n<li>MME消息能包含文本、图像、音频、视频以及其他应用程序专用的数据，当具有该扩展名的文件被访问时，浏览器会自动使用指定的应用程序打开。</li>\n<li>协议中，使用Content--Type字段表示文件的MlME类型</li>\n</ul>\n<h3>MIME-TYPE检测绕过方法</h3>\n<p>由于服务器在检测Content-下ype类型的时候，取得的变量来自于用户，所以可以用<span data-type=\"text\" style=\"background-color: var(--b3-font-background8);\">Burp抓包</span>，修改字段使其合法，即可绕过<br>\n限制上传任意文件。</p>\n<ol>\n<li>\n<p>上传一个php文件，但是该文件的content-type类型不在白名单当中。</p>\n<p>​​</p>\n</li>\n<li>\n<p>在Burp抓包修改字段值，改为符合要求的类型。从而绕过校验。</p>\n<p>​​</p>\n</li>\n<li>\n<p>上传成功</p>\n<p>​​</p>\n</li>\n</ol>\n<h3><a class=\"header-anchor\" href=\"#常见-mime-类型列表\"><span></span></a><a href=\"https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types\" target=\"_blank\" rel=\"noopener noreferrer\"> 常见 MIME 类型列表</a></h3>\n<p>|扩展名|文档类型|MIME 类型|<br>\n|</p>\n",
-      "date_published": "2023-03-17T00:00:00.000Z",
       "date_modified": "2026-07-26T07:49:45.000Z",
       "authors": [],
       "tags": [
