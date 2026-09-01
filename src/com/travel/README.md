@@ -1,5 +1,5 @@
 ---
-title: 旅行摄影
+title: 旅行摄影记录
 icon: land-mine-on
 sidebar: true
 index: false

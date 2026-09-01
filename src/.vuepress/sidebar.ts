@@ -10,5 +10,4 @@ export default sidebar({
   "/like/": "structure",
   "/ai/": "structure",
   "/intro": "structure",
-  "/com/travel": "structure",
 });
