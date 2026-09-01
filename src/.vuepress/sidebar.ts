@@ -2,6 +2,7 @@ import { sidebar } from "vuepress-theme-hope";
 
 export default sidebar({
   "/": "structure",
+  "/circle/": "structure",
   "/response/": "structure",
   "/reverse/": "structure",
   "/perm/": "structure",
