@@ -3,3 +3,8 @@ node_modules/
 src/.vuepress/.cache/
 src/.vuepress/.temp/
 src/.vuepress/dist/
+# Generated photo gallery script (can be regenerated)
+generate-photos.js
+# Runtime artifacts
+*.log
+*.lock
