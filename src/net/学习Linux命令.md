@@ -224,3 +224,4 @@ sort -k 2 ex0506   根据第 2 列排序，重复按照第 3 列排序。
 166. 将 c 开头的全部 world 替换为 free：sed ‘/\^c/s/world/free filename
 167. 删除 f 结尾的行：sed ‘/f\$/d’ filename
 168. 将 sed ‘s/world/& hight/g filename 将 world 替换为 hight  &代表被替换单词
+

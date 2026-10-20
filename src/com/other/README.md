@@ -1,8 +1,8 @@
 ---
-title: 其他杂项🧶
+title: 其他杂项
 index: false
 icon: paperclip
-order: 7
+order: 2
 ---
 <Catalog />  
 

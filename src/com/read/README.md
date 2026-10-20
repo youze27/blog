@@ -1,11 +1,8 @@
 ---
-title: 我的书单📖
-index: true
-article: false   # 从首页文章列表中排除
-feed: false      # 从 RSS 订阅中排除
+title: 我的阅读
 icon: book-open-reader
-toc: false  #关闭右侧关闭右侧的目录（TOC）
-order: 8
+index: false
+order: 3
 ---
 <style>
 .card-container {
