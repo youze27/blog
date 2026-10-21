@@ -4,7 +4,7 @@
   <title>卷卷</title>
   <subtitle>网络安全知识库</subtitle>
   <icon>https://min168.top/assets/favicon.ico</icon>
-  <updated>2026-10-21T10:58:57.807Z</updated>
+  <updated>2026-10-21T14:40:30.654Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://min168.top/atom.xml"/>
   <link rel="alternate" href="https://min168.top/"/>
@@ -28,6 +28,19 @@
   <category term="AI"/>
   <category term="其他"/>
   <category term="面试"/>
+  <entry>
+    <title type="text"></title>
+    <id>https://min168.top/com/grammar/markmap%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE.html</id>
+    <link href="https://min168.top/com/grammar/markmap%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE.html"/>
+    <updated>2026-10-21T14:33:19.000Z</updated>
+    <summary type="html"><![CDATA[<hr>
+<h2>title: markmap 思维导图<br>
+index: true<br>
+article: false   # 从首页文章列表中排除<br>
+feed: false      # 从 RSS 订阅中排除</h2>
+]]></summary>
+    <published>2026-10-21T14:33:19.000Z</published>
+  </entry>
   <entry>
     <title type="text">终端防御规避技术-2.函数挂钩DLL</title>
     <id>https://min168.top/response/%E7%BB%88%E7%AB%AF%E9%98%B2%E5%BE%A1%E8%A7%84%E9%81%BF%E6%8A%80%E6%9C%AF-2.%E5%87%BD%E6%95%B0%E6%8C%82%E9%92%A9DLL.html</id>
@@ -10592,7 +10605,7 @@ Finished：客户端和服务器各自计算并发送一个Finished数据包，�
     <title type="text">我的项目</title>
     <id>https://min168.top/com/project/</id>
     <link href="https://min168.top/com/project/"/>
-    <updated>2026-10-21T10:56:32.000Z</updated>
+    <updated>2026-10-21T14:33:19.000Z</updated>
     <published>2025-01-27T14:53:53.000Z</published>
   </entry>
   <entry>
@@ -16897,47 +16910,5 @@ AddType application/x-httpd-php .php .phtml .php5 php3</p>
 ]]></content>
     <category term="渗透测试"/>
     <published>2023-06-09T00:00:00.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">学习Mysql基础知识</title>
-    <id>https://min168.top/net/%E5%AD%A6%E4%B9%A0Mysql%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.html</id>
-    <link href="https://min168.top/net/%E5%AD%A6%E4%B9%A0Mysql%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.html"/>
-    <updated>2025-12-05T16:22:10.000Z</updated>
-    <summary type="html"><![CDATA[
-<ol>
-<li>Windows 下检查是否安装：<code>mysql</code></li>
-<li>注册 MySQL 为系统服务 开机自启  <code>mysqld install</code></li>
-<li>初始化数据库：<code>mysqld --initialize-insecure</code></li>
-<li>启动 mysql 服务：<code>net start mysql</code></li>
-<li>停止 mysql 服务：<code>net stop mysql</code></li>
-<li>修改默认账户密码：<a href=""><code>mysqladmin -u root password 123</code></a>   123 指默认管理员 root 账户密码。</li>
-<li>登录 mysql  ：<code>mysql -u root -p 123 </code></li>
-<li>退出：<code>exit</code></li>
-</ol>]]></summary>
-    <content type="html"><![CDATA[
-<ol>
-<li>Windows 下检查是否安装：<code>mysql</code></li>
-<li>注册 MySQL 为系统服务 开机自启  <code>mysqld install</code></li>
-<li>初始化数据库：<code>mysqld --initialize-insecure</code></li>
-<li>启动 mysql 服务：<code>net start mysql</code></li>
-<li>停止 mysql 服务：<code>net stop mysql</code></li>
-<li>修改默认账户密码：<a href=""><code>mysqladmin -u root password 123</code></a>   123 指默认管理员 root 账户密码。</li>
-<li>登录 mysql  ：<code>mysql -u root -p 123 </code></li>
-<li>退出：<code>exit</code></li>
-</ol>
-<p>远程连接方式：mysql -u 用户名 -p 密码 [-h 服务器 ip -p 端口号]</p>
-<h1>SQL语法</h1>
-<ol>
-<li>SQL 操作关系型数据库的编程语言，定义操作所有关系型数据库的统一标准。</li>
-<li>通用语法：可以单行或多行书写，<code>分号结尾</code>。Sql 语句可以使用空格/缩进来增强语句的可读性。</li>
-<li>Mysql 数据库的语句 <code>不区分大小写</code>；单行注释使用--/#，多行注释/**/</li>
-<li>SQL 分类：DDL 数据库定义语言（定义库、表、字段）；DML 数据库操作语言（增删改）；DQL 数据库查询语言；DCL 数据库控制语言（用户、权限）；</li>
-</ol>
-<h1>MySQL数据类型</h1>
-<p>| 类型         | 用途                            | 范围（无符号）                                                    |<br>
-|</p>
-]]></content>
-    <category term="计网基础"/>
-    <published>2023-11-12T00:00:00.000Z</published>
   </entry>
 </feed>
