@@ -3,6 +3,8 @@ title: 我的阅读
 icon: book-open-reader
 index: false
 order: 3
+article: false   # 从首页文章列表中排除
+feed: false      # 从 RSS 订阅中排除
 ---
 <style>
 .card-container {

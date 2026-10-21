@@ -1,5 +1,5 @@
 ---
-title: AI笔记
+title: AI经验
 index: false
 icon: comment-nodes
 ---
