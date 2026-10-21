@@ -9,7 +9,8 @@ export default navbar([
   "/com/",
   "/like/",
   "/ai/",
-  "/intro",
+  "/project",
+  "/aboutme",
    {
       text: "🚆",
       link: "https://www.travellings.cn/go.html",

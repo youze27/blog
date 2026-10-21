@@ -9,5 +9,5 @@ export default sidebar({
   "/com/": "structure",
   "/like/": "structure",
   "/ai/": "structure",
-  "/intro": "structure",
+  "/aboutme": "structure",
 });

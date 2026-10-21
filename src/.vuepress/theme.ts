@@ -16,9 +16,9 @@ export default hopeTheme({
     name: "卷卷",
   },
 
-  // 统一贡献者显示名称
-  contributors: false,
-
+   // 开启贡献者显示
+  contributors: true,
+  
   logo: "/assets/logo.png",
   favicon: "/assets/favicon.ico",
 
@@ -37,7 +37,8 @@ export default hopeTheme({
   // 页脚已移至 Blog 布局的 pageBottom 插槽中
 
   footer: "少即是多，慢即是快.",
-
+  // 开启更新日志显示
+  changelog: true,     
   displayFooter: true,
   // 博客相关
   blog: {
@@ -153,6 +154,7 @@ export default hopeTheme({
     search: true,
     slimsearch: true,
     git: true,  
+    
     
     feed: {
 
