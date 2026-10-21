@@ -152,6 +152,7 @@ export default hopeTheme({
     // },
     search: true,
     slimsearch: true,
+    git: true,  
     
     feed: {
 

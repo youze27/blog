@@ -1,7 +1,7 @@
 ---
 title: 我的项目
 index: false
-icon: brain
+icon: diagram-project
 toc: false  
 ---
 
