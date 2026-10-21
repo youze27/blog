@@ -7,13 +7,22 @@
   "favicon": "https://min168.top/assets/favicon.ico",
   "items": [
     {
-      "title": "",
-      "url": "https://min168.top/com/grammar/markmap%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE.html",
-      "id": "https://min168.top/com/grammar/markmap%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE.html",
-      "summary": "title: markmap 思维导图 index: true article: false # 从首页文章列表中排除 feed: false # 从 RSS 订阅中排除",
+      "title": "项目",
+      "url": "https://min168.top/project.html",
+      "id": "https://min168.top/project.html",
       "content_html": "",
-      "date_published": "2026-10-21T14:33:19.000Z",
-      "date_modified": "2026-10-21T14:33:19.000Z",
+      "date_published": "2026-10-21T16:40:16.000Z",
+      "date_modified": "2026-10-21T16:40:16.000Z",
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "我的项目",
+      "url": "https://min168.top/com/project/project.html",
+      "id": "https://min168.top/com/project/project.html",
+      "content_html": "",
+      "date_published": "2026-10-21T16:40:16.000Z",
+      "date_modified": "2026-10-21T16:40:16.000Z",
       "authors": [],
       "tags": []
     },
@@ -760,12 +769,12 @@
     },
     {
       "title": "免责声明",
-      "url": "https://min168.top/clause.html",
-      "id": "https://min168.top/clause.html",
+      "url": "https://min168.top/notice.html",
+      "id": "https://min168.top/notice.html",
       "summary": "免责声明 最后更新日期：2025年02月23日 管辖法律：中华人民共和国法律 ⛔ 高危行为特别警示 未经授权的渗透测试行为 根据《中华人民共和国刑法》第285条，任何未经授权侵入计算机信息系统、干扰系统功能或非法获取数据的行为，可能构成 非法侵入计算机信息系统罪，最高可处七年有期徒刑27。 《网络安全法》第27条明确禁止提供专门用于侵入网络的工具或技术...",
       "content_html": "\n<p><strong>最后更新日期：2025年02月23日</strong><br>\n<strong>管辖法律：中华人民共和国法律</strong></p>\n",
       "date_published": "2025-02-23T13:00:23.000Z",
-      "date_modified": "2025-11-24T16:09:39.000Z",
+      "date_modified": "2026-10-21T16:40:16.000Z",
       "authors": [],
       "tags": []
     },
@@ -825,16 +834,6 @@
       "content_html": "",
       "date_published": "2025-01-27T14:53:53.000Z",
       "date_modified": "2026-10-20T16:09:46.000Z",
-      "authors": [],
-      "tags": []
-    },
-    {
-      "title": "我的项目",
-      "url": "https://min168.top/com/project/",
-      "id": "https://min168.top/com/project/",
-      "content_html": "",
-      "date_published": "2025-01-27T14:53:53.000Z",
-      "date_modified": "2026-10-21T14:33:19.000Z",
       "authors": [],
       "tags": []
     },
