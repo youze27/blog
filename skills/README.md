@@ -1,3 +1,8 @@
+---
+title: Skills
+index: false  
+---
+
 # Skills
 
 此目录用于存储文章写作相关的 Skill（技能/提示词模板）。每个 Skill 职责单一，可组合协作完成完整的文章发布流程。
