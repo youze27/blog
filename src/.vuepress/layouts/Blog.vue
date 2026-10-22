@@ -624,8 +624,8 @@ const formatTime = (time: number) => {
 
 
 
-    <!-- infoBefore 位置插槽 音乐播放器 -->
-    <template #infoBefore>
+    <!-- infoAfter 位置插槽 音乐播放器（位于运行天数卡片上方） -->
+    <template #infoAfter>
       <div class="music-player-container">
         <div class="music-player">
           <!-- 歌曲信息 -->
@@ -694,20 +694,8 @@ const formatTime = (time: number) => {
           <!-- 自动读取public/music目录下的音乐文件 -->
         </div>
       </div>
-    </template>
 
-
-    <!-- articlesBefore 位置插槽  Github 贡献热力图 -->
-    <template #articlesBefore>
-      <img 
-        class="github-chart"
-        src="https://ghchart.rshah.org/youze27" 
-        alt="youze27  Github chart" 
-      />
-    </template>
-
-    <!-- infoAfter 位置插槽 博客统计信息 -->
-    <template #infoAfter>
+      <!-- 博客统计信息 -->
       <div class="blog-stats">
         <div class="stats-grid">
           <div class="stat-item">
@@ -722,6 +710,34 @@ const formatTime = (time: number) => {
         <div class="charts-container">
           <div id="visitChart" style="width: 100%; max-width: 300px; height: 150px;"></div>
         </div>
+      </div>
+    </template>
+
+
+    <!-- articlesBefore 位置插槽 贪吃蛇动画 -->
+    <template #articlesBefore>
+      <!-- 热力图暂时停用
+      <img 
+        class="github-chart"
+        src="https://ghchart.rshah.org/youze27" 
+        alt="youze27  Github chart" 
+      />
+      -->
+      
+      <img 
+        class="github-snake"
+        src="https://raw.githubusercontent.com/youze27/youze27/output/github-snake.svg" 
+        alt="Snake animation" 
+      />
+    </template>
+
+    <!-- infoBefore 位置插槽 侧边栏 Commits 卡片 -->
+    <template #infoBefore>
+      <div class="commits-card">
+        <img 
+          src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=youze27&theme=tokyonight&utcOffset=8" 
+          alt="Commits" 
+        />
       </div>
     </template>
 
@@ -752,6 +768,28 @@ const formatTime = (time: number) => {
   width: 100%;
   height: auto;
   margin-bottom: 10px;
+}
+
+/* 侧边栏 Commits 卡片样式 */
+.commits-card {
+  margin-bottom: 20px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.commits-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+}
+
+/* 贪吃蛇动画样式 */
+.github-snake {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px;
 }
 
 /* 底部链接容器样式 */
