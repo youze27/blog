@@ -17,16 +17,6 @@
       "tags": []
     },
     {
-      "title": "我的项目",
-      "url": "https://min168.top/com/project/project.html",
-      "id": "https://min168.top/com/project/project.html",
-      "content_html": "",
-      "date_published": "2026-10-21T16:40:16.000Z",
-      "date_modified": "2026-10-21T16:40:16.000Z",
-      "authors": [],
-      "tags": []
-    },
-    {
       "title": "终端防御规避技术-2.函数挂钩DLL",
       "url": "https://min168.top/response/%E7%BB%88%E7%AB%AF%E9%98%B2%E5%BE%A1%E8%A7%84%E9%81%BF%E6%8A%80%E6%9C%AF-2.%E5%87%BD%E6%95%B0%E6%8C%82%E9%92%A9DLL.html",
       "id": "https://min168.top/response/%E7%BB%88%E7%AB%AF%E9%98%B2%E5%BE%A1%E8%A7%84%E9%81%BF%E6%8A%80%E6%9C%AF-2.%E5%87%BD%E6%95%B0%E6%8C%82%E9%92%A9DLL.html",
@@ -1287,6 +1277,19 @@
       "authors": [],
       "tags": [
         "渗透测试"
+      ]
+    },
+    {
+      "title": "学习Mysql基础知识",
+      "url": "https://min168.top/net/%E5%AD%A6%E4%B9%A0Mysql%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.html",
+      "id": "https://min168.top/net/%E5%AD%A6%E4%B9%A0Mysql%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.html",
+      "summary": "MySQL环境 Windows 下检查是否安装：mysql 注册 MySQL 为系统服务 开机自启 mysqld install 初始化数据库：mysqld --initialize-insecure 启动 mysql 服务：net start mysql 停止 mysql 服务：net stop mysql 修改默认账户密码：mysqladmin -...",
+      "content_html": "\n<ol>\n<li>Windows 下检查是否安装：<code>mysql</code></li>\n<li>注册 MySQL 为系统服务 开机自启  <code>mysqld install</code></li>\n<li>初始化数据库：<code>mysqld --initialize-insecure</code></li>\n<li>启动 mysql 服务：<code>net start mysql</code></li>\n<li>停止 mysql 服务：<code>net stop mysql</code></li>\n<li>修改默认账户密码：<a href=\"\"><code>mysqladmin -u root password 123</code></a>   123 指默认管理员 root 账户密码。</li>\n<li>登录 mysql  ：<code>mysql -u root -p 123 </code></li>\n<li>退出：<code>exit</code></li>\n</ol>\n<p>远程连接方式：mysql -u 用户名 -p 密码 [-h 服务器 ip -p 端口号]</p>\n<h1>SQL语法</h1>\n<ol>\n<li>SQL 操作关系型数据库的编程语言，定义操作所有关系型数据库的统一标准。</li>\n<li>通用语法：可以单行或多行书写，<code>分号结尾</code>。Sql 语句可以使用空格/缩进来增强语句的可读性。</li>\n<li>Mysql 数据库的语句 <code>不区分大小写</code>；单行注释使用--/#，多行注释/**/</li>\n<li>SQL 分类：DDL 数据库定义语言（定义库、表、字段）；DML 数据库操作语言（增删改）；DQL 数据库查询语言；DCL 数据库控制语言（用户、权限）；</li>\n</ol>\n<h1>MySQL数据类型</h1>\n<p>| 类型         | 用途                            | 范围（无符号）                                                    |<br>\n|</p>\n",
+      "date_published": "2023-11-12T00:00:00.000Z",
+      "date_modified": "2025-12-05T16:22:10.000Z",
+      "authors": [],
+      "tags": [
+        "计网基础"
       ]
     }
   ]
