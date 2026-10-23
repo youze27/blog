@@ -1,1 +1,24 @@
 // place your custom styles here
+
+// vuepress-theme-plume 组件（RepoCard / CardGrid）依赖的 CSS 变量，
+// 在 vuepress-theme-hope 中不存在，这里做一层映射
+:root {
+  --vp-c-divider: var(--vp-c-border, #e2e2e3);
+  --vp-c-text-1: var(--vp-c-text, #2c3e50);
+  --vp-c-text-2: #536171;
+  --vp-c-brand-1: var(--vp-c-accent, #3eaf7c);
+  --vp-c-brand-2: var(--vp-c-accent-hover, #3eaf7c);
+  --vp-c-warning-1: #b9770e;
+  --vp-c-warning-2: #e6a23c;
+  --vp-t-color: 0.3s;
+}
+
+[data-theme="dark"] {
+  --vp-c-divider: rgba(255, 255, 255, 0.16);
+  --vp-c-text-1: var(--vp-c-text, #dddddd);
+  --vp-c-text-2: rgba(255, 255, 255, 0.62);
+  --vp-c-brand-1: var(--vp-c-accent, #3eaf7c);
+  --vp-c-brand-2: var(--vp-c-accent-hover, #3eaf7c);
+  --vp-c-warning-1: #e6c07b;
+  --vp-c-warning-2: #8a6d3b;
+}

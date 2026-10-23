@@ -2,7 +2,8 @@
 title: 项目
 index: false
 icon: diagram-project
-toc: false  
+toc: false
+sidebar: false
 ---
 
 <SiteInfo

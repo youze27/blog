@@ -1,0 +1,37 @@
+name: 同步外链图片
+
+on:
+  schedule:
+    # 每天 UTC 03:00（北京时间 11:00）拉取一次贪吃蛇、Commits 等第三方图片
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync-widgets:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: 设置 Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: 下载第三方图片到本地
+        run: node scripts/sync-widgets.mjs
+
+      - name: 提交更新
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/.vuepress/public/assets/widgets
+          if git diff --cached --quiet; then
+            echo "图片无变化，无需提交"
+          else
+            git commit -m "chore: 同步外链图片"
+            git push
+          fi

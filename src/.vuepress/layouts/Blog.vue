@@ -214,11 +214,24 @@ const fetchStats = () => {
   });
 };
 
+// 访问量趋势图实例
+let visitChart: echarts.ECharts | null = null;
+
+// 读取当前站点主题色
+const getThemeAccent = () =>
+  getComputedStyle(document.documentElement).getPropertyValue('--vp-c-accent').trim() ||
+  '#42b983';
+
 // 初始化图表
 const initCharts = () => {
   // 访问量趋势图
-  const visitChart = echarts.init(document.getElementById('visitChart'));
-  
+  const chartDom = document.getElementById('visitChart');
+  if (!chartDom) return;
+  visitChart = echarts.init(chartDom);
+
+  // 跟随站点主题色
+  const themeAccent = getThemeAccent();
+
   // 准备图表数据
   let formattedDates = [];
   let requests = [];
@@ -247,14 +260,20 @@ const initCharts = () => {
     },
     legend: {
       data: ['访问量'],
-      right: '3%',
-      top: '3%'
+      right: 0,
+      top: 0,
+      itemWidth: 12,
+      itemHeight: 8,
+      itemGap: 4,
+      textStyle: {
+        fontSize: 10
+      }
     },
     grid: {
       left: '3%',
       right: '4%',
       bottom: '3%',
-      top: '10%', // 增加顶部空间以显示完整的顶端数字
+      top: '14%', // 为顶部图例留出空间，避免被裁切
       containLabel: true
     },
     xAxis: {
@@ -278,7 +297,7 @@ const initCharts = () => {
         barWidth: '60%', // 设置条形宽度
         data: seriesData,
         itemStyle: {
-          color: '#42b983' // 设置柱子颜色
+          color: themeAccent // 设置柱子颜色，跟随站点主题色
         }
       }
     ]
@@ -291,11 +310,31 @@ const initCharts = () => {
   });
 };
 
+// 主题切换监听：明暗模式或主题色变化时同步柱体颜色
+let themeObserver: MutationObserver | null = null;
+
 // 页面加载时获取统计数据并初始化图表
 onMounted(() => {
   setTimeout(() => {
     fetchStats();
   }, 100);
+
+  themeObserver = new MutationObserver(() => {
+    // 等样式计算完成后再取变量值
+    requestAnimationFrame(() => {
+      visitChart?.setOption({
+        series: [{ itemStyle: { color: getThemeAccent() } }]
+      });
+    });
+  });
+  themeObserver.observe(document.documentElement, {
+    attributes: true,
+    attributeFilter: ['data-theme', 'class', 'style']
+  });
+});
+
+onUnmounted(() => {
+  themeObserver?.disconnect();
 });
 
 // 格式化数字
@@ -628,13 +667,7 @@ const formatTime = (time: number) => {
     <template #infoAfter>
       <div class="music-player-container">
         <div class="music-player">
-          <!-- 歌曲信息 -->
-          <div class="song-info">
-            <div class="song-title">{{ songTitle }}</div>
-            <div class="song-artist">{{ songArtist }}</div>
-          </div>
-          
-          <!-- 进度条上方区域 -->
+          <!-- 进度条上方区域：封面 + 歌名/歌手 + 歌词 -->
           <div class="top-section">
             <!-- 圆形专辑封面 -->
             <div class="album-cover-container">
@@ -643,9 +676,15 @@ const formatTime = (time: number) => {
               </div>
             </div>
             
-            <!-- 歌词显示区域 -->
-            <div class="lyrics-container">
-              <div class="lyrics">{{ lyrics[currentLyricIndex].text }}</div>
+            <!-- 歌名在上、歌词在下 -->
+            <div class="song-details">
+              <div class="song-meta">
+                <span class="song-title">{{ songTitle }}</span>
+                <span class="song-artist">{{ songArtist }}</span>
+              </div>
+              <div class="lyrics-container">
+                <div class="lyrics">{{ lyrics[currentLyricIndex].text }}</div>
+              </div>
             </div>
           </div>
           
@@ -663,9 +702,10 @@ const formatTime = (time: number) => {
             <div class="time duration">{{ formatTime(duration) }}</div>
           </div>
           
-          <!-- 控制按钮 -->
+          <!-- 控制按钮：左侧播放控制，右侧音量，两端对齐 -->
           <div class="controls">
-            <button class="control-btn" id="prev-btn" title="上一曲" @click="playPrevious">
+            <div class="control-group">
+              <button class="control-btn" id="prev-btn" title="上一曲" @click="playPrevious">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="24" height="24"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com  License - https://fontawesome.com/license/free  Copyright 2026 Fonticons, Inc.--><path d="M491 100.8C478.1 93.8 462.3 94.5 450 102.6L192 272.1L192 128C192 110.3 177.7 96 160 96C142.3 96 128 110.3 128 128L128 512C128 529.7 142.3 544 160 544C177.7 544 192 529.7 192 512L192 367.9L450 537.5C462.3 545.6 478 546.3 491 539.3C504 532.3 512 518.8 512 504.1L512 136.1C512 121.4 503.9 107.9 491 100.9z"/></svg>
             </button>
             <button class="control-btn play-btn" @click="togglePlay" title="播放/暂停">
@@ -675,6 +715,8 @@ const formatTime = (time: number) => {
             <button class="control-btn" id="next-btn" title="下一曲" @click="playNext">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="24" height="24"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com  License - https://fontawesome.com/license/free  Copyright 2026 Fonticons, Inc.--><path d="M149 100.8C161.9 93.8 177.7 94.5 190 102.6L448 272.1L448 128C448 110.3 462.3 96 480 96C497.7 96 512 110.3 512 128L512 512C512 529.7 497.7 544 480 544C462.3 544 448 529.7 448 512L448 367.9L190 537.5C177.7 545.6 162 546.3 149 539.3C136 532.3 128 518.7 128 504L128 136C128 121.3 136.1 107.8 149 100.8z"/></svg>
             </button>
+            </div>
+            <div class="volume-group">
             <button class="control-btn" id="volume-btn" title="音量" @click="toggleMute">
               <svg v-if="!isMuted" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="24" height="24"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com  License - https://fontawesome.com/license/free  Copyright 2026 Fonticons, Inc.--><path d="M533.6 96.5C523.3 88.1 508.2 89.7 499.8 100C491.4 110.3 493 125.4 503.3 133.8C557.5 177.8 592 244.8 592 320C592 395.2 557.5 462.2 503.3 506.3C493 514.7 491.5 529.8 499.8 540.1C508.1 550.4 523.3 551.9 533.6 543.6C598.5 490.7 640 410.2 640 320C640 229.8 598.5 149.2 533.6 96.5zM473.1 171C462.8 162.6 447.7 164.2 439.3 174.5C430.9 184.8 432.5 199.9 442.8 208.3C475.3 234.7 496 274.9 496 320C496 365.1 475.3 405.3 442.8 431.8C432.5 440.2 431 455.3 439.3 465.6C447.6 475.9 462.8 477.4 473.1 469.1C516.3 433.9 544 380.2 544 320.1C544 260 516.3 206.3 473.1 171.1zM412.6 245.5C402.3 237.1 387.2 238.7 378.8 249C370.4 259.3 372 274.4 382.3 282.8C393.1 291.6 400 305 400 320C400 335 393.1 348.4 382.3 357.3C372 365.7 370.5 380.8 378.8 391.1C387.1 401.4 402.3 402.9 412.6 394.6C434.1 376.9 448 350.1 448 320C448 289.9 434.1 263.1 412.6 245.5zM80 416L128 416L262.1 535.2C268.5 540.9 276.7 544 285.2 544C304.4 544 320 528.4 320 509.2L320 130.8C320 111.6 304.4 96 285.2 96C276.7 96 268.5 99.1 262.1 104.8L128 224L80 224C53.5 224 32 245.5 32 272L32 368C32 394.5 53.5 416 80 416z"/></svg>
               <svg v-else xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="24" height="24"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com  License - https://fontawesome.com/license/free  Copyright 2026 Fonticons, Inc.--><path d="M80 416L128 416L262.1 535.2C268.5 540.9 276.7 544 285.2 544C304.4 544 320 528.4 320 509.2L320 130.8C320 111.6 304.4 96 285.2 96C276.7 96 268.5 99.1 262.1 104.8L128 224L80 224C53.5 224 32 245.5 32 272L32 368C32 394.5 53.5 416 80 416zM399 239C389.6 248.4 389.6 263.6 399 272.9L446 319.9L399 366.9C389.6 376.3 389.6 391.5 399 400.8C408.4 410.1 423.6 410.2 432.9 400.8L479.9 353.8L526.9 400.8C536.3 410.2 551.5 410.2 560.8 400.8C570.1 391.4 570.2 376.2 560.8 366.9L513.8 319.9L560.8 272.9C570.2 263.5 570.2 248.3 560.8 239C551.4 229.7 536.2 229.6 526.9 239L479.9 286L432.9 239C423.5 229.6 408.3 229.6 399 239z"/></svg>
@@ -689,6 +731,7 @@ const formatTime = (time: number) => {
               @input="handleVolumeChange"
               title="音量控制"
             >
+            </div>
           </div>
           
           <!-- 自动读取public/music目录下的音乐文件 -->
@@ -708,7 +751,7 @@ const formatTime = (time: number) => {
           </div>
         </div>
         <div class="charts-container">
-          <div id="visitChart" style="width: 100%; max-width: 300px; height: 150px;"></div>
+          <div id="visitChart" style="width: 100%; max-width: 300px; height: 160px;"></div>
         </div>
       </div>
     </template>
@@ -726,7 +769,7 @@ const formatTime = (time: number) => {
       
       <img 
         class="github-snake"
-        src="https://raw.githubusercontent.com/youze27/youze27/output/github-snake.svg" 
+        src="/assets/widgets/snake-light.svg" 
         alt="Snake animation" 
       />
     </template>
@@ -734,8 +777,15 @@ const formatTime = (time: number) => {
     <!-- infoBefore 位置插槽 侧边栏 Commits 卡片 -->
     <template #infoBefore>
       <div class="commits-card">
+        <!-- 浅色/深色两套图，按站点主题自动切换 -->
         <img 
-          src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=youze27&theme=tokyonight&utcOffset=8" 
+          class="commits-light"
+          src="/assets/widgets/commits-light.svg" 
+          alt="Commits" 
+        />
+        <img 
+          class="commits-dark"
+          src="/assets/widgets/commits-dark.svg" 
           alt="Commits" 
         />
       </div>
@@ -784,6 +834,19 @@ const formatTime = (time: number) => {
   border-radius: 12px;
 }
 
+/* Commits 卡片跟随站点明暗主题切换 */
+.commits-card img.commits-dark {
+  display: none;
+}
+
+html[data-theme='dark'] .commits-card img.commits-light {
+  display: none;
+}
+
+html[data-theme='dark'] .commits-card img.commits-dark {
+  display: block;
+}
+
 /* 贪吃蛇动画样式 */
 .github-snake {
   width: 100%;
@@ -821,32 +884,33 @@ const formatTime = (time: number) => {
 .music-player {
   width: 90%;
   max-width: 700px;
-  background: var(--c-bg-card, rgba(255, 255, 255, 0.95));
+  background: var(--vp-c-bg-alt);
   border-radius: 12px;
-  padding: 15px;
-  box-shadow: var(--box-shadow, 0 2px 12px rgba(0, 0, 0, 0.1));
-  color: var(--c-text, #333);
+  padding: 10px 14px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  color: var(--vp-c-text);
   display: flex;
   flex-direction: column;
-  border: 1px solid var(--c-border, rgba(0, 0, 0, 0.1));
+  border: 1px solid var(--vp-c-border);
 }
 
 /* 顶部区域 - 专辑封面和歌词 */
 .top-section {
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 6px;
 }
 
 /* 专辑封面容器 */
 .album-cover-container {
-  margin-right: 15px;
+  margin-right: 12px;
+  flex-shrink: 0;
 }
 
 /* 专辑封面 - 圆形 */
 .album-cover {
-  width: 80px;
-  height: 80px;
+  width: 58px;
+  height: 58px;
   border-radius: 50%;
   overflow: hidden;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
@@ -873,41 +937,58 @@ const formatTime = (time: number) => {
   object-fit: cover;
 }
 
-/* 歌曲信息 */
-.song-info {
-  text-align: center;
-  margin-bottom: 8px;
+/* 歌曲信息 - 位于封面右侧、歌词上方 */
+.song-details {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.song-meta {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin-bottom: 5px;
+  overflow: hidden;
 }
 
 .song-title {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold;
-  margin-bottom: 3px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  min-width: 0;
 }
 
 .song-artist {
-  font-size: 12px;
-  opacity: 0.9;
+  font-size: 11px;
+  opacity: 0.65;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex-shrink: 0;
 }
 
-/* 歌词显示 - 位于图片右侧 */
+/* 歌词显示 - 位于歌名下方 */
 .lyrics-container {
   flex: 1;
-  height: 80px;
+  min-width: 0;
+  height: 32px;
   overflow: hidden;
   display: flex;
   align-items: center;
-  justify-content: center;
   text-align: left;
-  padding: 0 10px;
 }
 
 .lyrics {
-  font-size: 14px;
+  font-size: 13px;
   line-height: 1.4;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
   transition: transform 0.3s ease;
 }
 
@@ -915,7 +996,7 @@ const formatTime = (time: number) => {
 .progress-container {
   display: flex;
   align-items: center;
-  margin: 20px 0;
+  margin: 6px 0 8px;
 }
 
 .time {
@@ -928,7 +1009,7 @@ const formatTime = (time: number) => {
   flex: 1;
   height: 4px;
   border-radius: 2px;
-  background: rgba(0, 0, 0, 1);
+  background: var(--vp-c-border);
   outline: none;
   -webkit-appearance: none;
   margin: 0 5px;
@@ -939,52 +1020,65 @@ const formatTime = (time: number) => {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background: #299764;
+  background: var(--vp-c-accent);
   cursor: pointer;
 }
 
-/* 控制按钮 */
+/* 控制按钮：左右两组两端对齐 */
 .controls {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.control-group,
+.volume-group {
+  display: flex;
+  align-items: center;
   gap: 8px;
-  margin-bottom: 8px;
 }
 
 .control-btn {
-  background: rgba(255, 255, 255, 0.2);
-  border: 1px solid var(--c-border, rgba(0, 0, 0, 0.1));
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-border);
   border-radius: 50%;
-  width: 36px;
-  height: 36px;
+  width: 32px;
+  height: 32px;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   transition: all 0.3s ease;
-  color: var(--c-text, #333);
+  color: var(--vp-c-text);
   padding: 0;
 }
 
+/* 图标跟随主题文字色，避免深色模式下仍是黑色 */
+.control-btn svg {
+  width: 17px;
+  height: 17px;
+  fill: currentColor;
+}
+
 .control-btn:hover {
-  background: var(--c-bg, #fff);
+  background: var(--vp-c-bg-alt);
   transform: scale(1.1);
 }
 
 .play-btn {
-  width: 36px;
-  height: 36px;
-  background: rgba(255, 255, 255, 0.2);
-  border: 1px solid var(--c-border, rgba(0, 0, 0, 0.1));
-  color: var(--c-text, #333);
+  width: 34px;
+  height: 34px;
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-border);
+  color: var(--vp-c-text);
 }
 
 .volume-bar {
   width: 60px;
   height: 4px;
   border-radius: 2px;
-  background: rgba(0, 0, 0, 0.91);
+  background: var(--vp-c-border);
   outline: none;
   -webkit-appearance: none;
 }
@@ -994,7 +1088,7 @@ const formatTime = (time: number) => {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background: #299764;
+  background: var(--vp-c-accent);
   cursor: pointer;
 }
 
@@ -1002,7 +1096,7 @@ const formatTime = (time: number) => {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background: #299764;
+  background: var(--vp-c-accent);
   cursor: pointer;
   border: none;
 }
@@ -1011,7 +1105,7 @@ const formatTime = (time: number) => {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background: #299764;
+  background: var(--vp-c-accent);
   cursor: pointer;
 }
 
@@ -1025,7 +1119,9 @@ const formatTime = (time: number) => {
   align-items: center;
   gap: 5px;
   padding: 5px 12px;
-  background: rgba(255, 255, 255, 0.2);
+  background: var(--vp-c-bg-soft);
+  color: var(--vp-c-text);
+  border: 1px solid var(--vp-c-border);
   border-radius: 15px;
   cursor: pointer;
   font-size: 12px;
@@ -1033,59 +1129,62 @@ const formatTime = (time: number) => {
 }
 
 .file-label:hover {
-  background: rgba(255, 255, 255, 0.3);
+  background: var(--vp-c-bg-alt);
   transform: translateY(-2px);
 }
 
 /* 博客统计样式 */
 .blog-stats {
-  background: var(--c-bg-card, rgba(255, 255, 255, 0.95));
+  background: var(--vp-c-bg-alt);
   border-radius: 8px;
-  padding: 15px;
-  box-shadow: var(--box-shadow, 0 2px 12px rgba(0, 0, 0, 0.1));
-  margin-top: 20px;
-  border: 1px solid var(--c-border, rgba(0, 0, 0, 0.1));
+  padding: 10px 12px 8px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  margin-top: 12px;
+  border: 1px solid var(--vp-c-border);
+  color: var(--vp-c-text);
 }
 
 .blog-stats h3 {
   margin-top: 0;
   margin-bottom: 15px;
   font-size: 18px;
-  color: var(--c-text, #333);
+  color: var(--vp-c-text);
   text-align: center;
 }
 
 .stats-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
+  gap: 8px;
 }
 
+/* 内外背景统一：统计项与卡片同底色，无边框 */
 .stat-item {
   text-align: center;
-  padding: 10px;
-  background: var(--c-bg, #fff);
-  border-radius: 6px;
+  padding: 4px 8px;
+  background: transparent;
   border: none;
 }
 
 .stat-value {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: bold;
-  color: var(--c-primary, #42b983);
-  margin-bottom: 5px;
+  color: var(--vp-c-accent);
+  margin-bottom: 2px;
+  line-height: 1.2;
 }
 
 .stat-label {
   font-size: 12px;
-  color: var(--c-text-light, #666);
+  color: var(--vp-c-text);
+  opacity: 0.65;
 }
 
 .charts-container {
   display: flex;
   flex-direction: column;
-  gap: 15px;
-  margin-top: 10px;
+  gap: 10px;
+  margin-top: 4px;
 }
 
 /* 响应式调整 */

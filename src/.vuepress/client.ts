@@ -1,6 +1,8 @@
 import { defineClientConfig } from "vuepress/client";
 import Blog from "./layouts/Blog.vue";
 import { setupSnowFall } from "vuepress-theme-hope/presets/snowFall.js";
+import RepoCard from "vuepress-theme-plume/features/RepoCard.vue";
+import CardGrid from "vuepress-theme-plume/components/global/VPCardGrid.vue";
 // .vuepress/client.js
 // 基础样式
 import 'vidstack/player/styles/base.css';
@@ -14,6 +16,11 @@ export default defineClientConfig({
   // 注册自定义布局
   layouts: {
     Blog,
+  },
+  enhance({ app }) {
+    // 注册 vuepress-theme-plume 的仓库卡片与卡片网格组件
+    app.component("RepoCard", RepoCard);
+    app.component("CardGrid", CardGrid);
   },
  setup() {
       // 设置下雪效果

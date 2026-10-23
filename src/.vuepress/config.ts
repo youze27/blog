@@ -1,5 +1,6 @@
 import { defineUserConfig } from "vuepress";
 import { feedPlugin } from '@vuepress/plugin-feed'
+import { clarityAnalyticsPlugin } from '@vuepress/plugin-clarity-analytics'
 import theme from "./theme.js";
 import { popperPlugin } from "./plugins/vuepress-plugin-popper/index.js";
 import { hopeTheme } from 'vuepress-theme-hope';
@@ -26,6 +27,7 @@ export default defineUserConfig({
         },
       }),
 
+      clarityAnalyticsPlugin({ id: "z28ghn2hc9" }),  // Microsoft Clarity 行为分析
 
     ],
 

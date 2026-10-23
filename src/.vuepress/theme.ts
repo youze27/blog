@@ -16,8 +16,8 @@ export default hopeTheme({
     name: "卷卷",
   },
 
-   // 开启贡献者显示
-  contributors: true,
+   // 关闭页脚贡献者显示
+  contributors: false,
   
   logo: "/assets/logo.png",
   favicon: "/assets/favicon.ico",
@@ -153,7 +153,7 @@ export default hopeTheme({
     // },
     search: true,
     slimsearch: true,
-    git: true,  
+    git: true,
     
     
     feed: {
