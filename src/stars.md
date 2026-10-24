@@ -6,7 +6,7 @@ sidebar: false
 ---
 
 > 共 11 个仓库，按 Star 数从高到低排列。
-> 本页由 GitHub Actions 自动维护，最后更新：2026-10-23
+> 本页由 GitHub Actions 自动维护，最后更新：2026-10-24
 
 <CardGrid cols="2">
 
@@ -22,7 +22,7 @@ sidebar: false
 
 <RepoCard repo="creazyboyone/FastGithub" />
 
-<RepoCard repo="Aethena-Lab/Z3r0" />
+<RepoCard repo="yv1ing/Z3r0" />
 
 <RepoCard repo="Getshell/CobaltStrike" />
 
