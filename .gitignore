@@ -8,3 +8,7 @@ generate-photos.js
 # Runtime artifacts
 *.log
 *.lock
+
+# Local working folders
+plan/
+skills/
