@@ -14,6 +14,11 @@ export default defineUserConfig({
   title: "卷卷",
   description: "网络安全知识库",
 
+  head: [
+    // Bing 站长工具站点验证
+    ["meta", { name: "msvalidate.01", content: "32C569D39B76D30E6A11AC50EB04DE9C" }],
+  ],
+
   plugins:
     [
       
