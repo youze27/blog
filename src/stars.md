@@ -5,8 +5,8 @@ article: false
 sidebar: false
 ---
 
-> 共 11 个仓库，按 Star 数从高到低排列。
-> 本页由 GitHub Actions 自动维护，最后更新：2026-10-24
+> 共 13 个仓库，按 Star 数从高到低排列。
+> 本页由 GitHub Actions 自动维护，最后更新：2026-10-25
 
 <CardGrid cols="2">
 
@@ -18,7 +18,11 @@ sidebar: false
 
 <RepoCard repo="vxcontrol/pentagi" />
 
+<RepoCard repo="jumpserver/jumpserver" />
+
 <RepoCard repo="knownsec/404StarLink" />
+
+<RepoCard repo="bytedance/Elkeid" />
 
 <RepoCard repo="creazyboyone/FastGithub" />
 
