@@ -7,6 +7,19 @@
   "favicon": "https://min168.top/assets/favicon.ico",
   "items": [
     {
+      "title": "银狐云端“生死簿”：从“无条件返回”到“黑名单”机制",
+      "url": "https://min168.top/like/%E9%93%B6%E7%8B%90%E4%BA%91%E7%AB%AF%E7%94%9F%E6%AD%BB%E7%B0%BF-%E6%8A%95%E9%80%92%E9%93%BE%E5%86%B3%E7%AD%96%E6%9C%BA%E5%88%B6.html",
+      "id": "https://min168.top/like/%E9%93%B6%E7%8B%90%E4%BA%91%E7%AB%AF%E7%94%9F%E6%AD%BB%E7%B0%BF-%E6%8A%95%E9%80%92%E9%93%BE%E5%86%B3%E7%AD%96%E6%9C%BA%E5%88%B6.html",
+      "summary": "360 威胁情报中心追踪银狐仿冒投递链，梳理投递与对抗演化的四个阶段：无条件返回、白名单、批量探测、黑名单",
+      "content_html": "<blockquote>\n<p>出处：<a href=\"https://blog.netlab.360.com/yin-hu-yun-duan-sheng-si-bo-cong-wu-tiao-jian-fan-hui-dao-hei-ming-dan-ji-zhi/\" target=\"_blank\" rel=\"noopener noreferrer\">360 Netlab</a>，作者 Youngs、HamaPea，原文发布于 2026-09-14。</p>\n<p>原文标题：<a href=\"https://blog.netlab.360.com/yin-hu-yun-duan-sheng-si-bo-cong-wu-tiao-jian-fan-hui-dao-hei-ming-dan-ji-zhi/\" target=\"_blank\" rel=\"noopener noreferrer\">银狐云端“生死簿”：从“无条件返回”到“黑名单”机制</a></p>\n<p>版权归原作者及 360 威胁情报中心所有，本文仅用于学习与研究。</p>\n</blockquote>\n<p>2026年9月，360威胁情报中心对银狐仿冒投递链进行持续性追踪，结合历史样本与本轮抓包，梳理出其投递与对抗演化的四个阶段：无条件返回、白名单限制、基于白名单的批量探测，以及当前的黑名单机制。</p>\n<p>最早阶段，访问中转节点即可获得恶意样本下载地址，服务端不区分请求来源。随后，银狐引入<strong>白名单机制</strong>：仅当请求头 <code>Referer</code> 指向在投仿冒域名时，<code>api.php</code> 才下发真实载荷，其余请求拿不到有效载荷。利用这一特征，我们对最近注册的二级域名进行了<strong>批量遍历探测</strong>，识别出一批新投放的仿冒域名。</p>\n<p>批量探测之后，我们在 9 月 12 日凌晨的双站抓包中，观察到同一台 <code>api.php</code> 出现两种结果；当日 04:35 UTC 的七组对照复测确认：<strong>云端决策模型已切换为“黑名单”——只有被拉进失效名单的域名才返回微信官方安装包等无害素材，名单之外的一切（在投域名、全新域名、甚至不带 Referer 的请求）照常下发真实载荷</strong>。推测批量探测可能被银狐侧感知，策略切换发生于其后。</p>\n<p>策略切换后，白名单阶段“返回真实载荷即名单命中”的识别方法失效；但新机制留下了新的识别信号：返回微信包的域名，即为已被处置、识别或失效的银狐仿冒域名。</p>\n<h2>一、背景</h2>\n<p>银狐的仿冒下载站是个长期存在的威胁：伪造赛睿、必剪这类热门软件的官网，通过 SEO 将页面排在搜索结果前列，诱导用户主动点击\"下载\"。本次追踪的核心发现是，投递链背后的服务端决策机制已具备随探测行为调整的能力。</p>\n<p>本次追踪覆盖四个阶段。前两个阶段是服务端投递策略，第三阶段是利用策略缺陷开展的探测行动，第四阶段是银狐针对探测行为采取的策略调整。</p>\n<p>| 阶段 | 性质 | 服务端行为 | 可观测结果 |<br>\n|</p>\n",
+      "date_published": "2026-10-26T09:00:00.000Z",
+      "date_modified": "2026-10-26T16:29:32.000Z",
+      "authors": [],
+      "tags": [
+        "主机安全"
+      ]
+    },
+    {
       "title": "ELK：把散落的安全日志变成可查的线索",
       "url": "https://min168.top/response/ELK%E6%97%A5%E5%BF%97%E5%88%86%E6%9E%90%E6%8A%80%E6%9C%AF%E6%A0%88.html",
       "id": "https://min168.top/response/ELK%E6%97%A5%E5%BF%97%E5%88%86%E6%9E%90%E6%8A%80%E6%9C%AF%E6%A0%88.html",
@@ -1269,19 +1282,6 @@
       "summary": "ThinkPHP ThinkPHP5 5.0.23 Remote Code Execution Vulnerability 其5.0.23以前的版本中，获取method的方法中没有正确处理方法名，导致攻击者可以调用Request类任意方法并构造利用链，从而导致远程代码执行漏洞。 访问页面 ​1​ 修改为POST 路径写为?s=captcha,, 多次B...",
       "content_html": "<p>|漏洞名称|漏洞原理||<br>\n|</p>\n",
       "date_published": "2023-05-12T00:00:00.000Z",
-      "date_modified": "2026-07-26T07:49:45.000Z",
-      "authors": [],
-      "tags": [
-        "渗透测试"
-      ]
-    },
-    {
-      "title": "文件上传漏洞原理与绕过技巧",
-      "url": "https://min168.top/perm/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%BC%8F%E6%B4%9E%E5%8E%9F%E7%90%86%E4%B8%8E%E7%BB%95%E8%BF%87%E6%8A%80%E5%B7%A7.html",
-      "id": "https://min168.top/perm/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%BC%8F%E6%B4%9E%E5%8E%9F%E7%90%86%E4%B8%8E%E7%BB%95%E8%BF%87%E6%8A%80%E5%B7%A7.html",
-      "summary": "文件上传 什么是文件上传漏洞？ 文件上传漏洞是指程序员在开发任意文件上传功能时，并未考虑文件格式后缀的合法性校验或者是只考虑在前端通过js进行 后缀检验。这时攻击者可以上传一个与网站脚本语言相对应的恶意代码动态脚本，例如（jsp、asp、php、aspx文件后缀）到 服务器上，从而攻击者访问这些恶意脚本对包含的恶意代码动态解析最终达到执行恶意代码的效果...",
-      "content_html": "\n<h2>什么是文件上传漏洞？</h2>\n<p>文件上传漏洞是指程序员在开发任意文件上传功能时，并未考虑文件格式后缀的合法性校验或者是只考虑在前端通过js进行<br>\n后缀检验。这时攻击者可以上传一个与网站脚本语言相对应的恶意代码动态脚本，例如（jsp、asp、php、aspx文件后缀）到<br>\n服务器上，从而攻击者访问这些恶意脚本对包含的恶意代码动态解析最终达到执行恶意代码的效果，进一步影响服务器安全。</p>\n<p>​​</p>\n<h2>文件上传漏洞条件</h2>\n<ul>\n<li>\n<p>网站开文件上传功能php.ini    file_upload=on</p>\n</li>\n<li>\n<p>web上传目录有可写以上权限</p>\n</li>\n<li>\n<p>文件能被正常解析为动态脚本，php=&gt;php</p>\n</li>\n<li>\n<p>上传的文件至少得有读权限。</p>\n</li>\n<li>\n<p>Wb容器可以解析上传的脚本，无论脚本以什么样的形式存在</p>\n</li>\n<li>\n<p>无视以上条件的情况就是服务器配置不当，开启了PUT方法。</p>\n<p>​​</p>\n</li>\n</ul>\n<h2>文件上传漏洞分类</h2>\n<ul>\n<li>文件任意上传                          ——没有任何校验</li>\n<li>绕过js校验上传                       ——校验在前端</li>\n<li>MIME-type类型绕过上传        ——服务器端        <a href=\"https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types\" title=\"1111\" target=\"_blank\" rel=\"noopener noreferrer\"> 常见 MIME 类型列表</a></li>\n<li>文件头检测                             ——服务器端</li>\n<li>绕过扩展名校验上传              ——服务器端</li>\n<li>文件加载检测                         ——服务器端</li>\n<li>结合解析漏洞上传                  ——中间件解析漏洞造成</li>\n</ul>\n<p>​​</p>\n<h2>文件上传漏洞的危害</h2>\n<p>上传漏洞与SQL注入或XSS相比，其风险更大，如果Wb应用程序存在上传漏洞，攻击者上传的文件是Web脚本语言，服务器的Wb容器解释并执行了用户上传的脚本，导致代码执行。比如：如果上传的文件是病毒、木马文件，黑客用以诱骗用户或者管理员下载执行。如果上传的文件是钓鱼图片或为包含了脚本的图片，在某些版本的浏览器中会被作为脚本执行，被用于钓鱼和欺诈。攻击者甚至可以直接上传一个webshell到服务器上完全控制系统或致使系统瘫痪。</p>\n<h2>文件上传漏洞的防御</h2>\n<p>最理想的是能够过滤掉图片马中的恶意代码。</p>\n<ul>\n<li>采用白名单策略，严格限制上传文件的<span data-type=\"text\" style=\"color: var(--b3-font-color9);\">后缀名</span>。</li>\n<li>进行二次渲染，过滤掉图片马中的恶意代码。</li>\n<li>上传文件重命名，尽量少的从客户端获取信息。</li>\n<li>避免文件包含漏洞。</li>\n<li>严格处理文件路径，防御00截断漏洞，避开空格、点、：$DATA等windows特性。</li>\n<li>将文件上传到对象存储。</li>\n<li>服务器及时更新Web容器，防止解析漏洞的产生。</li>\n<li>服务器可写目录不给执行权限。</li>\n</ul>\n<h2>前端js文件上传校验</h2>\n<h4>经典文件上传代码</h4>\n<p>​​</p>\n<h2>前端js检测绕过方法</h2>\n<p>JS代码通常采用<span data-type=\"text\" style=\"color: var(--b3-font-color8);\">白名单策略</span>，检测文件<span data-type=\"text\" style=\"color: var(--b3-font-color9);\">后缀名</span>。配合表单事件使用。前端js脚本检测的安全防御是十分薄弱的。可以非<br>\n常轻松的绕过。</p>\n<ul>\n<li>方法一：因为js脚本的运行环境是浏览器，我们可以<span data-type=\"text\" style=\"color: var(--b3-font-color7);\">修改js代码</span>，甚至删除表单事件，禁用js</li>\n<li>方法二：使恶意文件后缀名符合白名单策略，用<span data-type=\"text\" style=\"color: var(--b3-font-color8);\">Bup挂代理抓包</span>，然后修改文件后缀名即可。</li>\n<li>所以：仅前检测文件上传是远远不够的，需要结合<strong>后端服务器进行检测检测</strong>。</li>\n</ul>\n<ol>\n<li>\n<p>直接上传<code>.PHP</code>​文件提示文件名不合法，使用了前端校验。</p>\n</li>\n<li>\n<p>查看源码，前端有校验</p>\n<p>​​</p>\n</li>\n<li>\n<p>方法一：直接将上图函数名 <code>return checkfileExt()</code>​ 删除。</p>\n<p>​​</p>\n</li>\n<li>\n<p>方法二：使恶意文件后缀名符合白名单策略，用<span data-type=\"text\" style=\"color: var(--b3-font-color8);\">Bup挂代理抓包</span>，然后修改文件后缀名即可。即将php文件改为jpg后缀上传，抓包改回。</p>\n<p>​​</p>\n<p>​​</p>\n</li>\n</ol>\n<h2>MIME-TYPE检测</h2>\n<p>MIME-TYPE检测也称content-type检测，在服务器端如果上传文件的MlME-TYPE与白名单一致，则允许上传。</p>\n<p>经典代码：</p>\n<p>​​</p>\n<h3>MIME概述</h3>\n<ul>\n<li>MlME(Multipurpose Internet Mail Extensions)是描述消息内容类型的因特网标准。</li>\n<li>MME消息能包含文本、图像、音频、视频以及其他应用程序专用的数据，当具有该扩展名的文件被访问时，浏览器会自动使用指定的应用程序打开。</li>\n<li>协议中，使用Content--Type字段表示文件的MlME类型</li>\n</ul>\n<h3>MIME-TYPE检测绕过方法</h3>\n<p>由于服务器在检测Content-下ype类型的时候，取得的变量来自于用户，所以可以用<span data-type=\"text\" style=\"background-color: var(--b3-font-background8);\">Burp抓包</span>，修改字段使其合法，即可绕过<br>\n限制上传任意文件。</p>\n<ol>\n<li>\n<p>上传一个php文件，但是该文件的content-type类型不在白名单当中。</p>\n<p>​​</p>\n</li>\n<li>\n<p>在Burp抓包修改字段值，改为符合要求的类型。从而绕过校验。</p>\n<p>​​</p>\n</li>\n<li>\n<p>上传成功</p>\n<p>​​</p>\n</li>\n</ol>\n<h3><a class=\"header-anchor\" href=\"#常见-mime-类型列表\"><span></span></a><a href=\"https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types\" target=\"_blank\" rel=\"noopener noreferrer\"> 常见 MIME 类型列表</a></h3>\n<p>|扩展名|文档类型|MIME 类型|<br>\n|</p>\n",
-      "date_published": "2023-03-17T00:00:00.000Z",
       "date_modified": "2026-07-26T07:49:45.000Z",
       "authors": [],
       "tags": [
