@@ -5,8 +5,8 @@ article: false
 sidebar: false
 ---
 
-> 共 13 个仓库，按 Star 数从高到低排列。
-> 本页由 GitHub Actions 自动维护，最后更新：2026-10-26
+> 共 17 个仓库，按 Star 数从高到低排列。
+> 本页由 GitHub Actions 自动维护，最后更新：2026-10-27
 
 <CardGrid cols="2">
 
@@ -22,15 +22,23 @@ sidebar: false
 
 <RepoCard repo="knownsec/404StarLink" />
 
+<RepoCard repo="Yamato-Security/hayabusa" />
+
 <RepoCard repo="bytedance/Elkeid" />
 
 <RepoCard repo="creazyboyone/FastGithub" />
 
 <RepoCard repo="yv1ing/Z3r0" />
 
+<RepoCard repo="mir1ce/Hawkeye" />
+
 <RepoCard repo="Getshell/CobaltStrike" />
 
 <RepoCard repo="foodpm/timecut" />
+
+<RepoCard repo="11firefly11/yinghuo" />
+
+<RepoCard repo="maueryz/Memscan" />
 
 <RepoCard repo="stone-yu/music-hub" />
 
