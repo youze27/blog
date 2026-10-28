@@ -5,10 +5,12 @@ article: false
 sidebar: false
 ---
 
-> 共 17 个仓库，按 Star 数从高到低排列。
-> 本页由 GitHub Actions 自动维护，最后更新：2026-10-27
+> 共 19 个仓库，按 Star 数从高到低排列。
+> 本页由 GitHub Actions 自动维护，最后更新：2026-10-28
 
 <CardGrid cols="2">
+
+<RepoCard repo="morluto/rea" />
 
 <RepoCard repo="clash-verge-rev/clash-verge-rev" />
 
@@ -42,6 +44,8 @@ sidebar: false
 
 <RepoCard repo="stone-yu/music-hub" />
 
-<RepoCard repo="youze27/blog" />
+<RepoCard repo="youze27/TuneSync" />
+
+<RepoCard repo="youze27/videocut" />
 
 </CardGrid>
