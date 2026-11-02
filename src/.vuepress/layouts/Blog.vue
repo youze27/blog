@@ -794,7 +794,7 @@ const formatTime = (time: number) => {
     <!-- contentBefore  位置插槽 底部链接 -->
     <template #contentBefore >
       <div class="bottom-links-container">
-        <div><a href="https://www.travellings.cn/go.html" target="_blank" rel="noopener" title="开往-友链接力"><img class="bottom-link-img" src="/assets/icon/travellings.svg" alt="开往-友链接力"></a></div>
+        <div><a href="https://www.travellings.cn/go.html" target="_blank" rel="noopener" title="开往-友链接力"><img class="bottom-link-img" src="/assets/icon/travellings.gif" alt="开往-友链接力"></a></div>
         <div><a href="https://www.foreverblog.cn/go.html" target="_blank" title="虫洞 · 随机访问十年之约成员博客"><img class="bottom-link-img" src="/assets/icon/wormhole_v2_light.webp" alt="十年之约虫洞" style="width:auto;height:32px;"></a></div>
         <div><a href="https://www.boyouquan.com/planet-shuttle" target="_blank" rel="noopener" title="博友圈"><img class="bottom-link-img" src="/assets/icon/planet-shuttle.svg" alt="博友圈"></a></div>
         <div><a href="https://boke.lu/sj" target="_blank"> <img class="bottom-link-img" src="/assets/icon/suiji_en.gif" alt="随机博客"  title="随机博客"  ></a></div>
