@@ -2,8 +2,8 @@ name: 同步外链图片
 
 on:
   schedule:
-    # 每天 UTC 03:00（北京时间 11:00）拉取一次贪吃蛇、Commits 等第三方图片
-    - cron: "0 3 * * *"
+    # 每周一 UTC 03:00（北京时间 11:00）拉取一次贪吃蛇、Commits 等第三方图片
+    - cron: "0 3 * * 1"
   workflow_dispatch:
 
 permissions:

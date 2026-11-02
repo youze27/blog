@@ -2,8 +2,8 @@ name: 更新 Star 仓库列表
 
 on:
   schedule:
-    # 每天 UTC 02:00（北京时间 10:00）自动更新一次
-    - cron: "0 2 * * *"
+    # 每周一 UTC 02:00（北京时间 10:00）自动更新一次
+    - cron: "0 2 * * 1"
   workflow_dispatch:
 
 permissions:
