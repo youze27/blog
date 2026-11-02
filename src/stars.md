@@ -6,7 +6,7 @@ sidebar: false
 ---
 
 > 共 20 个仓库，按 Star 数从高到低排列。
-> 本页由 GitHub Actions 自动维护，最后更新：2026-11-01
+> 本页由 GitHub Actions 自动维护，最后更新：2026-11-02
 
 <CardGrid cols="2">
 
