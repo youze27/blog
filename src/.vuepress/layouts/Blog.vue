@@ -2,7 +2,7 @@
 import { Blog } from "vuepress-theme-hope/blog";
 import BingHeroBackground from "vuepress-theme-hope/presets/BingHeroBackground.js";
 import HitokotoBlogHero from "vuepress-theme-hope/presets/HitokotoBlogHero.js";
-import { ref, onMounted, onUnmounted } from 'vue';
+import { ref, computed, onMounted, onUnmounted } from 'vue';
 import * as echarts from 'echarts';
 
 // 定义一个函数，处理data中的text属性，确保不为null
@@ -76,6 +76,12 @@ const statsData = ref({
   viewCount: 0, // 从API获取总访问量
   dailyStats: [], // 从API获取每日访问数据
 });
+
+// 十年之约「今天读什么」组件主题：跟随站点明暗模式切换
+const isDark = ref(false);
+const foreverblogSrc = computed(() =>
+  `https://www.foreverblog.cn/widget/today.html?theme=${isDark.value ? 'dark' : 'light'}`
+);
 
 // 从API获取统计数据
 const fetchStats = () => {
@@ -315,11 +321,16 @@ let themeObserver: MutationObserver | null = null;
 
 // 页面加载时获取统计数据并初始化图表
 onMounted(() => {
+  // 初始化十年之约 iframe 明暗主题
+  isDark.value = document.documentElement.getAttribute('data-theme') === 'dark';
+
   setTimeout(() => {
     fetchStats();
   }, 100);
 
   themeObserver = new MutationObserver(() => {
+    // 同步十年之约 iframe 明暗主题
+    isDark.value = document.documentElement.getAttribute('data-theme') === 'dark';
     // 等样式计算完成后再取变量值
     requestAnimationFrame(() => {
       visitChart?.setOption({
@@ -752,6 +763,7 @@ const formatTime = (time: number) => {
         </div>
         <div class="charts-container">
           <div id="visitChart" style="width: 100%; max-width: 300px; height: 160px;"></div>
+          <iframe :src="foreverblogSrc" style="width:100%;max-width:360px;height:260px;border:0;margin-top:12px;" loading="lazy" title="十年之约 · 今天读什么" sandbox="allow-popups allow-popups-to-escape-sandbox"></iframe>
         </div>
       </div>
     </template>
@@ -794,7 +806,7 @@ const formatTime = (time: number) => {
     <!-- contentBefore  位置插槽 底部链接 -->
     <template #contentBefore >
       <div class="bottom-links-container">
-        <div><a href="https://www.travellings.cn/go.html" target="_blank" rel="noopener" title="开往-友链接力"><img class="bottom-link-img" src="/assets/icon/travelling_len.svg" alt="开往-友链接力" ></a></div>
+        <div><a href="https://www.foreverblog.cn/go.html" target="_blank" title="虫洞 · 随机访问十年之约成员博客"><img src="https://www.foreverblog.cn/assets/logo/wormhole_v2_dark.webp" alt="十年之约虫洞" style="width:auto;height:32px;"></a></div>
         <div><a href="https://www.boyouquan.com/planet-shuttle" target="_blank" rel="noopener" title="博友圈"><img class="bottom-link-img" src="/assets/icon/planet-shuttle.svg" alt="博友圈"></a></div>
         <div><a href="https://www.foreverblog.cn/go.html" target="_blank"> <img class="bottom-link-img" src="/assets/icon/wormhole_4_tp.gif" alt="穿梭虫洞"  title="穿梭虫洞-随机访问十年之约友链博客"  ></a></div>
         <div><a href="https://boke.lu/sj" target="_blank"> <img class="bottom-link-img" src="/assets/icon/suiji_en.gif" alt="随机博客"  title="随机博客"  ></a></div>
