@@ -831,18 +831,21 @@ const formatTime = (time: number) => {
   margin-bottom: 10px;
 }
 
-/* 侧边栏 Commits 卡片样式 */
+/* 侧边栏 Commits 卡片样式 —— 与下方博主信息卡保持一致 */
 .commits-card {
   margin-bottom: 20px;
-  border-radius: 12px;
+  background: var(--vp-c-bg-elv);
+  border-radius: 8px;
+  box-shadow: 0 1px 3px 1px var(--vp-c-shadow);
   overflow: hidden;
+  padding: 8px;
 }
 
 .commits-card img {
   width: 100%;
   height: auto;
   display: block;
-  border-radius: 12px;
+  border-radius: 4px;
 }
 
 /* Commits 卡片跟随站点明暗主题切换 */
@@ -895,7 +898,7 @@ html[data-theme='dark'] .commits-card img.commits-dark {
 .music-player {
   width: 90%;
   max-width: 700px;
-  background: var(--vp-c-bg-alt);
+  background: var(--vp-c-bg-elv);
   border-radius: 12px;
   padding: 10px 14px;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
@@ -1146,7 +1149,7 @@ html[data-theme='dark'] .commits-card img.commits-dark {
 
 /* 博客统计样式 */
 .blog-stats {
-  background: var(--vp-c-bg-alt);
+  background: var(--vp-c-bg-elv);
   border-radius: 8px;
   padding: 10px 12px 8px;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
