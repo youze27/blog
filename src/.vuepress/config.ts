@@ -32,7 +32,8 @@ export default defineUserConfig({
         },
       }),
 
-      clarityAnalyticsPlugin({ id: "z28ghn2hc9" }),  // Microsoft Clarity 行为分析
+      // Microsoft Clarity 行为分析：仅在生产构建时加载，避免 dev 下 __CLARITY_OPTIONS__ 未定义导致应用崩溃
+      ...(process.argv.includes('dev') ? [] : [clarityAnalyticsPlugin({ id: "z28ghn2hc9" })]),
 
     ],
 
