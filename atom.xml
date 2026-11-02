@@ -4,7 +4,7 @@
   <title>卷卷</title>
   <subtitle>网络安全知识库</subtitle>
   <icon>https://min168.top/assets/favicon.ico</icon>
-  <updated>2026-11-02T15:59:50.798Z</updated>
+  <updated>2026-11-02T16:12:05.983Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://min168.top/atom.xml"/>
   <link rel="alternate" href="https://min168.top/"/>
@@ -6090,17 +6090,17 @@ WDAC默认限制未签名/非微软认证的代码执行。但银狐利用如下
     <published>2025-12-05T16:22:10.000Z</published>
   </entry>
   <entry>
-    <title type="text">转载经验</title>
-    <id>https://min168.top/like/</id>
-    <link href="https://min168.top/like/"/>
-    <updated>2026-10-21T09:42:21.000Z</updated>
-    <published>2025-11-24T16:09:39.000Z</published>
-  </entry>
-  <entry>
     <title type="text">逆向免杀</title>
     <id>https://min168.top/reverse/</id>
     <link href="https://min168.top/reverse/"/>
     <updated>2025-12-25T16:32:28.000Z</updated>
+    <published>2025-11-24T16:09:39.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">转载经验</title>
+    <id>https://min168.top/like/</id>
+    <link href="https://min168.top/like/"/>
+    <updated>2026-10-21T09:42:21.000Z</updated>
     <published>2025-11-24T16:09:39.000Z</published>
   </entry>
   <entry>

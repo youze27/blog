@@ -6,8 +6,8 @@
     <link>https://min168.top/</link>
     <description>网络安全知识库</description>
     <language>zh-CN</language>
-    <pubDate>Mon, 02 Nov 2026 15:59:50 GMT</pubDate>
-    <lastBuildDate>Mon, 02 Nov 2026 15:59:50 GMT</lastBuildDate>
+    <pubDate>Mon, 02 Nov 2026 16:12:05 GMT</pubDate>
+    <lastBuildDate>Mon, 02 Nov 2026 16:12:05 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>应急响应</category>
@@ -5703,17 +5703,17 @@ WDAC默认限制未签名/非微软认证的代码执行。但银狐利用如下
 ]]></content:encoded>
     </item>
     <item>
-      <title>转载经验</title>
-      <link>https://min168.top/like/</link>
-      <guid>https://min168.top/like/</guid>
-      <source url="https://min168.top/rss.xml">转载经验</source>
-      <pubDate>Mon, 24 Nov 2025 16:09:39 GMT</pubDate>
-    </item>
-    <item>
       <title>逆向免杀</title>
       <link>https://min168.top/reverse/</link>
       <guid>https://min168.top/reverse/</guid>
       <source url="https://min168.top/rss.xml">逆向免杀</source>
+      <pubDate>Mon, 24 Nov 2025 16:09:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>转载经验</title>
+      <link>https://min168.top/like/</link>
+      <guid>https://min168.top/like/</guid>
+      <source url="https://min168.top/rss.xml">转载经验</source>
       <pubDate>Mon, 24 Nov 2025 16:09:39 GMT</pubDate>
     </item>
     <item>
