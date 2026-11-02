@@ -77,12 +77,6 @@ const statsData = ref({
   dailyStats: [], // 从API获取每日访问数据
 });
 
-// 十年之约「今天读什么」组件主题：跟随站点明暗模式切换
-const isDark = ref(false);
-const foreverblogSrc = computed(() =>
-  `https://www.foreverblog.cn/widget/today.html?theme=${isDark.value ? 'dark' : 'light'}`
-);
-
 // 从API获取统计数据
 const fetchStats = () => {
   
@@ -321,16 +315,11 @@ let themeObserver: MutationObserver | null = null;
 
 // 页面加载时获取统计数据并初始化图表
 onMounted(() => {
-  // 初始化十年之约 iframe 明暗主题
-  isDark.value = document.documentElement.getAttribute('data-theme') === 'dark';
-
   setTimeout(() => {
     fetchStats();
   }, 100);
 
   themeObserver = new MutationObserver(() => {
-    // 同步十年之约 iframe 明暗主题
-    isDark.value = document.documentElement.getAttribute('data-theme') === 'dark';
     // 等样式计算完成后再取变量值
     requestAnimationFrame(() => {
       visitChart?.setOption({
@@ -763,7 +752,6 @@ const formatTime = (time: number) => {
         </div>
         <div class="charts-container">
           <div id="visitChart" style="width: 100%; max-width: 300px; height: 160px;"></div>
-          <iframe :src="foreverblogSrc" style="width:100%;max-width:360px;height:260px;border:0;margin-top:12px;" loading="lazy" title="十年之约 · 今天读什么" sandbox="allow-popups allow-popups-to-escape-sandbox"></iframe>
         </div>
       </div>
     </template>
