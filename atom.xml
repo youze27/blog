@@ -4,7 +4,7 @@
   <title>卷卷</title>
   <subtitle>网络安全知识库</subtitle>
   <icon>https://min168.top/assets/favicon.ico</icon>
-  <updated>2026-11-03T15:46:22.790Z</updated>
+  <updated>2026-11-03T15:51:13.231Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://min168.top/atom.xml"/>
   <link rel="alternate" href="https://min168.top/"/>
@@ -32,12 +32,12 @@
     <title type="text">终端防御规避技术-12.微软威胁情报ETW</title>
     <id>https://min168.top/response/%E7%BB%88%E7%AB%AF%E9%98%B2%E5%BE%A1%E8%A7%84%E9%81%BF%E6%8A%80%E6%9C%AF-12.%E5%BE%AE%E8%BD%AF%E5%A8%81%E8%83%81%E6%83%85%E6%8A%A5ETW.html</id>
     <link href="https://min168.top/response/%E7%BB%88%E7%AB%AF%E9%98%B2%E5%BE%A1%E8%A7%84%E9%81%BF%E6%8A%80%E6%9C%AF-12.%E5%BE%AE%E8%BD%AF%E5%A8%81%E8%83%81%E6%83%85%E6%8A%A5ETW.html"/>
-    <updated>2026-11-03T15:43:17.000Z</updated>
-    <summary type="html"><![CDATA[<p>第 8 章讲的是 ETW 的通用机制：提供者、会话、消费者。这一章单独讲一个特殊的提供者——<code>Microsoft-Windows-Threat-Intelligence</code>（ETW-TI）。它不是给运维排错用的通用跟踪，而是微软专门为端点检测（MDE）打造的行为传感器。理解了它和普通日志的差别，才能明白为什么它是整条 ELAM → PPL-AM 资格链的终点。</p>
+    <updated>2026-11-03T15:48:34.000Z</updated>
+    <summary type="html"><![CDATA[<p><code>Microsoft-Windows-Threat-Intelligence</code>（ETW-TI）。它不是给运维排错用的通用跟踪，而是微软专门为端点检测（MDE）打造的行为传感器。理解了它和普通日志的差别，才能明白为什么它是整条 ELAM → PPL-AM 资格链的终点。</p>
 <h2>一、MDE 是什么</h2>
 <p>在讲 ETW-TI 之前，得先弄清楚它的主人是谁。</p>
 <p>MDE 全称 Microsoft Defender for Endpoint（旧称 ATP），微软自家的企业级 EDR 平台。它的结构和所有 EDR 一样：终端装一个传感器（Agent），把行为数据源源不断传到云端，蓝队在云端门户（<code>security.microsoft.com</code>）上看告警、拼攻击链、做狩猎和处置。</p>]]></summary>
-    <content type="html"><![CDATA[<p>第 8 章讲的是 ETW 的通用机制：提供者、会话、消费者。这一章单独讲一个特殊的提供者——<code>Microsoft-Windows-Threat-Intelligence</code>（ETW-TI）。它不是给运维排错用的通用跟踪，而是微软专门为端点检测（MDE）打造的行为传感器。理解了它和普通日志的差别，才能明白为什么它是整条 ELAM → PPL-AM 资格链的终点。</p>
+    <content type="html"><![CDATA[<p><code>Microsoft-Windows-Threat-Intelligence</code>（ETW-TI）。它不是给运维排错用的通用跟踪，而是微软专门为端点检测（MDE）打造的行为传感器。理解了它和普通日志的差别，才能明白为什么它是整条 ELAM → PPL-AM 资格链的终点。</p>
 <h2>一、MDE 是什么</h2>
 <p>在讲 ETW-TI 之前，得先弄清楚它的主人是谁。</p>
 <p>MDE 全称 Microsoft Defender for Endpoint（旧称 ATP），微软自家的企业级 EDR 平台。它的结构和所有 EDR 一样：终端装一个传感器（Agent），把行为数据源源不断传到云端，蓝队在云端门户（<code>security.microsoft.com</code>）上看告警、拼攻击链、做狩猎和处置。</p>
@@ -85,8 +85,8 @@
     <title type="text">终端防御规避技术-10.反恶意软件扫描接口AMSI</title>
     <id>https://min168.top/response/%E7%BB%88%E7%AB%AF%E9%98%B2%E5%BE%A1%E8%A7%84%E9%81%BF%E6%8A%80%E6%9C%AF-10.%E5%8F%8D%E6%81%B6%E6%84%8F%E8%BD%AF%E4%BB%B6%E6%89%AB%E6%8F%8F%E6%8E%A5%E5%8F%A3AMSI.html</id>
     <link href="https://min168.top/response/%E7%BB%88%E7%AB%AF%E9%98%B2%E5%BE%A1%E8%A7%84%E9%81%BF%E6%8A%80%E6%9C%AF-10.%E5%8F%8D%E6%81%B6%E6%84%8F%E8%BD%AF%E4%BB%B6%E6%89%AB%E6%8F%8F%E6%8E%A5%E5%8F%A3AMSI.html"/>
-    <updated>2026-11-03T15:26:09.000Z</updated>
-    <summary type="html"><![CDATA[<p>第 9 章的扫描器盯的是磁盘上的文件。现代攻击却大量走脚本：PowerShell 一行命令、Office 宏、wscript、mshta、.NET 动态编译。这些载荷可以完全不落盘，或者落盘的是编码后的一串字符，静态扫描看到一排 Base64 判断不了任何东西。AMSI 就是为这个缺口造的——在脚本真正执行之前，把明文内容截下来交给杀软看一眼。</p>
+    <updated>2026-11-03T15:48:34.000Z</updated>
+    <summary type="html"><![CDATA[<p>现代攻击却大量走脚本：PowerShell 一行命令、Office 宏、wscript、mshta、.NET 动态编译。这些载荷可以完全不落盘，或者落盘的是编码后的一串字符，静态扫描看到一排 Base64 判断不了任何东西。AMSI 就是为这个缺口造的——在脚本真正执行之前，把明文内容截下来交给杀软看一眼。</p>
 <h2>一、脚本恶意软件的挑战</h2>
 <p>脚本的执行方式和 PE 完全不同。PE 有文件头、导入表、节表，扫描器有一堆结构可以分析；脚本是纯文本，由解释器逐段解析、编译成内部结构再执行。</p>
 <p>常见载体：</p>
@@ -98,7 +98,7 @@
 <li>.NET 程序集：<code>Assembly.Load</code> 从字节数组直接加载，不落盘。</li>
 <li>mshta、regsvr32、rundll32 等白名单程序做代理执行。</li>
 </ul>]]></summary>
-    <content type="html"><![CDATA[<p>第 9 章的扫描器盯的是磁盘上的文件。现代攻击却大量走脚本：PowerShell 一行命令、Office 宏、wscript、mshta、.NET 动态编译。这些载荷可以完全不落盘，或者落盘的是编码后的一串字符，静态扫描看到一排 Base64 判断不了任何东西。AMSI 就是为这个缺口造的——在脚本真正执行之前，把明文内容截下来交给杀软看一眼。</p>
+    <content type="html"><![CDATA[<p>现代攻击却大量走脚本：PowerShell 一行命令、Office 宏、wscript、mshta、.NET 动态编译。这些载荷可以完全不落盘，或者落盘的是编码后的一串字符，静态扫描看到一排 Base64 判断不了任何东西。AMSI 就是为这个缺口造的——在脚本真正执行之前，把明文内容截下来交给杀软看一眼。</p>
 <h2>一、脚本恶意软件的挑战</h2>
 <p>脚本的执行方式和 PE 完全不同。PE 有文件头、导入表、节表，扫描器有一堆结构可以分析；脚本是纯文本，由解释器逐段解析、编译成内部结构再执行。</p>
 <p>常见载体：</p>
@@ -147,8 +147,8 @@
     <title type="text">终端防御规避技术-11.早期启动反恶意软件驱动ELAM</title>
     <id>https://min168.top/response/%E7%BB%88%E7%AB%AF%E9%98%B2%E5%BE%A1%E8%A7%84%E9%81%BF%E6%8A%80%E6%9C%AF-11.%E6%97%A9%E6%9C%9F%E5%90%AF%E5%8A%A8%E5%8F%8D%E6%81%B6%E6%84%8F%E8%BD%AF%E4%BB%B6%E9%A9%B1%E5%8A%A8ELAM.html</id>
     <link href="https://min168.top/response/%E7%BB%88%E7%AB%AF%E9%98%B2%E5%BE%A1%E8%A7%84%E9%81%BF%E6%8A%80%E6%9C%AF-11.%E6%97%A9%E6%9C%9F%E5%90%AF%E5%8A%A8%E5%8F%8D%E6%81%B6%E6%84%8F%E8%BD%AF%E4%BB%B6%E9%A9%B1%E5%8A%A8ELAM.html"/>
-    <updated>2026-11-03T15:43:17.000Z</updated>
-    <summary type="html"><![CDATA[<p>前面几章的传感器都有一个共同前提：系统已经起来，EDR 服务已经加载。但从内核初始化到安全软件驱动加载完成，中间有一段谁都没在看的空窗。bootkit 就是冲这段空窗来的。ELAM 是微软给反恶意软件厂商留的一条"比所有第三方驱动都早"的插槽，它解决的是启动顺序问题，不是检测能力问题。</p>
+    <updated>2026-11-03T15:48:34.000Z</updated>
+    <summary type="html"><![CDATA[<p>传感器都有一个共同前提：系统已经起来，EDR 服务已经加载。但从内核初始化到安全软件驱动加载完成，中间有一段谁都没在看的空窗。bootkit 就是冲这段空窗来的。ELAM 是微软给反恶意软件厂商留的一条"比所有第三方驱动都早"的插槽，它解决的是启动顺序问题，不是检测能力问题。</p>
 <h2>一、驱动如何参与启动过程</h2>
 <p>一次完整的 Windows 启动大致是这条链：</p>
 <div class="language-text line-numbers-mode" data-highlighter="shiki" data-ext="text" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-text"><span class="line"><span>固件（UEFI/BIOS）</span></span>
@@ -171,7 +171,7 @@
 <span class="line"><span>   v</span></span>
 <span class="line"><span>用户登录</span></span></code></pre>
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></summary>
-    <content type="html"><![CDATA[<p>前面几章的传感器都有一个共同前提：系统已经起来，EDR 服务已经加载。但从内核初始化到安全软件驱动加载完成，中间有一段谁都没在看的空窗。bootkit 就是冲这段空窗来的。ELAM 是微软给反恶意软件厂商留的一条"比所有第三方驱动都早"的插槽，它解决的是启动顺序问题，不是检测能力问题。</p>
+    <content type="html"><![CDATA[<p>传感器都有一个共同前提：系统已经起来，EDR 服务已经加载。但从内核初始化到安全软件驱动加载完成，中间有一段谁都没在看的空窗。bootkit 就是冲这段空窗来的。ELAM 是微软给反恶意软件厂商留的一条"比所有第三方驱动都早"的插槽，它解决的是启动顺序问题，不是检测能力问题。</p>
 <h2>一、驱动如何参与启动过程</h2>
 <p>一次完整的 Windows 启动大致是这条链：</p>
 <div class="language-text line-numbers-mode" data-highlighter="shiki" data-ext="text" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-text"><span class="line"><span>固件（UEFI/BIOS）</span></span>
@@ -204,8 +204,8 @@
     <title type="text">终端防御规避技术-9.病毒扫描器与YARA</title>
     <id>https://min168.top/response/%E7%BB%88%E7%AB%AF%E9%98%B2%E5%BE%A1%E8%A7%84%E9%81%BF%E6%8A%80%E6%9C%AF-9.%E7%97%85%E6%AF%92%E6%89%AB%E6%8F%8F%E5%99%A8%E4%B8%8EYARA.html</id>
     <link href="https://min168.top/response/%E7%BB%88%E7%AB%AF%E9%98%B2%E5%BE%A1%E8%A7%84%E9%81%BF%E6%8A%80%E6%9C%AF-9.%E7%97%85%E6%AF%92%E6%89%AB%E6%8F%8F%E5%99%A8%E4%B8%8EYARA.html"/>
-    <updated>2026-11-03T15:26:09.000Z</updated>
-    <summary type="html"><![CDATA[<p>前八章讲的都是"事件发生时谁在旁边听"：进程通知、对象回调、minifilter、WFP、ETW，全是被动接收。扫描器是另一套思路——它不等事件，而是主动去翻文件里到底写了什么。EDR 里负责"这个文件到底坏不坏"的那一环，通常就是扫描引擎加规则库。理解了扫描的触发方式和规则怎么写，才能看清签名检测的边界在哪。</p>
+    <updated>2026-11-03T15:48:34.000Z</updated>
+    <summary type="html"><![CDATA[<p>进程通知、对象回调、minifilter、WFP、ETW，全是被动接收。扫描器是另一套思路——它不等事件，而是主动去翻文件里到底写了什么。EDR 里负责"这个文件到底坏不坏"的那一环，通常就是扫描引擎加规则库。理解了扫描的触发方式和规则怎么写，才能看清签名检测的边界在哪。</p>
 <h2>一、扫描器简史</h2>
 <p>病毒扫描器不是一开始就长现在这样，它的形态是被病毒逼出来的。</p>
 <ul>
@@ -214,7 +214,7 @@
 <li><strong>2000 年代</strong>：加壳、变形、蠕虫大规模爆发。扫描器加入通用解包器（unpacker）和启发式（heuristics），不再只认已知字节，开始看"像不像"。</li>
 <li><strong>2010 年代至今</strong>：云查杀（把哈希和特征发到云端比对）、机器学习分类器、行为监控、内存扫描、信誉评分。</li>
 </ul>]]></summary>
-    <content type="html"><![CDATA[<p>前八章讲的都是"事件发生时谁在旁边听"：进程通知、对象回调、minifilter、WFP、ETW，全是被动接收。扫描器是另一套思路——它不等事件，而是主动去翻文件里到底写了什么。EDR 里负责"这个文件到底坏不坏"的那一环，通常就是扫描引擎加规则库。理解了扫描的触发方式和规则怎么写，才能看清签名检测的边界在哪。</p>
+    <content type="html"><![CDATA[<p>进程通知、对象回调、minifilter、WFP、ETW，全是被动接收。扫描器是另一套思路——它不等事件，而是主动去翻文件里到底写了什么。EDR 里负责"这个文件到底坏不坏"的那一环，通常就是扫描引擎加规则库。理解了扫描的触发方式和规则怎么写，才能看清签名检测的边界在哪。</p>
 <h2>一、扫描器简史</h2>
 <p>病毒扫描器不是一开始就长现在这样，它的形态是被病毒逼出来的。</p>
 <ul>
