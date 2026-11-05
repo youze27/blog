@@ -1,0 +1,45 @@
+---
+icon: circle-info
+title: 关于我
+date: 2025-07-14
+article: false 
+cover: /assets/images/cover3.jpg
+---
+# 介绍页
+
+嘿，朋友们，我是卷卷，欢迎来到我的博客！
+
+✍️ 博客使命
+「用工程思维解构安全」
+✅ 分享网络安全基础知识
+✅ 剖析漏洞的底层逻辑与缓解策略
+✅ 搭建新手友好的网络安全学习路径 💡
+
+🏃 生活哲学
+每天学习 - 坚定终身学习的信念
+定期阅读 - 快节奏社会生存的精神食粮
+
+“安全是流动的战场，唯有用开放分享筑牢防线”
+📮 欢迎交流漏洞挖掘姿势
+
+<p align="center">
+  <img src="/assets/widgets/typing.svg" width="380" alt="Typing SVG" />
+  <br />
+  <img src="/assets/widgets/profile-views.svg" height="20" alt="Profile views" />
+  <a href="https://github.com/youze27"><img src="/assets/widgets/badge-github.svg" height="20" alt="GitHub" /></a>
+  <a href="https://wakatime.com/@alan"><img src="/assets/widgets/badge-wakatime.svg" height="20" alt="WakaTime" /></a>
+  <br />
+  <img width="100%" src="/assets/widgets/skillicons.svg" alt="Skill icons" />
+  <br />
+  <img  width="100%" src="/assets/widgets/streak.svg" alt="Streak stats" />
+  <img width="100%"  src="/assets/widgets/wakatime-stats.svg" alt="WakaTime stats" />
+  <br />
+  <img width="50%"  src="/assets/widgets/summary-stats.svg" alt="Profile stats" />
+  <img width="49%"  src="/assets/widgets/summary-productive.svg" alt="Productive time" />
+  <br />
+  <img  width="100%"   src="/assets/widgets/summary-details.svg" alt="Profile details" />
+  <br />
+
+  <img src="/assets/widgets/contrib-3d.svg" alt="3D contribution graph" />
+</p>
+

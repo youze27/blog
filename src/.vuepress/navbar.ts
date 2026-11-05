@@ -4,12 +4,9 @@ export default navbar([
   "/",
   "/perm/",
   "/response/",
-  "/reverse/",
   "/net/",
   "/com/",
-  "/like/",
   "/ai/",
-  "/project",
   "/stars",
   "/aboutme",
    {

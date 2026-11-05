@@ -1,5 +1,5 @@
 ---
-title: 项目
+title: 我的项目
 index: false
 icon: diagram-project
 toc: false
