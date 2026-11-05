@@ -12,7 +12,7 @@ export default defineUserConfig({
   base: "/",
   lang: "zh-CN",
   title: "卷卷",
-  description: "网络安全知识库",
+  description: "网络安全&人工智能",
 
   head: [
     // Bing 站长工具站点验证

@@ -42,7 +42,7 @@ export default hopeTheme({
   displayFooter: true,
   // 博客相关
   blog: {
-    description: "网络安全知识库",
+    description: "网络安全&人工智能",
     intro: "/intro.html",
     medias: {
       Rss: "https://min168.top/rss.xml",
@@ -164,7 +164,7 @@ export default hopeTheme({
       channel: {
         title: "卷卷",
         link: "https://min168.top/", // 包含 base 路径
-        description: "网络安全知识库",
+        description: "网络安全&人工智能",
         language: "zh-CN",
       },
     },
