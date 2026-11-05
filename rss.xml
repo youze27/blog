@@ -4,10 +4,10 @@
     <atom:link href="https://min168.top/rss.xml" rel="self" type="application/rss+xml"/>
     <title>卷卷</title>
     <link>https://min168.top/</link>
-    <description>网络安全知识库</description>
+    <description>网络安全&amp;人工智能</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 05 Nov 2026 14:35:25 GMT</pubDate>
-    <lastBuildDate>Thu, 05 Nov 2026 14:35:25 GMT</lastBuildDate>
+    <pubDate>Thu, 05 Nov 2026 14:48:56 GMT</pubDate>
+    <lastBuildDate>Thu, 05 Nov 2026 14:48:56 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>应急响应</category>
