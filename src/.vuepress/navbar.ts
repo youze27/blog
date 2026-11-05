@@ -7,7 +7,7 @@ export default navbar([
   "/response/",
   "/net/",
   "/com/",
-  "/aboutme",
+  "/intro.html",
    {
       text: "🚆",
       link: "https://www.travellings.cn/go.html",

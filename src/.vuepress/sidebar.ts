@@ -7,5 +7,4 @@ export default sidebar({
   "/net/": "structure",
   "/com/": "structure",
   "/ai/": "structure",
-  "/aboutme": "structure",
 });
