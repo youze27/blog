@@ -2,12 +2,11 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   "/",
+  "/ai/",
   "/perm/",
   "/response/",
   "/net/",
   "/com/",
-  "/ai/",
-  "/stars",
   "/aboutme",
    {
       text: "🚆",

@@ -32,13 +32,13 @@ jobs:
             > "$RUNNER_TEMP/starred.tsv"
 
       - name: 生成 Markdown 页面
-        run: node scripts/generate-stars.mjs "$RUNNER_TEMP/starred.tsv" src/stars.md
+        run: node scripts/generate-stars.mjs "$RUNNER_TEMP/starred.tsv" src/com/stars.md
 
       - name: 提交更新
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add src/stars.md
+          git add src/com/stars.md
           if git diff --cached --quiet; then
             echo "Star 列表无变化，无需提交"
           else
