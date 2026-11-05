@@ -1,6 +1,8 @@
 ---
 title: 攻击侧
-index: false
 icon: bug
+index: false
+article: false
+feed: false
 ---
 <Catalog />  

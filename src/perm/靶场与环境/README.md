@@ -1,8 +1,10 @@
 ---
 title: 靶场与环境
-index: false
 icon: flask
 order: 3
+index: false
+article: false
+feed: false
 ---
 
 <Catalog />

@@ -1,9 +1,11 @@
 ---
 title: 我的项目
-index: false
 icon: diagram-project
 toc: false
-sidebar: false
+order: 4
+index: false
+article: false
+feed: false
 ---
 
 <SiteInfo

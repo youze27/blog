@@ -7,6 +7,7 @@ export default navbar([
   "/response/",
   "/net/",
   "/com/",
+  "/com/stars.html",
   "/intro.html",
    {
       text: "🚆",

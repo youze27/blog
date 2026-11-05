@@ -1,7 +1,9 @@
 ---
 title: 人工智能(AI)
-index: false
 icon: robot
+index: false
+article: false
+feed: false
 ---
 
 <Catalog />
