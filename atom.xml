@@ -4,7 +4,7 @@
   <title>卷卷</title>
   <subtitle>网络安全知识库</subtitle>
   <icon>https://min168.top/assets/favicon.ico</icon>
-  <updated>2026-11-03T15:51:13.231Z</updated>
+  <updated>2026-11-05T14:35:25.521Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://min168.top/atom.xml"/>
   <link rel="alternate" href="https://min168.top/"/>
@@ -28,6 +28,13 @@
   <category term="AI"/>
   <category term="其他"/>
   <category term="面试"/>
+  <entry>
+    <title type="text">威胁分析</title>
+    <id>https://min168.top/response/%E5%A8%81%E8%83%81%E5%88%86%E6%9E%90/</id>
+    <link href="https://min168.top/response/%E5%A8%81%E8%83%81%E5%88%86%E6%9E%90/"/>
+    <updated>2026-11-05T14:32:24.000Z</updated>
+    <published>2026-11-05T14:32:24.000Z</published>
+  </entry>
   <entry>
     <title type="text">终端防御规避技术-12.微软威胁情报ETW</title>
     <id>https://min168.top/response/%E7%BB%88%E7%AB%AF%E9%98%B2%E5%BE%A1%E8%A7%84%E9%81%BF%E6%8A%80%E6%9C%AF-12.%E5%BE%AE%E8%BD%AF%E5%A8%81%E8%83%81%E6%83%85%E6%8A%A5ETW.html</id>
@@ -645,9 +652,9 @@
   </entry>
   <entry>
     <title type="text">银狐云端“生死簿”：从“无条件返回”到“黑名单”机制</title>
-    <id>https://min168.top/like/%E9%93%B6%E7%8B%90%E4%BA%91%E7%AB%AF%E7%94%9F%E6%AD%BB%E7%B0%BF-%E6%8A%95%E9%80%92%E9%93%BE%E5%86%B3%E7%AD%96%E6%9C%BA%E5%88%B6.html</id>
-    <link href="https://min168.top/like/%E9%93%B6%E7%8B%90%E4%BA%91%E7%AB%AF%E7%94%9F%E6%AD%BB%E7%B0%BF-%E6%8A%95%E9%80%92%E9%93%BE%E5%86%B3%E7%AD%96%E6%9C%BA%E5%88%B6.html"/>
-    <updated>2026-10-26T16:29:32.000Z</updated>
+    <id>https://min168.top/response/%E8%BD%AC%E8%BD%BD%E7%BB%8F%E9%AA%8C/%E9%93%B6%E7%8B%90%E4%BA%91%E7%AB%AF%E7%94%9F%E6%AD%BB%E7%B0%BF-%E6%8A%95%E9%80%92%E9%93%BE%E5%86%B3%E7%AD%96%E6%9C%BA%E5%88%B6.html</id>
+    <link href="https://min168.top/response/%E8%BD%AC%E8%BD%BD%E7%BB%8F%E9%AA%8C/%E9%93%B6%E7%8B%90%E4%BA%91%E7%AB%AF%E7%94%9F%E6%AD%BB%E7%B0%BF-%E6%8A%95%E9%80%92%E9%93%BE%E5%86%B3%E7%AD%96%E6%9C%BA%E5%88%B6.html"/>
+    <updated>2026-11-05T14:32:24.000Z</updated>
     <summary type="html"><![CDATA[<blockquote>
 <p>出处：<a href="https://blog.netlab.360.com/yin-hu-yun-duan-sheng-si-bo-cong-wu-tiao-jian-fan-hui-dao-hei-ming-dan-ji-zhi/" target="_blank" rel="noopener noreferrer">360 Netlab</a>，作者 Youngs、HamaPea，原文发布于 2026-09-14。</p>
 <p>原文标题：<a href="https://blog.netlab.360.com/yin-hu-yun-duan-sheng-si-bo-cong-wu-tiao-jian-fan-hui-dao-hei-ming-dan-ji-zhi/" target="_blank" rel="noopener noreferrer">银狐云端“生死簿”：从“无条件返回”到“黑名单”机制</a></p>
@@ -963,10 +970,10 @@
     <published>2026-10-25T00:00:00.000Z</published>
   </entry>
   <entry>
-    <title type="text">项目</title>
-    <id>https://min168.top/project.html</id>
-    <link href="https://min168.top/project.html"/>
-    <updated>2026-10-23T15:27:16.000Z</updated>
+    <title type="text">我的项目</title>
+    <id>https://min168.top/com/project/</id>
+    <link href="https://min168.top/com/project/"/>
+    <updated>2026-11-05T14:32:24.000Z</updated>
     <published>2026-10-21T16:40:16.000Z</published>
   </entry>
   <entry>
@@ -1204,9 +1211,9 @@ Hook（钩子）是在程序执行路径上插入拦截点，改变原有控制�
   </entry>
   <entry>
     <title type="text">@antv npm供应链攻击 — Mini Shai-Hulud 事件分析</title>
-    <id>https://min168.top/like/@antv-npm%E4%BE%9B%E5%BA%94%E9%93%BE%E6%94%BB%E5%87%BB%E5%88%86%E6%9E%90-Mini-Shai-Hulud.html</id>
-    <link href="https://min168.top/like/@antv-npm%E4%BE%9B%E5%BA%94%E9%93%BE%E6%94%BB%E5%87%BB%E5%88%86%E6%9E%90-Mini-Shai-Hulud.html"/>
-    <updated>2026-07-26T15:12:52.000Z</updated>
+    <id>https://min168.top/response/%E8%BD%AC%E8%BD%BD%E7%BB%8F%E9%AA%8C/@antv-npm%E4%BE%9B%E5%BA%94%E9%93%BE%E6%94%BB%E5%87%BB%E5%88%86%E6%9E%90-Mini-Shai-Hulud.html</id>
+    <link href="https://min168.top/response/%E8%BD%AC%E8%BD%BD%E7%BB%8F%E9%AA%8C/@antv-npm%E4%BE%9B%E5%BA%94%E9%93%BE%E6%94%BB%E5%87%BB%E5%88%86%E6%9E%90-Mini-Shai-Hulud.html"/>
+    <updated>2026-11-05T14:32:24.000Z</updated>
     <summary type="html"><![CDATA[<h2>事件概述</h2>
 <p>2026年5月19日，Socket 安全团队监测到 <code>@antv</code> 生态系统遭遇大规模 npm 供应链攻击。攻击者控制了 npm 维护者账户 <strong>atool</strong>，发布了 <strong>639 个恶意版本</strong>（涉及 <strong>323 个独立包</strong>），影响范围涵盖数据可视化、图表、地图、React 组件等多个生态。</p>
 <p>受影响的核心包包括：<code>@antv/g2</code>、<code>@antv/g6</code>、<code>@antv/x6</code>、<code>@antv/l7</code>、<code>@antv/s2</code>、<code>@antv/f2</code>、<code>@antv/g</code>、<code>@antv/g2plot</code>、<code>@antv/graphin</code>、<code>@antv/data-set</code>，以及 <code>echarts-for-react</code>（周下载量约 110 万）、<code>timeago.js</code>、<code>size-sensor</code>、<code>canvas-nest.js</code> 等。</p>]]></summary>
@@ -1264,9 +1271,9 @@ Hook（钩子）是在程序执行路径上插入拦截点，改变原有控制�
   </entry>
   <entry>
     <title type="text">OpenCode终极Docker部署指南：5步搭建AI开发环境</title>
-    <id>https://min168.top/like/OpenCode%E7%BB%88%E6%9E%81Docker%E9%83%A8%E7%BD%B2%E6%8C%87%E5%8D%97.html</id>
-    <link href="https://min168.top/like/OpenCode%E7%BB%88%E6%9E%81Docker%E9%83%A8%E7%BD%B2%E6%8C%87%E5%8D%97.html"/>
-    <updated>2026-06-07T10:14:22.000Z</updated>
+    <id>https://min168.top/response/%E8%BD%AC%E8%BD%BD%E7%BB%8F%E9%AA%8C/OpenCode%E7%BB%88%E6%9E%81Docker%E9%83%A8%E7%BD%B2%E6%8C%87%E5%8D%97.html</id>
+    <link href="https://min168.top/response/%E8%BD%AC%E8%BD%BD%E7%BB%8F%E9%AA%8C/OpenCode%E7%BB%88%E6%9E%81Docker%E9%83%A8%E7%BD%B2%E6%8C%87%E5%8D%97.html"/>
+    <updated>2026-11-05T14:32:24.000Z</updated>
     <summary type="html"><![CDATA[<!-- more -->
 <h1>OpenCode终极Docker部署指南：5步搭建AI开发环境</h1>
 <p>想要在容器化环境中体验强大的AI编程助手吗？OpenCode作为一款基于终端的AI开发助手，现在可以通过Docker快速部署，让你在任何机器上都能拥有智能编码体验！🚀</p>
@@ -1439,9 +1446,9 @@ Hook（钩子）是在程序执行路径上插入拦截点，改变原有控制�
   </entry>
   <entry>
     <title type="text">AMOS (Atomic Stealer) 恶意软件深度分析</title>
-    <id>https://min168.top/ai/AMOS-Atomic-Stealer%E6%81%B6%E6%84%8F%E8%BD%AF%E4%BB%B6%E6%B7%B1%E5%BA%A6%E5%88%86%E6%9E%90.html</id>
-    <link href="https://min168.top/ai/AMOS-Atomic-Stealer%E6%81%B6%E6%84%8F%E8%BD%AF%E4%BB%B6%E6%B7%B1%E5%BA%A6%E5%88%86%E6%9E%90.html"/>
-    <updated>2026-04-20T16:11:24.000Z</updated>
+    <id>https://min168.top/response/%E5%A8%81%E8%83%81%E5%88%86%E6%9E%90/AMOS-Atomic-Stealer%E6%81%B6%E6%84%8F%E8%BD%AF%E4%BB%B6%E6%B7%B1%E5%BA%A6%E5%88%86%E6%9E%90.html</id>
+    <link href="https://min168.top/response/%E5%A8%81%E8%83%81%E5%88%86%E6%9E%90/AMOS-Atomic-Stealer%E6%81%B6%E6%84%8F%E8%BD%AF%E4%BB%B6%E6%B7%B1%E5%BA%A6%E5%88%86%E6%9E%90.html"/>
+    <updated>2026-11-05T14:32:24.000Z</updated>
     <summary type="html"><![CDATA[<!-- more -->
 <h1>AMOS (Atomic Stealer) 恶意软件深度分析</h1>
 <p>AMOS（Atomic macOS Stealer）是当前最活跃、最危险的macOS恶意软件之一，目前已从单一的数据窃取工具演变为具备后门持久化控制能力的系统性威胁。它并非传统意义上的计算机病毒，而是一种专门设计用来窃取信息的恶意软件（Infostealer），并以"恶意软件即服务"（MaaS）的模式在地下市场流通，任何付费的攻击者都可以使用它发起攻击。</p>
@@ -1538,9 +1545,9 @@ Hook（钩子）是在程序执行路径上插入拦截点，改变原有控制�
   </entry>
   <entry>
     <title type="text">银狐26年全面复活，对抗强度或已超25年最高水平</title>
-    <id>https://min168.top/like/%E9%93%B6%E7%8B%9026%E5%B9%B4%E5%85%A8%E9%9D%A2%E5%A4%8D%E6%B4%BB-%E5%AF%B9%E6%8A%97%E5%BC%BA%E5%BA%A6%E6%88%96%E5%B7%B2%E8%B6%8525%E5%B9%B4%E6%9C%80%E9%AB%98%E6%B0%B4%E5%B9%B3.html</id>
-    <link href="https://min168.top/like/%E9%93%B6%E7%8B%9026%E5%B9%B4%E5%85%A8%E9%9D%A2%E5%A4%8D%E6%B4%BB-%E5%AF%B9%E6%8A%97%E5%BC%BA%E5%BA%A6%E6%88%96%E5%B7%B2%E8%B6%8525%E5%B9%B4%E6%9C%80%E9%AB%98%E6%B0%B4%E5%B9%B3.html"/>
-    <updated>2026-04-20T15:41:35.000Z</updated>
+    <id>https://min168.top/response/%E8%BD%AC%E8%BD%BD%E7%BB%8F%E9%AA%8C/%E9%93%B6%E7%8B%9026%E5%B9%B4%E5%85%A8%E9%9D%A2%E5%A4%8D%E6%B4%BB-%E5%AF%B9%E6%8A%97%E5%BC%BA%E5%BA%A6%E6%88%96%E5%B7%B2%E8%B6%8525%E5%B9%B4%E6%9C%80%E9%AB%98%E6%B0%B4%E5%B9%B3.html</id>
+    <link href="https://min168.top/response/%E8%BD%AC%E8%BD%BD%E7%BB%8F%E9%AA%8C/%E9%93%B6%E7%8B%9026%E5%B9%B4%E5%85%A8%E9%9D%A2%E5%A4%8D%E6%B4%BB-%E5%AF%B9%E6%8A%97%E5%BC%BA%E5%BA%A6%E6%88%96%E5%B7%B2%E8%B6%8525%E5%B9%B4%E6%9C%80%E9%AB%98%E6%B0%B4%E5%B9%B3.html"/>
+    <updated>2026-11-05T14:32:24.000Z</updated>
     <summary type="html"><![CDATA[<!-- more -->
 <h1>银狐26年全面复活，对抗强度或已超25年最高水平</h1>
 <p>自春节假期结束后，微步情报局监测到银狐攻击活动全面复活。3月，银狐已恢复到年前的活跃度，全月微步情报局捕获的新变种达500+，发现大量从去年下半年至今数次迭代的攻击手法，传播范围和对抗强度或已超越去年最高水平。</p>
@@ -1576,9 +1583,9 @@ Hook（钩子）是在程序执行路径上插入拦截点，改变原有控制�
   </entry>
   <entry>
     <title type="text">Atomic Stealer (AMOS) 回归：ClickFix、伪装加密货币应用与新型 macOS 持久化机制</title>
-    <id>https://min168.top/like/Atomic-Stealer-AMOS-%E5%9B%9E%E5%BD%92%EF%BC%9AClickFix-%E4%BC%AA%E8%A3%85%E5%8A%A0%E5%AF%86%E8%B4%A7%E5%B8%81%E5%BA%94%E7%94%A8%E4%B8%8E%E6%96%B0%E5%9E%8BmacOS%E6%8C%81%E4%B9%85%E5%8C%96%E6%9C%BA%E5%88%B6.html</id>
-    <link href="https://min168.top/like/Atomic-Stealer-AMOS-%E5%9B%9E%E5%BD%92%EF%BC%9AClickFix-%E4%BC%AA%E8%A3%85%E5%8A%A0%E5%AF%86%E8%B4%A7%E5%B8%81%E5%BA%94%E7%94%A8%E4%B8%8E%E6%96%B0%E5%9E%8BmacOS%E6%8C%81%E4%B9%85%E5%8C%96%E6%9C%BA%E5%88%B6.html"/>
-    <updated>2026-04-20T15:29:13.000Z</updated>
+    <id>https://min168.top/response/%E8%BD%AC%E8%BD%BD%E7%BB%8F%E9%AA%8C/Atomic-Stealer-AMOS-%E5%9B%9E%E5%BD%92%EF%BC%9AClickFix-%E4%BC%AA%E8%A3%85%E5%8A%A0%E5%AF%86%E8%B4%A7%E5%B8%81%E5%BA%94%E7%94%A8%E4%B8%8E%E6%96%B0%E5%9E%8BmacOS%E6%8C%81%E4%B9%85%E5%8C%96%E6%9C%BA%E5%88%B6.html</id>
+    <link href="https://min168.top/response/%E8%BD%AC%E8%BD%BD%E7%BB%8F%E9%AA%8C/Atomic-Stealer-AMOS-%E5%9B%9E%E5%BD%92%EF%BC%9AClickFix-%E4%BC%AA%E8%A3%85%E5%8A%A0%E5%AF%86%E8%B4%A7%E5%B8%81%E5%BA%94%E7%94%A8%E4%B8%8E%E6%96%B0%E5%9E%8BmacOS%E6%8C%81%E4%B9%85%E5%8C%96%E6%9C%BA%E5%88%B6.html"/>
+    <updated>2026-11-05T14:32:24.000Z</updated>
     <summary type="html"><![CDATA[<!-- more -->
 <h1>Atomic Stealer (AMOS) 回归：ClickFix、伪装加密货币应用与新型 macOS 持久化机制</h1>
 <p>Atomic Stealer（通常追踪为 AMOS）已成为 macOS 威胁环境中最为持久的威胁之一。凭借无休止的开发周期和多样化的分发网络，它没有任何减缓的迹象。研究人员已广泛记录了其标志性战术："ClickFix"浏览器社会工程钓鱼提示、伪装的应用安装程序，以及最近的 <a href="https://gi7w0rm.medium.com/amos-stealer-malext-variant-spread-in-a-global-malvertising-campaign-using-free-text-sharing-4d240e11d7e2" target="_blank" rel="noopener noreferrer">malext</a> 变体（通过恶意广告活动传播）。</p>]]></summary>
@@ -2148,9 +2155,9 @@ Hook（钩子）是在程序执行路径上插入拦截点，改变原有控制�
   </entry>
   <entry>
     <title type="text">C++开发环境配置与程序运行笔记</title>
-    <id>https://min168.top/reverse/C__%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E4%B8%8E%E8%BF%90%E8%A1%8C%E7%AC%94%E8%AE%B0.html</id>
-    <link href="https://min168.top/reverse/C__%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E4%B8%8E%E8%BF%90%E8%A1%8C%E7%AC%94%E8%AE%B0.html"/>
-    <updated>2025-12-25T16:32:28.000Z</updated>
+    <id>https://min168.top/perm/%E9%80%86%E5%90%91%E5%85%8D%E6%9D%80/C__%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E4%B8%8E%E8%BF%90%E8%A1%8C%E7%AC%94%E8%AE%B0.html</id>
+    <link href="https://min168.top/perm/%E9%80%86%E5%90%91%E5%85%8D%E6%9D%80/C__%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E4%B8%8E%E8%BF%90%E8%A1%8C%E7%AC%94%E8%AE%B0.html"/>
+    <updated>2026-11-05T14:32:24.000Z</updated>
     <summary type="html"><![CDATA[<h2>一、完整配置步骤</h2>
 <h3>1. 安装开发工具包</h3>
 <ul>
@@ -2273,9 +2280,9 @@ Hook（钩子）是在程序执行路径上插入拦截点，改变原有控制�
   </entry>
   <entry>
     <title type="text">IDA Free调试Hello World笔记</title>
-    <id>https://min168.top/reverse/IDA%20Free%E8%B0%83%E8%AF%95Hello_World%E7%AC%94%E8%AE%B0.html</id>
-    <link href="https://min168.top/reverse/IDA%20Free%E8%B0%83%E8%AF%95Hello_World%E7%AC%94%E8%AE%B0.html"/>
-    <updated>2025-12-25T16:32:28.000Z</updated>
+    <id>https://min168.top/perm/%E9%80%86%E5%90%91%E5%85%8D%E6%9D%80/IDA%20Free%E8%B0%83%E8%AF%95Hello_World%E7%AC%94%E8%AE%B0.html</id>
+    <link href="https://min168.top/perm/%E9%80%86%E5%90%91%E5%85%8D%E6%9D%80/IDA%20Free%E8%B0%83%E8%AF%95Hello_World%E7%AC%94%E8%AE%B0.html"/>
+    <updated>2026-11-05T14:32:24.000Z</updated>
     <summary type="html"><![CDATA[<h2>一、C++源代码与IDA伪代码对比</h2>
 <h3>1. C++源代码</h3>
 <div class="language-cpp line-numbers-mode" data-highlighter="shiki" data-ext="cpp" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-cpp"><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">#include</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> &lt;iostream&gt;</span></span>
@@ -2332,10 +2339,17 @@ Hook（钩子）是在程序执行路径上插入拦截点，改变原有控制�
     <published>2025-12-25T16:32:28.000Z</published>
   </entry>
   <entry>
+    <title type="text">人工智能(AI)</title>
+    <id>https://min168.top/ai/</id>
+    <link href="https://min168.top/ai/"/>
+    <updated>2026-11-05T14:32:24.000Z</updated>
+    <published>2025-12-20T08:26:40.000Z</published>
+  </entry>
+  <entry>
     <title type="text">Admin.szmay账号命名方式</title>
-    <id>https://min168.top/ai/Admin.szmay%E8%B4%A6%E5%8F%B7%E5%91%BD%E5%90%8D%E6%96%B9%E5%BC%8F.html</id>
-    <link href="https://min168.top/ai/Admin.szmay%E8%B4%A6%E5%8F%B7%E5%91%BD%E5%90%8D%E6%96%B9%E5%BC%8F.html"/>
-    <updated>2026-10-21T09:42:21.000Z</updated>
+    <id>https://min168.top/response/%E5%A8%81%E8%83%81%E5%88%86%E6%9E%90/Admin.szmay%E8%B4%A6%E5%8F%B7%E5%91%BD%E5%90%8D%E6%96%B9%E5%BC%8F.html</id>
+    <link href="https://min168.top/response/%E5%A8%81%E8%83%81%E5%88%86%E6%9E%90/Admin.szmay%E8%B4%A6%E5%8F%B7%E5%91%BD%E5%90%8D%E6%96%B9%E5%BC%8F.html"/>
+    <updated>2026-11-05T14:32:24.000Z</updated>
     <summary type="html"><![CDATA[<p>​<strong>​<code>Admin.szmay</code>这种以点（​<code>.</code>）为分隔符的命名方式，主要源于企业内部的命名约定和最佳实践，目的是为了提高可读性、组织性和自动化管理的便利性。它并不是微软官方的强制性要求，但被全球众多遵循严格IT治理的企业广泛采用，与微软平台的功能高度契合。</strong></p>
 <h3>1. 来源与演变</h3>
 <p>这种命名方式主要融合了以下几个来源：</p>
@@ -2418,9 +2432,9 @@ Hook（钩子）是在程序执行路径上插入拦截点，改变原有控制�
   </entry>
   <entry>
     <title type="text">BAS - Breach and Attack Simulation</title>
-    <id>https://min168.top/ai/BAS%20-%20Breach%20and%20Attack%20Simulation.html</id>
-    <link href="https://min168.top/ai/BAS%20-%20Breach%20and%20Attack%20Simulation.html"/>
-    <updated>2025-12-20T08:26:40.000Z</updated>
+    <id>https://min168.top/response/%E5%A8%81%E8%83%81%E5%88%86%E6%9E%90/BAS%20-%20Breach%20and%20Attack%20Simulation.html</id>
+    <link href="https://min168.top/response/%E5%A8%81%E8%83%81%E5%88%86%E6%9E%90/BAS%20-%20Breach%20and%20Attack%20Simulation.html"/>
+    <updated>2026-11-05T14:32:24.000Z</updated>
     <summary type="html"><![CDATA[<h3><strong>BAS - Breach and Attack Simulation（入侵与攻击模拟）</strong></h3>
 <p>这是目前网络安全领域关于 <strong>BAS</strong> <strong>最主流、最常指代</strong>的概念。它是一种​<strong>主动的、持续的安全验证技术</strong>。</p>
 <h4><strong>核心定义</strong></h4>
@@ -2477,17 +2491,10 @@ Hook（钩子）是在程序执行路径上插入拦截点，改变原有控制�
     <published>2025-12-20T08:26:40.000Z</published>
   </entry>
   <entry>
-    <title type="text">AI经验</title>
-    <id>https://min168.top/ai/</id>
-    <link href="https://min168.top/ai/"/>
-    <updated>2026-10-21T09:42:21.000Z</updated>
-    <published>2025-12-20T08:26:40.000Z</published>
-  </entry>
-  <entry>
     <title type="text">Windows核心系统进程链与svchost深度解析</title>
-    <id>https://min168.top/ai/Windows%E6%A0%B8%E5%BF%83%E7%B3%BB%E7%BB%9F%E8%BF%9B%E7%A8%8B%E9%93%BE%E4%B8%8Esvchost%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90.html</id>
-    <link href="https://min168.top/ai/Windows%E6%A0%B8%E5%BF%83%E7%B3%BB%E7%BB%9F%E8%BF%9B%E7%A8%8B%E9%93%BE%E4%B8%8Esvchost%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90.html"/>
-    <updated>2025-12-20T08:26:40.000Z</updated>
+    <id>https://min168.top/response/%E5%A8%81%E8%83%81%E5%88%86%E6%9E%90/Windows%E6%A0%B8%E5%BF%83%E7%B3%BB%E7%BB%9F%E8%BF%9B%E7%A8%8B%E9%93%BE%E4%B8%8Esvchost%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90.html</id>
+    <link href="https://min168.top/response/%E5%A8%81%E8%83%81%E5%88%86%E6%9E%90/Windows%E6%A0%B8%E5%BF%83%E7%B3%BB%E7%BB%9F%E8%BF%9B%E7%A8%8B%E9%93%BE%E4%B8%8Esvchost%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90.html"/>
+    <updated>2026-11-05T14:32:24.000Z</updated>
     <summary type="html"><![CDATA[<p>DNS外联恶意域名检测告警</p>
 <div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">   Image:</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> C:</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\W</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">indows</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\S</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">ystem32</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\s</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">vchost.exe</span></span>
 <span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">   ProcessId:</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 1112</span></span>
@@ -2674,9 +2681,9 @@ c</p>
   </entry>
   <entry>
     <title type="text">rundll32.exe恶意加载DLL文件外联</title>
-    <id>https://min168.top/ai/rundll32.exe%E6%81%B6%E6%84%8F%E5%8A%A0%E8%BD%BDDLL%E6%96%87%E4%BB%B6%E5%A4%96%E8%81%94.html</id>
-    <link href="https://min168.top/ai/rundll32.exe%E6%81%B6%E6%84%8F%E5%8A%A0%E8%BD%BDDLL%E6%96%87%E4%BB%B6%E5%A4%96%E8%81%94.html"/>
-    <updated>2025-12-27T12:40:22.000Z</updated>
+    <id>https://min168.top/response/%E5%A8%81%E8%83%81%E5%88%86%E6%9E%90/rundll32.exe%E6%81%B6%E6%84%8F%E5%8A%A0%E8%BD%BDDLL%E6%96%87%E4%BB%B6%E5%A4%96%E8%81%94.html</id>
+    <link href="https://min168.top/response/%E5%A8%81%E8%83%81%E5%88%86%E6%9E%90/rundll32.exe%E6%81%B6%E6%84%8F%E5%8A%A0%E8%BD%BDDLL%E6%96%87%E4%BB%B6%E5%A4%96%E8%81%94.html"/>
+    <updated>2026-11-05T14:32:24.000Z</updated>
     <summary type="html"><![CDATA[
 <h3>告警信息</h3>
 <div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">目标IP/域名：urbangreencorner.com</span></span>
@@ -2902,9 +2909,9 @@ c</p>
   </entry>
   <entry>
     <title type="text">企业测试环境的弱口令需要整改吗</title>
-    <id>https://min168.top/ai/%E4%BC%81%E4%B8%9A%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83%E7%9A%84%E5%BC%B1%E5%8F%A3%E4%BB%A4%E9%9C%80%E8%A6%81%E6%95%B4%E6%94%B9%E5%90%97.html</id>
-    <link href="https://min168.top/ai/%E4%BC%81%E4%B8%9A%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83%E7%9A%84%E5%BC%B1%E5%8F%A3%E4%BB%A4%E9%9C%80%E8%A6%81%E6%95%B4%E6%94%B9%E5%90%97.html"/>
-    <updated>2025-12-20T08:26:40.000Z</updated>
+    <id>https://min168.top/response/%E5%A8%81%E8%83%81%E5%88%86%E6%9E%90/%E4%BC%81%E4%B8%9A%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83%E7%9A%84%E5%BC%B1%E5%8F%A3%E4%BB%A4%E9%9C%80%E8%A6%81%E6%95%B4%E6%94%B9%E5%90%97.html</id>
+    <link href="https://min168.top/response/%E5%A8%81%E8%83%81%E5%88%86%E6%9E%90/%E4%BC%81%E4%B8%9A%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83%E7%9A%84%E5%BC%B1%E5%8F%A3%E4%BB%A4%E9%9C%80%E8%A6%81%E6%95%B4%E6%94%B9%E5%90%97.html"/>
+    <updated>2026-11-05T14:32:24.000Z</updated>
     <summary type="html"><![CDATA[<p><strong>绝对需要整改，而且必须高度重视。</strong></p>
 <p>企业测试环境的弱口令问题不是一个可以忽视的“小问题”，而是一个可能引发严重后果的​<strong>高危安全风险</strong>。以下是必须整改的核心原因和行动建议：</p>
 <h3>为什么必须整改？风险分析？</h3>
@@ -3030,10 +3037,149 @@ c</p>
     <published>2025-12-20T08:26:40.000Z</published>
   </entry>
   <entry>
+    <title type="text">GitHub Codespaces</title>
+    <id>https://min168.top/net/GitHub%20Codespaces.html</id>
+    <link href="https://min168.top/net/GitHub%20Codespaces.html"/>
+    <updated>2025-12-05T16:22:10.000Z</updated>
+    <summary type="html"><![CDATA[<h2>什么是 GitHub Codespaces</h2>
+<p><strong>GitHub Codespaces</strong> 是 GitHub 提供的云端开发环境，基于 VS Code，可用于在浏览器中编写、运行和调试代码。</p>
+<h3>关键特性</h3>
+<ul>
+<li><strong>云端开发</strong>：无需本地安装环境</li>
+<li><strong>快速启动</strong>：预配置环境，秒速加载</li>
+<li><strong>环境一致</strong>：团队成员环境完全一致</li>
+<li><strong>持久化存储</strong>：代码和配置自动保存</li>
+<li><strong>端口转发</strong>：自动转发本地端口到互联网</li>
+</ul>]]></summary>
+    <content type="html"><![CDATA[<h2>什么是 GitHub Codespaces</h2>
+<p><strong>GitHub Codespaces</strong> 是 GitHub 提供的云端开发环境，基于 VS Code，可用于在浏览器中编写、运行和调试代码。</p>
+<h3>关键特性</h3>
+<ul>
+<li><strong>云端开发</strong>：无需本地安装环境</li>
+<li><strong>快速启动</strong>：预配置环境，秒速加载</li>
+<li><strong>环境一致</strong>：团队成员环境完全一致</li>
+<li><strong>持久化存储</strong>：代码和配置自动保存</li>
+<li><strong>端口转发</strong>：自动转发本地端口到互联网</li>
+</ul>
+<h3>适用场景</h3>
+<ol>
+<li>​<strong>跨平台开发</strong>：ARM/x86 架构兼容</li>
+<li>​<strong>团队协作</strong>：统一开发环境</li>
+<li>​<strong>临时环境</strong>：快速测试和验证</li>
+<li>​<strong>教学演示</strong>：分享可复现的环境</li>
+</ol>
+<h2>环境配置</h2>
+<h3>基础配置结构</h3>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-"><span class="line"><span>项目根目录/</span></span>
+<span class="line"><span>├── .devcontainer/          # Codespaces 配置目录</span></span>
+<span class="line"><span>│   ├── devcontainer.json   # 主配置文件</span></span>
+<span class="line"><span>│   └── Dockerfile          # 自定义环境</span></span>
+<span class="line"><span>├── .vscode/               # VS Code 配置</span></span>
+<span class="line"><span>│   ├── settings.json      # 编辑器设置</span></span>
+<span class="line"><span>│   └── tasks.json         # 任务配置</span></span>
+<span class="line"><span>└── .github/               # GitHub 相关配置</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3>创建 <code>.devcontainer/devcontainer.json</code></h3>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-"><span class="line"><span>{</span></span>
+<span class="line"><span>  "name": "VuePress 开发环境",</span></span>
+<span class="line"><span>  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-20-bullseye",</span></span>
+<span class="line"><span>  </span></span>
+<span class="line"><span>  "features": {</span></span>
+<span class="line"><span>    "ghcr.io/devcontainers/features/github-cli:1": {},</span></span>
+<span class="line"><span>    "ghcr.io/devcontainers/features/node:1": {</span></span>
+<span class="line"><span>      "version": "20",</span></span>
+<span class="line"><span>      "nodeGypDependencies": true</span></span>
+<span class="line"><span>    }</span></span>
+<span class="line"><span>  },</span></span>
+<span class="line"><span>  </span></span>
+<span class="line"><span>  "customizations": {</span></span>
+<span class="line"><span>    "vscode": {</span></span>
+<span class="line"><span>      "extensions": [</span></span>
+<span class="line"><span>        "vue.volar",</span></span>
+<span class="line"><span>        "vue.vscode-typescript-vue-plugin",</span></span>
+<span class="line"><span>        "bradlc.vscode-tailwindcss",</span></span>
+<span class="line"><span>        "sdras.vue-vscode-snippets",</span></span>
+<span class="line"><span>        "mhutchie.git-graph",</span></span>
+<span class="line"><span>        "eamodio.gitlens",</span></span>
+<span class="line"><span>        "esbenp.prettier-vscode",</span></span>
+<span class="line"><span>        "dbaeumer.vscode-eslint"</span></span>
+<span class="line"><span>      ],</span></span>
+<span class="line"><span>      "settings": {</span></span>
+<span class="line"><span>        "editor.formatOnSave": true,</span></span>
+<span class="line"><span>        "editor.defaultFormatter": "esbenp.prettier-vscode",</span></span>
+<span class="line"><span>        "editor.codeActionsOnSave": {</span></span>
+<span class="line"><span>          "source.fixAll.eslint": true</span></span>
+<span class="line"><span>        },</span></span>
+<span class="line"><span>        "terminal.integrated.defaultProfile.linux": "bash",</span></span>
+<span class="line"><span>        "files.autoSave": "afterDelay"</span></span>
+<span class="line"><span>      }</span></span>
+<span class="line"><span>    }</span></span>
+<span class="line"><span>  },</span></span>
+<span class="line"><span>  </span></span>
+<span class="line"><span>  "forwardPorts": [8080],</span></span>
+<span class="line"><span>  "portsAttributes": {</span></span>
+<span class="line"><span>    "8080": {</span></span>
+<span class="line"><span>      "label": "VuePress Dev Server",</span></span>
+<span class="line"><span>      "onAutoForward": "openPreview"</span></span>
+<span class="line"><span>    }</span></span>
+<span class="line"><span>  },</span></span>
+<span class="line"><span>  </span></span>
+<span class="line"><span>  "postCreateCommand": "npm install -g pnpm &amp;&amp; pnpm install",</span></span>
+<span class="line"><span>  "postAttachCommand": "pnpm docs:dev",</span></span>
+<span class="line"><span>  </span></span>
+<span class="line"><span>  "containerEnv": {</span></span>
+<span class="line"><span>    "VUE_PRESS_SASS_IMPL": "sass-embedded",</span></span>
+<span class="line"><span>    "NODE_OPTIONS": "--max-old-space-size=4096"</span></span>
+<span class="line"><span>  },</span></span>
+<span class="line"><span>  </span></span>
+<span class="line"><span>  "remoteUser": "node"</span></span>
+<span class="line"><span>}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2>使用流程</h2>
+<h3>启动 Codespaces</h3>
+<h4>方法一：网页版</h4>
+<ol>
+<li>访问 GitHub 仓库页面</li>
+<li>按 <code>.</code>（点）键直接打开</li>
+<li>或点击 Code → Codespaces → Create codespace</li>
+</ol>
+<h4>方法二：VS Code 桌面版</h4>
+<ol>
+<li>安装 GitHub Codespaces 扩展</li>
+<li>按 F1 → "Codespaces: Create New Codespace"</li>
+<li>选择仓库和分支</li>
+</ol>
+<h3>首次启动流程</h3>
+<ol>
+<li><strong>环境构建</strong>：拉取镜像，创建容器</li>
+<li>​<strong>依赖安装</strong>​：执行 <code>postCreateCommand</code></li>
+<li>​<strong>服务启动</strong>​：执行 <code>postAttachCommand</code></li>
+<li>​<strong>端口转发</strong>：自动转发配置的端口</li>
+<li>​<strong>浏览器打开</strong>：显示预览链接</li>
+</ol>
+<h3>日常使用命令</h3>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-"><span class="line"><span># 终端操作</span></span>
+<span class="line"><span>pwd                     # /workspaces/仓库名</span></span>
+<span class="line"><span>node --version          # 检查 Node.js</span></span>
+<span class="line"><span>pnpm --version          # 检查 pnpm</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span># 项目操作</span></span>
+<span class="line"><span>pnpm install            # 安装依赖</span></span>
+<span class="line"><span>pnpm docs:dev          # 启动开发服务器</span></span>
+<span class="line"><span>pnpm docs:build        # 构建项目</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span># Git 操作</span></span>
+<span class="line"><span>git status</span></span>
+<span class="line"><span>git add .</span></span>
+<span class="line"><span>git commit -m "更新"</span></span>
+<span class="line"><span>git push</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content>
+    <category term="计网基础"/>
+    <published>2025-12-05T16:22:10.000Z</published>
+  </entry>
+  <entry>
     <title type="text">网络安全行业招聘需求与技术能力分析</title>
-    <id>https://min168.top/ai/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E8%A1%8C%E4%B8%9A%E6%8B%9B%E8%81%98%E9%9C%80%E6%B1%82%E4%B8%8E%E6%8A%80%E6%9C%AF%E8%83%BD%E5%8A%9B%E5%88%86%E6%9E%90.html</id>
-    <link href="https://min168.top/ai/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E8%A1%8C%E4%B8%9A%E6%8B%9B%E8%81%98%E9%9C%80%E6%B1%82%E4%B8%8E%E6%8A%80%E6%9C%AF%E8%83%BD%E5%8A%9B%E5%88%86%E6%9E%90.html"/>
-    <updated>2025-12-20T08:26:40.000Z</updated>
+    <id>https://min168.top/response/%E5%A8%81%E8%83%81%E5%88%86%E6%9E%90/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E8%A1%8C%E4%B8%9A%E6%8B%9B%E8%81%98%E9%9C%80%E6%B1%82%E4%B8%8E%E6%8A%80%E6%9C%AF%E8%83%BD%E5%8A%9B%E5%88%86%E6%9E%90.html</id>
+    <link href="https://min168.top/response/%E5%A8%81%E8%83%81%E5%88%86%E6%9E%90/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E8%A1%8C%E4%B8%9A%E6%8B%9B%E8%81%98%E9%9C%80%E6%B1%82%E4%B8%8E%E6%8A%80%E6%9C%AF%E8%83%BD%E5%8A%9B%E5%88%86%E6%9E%90.html"/>
+    <updated>2026-11-05T14:32:24.000Z</updated>
     <summary type="html"><![CDATA[<hr>
 <h2>一、当前网络安全行业招聘需求全景解析</h2>
 <h3>1.1 行业整体人才供需趋势与岗位分布</h3>
@@ -4921,9 +5067,9 @@ c</p>
   </entry>
   <entry>
     <title type="text">银狐木马技术原理分析与检测技术</title>
-    <id>https://min168.top/ai/%E9%93%B6%E7%8B%90%E6%9C%A8%E9%A9%AC%E6%8A%80%E6%9C%AF%E5%8E%9F%E7%90%86%E5%88%86%E6%9E%90%E4%B8%8E%E6%A3%80%E6%B5%8B%E6%8A%80%E6%9C%AF.html</id>
-    <link href="https://min168.top/ai/%E9%93%B6%E7%8B%90%E6%9C%A8%E9%A9%AC%E6%8A%80%E6%9C%AF%E5%8E%9F%E7%90%86%E5%88%86%E6%9E%90%E4%B8%8E%E6%A3%80%E6%B5%8B%E6%8A%80%E6%9C%AF.html"/>
-    <updated>2025-12-20T08:26:40.000Z</updated>
+    <id>https://min168.top/response/%E5%A8%81%E8%83%81%E5%88%86%E6%9E%90/%E9%93%B6%E7%8B%90%E6%9C%A8%E9%A9%AC%E6%8A%80%E6%9C%AF%E5%8E%9F%E7%90%86%E5%88%86%E6%9E%90%E4%B8%8E%E6%A3%80%E6%B5%8B%E6%8A%80%E6%9C%AF.html</id>
+    <link href="https://min168.top/response/%E5%A8%81%E8%83%81%E5%88%86%E6%9E%90/%E9%93%B6%E7%8B%90%E6%9C%A8%E9%A9%AC%E6%8A%80%E6%9C%AF%E5%8E%9F%E7%90%86%E5%88%86%E6%9E%90%E4%B8%8E%E6%A3%80%E6%B5%8B%E6%8A%80%E6%9C%AF.html"/>
+    <updated>2026-11-05T14:32:24.000Z</updated>
     <summary type="html"><![CDATA[<hr>
 <h2>一、银狐木马基础概念与演化背景</h2>
 <h3>1.1 银狐木马的定义与历史演进</h3>
@@ -6041,149 +6187,10 @@ WDAC默认限制未签名/非微软认证的代码执行。但银狐利用如下
     <published>2025-12-05T16:22:10.000Z</published>
   </entry>
   <entry>
-    <title type="text">GitHub Codespaces</title>
-    <id>https://min168.top/net/GitHub%20Codespaces.html</id>
-    <link href="https://min168.top/net/GitHub%20Codespaces.html"/>
-    <updated>2025-12-05T16:22:10.000Z</updated>
-    <summary type="html"><![CDATA[<h2>什么是 GitHub Codespaces</h2>
-<p><strong>GitHub Codespaces</strong> 是 GitHub 提供的云端开发环境，基于 VS Code，可用于在浏览器中编写、运行和调试代码。</p>
-<h3>关键特性</h3>
-<ul>
-<li><strong>云端开发</strong>：无需本地安装环境</li>
-<li><strong>快速启动</strong>：预配置环境，秒速加载</li>
-<li><strong>环境一致</strong>：团队成员环境完全一致</li>
-<li><strong>持久化存储</strong>：代码和配置自动保存</li>
-<li><strong>端口转发</strong>：自动转发本地端口到互联网</li>
-</ul>]]></summary>
-    <content type="html"><![CDATA[<h2>什么是 GitHub Codespaces</h2>
-<p><strong>GitHub Codespaces</strong> 是 GitHub 提供的云端开发环境，基于 VS Code，可用于在浏览器中编写、运行和调试代码。</p>
-<h3>关键特性</h3>
-<ul>
-<li><strong>云端开发</strong>：无需本地安装环境</li>
-<li><strong>快速启动</strong>：预配置环境，秒速加载</li>
-<li><strong>环境一致</strong>：团队成员环境完全一致</li>
-<li><strong>持久化存储</strong>：代码和配置自动保存</li>
-<li><strong>端口转发</strong>：自动转发本地端口到互联网</li>
-</ul>
-<h3>适用场景</h3>
-<ol>
-<li>​<strong>跨平台开发</strong>：ARM/x86 架构兼容</li>
-<li>​<strong>团队协作</strong>：统一开发环境</li>
-<li>​<strong>临时环境</strong>：快速测试和验证</li>
-<li>​<strong>教学演示</strong>：分享可复现的环境</li>
-</ol>
-<h2>环境配置</h2>
-<h3>基础配置结构</h3>
-<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-"><span class="line"><span>项目根目录/</span></span>
-<span class="line"><span>├── .devcontainer/          # Codespaces 配置目录</span></span>
-<span class="line"><span>│   ├── devcontainer.json   # 主配置文件</span></span>
-<span class="line"><span>│   └── Dockerfile          # 自定义环境</span></span>
-<span class="line"><span>├── .vscode/               # VS Code 配置</span></span>
-<span class="line"><span>│   ├── settings.json      # 编辑器设置</span></span>
-<span class="line"><span>│   └── tasks.json         # 任务配置</span></span>
-<span class="line"><span>└── .github/               # GitHub 相关配置</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3>创建 <code>.devcontainer/devcontainer.json</code></h3>
-<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-"><span class="line"><span>{</span></span>
-<span class="line"><span>  "name": "VuePress 开发环境",</span></span>
-<span class="line"><span>  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-20-bullseye",</span></span>
-<span class="line"><span>  </span></span>
-<span class="line"><span>  "features": {</span></span>
-<span class="line"><span>    "ghcr.io/devcontainers/features/github-cli:1": {},</span></span>
-<span class="line"><span>    "ghcr.io/devcontainers/features/node:1": {</span></span>
-<span class="line"><span>      "version": "20",</span></span>
-<span class="line"><span>      "nodeGypDependencies": true</span></span>
-<span class="line"><span>    }</span></span>
-<span class="line"><span>  },</span></span>
-<span class="line"><span>  </span></span>
-<span class="line"><span>  "customizations": {</span></span>
-<span class="line"><span>    "vscode": {</span></span>
-<span class="line"><span>      "extensions": [</span></span>
-<span class="line"><span>        "vue.volar",</span></span>
-<span class="line"><span>        "vue.vscode-typescript-vue-plugin",</span></span>
-<span class="line"><span>        "bradlc.vscode-tailwindcss",</span></span>
-<span class="line"><span>        "sdras.vue-vscode-snippets",</span></span>
-<span class="line"><span>        "mhutchie.git-graph",</span></span>
-<span class="line"><span>        "eamodio.gitlens",</span></span>
-<span class="line"><span>        "esbenp.prettier-vscode",</span></span>
-<span class="line"><span>        "dbaeumer.vscode-eslint"</span></span>
-<span class="line"><span>      ],</span></span>
-<span class="line"><span>      "settings": {</span></span>
-<span class="line"><span>        "editor.formatOnSave": true,</span></span>
-<span class="line"><span>        "editor.defaultFormatter": "esbenp.prettier-vscode",</span></span>
-<span class="line"><span>        "editor.codeActionsOnSave": {</span></span>
-<span class="line"><span>          "source.fixAll.eslint": true</span></span>
-<span class="line"><span>        },</span></span>
-<span class="line"><span>        "terminal.integrated.defaultProfile.linux": "bash",</span></span>
-<span class="line"><span>        "files.autoSave": "afterDelay"</span></span>
-<span class="line"><span>      }</span></span>
-<span class="line"><span>    }</span></span>
-<span class="line"><span>  },</span></span>
-<span class="line"><span>  </span></span>
-<span class="line"><span>  "forwardPorts": [8080],</span></span>
-<span class="line"><span>  "portsAttributes": {</span></span>
-<span class="line"><span>    "8080": {</span></span>
-<span class="line"><span>      "label": "VuePress Dev Server",</span></span>
-<span class="line"><span>      "onAutoForward": "openPreview"</span></span>
-<span class="line"><span>    }</span></span>
-<span class="line"><span>  },</span></span>
-<span class="line"><span>  </span></span>
-<span class="line"><span>  "postCreateCommand": "npm install -g pnpm &amp;&amp; pnpm install",</span></span>
-<span class="line"><span>  "postAttachCommand": "pnpm docs:dev",</span></span>
-<span class="line"><span>  </span></span>
-<span class="line"><span>  "containerEnv": {</span></span>
-<span class="line"><span>    "VUE_PRESS_SASS_IMPL": "sass-embedded",</span></span>
-<span class="line"><span>    "NODE_OPTIONS": "--max-old-space-size=4096"</span></span>
-<span class="line"><span>  },</span></span>
-<span class="line"><span>  </span></span>
-<span class="line"><span>  "remoteUser": "node"</span></span>
-<span class="line"><span>}</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2>使用流程</h2>
-<h3>启动 Codespaces</h3>
-<h4>方法一：网页版</h4>
-<ol>
-<li>访问 GitHub 仓库页面</li>
-<li>按 <code>.</code>（点）键直接打开</li>
-<li>或点击 Code → Codespaces → Create codespace</li>
-</ol>
-<h4>方法二：VS Code 桌面版</h4>
-<ol>
-<li>安装 GitHub Codespaces 扩展</li>
-<li>按 F1 → "Codespaces: Create New Codespace"</li>
-<li>选择仓库和分支</li>
-</ol>
-<h3>首次启动流程</h3>
-<ol>
-<li><strong>环境构建</strong>：拉取镜像，创建容器</li>
-<li>​<strong>依赖安装</strong>​：执行 <code>postCreateCommand</code></li>
-<li>​<strong>服务启动</strong>​：执行 <code>postAttachCommand</code></li>
-<li>​<strong>端口转发</strong>：自动转发配置的端口</li>
-<li>​<strong>浏览器打开</strong>：显示预览链接</li>
-</ol>
-<h3>日常使用命令</h3>
-<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-"><span class="line"><span># 终端操作</span></span>
-<span class="line"><span>pwd                     # /workspaces/仓库名</span></span>
-<span class="line"><span>node --version          # 检查 Node.js</span></span>
-<span class="line"><span>pnpm --version          # 检查 pnpm</span></span>
-<span class="line"><span></span></span>
-<span class="line"><span># 项目操作</span></span>
-<span class="line"><span>pnpm install            # 安装依赖</span></span>
-<span class="line"><span>pnpm docs:dev          # 启动开发服务器</span></span>
-<span class="line"><span>pnpm docs:build        # 构建项目</span></span>
-<span class="line"><span></span></span>
-<span class="line"><span># Git 操作</span></span>
-<span class="line"><span>git status</span></span>
-<span class="line"><span>git add .</span></span>
-<span class="line"><span>git commit -m "更新"</span></span>
-<span class="line"><span>git push</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content>
-    <category term="计网基础"/>
-    <published>2025-12-05T16:22:10.000Z</published>
-  </entry>
-  <entry>
     <title type="text">数据湖：它们是什么？为什么您的组织需要一个？</title>
-    <id>https://min168.top/like/%E6%95%B0%E6%8D%AE%E6%B9%96%EF%BC%9A%E5%AE%83%E4%BB%AC%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F%E4%B8%BA%E4%BB%80%E4%B9%88%E6%82%A8%E7%9A%84%E7%BB%84%E7%BB%87%E9%9C%80%E8%A6%81%E4%B8%80%E4%B8%AA%EF%BC%9F.html</id>
-    <link href="https://min168.top/like/%E6%95%B0%E6%8D%AE%E6%B9%96%EF%BC%9A%E5%AE%83%E4%BB%AC%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F%E4%B8%BA%E4%BB%80%E4%B9%88%E6%82%A8%E7%9A%84%E7%BB%84%E7%BB%87%E9%9C%80%E8%A6%81%E4%B8%80%E4%B8%AA%EF%BC%9F.html"/>
-    <updated>2025-12-05T16:22:10.000Z</updated>
+    <id>https://min168.top/response/%E8%BD%AC%E8%BD%BD%E7%BB%8F%E9%AA%8C/%E6%95%B0%E6%8D%AE%E6%B9%96%EF%BC%9A%E5%AE%83%E4%BB%AC%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F%E4%B8%BA%E4%BB%80%E4%B9%88%E6%82%A8%E7%9A%84%E7%BB%84%E7%BB%87%E9%9C%80%E8%A6%81%E4%B8%80%E4%B8%AA%EF%BC%9F.html</id>
+    <link href="https://min168.top/response/%E8%BD%AC%E8%BD%BD%E7%BB%8F%E9%AA%8C/%E6%95%B0%E6%8D%AE%E6%B9%96%EF%BC%9A%E5%AE%83%E4%BB%AC%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F%E4%B8%BA%E4%BB%80%E4%B9%88%E6%82%A8%E7%9A%84%E7%BB%84%E7%BB%87%E9%9C%80%E8%A6%81%E4%B8%80%E4%B8%AA%EF%BC%9F.html"/>
+    <updated>2026-11-05T14:32:24.000Z</updated>
     <summary type="html"><![CDATA[<figure><figcaption></figcaption></figure>
 <p>如今企业产生的数据量令人震惊。</p>
 <p>然而，缺乏有效策略，大部分信息未被充分利用，数据被孤岛化。</p>
@@ -6306,17 +6313,17 @@ WDAC默认限制未签名/非微软认证的代码执行。但银狐利用如下
     <published>2025-12-05T16:22:10.000Z</published>
   </entry>
   <entry>
-    <title type="text">转载经验</title>
-    <id>https://min168.top/like/</id>
-    <link href="https://min168.top/like/"/>
-    <updated>2026-10-21T09:42:21.000Z</updated>
+    <title type="text">逆向免杀</title>
+    <id>https://min168.top/perm/%E9%80%86%E5%90%91%E5%85%8D%E6%9D%80/</id>
+    <link href="https://min168.top/perm/%E9%80%86%E5%90%91%E5%85%8D%E6%9D%80/"/>
+    <updated>2026-11-05T14:32:24.000Z</updated>
     <published>2025-11-24T16:09:39.000Z</published>
   </entry>
   <entry>
-    <title type="text">逆向免杀</title>
-    <id>https://min168.top/reverse/</id>
-    <link href="https://min168.top/reverse/"/>
-    <updated>2025-12-25T16:32:28.000Z</updated>
+    <title type="text">转载经验</title>
+    <id>https://min168.top/response/%E8%BD%AC%E8%BD%BD%E7%BB%8F%E9%AA%8C/</id>
+    <link href="https://min168.top/response/%E8%BD%AC%E8%BD%BD%E7%BB%8F%E9%AA%8C/"/>
+    <updated>2026-11-05T14:32:24.000Z</updated>
     <published>2025-11-24T16:09:39.000Z</published>
   </entry>
   <entry>
@@ -6478,9 +6485,9 @@ WDAC默认限制未签名/非微软认证的代码执行。但银狐利用如下
   </entry>
   <entry>
     <title type="text">SIEM-安全信息和事件管理</title>
-    <id>https://min168.top/ai/SIEM-%E5%AE%89%E5%85%A8%E4%BF%A1%E6%81%AF%E5%92%8C%E4%BA%8B%E4%BB%B6%E7%AE%A1%E7%90%86.html</id>
-    <link href="https://min168.top/ai/SIEM-%E5%AE%89%E5%85%A8%E4%BF%A1%E6%81%AF%E5%92%8C%E4%BA%8B%E4%BB%B6%E7%AE%A1%E7%90%86.html"/>
-    <updated>2025-12-20T08:26:40.000Z</updated>
+    <id>https://min168.top/response/%E5%A8%81%E8%83%81%E5%88%86%E6%9E%90/SIEM-%E5%AE%89%E5%85%A8%E4%BF%A1%E6%81%AF%E5%92%8C%E4%BA%8B%E4%BB%B6%E7%AE%A1%E7%90%86.html</id>
+    <link href="https://min168.top/response/%E5%A8%81%E8%83%81%E5%88%86%E6%9E%90/SIEM-%E5%AE%89%E5%85%A8%E4%BF%A1%E6%81%AF%E5%92%8C%E4%BA%8B%E4%BB%B6%E7%AE%A1%E7%90%86.html"/>
+    <updated>2026-11-05T14:32:24.000Z</updated>
     <summary type="text">什么是SIEM？安全信息和事件管理
 SIEM是安全信息管理（SIM）和安全事件管理（SEM）的结合体，最初主要服务于大型企业，如今已成为保护各类规模组织免受网络威胁的关键防线。
 SIEM核心概念：数字世界的“超级英雄”
@@ -6587,9 +6594,9 @@ SIEM是一种整体性的安全方法。它将​安全信息管理（SIM） ​
   </entry>
   <entry>
     <title type="text">密码喷射攻击：防范攻击你需要知道的事项</title>
-    <id>https://min168.top/like/%E5%AF%86%E7%A0%81%E5%96%B7%E5%B0%84%E6%94%BB%E5%87%BB%EF%BC%9A%E9%98%B2%E8%8C%83%E6%94%BB%E5%87%BB%E4%BD%A0%E9%9C%80%E8%A6%81%E7%9F%A5%E9%81%93%E7%9A%84%E4%BA%8B%E9%A1%B9.html</id>
-    <link href="https://min168.top/like/%E5%AF%86%E7%A0%81%E5%96%B7%E5%B0%84%E6%94%BB%E5%87%BB%EF%BC%9A%E9%98%B2%E8%8C%83%E6%94%BB%E5%87%BB%E4%BD%A0%E9%9C%80%E8%A6%81%E7%9F%A5%E9%81%93%E7%9A%84%E4%BA%8B%E9%A1%B9.html"/>
-    <updated>2025-12-05T16:22:10.000Z</updated>
+    <id>https://min168.top/response/%E8%BD%AC%E8%BD%BD%E7%BB%8F%E9%AA%8C/%E5%AF%86%E7%A0%81%E5%96%B7%E5%B0%84%E6%94%BB%E5%87%BB%EF%BC%9A%E9%98%B2%E8%8C%83%E6%94%BB%E5%87%BB%E4%BD%A0%E9%9C%80%E8%A6%81%E7%9F%A5%E9%81%93%E7%9A%84%E4%BA%8B%E9%A1%B9.html</id>
+    <link href="https://min168.top/response/%E8%BD%AC%E8%BD%BD%E7%BB%8F%E9%AA%8C/%E5%AF%86%E7%A0%81%E5%96%B7%E5%B0%84%E6%94%BB%E5%87%BB%EF%BC%9A%E9%98%B2%E8%8C%83%E6%94%BB%E5%87%BB%E4%BD%A0%E9%9C%80%E8%A6%81%E7%9F%A5%E9%81%93%E7%9A%84%E4%BA%8B%E9%A1%B9.html"/>
+    <updated>2026-11-05T14:32:24.000Z</updated>
     <summary type="html"><![CDATA[<!-- more -->
 <h1>密码喷射攻击：防范攻击你需要知道的事项</h1>
 <p>密码喷洒是一种利用弱密码轻松攻破用户账户的<a href="https://www.splunk.com/en_us/blog/learn/vulnerability-vs-threat-vs-risk.html" target="_blank" rel="noopener noreferrer">网络威胁</a>。这意味着在认证用户进入系统时，执行<a href="https://www.splunk.com/en_us/blog/learn/rbac-vs-abac.html" target="_blank" rel="noopener noreferrer">严格的访问控制</a>至关重要。</p>]]></summary>
@@ -6675,9 +6682,9 @@ SIEM是一种整体性的安全方法。它将​安全信息管理（SIM） ​
   </entry>
   <entry>
     <title type="text">密码学中的哈希解释：它的工作原理、算法和实际用途</title>
-    <id>https://min168.top/like/%E5%AF%86%E7%A0%81%E5%AD%A6%E4%B8%AD%E7%9A%84%E5%93%88%E5%B8%8C%E8%A7%A3%E9%87%8A%EF%BC%9A%E5%AE%83%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E3%80%81%E7%AE%97%E6%B3%95%E5%92%8C%E5%AE%9E%E9%99%85%E7%94%A8%E9%80%94.html</id>
-    <link href="https://min168.top/like/%E5%AF%86%E7%A0%81%E5%AD%A6%E4%B8%AD%E7%9A%84%E5%93%88%E5%B8%8C%E8%A7%A3%E9%87%8A%EF%BC%9A%E5%AE%83%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E3%80%81%E7%AE%97%E6%B3%95%E5%92%8C%E5%AE%9E%E9%99%85%E7%94%A8%E9%80%94.html"/>
-    <updated>2025-12-05T16:22:10.000Z</updated>
+    <id>https://min168.top/response/%E8%BD%AC%E8%BD%BD%E7%BB%8F%E9%AA%8C/%E5%AF%86%E7%A0%81%E5%AD%A6%E4%B8%AD%E7%9A%84%E5%93%88%E5%B8%8C%E8%A7%A3%E9%87%8A%EF%BC%9A%E5%AE%83%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E3%80%81%E7%AE%97%E6%B3%95%E5%92%8C%E5%AE%9E%E9%99%85%E7%94%A8%E9%80%94.html</id>
+    <link href="https://min168.top/response/%E8%BD%AC%E8%BD%BD%E7%BB%8F%E9%AA%8C/%E5%AF%86%E7%A0%81%E5%AD%A6%E4%B8%AD%E7%9A%84%E5%93%88%E5%B8%8C%E8%A7%A3%E9%87%8A%EF%BC%9A%E5%AE%83%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E3%80%81%E7%AE%97%E6%B3%95%E5%92%8C%E5%AE%9E%E9%99%85%E7%94%A8%E9%80%94.html"/>
+    <updated>2026-11-05T14:32:24.000Z</updated>
     <summary type="text">密码学中的哈希解释：它的工作原理、算法和实际用途
 哈希处理获取您的数据（如密码或文件）并将其转换为无法撤消的固定长度代码。这使得攻击者几乎不可能弄清楚原始数据是什么，即使他们窃取了哈希值。
 在本文中，我将详细解释哈希，包括它的工作原理、应用、背后的算法以及如何正确应用它。
@@ -8451,12 +8458,12 @@ s2.name:Qiqi,s2.name.len:4
   </entry>
   <entry>
     <title type="text">知道创宇技能表</title>
-    <id>https://min168.top/com/other/%E7%9F%A5%E9%81%93%E5%88%9B%E5%AE%87%E6%8A%80%E8%83%BD%E8%A1%A8.html</id>
-    <link href="https://min168.top/com/other/%E7%9F%A5%E9%81%93%E5%88%9B%E5%AE%87%E6%8A%80%E8%83%BD%E8%A1%A8.html"/>
-    <updated>2025-12-07T11:01:10.000Z</updated>
-    <summary type="html"><![CDATA[<iframe height="1000px" width="100%" frameborder="0" allowfullscreen="true" src="/blog/demo/zhidao.html">  
+    <id>https://min168.top/com/mind/%E7%9F%A5%E9%81%93%E5%88%9B%E5%AE%87%E6%8A%80%E8%83%BD%E8%A1%A8.html</id>
+    <link href="https://min168.top/com/mind/%E7%9F%A5%E9%81%93%E5%88%9B%E5%AE%87%E6%8A%80%E8%83%BD%E8%A1%A8.html"/>
+    <updated>2026-11-05T14:32:24.000Z</updated>
+    <summary type="html"><![CDATA[<iframe height="1000px" width="100%" frameborder="0" allowfullscreen="true" src="/demo/zhidao.html">  
  </iframe>]]></summary>
-    <content type="html"><![CDATA[<iframe height="1000px" width="100%" frameborder="0" allowfullscreen="true" src="/blog/demo/zhidao.html">  
+    <content type="html"><![CDATA[<iframe height="1000px" width="100%" frameborder="0" allowfullscreen="true" src="/demo/zhidao.html">  
  </iframe>]]></content>
     <category term="学习路线"/>
     <published>2025-03-08T14:39:26.000Z</published>
@@ -8579,9 +8586,9 @@ Finished：客户端和服务器各自计算并发送一个Finished数据包，�
   </entry>
   <entry>
     <title type="text">Prompt越狱手册</title>
-    <id>https://min168.top/com/other/Prompt%E8%B6%8A%E7%8B%B1%E6%89%8B%E5%86%8C.html</id>
-    <link href="https://min168.top/com/other/Prompt%E8%B6%8A%E7%8B%B1%E6%89%8B%E5%86%8C.html"/>
-    <updated>2025-12-07T11:01:10.000Z</updated>
+    <id>https://min168.top/ai/Prompt%E8%B6%8A%E7%8B%B1%E6%89%8B%E5%86%8C.html</id>
+    <link href="https://min168.top/ai/Prompt%E8%B6%8A%E7%8B%B1%E6%89%8B%E5%86%8C.html"/>
+    <updated>2026-11-05T14:32:24.000Z</updated>
     <summary type="html"><![CDATA[
 <h2>目录</h2>
 <p><a href="#Prompt%E8%B6%8A%E7%8B%B1%E6%89%8B%E5%86%8C">Prompt越狱手册</a></p>
@@ -8978,79 +8985,10 @@ Finished：客户端和服务器各自计算并发送一个Finished数据包，�
     <published>2025-03-04T09:59:55.000Z</published>
   </entry>
   <entry>
-    <title type="text">渗透测试漏洞挖掘思路与实战方法论</title>
-    <id>https://min168.top/perm/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E6%BC%8F%E6%B4%9E%E6%8C%96%E6%8E%98%E6%80%9D%E8%B7%AF%E4%B8%8E%E5%AE%9E%E6%88%98%E6%96%B9%E6%B3%95%E8%AE%BA.html</id>
-    <link href="https://min168.top/perm/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E6%BC%8F%E6%B4%9E%E6%8C%96%E6%8E%98%E6%80%9D%E8%B7%AF%E4%B8%8E%E5%AE%9E%E6%88%98%E6%96%B9%E6%B3%95%E8%AE%BA.html"/>
-    <updated>2026-07-26T07:49:45.000Z</updated>
-    <summary type="html"><![CDATA[<h4>漏洞挖掘思路</h4>
-<p>大厂SRC严重漏洞的特点</p>
-<h5>1.和数据相关</h5>
-<p>⦁	核心服务器<br>
-⦁	任意用户<br>
-⦁	越权<br>
-大量敏感数据</p>
-<h5>2.和钱有关</h5>
-<p>下单过程漏洞<br>
-⦁	0元购<br>
-⦁	支付逻辑漏洞<br>
-⦁	负数刷钱</p>
-<h5>3.选择大于努力，选择大的厂挖</h5>
-<h5>4.挖洞的点</h5>
-<p>⦁	突破系统限制的<br>
-⦁	对业务对企业有利益危害的</p>
-<h5>5.白帽子思维</h5>
-<p>白帽子要有模拟坏人地思维<br>
-⦁	不按要求输入<br>
-⦁	喜欢跳过流程/程序<br>
-⦁	对程序错误敏感<br>
-说明程序员在设计时候有考虑不周<br>
-⦁	交叉结合<br>
-多个漏洞结合利用<br>
-⦁	持续学习<br>
-对新技术学习 新业务上线漏洞最多</p>]]></summary>
-    <content type="html"><![CDATA[<h4>漏洞挖掘思路</h4>
-<p>大厂SRC严重漏洞的特点</p>
-<h5>1.和数据相关</h5>
-<p>⦁	核心服务器<br>
-⦁	任意用户<br>
-⦁	越权<br>
-大量敏感数据</p>
-<h5>2.和钱有关</h5>
-<p>下单过程漏洞<br>
-⦁	0元购<br>
-⦁	支付逻辑漏洞<br>
-⦁	负数刷钱</p>
-<h5>3.选择大于努力，选择大的厂挖</h5>
-<h5>4.挖洞的点</h5>
-<p>⦁	突破系统限制的<br>
-⦁	对业务对企业有利益危害的</p>
-<h5>5.白帽子思维</h5>
-<p>白帽子要有模拟坏人地思维<br>
-⦁	不按要求输入<br>
-⦁	喜欢跳过流程/程序<br>
-⦁	对程序错误敏感<br>
-说明程序员在设计时候有考虑不周<br>
-⦁	交叉结合<br>
-多个漏洞结合利用<br>
-⦁	持续学习<br>
-对新技术学习 新业务上线漏洞最多</p>
-<h5>6.挖洞没有思路怎么办</h5>
-<p>⦁	起来走走，思考思考<br>
-⦁	看别人的挖洞视频/文章锻炼思维<br>
-⦁	脑袋中带着可疑点思考<br>
-走路、跑步时候多思考</p>
-<h5>7.漏洞一直存在，只是没有被发现</h5>
-<pre><code>坚信有输入的地方就会有漏洞
-</code></pre>
-]]></content>
-    <category term="渗透测试"/>
-    <published>2025-03-02T05:52:48.000Z</published>
-  </entry>
-  <entry>
     <title type="text">deepseek使用指南 清华大学</title>
-    <id>https://min168.top/com/other/deepseek%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97%20%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6.html</id>
-    <link href="https://min168.top/com/other/deepseek%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97%20%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6.html"/>
-    <updated>2025-12-07T11:01:10.000Z</updated>
+    <id>https://min168.top/ai/deepseek%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97%20%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6.html</id>
+    <link href="https://min168.top/ai/deepseek%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97%20%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6.html"/>
+    <updated>2026-11-05T14:32:24.000Z</updated>
     <summary type="html"><![CDATA[<p>​​</p>
 <p>​​</p>
 <p>​​</p>
@@ -9192,9 +9130,9 @@ Finished：客户端和服务器各自计算并发送一个Finished数据包，�
   </entry>
   <entry>
     <title type="text">deepseek提问方法</title>
-    <id>https://min168.top/com/other/deepseek%E6%8F%90%E9%97%AE%E6%96%B9%E6%B3%95.html</id>
-    <link href="https://min168.top/com/other/deepseek%E6%8F%90%E9%97%AE%E6%96%B9%E6%B3%95.html"/>
-    <updated>2025-12-07T11:01:10.000Z</updated>
+    <id>https://min168.top/ai/deepseek%E6%8F%90%E9%97%AE%E6%96%B9%E6%B3%95.html</id>
+    <link href="https://min168.top/ai/deepseek%E6%8F%90%E9%97%AE%E6%96%B9%E6%B3%95.html"/>
+    <updated>2026-11-05T14:32:24.000Z</updated>
     <summary type="html"><![CDATA[<p>deepseek 应该怎样提问<br>
 为了让我的回答更准确和有用，你可以通过以下方式优化提问。我通过几个例子为你说明不同提问方式的区别：</p>
 <p><strong>1. 明确问题类型+具体细节</strong><br>
@@ -9249,6 +9187,75 @@ Finished：客户端和服务器各自计算并发送一个Finished数据包，�
 • "你提到的XX概念能否用更简单的方式解释？"</p>
 ]]></content>
     <category term="其他"/>
+    <published>2025-03-02T05:52:48.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">渗透测试漏洞挖掘思路与实战方法论</title>
+    <id>https://min168.top/perm/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E6%BC%8F%E6%B4%9E%E6%8C%96%E6%8E%98%E6%80%9D%E8%B7%AF%E4%B8%8E%E5%AE%9E%E6%88%98%E6%96%B9%E6%B3%95%E8%AE%BA.html</id>
+    <link href="https://min168.top/perm/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E6%BC%8F%E6%B4%9E%E6%8C%96%E6%8E%98%E6%80%9D%E8%B7%AF%E4%B8%8E%E5%AE%9E%E6%88%98%E6%96%B9%E6%B3%95%E8%AE%BA.html"/>
+    <updated>2026-07-26T07:49:45.000Z</updated>
+    <summary type="html"><![CDATA[<h4>漏洞挖掘思路</h4>
+<p>大厂SRC严重漏洞的特点</p>
+<h5>1.和数据相关</h5>
+<p>⦁	核心服务器<br>
+⦁	任意用户<br>
+⦁	越权<br>
+大量敏感数据</p>
+<h5>2.和钱有关</h5>
+<p>下单过程漏洞<br>
+⦁	0元购<br>
+⦁	支付逻辑漏洞<br>
+⦁	负数刷钱</p>
+<h5>3.选择大于努力，选择大的厂挖</h5>
+<h5>4.挖洞的点</h5>
+<p>⦁	突破系统限制的<br>
+⦁	对业务对企业有利益危害的</p>
+<h5>5.白帽子思维</h5>
+<p>白帽子要有模拟坏人地思维<br>
+⦁	不按要求输入<br>
+⦁	喜欢跳过流程/程序<br>
+⦁	对程序错误敏感<br>
+说明程序员在设计时候有考虑不周<br>
+⦁	交叉结合<br>
+多个漏洞结合利用<br>
+⦁	持续学习<br>
+对新技术学习 新业务上线漏洞最多</p>]]></summary>
+    <content type="html"><![CDATA[<h4>漏洞挖掘思路</h4>
+<p>大厂SRC严重漏洞的特点</p>
+<h5>1.和数据相关</h5>
+<p>⦁	核心服务器<br>
+⦁	任意用户<br>
+⦁	越权<br>
+大量敏感数据</p>
+<h5>2.和钱有关</h5>
+<p>下单过程漏洞<br>
+⦁	0元购<br>
+⦁	支付逻辑漏洞<br>
+⦁	负数刷钱</p>
+<h5>3.选择大于努力，选择大的厂挖</h5>
+<h5>4.挖洞的点</h5>
+<p>⦁	突破系统限制的<br>
+⦁	对业务对企业有利益危害的</p>
+<h5>5.白帽子思维</h5>
+<p>白帽子要有模拟坏人地思维<br>
+⦁	不按要求输入<br>
+⦁	喜欢跳过流程/程序<br>
+⦁	对程序错误敏感<br>
+说明程序员在设计时候有考虑不周<br>
+⦁	交叉结合<br>
+多个漏洞结合利用<br>
+⦁	持续学习<br>
+对新技术学习 新业务上线漏洞最多</p>
+<h5>6.挖洞没有思路怎么办</h5>
+<p>⦁	起来走走，思考思考<br>
+⦁	看别人的挖洞视频/文章锻炼思维<br>
+⦁	脑袋中带着可疑点思考<br>
+走路、跑步时候多思考</p>
+<h5>7.漏洞一直存在，只是没有被发现</h5>
+<pre><code>坚信有输入的地方就会有漏洞
+</code></pre>
+]]></content>
+    <category term="渗透测试"/>
     <published>2025-03-02T05:52:48.000Z</published>
   </entry>
   <entry>
@@ -11762,10 +11769,10 @@ systemctl restart sshd			#service sshd restart</p>
     <published>2025-01-12T13:43:01.000Z</published>
   </entry>
   <entry>
-    <title type="text">防守之道</title>
+    <title type="text">防御侧</title>
     <id>https://min168.top/response/</id>
     <link href="https://min168.top/response/"/>
-    <updated>2025-11-24T16:09:39.000Z</updated>
+    <updated>2026-11-05T14:32:24.000Z</updated>
     <published>2025-01-12T13:43:01.000Z</published>
   </entry>
   <entry>
@@ -14492,45 +14499,5 @@ jsonp只能get请求。CORS允许浏览器向跨域服务器发出XMLHttpRequest
 ]]></content>
     <category term="渗透测试"/>
     <published>2023-03-25T00:00:00.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">Java安全测试环境配置指南</title>
-    <id>https://min168.top/perm/Java%E5%AE%89%E5%85%A8%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%97.html</id>
-    <link href="https://min168.top/perm/Java%E5%AE%89%E5%85%A8%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%97.html"/>
-    <updated>2026-07-26T07:49:45.000Z</updated>
-    <summary type="html"><![CDATA[
-<h3>windows     Linux见： Linux centos7 java环境配置</h3>
-<p>JRE8安装目录为C:\Program Files\Java\jre1.8.0_221</p>
-<p>​​</p>
-<p>打开环境变量的步骤：</p>
-<p>点击开始，右键选中我的电脑，点击属性--&gt;高级系统设置--&gt;高级--&gt;环境变量--&gt;系统变量。</p>
-<p>1、设置JAVA_HOME</p>
-<p>JAVA_HOME：C:\Program Files\Java\jre1.8.0_221（JRE安装路径）</p>
-<p>​​</p>
-<p>​​</p>]]></summary>
-    <content type="html"><![CDATA[
-<h3>windows     Linux见： Linux centos7 java环境配置</h3>
-<p>JRE8安装目录为C:\Program Files\Java\jre1.8.0_221</p>
-<p>​​</p>
-<p>打开环境变量的步骤：</p>
-<p>点击开始，右键选中我的电脑，点击属性--&gt;高级系统设置--&gt;高级--&gt;环境变量--&gt;系统变量。</p>
-<p>1、设置JAVA_HOME</p>
-<p>JAVA_HOME：C:\Program Files\Java\jre1.8.0_221（JRE安装路径）</p>
-<p>​​</p>
-<p>​​</p>
-<p>2、设置CLASSPATH</p>
-<p>CLASSPATH：.;%java_home%\lib;%java_home%\lib\tools.jar（注意前面的.）</p>
-<p>​​</p>
-<p>3、设置Path</p>
-<p>Path: C:\Program Files\Java\jre1.8.0_221\bin</p>
-<p>​​</p>
-<p>我们可以验证一下</p>
-<p>在CMD窗口输入：java -version</p>
-<p>​​</p>
-<p>可以正常显示版本号，这样就可以正确使用JRE了</p>
-<p>‍</p>
-]]></content>
-    <category term="渗透测试"/>
-    <published>2023-12-18T00:00:00.000Z</published>
   </entry>
 </feed>
