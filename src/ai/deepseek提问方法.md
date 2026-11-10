@@ -3,7 +3,7 @@ title: deepseek提问方法
 order: 20
 isOriginal : true
 category:
-  - 其他
+  - AI
 tag:
   - deepseek
 ---
