@@ -7,6 +7,11 @@ import { hopeTheme } from 'vuepress-theme-hope';
 
 
 
+// 是否为开发模式：VuePress 在加载配置前已将 NODE_ENV 设为 development；
+// 同时兼容直接以 dev 子命令启动的情况。dev 下不加载 Clarity，避免 __CLARITY_OPTIONS__ 未定义导致客户端崩溃。
+const isDev =
+  process.env.NODE_ENV === "development" || process.argv.includes("dev");
+
 export default defineUserConfig({
 
   base: "/",
@@ -32,8 +37,8 @@ export default defineUserConfig({
         },
       }),
 
-      // Microsoft Clarity 行为分析：仅在生产构建时加载，避免 dev 下 __CLARITY_OPTIONS__ 未定义导致应用崩溃
-      ...(process.argv.includes('dev') ? [] : [clarityAnalyticsPlugin({ id: "z28ghn2hc9" })]),
+      // Microsoft Clarity 行为分析：仅在生产构建时加载
+      ...(isDev ? [] : [clarityAnalyticsPlugin({ id: "z28ghn2hc9" })]),
 
     ],
 
