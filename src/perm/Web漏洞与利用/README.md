@@ -1,7 +1,9 @@
 ---
 title: Web漏洞与利用
 icon: bug
-order: 2
+dir:
+  order: 3
+order: 3
 index: false
 article: false
 feed: false

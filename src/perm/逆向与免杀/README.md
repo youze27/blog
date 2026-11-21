@@ -1,7 +1,9 @@
 ---
 title: 逆向与免杀
 icon: code
-order: 5
+dir:
+  order: 6
+order: 6
 index: false
 article: false
 feed: false

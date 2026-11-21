@@ -1,7 +1,9 @@
 ---
 title: 安全加固
 icon: lock
-order: 1
+dir:
+  order: 2
+order: 2
 index: false
 article: false
 feed: false
