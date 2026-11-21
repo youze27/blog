@@ -194,7 +194,9 @@ export default hopeTheme({
   },
 
     icon: {
-      assets: "fontawesome-with-brands",
+      // 自托管 FontAwesome（存放在 .vuepress/public/fontawesome/all.min.js），
+      // 避免依赖被网络屏蔽的 jsdelivr CDN；否则脚本加载失败会在 dev 下触发 [object Event] 运行时错误
+      assets: "/fontawesome/all.min.js",
     },
   }
 });
